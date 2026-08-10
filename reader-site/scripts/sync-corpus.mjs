@@ -11,6 +11,8 @@ const registryPath = path.join(coreRoot, "core_registry.json");
 const contextRoot = path.join(coreRoot, "E2Core", "Context Layer");
 const semanticIndexPath = path.join(coreRoot, "E2Core", "context layer index.md");
 const contextIndexPath = path.join(contextRoot, "Context Layer Index.ormd");
+const publicSiteBase = "https://e2-core-framework.capulusirl.chatgpt.site";
+const githubRawBase = "https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public";
 
 const exists = async (target) => {
   try {
@@ -256,6 +258,9 @@ const llmsLines = [
   "",
   "> Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.",
   "",
+  `Canonical AI mirror: ${githubRawBase}/llms.txt`,
+  `Source repository: https://github.com/DanPace725/e2-core-framework`,
+  "",
   "## How to read this corpus",
   "",
   "1. Start with the Context Layer Master Index.",
@@ -263,10 +268,10 @@ const llmsLines = [
   "3. Preserve each document's frame, confidence, lineage, and policy metadata.",
   "4. Do not treat the index, generated catalog, or human Markdown as a substitute for the paired ORMD authority.",
   "",
-  "- [Context Layer Master Index (ORMD)](/ormd/context-layer-master-index.ormd)",
-  "- [Machine-readable catalog](/catalog.json)",
-  "- [Combined ORMD corpus](/ormd-corpus.txt)",
-  "- [Human mobile reader](/)",
+  `- [Context Layer Master Index (ORMD)](${githubRawBase}/ormd/context-layer-master-index.ormd)`,
+  `- [Machine-readable catalog](${githubRawBase}/catalog.json)`,
+  `- [Combined ORMD corpus](${githubRawBase}/ormd-corpus.txt)`,
+  `- [Human mobile reader](${publicSiteBase}/)`,
   "",
 ];
 
@@ -275,14 +280,39 @@ for (const cluster of catalogClusters) {
   if (cluster.entryPoint) llmsLines.push(`Entry point: ${cluster.entryPoint}`, "");
   for (const slug of cluster.docs) {
     const doc = docs.find((candidate) => candidate.slug === slug);
-    llmsLines.push(`- [${doc.title}](${doc.ormdUrl}) — frame: ${doc.frame ?? "unclassified"}; confidence: ${doc.confidence ?? "unrecorded"}`);
+    llmsLines.push(`- [${doc.title}](${githubRawBase}${doc.ormdUrl}) — frame: ${doc.frame ?? "unclassified"}; confidence: ${doc.confidence ?? "unrecorded"}`);
   }
   llmsLines.push("");
 }
 
 await writeFile(path.join(publicRoot, "catalog.json"), `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
-await writeFile(path.join(publicRoot, "llms.txt"), `${llmsLines.join("\n")}\n`, "utf8");
+const llmsText = `${llmsLines.join("\n")}\n`;
+await writeFile(path.join(publicRoot, "llms.txt"), llmsText, "utf8");
+await writeFile(path.join(coreRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(publicRoot, "ormd-corpus.txt"), `${corpusParts.join("\n\n")}\n`, "utf8");
-await writeFile(path.join(publicRoot, "robots.txt"), "User-agent: *\nAllow: /\n\n# AI navigation index\nSitemap: /llms.txt\n", "utf8");
+await writeFile(
+  path.join(publicRoot, "robots.txt"),
+  [
+    "User-agent: *",
+    "Allow: /",
+    "",
+    "User-agent: ClaudeBot",
+    "Allow: /",
+    "",
+    "User-agent: Claude-User",
+    "Allow: /",
+    "",
+    "User-agent: Claude-SearchBot",
+    "Allow: /",
+    "",
+    "User-agent: Googlebot",
+    "Allow: /",
+    "",
+    "User-agent: Google-Extended",
+    "Allow: /",
+    "",
+  ].join("\n"),
+  "utf8",
+);
 
 console.log(`Published ${docs.length} paired documents across ${catalogClusters.length} clusters (${catalog.counts.humanWords.toLocaleString()} human words).`);

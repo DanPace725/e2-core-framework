@@ -1,5 +1,17 @@
 User-agent: *
 Allow: /
 
-# AI navigation index
-Sitemap: /llms.txt
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

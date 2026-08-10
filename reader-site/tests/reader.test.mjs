@@ -39,15 +39,23 @@ test("publishes complete paired human and AI catalogs", async () => {
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {
-  const [llms, corpus] = await Promise.all([
+  const [llms, rootLlms, corpus, robots] = await Promise.all([
     readFile(new URL("../public/llms.txt", import.meta.url), "utf8"),
+    readFile(new URL("../../llms.txt", import.meta.url), "utf8"),
     readFile(new URL("../public/ormd-corpus.txt", import.meta.url), "utf8"),
+    readFile(new URL("../public/robots.txt", import.meta.url), "utf8"),
   ]);
   assert.match(llms, /Context Layer Master Index \(ORMD\)/);
   assert.match(llms, /## Cluster K/);
   assert.match(llms, /ORMD is the AI-facing authority/);
+  assert.match(llms, /https:\/\/raw\.githubusercontent\.com\/DanPace725\/e2-core-framework\/main\/reader-site\/public\/ormd\/context-layer-master-index\.ormd/);
+  assert.doesNotMatch(llms, /\]\(\/ormd\//);
+  assert.equal(rootLlms, llms);
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
   assert.match(corpus, /BEGIN ORMD: Context Layer Index\.ormd/);
+  assert.match(robots, /User-agent: Claude-User\nAllow: \//);
+  assert.match(robots, /User-agent: Google-Extended\nAllow: \//);
+  assert.doesNotMatch(robots, /^Sitemap:/m);
 });
 
 test("keeps ORMD metadata out of the human reading surface", async () => {
