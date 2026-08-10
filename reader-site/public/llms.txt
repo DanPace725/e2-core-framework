@@ -165,7 +165,6 @@ Scope: Corrected sources admitted through the staged integration process after c
 
 Entry point: Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.
 
-- [Context Layer Master Index](/ormd/context-layer-master-index.ormd) — frame: meta.index.context-layer; confidence: 1
 - [Condition as Typed Terrain](/ormd/condition-as-typed-terrain-core-source.ormd) — frame: causality.condition_typed_terrain; confidence: 0.84
 - [Consequence Routing](/ormd/consequence-routing-core-source.ormd) — frame: accountability.consequence-routing; confidence: 0.9
 - [Custody](/ormd/custody-core-source.ormd) — frame: ethics.custody; confidence: 0.84

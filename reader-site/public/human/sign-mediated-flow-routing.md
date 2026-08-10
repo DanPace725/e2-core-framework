@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "e2.semantic_substrate"
-lineage:
-  origin: { uri: "urn:ormd:sign-mediated-routing:pass-3b", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/sign_mediated_flow_routing.ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/sign_mediated_accountability.ormd", relation: "integrates" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["semantic substrate", "sign-mediated flow", "accountability", "attribution closure", "routing", "GCO", "signal", "remainder"]
-resolution: { confidence: 0.90 }
----
-
 # Sign-Mediated Accountability and Flow Routing {#sign-mediated-flow-routing}
 
 This document is the unified specification for sign-mediated accountability and flow routing. It remains a Cluster J working/provisional substrate document, but the prior accountability and routing packets have been consolidated into one active node.

@@ -1,4 +1,4 @@
-﻿# Universal Emergence Pattern
+# Universal Emergence Pattern
 
 7/31/25
 

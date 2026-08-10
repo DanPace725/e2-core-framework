@@ -1,20 +1,3 @@
-<!-- ormd:1.0 -->
----
-title: "Context Layer Master Index"
-authors: ["Daniel Pace"]
-
-# --- Context Layer Protocol (CLP) ---
-frame: "meta.index.context-layer"
-lineage:
-  origin: { uri: "urn:ormd:context-layer-index:2026-06-12", ts: "2026-06-12T00:00:00Z" }
-  parents: []
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["master index", "context layer", "clusters", "navigation", "model guide", "E2 framework", "ORMD", "provenance"]
-resolution: { confidence: 1.0 }
----
-
 # Context Layer Master Index {#master-index}
 
 *Reconciled: 2026-08-10 | 89 active Context Layer documents | 11 navigation clusters | Original clustering: Daniel Pace*

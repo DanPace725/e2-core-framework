@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "ontology.relational.e2"
-lineage:
-  origin: { uri: "urn:ormd:e2-entry-point:pass-3a", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/E%5E2%20Entry%20Point.ormd", relation: "condenses" }
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/E%5E2%20Primer%20Compression.ormd", relation: "integrates" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["E^2", "entry point", "relational ontology", "SCIA/T", "coherence fields", "ECN", "orientation"]
-resolution: { confidence: 0.92 }
----
-
 # E^2 Entry Point {#e2-entry-point}
 
 E^2 is the claim that everything is in the state that it is in as a consequence of the nature of its relationship to the other states in which it exists. No entity, concept, institution, signal, or moment is fully intelligible in isolation. Identity, truth, agency, and meaning are co-authored by relational fields.

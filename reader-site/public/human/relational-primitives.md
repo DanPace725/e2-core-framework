@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "formal.ontology.relational"
-lineage:
-  origin: { uri: "urn:ormd:relational-primitives:pass-3a", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/Relational%20Primitives.ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/Relational%20Primitives%20V3.ormd", relation: "integrates" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["relational primitives", "ontology", "RPLang", "formal framework", "counter-modes", "category theory", "physics-grounded ontology", "GCO"]
-resolution: { confidence: 0.96 }
----
-
 # Relational Primitives {#relational-primitives}
 
 This document is the canonical merged Relational Primitives node. It preserves the compact formal framework from the earlier `Relational Primitives` document and the physics-grounded derivation and categorical semantics from `Relational Primitives V3`.

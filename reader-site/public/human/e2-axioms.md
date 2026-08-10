@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "philosophy.relational-ontology.axioms"
-lineage:
-  origin: { uri: "urn:ormd:e2-axioms:pass-3a", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/Initial%20Axioms.ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/E%5E2%20Entry%20Point.ormd", relation: "extracts_axioms_from" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["E^2", "axioms", "relational ontology", "SCIA", "paradox", "translation", "verification"]
-resolution: { confidence: 0.92 }
----
-
 # E^2 Axioms {#e2-axioms}
 
 ## Ontological Setup {#ontological-setup}

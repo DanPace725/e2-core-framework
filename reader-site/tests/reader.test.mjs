@@ -35,6 +35,7 @@ test("publishes complete paired human and AI catalogs", async () => {
   assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 89);
   assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 89);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
+  assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {
@@ -47,4 +48,19 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(llms, /ORMD is the AI-facing authority/);
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
   assert.match(corpus, /BEGIN ORMD: Context Layer Index\.ormd/);
+});
+
+test("keeps ORMD metadata out of the human reading surface", async () => {
+  const [humanIndex, humanLegacy, rawIndex] = await Promise.all([
+    readFile(new URL("../public/human/context-layer-master-index.md", import.meta.url), "utf8"),
+    readFile(new URL("../public/human/relational-primitives.md", import.meta.url), "utf8"),
+    readFile(new URL("../public/ormd/context-layer-master-index.ormd", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(humanIndex, /^# Context Layer Master Index/);
+  assert.doesNotMatch(humanIndex, /<!--\s*ormd:1\.0\s*-->|^frame:\s*"meta\.index/m);
+  assert.match(humanLegacy, /^# Relational Primitives/);
+  assert.doesNotMatch(humanLegacy, /^Context Layer Protocol \(CLP\) ---|^lineage:/m);
+  assert.match(rawIndex, /^<!-- ormd:1\.0 -->\r?\n---/);
+  assert.match(rawIndex, /^frame:\s*"meta\.index\.context-layer"/m);
 });

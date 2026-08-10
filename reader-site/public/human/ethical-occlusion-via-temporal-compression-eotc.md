@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "engineering.ethics.temporal-occlusion"
-lineage:
-  origin: { uri: "urn:ormd:eotc:pass-3c", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/Ethical%20Occlusion%20via%20Temporal%20Compression%20(EOTC).ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/Temporal%20Compression%20and%20Ethical%20Occlusion%20Glossary.ormd", relation: "integrates_glossary" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["temporal compression", "ethical occlusion", "EOTC", "observability", "accountability", "resolution", "compression", "RPLang", "glossary"]
-resolution: { confidence: 0.90 }
----
-
 # Ethical Occlusion via Temporal Compression (EOTC) {#title}
 
 EOTC states that temporal compression can create epistemic and ethical singularities: zones where causality, responsibility, and observability decouple because the system is moving faster than its resolution capacity.

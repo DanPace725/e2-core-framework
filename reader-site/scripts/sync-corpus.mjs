@@ -106,13 +106,19 @@ const allContextItems = contextRecords.flatMap((record) =>
 
 const slugCounts = new Map();
 const items = allContextItems.map(({ record, context }) => {
-  const baseSlug = context.name.toLowerCase() === "context layer index.ormd"
+  const isMasterIndex = context.name.toLowerCase() === "context layer index.ormd";
+  const baseSlug = isMasterIndex
     ? "context-layer-master-index"
     : slugify(context.stem || context.name.replace(/\.ormd$/i, ""));
   const count = (slugCounts.get(baseSlug) ?? 0) + 1;
   slugCounts.set(baseSlug, count);
   const slug = count === 1 ? baseSlug : `${baseSlug}-${count}`;
-  return { record, context, slug, clusterId: clusterByFilename.get(context.name.toLowerCase()) ?? null };
+  return {
+    record,
+    context,
+    slug,
+    clusterId: isMasterIndex ? null : (clusterByFilename.get(context.name.toLowerCase()) ?? null),
+  };
 });
 
 const humanNameToSlug = new Map();
@@ -130,6 +136,21 @@ function rewriteHumanLinks(markdown) {
     const target = name ? humanNameToSlug.get(name) : null;
     return target ? `](/?doc=${target})` : whole;
   });
+}
+
+function stripHumanEnvelope(markdown) {
+  const withoutBom = markdown.replace(/^\uFEFF/, "");
+  const canonicalEnvelope = withoutBom.match(
+    /^<!--\s*ormd:[^>]+-->\s*\r?\n---\s*\r?\n[\s\S]*?\r?\n---(?:\s*\r?\n|$)/,
+  );
+  if (canonicalEnvelope) return withoutBom.slice(canonicalEnvelope[0].length).replace(/^\s+/, "");
+
+  const legacyClpEnvelope = withoutBom.match(
+    /^Context Layer Protocol \(CLP\) ---\s*\r?\n[\s\S]*?\r?\n---(?:\s*\r?\n|$)/,
+  );
+  if (legacyClpEnvelope) return withoutBom.slice(legacyClpEnvelope[0].length).replace(/^\s+/, "");
+
+  return withoutBom;
 }
 
 await rm(path.join(publicRoot, "human"), { recursive: true, force: true });
@@ -163,7 +184,7 @@ for (const item of items) {
     throw new Error(`No human Semantic Substrate source for ${item.context.name}`);
   }
 
-  humanText = rewriteHumanLinks(humanText).replace(/\r\n/g, "\n");
+  humanText = rewriteHumanLinks(stripHumanEnvelope(humanText)).replace(/\r\n/g, "\n");
   await writeFile(path.join(publicRoot, "ormd", `${item.slug}.ormd`), ormdBytes);
   await writeFile(path.join(publicRoot, "human", `${item.slug}.md`), humanText, "utf8");
 

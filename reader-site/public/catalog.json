@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T21:18:17.112Z",
+  "generatedAt": "2026-08-10T22:10:56.767Z",
   "title": "E² Core Framework",
   "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
   "authority": {
@@ -12,7 +12,7 @@
   "counts": {
     "documents": 89,
     "clusters": 11,
-    "humanWords": 212949
+    "humanWords": 212503
   },
   "clusters": [
     {
@@ -373,7 +373,6 @@
       ],
       "entryPoint": "Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.",
       "docs": [
-        "context-layer-master-index",
         "condition-as-typed-terrain-core-source",
         "consequence-routing-core-source",
         "custody-core-source",
@@ -394,17 +393,17 @@
     {
       "slug": "context-layer-master-index",
       "title": "Context Layer Master Index",
-      "clusterId": "K",
+      "clusterId": null,
       "frame": "meta.index.context-layer",
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6302,
+      "wordCount": 6245,
       "humanUrl": "/human/context-layer-master-index.md",
       "ormdUrl": "/ormd/context-layer-master-index.ormd",
       "humanSources": [],
       "ormdSource": "Context Layer Index.ormd",
-      "humanSha256": "966673722b418ffffd4136d75817942881fe118d70489fafe3c0f27862519630",
+      "humanSha256": "76bd54157d74c615c73b11d2389d88031b0bd3107f781eec499d32a5607528b2",
       "ormdSha256": "966673722b418ffffd4136d75817942881fe118d70489fafe3c0f27862519630"
     },
     {
@@ -415,14 +414,14 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 532,
+      "wordCount": 480,
       "humanUrl": "/human/e2-axioms.md",
       "ormdUrl": "/ormd/e2-axioms.ormd",
       "humanSources": [
         "E^2 Axioms.md"
       ],
       "ormdSource": "E^2 Axioms.ormd",
-      "humanSha256": "334b5c072fab8bda5e4786bce66d2f2001f91da0cd2438577a53507b83643531",
+      "humanSha256": "98b79254cb0223326d4dff47decbdc9a2b9392373d1aca080dbe5676b7ec8b9f",
       "ormdSha256": "a4baeb8c13c9313ad0d2fecef0d6cb91ed3969956a187396426ed059f74328db"
     },
     {
@@ -433,14 +432,14 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 677,
+      "wordCount": 623,
       "humanUrl": "/human/e2-entry-point.md",
       "ormdUrl": "/ormd/e2-entry-point.ormd",
       "humanSources": [
         "E^2 Entry Point.md"
       ],
       "ormdSource": "E^2 Entry Point.ormd",
-      "humanSha256": "4411938727c7d5e2da351046f66202a87a91fe150d0eab181e408c7960cca018",
+      "humanSha256": "88a6de2e24e33f0526608e5384e87f7f7278eecbd9e653376a6cde4d6e238253",
       "ormdSha256": "1ba0103e301495827fd7865933282a6085f676c27beb574231133c40d0217484"
     },
     {
@@ -469,14 +468,14 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 843,
+      "wordCount": 784,
       "humanUrl": "/human/global-closure-operator.md",
       "ormdUrl": "/ormd/global-closure-operator.ormd",
       "humanSources": [
         "Global Closure Operator.md"
       ],
       "ormdSource": "Global Closure Operator.ormd",
-      "humanSha256": "63fab358e1b0afee861f44c37648676d2fe4400a78e459dcb338021dac7660b8",
+      "humanSha256": "a005796511987b935bdb2d6ffb287aed738ccccbfbe098bda6c1d7fe492de956",
       "ormdSha256": "6bc201079e894cbf39a3dbb88c53371814a70415d99e58b2431cafa2cf3ae4ab"
     },
     {
@@ -505,14 +504,14 @@
       "confidence": 0.96,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 972,
+      "wordCount": 916,
       "humanUrl": "/human/relational-primitives.md",
       "ormdUrl": "/ormd/relational-primitives.ormd",
       "humanSources": [
         "Relational Primitives.md"
       ],
       "ormdSource": "Relational Primitives.ormd",
-      "humanSha256": "7ca28a109223e99904735705a66ea66fc2d1801f114c83a6dc92af7df557c9aa",
+      "humanSha256": "deae491421a25c556a0d0965665949c9bcfdca4251510f1ad84ea77a870467c4",
       "ormdSha256": "0fd77ac8d2a818612a37348a04133a28c33575c585f4c6241238c40eff2084bc"
     },
     {
@@ -836,7 +835,7 @@
         "Universal Emergence Pattern.md"
       ],
       "ormdSource": "Universal Emergence Pattern.ormd",
-      "humanSha256": "fa297edaead8378d3fc1413237bf8daa9c91769ac86a261f739d21e496651042",
+      "humanSha256": "95c26cf86a6fe73ec455e5e28ace4aabddd2a54df89f6f70391ca9bd40e8227b",
       "ormdSha256": "e938acaddbbec32a70c69fe86d06b2561de2bf7c00ddab4b8f1e247db7e74062"
     },
     {
@@ -847,14 +846,14 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 740,
+      "wordCount": 682,
       "humanUrl": "/human/metabolic-meaning-phase-space-mmps.md",
       "ormdUrl": "/ormd/metabolic-meaning-phase-space-mmps.ormd",
       "humanSources": [
         "Metabolic Meaning Phase Space (MMPS).md"
       ],
       "ormdSource": "Metabolic Meaning Phase Space (MMPS).ormd",
-      "humanSha256": "b0bee0e91d292e100a3360864f1ac0588d9677668456a3d89943a25e830d81bf",
+      "humanSha256": "3a0dafa57457a68e21468d24d524d27a1819e69b5f0c5ac177e5d6e7d5707d49",
       "ormdSha256": "ebb8d0e6004e2a37fa60e0922b607ff940d836f89ab18a4d4a6eeca4ab36a4ce"
     },
     {
@@ -1027,14 +1026,14 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 847,
+      "wordCount": 792,
       "humanUrl": "/human/ethical-occlusion-via-temporal-compression-eotc.md",
       "ormdUrl": "/ormd/ethical-occlusion-via-temporal-compression-eotc.ormd",
       "humanSources": [
         "Ethical Occlusion via Temporal Compression (EOTC).md"
       ],
       "ormdSource": "Ethical Occlusion via Temporal Compression (EOTC).ormd",
-      "humanSha256": "fff32fd9f99859bc4396c3eed183fb2b8d61db7ad2a8b7b191ad0724acfff1f8",
+      "humanSha256": "ad2cec03c6430f6f57c6f1411e4e2c57ba781142153f7dc0b27f66cf3b425e3d",
       "ormdSha256": "e1b6115b5ac0aaf0ff36e138e273fddaf9f29099cfcba0687e2d9896b59c805f"
     },
     {
@@ -1750,14 +1749,14 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 776,
+      "wordCount": 721,
       "humanUrl": "/human/sign-mediated-flow-routing.md",
       "ormdUrl": "/ormd/sign-mediated-flow-routing.ormd",
       "humanSources": [
         "sign_mediated_flow_routing.md"
       ],
       "ormdSource": "sign_mediated_flow_routing.ormd",
-      "humanSha256": "61f8e5949aeca68614430e5ff6827bfa3a3907b66741e743d8831bd2d89c207c",
+      "humanSha256": "afd9dcdbeb19a1d9c704dc7f2765b0a9c29a0a1b8537066c759b8038f25e6d4a",
       "ormdSha256": "47a31a5cd50aafcd1599a139fc27b574d64759b0a385c28984d7851dc55b0a8f"
     },
     {
@@ -1883,7 +1882,7 @@
         "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md"
       ],
       "ormdSource": "Relational Derivation Chain .ormd",
-      "humanSha256": "64342f4b3e791e91109fe2730459bcff48f4b819e13d522ad1f08df07ad9083c",
+      "humanSha256": "a26fc43e4f388f3137f41258356db9c1605405fc706a0baf96a0f59e04ebc723",
       "ormdSha256": "0326f05f0bdff1a6fc0e46c0c5be8abadbff7865903e73201f41ddaaf09bd9b8"
     },
     {

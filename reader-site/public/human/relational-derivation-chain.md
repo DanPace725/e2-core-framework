@@ -1,4 +1,4 @@
-﻿# Relational Derivation Chain - E2 to RCP, MPDC, and AFD
+# Relational Derivation Chain - E2 to RCP, MPDC, and AFD
 
 6/12/25
 

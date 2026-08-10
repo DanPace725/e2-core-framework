@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "theory.metabolic-meaning"
-lineage:
-  origin: { uri: "urn:ormd:mmps:pass-3b", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/Metabolic%20Meaning%20Phase%20Space%20(MMPS).ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/Metabolic%20Meaning.ormd", relation: "integrates" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["metabolic meaning", "MMPS", "meaning metabolism", "phase space", "coherence", "attention", "constraint", "temporal compression", "meaning crisis"]
-resolution: { confidence: 0.95 }
----
-
 # Metabolic Meaning Phase Space (MMPS) {#mmps-root}
 
 MMPS is the canonical model of meaning as metabolism. Meaning is not a possession to acquire once. It is a dynamic product synthesized through attention, relational density, constraint integrity, and time.
