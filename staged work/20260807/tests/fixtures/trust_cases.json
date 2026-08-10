@@ -1,0 +1,127 @@
+{
+  "fixture_version": "1.0.0",
+  "candidate": "Trust construct separation",
+  "cases": [
+    {
+      "id": "T01",
+      "label": "high reliance with low trust",
+      "trustworthiness_estimate": "low",
+      "accepted_vulnerability": false,
+      "reliance": true,
+      "custody": false,
+      "coerced_or_unavoidable": true,
+      "expected_distinction": "reliance_without_trust"
+    },
+    {
+      "id": "T02",
+      "label": "high estimate without accepted vulnerability",
+      "trustworthiness_estimate": "high",
+      "accepted_vulnerability": false,
+      "reliance": false,
+      "custody": false,
+      "coerced_or_unavoidable": false,
+      "expected_distinction": "trustworthiness_without_trust"
+    },
+    {
+      "id": "T03",
+      "label": "institutional custody without interpersonal confidence",
+      "trustworthiness_estimate": "institutionally assured",
+      "accepted_vulnerability": false,
+      "reliance": true,
+      "custody": true,
+      "institutional_control": true,
+      "expected_distinction": "institutional_custody_without_interpersonal_trust"
+    },
+    {
+      "id": "T04",
+      "label": "affinity without domain evidence",
+      "trustworthiness_estimate": "inferred from shared identity",
+      "accepted_vulnerability": true,
+      "reliance": false,
+      "custody": false,
+      "affinity_proxy_only": true,
+      "domain_evidence": false,
+      "expected_distinction": "affinity_without_domain_evidence"
+    },
+    {
+      "id": "T05",
+      "label": "unsupported domain transfer",
+      "trustworthiness_estimate": "high in source domain",
+      "accepted_vulnerability": true,
+      "reliance": false,
+      "custody": false,
+      "source_domain": "meeting deadlines",
+      "target_domain": "holding confidential records",
+      "transfer_evidence": false,
+      "expected_distinction": "domain_transfer_not_licensed"
+    },
+    {
+      "id": "T06",
+      "label": "covert loyalty test",
+      "experiment": true,
+      "consent": false,
+      "proportional": false,
+      "mutual_exposure": false,
+      "repair_path": false,
+      "manufactured_serious_divergence": true,
+      "expected_distinction": "reject_experiment"
+    },
+    {
+      "id": "T07",
+      "label": "consented mild reciprocal test",
+      "experiment": true,
+      "consent": true,
+      "proportional": true,
+      "mutual_exposure": true,
+      "repair_path": true,
+      "manufactured_serious_divergence": false,
+      "expected_distinction": "admissible_experiment"
+    },
+    {
+      "id": "T08",
+      "label": "complete indexed trust trace",
+      "trust_trace": true,
+      "positioned_parties": true,
+      "domain": "shared production release",
+      "expected_conduct": "disclose blockers before release",
+      "specified_vulnerability": true,
+      "uncertainty_declared": true,
+      "evidence_window": "prior six releases",
+      "freshness_state": "current",
+      "accepted_vulnerability": true,
+      "reliance_state_declared": true,
+      "relocalization_trigger": "undisclosed material blocker",
+      "expected_distinction": "indexed_trust"
+    },
+    {
+      "id": "T09",
+      "label": "stale trustworthiness assignment",
+      "trustworthiness_estimate": "previously high",
+      "domain": "financial approval",
+      "evidence_window": "former role",
+      "freshness_state": "stale",
+      "material_role_change": true,
+      "relocalized": false,
+      "expected_distinction": "stale_trustworthiness_assignment"
+    },
+    {
+      "id": "T10",
+      "label": "high assurance without interpersonal trust",
+      "accepted_vulnerability": false,
+      "reliance": true,
+      "institutional_assurance": true,
+      "assurance_controls": ["escrow", "audit", "staged release"],
+      "custody": false,
+      "expected_distinction": "assurance_without_interpersonal_trust"
+    },
+    {
+      "id": "T11",
+      "label": "trust without reliance",
+      "trustworthiness_estimate": "high in target domain",
+      "accepted_vulnerability": true,
+      "reliance": false,
+      "stable_custody_referent": false,
+      "expected_distinction": "trust_without_reliance"
+    }
+  ]
+}

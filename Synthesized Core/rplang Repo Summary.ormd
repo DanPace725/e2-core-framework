@@ -1,0 +1,63 @@
+core <!-- ormd:1.0 -->
+---
+title: "RP-Lang: Relational Physics Language Architectural Synthesis"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: rplang", ts: "2025-11-21T14:30:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["relational-primitives", "simulation-engine", "dsl-compiler", "multi-agent-systems", "computable-ontology"]
+resolution: { confidence: 1.0 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#rplang "meta:corresponds_to"). RPLang codebase: Entity/Relation/World/Evaluator architecture. Canonical treatment in B4 §4.
+
+# RP-Lang: A Relational Programming Substrate
+
+RP-Lang is a high-level programming paradigm and runtime environment where computation is expressed through **Relational Primitives**. Unlike imperative or object-oriented systems that rely on method calls and explicit state mutation, RP-Lang [evolves](#evaluator-engine "dynamical:transforms_to") a world state graph by applying interaction laws defined by six fundamental primitives.
+
+The system is designed to simulate complex emergent behaviors—ranging from [GUI layouts](#gui-system "symmetric:constrains") to [multi-agent ecosystems](#ecosystem-demo "meta:emerges_from")—using a unified relational grammar.
+
+## 1. Core Architecture {#core-architecture}
+
+The architecture of RP-Lang is built upon four primary pillars located in `src/rp_lang/`:
+
+*   **Entity** [defines](#entity-def "ontological:defines"): The basic unit of identity. Entities in `entity.py` are simple records containing a unique ID, an optional kind, and a mutable state dictionary.
+*   **Relation** [links](#relation-def "ontological:composes"): Defined in `relation.py`, relations connect two entities. Every relation is tagged with one of the [Six Relational Primitives](#six-primitives "ontological:defines") and carries a payload of parameters.
+*   **World** [contains](#world-container "ontological:composes"): The `world.py` module provides a graph-like container that maintains high-performance indexes (by entity, by primitive, and by adjacency) to support real-time evaluation.
+*   **Evaluator** [executes](#evaluator-engine "dynamical:transforms_to"): The `evaluator.py` engine runs the "tick" of the simulation. It iterates through active relations and [dispatches](#primitive-handlers "meta:corresponds_to") them to specific handlers based on their primitive type.
+
+## 2. The Six Relational Primitives {#six-primitives}
+
+The system's logic is partitioned into six interaction laws, each handled by the [Evaluator](#evaluator-engine "epistemic:measures"):
+
+1.  **Ontological**: Manages identity, composition, and categorization. It [structures](#ontology-logic "ontological:composes") the world by ensuring entities exist and maintaining parent-child hierarchies.
+2.  **Dynamical**: Governs change and evolution. It [transforms](#dynamics-logic "dynamical:transforms_to") entity states (e.g., incrementing energy, moving positions) over time.
+3.  **Geometric**: Defines spatial and temporal embedding. It [causes](#geometry-logic "geometric:causes") adjacency effects, such as relational layout (e.g., `right_of`, `below`) and collision/overlap detection.
+4.  **Symmetric**: Implements invariants and boundaries. It [constrains](#constraint-logic "symmetric:constrains") states, such as clamping a boid's speed or keeping a GUI button within window bounds.
+5.  **Epistemic**: Handles observation and information flow. It [measures](#epistemic-logic "epistemic:measures") visibility, allowing observers to perceive only specific parts of the world state.
+6.  **Meta**: Orchestrates other relations. It [corresponds to](#meta-logic "meta:corresponds_to") second-order logic, enabling relations to activate, deactivate, or retarget other relations (e.g., a button click triggering a spawn event).
+
+## 3. DSL and Compilation {#dsl-compiler}
+
+RP-Lang includes a Domain Specific Language (DSL) infrastructure in `src/dsl/`. The [Compiler](#compiler-logic "meta:corresponds_to") lowers high-level AST definitions into executable Python code that instantiates the `World` and wires the `Evaluator`. This allows for deterministic and reproducible simulation setups.
+
+## 4. Emergent Simulations & GUI {#simulations}
+
+The repository demonstrates the power of relational computation through several advanced examples:
+
+*   **Ecosystem Simulation** (`examples/ecosystem_gui.py`): A multi-agent world where prey, predators, and resources [interact](#ecosystem-demo "dynamical:interacts_with") through proximity and energy relations. It [supports](#verification "epistemic:supports") the claim that pure relational rules can produce complex emergent behaviors like flocking and hunting.
+*   **Relational GUI** (`examples/gui_demos_phase4.py`): A UI system where layout is not hardcoded but [emerges from](#layout-logic "geometric:causes") adjacency and constraint relations.
+*   **Physical Simulations**: Including [Bouncing Balls](#physics-demo "geometric:precedes") and [Cellular Automata](#ca-demo "ontological:composes"), demonstrating the versatility of the `DYNAMICS` and `CONSTRAINT` primitives.
+
+## 5. Operational Closure {#closure}
+
+The system aims for a state of **Global Closure** (DGCO), where the relational graph reaches structural self-consistency. This is theoretically explored in `docs/theory/relational_primitives_first_principles.md`, which [defines](#dgco-theory "ontological:defines") the mathematical foundation for how these primitives cohere into stable, persistent entities.
+
+---
+*This summary was generated by analyzing the `rplang` repository and mapping its structural components to the ORMD V1.0 specification.*

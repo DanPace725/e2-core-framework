@@ -1,0 +1,55 @@
+core <!-- ormd:1.0 -->
+---
+title: Summary of Implementations
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/implementations/2025-06-03
+    ts: '2025-06-03T10:00:00Z'
+  parents:
+  - urn:cb:Implementations.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - ormd
+  - implementation-registry
+  - clp
+  - project-atlas
+  document_type:
+  - implementation
+  - project_planning
+  domains:
+  - ontology_core
+  - stewardship_architecture
+  - cognition_psychology
+resolution:
+  confidence: 1.0
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#rplang "meta:corresponds_to"). Computational implementations of the framework across tooling and language stacks. Canonical treatment in B4 §4 (RPLang).
+
+# Executive Summary: Implementation Registry {#summary-header}
+
+This document provides a comprehensive synthesis of the active implementation frameworks and strategic projects as of June 2025. The registry serves as a foundational map for the ecosystem's technical and conceptual architecture.
+
+## Core Protocols and Substrates {#core-protocols}
+
+The ecosystem is fundamentally defined by [ORMD](#ormd "ontological:defines"), which acts as the universal relational substrate for human-readable and machine-processable knowledge. To ensure strict provenance, policy enforcement, and contextual integrity across these documents, the [Context Layer Protocol (CLP)](#clp "ontological:defines") is utilized as the primary metadata standard.
+
+## Strategic Frameworks {#strategic-frameworks}
+
+The high-level trajectory of the system is composed of two primary pillars:
+1.  The [Project Atlas — High-Level Plan](#project-atlas "ontological:composes"), which outlines the overarching strategic roadmap.
+2.  The deployment of [Custom GPTs](#custom-gpts "ontological:composes"), which provide specialized functional interfaces and execution capabilities within the environment.
+
+## Measurement and Governance {#measurement-governance}
+
+To maintain epistemic rigor and behavioral consistency, the registry includes specialized tools for assessment and constraint:
+*   **Assessment**: The system employs [Cognitive Profiles from Chess play](#chess-profiles "epistemic:measures") to derive epistemic insights and measure user cognitive patterns through gameplay.
+*   **Guidance**: Behavioral boundaries and coaching methodologies are governed by the [Narrative Self Coaching Guide V1](#coaching-guide "symmetric:constrains"), which establishes the symmetric constraints necessary for consistent self-development and narrative integrity.

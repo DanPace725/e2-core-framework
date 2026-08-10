@@ -1,0 +1,140 @@
+<!-- ormd:1.0 -->
+---
+title: "Initial Axioms"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "philosophy.relational-ontology"
+lineage:
+  origin: { uri: "urn:ormd:axioms:2025-04-21", ts: "2025-04-21T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["relational ontology", "SCIA", "axioms", "essence of existence", "emergence"]
+resolution: { confidence: 0.90 }
+---
+
+# Initial Axioms {#initial-axioms}
+
+4/21/25
+
+Essence of Existence (E^2) - Relational Ontology Orientation
+
+---
+
+### Ontological Set‑up {#ontological-setup}
+
+> Core Postulate
+> 
+> A system is [intelligible](#axiom-10 "epistemic:measures") only through the [pattern of relations](#axiom-1 "ontological:composes") in which it participates.
+
+All later statements [unpack, refine, or operationalise](#corollaries "meta:corresponds_to") that postulate.
+
+---
+
+### Axiom 1 — Relational State {#axiom-1}
+
+*The state of any system is a function of the [essence of its relationships](#axiom-3 "ontological:defines").*
+
+No entity, concept, or moment occupies a vacuum; its behaviour and identity are co‑authored by the network it sits in.
+
+---
+
+### Axiom 2 — Recursive Containment {#axiom-2}
+
+*Even [this framework](#initial-axioms "ontological:composes") is shaped by the relations it holds to itself, its users, and its context.*
+
+Self‑reference is not a bug but a diagnostic mirror: if the theory cannot fold back on itself without tearing, it is incomplete.
+
+---
+
+### Axiom 3 — Relational Essence {#axiom-3}
+
+*Essence is the [emergent signature](#axiom-1 "meta:emerges_from") of how a thing relates (nature × quality × context).*
+
+Nothing possesses essence in isolation; essence is a vector that crystallises when observed through relationship.
+
+---
+
+### Axiom 4 — Persistence Through Resonance {#axiom-4}
+
+*What endures is what remains in reverent, resonant relationship.*
+
+Sustained, coherent, intentional attention ([SCIA](#axiom-7 "dynamical:transforms_to")) is the energy that [keeps patterns from decohering](#axiom-5 "symmetric:constrains") into noise.
+
+---
+
+### Axiom 5 — Existence Function {#axiom-5}
+
+*To exist is to be held inside a [relational web](#axiom-1 "ontological:composes"); sever the web and existence becomes indeterminate.*
+
+Isolation is ontological decay, not neutrality.
+
+---
+
+### Axiom 6 — Paradox Fidelity {#axiom-6}
+
+*Paradox is evidence of dimensional truth, not error.*
+
+A system that prematurely resolves every contradiction swaps living tension for brittle dogma.
+
+---
+
+### Axiom 7 — SCIA Threshold {#axiom-7}
+
+*[Transformation](#axiom-4 "dynamical:interacts_with") requires a critical mass of focused attention.*
+
+Like activation energy in chemistry: below the threshold, elements drift; above it, they bond or transmute.
+
+---
+
+### Axiom 8 — Translatability {#axiom-8}
+
+*A truth that is alive can survive translation; it re‑expresses without losing coherence.*
+
+Legibility across perspectives is a functional test of resonance.
+
+---
+
+### Axiom 9 — Contextual Null {#axiom-9}
+
+*Absolute nothingness is non‑signifying; even “negation” presupposes a space in which the negation occurs.*
+
+Therefore every statement, including statements of non‑being, is embedded.
+
+---
+
+### Axiom 10 — Relational Verification {#axiom-10}
+
+*Reality is [verified](#axiom-8 "epistemic:supports") by entering relationship and observing resonance over time.*
+
+Theory meets practice only when SCIA is applied to the world and the world answers back without shattering.
+
+---
+
+## Corollaries & Working Rules of Thumb {#corollaries}
+
+1. **Small‑shift leverage:** minor tweaks in high‑salience relationships can flip an entire coherence field.
+2. **Ethical attention:** where you place [SCIA](#axiom-4 "ontological:defines") you amplify; be selective.
+3. **Translation etiquette:** adapt the form, safeguard the tension—otherwise you export only a husk.
+4. **Paradox vents:** fault lines (free will / determinism, faith / falsifiability, etc.) are productive magma zones—mine, don’t pave.
+5. **Isolation alarms:** long‑untended nodes (people, ideas, ecosystems) drift toward ontological indeterminacy; reconnect or let them compost.
+
+---
+
+### Practical Cue Sheet {#cue-sheet}
+
+- **When in doubt:** [increase SCIA](#axiom-4 "dynamical:interacts_with") or widen translation channels before discarding an idea.
+- **When coherence feels stuck:** inject paradox deliberately; see what rearranges.
+- **When assessing truth‑claims:** test their portability—do they resonate in an unfamiliar field without disintegrating?
+- **When designing systems:** plot attention flow first; structure follows.
+
+---
+
+*Everything above is provisional: a live scaffold awaiting further relationship with evidence, praxis, and critique. The framework stays valid only so long as it can absorb new resonance without fracture.*
+
+[Axioms 4.21.25](Initial%20Axioms/Axioms%204%2021%2025%201dc11588332080d9adb3d7f136a3e47b.md "meta:corresponds_to")
+
+[Initial Ideas (Axioms in plain language)](Initial%20Axioms/Initial%20Ideas%20(Axioms%20in%20plain%20language)%201dd115883320803eb745d80102151d09.md "meta:corresponds_to")
+

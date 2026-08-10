@@ -1,0 +1,129 @@
+﻿Context Layer Protocol (CLP) ---
+frame: "e2.semantic_substrate"
+lineage:
+  origin: { uri: "urn:ormd:sign-mediated-routing:pass-3b", ts: "2026-06-12T00:00:00Z" }
+  parents:
+    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/sign_mediated_flow_routing.ormd", relation: "canonicalizes" }
+    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/sign_mediated_accountability.ormd", relation: "integrates" }
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["semantic substrate", "sign-mediated flow", "accountability", "attribution closure", "routing", "GCO", "signal", "remainder"]
+resolution: { confidence: 0.90 }
+---
+
+# Sign-Mediated Accountability and Flow Routing {#sign-mediated-flow-routing}
+
+This document is the unified specification for sign-mediated accountability and flow routing. It remains a Cluster J working/provisional substrate document, but the prior accountability and routing packets have been consolidated into one active node.
+
+## Core Claim {#core-claim}
+
+Signs route flow by creating closure. In the agentic domain, attribution is a GCO closure event operating on agency-related signal. Once attribution closes, responsibility can bind to a stable sign. When closure fails, responsibility persists as remainder: unresolved signal pressure that can disperse, launder, or scapegoat.
+
+## Flow-Gating Move {#flow-gating}
+
+Unmediated fields contain continuous signal pressure. Sign-mediated systems introduce interfaces that convert continuous pressure into discrete artifacts:
+
+- signature;
+- ledger entry;
+- witnessed mark;
+- attribution finding;
+- verdict;
+- receipt;
+- cryptographic proof;
+- covenant inscription.
+
+The sign does not merely represent the flow. It gates, redirects, preserves, and constrains what can happen next.
+
+## Attribution as Signal-to-Sign Conversion {#attribution}
+
+In accountability contexts:
+
+- **signal** carries causal, agentic, and contextual pressure;
+- **GCO closure** resolves that pressure into a stable attribution;
+- **sign** is the closure artifact;
+- **responsibility** is the moral force that binds to the sign;
+- **remainder** is the unresolved pressure left when closure fails.
+
+The operation is cross-substrate. Cultural, legal, financial, cryptographic, and theological sign technologies all perform variants of this conversion.
+
+## Internal and External Attribution {#internal-external}
+
+Attribution can close internally, externally, both, or neither:
+
+| Internal | External | Result |
+| --- | --- | --- |
+| Success | Success | Clean accountability; sign and bind agree. |
+| Success | Failure | Ungrounded responsibility-taking; the field does not recognize the sign. |
+| Failure | Success | Imposed attribution; possible coercion, scapegoating, or inability to see one's role. |
+| Failure | Failure | Laundering; remainder disperses without closure. |
+
+## Routing Components {#routing-components}
+
+Sign-mediated routing involves:
+
+- **source field:** where signal pressure originates;
+- **observer position:** the location and resolution from which routing is read;
+- **sign interface:** the operator that converts signal into sign;
+- **closure threshold:** the level required for attribution or routing to bind;
+- **flow channel:** the path opened, blocked, redirected, or conserved by the sign;
+- **remainder basin:** where unresolved pressure accumulates.
+
+## Validity Conditions {#validity}
+
+A routing operation is valid when:
+
+- the observer position is declared or inferable;
+- the sign interface has enough resolution for the flow being routed;
+- attribution does not collapse across the wrong scale;
+- conservation is preserved: moral/causal mass is tracked or named as remainder;
+- failure surfaces are visible enough for audit.
+
+## Failure Modes {#failure-modes}
+
+The consolidated failure typology includes:
+
+- signal deficiency;
+- signal overload;
+- signal corruption;
+- compression-driven collapse;
+- hermeneutic precompression;
+- scale mismatch;
+- premature closure;
+- scapegoat compression;
+- topological dispersion;
+- temporal arbitrage;
+- instrumentality confusion.
+
+These can be read as operator pathologies: the sign interface routes too early, too late, to the wrong scale, through a corrupted channel, or into an accountability sink.
+
+## Conservation Principle {#conservation}
+
+Responsibility-mass does not disappear. It either lands on accountable nodes above threshold, remains as named remainder, or becomes lost track of.
+
+Accounting is the practical exemplar: double-entry systems preserve paired flows so unbalanced responsibility becomes visible. Auditing is GCO closure on the closure-record.
+
+## Intervention Principles {#interventions}
+
+- Increase observability where signal is deficient.
+- Slow the rate or decompose the field where signal overload prevents closure.
+- Use AOMI defenses where signal is corrupted.
+- Enforce resolution/compression constraints where closure collapses under speed.
+- Match attribution mode to scale.
+- Delay commitment when the field has not settled.
+- Track who benefits from unresolved remainder.
+- Preserve instrument/agent distinctions, especially in AI-mediated systems.
+
+## Relationship to Framework {#relationship}
+
+- `Signal as Bias Field.ormd` supplies the continuous signal vocabulary.
+- `Global Closure Operator.ormd` supplies closure mechanics.
+- `Ethical Occlusion via Temporal Compression (EOTC).ormd` explains compression-driven attribution failure.
+- `AOMI` explains adversarial exploitation of routing and closure failures.
+- `Justice Across Scales.ormd` gives scale-appropriate justice modes.
+- `Relational Bill of Rights v2.ormd` grounds accountability as a structural entitlement.
+
+## Summary {#summary}
+
+Sign-mediated routing is the mechanism by which relational systems convert continuous signal into durable, accountable paths. It makes moral force operative by closing attribution into signs, while preserving remainder when closure cannot honestly complete.
+

@@ -1,0 +1,392 @@
+<!-- ormd:1.0 -->
+---
+title: "Trust, Trustworthiness, and Reliance"
+authors: ["Daniel Pace", "OpenAI Codex"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "relational.trust"
+lineage:
+  origin: { uri: "local://semantic-substrate/trust-trustworthiness-reliance", ts: "2026-08-10T00:00:00Z" }
+  parents:
+    - "urn:cb:condition-as-typed-terrain"
+    - "urn:cb:relational-localization"
+    - "urn:cb:proxy-localization"
+    - "urn:cb:boundary-dynamics"
+    - "urn:cb:custody"
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["trust", "trustworthiness", "reliance", "vulnerability", "institutional assurance", "domain transfer", "freshness"]
+resolution: { confidence: 0.84 }
+---
+# Trust, Trustworthiness, And Reliance
+
+Status: integrated core source; preliminary coherence tests passed 2026-08-10
+
+Promotion date: 2026-08-10
+
+Corpus placement: relational epistemics / vulnerability / coupling; downstream of Condition as Typed Terrain, Relational Localization, Proxy Localization, and Boundary Dynamics; adjacent to Custody, Consequence Routing, Signal as Bias Field, Power, and AOMI
+
+Integration role: separates trustworthiness estimation, trust, and reliance without promoting Trust to a root primitive or absorbing Custody machinery
+
+## 0. Core Claim
+
+Trust-related language routinely collapses three different objects:
+
+```text
+Trustworthiness estimate  Evidence-indexed expectation about relevant conduct
+Trust                     Willingness to accept specified vulnerability under uncertainty
+Reliance                  Actual coupling, dependency, transfer, or exposure
+```
+
+Custody is a fourth, adjacent object owned by `Custody - Core Source.md`:
+
+```text
+Custody  Answerable holding across a gap once a custody referent enters standing answerability
+```
+
+The distinctions are operational:
+
+- A party can appear highly trustworthy while another party remains unwilling to accept vulnerability.
+- A party can trust without acting on that trust.
+- Reliance can occur with low trust because of coercion, necessity, monopoly, office, or lack of alternatives.
+- Institutional assurance can reduce exposure without creating interpersonal trust.
+- Custody can exist without trust, and trust can exist without custody.
+
+Trust is therefore not a property sitting inside one person, a synonym for predicted reliability, or proof supplied by reliance. It is a positioned stance toward a declared vulnerability under conditions of uncertainty.
+
+## 1. Construct Separation
+
+### 1.1 Trustworthiness estimate
+
+A trustworthiness estimate is an observer-indexed condition claim about expected conduct in a specified domain, based on declared evidence over a declared window.
+
+Short form:
+
+> Given this evidence, from this position, how defensible is the expectation that this party will perform the relevant conduct under the specified conditions?
+
+Possible evidence dimensions include capacity, competence, integrity, commitment, benevolence or alignment, prior conduct, disclosure quality, conflict handling, and response to failure. No single list is asserted as universal. Domains determine which dimensions matter and what evidence licenses transfer.
+
+The estimate is not Trust itself. It can be high without accepted vulnerability and can become stale when conduct, capacity, incentives, relationships, or conditions change.
+
+### 1.2 Trust
+
+Trust is willingness or intention to accept a specified vulnerability under uncertainty, informed but not determined by a trustworthiness estimate, assurance environment, relationship history, alternatives, and stakes.
+
+Trust must be indexed to:
+
+- who is willing to become vulnerable;
+- to whom or what;
+- in which domain;
+- regarding what possible loss or consequence;
+- under what uncertainty;
+- at what stakes and time window;
+- with what evidence, assurance, and alternatives;
+- with what re-localization trigger.
+
+Trust can remain an intention or permission without becoming reliance. Reduced vigilance may accompany trust, but it is a possible phenomenological signature rather than a universal measure: rest can also arise from habituation, resignation, exhaustion, surveillance adaptation, or lack of choice.
+
+### 1.3 Reliance
+
+Reliance is the actual coupling, dependency, transfer, exposure, or action through which another party's conduct can affect a referent or outcome.
+
+Reliance does not establish Trust. It may be voluntary, reluctant, coerced, unavoidable, institutionally required, or technically imposed. A reliance trace must preserve alternatives, exit conditions, and the source of constraint rather than infer willingness from behavior alone.
+
+### 1.4 Custody handoff
+
+When reliance or another relation places a stable custody referent into another locus's consequential control or standing answerability across a gap, operational machinery routes to `Custody - Core Source.md`.
+
+Trust may explain voluntary entry. Custody governs authority, capacity, trace, delegation, transfer, breach, repair, return, and discharge. Trust should not recreate that lifecycle.
+
+## 2. Minimum Trust Trace
+
+A trust statement is under-resolved when it omits the domain, vulnerability, evidence, position, or time state while behaving as though Trust were globally settled.
+
+Candidate schema:
+
+```text
+TrustTrace = {
+  trusting_party,
+  assessed_party,
+  domain,
+  expected_conduct,
+  vulnerability,
+  stakes,
+  uncertainty,
+  trustworthiness_estimate,
+  estimate_dimensions,
+  direct_evidence,
+  proxy_evidence,
+  evidence_window,
+  freshness_state,
+  divergence_class,
+  accepted_vulnerability,
+  reliance_state,
+  reliance_constraints,
+  alternatives_and_exit,
+  institutional_assurance,
+  custody_interface,
+  consequence_bearers,
+  relocalization_triggers,
+  current_status
+}
+```
+
+This is a candidate schema, not canonical notation. Low-stakes relations may use a compressed trace. Stakes, irreversibility, dependence, asymmetry, and reshape capacity increase the required resolution.
+
+A minimally valid Trust claim requires at least:
+
+- positioned parties;
+- a domain and expected conduct;
+- specified vulnerability and uncertainty;
+- evidence and its window;
+- whether vulnerability is actually accepted;
+- the distinction between willingness and reliance;
+- assurance and constraint context where material;
+- a freshness or re-localization condition.
+
+## 3. Evidence And Divergence
+
+Trustworthiness becomes especially diagnostic where interests, incentives, convenience, status, or opportunity can diverge. Conduct under mild, naturally occurring divergence can reveal how a party handles discretion, temptation, inconvenient obligations, conflict, or asymmetric opportunity.
+
+This is an evidence rule, not a definition:
+
+> Divergence-region evidence can be highly diagnostic of trustworthiness; trust does not exist only in adversarial or divergent regions.
+
+Competence, ordinary follow-through, repair behavior, disclosure, institutional records, and repeated low-drama conduct may also matter. Serious divergence should not be manufactured merely to obtain evidence.
+
+Evidence should distinguish:
+
+- direct conduct in the target domain;
+- conduct in an adjacent domain with an explicit transfer argument;
+- third-party testimony;
+- institutional records and assurance;
+- affinity or identity proxies;
+- self-report;
+- absence of evidence;
+- evidence made endogenous by monitoring or evaluation.
+
+## 4. Domain Transfer And Proxy Evidence
+
+Shared identity, religion, politics, taste, fluency, profession, style, agreement, or social affinity may carry information. They are not direct evidence of target-domain conduct merely because they produce familiarity or simulation fluency.
+
+The error is unsupported transfer:
+
+```text
+evidence in source domain
+  != license for target-domain trustworthiness estimate
+unless a defensible transfer relation is stated
+```
+
+Examples:
+
+- meeting deadlines does not by itself license confidence about confidential records;
+- ideological agreement does not establish willingness to protect another party under conflict;
+- interpersonal warmth does not establish technical competence;
+- professional credentials do not establish benevolence or integrity in every context.
+
+Proxy Localization owns the broader representation machinery. This source requires the proxy to remain labeled, domain-bounded, and defeasible.
+
+## 5. Freshness, Reputation, And Feedback
+
+Trustworthiness estimates are time-indexed conditions. Reputation can stabilize into terrain, but the terrain may become stale or may have been minted from non-diagnostic proxies.
+
+Re-localization triggers include:
+
+- contradictory conduct;
+- changed capacity, incentives, role, or authority;
+- domain change;
+- material time passage;
+- altered assurance or monitoring;
+- conflict of interest;
+- evidence that the prior estimate was proxy-dominated;
+- breach, repair, disclosure, or concealment;
+- a change in the trusting party's vulnerability or alternatives.
+
+Reputation is not inert. A favorable assignment changes opportunity, scrutiny, and access to future evidence. A negative assignment can remove the opportunity to demonstrate repair. Trustworthiness claims therefore record how the estimate affects the field it purports to describe.
+
+Betrayal may reveal that the estimate became stale at an unknown prior time. The lawful response is not automatic retroactive certainty. Preserve what the evidence shows, what remains unknown, and which parts of the prior assignment were unsupported.
+
+## 6. Reliance, Constraint, And Power
+
+Reliance behavior must not be reverse-engineered into Trust without checking constraint.
+
+Reliance may arise through:
+
+- voluntary commitment;
+- necessity or emergency;
+- institutional requirement;
+- monopoly or lack of substitutes;
+- employment or office;
+- technical architecture;
+- dependency created by prior decisions;
+- coercion or threat;
+- distributed systems in which no participant can monitor the whole.
+
+Power shapes the available alternatives, the cost of refusal, the visibility of failure, and who can demand evidence. A low-power party's continued reliance on a gatekeeper is not evidence of interpersonal trust. Nor is compliance under surveillance evidence of confidence in the surveilling party.
+
+## 7. Institutional Assurance
+
+Institutional assurance is neither Trust nor trustworthiness. It modifies the exposure field through controls such as escrow, bonding, audit, redundancy, staged authority, rate limits, insurance, appeal, dual authorization, independent review, succession, and rollback.
+
+Assurance can:
+
+- reduce breach probability or magnitude;
+- constrain discretion;
+- improve observability;
+- preserve evidence and contestability;
+- fund repair;
+- make reliance possible despite low interpersonal trust.
+
+Four broad states remain distinct:
+
+```text
+high trust / low assurance
+low trust / high assurance
+high trust / high assurance
+low trust / low assurance
+```
+
+High assurance may reduce the amount of vulnerability actually accepted. That can support reliance without increasing Trust. Conversely, strong interpersonal trust may coexist with dangerously weak assurance.
+
+## 8. Trust Experiments And Evaluation Ethics
+
+Small, reversible interactions under mild divergence may supply evidence when direct observation is otherwise costly. They are not automatically ethical or clean.
+
+An admissible Trust experiment requires:
+
+- meaningful consent;
+- proportional stakes;
+- reciprocal or at least non-exploitative exposure;
+- reversibility or bounded consequence;
+- a repair path;
+- declared purpose where concealment would itself create a loyalty test;
+- no manufactured serious divergence;
+- no punishment merely for refusing the test;
+- preservation of uncertainty when safe sampling is impossible.
+
+Covert loyalty tests, entrapment, engineered temptation, and indefinite asymmetric surveillance confuse obedience or adaptation with trustworthiness. The evaluator is in the field: participants who model the test change their behavior, so observed conduct partly reflects the evaluation apparatus.
+
+## 9. Construct States And Negative Cases
+
+- **High estimate, no Trust:** another party is assessed as capable and reliable, but no vulnerability is accepted.
+- **Trust without reliance:** willingness exists, but no coupling or exposure occurs.
+- **Reliance without Trust:** dependency occurs because of necessity, coercion, monopoly, or institutional requirement.
+- **Reliance with assurance but low Trust:** controls make exposure tolerable despite low interpersonal confidence.
+- **Trust without Custody:** consequential judgment is accepted, but no stable custody referent enters continuing control.
+- **Custody without Trust:** an institution holds a referent under law and assurance despite low interpersonal trust.
+- **Affinity without domain evidence:** familiarity is mistaken for target-domain trustworthiness.
+- **Stale trustworthiness:** a once-defensible estimate persists after material change.
+- **Unsupported transfer:** evidence from one domain is applied to another without a transfer argument.
+- **Breach with repair:** trustworthiness may be re-estimated after disclosure and repair, but neither Trust nor prior custody is automatically restored.
+
+## 10. Failure Modes
+
+- **Trust/trustworthiness collapse:** treating an estimate as accepted vulnerability.
+- **Trust/reliance collapse:** treating observed dependency as voluntary willingness.
+- **Trust/Custody collapse:** making Trust own authority and answerability machinery.
+- **Assurance substitution:** treating controls as interpersonal confidence.
+- **Proxy laundering:** presenting affinity or identity as direct target-domain evidence.
+- **Domain inflation:** globalizing conduct from one domain.
+- **Freshness neglect:** allowing reputation to outlive its evidence window.
+- **Divergence absolutism:** claiming only conflict reveals trustworthiness.
+- **Testing capture:** covertly creating temptation, loyalty tests, or surveillance adaptation.
+- **Power blindness:** reading constrained reliance as Trust.
+- **Phenomenology inflation:** treating reduced vigilance as proof.
+- **Etymological authority:** treating word history as mechanism or derivation.
+
+## 11. Diagnostics
+
+Ask:
+
+- What object is being claimed: estimate, Trust, reliance, assurance, or Custody?
+- Who is positioned as trusting or assessing whom?
+- In what domain and for what expected conduct?
+- What vulnerability is accepted, by whom, and at what stakes?
+- What direct and proxy evidence supports the estimate?
+- What is the evidence window and freshness state?
+- Does evidence transfer into this domain?
+- Did reliance actually occur, and was it voluntary?
+- What alternatives and exit routes existed?
+- What assurance changes the exposure?
+- Does a stable custody referent trigger the Custody handoff?
+- What would cause re-localization or withdrawal?
+- Has the estimate changed the opportunities and evidence available?
+- Would gathering more evidence require an unethical test?
+
+## 12. Status Boundaries
+
+Load-bearing:
+
+- Trustworthiness estimate, Trust, reliance, assurance, and Custody must remain distinct.
+- Trustworthiness estimates are observer-, domain-, evidence-, resolution-, and time-indexed condition claims.
+- Trust requires specified vulnerability and uncertainty.
+- Reliance does not prove Trust.
+- Proxy evidence does not transfer across domains without an argument.
+- Reputation can become stale and causally reshape future evidence.
+- Divergence-region conduct is diagnostic but not definitional.
+- Trust experiments require consent, proportionality, bounded consequence, and repair.
+- Custody machinery routes to `Custody - Core Source.md`.
+
+Provisional:
+
+- the `TrustTrace` field set;
+- which trustworthiness dimensions generalize across domains;
+- the weight assigned to divergence-region evidence;
+- reduced vigilance as a phenomenological signature;
+- how trust intensity should be represented, if at all;
+- the exact interaction between assurance and accepted vulnerability.
+
+This source does not claim a universal Trust score, establish whether a real party is trustworthy, or promote Trust to a relational primitive.
+
+## 13. Placement And Handoffs
+
+- Condition as Typed Terrain owns the typed and time-indexed condition form of trustworthiness estimates.
+- Relational Localization owns assignment resolution and positioned claims.
+- Proxy Localization owns representation, domain-transfer discipline, and stale proxy dynamics.
+- Boundary Dynamics owns the interfaces through which exposure occurs.
+- Signal, Power, and AOMI own positioned evidence, asymmetric observability, and gaming.
+- Custody owns answerable holding once a custody referent crosses into standing answerability.
+- Consequence Routing owns the destination of harm, repair, disclosure, restitution, or unresolved remainder after reliance or breach.
+
+## 14. Open Questions
+
+- Which trustworthiness dimensions are broad enough for shared vocabulary without becoming a universal score?
+- How should Trust be represented when willingness is conditional or revocable?
+- What evidence legitimately transfers across domains?
+- When does institutional assurance reduce vulnerability enough that the relation is reliance without meaningful Trust?
+- How should repair history enter a fresh estimate without erasing breach?
+- Can reduced vigilance be distinguished from resignation, habituation, exhaustion, or surveillance adaptation?
+- What minimum Trust trace is proportionate for ordinary low-stakes relations?
+- How should mutual Trust be represented when estimates, vulnerabilities, and reliance are asymmetric?
+
+## 15. Preliminary Validation Path
+
+Test at least:
+
+- reliance without Trust;
+- high trustworthiness estimate without accepted vulnerability;
+- institutionally assured Custody without interpersonal Trust;
+- affinity without target-domain evidence;
+- unsupported domain transfer;
+- a complete indexed Trust trace;
+- Trust without reliance;
+- a stale trustworthiness assignment;
+- assurance without interpersonal Trust;
+- a covert loyalty test;
+- a consented, proportional, reciprocal experiment.
+
+These tests establish construct discrimination only, not whether any real person, system, or institution is trustworthy.
+
+## Preliminary Test Record
+
+Deterministic test run `2026-08-10`: 11/11 designed Trust cases classified as expected. The suite separates reliance without Trust, high trustworthiness without accepted vulnerability, institutionally assured Custody, affinity-only proxying, unsupported domain transfer, Trust without reliance, and assurance without interpersonal Trust. It accepts a complete indexed Trust trace, withdraws a stale trustworthiness assignment, rejects a covert loyalty test, and admits a consented, proportional, reciprocal experiment with a repair path.
+
+This validates construct, trace, freshness, and experiment-gate discrimination only. It does not establish whether any real party is trustworthy or whether the trace fields are empirically complete.
+
+Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
+
+## Final Compression
+
+Trustworthiness is an indexed estimate about expected conduct. Trust is willingness to accept specified vulnerability under uncertainty. Reliance is the coupling through which exposure becomes actual. Assurance changes the exposure field without becoming Trust, and Custody owns answerable holding when a stable referent enters standing responsibility. The distinctions remain usable only while domain, evidence, constraint, and freshness stay visible.
+

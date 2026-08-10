@@ -1,0 +1,72 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Signal as Bias Field'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/signal-bias-field-summary
+    ts: '2025-12-16T09:00:00Z'
+  parents:
+  - urn:cb:Signal as Bias Field.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - signal
+  - bias field
+  - Global Closure Operator
+  - relational primitives
+  - agency
+  - emergence
+  - MPDC
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - mathematics_logic
+  - systems_engineering
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B2 — Dynamics and Formal Validation`](../../Synthesis Project/B2 — Dynamics and Formal Validation.ormd#signal-bias "meta:corresponds_to"). Signal as substrate-level bias field; causal curvature and attention architecture. Canonical treatment in B2 §3.
+
+# Executive Summary: Signal as Bias Field {#summary-top}
+
+This document synthesizes the relational framework where "Signal" is treated not as a standalone primitive, but as a second-order [emergent phenomenon](#foundation "meta:emerges_from") arising from the [six relational primitives](#foundation "ontological:composes").
+
+## The Nature of Signal and Closure {#nature-of-signal}
+
+Signal is formally defined as a [bias field](#foundation "ontological:defines") that propagates through relational state space, [influencing state transitions](#foundation "dynamical:interacts_with") and closure dynamics. The fundamental rhythm of any relational system is defined by the [Signal-GCO coupling](#core-dynamic "dynamical:interacts_with"). In this dynamic, Signal acts as continuous pressure, while the Global Closure Operator (GCO) serves as the [collapse function](#core-dynamic "dynamical:transforms_to") that [stabilizes the system](#core-dynamic "symmetric:constrains") into discrete commitments.
+
+## Multi-Lens Substrate Analysis {#substrate-analysis}
+
+The underlying substrate [S = ⟨ E, R, C, X, Σ ⟩](#multi-scale-structure "ontological:composes") cannot be observed directly but is [accessed through complementary lenses](#four-lenses "meta:corresponds_to"):
+
+*   **Graph/Relational Lens:** Views signal as [edge weights](#four-lenses "epistemic:measures") and node potentials where GCO [performs graph closure](#four-lenses "ontological:composes").
+*   **Dynamical/Temporal Lens:** Views signal as [forcing terms](#four-lenses "dynamical:interacts_with") biasing trajectories, where GCO [triggers phase transitions](#four-lenses "geometric:causes").
+*   **Information/Epistemic Lens:** Views signal as [measurable quantities](#four-lenses "epistemic:measures") subject to noise, where GCO [compresses information](#four-lenses "epistemic:measures").
+*   **Localization/Scale Lens:** Views signal as [locally coherent patterns](#four-lenses "geometric:embedded_in") where GCO [satisfies gluing conditions](#four-lenses "symmetric:constrains") across scales.
+
+These lenses must maintain [bounded agreement](#cross-lens-coupling "meta:corresponds_to") to ensure system integrity.
+
+## Agency and Emergence {#agency-and-emergence}
+
+Agency [arises naturally](#agency-definition "meta:emerges_from") as the capacity to modulate the coupling between signal and closure. However, this capacity is [limited by signal intensity](#agency-definition "symmetric:limits"); extreme signal pressure can override agentic modulation.
+
+Emergence is modeled through [quotienting operations](#emergence-definition "ontological:composes") where macro-level constraints [shape micro-level signal patterns](#emergence-definition "symmetric:constrains"). These transitions between levels of detail [precede changes](#emergence-definition "geometric:precedes") in the characteristic scales being resolved.
+
+## Observer Limits and Multi-Agent Dynamics {#observer-and-social}
+
+Observers are fundamentally [embedded in the system](#observer-limits "geometric:embedded_in"), leading to the [Meta-Pattern Decidability Conjecture (MPDC)](#observer-limits "epistemic:supports"), which posits that embedded observers cannot fully comprehend their own governing meta-patterns.
+
+In multi-agent environments, signal fields [interfere with one another](#multi-agent-dynamics "dynamical:interacts_with"). Social constructs like trust emerge when these fields [reinforce coherently](#multi-agent-dynamics "epistemic:supports"). Conversely, adversarial actors may seek to [cause disruption](#reference-frames "geometric:causes") by injecting signal at sensitive leverage points.
+
+## Conclusion {#conclusion}
+
+Signal [emerges](#summary "meta:emerges_from") as a [bias field](#summary "ontological:defines") that the GCO [transforms](#summary "dynamical:transforms_to") into stable reality. By understanding signal through its characteristic scales and [embedded nature](#summary "geometric:embedded_in"), we can reason about complex systems while respecting the [bounded agreement](#summary "meta:corresponds_to") of our partial perspectives.

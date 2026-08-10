@@ -1,0 +1,162 @@
+<!-- ormd:1.0 -->
+---
+title: "Human-AI Creative Collaboration Framework (HAIC)"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "governance.collaboration"
+lineage:
+  origin: { uri: "local://haic-framework", ts: "2024-11-21T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["human-ai", "collaboration", "attribution", "framework", "creative-process"]
+resolution: { confidence: 1.0 }
+---
+
+# Human-AI Creative Collaboration Framework (HAIC) {#haic-framework}
+
+11/21/24
+
+## Purpose {#purpose}
+
+This framework [provides](#haic-framework "ontological:defines") a structured approach for documenting and attributing collaborative work between humans and AI systems. It establishes [clear terminology](#transparent-attribution "ontological:composes") and guidelines while promoting transparency and ethical collaboration.
+
+## Core Principles {#core-principles}
+
+### 1. Iterative Refinement {#iterative-refinement}
+
+- Multiple rounds of feedback and improvement
+- Progressive building on shared insights
+- Quality enhancement through [systematic review](#best-practices "epistemic:supports")
+- Continuous adaptation and learning
+
+### 2. Complementary Strengths {#complementary-strengths}
+
+- **Human Contributions:**
+    - Creativity and original concepts
+    - Contextual judgment
+    - Real-world experience
+    - Nuanced understanding
+- **AI Contributions:**
+    - Rapid iteration
+    - Pattern recognition
+    - Structured analysis
+    - Scalable processing
+
+### 3. Transparent Attribution {#transparent-attribution}
+
+- Clear disclosure of contributions
+- [Standardized terminology](#collaboration-models "ontological:defines")
+- Traceable creative process
+- Accountability measures
+
+## Collaboration Models {#collaboration-models}
+
+The following models [are constrained by](#core-principles "symmetric:constrains") the core principles of the framework.
+
+### Primary Categories
+
+### 1. Human-Directed AI Creation (HDAC) {#hdac}
+
+- Human provides concept and direction
+- AI generates content under guidance
+- Human maintains editorial control
+- **Attribution:** "Created via [HDAC process](#hdac "ontological:composes") - human concept with AI generation"
+
+### 2. Iterative Creative Cycle (ICC) {#icc}
+
+- Dynamic idea exchange
+- Multiple feedback cycles
+- Equal creative input
+- Balanced decision-making
+- **Attribution:** "Developed through [ICC methodology](#icc "ontological:composes") - cyclic human-AI collaboration"
+
+### 3. AI-Generated with Human Review (AGHR) {#aghr}
+
+- AI leads content creation
+- Human provides light editing
+- Limited human creative direction
+- **Attribution:** "Generated via [AGHR process](#aghr "ontological:composes") - AI primary creator with human review"
+
+### Specialized Variants
+
+### 4. Rapid Iterative Feedback Loop (RIFL) {#rifl}
+
+- Fast-paced alternation
+- Quick experimentation
+- Rapid refinement cycles
+- **Attribution:** "Developed using [RIFL methodology](#rifl "ontological:composes") - rapid human-AI iteration"
+
+### 5. Structured Knowledge Synthesis (SKS) {#sks}
+
+- AI-driven information organization
+- Human expertise validation
+- Comprehensive analysis
+- **Attribution:** "Created through [SKS process](#sks "ontological:composes") - AI synthesis with expert validation"
+
+## Implementation Guidelines {#implementation-guidelines}
+
+### Standard Attribution Format {#attribution-format}
+
+```
+[Content Type] developed through [Process Type]
+Primary Contributors: [Human Role] + [AI Role]
+Iterations: [Number of major revisions]
+```
+
+### Process Documentation (Optional) {#process-documentation}
+
+1. Initial concept source
+2. Iteration milestones
+3. Key decisions
+4. Review notes
+
+## Example Applications {#example-applications}
+
+These examples [measure the efficacy](#haic-framework "epistemic:measures") of the HAIC framework in real-world scenarios.
+
+### Academic Research {#example-academic}
+
+```
+Research methodology developed through ICC process
+Contributors: Human researcher (concept, validation) + AI (analysis, structure)
+Iterations: 4 major revisions
+```
+
+### Creative Writing {#example-writing}
+
+```
+Story created via HDAC process
+Contributors: Human author (plot, characters) + AI (draft generation, expansion)
+Iterations: 7 major revisions
+```
+
+### Technical Documentation {#example-technical}
+
+```
+Documentation generated through SKS process
+Contributors: Human expert (validation, examples) + AI (content generation, organization)
+Iterations: 3 major revisions
+```
+
+## Best Practices {#best-practices}
+
+1. **Consistent Attribution**
+    - Use [standard format](#attribution-format "symmetric:constrains")
+    - Include all required elements
+    - Be specific about roles
+2. **Process Transparency**
+    - Document key decisions
+    - Track iterations
+    - Maintain clear records
+3. **Role Clarity**
+    - Define responsibilities
+    - Specify contribution areas
+    - Update as roles evolve
+
+## Framework Evolution {#framework-evolution}
+
+The HAIC framework [is designed to evolve](#haic-framework "dynamical:transforms_to") with advancing technology and emerging collaboration patterns. Organizations are encouraged to adapt the framework while maintaining its [core principles](#core-principles "symmetric:preserves") of transparency and ethical collaboration.
+

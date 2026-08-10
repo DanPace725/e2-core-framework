@@ -1,0 +1,233 @@
+# Asymmetry Maintenance
+
+Status: core source draft for promotion
+
+Source basis:
+
+- `staged work/20260612/asymmetry maintenance.md`
+- `staged work/20260612/Asymmetry Maintenance - Integration Review.md`
+- `staged work/20260612/Asymmetry Maintenance and Complex Causality - Paired Candidate Source.md`
+
+Corpus placement: Global Closure Operator / Signal as Bias Field / TCL / persistence mechanics
+
+## 0. Core Claim
+
+Asymmetry Maintenance names the persistence reading of the Global Closure Operator.
+
+It is not a new primitive. It is not a second closure operator beside GCO. It is the GCO seen under the problem of persistence over time: how a usable difference is held open against decay.
+
+Short form:
+
+> Asymmetry Maintenance is the continuous work of preserving usable difference.
+
+Operator form:
+
+```text
+AMM = GCO read under the persistence lens
+MA  = maintained asymmetry, the closed configuration held over time
+AM  = asymmetry maintenance, the repeated work that keeps MA from decaying
+```
+
+AMM is an acceptable handle for the source layer. The naming should remain revisable, but the current term is stable enough for promotion.
+
+## 1. Why Asymmetry Matters
+
+Meaningful existence requires usable difference.
+
+A fully flat field has no gradient, salience, interpretive slope, directional flow, or resolution path. Nothing can be ranked, selected, carried, interpreted, routed, or acted upon unless some difference is available.
+
+Creation and maintenance are distinct:
+
+- creation breaks uniformity and introduces difference;
+- maintenance holds difference against collapse.
+
+The corpus already has the closure machinery. AMM adds a persistence discipline:
+
+> A maintained gradient is not a stored state. It is a perishable structure.
+
+This is the core contribution. A difference may be produced once, but if it must remain usable across time, some system must pay the cost of holding it.
+
+## 2. Relationship to GCO
+
+GCO supplies the closure form. AMM supplies the temporal reading.
+
+The GCO commits a field into a stable enough form for a system to act. AMM asks what it costs to keep that form from dissolving, flattening, drifting, or being externally overwritten.
+
+In this source:
+
+- GCO is the operator;
+- AMM is the operator under persistence pressure;
+- MA is the maintained fixed point or closed configuration;
+- AM is the ongoing loop that returns the system toward the maintained configuration.
+
+This avoids primitive inflation. AMM earns source standing only because it clarifies the energy, margin, and decay conditions that plain closure vocabulary can leave implicit.
+
+## 3. Relationship to Signal as Bias Field
+
+Signal as Bias Field describes continuous pressure before discrete commitment. It shows how signal biases a system toward closure, how salience shapes trajectory, and how agency lives partly in modulation capacity at the signal-closure boundary.
+
+AMM reads that same field dynamically:
+
+- a signal gradient must be maintained to remain usable;
+- a bias field is not merely a setting, but upkeep;
+- the ability to interpret depends on preserving relevant asymmetries long enough for resolution.
+
+Bad interpretation carries the sign while losing the gradient. It preserves a symbol after the asymmetry that made the symbol meaningful has decayed.
+
+## 4. Relationship to TCL
+
+TCL should be used conceptually in this source while literal values remain held loosely.
+
+The relevant TCL idea is the operating window: maintained asymmetry requires enough coupling to avoid stasis and enough modulation capacity to avoid chaotic collapse. AMM does not need to claim that exact TCL constants directly govern every social or ethical domain.
+
+Source discipline:
+
+- use TCL to describe viability, chaos, coupling, delay, and parametric fragility;
+- do not overclaim literal threshold values outside their validated model class;
+- route formal threshold claims through the Maintenance Window validation pass.
+
+In practical terms:
+
+> A system needs margin to maintain asymmetry inside an operating window.
+
+When margin drops below the maintenance requirement, the system cannot hold usable difference. It collapses toward cheap attractors.
+
+## 5. Margin and Cheap Attractors
+
+AMM explains why saturation matters.
+
+A system under pressure does not merely "make worse choices." It loses the capacity to hold alternatives apart long enough for responsible closure. It cannot maintain the meaningful asymmetries required for interpretation, valuation, restraint, agency, or response.
+
+Common cheap attractors include:
+
+- certainty;
+- outrage;
+- apathy;
+- compliance;
+- projection;
+- blame substitution;
+- premature closure;
+- externally supplied category frames.
+
+These are not random failures. They are lower-cost closures available when maintenance capacity has been consumed.
+
+The diagnostic:
+
+> They cannot reach MA because there is no margin for AM.
+
+## 6. Relation as Maintained Asymmetry
+
+A relation is not sameness and not separation. It is a difference held without annihilation.
+
+This makes AMM ethically relevant without turning it into an ethics document. To destroy another system's capacity to maintain its meaningful asymmetries is to attack its relational integrity.
+
+This connects AMM to the Relational Bill of Rights:
+
+- identity requires maintained distinction;
+- self-determination requires room to preserve and modulate internal gradients;
+- closure requires enough persistence for resolution to become the system's own act rather than external capture.
+
+The ethical implication:
+
+> Collapsing another's asymmetry-maintenance capacity is relational harm.
+
+## 7. Scale and Substrate
+
+AMM is substrate-invariant but not substrate-identical.
+
+The same pattern appears across different materials:
+
+- organisms maintain chemical, thermal, structural, and behavioral gradients;
+- minds maintain salience gradients and interpretive distinctions;
+- relationships maintain difference-with-connection;
+- institutions maintain categories, procedures, roles, and memory;
+- cultures maintain symbolic asymmetries across generations.
+
+The parameters change by substrate:
+
+- decay rate;
+- coupling strength;
+- boundary permeability;
+- available energy;
+- modulation capacity;
+- time horizon;
+- cost of restoration;
+- vulnerability to capture.
+
+The source should not flatten these differences. AMM names the shared persistence problem, not a claim that all maintenance is physically identical.
+
+## 8. Relationship to Complex Causality
+
+Complex Causality is AMM's companion source.
+
+AMM asks how a deformation or gradient is held. Complex Causality asks how deformations move, commit, propagate, and stabilize into terrain.
+
+Paired compression:
+
+```text
+AMM: how usable difference is maintained
+CC:  how difference propagates through consequence
+```
+
+They should cross-reference each other wherever a source claim moves from persistence into propagation or from propagation back into maintenance.
+
+AMM should not absorb causality. Complex Causality should not absorb AMM. The distinction is useful:
+
+- AMM is persistence mechanics;
+- Complex Causality is propagation mechanics.
+
+## 9. Relationship to Remnant Stewardship
+
+Remnant Stewardship asks what remains after closure, production, loss, abstraction, harm, or transformation.
+
+AMM explains why unheld remainder accumulates. When systems maintain coherence by exporting entropy, cost, confusion, or responsibility down-gradient, the receiving system loses maintenance margin. The sending system appears stable because the remainder has left its ledger. The receiving system becomes saturated.
+
+Source relation:
+
+- AMM diagnoses the maintenance burden;
+- Complex Causality traces how the burden propagates;
+- Remnant Stewardship asks whether what remains is metabolized, preserved, repaired, released, or displaced.
+
+## 10. Diagnostics
+
+Use AMM when asking:
+
+- What usable difference is being maintained?
+- What would happen if the maintenance stopped?
+- Who or what pays the maintenance cost?
+- Is the system preserving a live gradient or only a sign of one?
+- What margin does maintenance require?
+- Has margin been consumed by overload or extraction?
+- What cheap attractor appears when maintenance fails?
+- Is an actor preserving another system's asymmetry or collapsing it?
+- Is an institution maintaining coherence by exporting maintenance burden elsewhere?
+
+## 11. Load-Bearing and Held-Loosely Claims
+
+Load-bearing:
+
+- AMM is GCO under the persistence lens, not a new primitive.
+- A maintained gradient is a perishable structure requiring continuous upkeep.
+- AM and MA are action/state readings of one process.
+- Meaningful relation requires usable difference.
+- Loss of margin causes collapse toward cheap attractors.
+- Collapsing another system's asymmetry-maintenance capacity is relational harm.
+
+Held loosely:
+
+- AMM is the working handle, acceptable for promotion but still revisable.
+- Literal TCL values should not be transferred directly into unvalidated domains.
+- Physical, cognitive, relational, social, and ethical uses of "energy," "margin," and "gradient" require scope markers.
+- The totalizing temptation should be resisted: AMM is a useful persistence lens, not the whole framework.
+
+## 12. Promotion Note
+
+This document is ready to function as the unique source draft for Asymmetry Maintenance.
+
+Before migration into the active Semantic Substrate, confirm cross-links to:
+
+- `Complex Causality - Core Source.md`
+- `Remnant Stewardship - Core Source.md`
+- `Maintenance Window - Validation Checklist.md` once created
+- GCO, SBF, TCL, RBoR, TC/EO, and MMPS in the existing corpus
+

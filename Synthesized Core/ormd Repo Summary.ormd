@@ -1,0 +1,73 @@
+core <!-- ormd:1.0 -->
+---
+title: "ORMD: Open Relational Markdown Repository Summary"
+authors: ["Daniel Pace"]
+
+# CLP ContextBundle Integration
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: ormd", ts: "2025-05-28T12:00:00Z" }
+  parents: ["urn:cb:ormd-spec-v1.0"]
+policy:
+  read: [{ roles: ["developer", "architect", "user"] }]
+semantics:
+  keywords: ["markdown", "relational-data", "cli", "document-format", "provenance"]
+resolution: { confidence: 1.0 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#ormd "meta:corresponds_to"). ORMD codebase: parser, validator, updater, typed link architecture. Canonical treatment in B4 §3.
+
+# Open Relational Markdown (ORMD) Codebase Synthesis
+
+The **Open Relational Markdown (ORMD)** repository is a comprehensive implementation of a next-generation document format designed to replace static formats like PDF with a human-readable, machine-processable, and semantically rich substrate. The project [composes](#ormd-cli "ontological:composes") a Python-based CLI toolset, a formal specification, and a relational logic layer.
+
+## 1. Core Architecture {#core-architecture}
+
+The system is built around the principle that a document is an active data structure. The architecture [is defined by](#parser "ontological:defines") the separation of metadata (YAML front-matter), content (CommonMark), and semantic relationships (Relational Primitives).
+
+### 1.1 The CLI System {#ormd-cli}
+The `ormd_cli` package [serves as](#main-logic "meta:corresponds_to") the primary interface for document lifecycle management. It [transforms](#updater "dynamical:transforms_to") raw markdown into validated ORMD artifacts.
+
+*   **Main Entry Point**: `main.py` [coordinates](#main-logic "geometric:precedes") all commands including `create`, `validate`, `update`, and `render`.
+*   **Parsing Engine**: `parser.py` [defines](#parser "ontological:defines") the structural boundaries of the document, extracting the version tag, YAML block, and body.
+*   **Validation Engine**: `validator.py` [measures](#validator "epistemic:measures") document integrity against the [schema](#schema "symmetric:constrains").
+
+## 2. Component Breakdown {#components}
+
+### 2.1 Data Integrity & Schema {#schema}
+The `schema.py` module [constrains](#schema "symmetric:constrains") the metadata layer. It ensures that all documents adhere to the Phase 1 requirements, including required fields like `title`, `authors`, and `links`. This module [supports](#validator "epistemic:supports") the validator by providing type-checking for ISO 8601 dates and ORCID identifiers.
+
+### 2.2 The Relational Layer {#relational-layer}
+A key innovation of ORMD is the semantic linking system.
+*   **Link Extraction**: The `parser.py` [identifies](#parser "epistemic:measures") inline links formatted as `[text](target "rel")`.
+*   **Metadata Sync**: `updater.py` [transforms](#updater "dynamical:transforms_to") these inline links into formal entries within the YAML front-matter, ensuring the document's internal graph is always synchronized with its prose.
+
+### 2.3 Conversion & Rendering {#rendering}
+*   **Converter**: `converter.py` [interacts with](#converter "dynamical:interacts_with") legacy formats, utilizing `pdfminer.six` to [transform](#converter "dynamical:transforms_to") PDFs and plain text into ORMD.
+*   **HTML Generator**: `html_generator.py` [corresponds to](#rendering "meta:corresponds_to") the presentation layer, converting relational links into interactive D3.js visualizations and sticky sidebars.
+*   **Server**: `server.py` [enables](#server "dynamical:interacts_with") a local preview environment for real-time editing and viewing.
+
+## 3. Relational Mapping of Systems {#mapping}
+
+The following primitives describe the internal physics of the codebase:
+
+1.  **Ontological**: The `ORMDFrontMatter` dataclass in `schema.py` [composes](#schema "ontological:composes") the identity of an ORMD document.
+2.  **Dynamical**: The `ORMDUpdater` in `updater.py` [transforms](#updater "dynamical:transforms_to") a document's state by recalculating word counts and timestamps.
+3.  **Geometric**: The `validate` command [precedes](#validator "geometric:precedes") the `pack` command in the standard publishing workflow.
+4.  **Symmetric**: The `FrontMatterValidator` [constrains](#schema "symmetric:constrains") the allowed metadata fields to prevent "configuration explosion."
+5.  **Epistemic**: The `tests/` suite [supports](#components "epistemic:supports") the claim of system stability, with 64+ tests covering edge cases.
+6.  **Meta**: The `charter.md` [defines](#core-architecture "meta:defines") the project's vision, which the implementation [corresponds to](#ormd-cli "meta:corresponds_to").
+
+## 4. Technical Specifications {#specs}
+
+| Component | Responsibility | Primitive Relation |
+| :--- | :--- | :--- |
+| `parser.py` | Regex-based extraction | [Defines Structure](#parser "ontological:defines") |
+| `validator.py` | Schema & Link checking | [Enforces Rules](#validator "symmetric:constrains") |
+| `updater.py` | Auto-metadata population | [Evolves State](#updater "dynamical:transforms_to") |
+| `packager.py` | ZIP/Archive management | [Composes Package](#ormd-cli "ontological:composes") |
+| `converter.py` | PDF/MD/TXT Import | [Interacts with Legacy](#converter "dynamical:interacts_with") |
+
+## 5. Conclusion {#conclusion}
+
+The ORMD codebase is a robust realization of the "Markdown with Superpowers" philosophy. By integrating [strict validation](#validator "symmetric:constrains") with [automated metadata management](#updater "dynamical:transforms_to"), it creates a document format that is as easy to edit as a text file but as reliable as a database. The system [emerges from](#core-architecture "meta:emerges_from") the need for a portable, future-proof alternative to proprietary document silos.

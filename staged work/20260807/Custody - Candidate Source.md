@@ -1,0 +1,487 @@
+# Custody Machinery
+
+Status: candidate source; reconstructed machinery after construct absorption
+
+Date: 2026-08-10
+
+Corpus placement: assignment / custody / stewardship interface; downstream of Relational Localization and Boundary Dynamics; adjacent to Trust, Reliance, Proxy Localization, Complex Causality, Consequence Routing, Remnant Stewardship, AOMI, and institutional assurance
+
+Integration role: restores the operational lifecycle of custody as a distinct source without promoting custody to a root primitive
+
+## 0. Core Claim
+
+Custody has been present throughout the corpus but progressively absorbed into broader machinery: Relational Localization carried admissible assignment, Consequence Routing carried answerability, stewardship carried posture and regenerative obligation, Proxy Localization carried guardianship, and the emerging Trust work carried vulnerability under monitoring gaps. The corpus can therefore say when custody is assignable and why it matters, but not in one place how custody operates from entry to exit.
+
+This source restores that machinery.
+
+The inherited definition is:
+
+> Custody is bearing plus standing answerability: a localized bearer remains exposed to future consequence-routing for a custody referent held across a period in which complete control, observation, access, or direct self-management is unavailable.
+
+Short form:
+
+> Custody is answerable holding across a gap.
+
+The gap may be observational, operational, temporal, capability-based, access-based, or a voice/register gap. The custody referent may be an object, resource, body, process, record, secret, capability, institution, ecosystem, model, account, future option-space, or a scoped relation of care or authority concerning an agentic substrate.
+
+Where the referent is a person or other agentic or entity-constitutive substrate, custody governs only a scoped relation of care, access, safety, protection, representation, or legally bounded authority. It never constitutes ownership of the substrate itself. Participation, rights, voice, contestability, and the burden of justification rise with the custodian's reshape capacity.
+
+Custody is not synonymous with trust, reliance, ownership, guardianship, or stewardship:
+
+- **Trust** concerns willingness to accept specified vulnerability under uncertainty.
+- **Reliance** is the coupling or dependency through which exposure occurs.
+- **Custody** is the standing answerability attached to consequential holding across that exposure or gap.
+- **Ownership** may include custody obligations but remains a different assignment class.
+- **Guardianship** is a proxy-bearing specialization of custody where the referent cannot fully self-account in the governing register.
+- **Stewardship** is custody run under a regenerative criterion and ethical posture.
+
+Custody is a late P6 closure over an already localized relation. It is machinery for answerable bearing, not a new primitive.
+
+## 1. Source Basis And Construct Boundary
+
+### 1.1 Relational Localization
+
+Relational Localization establishes the governing admissibility bound:
+
+```text
+A_x admissible iff Q_O(t) >= Q_min(x)
+```
+
+Custody is one assignment class `x`. It cannot validly close until the field is resolved enough to distinguish the candidate bearer, relevant relation, boundary state, consequence profile, and assignment legitimacy at the grain demanded by the stakes.
+
+The inherited bearing family is:
+
+```text
+Holding      = stance-with, assignment-salient
+Containing   = stance-with + stance-against
+Carrying     = stance-with under displacement
+Bearing      = stance-with + consequence-receipt over time
+Charge       = bearing + open settlement obligation back to a delegator
+Custody      = bearing + standing answerability
+Stewardship  = custody + regenerative criterion, run under the posture
+```
+
+Custody inherits the localization trace, contestability, lawful coarsening, de-localization, and stale-assignment machinery.
+
+### 1.2 Proxy Localization
+
+Where a custody referent cannot fully self-account, custody must preserve the proxy distinction. Guardian testimony, interest models, translation, and constructed standing may enter the relation, but remain marked as proxy. The guardian or custodian is a field actor with interests and reshape capacity, not a neutral mouthpiece.
+
+Where self-management or self-account capacity can grow, custody should progressively reduce the need for proxy custody rather than maximize dependency. Where withdrawal is impossible, standing should be pluralized, rotated, audited, or otherwise made externally contestable.
+
+### 1.3 Complex Causality, Consequence Routing, And Remnant Stewardship
+
+Custody is meaningful because consequences propagate. A custodian is answerable not merely for possession, but for deformations they control, preserve, amplify, conceal, redirect, or have standing obligation to address.
+
+A custody system that fragments action until no bearer remains reachable does not eliminate consequence. It launders responsibility. Consequence Routing owns the movement of the resulting pressure; Remnant Stewardship owns what remains after custody, breach, repair, transfer, or discharge.
+
+### 1.4 Trust And Institutional Assurance
+
+Trust may motivate voluntary entry into custody, but custody can also arise through law, office, necessity, inheritance, emergency, technical architecture, possession, or coercive structure. Trust may explain why custody is granted. It does not explain what custody requires once the relation exists.
+
+Institutional assurance can reduce or redistribute vulnerability. It does not prove interpersonal trust or dissolve custodial answerability.
+
+## 2. Custodial Position, Valid Assignment, And Obligation
+
+Three objects must remain distinct:
+
+### Custodial position
+
+A bearer factually controls, holds, mediates, or materially gates access to a consequential referent across a gap.
+
+### Valid custody assignment
+
+The custodial position has been localized and legitimately authorized at a resolution adequate to its stakes.
+
+### Custodial obligation
+
+Answerability may attach because of actual control even where acquisition, authorization, or assignment is absent, defective, involuntary, or contested.
+
+Invalid acquisition cannot create legitimate authority. It can still create duties not to exploit, damage, expose, conceal, or abandon the referent. Technical architecture may create a de facto custodial position; it cannot manufacture legitimate authority by itself.
+
+A valid custody assignment states:
+
+> This bearer is answerable for this custody referent, in this domain, under this authority and these limits, for this interval.
+
+Minimum localization requires:
+
+- custody referent and its representations;
+- bearer or distributed bearer set;
+- originating condition or assigning source;
+- assignment basis and legitimacy;
+- domain, purpose, and expected conduct;
+- authority, limits, and escalation conditions;
+- consequence profile and affected parties;
+- monitoring, control, capability, or access gap;
+- bearer capacity and granted reshape capacity;
+- contest and repair paths;
+- re-localization triggers;
+- return, succession, and discharge conditions;
+- unresolved components.
+
+Where these cannot be localized at the required grain, the lawful moves are inherited from Relational Localization: slow down, coarsen the assignment, distribute standing, expand capacity, preserve contestability, or leave remainder explicitly unresolved.
+
+## 3. Bearer Capacity And Reshape Capacity
+
+Custody cannot be assigned merely because a bearer is available or morally willing.
+
+Custody uses three typed profiles:
+
+```text
+C_B = bearer capacity profile
+C_K = consequence and pressure profile of the custody relation
+C_R = reshape-capacity profile granted or exposed by the position
+```
+
+These are multidimensional profiles, not universally measurable scalars. Their components may have unlike units and must not be summed into a single cross-domain custody score without a domain-specific model and evidence.
+
+A candidate custodian must have enough capacity in the relevant registers to carry ordinary and reasonably foreseeable load. If `C_K` persistently exceeds `C_B`, custody is structurally misassigned even if the bearer is willing. Systems often disguise this capacity failure as character failure.
+
+Custody also grants powers capable of modifying the conditions under which the referent will later be evaluated. Higher `C_R` raises the admissibility threshold, participation requirement, rights burden, and trace burden. A custodian who authors the category cannot be evaluated only by consistency inside that category.
+
+Bearer capacity changes. Illness, overload, staffing loss, financial change, technical degradation, developmental change, conflict of interest, or increased consequence weight can make a once-valid assignment stale. Custody therefore requires scheduled or event-triggered re-localization and an obligation to disclose incapacity before assumption where refusal is available, or promptly after incapacity becomes known where assignment is imposed.
+
+## 4. Referent Fidelity, Authority, And Limits
+
+The custody referent must not disappear behind the machinery designed to protect it. A custody trace distinguishes:
+
+```text
+custody referent
+representations of the referent
+metrics and proxies
+custodian account
+third-party accounts
+unresolved remainder
+```
+
+The proxy may guide custody. It may not become the referent unnoticed. Optimizing the metric, procedure, institution, or custodian role while the referent degrades is referent substitution or custody capture.
+
+Custody grants standing answerability, not unlimited dominion. Every valid assignment carries an authority envelope:
+
+```text
+Authority  = actions licensed in service of the custody purpose
+Limits     = actions excluded despite capability
+Escalation = conditions requiring additional standing before action
+```
+
+The envelope is scoped by purpose, necessity, proportionality, consequence weight, reversibility, participation, rights floors, contestability, and duration. Technical ability is not evidence of authority. Where irreversible action is unavoidable, the burden of prior localization rises.
+
+## 5. The Gap And Assurance
+
+Custody becomes salient where observation, direct control, access, capability, or self-account is incomplete. The gap may exist because a party is absent; the referent cannot fully self-report; the process outruns continuous oversight; expertise or private access is asymmetric; privacy must be preserved; or an institution delegates discretion.
+
+The gap is not automatically a defect. Life, agency, privacy, expertise, and delegation often require unobserved space. The custody problem is therefore:
+
+> Keep answerability reachable across the gap without converting custody into total surveillance.
+
+Assurance may include declared audits, redundancy, dual control, escrow, appeal, review, logging, rate limits, succession planning, insurance, staged authority, independent oversight, and rollback. Assurance should be proportionate, purpose-bound, and contestable. Covert loyalty tests and indefinite asymmetric surveillance alter the evidence field and are not neutral measurements of custody performance.
+
+## 6. Custody Lifecycle
+
+### Phase 0 — Localization
+
+Identify the referent, candidate bearers, domain, consequence profile, assignment quality, capacity, legitimacy, participation needs, and unresolved components. Premature assignment is custody laundering.
+
+### Phase 1 — Assumption
+
+Standing answerability arises through direct entrustment, delegated office, lawful assignment, voluntary assumption, emergency necessity, inheritance, succession, possession, or technical and institutional structure. The trace records the path and whether the relation is validly assigned, de facto, or contested. Necessity explains entry but does not erase later review, legitimation, or contest requirements.
+
+### Phase 2 — Bearing
+
+The custodian preserves referent fidelity, acts within the authority envelope, maintains required conditions, routes foreseeable consequence, resists convenience-based authority expansion, and preserves enough margin to continue coherently.
+
+### Phase 3 — Monitoring And Re-Localization
+
+Monitor referent state, bearer capacity, consequence profile, conflicts, gap changes, authority creep, proxy drift, and institutional conditions. When the field moves, the custody sign must move with it.
+
+### Phase 4 — Delegation And Sub-Custody
+
+Delegation may transfer performance without automatically transferring or extinguishing answerability. Record the delegated function, accompanying authority, upstream and downstream answerability, supervision, failure path, and whether further delegation is permitted.
+
+### Phase 5 — Transfer And Succession
+
+Transfer changes the primary bearer. Succession is transfer triggered by exit, incapacity, development, death, institutional change, time, or another continuity rule. Valid transfer requires successor capacity, re-issued authority where conditions changed, trace and remainder routing, participation where possible, contest preservation, and an explicit account of obligations that remain with the prior bearer.
+
+Remainder does not automatically follow custody and does not disappear at transfer. The trace must state what moves to the successor, what remains with the prior bearer, and what is routed elsewhere.
+
+### Phase 6 — Breach
+
+A breach occurs when custody falls outside its valid authority, capacity, fidelity, or answerability envelope and material remainder is created or concealed. Candidate classes include:
+
+- referent damage, loss, exposure, degradation, foreclosure, or unauthorized transformation;
+- authority breach;
+- abandonment without valid return, transfer, or emergency routing;
+- undisclosed capacity failure;
+- observability or trace suppression;
+- unauthorized or responsibility-destroying delegation;
+- proxy substitution;
+- stale assignment;
+- custody capture.
+
+This is a diagnostic family, not a proven minimal taxonomy.
+
+### Phase 7 — Contest
+
+Contest may challenge the bearer, referent definition, representation, authority envelope, capacity, alleged breach, repair, or continuation. Where positioned localizations conflict, the system should use a gluing protocol rather than fabricate agreement. Lawful outputs include coarser shared closure, bounded disagreement, temporary protection, independent review, or explicit unresolved remainder.
+
+### Phase 8 — Repair
+
+Repair asks whether the referent can be restored, lost option-space reopened, exposure contained, authority narrowed, monitoring improved without destroying agency or privacy, the custodian replaced, and residual remainder honestly routed. Repair of the referent and repair of the custody assignment are separate closures. Successful repair does not automatically restore trust or reinstate custody.
+
+### Phase 9 — Return
+
+Return re-transfers the referent or practical control to a party, substrate, institution, or successor with standing to receive it. Where greater self-account or self-management is part of the custody purpose, valid custody should help make its continuation unnecessary. Parenting, rehabilitation, trusteeship, technical recovery, and temporary administration can instantiate this structure without being identical domains.
+
+### Phase 10 — Discharge
+
+Discharge closes standing answerability for the assignment. It requires more than a declaration of completion:
+
+- the referent has been returned, transferred, lawfully retired, or otherwise settled;
+- pending consequence-routing is identified;
+- repair obligations are settled or separately assigned;
+- required traces are preserved for a proportionate interval, subject to privacy, legitimate deletion, and record-retention limits;
+- contest windows are satisfied where applicable;
+- no concealed remainder is dumped onto a weaker or future bearer;
+- the custody sign is retired so stale assignment does not persist.
+
+Discharge can be partial. Active control may cease while confidentiality, recordkeeping, restitution, disclosure, or other residual obligations survive.
+
+## 7. Custody Trace
+
+Custody specializes the localization trace:
+
+```text
+CustodyTrace = {
+  custody_referent,
+  referent_representations,
+  custodian_or_bearer_set,
+  originating_condition_or_assigning_source,
+  affected_parties,
+  custody_domain,
+  assignment_basis,
+  assignment_status,
+  assignment_quality,
+  bearer_capacity_profile,
+  consequence_profile,
+  reshape_capacity_profile,
+  authority,
+  limits,
+  expected_conduct,
+  gap,
+  assurance_mechanisms,
+  proxy_inputs,
+  conflicts_of_interest,
+  delegation_chain,
+  transfer_history,
+  contest_rights,
+  breach_events,
+  repair_obligations,
+  unresolved_remainder_routes,
+  relocalization_triggers,
+  return_condition,
+  discharge_condition,
+  residual_obligations,
+  current_status
+}
+```
+
+This is a candidate schema, not canonical notation. Its purpose is invertibility: from a present state, it should remain possible to reconstruct how the position arose, what is held, what authority exists, what changed, what was delegated, where consequence traveled, and why each current bearer is answerable.
+
+Low-stakes custody may use a compressed trace. Higher power, consequence weight, irreversibility, proxy dependence, or reshape capacity requires a richer trace.
+
+## 8. Delegation, Transfer, And Answerability Continuity
+
+The routing-preservation rule is:
+
+> Changing the bearer does not by itself settle or erase an obligation.
+
+This is a procedural invariant, not a conservation law over blame or a scalar quantity of responsibility.
+
+- **Delegation:** another bearer performs some function while upstream answerability may remain.
+- **Transfer:** primary custody standing moves to another bearer.
+- **Succession:** transfer follows a continuity rule triggered by a defined transition.
+
+All require a visible routing path. Shared or distributed custody should record a bearer set, the domain allocated to each bearer, jointly held obligations, coordination and contest routes, and the rule used when no single bearer is sufficient. Distribution must not produce practical nobody-responsibility.
+
+## 9. Custody Laundering
+
+Custody laundering occurs when a system benefits from something being held, managed, protected, represented, or controlled while obscuring where answerability sits.
+
+Patterns include:
+
+- nominal custody without capacity;
+- practical custody without formal authority;
+- authority without answerability;
+- answerability without control or escalation access;
+- delegation chains exceeding observability;
+- upstream benefit with downstream blame;
+- proxy custody that silences the referent;
+- temporary custody that quietly becomes permanent;
+- assignments retained after capacity or referent conditions change;
+- discharge declarations exporting repair or remainder.
+
+Diagnostic:
+
+> After every transfer, failure, or closure, is there still a reachable locus that can answer for what remains?
+
+## 10. Trust, Reliance, And Assurance
+
+The emerging Trust source should not absorb this machinery:
+
+```text
+Trustworthiness estimate  What evidence supports expecting relevant conduct?
+Trust                     Is specified vulnerability accepted under uncertainty?
+Reliance                  Did coupling, dependency, transfer, or exposure occur?
+Custody                   Once a referent is held across a gap, who is answerable and how?
+```
+
+Custody can exist with low interpersonal trust when law, necessity, monopoly, office, technical structure, or institutional assurance creates reliance. Trust can exist without custody where vulnerability is accepted but no stable custody referent enters another party's continuing control or standing answerability.
+
+Institutional assurance supports custody by reducing breach probability or magnitude, increasing observability, preserving trace, improving contestability, funding repair, enabling succession, and preventing single-point failure. High and low trust can each coexist with high or low assurance.
+
+## 11. Proxy And Guardian Custody
+
+Proxy custody inherits ordinary custody machinery plus:
+
+- deficit-location audit before proxy installation;
+- explicit marking of proxy evidence;
+- behavioral or substrate veto where available;
+- beneficiary and conflict analysis of the guardian;
+- substitution checks;
+- scheduled re-localization;
+- withdrawal or handback where self-account or self-management can grow;
+- rotation, plural guardianship, or external contest where withdrawal cannot occur.
+
+Custody may authorize protective action. It does not automatically authorize ontological authorship.
+
+`Self-custody` is a reflexive specialization for the scoped control a substrate exercises over its own body, data, capability, access, or option-space. Handback to self-custody means restoring that control and standing where the relevant capacity and rights permit; it does not erase residual duties held by prior custodians.
+
+## 12. Custody Across Scale
+
+At direct human scale, referent and bearer may be visible and repair immediate. At institutional scale, custody may distribute across roles, records, systems, policies, and contractors; the trace must preserve reachable answerability. At civilizational or future-facing scale, custody may need to coarsen into institutional or collective standing, possibility preservation, and duties on present actors rather than fictional preference attribution to future ones.
+
+The Resolution-Responsibility Law applies throughout. Where speed, scale, or complexity outruns available resolution, custody claims must coarsen or the system must expand capacity before pretending to finer answerability.
+
+## 13. Negative Cases
+
+- **Reliance without trust, custody present:** funds must be placed with a distrusted institution that nonetheless bears custody duties.
+- **Trust without custody:** a collaborator's consequential judgment is trusted and acted upon, but no stable referent enters their continuing control.
+- **Custody without ownership:** a mechanic holds a customer's vehicle for repair.
+- **Ownership without active custody:** an owner delegates practical custody while retaining residual ownership obligations.
+- **High assurance, low trust:** organizations use escrow, audit, and staged release.
+- **De facto custody without authority:** an unauthorized holder controls private records and has duties not to expose them but no license to use them.
+- **Proxy custody with withdrawal:** guardian authority narrows as self-account and capacity increase.
+- **Delegation without discharge:** a hospital delegates medication administration without erasing institutional answerability.
+- **Transfer with routed remainder:** a successor receives the referent and a declared breach investigation, while some prior-bearer duties remain upstream.
+- **False discharge:** an administrative closure leaves unresolved harm and repair downstream.
+
+## 14. Diagnostics
+
+Ask:
+
+- What is the custody referent, and what are merely its representations?
+- Who occupies a custodial position, and is the assignment valid, de facto, or contested?
+- How did standing or control arise?
+- Is the assignment admissible at the current resolution?
+- Does the bearer have adequate typed capacity?
+- What authority exists, and what are its hard limits?
+- What gap makes custody salient?
+- What assurance operates across the gap?
+- Has a proxy, metric, or institution displaced the referent?
+- What answerability remains upstream after delegation?
+- How are transfer, succession, and remainder routed?
+- Who can contest the relation or action?
+- What constitutes breach and what repair is owed?
+- Can control return to the referent or another rightful bearer?
+- What actually discharges the assignment?
+- Has the custody sign become stale?
+- Who benefits while answerability is routed elsewhere?
+
+## 15. Status Boundaries
+
+Load-bearing from the existing corpus:
+
+- Custody is a late P6 assignment downstream of Relational Localization.
+- Assignment cannot commit more precision than the resolution that feeds it.
+- Custody requires a bearer-capacity check.
+- Custody is bearing plus standing answerability.
+- Trace, contestability, and re-localization are mandatory.
+- Stale custody assignment is a first-class failure.
+- Proxy custody must preserve marked proxy status and withdrawal where possible.
+- Consequence and remainder do not vanish when routing becomes opaque.
+- Trust, reliance, assurance, and custody are distinguishable.
+
+Provisional synthesis introduced here:
+
+- the Phase 0–10 lifecycle;
+- the valid-assignment / de facto-position / custodial-obligation distinction;
+- the explicit authority envelope;
+- the delegation / transfer / succession distinction;
+- the breach family;
+- the `CustodyTrace` schema;
+- the answerability-continuity rule;
+- the explicit separation of return from discharge;
+- reflexive self-custody notation.
+
+These should be pressure-tested rather than treated as canonical vocabulary merely because they fit elegantly.
+
+## 16. Placement And Handoffs
+
+```text
+Boundary Dynamics
+    ↓
+Relational Localization
+    ↓
+Custody Machinery
+    ├──→ Trust / Reliance
+    ├──→ Proxy Localization
+    ├──→ Complex Causality / Consequence Routing
+    └──→ Stewardship
+```
+
+- Relational Localization asks whether custody can validly be assigned and at what grain.
+- Custody Machinery asks what is held, by whom, under what authority, across what gap, through what lifecycle, with what answerability.
+- Trust asks why vulnerability is accepted and what evidence supports it.
+- Proxy Localization asks how custody proceeds when self-account cannot fully enter the closure.
+- Complex Causality and Consequence Routing ask what happened and where consequence went.
+- Remnant Stewardship asks what remains after custody, breach, repair, transfer, or discharge.
+
+## 17. Open Questions
+
+- Under what domain conditions can answerability fully transfer rather than performance alone being delegated?
+- Which obligations survive return and block full discharge?
+- What minimum assurance is required as gaps widen without collapsing into surveillance?
+- How should a custody referent that changes identity, capacity, or category be re-localized?
+- What retroactive legitimation and contest requirements govern necessity custody?
+- What is the minimum viable low-stakes trace versus a high-power trace?
+- Does successful custody erode its own anchor only where restoration of self-management is part of the purpose?
+- When should distributed custody use joint standing, partitioned standing, or both?
+
+## 18. Preliminary Validation Path
+
+Test at least:
+
+- valid institutional custody without interpersonal trust;
+- trust without custody;
+- de facto custody carrying obligations but no authority;
+- a willing but overloaded candidate custodian;
+- delegation that preserves upstream answerability;
+- capacity loss requiring transfer or re-localization;
+- proxy handback toward self-management;
+- stale custody;
+- transfer with explicitly divided remainder;
+- attempted discharge with unresolved remainder.
+
+These are discrimination tests, not proof that the lifecycle or breach family is universally complete.
+
+## Preliminary Test Record
+
+Deterministic test run `2026-08-10`: 10/10 designed custody cases classified as expected. The suite admitted institutionally assured custody without interpersonal trust, distinguished trust without custody and de facto obligation without authority, rejected a willing but overloaded candidate, preserved upstream answerability under delegation, required re-localization after capacity loss, admitted proxy handback, rejected stale custody and false discharge, and preserved divided remainder routes at transfer.
+
+This validates construct and lifecycle discrimination only. It does not establish legal validity, empirical completeness, or a universal breach taxonomy.
+
+Results: `tests/results/CANDIDATE_TEST_REPORT.md`
+
+## Final Compression
+
+Custody is answerable holding across a gap. A valid assignment begins after sufficient localization, but factual control may create custodial obligations even without legitimate authority. Custody is bounded by typed bearer capacity and scoped authority, persists through gaps by trace and contestability, survives delegation only while answerability remains routable, changes when the field changes, treats breach as repair and routing, and ends only through valid return, transfer, succession, or discharge without laundering remainder.

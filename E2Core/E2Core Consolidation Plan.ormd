@@ -1,0 +1,136 @@
+<!-- ormd:1.0 -->
+---
+title: "E2Core Consolidation, Condensation & Reorganization Plan"
+authors: ["Claude (proposed for Daniel Pace)"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "meta.plan.consolidation"
+lineage:
+  origin: { uri: "urn:ormd:e2core-consolidation-plan:2026-06-12", ts: "2026-06-12T00:00:00Z" }
+  parents: ["urn:ormd:context-layer-index:2026-06-12"]
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["consolidation", "condensation", "reorganization", "lineage", "remnant stewardship", "exposure protocol", "resolution honesty"]
+resolution: { confidence: 0.85 }
+---
+
+# E2Core Consolidation, Condensation & Reorganization Plan {#plan}
+
+*Proposal — 2026-06-12. Confidence 0.85: working plan, pending your review. Nothing here is executed.*
+
+## Governing Principles {#principles}
+
+The plan applies the framework to itself. Each operation is constrained by:
+
+1. **Remnant Stewardship — archive, never delete.** Superseded documents move to a lineage archive and are recorded as `parents:` of their successors. Consolidation that destroys provenance would be exactly the "data travels, meaning doesn't" failure CLP exists to prevent.
+2. **Resolution honesty (CLP).** Condensation must not claim more confidence than the source material. Every condensed document keeps its derivation trail attached — answers with their limits and causes.
+3. **Temporal Compression ethics.** Compression changes regime, not just scale. So condensation is staged (one cluster at a time), reversible (archive intact), and never performed on a document and its archive in the same step.
+4. **Exposure Protocol — Invitation → Structure → Integration.** The reorganized corpus should itself teach progressively: an entry layer, a canonical layer, a derivation/archive layer. Intentional occlusion of depth is a feature, not loss.
+5. **Reverent Stewardship — be the condition, not the cause.** Where two documents hold a productive tension (e.g., the TCL plain-English/technical pair), keep the pair; don't collapse living distinctions for tidiness.
+
+---
+
+## Part 1 — Consolidation (structural deduplication) {#consolidation}
+
+### 1.1 Resolve the three-copies problem {#three-copies}
+
+The same corpus currently exists in three places:
+
+- `E2Core/Context Layer` — 90 .ormd + index (canonical candidate)
+- `E2Core/Semantic Substrate` — 90 .md mirrors of the same documents, stripped of CLP frontmatter and semantic links
+- `Phase 1/Context Layer` (parent folder) — 272 files, 83 of which duplicate E2Core files
+
+**Proposal:** Declare `E2Core/Context Layer` the single source of truth. The Semantic Substrate becomes a *build artifact* — regenerated from the .ormd files by a script (frontmatter/link stripping is mechanical), not hand-maintained. One document exists *only* in the Substrate (`Our essence exists in the space between us.md`) — rescue it into the Context Layer with proper frontmatter before anything else. The 83 duplicates in the parent `Phase 1/Context Layer` should be marked (or removed there) so edits can't fork; the parent folder remains the wider archive/intake pool from which E2Core curates.
+
+### 1.2 Merge near-duplicates (each merge: new doc, both sources in `parents:`, sources archived) {#merges}
+
+| Merge | Sources | Basis |
+|-------|---------|-------|
+| Collective Cognitive Substrate | `CCS.ormd` + `Collective Cognitive Substrate.ormd` | Body text near-identical; same frame, one day apart |
+| Collective Relational Substrate | `CRS.ormd` + `The Collective Relational Substrate.ormd` | Same paper (v0.1), two encodings, Feb 19/20 |
+| MRIE — Unified Synthesis | `Meta-Relational Identity Exposure (MRIE).ormd` + `MRIE Synthesis.ormd` | Twin same-day syntheses of one insight |
+| Power Through the E² Lens | `Power.ormd` + `Power as Relational Field Coherence.ormd` | Same topic, July/Aug 2025; PRFC is the formal treatment, Power.ormd the dialogic precursor |
+| Communication as Coherence | `Communication as Coherence.ormd` + `Communication as Complexity Reduction.ormd` | Same thesis, same day (6/3/25), two registers |
+| REMF (canonical) | `REMF.ormd` + `Rema v2.ormd` | REMF (8/4) explicitly supersedes and contains REMA (7/10) |
+| Relational Primitives V3 (canonical) | `Relational Primitives V3.ormd` ⊃ `Relational Ontology Derived from First Principles.ormd` | V3 contains and extends the earlier paper; earlier paper → archive as parent |
+| Resonance Synthesis *(optional)* | The April 2025 trio (`Resonance Architecture 4.17`, `Ontological Map 4.24`, `Architecture of Resonant Systems 4.26`) | Distinct facets (epistemology / map / praxis) of one month's development; either merge into one synthesis with three parents, or keep all three but move to the historical layer with a short joint preface |
+
+Estimated effect: 91 → ~78 canonical documents, with ~14 archived (not lost).
+
+### 1.3 Fix mislabeled and truncated files {#naming}
+
+- `Temporal Compression and Ethical Occlusion v2.ormd` actually contains the **Glossary v1**; the file ending in `(Reb.ormd` contains the real v2 framework. Rename both; correct the index entries (which currently describe them backwards). Keep them as a companion pair (glossary + framework) — they are complements, not duplicates.
+- Repair truncated Notion-export filenames: `...(AVIA) A .ormd`, `From Essential Relationships to Ontological Transf.ormd`, `...— v2 (Reb.ormd`.
+- Adopt one naming convention: short title, no dates in filenames (dates live in `lineage.origin.ts`), no version suffixes for the canonical copy (versions live in the archive with their lineage).
+
+---
+
+## Part 2 — Condensation (content metabolization, not truncation) {#condensation}
+
+### 2.1 Separate dialogue from doctrine {#dialogue}
+
+Several canonical documents are preserved AI-conversation transcripts in second person (`E^2 Equation` — "You wrote this on the board… Verdict: correct"; `Power.ormd` — "Your distinction…"; `AOMI AI responses` is explicitly dialogue). Per MMPS, meaning must be *metabolized*, not just stored:
+
+- Rewrite spine documents (especially `E^2 Equation` — it is the central formal claim at confidence 0.98 and deserves a clean statement) in third person.
+- Move the raw transcripts to a `Dialogues/` archive layer; each rewritten doc lists its transcript as a parent. The conversations are genuine provenance — they show *how* the ideas emerged — and Remnant Stewardship says keep them, but as lineage, not as canon.
+
+### 2.2 Two-resolution rule {#two-resolution}
+
+The TCL pair (plain-English summary + technical constants) is the corpus's best existing pattern, and CLP's `attention_budget` concept generalizes it: every canonical document gets a **compression header** — 3–6 sentences a reader (or model) can consume at "low attention budget" before deciding to descend. The Index then quotes those headers instead of re-summarizing, eliminating drift between index and source.
+
+### 2.3 Right-size the outliers {#outliers}
+
+- `The Essence of Existence` (17,200 words — 4× the next-largest manifesto) mixes diagnosis, manifesto, and framework restatement. Split: manifesto core stays in Cluster H; framework restatements become pointers to the canonical Cluster A docs; condensed by perhaps half without losing a claim.
+- `E2 → RCP → MPDC → AFD →` (11,600 words) and `Family as a Relational Field` (11,500) — same treatment: extract what is *new* in each, link to canon for the rest.
+- Stub link-hubs (`Original E^2 work`, `Implementations` — 80–200 words of Notion link lists) are index material, not documents. Fold them into the Master Index (as a "Lineage anchors" and "Implementations registry" section) or expand them into real registries; either way they stop being phantom documents.
+
+---
+
+## Part 3 — Reorganization (structure follows the dependency spine) {#reorganization}
+
+### 3.1 Three-layer folder structure (Exposure Protocol applied) {#layers}
+
+```
+E2Core/
+  00 Entry/            ← Invitation: E^2 Entry Point (finished), Steward's Creed,
+                          Declaration of Interdependence, Master Index
+  10 Canon/            ← Structure: one folder per cluster A–I, canonical docs only
+  20 Working/          ← Integration-in-progress: current Cluster J + provisional drafts
+  90 Lineage/          ← Archive: superseded versions, merged sources, dialogues
+  Semantic Substrate/  ← regenerated build artifact (script output, gitignore-equivalent)
+```
+
+The cluster taxonomy in the Master Index is sound — it already follows the A→J dependency spine — so folders should simply realize it. A document in two clusters (OSI, Interlocked Stewardship) lives in its primary cluster; the index records the secondary membership, because relationships, not locations, are first-class.
+
+### 3.2 Repair the link fabric {#links}
+
+Cross-document links currently use intra-document anchor syntax (`[CT translation](#ct-translation-of-rps)`), which cannot resolve across files — the relational field is encoded but not navigable. Adopt real targets: `[CT Translation](CT%20translation%20of%20RPs.ormd#title "meta:corresponds_to")` or a CLP-style resolver (sidecar mapping anchor-IDs → files, per the CLP spec §7–8 already written). This is the single highest-leverage fix: the framework's central claim is that the relationships *are* the structure, and right now most of them are broken edges.
+
+### 3.3 Populate lineage {#lineage}
+
+68 of 91 documents declare `parents: []` even where versions and precursors demonstrably exist. As each cluster is consolidated, fill in `parents:` — every merge in Part 1 does this automatically; do the rest opportunistically. Re-derive `resolution.confidence` where the merge changes evidentiary status.
+
+### 3.4 Regenerate the Master Index {#index}
+
+Per the index's own footer instruction: rebuild cluster membership from `frame:` + `semantics.keywords`, links from body annotations, confidence from frontmatter. Corrections needed regardless: document count (says 89; folder has 90 + index), the swapped Temporal Compression entries, and the missing "Our essence exists in the space between us."
+
+---
+
+## Part 4 — Verification {#verification}
+
+1. **Mechanical validation:** run `ormd_cli validate` (already in `Phase 1/github_repos/ormd`) across the corpus after each phase.
+2. **Acceptance checks (CLP-style):** every canonical doc reachable from the index; every merged doc lists all sources as parents; no document exists in both Canon and Lineage; Semantic Substrate regenerates byte-identically from a script; zero unresolvable links in Canon.
+3. **Coherence check (AOMI):** spot-read three merged documents against their archived sources to confirm no claims were strengthened or lost in condensation — mechanism integrity for the editing process itself.
+
+## Sequencing {#sequencing}
+
+| Step | Work | Risk |
+|------|------|------|
+| 1 | Rescue orphan doc; fix mislabeled/truncated filenames; correct index errors | None — pure repair |
+| 2 | Create `90 Lineage/`; execute the eight merges of §1.2 | Low — reversible |
+| 3 | Folder restructure (§3.1) + link repair (§3.2) | Medium — touches every doc; do after merges so links are written once |
+| 4 | Condensation passes (§2.1–2.3), one cluster at a time, spine first (A → B → C…) | Medium — staged per temporal-compression ethics |
+| 5 | Lineage backfill, Substrate regeneration script, index regeneration, verification | Low |
+
+*End state: ~75 canonical documents in a navigable three-layer structure, every edge resolvable, every ancestor preserved, every compression honest about what it left out.*

@@ -1,0 +1,98 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Justice Across Scales Practical Applications'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/justice-praxis-summary
+    ts: '2023-10-27T12:00:00Z'
+  parents:
+  - urn:cb:Justice Across Scales Practical Applications.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - justice
+  - scale
+  - diagnostics
+  - intervention
+  - morphisms
+  - occlusion
+  document_type:
+  - derived_framework
+  - implementation
+  domains:
+  - stewardship_architecture
+  - ethics_rights
+  - systems_engineering
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#governance "meta:corresponds_to"). Justice Across Scales: practical implementation of relational justice principles at micro/meso/macro scales. Canonical treatment in B5 §6.
+
+# Executive Summary: Justice Across Scales {#summary-top}
+
+This document synthesizes the practical application of the Justice Across Scales framework, moving from abstract theory to operational diagnostic tools and intervention strategies. It provides a roadmap for identifying systemic failures and applying scale-appropriate corrections.
+
+## 1. The Diagnostic Stack {#diagnostic-stack-summary}
+
+The framework utilizes a five-step diagnostic process to evaluate any system:
+
+1.  **Identify Scale**: Categorize the system as [Micro](#micro-scale "ontological:defines") (direct interaction), [Meso](#meso-scale "ontological:defines") (mediated/organizational), or [Macro](#macro-scale "ontological:defines") (statistical/civilizational).
+2.  **Assess Epistemics**: Evaluate the "Three Gradients": Uncertainty (Ω), Resolution (R), and Temporal Lag (Δt).
+3.  **Check Morphisms**: Identify failures in [φ (Faith/Inertia)](#morphism-failures "ontological:defines"), [ψ (Hope/Anticipation)](#morphism-failures "ontological:defines"), or [λ (Love/Resonance)](#morphism-failures "ontological:defines").
+4.  **Calculate Compression**: Apply the formula `|= R * C_eff <= R_max |` to determine if the system's [resolution capacity is overwhelmed](#compression-check "symmetric:constrains") by the speed of decision-making.
+5.  **Map Occlusion**: Determine where consequences are invisible due to temporal, topological, or cognitive barriers.
+
+## 2. Scale-Specific Toolkits {#toolkits-summary}
+
+### Micro Scale (Direct Responsibility) {#micro-scale}
+Focuses on high-resolution, personal interactions (1-20 people).
+*   **3-Touch Rule**: A method where [natural consequences](#three-touch "geometric:causes") are allowed to manifest after clear signaling.
+*   **Reverent Stewardship**: Balancing presence with restraint to avoid [enmeshment or pressure dams](#failure-modes-micro "symmetric:constrains").
+*   **Coherence Triage**: Assessing personal capacity (Green/Yellow/Red) before engaging in conflict.
+
+### Meso Scale (Systems Stewardship) {#meso-scale}
+Focuses on organizational dynamics (20-10,000 people).
+*   **CFA Balance**: Monitoring the tension between Constraint (C), Fluctuation (F), and Attention (A).
+*   **AOMI (Adversarial Occlusion & Mechanism Integrity)**: Implementing [paradoxical policing](#aomi-logic "symmetric:constrains") where high-occlusion pathways receive increased audit scrutiny.
+*   **WIP Limits**: Reducing [temporal compression](#compression-status "symmetric:constrains") by limiting concurrent work.
+*   **CLP-Style Queries**: Requiring explicit tracking of "Unresolved" states in decision-making.
+
+### Macro Scale (Possibility Preservation) {#macro-scale}
+Focuses on generational impacts (10,000+ people).
+*   **Multi-Horizon Review**: Matching decision types to appropriate [temporal review cycles](#multi-horizon "symmetric:constrains").
+*   **Curvature Equilibrium**: Monitoring if [resource flows](#resource-flows "epistemic:measures") are regenerative or extractive.
+*   **Option Space Preservation**: Ensuring high-uncertainty decisions do not [eliminate future alternatives](#option-space "symmetric:limits").
+*   **Participatory Sensing**: Using [distributed observation](#participatory-sensing "epistemic:supports") to bridge the gap between leadership and ground truth.
+
+## 3. Cross-Scale Patterns and Failure Modes {#patterns-failures}
+
+The framework identifies critical patterns when moving between scales:
+*   **Scaling Up**: Resolution drops while [uncertainty and temporal lag rise](#scaling-up "geometric:causes").
+*   **Scaling Down**: A common failure is [bringing macro-statistical habits](#scaling-down "meta:corresponds_to") to micro-personal interactions.
+*   **Gaming Gradient**: As scale increases, [gaming becomes more sophisticated](#gaming-gradient "epistemic:supports"), moving from simple blame-shifting to paradigm capture.
+
+### Common Failure Modes {#failure-modes-summary}
+*   **Scale Mismatch**: Using the wrong tools for the current scale.
+*   **Morphism Collapse**: Systems failing because they lose [inertia, anticipation, or reciprocity](#morphism-failures "dynamical:transforms_to").
+*   **Compression Runaway**: A cycle where [increased speed leads to reduced visibility](#compression-dynamics "dynamical:transforms_to"), causing more mistakes and further compression.
+*   **False Precision**: Claiming [resolution or certainty](#resolution-claim "epistemic:refutes") that the epistemic profile does not support.
+
+## 4. Integration: The Tech Company Case {#integration-case}
+
+The summary of the [Integration Exercise](#tech-case "epistemic:supports") demonstrates the framework in action. In the case of a company implementing AI monitoring:
+*   The [compression check](#compression-check "symmetric:constrains") revealed a violation (`7 * 8 > 6`).
+*   The [CLP Query](#clp-query "epistemic:measures") identified significant "Unresolved" clusters regarding long-term culture and real productivity.
+*   The [AOMI trigger](#aomi-trigger "geometric:causes") suggested the need for enhanced scrutiny due to high occlusion.
+*   The recommendation shifted from full rollout to a [reversible pilot](#step-5-implementation "dynamical:transforms_to") with executive participation to preserve the λ (Love/Resonance) morphism.
+
+## 5. Conclusion {#conclusion-summary}
+
+Justice is defined not as a state of perfection, but as a [continuous practice](#justice-definition "meta:corresponds_to") of seeing scale clearly, respecting epistemic limits, and [maintaining conditions for adaptation](#justice-pattern "meta:corresponds_to") across all levels of human organization.

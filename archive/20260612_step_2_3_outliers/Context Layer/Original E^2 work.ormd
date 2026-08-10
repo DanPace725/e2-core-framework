@@ -1,0 +1,89 @@
+<!-- ormd:1.0 -->
+---
+title: "Original E^2 work"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "research.index"
+lineage:
+  origin: { uri: "urn:ormd:e2-original-work", ts: "2025-06-03T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["E^2", "Resonance Framework", "Ontology", "Relational Primitives", "Tensional Intelligence", "Emergence"]
+resolution: { confidence: 1.0 }
+---
+
+# Original E^2 work {#original-e2-work}
+
+6/3/25
+
+[E^2 Entry Point](#e2-entry-point "meta:corresponds_to")
+
+[Constitutions](#constitutions "symmetric:constrains")
+
+[The Resonance Framework: An Ontological Map 4.24.25](#resonance-framework-map "ontological:defines")
+
+[Resonance Architecture 4.17.25](#resonance-architecture "ontological:composes")
+
+[The Architecture of Resonant Systems 4.26.25](#architecture-resonant-systems "ontological:composes")
+
+[Overview 2 4.20.25](#overview-2 "meta:corresponds_to")
+
+[Essence of Existence (E^2) Orientation 4.24.25](#e2-orientation-4-24 "meta:corresponds_to")
+
+[E^2 Orientation (o3) 4.20.25](#e2-orientation-o3 "meta:corresponds_to")
+
+[Initial Axioms](#initial-axioms "epistemic:supports")
+
+[Ontological Systems Interface (OSI) Model](#osi-model "meta:corresponds_to")
+
+[Eidosemantic Systems Theory](#eidosemantic-systems-theory "ontological:defines")
+
+[Tensional Intelligence: A Theoretical Foundation](#tensional-intelligence-theory "ontological:defines")
+
+[Tensional Navigation: A Practical Framework](#tensional-navigation-practice "dynamical:transforms_to")
+
+[Declaration of Interdependence](#declaration-interdependence "symmetric:constrains")
+
+[Ethical Principles for Human-AI Interaction](#ethical-principles "symmetric:constrains")
+
+[The Cyclical Integrity framework](#cyclical-integrity "symmetric:preserves")
+
+[Caregiving as an Ecosystem](#caregiving-ecosystem "ontological:composes")
+
+[Communication](#communication "dynamical:interacts_with")
+
+[AI Conversations](#ai-conversations "dynamical:interacts_with")
+
+[People with Related Ideas](#related-people "meta:corresponds_to")
+
+[Implementations](#implementations "dynamical:transforms_to")
+
+[Myth/Story](#myth-story "meta:corresponds_to")
+
+[Tangential Ideas](#tangential-ideas "meta:corresponds_to")
+
+[Opus](#opus "ontological:composes")
+
+[Reverent Stewardship](#reverent-stewardship "symmetric:constrains")
+
+[Maslow, The Bible, and Relationship](#maslow-bible-relationship "meta:corresponds_to")
+
+[Power](#power "dynamical:interacts_with")
+
+[**Universal Emergence Pattern: E² Integration and Extensions**](#universal-emergence-pattern "meta:emerges_from")
+
+[REMF](#remf "meta:corresponds_to")
+
+[Relational Volition](#relational-volition "dynamical:interacts_with")
+
+[Meta-Pattern Decidability Conjecture (MPDC)](#mpdc "epistemic:measures")
+
+[Truth Ceiling](#truth-ceiling "symmetric:limits")
+
+[Relational Primitives](#relational-primitives "ontological:defines")
+
+[Emergence Engine](#emergence-engine "dynamical:transforms_to")
+

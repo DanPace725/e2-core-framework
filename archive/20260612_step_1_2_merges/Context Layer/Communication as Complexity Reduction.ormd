@@ -1,0 +1,77 @@
+<!-- ormd:1.0 -->
+---
+title: "Communication as Complexity Alignment: Towards Meta-Coherent Exchange Across Systems"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "theory.communication.systems"
+lineage:
+  origin: { uri: "local://drafts/communication-complexity", ts: "2025-06-03T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["complexity reduction", "E^2 framework", "neurodiversity", "meta-coherence", "relational dynamics"]
+resolution: { confidence: 0.85 }
+---
+
+# Communication as Complexity Reduction {#title}
+
+6/3/25
+
+**Title: Communication as Complexity Alignment: Towards Meta-Coherent Exchange Across Systems**
+
+## I. Overview {#overview}
+
+Communication is traditionally seen as the exchange of information between agents. The [E^2 framework](#axiomatic-principle "ontological:defines") reframes this: communication is the *emergent process by which complex systems negotiate coherence across differing internal architectures*. [Miscommunication](#clash-strategies "geometric:causes") is not merely an error in signal—but a consequence of *ontological mismatch in complexity-reduction strategies*.
+
+## II. Communication as Complexity Reduction {#communication-reduction}
+
+All conscious systems must reduce the overwhelming complexity of reality to maintain coherence. However, the method of this reduction differs by architecture:
+
+- [NT Systems](#nt-orientation "ontological:defines") reduce complexity through *affective alignment*, using social redundancy, shared scripts, and external smoothing to stabilize relational fields.
+- [ND Systems](#nd-orientation "ontological:defines") reduce complexity through *semantic fidelity*, privileging internal-external truth coherence and minimizing distortion of core essence.
+
+Each system is valid and internally consistent—but when interfaced, they often destabilize one another.
+
+## III. The Clash of Simplification Strategies {#clash-strategies}
+
+> Communication is the collision of simplification strategies.
+> 
+
+> Miscommunication is not signal loss—it is field decoherence from mismatched compression schemas.
+> 
+
+[NT protocols](#nt-orientation "ontological:composes") operate on lossy compression: trust and coherence arise through recognizable pattern repetition and approximate behavioral predictability. [ND protocols](#nd-orientation "ontological:composes") operate on near-lossless compression: trust arises from internal congruence and exact mapping between meaning and message.
+
+## IV. Signal Stack Inversion {#signal-stack}
+
+- **NT Orientation {#nt-orientation}**: mask-first → buffered core. Stability via social filtering.
+- **ND Orientation {#nd-orientation}**: core-first → raw broadcast. Stability via semantic clarity.
+
+Each reads the other as unstable:
+
+- NTs read ND directness as disruptive or antisocial.
+- NDs read NT surface alignment as deceptive or incoherent.
+
+## V. Toward Meta-Coherence {#meta-coherence}
+
+[Meta-coherence](#meta-coherence "meta:emerges_from") is the ability for systems with divergent coherence logics to:
+
+- Recognize their own complexity-reduction architecture.
+- Detect the architectural assumptions of the other.
+- Modulate relational fields dynamically without loss of internal integrity.
+
+## VI. Axiomatic Principle (E^2) {#axiomatic-principle}
+
+> Relational coherence is not achieved by uniformity, but by aligned complexity reduction.
+> 
+
+The future of adaptive communication lies not in forcing convergence to one stack, but in [meta-protocol design](#meta-coherence "epistemic:supports"): constructing buffer layers, translation scaffolds, and mutual compression frameworks that honor difference without distortion.
+
+This model applies broadly—to ND/NT dynamics, AI-human interfaces, intercultural dialogue, trauma-informed care, and beyond. It is a universal principle for inter-systemic mutual intelligibility.
+
+## VII. Final Note {#final-note}
+
+[Coherence](#axiomatic-principle "symmetric:preserves") is not comfort. It is **mutual resonance between internally stable fields**. When systems learn to translate not just meaning, but *method of meaning-making*, true communication begins.
+

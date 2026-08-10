@@ -1,0 +1,109 @@
+media:
+  - name: draft_images
+    label: Draft images
+    input: media/images
+    output: /media/images
+    rename: safe
+    categories: [image]
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "docs(create): {path}"
+      update: "docs(update): {path}"
+      delete: "docs(delete): {path}"
+      rename: "docs(rename): {oldPath} -> {newPath}"
+
+content:
+  - name: drafting
+    label: Drafting and review
+    type: group
+    items:
+      - name: mobile_drafts
+        label: Mobile drafts
+        type: collection
+        path: staged work/mobile drafts
+        filename:
+          template: "{primary}.md"
+          field: create
+        format: yaml-frontmatter
+        subfolders: false
+        exclude: [README.md]
+        view:
+          fields: [title, status, author]
+          primary: title
+          sort: [title, status]
+          default:
+            sort: title
+            order: asc
+        operations:
+          create: true
+          rename: true
+          delete: false
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: status
+            label: Status
+            type: select
+            required: true
+            options:
+              values:
+                - name: staged
+                  label: Staged draft
+                - name: needs-review
+                  label: Needs review
+                - name: ready-for-integration-review
+                  label: Ready for integration review
+          - name: author
+            label: Author
+            type: string
+          - name: body
+            label: Draft
+            type: rich-text
+            required: true
+            options:
+              format: markdown
+              switcher: true
+              media: draft_images
+              rename: safe
+
+      - name: staged_documents
+        label: Existing staged documents
+        type: collection
+        path: staged work
+        filename: "{primary}.md"
+        format: raw
+        subfolders: false
+        exclude: [README.md]
+        operations:
+          create: false
+          rename: false
+          delete: false
+
+      - name: semantic_substrate
+        label: Published Semantic Substrate
+        type: collection
+        path: E2Core/Semantic Substrate
+        filename: "{primary}.md"
+        format: raw
+        subfolders: false
+        operations:
+          create: false
+          rename: false
+          delete: false
+
+actions:
+  - name: validate-core
+    label: Validate Core repository
+    workflow: validate.yml
+    ref: current
+    confirm:
+      title: Validate this branch?
+      message: Run the repository integrity checks against the current branch.
+      button: Validate

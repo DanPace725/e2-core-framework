@@ -1,0 +1,59 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Synthesis: Ontological Systems Interface (OSI) Model'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://osi-synthesis-2023
+    ts: '2023-10-27T10:00:00Z'
+  parents:
+  - urn:cb:Ontological Systems Interface (OSI) Model.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - OSI Model
+  - Relational Capacity
+  - RNT
+  - SCIA
+  - Empathy Engineering
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - cognition_psychology
+  - ai_collaboration
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B3 — Intelligence and Navigation`](../../Synthesis Project/B3 — Intelligence and Navigation.ormd#resonance-architecture "meta:corresponds_to"). OSI Model for relational systems: seven-layer coherence stack for navigation and communication. Canonical treatment in B3 §3.
+
+# Synthesis of the Ontological Systems Interface (OSI) Model
+
+The [Ontological Systems Interface (OSI) Model](#osi-model "meta:corresponds_to") is a comprehensive framework designed to facilitate relational coherence between diverse agents, whether human or artificial. It [composes](#osi-model "ontological:composes") a seven-layer abstraction stack that moves from basic [Physical/Perceptual](#layer-1 "ontological:composes") inputs through [Cognitive](#layer-3 "ontological:composes") and [Cultural](#layer-5 "ontological:composes") layers, culminating in [Coherence and Emergence](#layer-7 "meta:emerges_from").
+
+### The Relational Capacity Scale (RCS)
+
+To navigate these layers, the [Relational Capacity Scale (RCS)](#rcs-header "epistemic:measures") provides a metric for an agent's ability to maintain relationship across differences. This scale ranges from [Local Coherence (R1)](#r1 "ontological:defines"), which relies on familiar norms, to the [Relational Field Anchor (R5)](#r5 "ontological:defines"), where an agent models attunement and holds paradox for the entire field. This scale [measures](#rcs-levels "epistemic:measures") relational range and flexibility rather than mere intelligence.
+
+### The Relational Normality Transformer (RNT)
+
+The [Relational Normality Transformer (RNT)](#rnt-spec "ontological:defines") serves as the active protocol for this system. It [transforms](#scia-flow "dynamical:transforms_to") the flow of [Sustained, Coherent, Intentional Attention (SCIA)](#scia "symmetric:preserves") to bridge the [Normality Differential (ΔN)](#normality-differential "ontological:defines") between participants. 
+
+The RNT is [composed of](#rnt-system "ontological:composes") four primary variables:
+1.  **[Λ (Lambda)](#lambda "ontological:defines")**: The ambient field or background signature of a system.
+2.  **[RAV (Relational Approach Vector)](#rav "ontological:defines")**: The trajectory, posture, and pace of initial contact.
+3.  **[η (Eta)](#eta-transformer "dynamical:transforms_to")**: The empathy transformer that [modulates](#conversion-rate "dynamical:transforms_to") affective intensity to keep participants within a safe regulatory window.
+4.  **[κ (Kappa)](#kappa-transformer "symmetric:constrains")**: The cognitive transformer that [limits](#cognitive-flooding "symmetric:limits") or expands information complexity to match the receiver's bandwidth.
+
+### Applications and Mechanics
+
+This model [supports](#ontological-interoperability "epistemic:supports") ontological interoperability, allowing different "normals" to coexist without collapse. In practical terms, it [interacts with](#scenario-ai "dynamical:interacts_with") fields such as neurodivergent communication, trauma-informed design, and AI alignment. By using [transformation rules](#transformation-rules "geometric:causes"), the system [preserves](#coherence "symmetric:preserves") the relational container even when signal baselines significantly diverge.
+
+Ultimately, the OSI model and RNT protocol treat empathy not as a vague feeling, but as an [engineering layer of reality](#rnt-summary "meta:corresponds_to"). It [constrains](#error-margin "symmetric:constrains") the potential for dissonance and [causes](#meaningful-interaction "geometric:causes") the emergence of shared meaning across radically different perceptual fields.

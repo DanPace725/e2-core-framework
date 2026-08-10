@@ -1,0 +1,261 @@
+﻿<!-- ormd:1.0 -->
+---
+title: "Ethical Occlusion via Temporal Compression (EOTC)"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "engineering.ethics.temporal-occlusion"
+lineage:
+  origin: { uri: "internal://docs/temporal-compression-v2", ts: "2025-09-22T00:00:00Z" }
+  parents: ["urn:cb:temporal-compression-v1"]
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["temporal compression", "ethical occlusion", "system dynamics", "observability", "accountability", "RPLang"]
+resolution: { confidence: 0.85 }
+---
+
+# Ethical Occlusion via Temporal Compression (EOTC) {#title}
+
+9/22/25
+
+> Metaâ€‘frame: Temporal compression induces epistemic and ethical singularitiesâ€”zones of computational irreducibility where causality, responsibility, and observability decouple nonlinearly. This document [formalizes that claim](#title "epistemic:supports") and turns it into an engineeringâ€‘ethics playbook.
+
+**Companion:** See [*Temporal Compression â€” Glossary v1*](#glossary "ontological:defines") for precise term definitions used here.
+
+---
+
+## 0) Origins â€” The Hairâ€‘Curling Insight (Motivation) {#origins}
+
+Two temporal postures:
+
+- **Timeâ€‘overâ€‘time**: distributed, regenerative care (natural curl formation).
+- **Timeâ€‘allâ€‘atâ€‘once**: compressed, extractive forcing (curling iron).
+
+Observation: Compression doesnâ€™t merely scale the same risks. It changes *regime*. At higher compression, systems spawn novel hazards and undecidable pockets. This paper [generalizes that observation](#origins "meta:corresponds_to") beyond cosmetology: driving, factories, finance, software deployment, institutional decisionâ€‘making.
+
+---
+
+## 1) System Model â€” Polytemporal Compression {#system-model}
+
+We model a **polytemporal system** with layers i=1..mi=1..m, each having a natural tempo TiT_i and an imposed tempo TiimpT^{imp}_i.
+
+**Layer compression:** Ci:=Ti/Tiimp C_i := T_i/T^{imp}_i (dimensionless).
+
+**Effective compression:** choose by context:
+
+- **Riskâ€‘weighted mean:** Ceff:=âˆ‘iwiCi C_{eff} := \sum_i w_i C_i, âˆ‘iwi=1\sum_i w_i=1.
+- **Bottleneck max:** Ceff:=maxâ¡iCi C_{eff} := \max_i C_i.
+
+**Critical compression:** Câˆ—C^* = [threshold](#system-model "symmetric:constrains") beyond which [Zoneâ€‘3 behavior](#zones "dynamical:transforms_to") dominates (empirically calibrated).
+
+**Decision/attribution window:** Î”t\Delta t = time available to attribute causes and act.
+
+---
+
+## 2) Occlusion â€” Sources and Combination {#occlusion}
+
+We track **occlusion** Î©âˆˆ[0,1]\Omega\in[0,1]: the fraction of behavior that is undecidable/unattributable given current sensing, time, and structure.
+
+**Tempoâ€‘occlusion (default form):**
+
+Î©tempo(Ceff)=1âˆ’eâˆ’kCeff2\Omega_{tempo}(C_{eff}) = 1 - e^{-k C_{eff}^2}
+
+where kk is **coupling density** (sensitivity to compression). Alternatives: logistic, Hill, or piecewise forms to capture thresholds/plateaus.
+
+**Topological occlusion:** Î©topo\Omega_{topo} from network structure (silos, chokepoints, high clustering that hides paths).
+
+**Cognitive occlusion:** Î©cog\Omega_{cog} from bounded attention, training, or UI burden.
+
+**Combined occlusion:**
+
+Î©=1âˆ’(1âˆ’Î©tempo)(1âˆ’Î©topo)(1âˆ’Î©cog)\Omega = 1 - (1-\Omega_{tempo})(1-\Omega_{topo})(1-\Omega_{cog})
+
+This [preserves the intuition](#occlusion "epistemic:supports") that any channel can create undecidability.
+
+**Inverse / negative compression:** when Ceff<1C_{eff}<1 (deliberate slowing), Î©tempo\Omega_{tempo} decreases. At very small CeffC_{eff}, add noise terms to model overâ€‘determination (too many confounders in long windows), yielding potential Uâ€‘shapes.
+
+---
+
+## 3) Observability â€” From Binary to Bayesian {#observability}
+
+Rather than âˆƒ/âˆ„\exists/\nexists, define a graded **observability**:
+
+O(R,Ceff):=Prâ¡(correctlyÂ attributeÂ aÂ causalÂ edgeÂ withinÂ Î”t)â‰ˆÏƒ(a(Râˆ’bâ€‰Ceff))\mathcal{O}(R,C_{eff}) := \Pr(\text{correctly attribute a causal edge within }\Delta t) \approx \sigma\big(a(R - b\,C_{eff})\big)
+
+with logistic Ïƒ\sigma and constants a,b>0a,b>0. Intuition: higher compression requires higher resolution to keep attribution probability fixed.
+
+---
+
+## 4) Resolution, Bandwidth, and the Design Axiom {#resolution-axiom}
+
+**Resolution** RR (ethical/causal granularity per Î”t\Delta t) â€” choose one operationalization and keep it consistent:
+
+- Infoâ€‘theoretic: R:=I(X;Yâˆ£Î”t)R := I(X;Y\mid \Delta t) (mutual information between actions and outcomes measurable within Î”t\Delta t).
+- Estimation: R:=IF(Î¸âˆ£Î”t)R := \mathcal{I}_F(\theta\mid \Delta t) (Fisher information about consequence parameter Î¸\theta).
+
+**Ethical bandwidth** RmaxR_{max}: the maximum achievable [resolution](#resolution-axiom "epistemic:measures") under current instrumentation, review capacity, and expertise (same units as RR).
+
+**[Design Axiom (Resolutionâ€“Responsibility Law)](#resolution-axiom "symmetric:constrains"):**
+
+Râ‹…Ceffâ‰¤Rmax.R\cdot C_{eff} \le R_{max}.
+
+At fixed RmaxR_{max}, pushing compression up forces responsibility granularity down. To sustain fine accountability at higher speeds, expand RmaxR_{max} (sensors, logs, training, extended review on critical paths, explainability tooling).
+
+**Corollary A (local safeguards):** If Râ‹…Ceff>RmaxR\cdot C_{eff} > R_{max}, you must *either* slow the path (reduce CeffC_{eff}) *or* coarsen decisions (reduce required RR) before proceeding.
+
+**Corollary B (critical work):** Design **temporal buffers** for highâ€‘stakes decisions so that Î”t\Delta t supports the required RR.
+
+---
+
+## 5) Coherence â€” Conservation and Bookkeeping {#coherence}
+
+We use **coherence** Î¦\Phi to denote systemâ€‘wide pattern integrity. Pick one house definition:
+
+- **Predictive coherence:** Î¦:=1âˆ’Lpred/Lnull\Phi := 1 - \mathcal{L}_{pred}/\mathcal{L}_{null} (fractional improvement over null).
+- **Information structure:** Î¦:=I(global;local)/H(global)\Phi := I(\text{global};\text{local})/H(\text{global}).
+
+We partition coherence by visibility:
+
+Î¦total=Î¦visible+Î¦occluded.\Phi_{total} = \Phi_{visible} + \Phi_{occluded}.
+
+This is a **bookkeeping identity** (not thermodynamic entropy): under compression the *location* of knowable structure shifts from visible compartments into occluded ones. The colloquial [â€œethical entropyâ€](#coherence "meta:corresponds_to") refers to this dispersion of *traceability mass*, not loss of structure per se.
+
+---
+
+## 6) Dynamics â€” Why Systems Drift Toward Compression {#dynamics}
+
+We add a minimal control view of compression drift:
+
+CË™=Î±D+Î²Î©âˆ’Î³Bâˆ’Î´G.\dot C = \alpha D + \beta \Omega - \gamma B - \delta G.
+
+- DD: demand/throughput pressure; Î±>0\alpha>0.
+- [Î©\Omega](#occlusion "dynamical:interacts_with"): hidden load from undecidability; Î²>0\beta>0 (opacity drives more batching, hurried decisions).
+- BB: buffers (slack, WIP limits, staffing, batching rules); Î³>0\gamma>0.
+- GG: guardrails (rate limiters, preâ€‘checks, escalation trees, rollback plans); Î´>0\delta>0.
+
+Implication: managing speed is a control problem; [occlusion](#occlusion "dynamical:interacts_with") feeds back positively unless explicitly countered.
+
+---
+
+## 7) Zones of Emergence â€” Operating Posture {#zones}
+
+**Zone 1 â€” Sparse density**
+
+Few connections; patterns donâ€™t sustain. **Posture:** build structure before speed.
+
+**Zone 2 â€” Structured density**
+
+â€œTimeâ€‘overâ€‘timeâ€ dynamics; predictable and sustainable. **Posture:** maintain light buffers; favor local learning loops and reversible steps.
+
+**Zone 3 â€” Rich density**
+
+High density and/or high compression; computationally irreducible pockets; attribution collapses. **Posture:** guardrails, buffers, coarse controls, and stopâ€‘rules; avoid fineâ€‘grained control fantasies.
+
+**Failure envelope:** define [measurable limits](#zones "symmetric:limits") (CeffC_{eff} bands, O\mathcal{O} floors, error budgets) beyond which the system must switch modes or halt.
+
+---
+
+## 8) Ethical Occlusion â€” Geometry, not Malice {#ethical-occlusion}
+
+**Claim:** Above Câˆ—C^*, [ethical occlusion](#ethical-occlusion "ontological:defines") is a geometric necessity of the relational manifold (not a mere choice). Power can exploit it, but the occlusion exists regardless. Accountability thus disperses with a gradient: benefits concentrate upâ€‘gradient (energy input), while responsibility disperses downâ€‘gradient (with â€œentropyâ€).
+
+**Operational reading:** The right ethical question becomes: *Where is the occlusion going, and how do we reconfigure the manifold so that critical responsibility remains in visible compartments during highâ€‘stakes operations?*
+
+---
+
+## 9) Design Principles â€” From Philosophy to Practice {#design-principles}
+
+1. **Scaleâ€‘resolution matching**
+    
+    Match intervention granularity to achievable [resolution](#resolution-axiom "epistemic:measures") RR. Avoid fine ethical patterns when Râ‹…CeffR\cdot C_{eff} nears RmaxR_{max}.
+    
+2. **Temporal buffers where it matters**
+    
+    Reserve elongated Î”t\Delta t for highâ€‘impact paths (safetyâ€‘critical, high externalities). Implement calendar/serviceâ€‘level exceptions that enforce slower tempo on those paths.
+    
+3. **Guardrail over micromanagement**
+    
+    In [Zone 3](#zones "geometric:embedded_in"), design guardrails and stopâ€‘rules rather than chasing precision. Favor rate limiters, preâ€‘commit checks, staged rollouts, and instant rollback plans.
+    
+4. **Topology matters**
+    
+    Reduce Î©topo\Omega_{topo}: break silos, add transparency edges, reduce unnecessary clustering that hides paths, instrument chokepoints.
+    
+5. **Cognition is infrastructure**
+    
+    Reduce Î©cog\Omega_{cog}: training, cognitive offloading (checklists, UX that exposes causal chains), narrative/visual telemetry that aids attribution.
+    
+6. **Graceful degradation**
+    
+    Define [failure envelopes](#zones "symmetric:limits") ahead of time; preâ€‘commit to mode switches (e.g., automatically expand Î”t\Delta t or freeze nonâ€‘critical change) when indicators cross thresholds.
+    
+7. **Bandwidth investment**
+    
+    Grow RmaxR_{max}: richer logging, causal probes/ablation tests, incidentâ€‘review capacity, simulation sandboxes, explainability tooling, delayedâ€‘binding decisions for critical steps.
+    
+8. **Selective decompression**
+    
+    Use Ceff<1C_{eff}<1 windows (slower cycles) to reâ€‘couple cause/effect in brittle areas; schedule restorative cadence (weekly safety review blocks, â€œslow lanesâ€ for highâ€‘risk changes).
+
+---
+
+## 10) Worked Examples (Sketches) {#worked-examples}
+
+**A) Highway driving** {#highway-driving}
+
+As [speed](#speed "ontological:defines") (proxy for Ceff) rises, [Î©tempo increases](#omega-tempo "geometric:causes") quadratically (less reaction time, more interactions per Î”t). [Observability O falls](#observability "epistemic:measures") unless you [raise Rmax](#r-max "epistemic:supports") (ADAS sensors, laneâ€‘keeping, collision prediction). [Guardrails](#guardrails "symmetric:constrains"): speed limits, followingâ€‘distance rules, ramp meters.
+
+**B) Factory line** {#factory-line}
+
+[Throughput pressure](#throughput "geometric:causes") (DD) pushes CË™>0; errors increase, reviews shrink; occlusion rises. [Buffers](#buffers "symmetric:constrains") (WIP caps), [andon cords](#andon "symmetric:constrains") (stopâ€‘rules), and [staggered QA windows](#qa-windows "symmetric:constrains") (selective decompression) push CË™<0 and keep Râ‹…Ceffâ‰¤Rmax.
+
+**C) Financial derivatives** {#financial-derivatives}
+
+[Compression](#compression "dynamical:transforms_to") of longâ€‘horizon value discovery into instantaneous trades (high Ceff) [grows Î©](#omega "geometric:causes"); responsibility disperses across chains. Raising Rmax: [audit trails](#audit-trails "epistemic:supports"), margining, [circuit breakers](#circuit-breakers "symmetric:constrains") (guardrails), and slower settlement for complex products.
+
+**D) Software deployment** {#software-deployment}
+
+[Batching](#batching "dynamical:transforms_to") multiple risky changes â†’ Ceffâ†‘. Observability falls unless you increase R (feature flags, canaries, trace IDs) or add [buffers](#buffers "symmetric:constrains") (staged rollouts, freeze windows). Failure envelope: [autoâ€‘rollback](#rollback "symmetric:limits") if O metrics drop below threshold.
+
+---
+
+## 11) Predictions & Falsifiable Signals {#predictions}
+
+1. **[Threshold behavior](#thresholds "epistemic:measures"):** Empirically identifiable C* where incident severity/attribution failure rises superlinearly.
+2. **[Buffer efficacy](#buffer-efficacy "epistemic:supports"):** Introducing temporal buffers on a critical path raises O and shifts Î¦visible upward without reducing throughput elsewhere if [topology](#topology "ontological:defines") is improved concurrently.
+3. **[Topology sensitivity](#topology-sensitivity "ontological:defines"):** Reducing clustering at chokepoints measurably lowers Î©topo even at constant Ceff.
+4. **[Bandwidth investment](#bandwidth "epistemic:supports"):** Increasing Rmax (instrumentation, reviews) permits higher safe Ceff before O collapse (rightâ€‘shift of C*).
+
+---
+
+## 12) Minimal Simulation Plan (for Appendix) {#simulation-plan}
+
+- [Agents on a graph](#graph "ontological:composes") (mean degree dË‰, clustering cË‰); events propagate stochastically.
+- [Compression](#compression "dynamical:transforms_to") via [shrinking Î”t](#delta-t "epistemic:measures"); measure O as fraction of correctly attributed edges; compute Î© as misattribution mass.
+- Knobs: [buffers B](#buffers "symmetric:constrains") widen Î”t locally; [guardrails G](#guardrails "symmetric:constrains") block unsafe sequences; [topology edits](#topology "meta:corresponds_to") alter Î©topo.
+- Track Râ‹…Ceff vs. Rmax; record [phaseâ€‘like transitions](#transitions "dynamical:transforms_to").
+
+---
+
+## 13) Limitations & Open Questions {#limitations}
+
+- **[Metric choice sensitivity](#metrics "symmetric:constrains"):** Results depend on the chosen R, Î¦ definitions; pick once, justify, and stick to them.
+- **[Measurement noise](#noise "epistemic:refutes"):** Very small Ceff may invite confounding drift; model with noise floors.
+- **[Adversarial dynamics](#adversaries "dynamical:interacts_with"):** Actors may exploit occlusion pockets; incorporate strategic behavior in future models.
+
+---
+
+## 14) Conclusion â€” Designing With Incompleteness {#conclusion}
+
+[Radical incompleteness](#incompleteness "symmetric:preserves") is not a bug; it is the [guardrail](#guardrails "symmetric:constrains") that preserves emergence. The practical stance is to:
+
+- know your Ceff,
+- instrument R and Î©,
+- expand Rmax where stakes demand,
+- and [shape topology, buffers, and guardrails](#design-strategy "symmetric:constrains") so that what must remain accountable stays in view.
+
+**Tagline:** *Go fast where itâ€™s reversible; go slow where responsibility must be precise.*
+
+
+

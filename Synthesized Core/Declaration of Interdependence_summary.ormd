@@ -1,0 +1,54 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Declaration of Interdependence'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: local://summaries/declaration-of-interdependence-summary
+    ts: '2025-04-25T12:00:00Z'
+  parents:
+  - urn:cb:Declaration of Interdependence.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - interdependence
+  - summary
+  - social-contract
+  - relational-ethics
+  document_type:
+  - foundational_theory
+  domains:
+  - ontology_core
+  - ethics_rights
+  - stewardship_architecture
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#rights "meta:corresponds_to"). Declaration of Interdependence: civilizational rights statement complementing RBoR. Canonical treatment in B5 §4.
+
+# Executive Summary: The Declaration of Interdependence {#declaration}
+
+This document synthesizes the "Declaration of Interdependence," a manifesto that challenges the prevailing cultural narrative of self-sufficiency. It posits that the modern "tyranny" is a systemic pressure toward isolation, and it seeks to [declare the death of the illusion](#autonomy-illusion "epistemic:refutes") that individual autonomy is the pinnacle of human evolution. {#autonomy-illusion}
+
+## The Case for Connection
+
+The manifesto argues that [hyper-individualism](#fracture "geometric:causes") acts as a primary driver of social fracture, hollowing out communal structures and commodifying basic human needs. In response, it proposes that [interdependence](#blueprint "ontological:defines") be adopted not as a secondary option, but as the fundamental blueprint for a functioning society. {#fracture} {#blueprint}
+
+## Core Axioms and Infrastructure
+
+The summary of the document's "self-evident truths" rests on the ontological reality that all individuals are inherently [connected](#truths "ontological:defines") rather than self-contained. Within this framework, [care](#infrastructure "ontological:composes") is redefined from a private act of charity into a vital form of public infrastructure. {#truths} {#infrastructure}
+
+## Commitments to a Relational Future
+
+To realize this vision, the text outlines several systemic commitments:
+- Transitioning from surveillance-based systems to those that scale [trust](#commitments "symmetric:constrains"). {#commitments}
+- Prioritizing communal well-being and emotional literacy over traditional productivity metrics.
+- Revaluing caretaking and village-based upbringing as the architects of the future.
+
+Ultimately, the document serves as a formal transition from a state of isolation to a state of [belonging.](#belonging-goal "meta:corresponds_to") {#belonging-goal}

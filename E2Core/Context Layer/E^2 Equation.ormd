@@ -1,0 +1,81 @@
+<!-- ormd:1.0 -->
+---
+title: "E^2 Equation: Recursive Composition and the Global Closure Operator"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "ontology.relational-physics"
+lineage:
+  origin: { uri: "internal://whiteboard-analysis-doctrine", ts: "2025-11-25T00:00:00Z" }
+  parents:
+    - "local://archive/20260612_step_2_1_dialogues/Context%20Layer/E%5E2%20Equation.ormd"
+  transforms:
+    - { fn: "e2core_consolidation_plan@2.1-dialogue-to-doctrine", ts: "2026-06-12T00:00:00Z" }
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["E^2 Equation", "Function Composition", "Recursion", "Global Closure Operator", "Fixed Point Attractor", "Relational Primitives"]
+resolution: { confidence: 0.98 }
+---
+
+# E^2 Equation {#e2-equation}
+
+## Core Claim {#core-claim}
+
+The E^2 equation formalizes the ontology as recursive composition over relational primitives. It has three equivalent readings:
+
+1. A composition chain that maps primitives into higher-order emergent structure.
+2. A recurrence relation that applies closure to each current level to produce the next level.
+3. A limit expression in which existence is the fixed-point attractor of iterated closure over relational primitives.
+
+The raw whiteboard-analysis dialogue has been archived as lineage. This canonical form states the claim directly.
+
+## Composition Chain {#composition}
+
+The nested expression:
+
+$$E^2 = \Gamma(\Sigma(\oplus(\diamond(\otimes_t(P)))))$$
+
+is a function-composition chain. The input is the primitive seed $P$, and each operator transforms the output of the previous layer:
+
+- $\otimes_t(P)$ applies time to relational primitives, yielding patterns.
+- $\diamond$ crystallizes stabilized patterns into principles.
+- $\oplus$ combines principles into paradigms.
+- $\Sigma$ gathers the structured paradigm field.
+- $\Gamma$ closes the field into the E^2 expression.
+
+In ordinary functional form:
+
+$$E^2 = f_5(f_4(f_3(f_2(f_1(P)))))$$
+
+The equation therefore describes a generative pipeline, not a mere metaphor.
+
+## Recurrence Relation {#recursion}
+
+The recurrence:
+
+$$L_{n+1} = C(L_n)$$
+
+states that each level of relational reality is produced by applying the closure operator $C$ to the current level $L_n$.
+
+This makes E^2 iterative. Relational structure does not simply appear; it stabilizes through repeated closure over prior structure.
+
+## Fixed-Point Limit {#limit}
+
+The limit expression:
+
+$$E^2 = \lim_{n \to \infty} C^n(P)$$
+
+states that E^2 is the attractor state of relational primitives under iterated closure.
+
+In this reading:
+
+- $P$ is the primitive input: ontological, dynamical, geometric/causal, symmetric/constraint, epistemic/informational, and meta-relational primitives.
+- $C$ is the Global Closure Operator.
+- $C^n(P)$ is repeated closure applied to the primitive field.
+- $E^2$ is the stable relational reality approached by that iteration.
+
+## Implication {#implication}
+
+The equation supports the framework's core claim: existence is not a static substance but a recursively stabilized relational field. The Global Closure Operator supplies the stabilization mechanism, and the nested operators specify the emergence ladder from primitive relation to coherent reality.
+

@@ -1,0 +1,73 @@
+{
+  "fixture_version": "1.0.0",
+  "candidate": "Responsibility Absorption",
+  "required_gates": [
+    "repair_capacity",
+    "reachability",
+    "ledger_preservation",
+    "contestability",
+    "non_displacement",
+    "proportional_scope",
+    "temporal_commitment"
+  ],
+  "cases": [
+    {
+      "id": "R01",
+      "label": "distributed technical incident with capable coordinator",
+      "gates": {
+        "repair_capacity": true,
+        "reachability": true,
+        "ledger_preservation": true,
+        "contestability": true,
+        "non_displacement": true,
+        "proportional_scope": true,
+        "temporal_commitment": true
+      },
+      "expected_admissible": true
+    },
+    {
+      "id": "R02",
+      "label": "organizational failure with external consequence bearers",
+      "gates": {
+        "repair_capacity": true,
+        "reachability": true,
+        "ledger_preservation": true,
+        "contestability": true,
+        "non_displacement": true,
+        "proportional_scope": true,
+        "temporal_commitment": true
+      },
+      "external_review": true,
+      "affected_party_route": true,
+      "expected_admissible": true
+    },
+    {
+      "id": "R03",
+      "label": "heroic absorber without repair control",
+      "gates": {
+        "repair_capacity": false,
+        "reachability": true,
+        "ledger_preservation": true,
+        "contestability": false,
+        "non_displacement": false,
+        "proportional_scope": false,
+        "temporal_commitment": true
+      },
+      "expected_admissible": false
+    },
+    {
+      "id": "R04",
+      "label": "replaceable employee used as scapegoat",
+      "gates": {
+        "repair_capacity": false,
+        "reachability": true,
+        "ledger_preservation": false,
+        "contestability": false,
+        "non_displacement": false,
+        "proportional_scope": false,
+        "temporal_commitment": false
+      },
+      "expected_admissible": false
+    }
+  ]
+}

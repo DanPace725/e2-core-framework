@@ -1,0 +1,1651 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at": "2026-08-10T20:23:09.822173+00:00",
+  "root": "legacy://phase1",
+  "output_root": ".",
+  "active_core_root": "E2Core",
+  "authority": "active_filesystem_state_with_preserved_synthesis_provenance",
+  "registry": "core_registry.json",
+  "synthesized_core_count": 61,
+  "explicit_core_addition_count": 24,
+  "active_semantic_substrate_count": 96,
+  "active_context_layer_count": 89,
+  "active_raw_file_count": 185,
+  "active_file_count": 246,
+  "archived_raw_file_count": 50,
+  "copied_file_count": 246,
+  "copied_raw_file_count": 185,
+  "registered_active_raw_file_count": 184,
+  "meta_file_count": 1,
+  "meta_files": [
+    "Context Layer/Context Layer Index.ormd"
+  ],
+  "unregistered_active_raw_count": 0,
+  "unregistered_active_raw_files": [],
+  "missing_registered_path_count": 0,
+  "missing_registered_paths": [],
+  "skipped_cull_review_count": 14,
+  "skipped_cull_review_paths": [
+    "Context Layer/AOMI Adversarial Occlusion and Mechanism Integrity.ormd",
+    "Context Layer/Constitutions.ormd",
+    "Context Layer/Emergence Engine.ormd",
+    "Context Layer/Essence of Existence E^2.ormd",
+    "Context Layer/Our essence exists in the space between us.ormd",
+    "Context Layer/Pattern Emergence - Essential Relationship.ormd",
+    "Context Layer/Temporal Compression and Ethical Occlusion.ormd",
+    "Semantic Substrate/AOMI Adversarial Occlusion and Mechanism Integrity.md",
+    "Semantic Substrate/Constitutions.md",
+    "Semantic Substrate/Emergence Engine.md",
+    "Semantic Substrate/Essence of Existence E^2.md",
+    "Semantic Substrate/Our essence exists in the space between us.md",
+    "Semantic Substrate/Pattern Emergence - Essential Relationship.md",
+    "Semantic Substrate/Temporal Compression and Ethical Occlusion.md"
+  ],
+  "unresolved_count": 0,
+  "synthesized_core": [
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Adaptation via Informational Abstraction (AVIA) A _summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:adaptation-via-informational-abstraction-avia-a:86924d623e1f"
+      ],
+      "raw_copies": [
+        "Context Layer/Adaptation via Informational Abstraction.ormd",
+        "Semantic Substrate/Adaptation via Informational Abstraction.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/AFD - First Principles_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/AFD - First Principles_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "AFD - First Principles_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:afd-first-principles:30ab4986ca45"
+      ],
+      "raw_copies": [
+        "Context Layer/AFD - First Principles.ormd",
+        "Semantic Substrate/AFD - First Principles.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/AOMI_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/AOMI_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "DUP_DIR",
+          "filename": "Adversarial Occlusion and Mechanism Integrity V1_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "AOMI Adversarial Occlusion and Mechanism Integrity_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "AOMI AI responses_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:adversarial-occlusion-and-mechanism-integrity-ve:e7063eb0f008",
+        "phase1:aomi-adversarial-occlusion-and-mechanism-integri:da7111775048",
+        "phase1:aomi-ai-responses:79e65b9ad680"
+      ],
+      "raw_copies": [
+        "Context Layer/AOMI AI responses.ormd",
+        "Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
+        "Semantic Substrate/AOMI AI responses.md",
+        "Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/CFA_CFAR_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/CFA_CFAR_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "DUP_DIR",
+          "filename": "CFA_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "CFAR_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "CFAR-Framework-master Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:cfa:b6df527956d1",
+        "phase1:cfar-framework-master-repo:08c03c81630b",
+        "phase1:cfar:cd33c3605d62"
+      ],
+      "raw_copies": [
+        "Context Layer/CFA.ormd",
+        "Context Layer/CFAR.ormd",
+        "Semantic Substrate/CFA.md",
+        "Semantic Substrate/CFAR.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/coherenceengine Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/coherenceengine Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "coherenceengine Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:coherenceengine-repo:b0694bbda5c8"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Collective_Cognitive_Substrate_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Collective_Cognitive_Substrate_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "CCS_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Collective Cognitive Substrate_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:ccs:2492baf83d19",
+        "phase1:collective-cognitive-substrate:26c10b6cb19b"
+      ],
+      "raw_copies": [
+        "Context Layer/Collective Cognitive Substrate.ormd",
+        "Semantic Substrate/CCS.md",
+        "Semantic Substrate/Collective Cognitive Substrate.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Communication_Coherence_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Communication_Coherence_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Communication as Coherence_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Communication as Complexity Reduction_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:communication-as-coherence:a3f8f1c68528",
+        "phase1:communication-as-complexity-reduction:924ed480b923"
+      ],
+      "raw_copies": [
+        "Context Layer/Communication as Coherence.ormd",
+        "Semantic Substrate/Communication as Coherence.md",
+        "Semantic Substrate/Communication as Complexity Reduction.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Constitutions_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Constitutions_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Constitutions_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Essence of Existence Constitution - Draft 2_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:constitutions:6c0385a79b4f",
+        "phase1:essence-of-existence-constitution-draft-2:4b0865a6b4ee"
+      ],
+      "raw_copies": [
+        "Context Layer/Essence of Existence Constitution - Draft 2.ormd",
+        "Semantic Substrate/Essence of Existence Constitution - Draft 2.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Context Layer Protocol (CLP)_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Context Layer Protocol (CLP)_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Context Layer Protocol (CLP)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:context-layer-protocol-clp:7524242e53e7"
+      ],
+      "raw_copies": [
+        "Context Layer/Context Layer Protocol (CLP).ormd",
+        "Semantic Substrate/Context Layer Protocol (CLP).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/CRS_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/CRS_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "CRS_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "The Collective Relational Substrate_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:crs:eb03f372ec4f",
+        "phase1:the-collective-relational-substrate:26180860b2ce"
+      ],
+      "raw_copies": [
+        "Context Layer/Collective Relational Substrate.ormd",
+        "Semantic Substrate/CRS.md",
+        "Semantic Substrate/The Collective Relational Substrate.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Declaration of Interdependence_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Declaration of Interdependence_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Declaration of Interdependence_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:declaration-of-interdependence:874ab559b67b"
+      ],
+      "raw_copies": [
+        "Context Layer/Declaration of Interdependence.ormd",
+        "Semantic Substrate/Declaration of Interdependence.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Derivation deep dive_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Derivation deep dive_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Derivation deep dive_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:derivation-deep-dive:8352bdb8599e"
+      ],
+      "raw_copies": [
+        "Context Layer/Derivation deep dive.ormd",
+        "Semantic Substrate/Derivation deep dive.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/E2 → RCP → MPDC → AFD →_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/E2 → RCP → MPDC → AFD →_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "E2 → RCP → MPDC → AFD →_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:e2-rcp-mpdc-afd:4b9899fd8514"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Derivation Chain .ormd",
+        "Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "E^2 Entry Point_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "E^2 Equation_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "E^2 Primer Compression_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Original E^2 work_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Essence of Existence E^2_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "The Essence of Existence_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:e2-entry-point:748cc745b42b",
+        "phase1:e2-equation:56f3b4cde528",
+        "phase1:e2-primer-compression:a15ad5ca20e9",
+        "phase1:essence-of-existence-e2:572f8102f283",
+        "phase1:original-e2-work:fbe920ec07b2",
+        "phase1:the-essence-of-existence:3c008ff6566c"
+      ],
+      "raw_copies": [
+        "Context Layer/E^2 Entry Point.ormd",
+        "Context Layer/E^2 Equation.ormd",
+        "Context Layer/Original E^2 work.ormd",
+        "Context Layer/The Essence of Existence.ormd",
+        "Semantic Substrate/E^2 Entry Point.md",
+        "Semantic Substrate/E^2 Equation.md",
+        "Semantic Substrate/Original E^2 work.md",
+        "Semantic Substrate/The Essence of Existence.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3a_core_ontology/Context Layer/E^2 Entry Point.ormd",
+        "archive/20260612_pass_3a_core_ontology/Context Layer/E^2 Primer Compression.ormd",
+        "archive/20260612_pass_3a_core_ontology/Semantic Substrate/E^2 Entry Point.md",
+        "archive/20260612_pass_3a_core_ontology/Semantic Substrate/E^2 Primer Compression.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Emergence_Engine_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Emergence_Engine_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Emergence Engine overview_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Emergence Engine_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "EmergenceEngine Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:emergence-engine-overview:965e4f39b376",
+        "phase1:emergence-engine:7630c7fa5fbd",
+        "phase1:emergenceengine-repo:0d818a2a06ca"
+      ],
+      "raw_copies": [
+        "Context Layer/Emergence Engine overview.ormd",
+        "Semantic Substrate/Emergence Engine overview.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Ethical Principles for Human-AI Interaction_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Ethical Principles for Human-AI Interaction_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Ethical Principles for Human-AI Interaction_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:ethical-principles-for-human-ai-interaction:9b0788023636"
+      ],
+      "raw_copies": [
+        "Context Layer/Ethical Principles for Human-AI Interaction.ormd",
+        "Semantic Substrate/Ethical Principles for Human-AI Interaction.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Exposure Protocol_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Exposure Protocol_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Exposure Protocol_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:exposure-protocol:7bde350fff79"
+      ],
+      "raw_copies": [
+        "Context Layer/Exposure Protocol.ormd",
+        "Semantic Substrate/Exposure Protocol.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Family as a Relational Field_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Family as a Relational Field_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Family as a Relational Field_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:family-as-a-relational-field:a1b2923e7b49"
+      ],
+      "raw_copies": [
+        "Context Layer/Family as a Relational Field.ormd",
+        "Semantic Substrate/Family as a Relational Field.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/From Essential Relationships to Ontological Transf_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/From Essential Relationships to Ontological Transf_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "From Essential Relationships to Ontological Transf_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:from-essential-relationships-to-ontological-tran:c2d2e9a07cbe"
+      ],
+      "raw_copies": [
+        "Context Layer/From Essential Relationships to Ontological Transformation.ormd",
+        "Semantic Substrate/From Essential Relationships to Ontological Transformation.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Global_Closure_Operator_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Global_Closure_Operator_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Global Closure Operator_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "GCO logic_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:gco-logic:9d37396dd2b4",
+        "phase1:global-closure-operator:0c01772c6fc9"
+      ],
+      "raw_copies": [
+        "Context Layer/Global Closure Operator.ormd",
+        "Semantic Substrate/Global Closure Operator.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/GCO logic.ormd",
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/GCO logic.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/hca-main Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/hca-main Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "hca-main Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:hca-main-repo:7320f69a25e4"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Human-AI Creative Collaboration Framework (HAIC)_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Human-AI Creative Collaboration Framework (HAIC)_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Human-AI Creative Collaboration Framework (HAIC)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:human-ai-creative-collaboration-framework-haic:0e81ca7f96b4"
+      ],
+      "raw_copies": [
+        "Context Layer/Human-AI Creative Collaboration Framework (HAIC).ormd",
+        "Semantic Substrate/Human-AI Creative Collaboration Framework (HAIC).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Implementations_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Implementations_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Implementations_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:implementations:868c9523eea0"
+      ],
+      "raw_copies": [
+        "Context Layer/Implementations.ormd",
+        "Semantic Substrate/Implementations.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Initial Axioms_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Initial Axioms_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Initial Axioms_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:initial-axioms:d5aeab9fd944"
+      ],
+      "raw_copies": [
+        "Context Layer/E^2 Axioms.ormd",
+        "Semantic Substrate/E^2 Axioms.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3a_core_ontology/Context Layer/Initial Axioms.ormd",
+        "archive/20260612_pass_3a_core_ontology/Semantic Substrate/Initial Axioms.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Interlocked Stewardship V2_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Interlocked Stewardship V2_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Interlocked Stewardship V2_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:interlocked-stewardship-version-2:e379c274e1e7"
+      ],
+      "raw_copies": [
+        "Context Layer/Interlocked Stewardship V2.ormd",
+        "Semantic Substrate/Interlocked Stewardship V2.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Justice Across Scales Practical Applications_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Justice Across Scales Practical Applications_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Justice Across Scales Practical Applications_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:justice-across-scales-practical-applications:56cda5b33760"
+      ],
+      "raw_copies": [
+        "Context Layer/Justice Across Scales Practical Applications.ormd",
+        "Semantic Substrate/Justice Across Scales Practical Applications.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/layer_2_draft_rvp_and_vme_developments_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/layer_2_draft_rvp_and_vme_developments_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "layer_2_draft_rvp_and_vme_developments_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:layer-2-draft-rvp-and-vme-developments:3e0ac2cd2135"
+      ],
+      "raw_copies": [
+        "Context Layer/layer_2_draft_rvp_and_vme_developments.ormd",
+        "Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Meta-Pattern Decidability Conjecture (MPDC)_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Meta-Pattern Decidability Conjecture (MPDC)_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Meta-Pattern Decidability Conjecture (MPDC)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:meta-pattern-decidability-conjecture-mpdc:8eae535ea6c8"
+      ],
+      "raw_copies": [
+        "Context Layer/Meta-Pattern Decidability Conjecture (MPDC).ormd",
+        "Semantic Substrate/Meta-Pattern Decidability Conjecture (MPDC).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Metabolic_Meaning_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Metabolic_Meaning_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "DUP_DIR",
+          "filename": "Metabolic Meaning_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Metabolic Meaning Phase Space (MMPS)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:metabolic-meaning-phase-space-mmps:e42ffc86d76e",
+        "phase1:metabolic-meaning:e2373d90795c"
+      ],
+      "raw_copies": [
+        "Context Layer/Metabolic Meaning Phase Space (MMPS).ormd",
+        "Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/Metabolic Meaning.ormd",
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/Metabolic Meaning.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/MRIE_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/MRIE_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Cognitive Signature Capture An Unnamed Threat_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Meta-Relational Identity Exposure (MRIE)_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Meta-relational Identity exposure (MRIE) Synthesis_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:cognitive-signature-capture-an-unnamed-threat:988e411e14a6",
+        "phase1:meta-relational-identity-exposure-mrie-synthesis:6e22e77349d1",
+        "phase1:meta-relational-identity-exposure-mrie:e134dbc4a236"
+      ],
+      "raw_copies": [
+        "Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
+        "Context Layer/MRIE - Unified Synthesis.ormd",
+        "Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md",
+        "Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
+        "Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Neo Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Neo Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Neo Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:neo-repo:7dd6731f5b2c"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Ontological Systems Interface (OSI) Model_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Ontological Systems Interface (OSI) Model_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Ontological Systems Interface (OSI) Model_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:ontological-systems-interface-osi-model:206180870353"
+      ],
+      "raw_copies": [
+        "Context Layer/Ontological Systems Interface (OSI) Model.ormd",
+        "Semantic Substrate/Ontological Systems Interface (OSI) Model.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/ormd Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/ormd Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "ormd Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:ormd-repo:ebe4378c7622"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Our essence exists in the space between us_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Our essence exists in the space between us_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Our essence exists in the space between us_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:our-essence-exists-in-the-space-between-us:472c2e5dd89c"
+      ],
+      "raw_copies": [
+        "Semantic Substrate/Our essence exists in the space between us.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Pattern Emergence - Essential Relationship_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Pattern Emergence - Essential Relationship_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Pattern Emergence - Essential Relationship_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:pattern-emergence-essential-relationship:a4879b17d916"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Pattern Integrity over Time under Entropy_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Pattern Integrity over Time under Entropy_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Pattern Integrity over Time under Entropy_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:pattern-integrity-over-time-under-entropy:03a117bb461e"
+      ],
+      "raw_copies": [
+        "Context Layer/Pattern Integrity over Time under Entropy.ormd",
+        "Semantic Substrate/Pattern Integrity over Time under Entropy.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Power_Relational_Field_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Power_Relational_Field_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Power as Relational Field Coherence_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Power_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:power-as-relational-field-coherence:3c591e160336",
+        "phase1:power:b573f24e55d6"
+      ],
+      "raw_copies": [
+        "Context Layer/Power as Relational Field Coherence.ormd",
+        "Semantic Substrate/Power as Relational Field Coherence.md",
+        "Semantic Substrate/Power.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Bill of Rights v2_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Bill of Rights v2_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Bill of Rights v2_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-bill-of-rights-version-2:d2b32a10722a"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Bill of Rights v2.ormd",
+        "Semantic Substrate/Relational Bill of Rights v2.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Consciousness Framework_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Consciousness Framework_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-consciousness-framework:3ec3d40a2ae2"
+      ],
+      "raw_copies": [
+        "Semantic Substrate/Relational Consciousness Framework.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_1_promotion_recovery/Context Layer/Relational Consciousness Framework.ormd"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Field Dynamics 0 1_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Field Dynamics 0 1_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Field Dynamics 0 1_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-field-dynamics-0-1:ff845927844f"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Field Dynamics 0 1.ormd",
+        "Semantic Substrate/Relational Field Dynamics 0 1.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Irreducibility Framework (RIF)_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Irreducibility Framework (RIF)_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Irreducibility Framework (RIF)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-irreducibility-framework-rif:575e065772b0"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Irreducibility Framework (RIF).ormd",
+        "Semantic Substrate/Relational Irreducibility Framework (RIF).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Primitive Engine (RPE)_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Primitive Engine (RPE)_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Primitive Engine (RPE)_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-primitive-engine-rpe:d462df5c44c9"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Primitive Engine (RPE).ormd",
+        "Semantic Substrate/Relational Primitive Engine (RPE).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/relational substrate analysis Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/relational substrate analysis Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "relational substrate analysis Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-substrate-analysis-repo:552f6044ece6"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational Volition_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational Volition_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Relational Volition_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-volition:4b04caf17f6d"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Volition.ormd",
+        "Semantic Substrate/Relational Volition.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational_Perfection_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational_Perfection_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Relational Perfection A Framework for Emergent Int_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Relational Perfection A Manifesto_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-perfection-a-framework-for-emergent-i:b70b0e7f1323",
+        "phase1:relational-perfection-a-manifesto:9e88b9e3a8a5"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Perfection A Manifesto.ormd",
+        "Context Layer/Relational Perfection_framework.ormd",
+        "Semantic Substrate/Relational Perfection A Framework for Emergent Int.md",
+        "Semantic Substrate/Relational Perfection A Manifesto.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Relational_Primitives_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Relational_Primitives_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "DUP_DIR",
+          "filename": "Relational Primitives V3_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Relational Primitives_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Relational Ontology Derived from First Principles_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:relational-ontology-derived-from-first-principle:0efda32fe5ff",
+        "phase1:relational-primitives-version-3:24f3ab6d7f7e",
+        "phase1:relational-primitives:1164f97a4d06"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Primitives.ormd",
+        "Semantic Substrate/Relational Ontology Derived from First Principles.md",
+        "Semantic Substrate/Relational Primitives.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3a_core_ontology/Context Layer/Relational Primitives V3.ormd",
+        "archive/20260612_pass_3a_core_ontology/Context Layer/Relational Primitives.ormd",
+        "archive/20260612_pass_3a_core_ontology/Semantic Substrate/Relational Primitives V3.md",
+        "archive/20260612_pass_3a_core_ontology/Semantic Substrate/Relational Primitives.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Rema v2_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Rema v2_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Rema v2_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:rema-version-2:b3274c622c36"
+      ],
+      "raw_copies": [
+        "Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
+        "Semantic Substrate/Rema v2.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/REMF_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/REMF_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "REMF_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:remf:b2f69a7085d3"
+      ],
+      "raw_copies": [
+        "Context Layer/REMF.ormd",
+        "Semantic Substrate/REMF.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Resonance_Architecture_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Resonance_Architecture_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Resonance Architecture 4 17 25_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "The Resonance Framework An Ontological Map 4 24 25_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "The Architecture of Resonant Systems 4 26 25_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:resonance-architecture-4-17-25:9df12e2ac1af",
+        "phase1:the-architecture-of-resonant-systems-4-26-25:5496422d74ed",
+        "phase1:the-resonance-framework-an-ontological-map-4-24-:293f74aba8e4"
+      ],
+      "raw_copies": [
+        "Context Layer/Resonance Architecture 4 17 25.ormd",
+        "Context Layer/The Architecture of Resonant Systems 4 26 25.ormd",
+        "Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd",
+        "Semantic Substrate/Resonance Architecture 4 17 25.md",
+        "Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
+        "Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/RP_Formal_Translations_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/RP_Formal_Translations_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "CT translation of RPs_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "RP Lambda Calc Translation_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:ct-translation-of-rps:9658e7da45c7",
+        "phase1:rp-lambda-calc-translation:21a24a177eec"
+      ],
+      "raw_copies": [
+        "Context Layer/CT translation of RPs.ormd",
+        "Context Layer/RP Lambda Calc Translation.ormd",
+        "Semantic Substrate/CT translation of RPs.md",
+        "Semantic Substrate/RP Lambda Calc Translation.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/rplang Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/rplang Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "rplang Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:rplang-repo:eb8ecf1f6ee2"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Signal as Bias Field_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Signal as Bias Field_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Signal as Bias Field_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:signal-as-bias-field:9187e162fff1"
+      ],
+      "raw_copies": [
+        "Context Layer/Signal as Bias Field.ormd",
+        "Semantic Substrate/Signal as Bias Field.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Stewardship_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Stewardship_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Reverent Stewardship_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Steward’s Creed_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Caregiving as an Ecosystem_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:caregiving-as-an-ecosystem:d28bf84dc8a5",
+        "phase1:reverent-stewardship:852364eb9d8e",
+        "phase1:steward-s-creed:10a08091f0e9"
+      ],
+      "raw_copies": [
+        "Context Layer/Caregiving as an Ecosystem.ormd",
+        "Context Layer/Reverent Stewardship.ormd",
+        "Context Layer/Steward’s Creed.ormd",
+        "Semantic Substrate/Caregiving as an Ecosystem.md",
+        "Semantic Substrate/Reverent Stewardship.md",
+        "Semantic Substrate/Steward’s Creed.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/TCL_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/TCL_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "TCL_Plain_English_Summary_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "TCL_Three_Constants_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "macl Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:macl-repo:40bf33b4bd42",
+        "phase1:tcl-plain-english:0ac54ed4ef7a",
+        "phase1:tcl-three-constants:28bfec468ee2"
+      ],
+      "raw_copies": [
+        "Context Layer/TCL_Plain_English_Summary.ormd",
+        "Context Layer/TCL_Three_Constants.ormd",
+        "Semantic Substrate/TCL_Plain_English_Summary.md",
+        "Semantic Substrate/TCL_Three_Constants.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Temporal_Compression_Ethical_Occlusion_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Temporal_Compression_Ethical_Occlusion_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Temporal Compression & Ethical Occlusion — v2 (Reb_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Temporal Compression and Ethical Occlusion v2_summary.ormd"
+        },
+        {
+          "folder": "DUP_DIR",
+          "filename": "Temporal Compression and Ethical Occlusion_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:temporal-compression-and-ethical-occlusion-versi:0a100347e91e",
+        "phase1:temporal-compression-and-ethical-occlusion-versi:6c5c7cc3bcaa",
+        "phase1:temporal-compression-and-ethical-occlusion:b0d686f37f3d"
+      ],
+      "raw_copies": [
+        "Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd",
+        "Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/Temporal Compression and Ethical Occlusion Glossary.ormd",
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/Temporal Compression and Ethical Occlusion Glossary.md"
+      ]
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Tensional_Intelligence_synthesized.ormd",
+      "copied_synthesized_core": "Synthesized Core/Tensional_Intelligence_synthesized.ormd",
+      "summary_sources": [
+        {
+          "folder": "CORE_DIR",
+          "filename": "Tension_summary.ormd"
+        },
+        {
+          "folder": "CORE_DIR",
+          "filename": "Tensional Intelligence A Theoretical Foundation_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:tension:e6bacb0da062",
+        "phase1:tensional-intelligence-a-theoretical-foundation:36abad132153"
+      ],
+      "raw_copies": [
+        "Context Layer/Tension.ormd",
+        "Context Layer/Tensional Intelligence A Theoretical Foundation.ormd",
+        "Semantic Substrate/Tension.md",
+        "Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/The Cyclical Integrity framework_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/The Cyclical Integrity framework_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "The Cyclical Integrity framework_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:the-cyclical-integrity-framework:7fdd23e5a208"
+      ],
+      "raw_copies": [
+        "Context Layer/The Cyclical Integrity framework.ormd",
+        "Semantic Substrate/The Cyclical Integrity framework.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/The Intelligence Field Framework_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/The Intelligence Field Framework_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "The Intelligence Field Framework_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:the-intelligence-field-framework:0a4452336882"
+      ],
+      "raw_copies": [
+        "Context Layer/The Intelligence Field Framework.ormd",
+        "Semantic Substrate/The Intelligence Field Framework.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Truth Ceiling_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Truth Ceiling_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Truth Ceiling_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:truth-ceiling:e04c6a03b5a3"
+      ],
+      "raw_copies": [
+        "Context Layer/Truth Ceiling.ormd",
+        "Semantic Substrate/Truth Ceiling.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Unified-AGI-main Repo Summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Unified-AGI-main Repo Summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Unified-AGI-main Repo Summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:unified-agi-main-repo:c89c6f74a1f1"
+      ],
+      "raw_copies": [],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    },
+    {
+      "synthesized_core": "Summarized Context/Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
+      "copied_synthesized_core": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
+      "summary_sources": [
+        {
+          "folder": "STANDALONE",
+          "filename": "Universal Emergence Pattern E² Integration and Ext_summary.ormd"
+        }
+      ],
+      "source_record_ids": [
+        "phase1:universal-emergence-pattern-e2-integration-and-e:f8135cbe8581"
+      ],
+      "raw_copies": [
+        "Context Layer/Universal Emergence Pattern.ormd",
+        "Semantic Substrate/Universal Emergence Pattern.md"
+      ],
+      "unresolved_summary_refs": [],
+      "archived_raw_copies": []
+    }
+  ],
+  "explicit_core_additions": [
+    {
+      "stem": "Asymmetry Maintenance - Core Source",
+      "source_record_id": "phase1:asymmetry-maintenance-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Asymmetry Maintenance - Core Source.ormd",
+        "Semantic Substrate/Asymmetry Maintenance - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Boundary Ethics - Core Source",
+      "source_record_id": "phase1:boundary-ethics-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Boundary Ethics - Core Source.ormd",
+        "Semantic Substrate/Boundary Ethics - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "boundary_dynamics",
+      "source_record_id": "phase1:boundary-dynamics:f2309113e3c1",
+      "raw_copies": [
+        "Context Layer/boundary_dynamics.ormd",
+        "Semantic Substrate/boundary_dynamics.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Complex Causality - Core Source",
+      "source_record_id": "phase1:complex-causality-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Complex Causality - Core Source.ormd",
+        "Semantic Substrate/Complex Causality - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Consequence Routing - Core Source",
+      "source_record_id": "phase1:consequence-routing-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Consequence Routing - Core Source.ormd",
+        "Semantic Substrate/Consequence Routing - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Emergence_Determination_Foreclosure",
+      "source_record_id": "phase1:emergence-determination-foreclosure:b5b91dde3ab0",
+      "raw_copies": [
+        "Context Layer/Emergence_Determination_Foreclosure.ormd",
+        "Semantic Substrate/Emergence_Determination_Foreclosure.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "flow_operators_provisional",
+      "source_record_id": "phase1:flow-operators-provisional:226b080343d3",
+      "raw_copies": [
+        "Context Layer/flow_operators_provisional.ormd",
+        "Semantic Substrate/flow_operators_provisional.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Proxy Localization - Core Source",
+      "source_record_id": "phase1:proxy-localization-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Proxy Localization - Core Source.ormd",
+        "Semantic Substrate/Proxy Localization - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Relational Localization - Core Source",
+      "source_record_id": "phase1:relational-localization-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Relational Localization - Core Source.ormd",
+        "Semantic Substrate/Relational Localization - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Intervention Stewardship - Core Source",
+      "source_record_id": "phase1:intervention-stewardship-core-source:20260807",
+      "raw_copies": [
+        "Context Layer/Intervention Stewardship - Core Source.ormd",
+        "Semantic Substrate/Intervention Stewardship - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Remnant Stewardship - Core Source",
+      "source_record_id": "phase1:remnant-stewardship-core-source:20260612",
+      "raw_copies": [
+        "Context Layer/Remnant Stewardship - Core Source.ormd",
+        "Semantic Substrate/Remnant Stewardship - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "resolution_synthesis",
+      "source_record_id": "phase1:resolution-synthesis:328af7d928a7",
+      "raw_copies": [
+        "Context Layer/resolution_synthesis.ormd",
+        "Semantic Substrate/resolution_synthesis.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Justice Across Scales",
+      "source_record_id": "phase1:justice-across-scales:20260612",
+      "raw_copies": [
+        "Context Layer/Justice Across Scales.ormd",
+        "Semantic Substrate/Justice Across Scales.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Self as Coherence Field",
+      "source_record_id": "phase1:self-as-coherence-field:9601ba11aa4a",
+      "raw_copies": [
+        "Context Layer/Self as Coherence Field.ormd",
+        "Semantic Substrate/Self as Coherence Field.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Condition as Typed Terrain - Core Source",
+      "source_record_id": "phase1:condition-as-typed-terrain-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Condition as Typed Terrain - Core Source.ormd",
+        "Semantic Substrate/Condition as Typed Terrain - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Lawfulness - Core Source",
+      "source_record_id": "phase1:lawfulness-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Lawfulness - Core Source.ormd",
+        "Semantic Substrate/Lawfulness - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Persistence as Accumulated Stance-With - Core Source",
+      "source_record_id": "phase1:persistence-as-accumulated-stance-with-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd",
+        "Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Responsibility Absorption - Core Source",
+      "source_record_id": "phase1:responsibility-absorption-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Responsibility Absorption - Core Source.ormd",
+        "Semantic Substrate/Responsibility Absorption - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Slow-Layer Clock Ratio - Core Source",
+      "source_record_id": "phase1:slow-layer-clock-ratio-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Slow-Layer Clock Ratio - Core Source.ormd",
+        "Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included_provisional_metric"
+    },
+    {
+      "stem": "Custody - Core Source",
+      "source_record_id": "phase1:custody-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Custody - Core Source.ormd",
+        "Semantic Substrate/Custody - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included_provisional_machinery"
+    },
+    {
+      "stem": "Trust, Trustworthiness, and Reliance - Core Source",
+      "source_record_id": "phase1:trust-trustworthiness-reliance-core-source:20260810",
+      "raw_copies": [
+        "Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd",
+        "Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
+    {
+      "stem": "Embedded Universality Principle (EUP)",
+      "source_record_id": "phase1:embedded-universality-principle-eup:74ca36293c69",
+      "raw_copies": [
+        "Context Layer/Embedded Universality Principle (EUP).ormd",
+        "Semantic Substrate/Embedded Universality Principle (EUP).md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included_unindexed_addition"
+    },
+    {
+      "stem": "sign_mediated_accountability",
+      "source_record_id": "phase1:sign-mediated-accountability:a967633c6a51",
+      "raw_copies": [],
+      "archived_raw_copies": [
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/sign_mediated_accountability.ormd",
+        "archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/sign_mediated_accountability.md"
+      ],
+      "status": "archived_into_sign_mediated_flow_routing"
+    },
+    {
+      "stem": "sign_mediated_flow_routing",
+      "source_record_id": "phase1:sign-mediated-flow-routing:c48f5d383c59",
+      "raw_copies": [
+        "Context Layer/sign_mediated_flow_routing.ormd",
+        "Semantic Substrate/sign_mediated_flow_routing.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    }
+  ],
+  "unresolved": [],
+  "notes": [
+    "Current counts describe active E2Core plus Synthesized Core, not archived raw files.",
+    "Historical or consolidated raw paths are retained per entry in archived_raw_copies.",
+    "Context Layer Index.ormd is registered as a meta file rather than a source addition."
+  ]
+}

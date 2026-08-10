@@ -1,0 +1,69 @@
+<!-- ormd:1.0 -->
+---
+title: "Original E^2 Work"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "research.index"
+lineage:
+  origin: { uri: "urn:ormd:e2-original-work", ts: "2025-06-03T00:00:00Z" }
+  parents:
+    - { uri: "local://archive/20260612_step_2_3_outliers/Context%20Layer/Original%20E%5E2%20work.ormd", relation: "expands_index" }
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["E^2", "lineage anchors", "foundational index", "Resonance Framework", "Relational Primitives", "REMF", "Truth Ceiling"]
+resolution: { confidence: 1.0 }
+---
+
+# Original E^2 Work {#original-e2-work}
+
+This registry replaces the archived link-hub with a compact lineage map for the original E^2 corpus. It is index material, not a theory document. Use it to locate historical anchors and then route claims to the current canonical Context Layer.
+
+## Foundational Ontology {#foundational-ontology}
+
+- `E^2 Entry Point.ormd`: human-readable entry point for the relational ontology.
+- `E^2 Equation.ormd`: compact equation-level statement.
+- `E^2 Axioms.ormd`: canonical axiomatic foundation; parents include Initial Axioms.
+- `Relational Primitives.ormd`: canonical merged primitive vocabulary; parents include Relational Primitives V3.
+- `The Resonance Framework: An Ontological Map 4.24.25.ormd`: historical resonance-map anchor.
+- `Resonance Architecture 4.17.25.ormd` and `The Architecture of Resonant Systems 4.26.25.ormd`: early architecture lineage.
+
+## Constitutional and Ethical Anchors {#constitutional-ethical-anchors}
+
+- `Constitutions.ormd`: constitution index and early governance framing.
+- `Essence of Existence Constitution - Draft 2.ormd`: current constitutional articulation.
+- `Declaration of Interdependence.ormd`: interdependence as civic/ethical frame.
+- `Ethical Principles for Human-AI Interaction.ormd`: early human-AI ethics anchor.
+- `Relational Bill of Rights.ormd`: canonical relational-rights expression.
+- `Remnant Stewardship.ormd`: stewardship of remainder, residue, and unintegrated persons/patterns.
+
+## Emergence, Complexity, and Limits {#emergence-complexity-limits}
+
+- `Universal Emergence Pattern.ormd`: emergence-pattern synthesis; flagged for later update/review.
+- `Meta-Pattern Decidability Conjecture (MPDC).ormd`: decidability and embedded-observer limit.
+- `Truth Ceiling.ormd`: epistemic ceiling and coherence constraints.
+- `REMF.ormd`: relational emergence modeling frame.
+- `Emergence Engine.ormd`: generative/simulation lineage.
+- `Adaptation via Informational Abstraction.ormd`: abstraction/adaptation account.
+
+## Applied Fields and Domains {#applied-fields-domains}
+
+- `Power as Relational Field Coherence.ormd`: power as relational field coherence.
+- `Caregiving as an Ecosystem.ormd`: care as relational ecology.
+- `Communication as Coherence.ormd`: communication and coherence repair.
+- `Family as a Relational Field.ormd`: implementation/demonstration view of family through the framework lens.
+- `Relational Volition.ormd`: volition and agency within relational dynamics.
+
+## Adjacent and Historical Clusters {#adjacent-historical-clusters}
+
+- `Tensional Intelligence: A Theoretical Foundation.ormd`: tension as intelligence substrate.
+- `Tensional Navigation: A Practical Framework.ormd`: applied navigation pattern.
+- `Ontological Systems Interface (OSI) Model.ormd`: interface model bridging ontology and operational mapping.
+- `Eidosemantic Systems Theory.ormd`: semantic/systemic lineage.
+- `Maslow, The Bible, and Relationship.ormd`: comparative conceptual anchor.
+- `Myth/Story.ormd`, `Tangential Ideas.ormd`, and `People with Related Ideas.ormd`: noncanonical historical/contextual anchors.
+
+## Use Guidance {#use-guidance}
+
+When a reader needs history, start here. When a reader needs a claim, prefer the current canonical document named in the relevant cluster. The archived parent preserves the original Notion-style link order.

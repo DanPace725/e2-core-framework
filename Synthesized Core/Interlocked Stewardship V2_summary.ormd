@@ -1,0 +1,85 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Interlocked Stewardship V2'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summaries/interlocked-stewardship-v2
+    ts: '2024-05-22T14:30:00Z'
+  parents:
+  - urn:cb:Interlocked Stewardship V2.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - stewardship
+  - invisible labor
+  - FCIL
+  - MCIL
+  - relational dynamics
+  - social systems
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - stewardship_architecture
+  - ontology_core
+  - ethics_rights
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#governance "meta:corresponds_to"). Interlocked Stewardship V2: multi-scale governance through mutual accountability structures. Canonical treatment in B5 §6.
+
+# Summary: Interlocked Stewardship V2 {#summary-title}
+
+## Overview of the Stewardship Problem {#introduction}
+
+The document "Interlocked Stewardship V2" argues that the functioning of homes and communities relies on unnamed, invisible labor. This [invisible labor](#mapping-territory "ontological:is_part_of") is not merely a burden for one group but is an [interlocked system](#the-interlock "ontological:composes") that maintains social structures. Masculine-coded and feminine-coded roles [are two halves](#the-interlock "ontological:composes") of a single machine; neither can be addressed in isolation.
+
+## Mapping the Domains of Stewardship {#mapping-territory}
+
+The author defines [stewardship](#stewardship-definition "ontological:defines") as the ongoing responsibility for the safety and functionality of shared life. This responsibility [has been split](#fcil-mcil-split "ontological:composes") into two primary domains:
+
+*   **Feminine-Coded Invisible Labor (FCIL):** Focused on nurturing and sustaining through relational maintenance, domestic management, and emotional load-bearing.
+*   **Masculine-Coded Invisible Labor (MCIL):** Focused on protecting and providing through physical safety, resource provision, and systems stability.
+
+These domains are [two halves of the same coin](#the-interlock "meta:corresponds_to"). They are fundamentally interdependent: one [can’t nurture without provision](#mutual-dependency "symmetric:constrains"), and one [can’t protect without sustaining](#mutual-dependency "symmetric:constrains") the life being protected.
+
+## The System Lifecycle and Erosion {#system-lifecycle}
+
+Both roles follow a [life cycle](#lifecycle-stages "dynamical:transforms_to") from childhood encoding to institutionalization. Over time, the performance of these roles [becomes part of your identity](#erosion "dynamical:transforms_to"), eventually leading to a state where the individual [erodes](#erosion "dynamical:transforms_to"). This erosion manifests as numbness and resentment in MCIL, and exhaustion and identity collapse in FCIL.
+
+## The Interlock and Mutual Dependency {#the-interlock}
+
+The system is held together by a reinforcement loop where [Protection & Provision](#mcil-focus "epistemic:supports") creates the stability required for [Nurturing & Sustaining](#fcil-focus "epistemic:supports") to function. This interlock [is both shield and prison](#shared-trap "symmetric:constrains") for both parties. 
+
+The roles [are sustained by fear](#shared-trap "symmetric:constrains") of what happens if the labor stops. Because each role [hides the other’s cost](#shared-trap "geometric:causes"), the true price of the system remains invisible. Furthermore, the system exhibits breakdown symmetry: [FCIL failure](#fcil-focus "geometric:causes") or [MCIL failure](#mcil-focus "geometric:causes") both lead to the flooding of the other role, which [accelerates collapse](#breakdown-symmetry "geometric:causes") of the entire unit. This interlock [is a feature](#the-interlock "ontological:is_part_of") designed to prevent the dismantling of either role individually.
+
+## Critique of Existing Frameworks {#framework-critique}
+
+The document posits that current social theories are incomplete:
+*   **Patriarchy Theory:** [Overgeneralizes male benefit](#patriarchy-critique "epistemic:refutes") and ignores the erosion inherent in MCIL.
+*   **Privilege Discourse:** [Frames privilege as one-directional](#privilege-critique "epistemic:refutes") and fails to distinguish structural design from personal experience.
+*   **Feminist Analysis:** Often [ignores the MCIL equivalent](#feminist-critique "epistemic:refutes") of invisible labor.
+*   **Men’s Rights Narratives:** [Centers men as primary victims](#mra-critique "epistemic:refutes") while minimizing the harms they may perpetrate.
+
+The author notes that structural privilege and personal erosion [coexist](#missing-piece "meta:corresponds_to") and must both be acknowledged to move forward.
+
+## The New Model: Rebuilding Stewardship {#new-model}
+
+To break the trap, the document proposes a **Four-Domain Stewardship Model** (Protect, Provide, Nurture, Sustain). Key principles include:
+1.  Making all labor visible and tracked.
+2.  Sharing all four domains across genders to ensure no one gets a pass.
+3.  Rotating responsibilities, which [prevents total identity fusion](#principle-4 "symmetric:constrains") with a single role.
+4.  Building redundancy so the system [flexes—without imploding](#principle-6 "symmetric:preserves") during failure.
+
+When these domains [are visible, shareable, and accountable](#four-domain-model "ontological:defines"), the traditional trap is broken.
+
+## Conclusion {#conclusion}
+
+True progress requires a [redistribution of work, visibility, and accountability](#new-model "dynamical:transforms_to"). The author concludes that the "luxury of ignorance" regarding these dynamics [is always paid for](#introduction "geometric:causes") by the invisible labor of others.

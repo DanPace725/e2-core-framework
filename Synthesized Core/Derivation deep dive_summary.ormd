@@ -1,0 +1,84 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Categorical and Relational Physics Derivation'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/2025-11-17
+    ts: '2025-11-17T12:00:00Z'
+  parents:
+  - urn:cb:Derivation deep dive.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - relational physics
+  - category theory
+  - ontology
+  - matter
+  - energy
+  - spacetime
+  - meta-categories
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - mathematics_logic
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-2-six-primitives "meta:corresponds_to"). Extended derivation of the six relational primitives from Matter/Energy/Spacetime. Canonical treatment in B1 §2.
+
+# Synthesis: Categorical and Relational Physics {#top}
+
+This document synthesizes the derivation of a relational ontology for physics, moving from standard tensor-based descriptions toward a unified categorical framework.
+
+## 1. The Unified Container of Reality {#unified-container}
+
+In current physical theory, the [stress-energy tensor](#stress-energy-tensor "ontological:composes") ($T_{\mu\nu}$) serves as the primary object that [composes](#stress-energy-tensor "ontological:composes") all forms of matter and energy. While a single "Category of All Stuff" is not yet standard, several frameworks move in this direction:
+
+- **[Categorical Quantum Mechanics (CQM)](#cqm "meta:corresponds_to")**: Uses monoidal categories to treat [physical systems](#cqm "ontological:defines") as objects and [processes](#cqm "dynamical:transforms_to") as morphisms.
+- **[Functorial QFT / TQFT](#tqft "meta:corresponds_to")**: Models physics as a mapping where [spacetime](#tqft "meta:corresponds_to") is the domain and quantum states [emerge from](#tqft "meta:emerges_from") the functorial image.
+- **[Higher Gauge Theory](#higher-gauge-theory "meta:corresponds_to")**: Suggests that particles and [interactions](#higher-gauge-theory "dynamical:interacts_with") are derived from higher relational structures like groupoids and 2-groups.
+
+## 2. The Three Mega-Domains (M-E-S) {#mega-domains-summary}
+
+The physical world is partitioned into three primary relational domains:
+
+### 𝕄 — The Matter Category {#matter-summary}
+This domain [defines](#matter-domain "ontological:defines") entities with mass or localized field excitations. It [composes](#matter-sub-objects "ontological:composes") sub-objects such as [Baryonic Matter](#baryonic-matter "ontological:composes"), [Antimatter](#antimatter "ontological:composes"), and [Dark Matter](#dark-matter "ontological:is_a"). Matter is fundamentally viewed as [excitations of underlying fields](#fields-as-matter "ontological:emerges_from").
+
+### 𝔼 — The Energy Category {#energy-summary}
+This domain [defines](#energy-domain "ontological:defines") the drivers of change and curvature. It includes [Kinetic Energy](#kinetic-energy "ontological:composes"), [Radiation](#radiation-energy "ontological:composes"), and [Dark Energy](#dark-energy "ontological:defines"). Energy acts as the [dynamical driver](#energy-domain "dynamical:transforms_to") of the system.
+
+### 𝕊 — The Spacetime Category {#spacetime-summary}
+This domain [defines](#spacetime-domain "ontological:defines") the geometric-relational scaffold. The [Metric Tensor](#metric "ontological:defines") [causes](#manifold-metric "geometric:causes") the definition of distances and [causal structure](#causal-structure "ontological:defines"). Spacetime is [shaped by energy content](#energy-domain "geometric:causes") and [constrains field behavior](#fields-as-matter "symmetric:constrains").
+
+## 3. The Relational Web {#relational-web}
+
+The domains are linked through a "tensional relationship" expressed by Einstein’s Field Equation, where [geometry (𝕊)](#spacetime-domain "ontological:defines") [corresponds to](#spacetime-domain "meta:corresponds_to") the [matter-energy content (𝕄+𝔼)](#mega-domains "ontological:defines"). 
+
+Key relational patterns include:
+- **Structural**: [Curvature is derived from](#manifold-curvature "ontological:defines") the metric.
+- **Transformational**: [Kinetic and Potential energy](#ke-pe "dynamical:transforms_to") exchange states.
+- **Symmetric**: [Antimatter](#antimatter "symmetric:corresponds_to") is the CPT-conjugate of baryons.
+- **Emergent**: The [Spacetime Manifold](#manifold "meta:emerges_from") may [emerge from](#spacetime-manifold-quantum "meta:emerges_from") quantum spacetime.
+
+## 4. The Six Meta-Categories of Relationships {#meta-categories-summary}
+
+All identified physical relationships (approximately 30 types) collapse into six foundational meta-categories:
+
+1.  **[Ontological](#cat-ontological "ontological:defines")**: Identity, structure, and [composition](#structural-relationships "ontological:composes"). (What it is).
+2.  **[Dynamical](#cat-dynamical "dynamical:transforms_to")**: [Evolution](#transformational-relationships "dynamical:transforms_to") and [interactions](#interaction-relationships "dynamical:interacts_with"). (What it does).
+3.  **[Geometric/Causal](#cat-geometric "geometric:causes")**: Spacetime [embedding](#cat-geometric "geometric:embedded_in") and [influence](#causal-relationships-list "geometric:causes"). (Where it exists).
+4.  **[Symmetric/Invariant](#cat-symmetric "symmetric:constrains")**: [Rules](#constraint-relationships "symmetric:constrains") and [conservation laws](#symmetry-relationships "symmetric:constrains"). (Its constraints).
+5.  **[Informational/Epistemic](#cat-epistemic "epistemic:measures")**: [Measurement](#measurement-relationships "epistemic:measures") and [uncertainty](#probabilistic-relationships "epistemic:measures"). (How it is known).
+6.  **[Meta-Relational](#cat-meta "meta:corresponds_to")**: [Mappings between relationships](#meta-relational-section "meta:corresponds_to") and [dualities](#duality-relationships "meta:corresponds_to"). (How it connects to other frameworks).
+
+This six-fold architecture provides a [complete and robust abstraction layer](#robust-layer "ontological:composes") for a unified relational ontology of reality.

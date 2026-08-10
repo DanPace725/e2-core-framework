@@ -1,0 +1,232 @@
+<!-- ormd:1.0 -->
+---
+title: "CFAR: Constraint-Fluctuation-Attention-Resolution Framework"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "systems.framework.cfar"
+lineage:
+  origin: { uri: "internal://documents/cfar-summary", ts: "2025-09-11T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["CFAR", "systems theory", "Rayleigh criterion", "control architecture", "behavior change", "RPLang"]
+resolution: { confidence: 0.95 }
+---
+
+# CFAR
+
+9/11/25
+
+## CFAR Framework Summary {#summary}
+
+**CFAR** stands for [Constraint-Fluctuation-Attention-Resolution](#glossary "ontological:defines") - a practical framework for matching problem resolution to system capacity.
+
+### Core Concept {#core-concept}
+
+The CFAR Framework is [built on the insight](#rayleigh-criterion "epistemic:supports") that many systems fail because they try to "print" patterns finer than the system can actually resolve. Drawing inspiration from [optics](#rayleigh-criterion "meta:corresponds_to") (like the [Rayleigh criterion](#rayleigh-criterion "symmetric:constrains") that limits optical resolution), it applies this principle to incentives and cognition.
+
+**Key Paradigm**: optics → incentives → cognition (Rayleigh analogies)
+
+### Theoretical Foundation {#theory}
+
+The framework models system behavior using [three core variables](#glossary "ontological:composes"):
+
+- **[C (Constraint)](#constraint "ontological:defines")**: System structure and institutional inertia
+- **[F (Fluctuation)](#fluctuation "ontological:defines")**: Designed variance and gradient engineering
+- **[A (Attention)](#attention "ontological:defines")**: Energy flow and cognitive resources
+
+These interact through [mathematical differential equations](#equations "ontological:defines"):
+
+- dC/dt = αC·C(1-C) - βCF·C·F - γCA·C·A + uC(t)
+- dF/dt = αF·F(1-F) - βFC·F·C + γFA·F·A + uF(t)
+- dA/dt = αA·A(1-A) + βAC·A·C + βAF·A·F + uA(t)
+
+### Technical Implementation {#implementation}
+
+**Control Architecture**: The system uses a sophisticated [dual-controller approach](#control-architecture "ontological:composes"):
+
+1. **[PID Controller](#pid-controller "ontological:composes")** (slow/medium levers): For structural adjustments when precision is possible
+2. **[Bandit Algorithms](#bandit-algorithms "ontological:composes")** (fast levers): For rapid interventions and exploration
+3. **Fluctuation Controller**: For engineered gradient creation when precision is blocked
+4. **Guardrails**: Safety and constraint enforcement systems
+
+**Strategy Switching**: The system automatically [switches between](#strategy-switching "dynamical:transforms_to"):
+
+- **Precision Mode [P]**: Fine structural adjustments via PID when resolution allows
+- **Fluctuation Mode [F]**: Gradient engineering when precision is [blocked by the Rayleigh criterion](#rayleigh-criterion "symmetric:constrains")
+
+### Practical Applications {#applications}
+
+The framework comes with:
+
+- **Interactive Dashboard**: Streamlit-based UI for real-time simulation and visualization
+- **REST API**: For integrations and automation
+- **CLI Interface**: Command-line tools for running simulations
+- **Example Configurations**: Including a littering reduction system
+
+The system can model and [optimize various behavior change scenarios](#outcomes "geometric:causes") like:
+
+- Littering reduction programs
+- Seatbelt usage campaigns
+- Organizational transformation
+- Policy implementation
+
+### Key Innovation {#innovation}
+
+Rather than relying solely on money-based incentives, CFAR achieves **stable behavior change** by:
+
+1. Respecting [natural resolution limits](#rayleigh-criterion "symmetric:constrains") (like the Rayleigh criterion in optics)
+2. Using fluctuation control when precision is blocked
+3. Automatically detecting attention traps and system stalls
+4. Providing alternative pathways when direct approaches fail
+
+The framework represents a [bridge](#summary "meta:corresponds_to") between complex systems theory and practical intervention design, making sophisticated relational complexity theory actionable for real-world systems analysis and intervention.
+
+**Outcome**: Stable behavior change without relying exclusively on money-only incentives, achieved through intelligent matching of intervention strategies to system capacity and resolution limits. {#outcomes}
+
+## **Glossary** {#glossary}
+
+A working vocabulary for the **CFAR Framework** (Constraint-Fluctuation-Attention-Resolution).
+
+This is a living document — extend it as concepts evolve.
+
+---
+
+**Core Concepts**
+
+**Constraint (C)** {#constraint}
+
+Structural limits and affordances that shape behavior. Includes rules, laws, default settings, design features, enforcement presence.
+
+*Analogous to:* viscosity or channel walls in fluid dynamics; aperture stop in optics.
+
+**Fluctuation (F)** {#fluctuation}
+
+Variability, randomness, and turbulence in the system. Can be noise, novelty, exploration, or instability.
+
+*Analogous to:* turbulence in fluids; stochastic jitter in signals.
+
+**Attention (A)** {#attention}
+
+Salience and amplification of norms, signals, and cues. Campaigns, prompts, media visibility, and social proof.
+
+*Analogous to:* light intensity or pressure driving flow.
+
+**Norm (N)** {#norm}
+
+Shared belief or expectation about how others behave. Updates dynamically based on observed outcomes.
+
+**Burden (B)** {#burden}
+
+Perceived cost, hassle, or fatigue associated with interventions. Rising burden predicts backlash or dropout.
+
+---
+
+**Resolution Analogies**
+
+**Rayleigh Criterion** {#rayleigh-criterion}
+
+In optics: the minimum resolvable feature size is proportional to wavelength / numerical aperture.
+
+In social systems: the minimum resolvable change is proportional to intervention granularity / sensing-actuation capacity.
+
+**ΔY_min (Minimum Resolvable Change)** {#delta-y}
+
+The smallest reliable shift in outcome the system can detect and control.
+
+[ \Delta Y_{\min} \approx k_1 \cdot \frac{\lambda_{\text{eff}}}{\mathrm{NA}_{\text{eff}}} ]
+
+**Numerical Aperture (NA_eff)** {#na-eff}
+
+Effective “aperture” of the system: how finely it can sense (data richness, feedback speed) and act (number + precision of levers).
+
+**λ_eff (Effective Wavelength)** {#lambda-eff}
+
+Granularity and cadence of interventions. Longer λ = broad campaigns; shorter λ = micro-timed, targeted pulses.
+
+**k₁ (Process Factor)** {#k1}
+
+Slack variable capturing unpredictability: habituation, operational variance, residual model error.
+
+**Depth of Focus (DOF)** {#dof}
+
+Robustness margin of an intervention. High NA improves resolution but narrows tolerance to drift, just as in optics.
+
+---
+
+**Control Architecture** {#control-architecture}
+
+**PID Controller** {#pid-controller}
+
+Proportional–Integral–Derivative control loop applied to medium/slow levers (laws, defaults, infrastructure).
+
+- P: respond to error immediately.
+- I: accumulate error and correct drift.
+- D: damp overshoot and oscillation.
+
+**Multi-Armed Bandit** {#bandit-algorithms}
+
+Adaptive algorithm for fast levers (messages, prompts, channels). Balances exploration vs. exploitation to avoid habituation.
+
+**Guardrails** {#guardrails}
+
+Automatic checks for equity gaps, burden thresholds, cost ceilings, or oscillatory instability. Trigger rollback or pause if exceeded.
+
+**Deadband** {#deadband}
+
+Range of error around the target in which the controller takes no action, preventing thrash.
+
+**Hysteresis** {#hysteresis}
+
+Intentional lag in switching direction to avoid flip-flopping behavior.
+
+**Change Budget** {#change-budget}
+
+Maximum allowed adjustment per cycle. Ensures stability and prevents overwhelming users or operations.
+
+**RFC (Request for Comments)** {#rfc}
+
+Purpose: a structured proposal for a new idea, feature, or change.
+
+Format: usually a markdown doc with background, motivation, design details, pros/cons, and open questions.
+
+Workflow:
+1. Someone writes an RFC draft.
+2. It’s circulated for review/discussion (“request for comments”).
+3. After feedback, the team accepts/rejects/archives it.
+
+Think of RFCs as living proposals — the place where exploration and debate happens before implementation.
+
+**ADR (Architecture Decision Record)** {#adr}
+
+Purpose: a permanent record of a design or architecture choice that has been made.
+
+Format: very short markdown doc (~1 page), usually with these sections:
+- Context
+- Decision
+- Status (accepted, superseded, deprecated)
+- Consequences (positive and negative)
+
+Workflow:
+1. Once an RFC or discussion resolves into a final decision, you capture it as an ADR.
+
+Think of ADRs as committed history — the logbook of why the system looks the way it does.
+
+---
+
+**Meta Concepts** {#meta-concepts}
+
+**Cognitive Resolution** {#cognitive-resolution}
+
+The limit of human/group capacity to meaningfully process complexity. If a problem is scoped finer than this limit, participation [degrades into disengagement](#burden "dynamical:transforms_to").
+
+**Cognitive Bandwidth Matcher** {#bandwidth-matcher}
+
+A scoping tool that decomposes problems to match group capacity, surfaces only resolvable units, and shows connections to larger patterns.
+
+**CFAR Framework** {#cfar-def}
+
+The Constraint-Fluctuation-Attention-Resolution paradigm: design problems and interventions so they [respect the system's resolution limits](#rayleigh-criterion "symmetric:constrains") (optical, social, cognitive).
+

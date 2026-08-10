@@ -1,0 +1,39 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Our Essence'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/essence-reflection
+    ts: '2023-10-27T14:30:00Z'
+  parents:
+  - urn:cb:Our essence exists in the space between us.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - essence
+  - relationality
+  - ontology
+  - interconnectedness
+  document_type:
+  - foundational_theory
+  domains:
+  - ontology_core
+resolution:
+  confidence: 1.0
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-1-relational-commitment "meta:corresponds_to"). Foundational phenomenological statement of E²: being arises in-between. Canonical treatment in B1 §1.
+
+### Synthesis of Relational Ontology
+
+The document "Our Essence" by Daniel Pace presents a concise philosophical proposition regarding the locus of human identity. It argues against the notion of essence as an isolated, internal property of the individual. Instead, the text asserts that our [essence](#relational-space "ontological:emerges_from") is an emergent phenomenon that [emerges from](#relational-space "ontological:emerges_from") the shared connections between people.
+
+This perspective shifts the focus of being from the "self" to the "relational," suggesting that the [space between us](#relational-space "geometric:embedded_in") is the primary environment in which we are [embedded](#relational-space "geometric:embedded_in"). This [relational space](#relational-space "ontological:defines") serves as the foundational substrate for human existence and meaning.
+
+{#relational-space}

@@ -1,0 +1,80 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Layer 2 RVP + VME Developments'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summaries/layer-2-rvp-vme
+    ts: '2025-05-22T12:00:00Z'
+  parents:
+  - urn:cb:layer_2_draft_rvp_and_vme_developments.ormd
+policy:
+  read:
+  - roles:
+    - researcher
+    - architect
+semantics:
+  keywords:
+  - RVP
+  - VME
+  - Relational Economics
+  - Summary
+  document_type:
+  - specification
+  - derived_framework
+  domains:
+  - systems_engineering
+  - ontology_core
+  - ai_collaboration
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#ecn "meta:corresponds_to"). Layer-2 developments in relational vocabulary and value/meaning encoding. Canonical treatment in B4 §2 (ECN).
+
+# Summary: Layer 2 RVP + VME Developments {#summary-top}
+
+## Overview {#overview}
+This document synthesizes the operational machinery of Layer 2, which transitions relational economic theory into functional protocols. The system relies on two primary components: the [RVP](#rvp-definition "ontological:defines") for communication and the [VME](#vme-definition "ontological:defines") for coordination.
+
+## Relational Value Packets (RVP) {#rvp-definition}
+The RVP is a structured communication protocol that functions as [nutritional labeling](#rvp-framing "meta:corresponds_to") for exchanges. Rather than a scalar price, it provides a 6D profile across the [six primitives](#six-dim-profile "ontological:composes").
+
+Key features include:
+- Contextual embedding within [Mode 1/2/3](#rvp-schema "geometric:embedded_in").
+- Detection of [P-violations](#violation-flags "epistemic:measures") to surface integrity risks.
+- A schema covering headers, parties, objects, claims, evidence, and annotations.
+
+## Vector Matching Engine (VME) {#vme-definition}
+The VME replaces scalar matching with a [Constraint Satisfaction Problem (CSP)](#vme-problem "meta:corresponds_to") approach. It seeks "fit" and "complementarity" between agent deficit and capacity vectors.
+
+The matching process involves a three-stage pipeline:
+1. **Candidate Discovery**: Finding overlaps.
+2. **Proposal Generation**: Creating feasible offer vectors.
+3. **Validation**: Applying gates to ensure [Mutual feasibility](#vme-data "symmetric:constrains"), [Mutual intelligibility](#six-dim-profile "epistemic:supports"), [Mutual symmetry](#six-dim-profile "symmetric:preserves"), [Mutual deficit reduction](#vme-data "dynamical:interacts_with"), and [Temporal safety](#vme-pipeline "geometric:precedes").
+
+## System Integration and Deployment {#implementation}
+The VME [consumes RVPs](#rvp-definition "epistemic:supports") to inform matching and [produces RVPs](#rvp-definition "dynamical:transforms_to") to record outcomes.
+
+Initial deployment targets Mode 2 as the [viable starting environment](#implementation "geometric:precedes"). By focusing on a "triage" of detectable flags (P2, P4, P5, P6), the system offers [immediate protection](#triage-wedge "epistemic:supports") without requiring total information.
+
+## Future Tasks {#next-tasks}
+Immediate priorities include [converting the RVP schema](#rvp-schema-v01 "dynamical:transforms_to") to JSON, [running test cases](#test-cases "epistemic:measures"), [defining Mode 2 governance](#mode2-gov "symmetric:constrains"), and [specifying VME stages](#vme-stages "ontological:defines") with explicit [gates and rules](#gates-rules "symmetric:constrains").
+
+---
+### Conceptual Anchors {#anchors}
+- [Nutritional Labeling](#rvp-framing) {#rvp-framing}
+- [Six Primitives Profile](#six-dim-profile) {#six-dim-profile}
+- [RVP Schema Context](#rvp-schema) {#rvp-schema}
+- [Violation Flags](#violation-flags) {#violation-flags}
+- [CSP Problem Definition](#vme-problem) {#vme-problem}
+- [Agent Data Vectors](#vme-data) {#vme-data}
+- [Matching Pipeline](#vme-pipeline) {#vme-pipeline}
+- [Triage Wedge Strategy](#triage-wedge) {#triage-wedge}
+- [RVP Schema v0.1](#rvp-schema-v01) {#rvp-schema-v01}
+- [Test Cases](#test-cases) {#test-cases}
+- [Mode 2 Governance](#mode2-gov) {#mode2-gov}
+- [VME Stages](#vme-stages) {#vme-stages}
+- [Gates and Rules](#gates-rules) {#gates-rules}

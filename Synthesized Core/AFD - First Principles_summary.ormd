@@ -1,0 +1,75 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: AFD - First Principles'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/afd-first-principles
+    ts: '2023-10-27T10:00:00Z'
+  parents:
+  - urn:cb:AFD - First Principles.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - relational dynamics
+  - agency
+  - attention
+  - emergence
+  - energy wells
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - cognition_psychology
+  - systems_engineering
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-4-e2-equation "meta:corresponds_to"). First-principles treatment of the Attractor Fixed-point Dynamic (AFD). Canonical treatment in B1 §4 and B2 §1.
+
+# Executive Summary: Relational Emergence and the Physics of Attention {#summary-title}
+
+This document synthesizes the foundational principles of the AFD framework, which posits a [relational theory of emergence](#part-1 "meta:corresponds_to") to explain how complexity and agency arise from physical substrates. The core axiom is that [everything exists within relationship (E²)](#relational-foundation "ontological:defines"), moving beyond the binary of mechanical determinism and randomness.
+
+## 1. The Physical Mechanics of Emergence {#physical-mechanics}
+
+Emergence is driven by [fluctuations](#fluctuations "ontological:composes") in energy density that create [energy wells](#energy-wells "ontological:defines"). These wells act as attractors for energy flow.
+
+*   **F ⟷ A Dynamics**: The core engine of organization is [attention-fluctuation (F ⟷ A) dynamics](#fa-dynamics "dynamical:interacts_with"). In this context, [attention](#energy-flow "ontological:defines") is a physical [movement of energy](#energy-flow "geometric:precedes") toward fluctuations.
+*   **Rule Formation**: What are traditionally called "laws" or "rules" are actually [crystallized patterns](#pattern-stabilization "ontological:is_a") that have stabilized to optimize energy. A [rule](#rules-genesis "symmetric:constrains") serves as a reliable boundary that shapes future relational possibilities.
+*   **Information**: Complexity is managed through [informational abstractions](#info-abstraction "meta:corresponds_to"), which provide [hierarchical information compression](#part-3 "ontological:composes") by packaging complex relationships into stable, repeatable units.
+
+## 2. The Relational Nature of Agency {#agency-summary}
+
+Agency is not an intrinsic property of matter but an emergent property of specific relational configurations.
+
+*   **Proto-Intentionality**: Living systems are distinguished by [proto-intentionality](#proto-intentionality "ontological:characterizes"), defined as sustained, coherent, intentional attention (SCIA). This allows for [choice-making](#probabilistic-choice "dynamical:transforms_to") that is neither deterministic nor random.
+*   **Relational Agency**: Because [agency](#relational-agency "meta:emerges_from") emerges from relationships, it creates [choice-spaces](#probabilistic-choice "geometric:embedded_in") where systems can respond adaptively to their context.
+*   **Probabilistic Choice**: Biological systems operate via a [probabilistic choice model](#probabilistic-choice "meta:corresponds_to"), allowing for "principled improvisation" within [boundaries](#rules-genesis "symmetric:constrains").
+
+## 3. Complexity and Transcendence {#transcendence-summary}
+
+The transition to high-order complexity requires [temporal persistence](#temporal-advantage "symmetric:enables"), which allows for [abstraction cascades](#temporal-advantage "dynamical:transforms_to").
+
+*   **Relational Bootstrapping**: Systems transcend their initial constraints through [relational bootstrapping](#relational-bootstrapping "dynamical:interacts_with"), where [emergent properties](#relational-bootstrapping "meta:emerges_from") recursively modify the underlying relational network.
+*   **Constraint Transcendence**: This process allows systems to achieve [transcendent complexity](#relational-bootstrapping "meta:emerges_from") by working within [constraints](#relational-bootstrapping "symmetric:constrains") to generate entirely new capabilities (e.g., consciousness emerging from neural networks).
+
+## 4. Attention as a Physical Force {#attention-physics}
+
+A major pillar of the theory is the redefinition of [attention](#energy-flow "ontological:defines") as energy flow following physical principles rather than a psychological faculty.
+
+*   **Attentional Gravity**: Fluctuations create [gravity wells](#gravity-wells "geometric:causes") that naturally attract energy flow. 
+*   **Redefining Neurodivergence**: Conditions like [ADHD](#adhd "ontological:composes") and [Autism](#autism "ontological:composes") are reframed as different energy allocation algorithms and relational sensitivity patterns rather than deficits.
+*   **Zone 3 Navigation**: In [Zone 3 complexity](#zone-3-implications "ontological:defines"), where outcomes are unpredictable, success is achieved through [meaningful relational participation](#participation "epistemic:supports") and [sophisticated participation](#sophisticated-participation "symmetric:constrains") rather than top-down control.
+
+## 5. Conclusion: Participatory Realism {#conclusion}
+
+The framework concludes that we live in a [creatively structured cosmos](#conclusion-living-universe "meta:corresponds_to") where [human potential](#human-potential "ontological:defines") is maximized by understanding [attention ecology](#attention-ecology "ontological:defines"). By shifting from mechanistic control to [skillful participation](#skillful-participation "ontological:defines"), we become co-creators in the ongoing emergence of the universe.

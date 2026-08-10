@@ -1,0 +1,102 @@
+{
+  "fixture_version": "1.0.0",
+  "candidate": "Persistence as Accumulated Stance-With",
+  "required_topology_fields": [
+    "instantiation_count",
+    "seriality",
+    "activity_pattern",
+    "pattern_instance_relation",
+    "gap_tolerance",
+    "restart_relation",
+    "branch_merge_rule",
+    "termination_rule"
+  ],
+  "cases": [
+    {
+      "id": "P01",
+      "label": "organizational succession",
+      "topology": {
+        "instantiation_count": "one legal entity with changing role occupants",
+        "seriality": "organizational sequence across personnel succession",
+        "activity_pattern": "continuous operations",
+        "pattern_instance_relation": "role structure separable from occupants",
+        "gap_tolerance": "temporary vacancy allowed under bylaws",
+        "restart_relation": "not applicable while entity remains active",
+        "branch_merge_rule": "merger requires explicit successor rule",
+        "termination_rule": "dissolution or loss of legal continuity"
+      },
+      "maintenance_ledger": [
+        {"layer": "legal", "payer": "organization", "amount": 1200, "unit": "annual filing and registered-agent cost"},
+        {"layer": "operational", "payer": "organization", "amount": 400, "unit": "record-custody hours"}
+      ],
+      "observers": [
+        {"id": "legal_observer", "criterion": "legal identity", "identity_continues": true},
+        {"id": "personal_observer", "criterion": "same accountable natural person", "identity_continues": false}
+      ],
+      "expected_valid": true,
+      "expected_disagreement_preserved": true
+    },
+    {
+      "id": "P02",
+      "label": "stored and restarted software pattern",
+      "topology": {
+        "instantiation_count": "zero active during storage, one after restart",
+        "seriality": "active sequences separated by a storage gap",
+        "activity_pattern": "intermittent and reconstructed",
+        "pattern_instance_relation": "separable",
+        "gap_tolerance": "pattern criterion tolerates inactive storage; process criterion does not",
+        "restart_relation": "new process instantiated from verified stored artifact",
+        "branch_merge_rule": "copying creates multiple instances under one artifact lineage",
+        "termination_rule": "artifact loss for pattern criterion; process stop for runtime criterion"
+      },
+      "maintenance_ledger": [
+        {"layer": "artifact storage", "payer": "repository operator", "amount": 36, "unit": "storage-months"},
+        {"layer": "verification", "payer": "deploying organization", "amount": 4, "unit": "integrity-check hours"},
+        {"layer": "runtime", "payer": "compute operator", "amount": 0, "unit": "runtime-hours during storage gap"}
+      ],
+      "observers": [
+        {"id": "artifact_observer", "criterion": "verified informational pattern", "identity_continues": true},
+        {"id": "runtime_observer", "criterion": "continuous active process", "identity_continues": false}
+      ],
+      "expected_valid": true,
+      "expected_disagreement_preserved": true
+    },
+    {
+      "id": "P03",
+      "label": "branching project lineage",
+      "topology": {
+        "instantiation_count": "three active branches",
+        "seriality": "parallel after fork",
+        "activity_pattern": "continuous within branches",
+        "pattern_instance_relation": "shared ancestor with divergent active configurations",
+        "gap_tolerance": "branch-specific",
+        "restart_relation": "a branch may restart from its own checkpoint",
+        "branch_merge_rule": "merge creates a new composite revision with recorded ancestry",
+        "termination_rule": "branch archive or deletion; lineage remains in ancestry record"
+      },
+      "maintenance_ledger": [
+        {"layer": "repository", "payer": "project host", "amount": 18, "unit": "repository-months"},
+        {"layer": "branch A", "payer": "team A", "amount": 120, "unit": "maintenance-hours"},
+        {"layer": "branch B", "payer": "team B", "amount": 80, "unit": "maintenance-hours"}
+      ],
+      "observers": [
+        {"id": "lineage_observer", "criterion": "descent from named source revision", "identity_continues": true},
+        {"id": "single_worldline_observer", "criterion": "one non-branching active sequence", "identity_continues": false}
+      ],
+      "expected_valid": true,
+      "expected_disagreement_preserved": true
+    },
+    {
+      "id": "P04",
+      "label": "duration-to-value collapse",
+      "topology": {},
+      "maintenance_ledger": [],
+      "observers": [
+        {"id": "value_observer", "criterion": "longer means more valuable", "identity_continues": true}
+      ],
+      "moral_inference_from_duration": true,
+      "expected_valid": false,
+      "expected_errors": ["missing_topology_fields", "missing_maintenance_ledger", "moral_inference_from_duration"]
+    }
+  ]
+}

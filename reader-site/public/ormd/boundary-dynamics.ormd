@@ -1,0 +1,344 @@
+<!-- ormd:1.0 -->
+---
+title: "Boundary Dynamics"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "e2.semantic_substrate"
+lineage:
+  origin: { uri: "local://semantic-substrate/boundary_dynamics.md", ts: "2026-05-13T17:20:26.575720+00:00" }
+  parents: []
+  transforms:
+    - { fn: "phase1_context_convert.py@deterministic-preserve", ts: "2026-05-13T20:32:37.582772+00:00" }
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["Boundary Dynamics", "Boundary", "Dynamics"]
+resolution: { confidence: 0.90 }
+conversion:
+  method: "deterministic_preserve_markdown"
+  preserves: "source text, heading hierarchy, code blocks, lists"
+  note: "Converted from Semantic Substrate without summarization or reinterpretation."
+---
+# Boundary Dynamics {#boundary-dynamics}
+
+## A standalone treatment of boundaries as structural operators {#a-standalone-treatment-of-boundaries-as-structural-operators}
+
+---
+
+## Status {#status}
+
+This document gives standalone treatment to a concept that has been operative across multiple framework components but never developed as a primary object of study. MMPS introduced the structural insight as a brief section titled "Boundary as Recursive Morphism," in service of explaining quadrant transitions in meaning metabolism. Flow Operators developed a catalog of operations occurring at boundaries, but framed under the term "flow" which is too narrow to cover the operations the catalog actually contains. Sign-Mediated Flow Routing and Consequence Routing both rely on boundary structure without formalizing it.
+
+This document treats boundaries as the primary object. Boundaries are not edges; they are structural operators with typed state, multiple operational modes, recursive composition, and observer-relative properties. The catalog of boundary modes (six operators) is one specific decomposition; the framework of boundary dynamics is the more general theory.
+
+The goal is to surface the invariant patterns and principles that govern how energy and information move between systems across all substrate-domains. Cell membranes, organizational walls, cognitive frames, legal-domain edges, conceptual category-boundaries, and political borders all instantiate the same structural object with domain-specific parameters. The invariance is what makes the framework portable; the parameters are what make it useful in any specific case.
+
+Two structural commitments are operative throughout: observer-position dependence of all measurements (inherited from Signal as Bias Field and Flow Operators), and resolution-dependent appearance of boundaries themselves (inherited from MMPS).
+
+---
+
+## 1. Position in the Existing Formal Substrate {#1-position-in-the-existing-formal-substrate}
+
+The framework substrate from Signal as Bias Field stands:
+
+```
+S = ⟨ E, R, C, X, Σ ⟩
+```
+
+A boundary ∂ is a structural object in R, typed by P2 through P6. It is not an entity in E (boundaries do not have ontological standing as separate things), nor a region of Σ (boundaries are not regions of the signal field). It is a relation between regions, with its own typed properties and operational modes.
+
+Formally, for two regions A and B in the configuration space, the boundary between them is:
+
+```
+∂(A, B) : R^typed → R^typed
+```
+
+a typed map that takes the relational structure of A and B as input and returns transformed relational structure as output. The boundary operates on the relation, not on the regions themselves. The regions are what they are; the boundary determines how they engage.
+
+This positions boundary dynamics as the formal theory of inter-regional relational operation. It is upstream of Sign-Mediated Flow Routing (which requires boundaries to route through), upstream of Consequence Routing (which is a specialization of routing in the agentic domain), and downstream of MMPS (which seeded the structural insight) and Signal as Bias Field (which provides the substrate vocabulary).
+
+---
+
+## 2. The Boundary as Structural Object {#2-the-boundary-as-structural-object}
+
+A boundary is characterized by the following invariant properties.
+
+### 2.1 Relational, not edge-like {#2-1-relational-not-edge-like}
+
+A boundary is a relation between regions, not a line drawn between them. The regions exist independently; the boundary exists as the typed structure of their engagement. When the regions stop engaging, the boundary does not become quiet, it ceases to exist. When the regions engage differently, the boundary is a different boundary.
+
+This is structurally distinct from the colloquial sense of boundary as a static dividing line. The framework's commitment is that boundaries are operational; they do work; they are constituted by the work they do.
+
+### 2.2 Active, not passive {#2-2-active-not-passive}
+
+A boundary operates. It admits some flows and refuses others, hosts some events and not others, transduces some pressures and reflects others. The operation is not optional; a structure that does no work at the inter-regional surface is not a boundary in this framework, it is an absence of boundary.
+
+This is what justifies the term "boundary dynamics" rather than "boundary structure." Boundaries are dynamic objects; their state changes; their mode-capacity shifts under load; they are themselves participants in the operation, not just sites of operation.
+
+### 2.3 Observer-relative {#2-3-observer-relative}
+
+A boundary's appearance depends on the observer's resolution, scale, and temporal frame. Per MMPS:
+
+```
+lim(R → ∞) B(x; R) → δ(x - x_0)     (sharp edge, no dynamics)
+lim(R → 0)   B(x; R) → smooth gradient (all wave, no object)
+```
+
+Thingness emerges at intermediate resolution: a coherence window where wave and object co-arise. The same physical or relational reality presents as a sharp edge at one resolution, a gradient at another, and a coherence window at the intermediate scale where the boundary is recognizable as a structural object.
+
+Operational consequence: the catalog of boundary modes (Section 4) is itself resolution-dependent. At high resolution one sees discrete molecular events; at intermediate resolution one sees the six operational modes; at low resolution one sees averaged flow rates. The framework specifies the catalog at the coherence window where the boundary is recognizable; other resolutions yield different decompositions of the same underlying reality.
+
+### 2.4 Recursive {#2-4-recursive}
+
+Per MMPS's fractal duality structure: every binary {A, B} necessarily contains a third element ∂(A, B), the interface. This boundary-of-boundaries is itself recursive. A cell membrane contains protein channels, each of which is a sub-boundary. An organization contains departments, each separated by sub-boundaries. A category contains sub-categories with sub-boundaries.
+
+The recursion is not infinite in practice; it terminates at the resolution-floor of the observer or at the relational-floor of the substrate. But within the operational range, boundaries are nested all the way down, and the nesting itself has structural properties (Section 6).
+
+### 2.5 Temporal {#2-5-temporal}
+
+Boundaries have temporal as well as spatial structure. Some boundaries are persistent (cell membranes, legal borders), some are transient (the boundary of an event), some are oscillating (sleep-wake, work-home). Per MMPS's temporal phase folding, transitions between attractor basins are themselves boundary events:
+
+```
+T_∂ : S(t) → S(t + Δt), where dS/dt ∉ same attractor basin
+```
+
+A phase transition is structurally a boundary in time. This means boundaries can be spatial, temporal, or both simultaneously, and the catalog of modes applies to each type.
+
+---
+
+## 3. Boundary State and Capacity {#3-boundary-state-and-capacity}
+
+A boundary at time t is characterized by typed state vectors.
+
+```
+∂(t) ↦ ( M(t) , C(t) , Φ(t) , σ(t) , τ(t) , ρ(t) )
+```
+
+where:
+
+- **M(t)**: mode-profile. Which of the six boundary modes (Section 4) the boundary is currently running, at what rates or thresholds.
+- **C(t)**: mode-capacity. For each mode, the maximum sustainable rate or threshold given current state. Capacities are typed and not substitutable (depletion-capacity is not stance-with-capacity).
+- **Φ(t)**: phase-state. Whether the boundary is in steady operation, transient adjustment, threshold approach, or transition.
+- **σ(t)**: selectivity. The boundary's ability to discriminate among incoming pressures and route them differently. High selectivity is characteristic of healthy boundaries; low selectivity is characteristic of failed boundaries.
+- **τ(t)**: temporal-state. Where the boundary is in its own developmental or oscillatory cycle.
+- **ρ(t)**: recursive-state. The state of sub-boundaries nested within this boundary.
+
+State evolves under boundary dynamics. A boundary operating near capacity will degrade in some modes to preserve others. A boundary that has lost selectivity becomes indiscriminate (failed mode). A boundary whose sub-boundaries have collapsed becomes unable to perform its own discriminations.
+
+---
+
+## 4. The Six Boundary Modes {#4-the-six-boundary-modes}
+
+The catalog from Flow Operators, restated as modes of boundary operation rather than types of flow. Each mode is a distinct way a boundary actively engages with its environment.
+
+| Mode | Etymology | Type | Function |
+|---|---|---|---|
+| Stance-with | com-stare | Rate-quantity, continuous | Boundary continuously expending to maintain itself against drift |
+| Stance-against | with-stand | Threshold-quantity, capacity | Boundary refusing transfer it should not admit |
+| Settlement | pacare | Event-quantity, bidirectional | Boundary hosting a closure event that reconciles across it |
+| Depletion | expendere | Stock-quantity, drawdown | Boundary admitting one-way flow from reservoir on one side |
+| Trade | ex-cambiare | Pair-quantity, reciprocal | Boundary admitting symmetric reciprocal exchange |
+| Consequence-receipt | con-sequi | Result-quantity, located by topology | Boundary receiving landed flow into its interior |
+
+The modes are not interchangeable. A boundary may have abundant capacity in one mode and zero capacity in another. A cell membrane runs all six simultaneously: stance-with (ATP-fueled maintenance against entropy), stance-against (refusing harmful molecules), settlement (signal transduction events), depletion (transporters drawing on gradient), trade (receptor-ligand exchange), consequence-receipt (taking in nutrients). An organizational boundary may run only two or three with any sophistication.
+
+A boundary's mode-profile is what makes it the boundary it is. Two boundaries with identical mode-capacity but different mode-profile-distributions operate differently. Two boundaries with identical mode-profile but different mode-capacity have different resilience under load.
+
+### 4.1 Modes are simultaneous, not sequential {#4-1-modes-are-simultaneous-not-sequential}
+
+A boundary can run multiple modes at once. The modes are not phases the boundary cycles through; they are operational dimensions on which the boundary is simultaneously active. The mode-profile M(t) at any moment is typically multi-dimensional.
+
+### 4.2 Modes interact {#4-2-modes-interact}
+
+Running one mode at high capacity may reduce available capacity for another. A boundary in heavy stance-against has less available capacity for trade. A boundary saturating depletion has less reserves for stance-with. The capacity vector C(t) is constrained by total boundary resources; modes compete for finite operating capacity.
+
+### 4.3 Modes are observer-relative {#4-3-modes-are-observer-relative}
+
+Per Section 2.3, the catalog itself is resolution-dependent. The six modes are the framework's commitment at the intermediate-resolution coherence window where boundaries appear as recognizable structural objects. At other resolutions the same boundary may be better decomposed into other catalogs (molecular events at high resolution, averaged flow at low resolution).
+
+---
+
+## 5. The Boundary 2x2 {#5-the-boundary-2x2}
+
+A boundary's relationship with what crosses it can be characterized by what it admits, releases, blocks, and retains. The 2x2 from Flow Operators:
+
+| | Inward | Outward |
+|---|---|---|
+| **Accepts** | Nutrition | Work |
+| **Releases** | Pollution | Waste |
+
+A healthy boundary admits nutrition (accepts what supports interior) and releases work (sends outward what serves the larger system), regulated. An engorged boundary admits pollution (accepts what damages interior) and blocks waste (refuses to release what needs to leave). A brittle boundary rejects both nutrition and work-output. A failed boundary is indiscriminate, with the 2x2 collapsed into uniform permeability.
+
+The 2x2 is the operator-typed expression of selectivity σ(t). High selectivity means the four quadrants are distinct: the boundary admits nutrition while refusing pollution, releases waste while retaining work-product. Low selectivity means the quadrants blur: the boundary admits or releases without regard to the operator-type.
+
+---
+
+## 6. Recursive Structure and Composition {#6-recursive-structure-and-composition}
+
+Boundaries compose. The framework predicts three composition patterns.
+
+### 6.1 Nesting {#6-1-nesting}
+
+A boundary contains sub-boundaries. A cell contains organelles, each membrane-bounded. An organization contains departments, each bounded. A category contains sub-categories, each distinguished by sub-boundaries. The nesting is fractal in MMPS terms: ∂(A, B) itself contains sub-interfaces.
+
+Nesting properties:
+
+- A parent boundary's mode-capacity depends on the integrity of its sub-boundaries
+- Damage at the sub-boundary level can propagate up to compromise parent boundary capacity
+- A parent boundary can compensate for sub-boundary degradation only within limits
+- The reverse can also occur: parent boundary failure can degrade sub-boundary conditions
+
+### 6.2 Layering {#6-2-layering}
+
+A boundary may consist of multiple layers, each with its own mode-profile. Cell membranes are layered (phospholipid bilayer with embedded proteins). Organizational boundaries are layered (legal-formal, social-cultural, operational-practical). Layered boundaries have richer mode-profiles than single-layer boundaries because different layers can specialize in different modes.
+
+Layering properties:
+
+- Layers can run different mode-profiles simultaneously
+- Layers can buffer each other (when one fails, others compensate)
+- Layers can also fail independently or in cascade
+- A boundary may appear single-layered at one resolution and layered at higher resolution
+
+### 6.3 Coupling {#6-3-coupling}
+
+Two boundaries can couple, sharing mode-state or co-regulating. Two cells in tissue contact share boundary properties. Two organizations in alliance co-regulate at their interface. Two categories in semantic relation share their distinguishing boundary.
+
+Coupling properties:
+
+- Coupled boundaries can synchronize mode-states
+- Coupling can be symmetric or asymmetric
+- Coupling can stabilize both boundaries or destabilize them
+- Decoupling is itself a boundary event (the boundary-between-boundaries operating)
+
+---
+
+## 7. Conservation at Boundaries {#7-conservation-at-boundaries}
+
+Quantities transferred across a boundary are conserved component-wise and mode-wise.
+
+For boundary ∂ with incident pressure π in component k and mode j:
+
+```
+||π^(k,j)_incident|| = ||π^(k,j)_transduced|| + ||π^(k,j)_reflected|| + ||π^(k,j)_dissipated|| + ||π^(k,j)_leaked||
+```
+
+Each component-mode pair has its own conservation. A boundary may transduce settlement-pressure while reflecting depletion-pressure; the conservation laws operate independently per pair.
+
+The conservation is total but not interconvertible. Mode-conservation does not allow stance-with-capacity to substitute for trade-capacity. Component-conservation does not allow structural-pressure to substitute for governance-pressure. The boundary's accounting is multi-typed.
+
+This is the formal expression at the boundary-level of what Sign-Mediated Flow Routing formalizes at the routing-level. Routing-level conservation is the integration of boundary-level conservation across all boundaries traversed in a routing chain.
+
+---
+
+## 8. TCL Constants as Universal Boundary Thresholds {#8-tcl-constants-as-universal-boundary-thresholds}
+
+The three constants from Temporal Constraint Lamination correspond to specific mode-thresholds at the boundary-level.
+
+| TCL Constant | Approximate Value | Boundary Mode Threshold |
+|---|---|---|
+| Viability floor | ~0.757 | Depletion mode: reservoir cannot fund stance-with rate. Boundary can no longer sustain self-maintenance from current resources. |
+| Chaos ceiling | ~0.930 | Stance-against mode: boundary cannot refuse incoming pressure. The structural capacity to discriminate has been overwhelmed. |
+| Parametric wall | ~0.289 | Trade mode: reciprocal regime cannot rebalance. Symmetric exchange has become structurally impossible. |
+
+These bound what is achievable at any boundary regardless of design quality. A boundary whose depletion has fallen below the viability floor will collapse, even if its mode-profile and selectivity are otherwise sound. A boundary whose stance-against has crossed the chaos ceiling will fail to discriminate, even if its other modes are robust. A boundary whose trade has crossed the parametric wall will exhibit structural reciprocity-collapse, even if its parties are willing.
+
+These thresholds appear universal across substrate-domains because they are constraints on the underlying mode-operations, not on the substrate carrying them. Cell membranes, organizational walls, cognitive frames, and political borders all exhibit threshold behavior at the same approximate dimensionless locations because they are all instances of the same boundary-mode operations.
+
+The slow-layer/fast-layer lamination architecture from TCL is the structural pattern by which boundaries sustain operation across these thresholds. A boundary that operates without lamination cannot route flow asymmetrically across capacity-mismatched modes; with lamination, a slow-layer can stabilize fast-layer mode-fluctuations, extending viability under what would otherwise be threshold-violation conditions.
+
+---
+
+## 9. Failure Modes {#9-failure-modes}
+
+Boundaries fail in characteristic patterns. The framework predicts the following failure typology, applicable across substrate-domains.
+
+| Failure Mode | Signature | Examples Across Domains |
+|---|---|---|
+| **Brittle boundary** | High stance-against, zero other modes | Authoritarian state, defensive person, isolationist culture, autoimmune disorder |
+| **Engorged boundary** | High inward-acceptance regardless of operator type | Codependent relationship, regulatory capture, addictive behavior, immunosuppression |
+| **Failed boundary** | Indiscriminate permeability, σ → 0 | Burnout, organizational dissolution, conceptual confusion, sepsis |
+| **Calcified boundary** | Locked in one mode, cannot switch | Stuck institution, rigid trauma response, ossified category |
+| **Phantom boundary** | Appears to operate but transduces nothing | Performative compliance, theater regulation, virtue signaling |
+| **Collapsed boundary** | Lost integrity, two sides merged | Identity fusion, organizational collapse, category collapse |
+| **Captured boundary** | Selectivity tensor S varies sharply with source-power | Captured regulator, biased gatekeeping, coopted institution |
+| **Inverted boundary** | Releases what should be retained, retains what should be released | Information leakage with secrecy theater, organizational dysfunction |
+| **Resolution-blind boundary** | Operates at wrong resolution for its substrate | Micromanagement (too high resolution), strategic vagueness (too low) |
+| **Decoupled boundary** | Lost coupling with adjacent boundaries | Organizational silos, cognitive dissociation, ecosystem fragmentation |
+
+Each failure mode has cross-domain signatures. The pattern is invariant; the substrate-specific instance varies. A brittle cell membrane shows the same structural pattern as a brittle institution: high refusal-capacity, no productive engagement, eventual depletion of self-maintenance resources.
+
+---
+
+## 10. Cross-Domain Instances {#10-cross-domain-instances}
+
+The framework predicts that boundary dynamics operate identically across substrate-domains, with domain-specific parameters but invariant structural form.
+
+| Domain | Boundary Instance | Characteristic Modes | Substrate-Specific Failure |
+|---|---|---|---|
+| Biological (cellular) | Cell membrane | All six | Necrosis, apoptosis, autoimmune |
+| Biological (organismal) | Skin, gut lining, blood-brain barrier | All six with specialization | Inflammation, immune disorder |
+| Social (interpersonal) | Self-other boundary | Stance-with, stance-against, trade, settlement | Codependency, isolation, abuse |
+| Social (organizational) | Institutional walls | All six with formalization | Regulatory capture, sclerosis, dissolution |
+| Social (political) | National borders, legal jurisdictions | Stance-against, trade, settlement, consequence-receipt | Authoritarianism, failed state, border erosion |
+| Cognitive | Self-frame, category-edge | Stance-against, consequence-receipt, settlement | Rigidity, confusion, dissociation |
+| Epistemic | Discipline boundaries, domain-edges | Stance-against, trade, settlement | Disciplinary capture, knowledge silos |
+| Computational | API boundaries, security perimeters | All six with technical formalization | Injection attack, privilege escalation, deadlock |
+| Ecological | Watersheds, habitat boundaries | All six with material substrate | Habitat fragmentation, pollution, collapse |
+| Linguistic | Word-meaning boundaries, register-edges | Stance-against, settlement, trade | Polysemy collapse, register failure |
+
+The list is illustrative, not exhaustive. The framework predicts that any sustained inter-regional engagement instantiates boundary dynamics with the same invariant structural form.
+
+This cross-domain invariance is what justifies the framework's portability. A diagnostician trained on the boundary mode catalog can examine an organizational dysfunction, an autoimmune disorder, a political crisis, and a cognitive breakdown using the same diagnostic apparatus, because the underlying structural object is the same. What differs is the substrate, the parameter values, and the specific instance of each failure mode.
+
+---
+
+## 11. Connection to Framework Components {#11-connection-to-framework-components}
+
+Boundary dynamics is upstream of several framework components and downstream of a few.
+
+**Upstream**: Sign-Mediated Flow Routing uses boundaries as the surface where signs form and routing-closures fire. The sign-interface concept in that document is a specialization of the boundary concept here. Consequence Routing is a further specialization to the agentic substrate. Justice as triple-product integrity is the integrity-property of agentic boundaries; market integrity, truth integrity, etc. are integrity-properties of other substrate-domain boundaries.
+
+**Downstream**: MMPS contains the seed treatment in the "Boundary as Recursive Morphism" section, in service of meaning-metabolism. This document develops the seed into a standalone framework. Signal as Bias Field provides the substrate vocabulary (S = ⟨E, R, C, X, Σ⟩) within which boundaries are typed objects in R. TCL provides the substrate-side quantitative anchoring through the three threshold constants. Flow Operators provided the catalog of modes, which this document recontextualizes as modes of boundary operation rather than types of flow.
+
+**Adjacent**: Power as Relational Field Coherence describes how boundaries get curved by power-gradients (Section 10 of Sign-Mediated Flow Routing). AOMI describes adversarial attacks on boundary-selectivity (capture, gaming, exploitation of low-σ pockets). Relational Bill of Rights specifies minimum boundary-integrity conditions for substrate health.
+
+The integration is not a flat union but a layered architecture. Boundary dynamics provides the structural object; sign-formation occurs at boundaries; signed flow routes through sequences of boundaries; consequence routing specializes this to agentic substrate; justice integrity is the system-level property of well-functioning agentic boundary networks.
+
+---
+
+## 12. Limits {#12-limits}
+
+1. **The catalog of six modes is provisional.** The framework predicts that boundary operation is decomposable into a small finite catalog of structural modes, but the specific count (six) and the specific operators (stance-with, stance-against, settlement, depletion, trade, consequence-receipt) emerged from Flow Operators and have not been derived from first principles. The catalog may consolidate or expand under further work.
+
+2. **Mode-capacity values are domain-specific.** The framework predicts the structural form of capacity vectors but not the values. Empirical calibration requires substrate-specific instruments.
+
+3. **Recursive depth in real boundaries terminates at observer-resolution.** The framework allows arbitrary recursive nesting, but real boundaries observable to real observers have finite recursive depth. The recursion-floor is domain-specific.
+
+4. **Cross-domain invariance is a strong claim.** The framework asserts that boundary dynamics operates identically across substrate-domains with invariant structural form. This is a testable prediction. Cases where the structural form genuinely fails to translate would refine or refute the claim.
+
+5. **Observer-position must be made explicit in any application.** Per Section 2.3, the catalog and the boundary's appearance depend on observer resolution and scale. Applications must declare observer-position rather than assume a view-from-nowhere.
+
+6. **The TCL threshold values are approximate.** The viability floor (~0.757), chaos ceiling (~0.930), and parametric wall (~0.289) are empirically anchored from REAL substrate dynamics but their precise values may shift with refinement of the underlying measurements. The framework's claim is that universal thresholds exist at approximately these locations, not that the specific decimal values are exact.
+
+7. **Failure mode classification is open at the edges.** The ten failure modes in Section 9 cover the main patterns but may not exhaust the typology. Novel failure modes may emerge from cross-domain study.
+
+---
+
+## 13. Summary {#13-summary}
+
+Boundary dynamics is the formal theory of how regions engage across their interfaces. A boundary is a structural operator with typed state, multiple operational modes, recursive composition, and observer-relative properties. The framework treats boundaries as primary objects rather than as edges or absences between primary objects.
+
+The invariant claims:
+
+1. **Boundaries are operators, not edges.** They actively transduce, refuse, host, draw, exchange, and receive. The operation is constitutive of the boundary.
+2. **Boundaries are observer-relative.** Appearance depends on resolution, scale, and temporal frame, with thingness emerging only at intermediate coherence windows.
+3. **Boundaries have a catalog of operational modes.** Six modes (stance-with, stance-against, settlement, depletion, trade, consequence-receipt) decompose the operation at the intermediate-resolution coherence window. Other resolutions yield other decompositions.
+4. **Boundaries are recursive.** They contain sub-boundaries, can be layered, and couple with adjacent boundaries.
+5. **Conservation holds component-wise and mode-wise.** Quantities transferred across a boundary are typed-conserved with no interconversion across types.
+6. **Universal thresholds exist.** The three TCL constants bound what is possible at any boundary regardless of substrate.
+7. **Failure modes are cross-domain invariant.** The same patterns recur in cell membranes, institutions, cognitive frames, and political borders.
+
+This framework is the structural layer upstream of sign-mediation, flow routing, and consequence routing. It is the answer to "what are signs forming on, what is flow routing through, what is consequence landing in." The answer is: boundaries operating in their characteristic modes, governed by typed conservation, bounded by universal thresholds, recursive across nesting depth, and observer-relative in their appearance.
+
+Energy and information moving between systems is what we observe; boundary dynamics is the structural account of how that movement is constituted, gated, transformed, and conserved.

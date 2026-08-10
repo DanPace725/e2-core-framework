@@ -1,0 +1,61 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary of Initial Axioms: Relational Ontology'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: urn:ormd:summary:axioms:2025-05-01
+    ts: '2025-05-01T12:00:00Z'
+  parents:
+  - urn:cb:Initial Axioms.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - relational ontology
+  - SCIA
+  - axioms
+  - summary
+  - existence
+  document_type:
+  - foundational_theory
+  domains:
+  - ontology_core
+  - stewardship_architecture
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-1-relational-commitment "meta:corresponds_to"). Formal axiom set grounding P0–P6. Canonical treatment in B1 §1 (Relational Commitment and SCIA/T).
+
+# Executive Summary: Initial Axioms {#initial-axioms}
+
+This document synthesizes the foundational principles of Relational Ontology (Essence of Existence - E^2), which posits that a system is [intelligible](#axiom-10 "epistemic:measures") only through the [pattern of relations](#axiom-1 "ontological:composes") in which it participates.
+
+## The Nature of Relational Identity {#axiom-1}
+
+The core of this framework suggests that the state of any system is a direct function of the [essence of its relationships](#axiom-3 "ontological:defines"). No entity exists in a vacuum; identity is co-authored by its surrounding network. This recursive logic implies that [this framework](#initial-axioms "ontological:composes") itself is shaped by its relationship to its users and context. Consequently, essence is defined as an [emergent signature](#axiom-1 "meta:emerges_from")—a vector that crystallizes only through observation and relationship.
+
+## Persistence and the Relational Web {#axiom-5}
+
+Existence is defined as being held within a [relational web](#axiom-1 "ontological:composes"). To sever these connections is to trigger ontological decay. Stability and persistence are maintained through **SCIA** (Sustained, Coherent, Intentional Attention). [SCIA](#axiom-7 "dynamical:transforms_to") acts as the stabilizing energy that [keeps patterns from decohering](#axiom-5 "symmetric:constrains") into noise.
+
+## Dynamics of Transformation and Truth {#axiom-7}
+
+The framework identifies specific laws for change and verification:
+- **Transformation:** Significant [Transformation](#axiom-4 "dynamical:interacts_with") requires a critical mass of focused attention (the SCIA threshold).
+- **Paradox:** Contradictions are viewed as evidence of dimensional truth rather than errors.
+- **Verification:** Reality is [verified](#axiom-8 "epistemic:supports") by entering into relationships and observing resonance over time. A living truth must demonstrate translatability across different perspectives without losing its core coherence.
+
+## Practical Application and Corollaries {#corollaries}
+
+The axioms lead to several working rules for system design and personal conduct:
+1. **Ethical Attention:** Practitioners must be selective, as where they place [SCIA](#axiom-4 "ontological:defines"), they amplify the underlying pattern.
+2. **Coherence Management:** When a system feels stuck, one should [increase SCIA](#axiom-4 "dynamical:interacts_with") or deliberately inject paradox to allow for rearrangement.
+3. **Connectivity:** Isolation is an alarm for ontological indeterminacy; nodes must be reconnected or allowed to compost.
+
+This summary [corresponds to](#axiom-4-21-25 "meta:corresponds_to") the technical axioms dated 4/21/25 and serves as a bridge to [Initial Ideas](#initial-ideas "meta:corresponds_to") expressed in plain language.

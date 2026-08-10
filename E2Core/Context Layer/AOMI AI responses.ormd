@@ -1,0 +1,79 @@
+<!-- ormd:1.0 -->
+---
+title: "AOMI: Dialogue-Derived Doctrine Notes"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "ethics.adversarial"
+lineage:
+  origin: { uri: "internal://ai-dialogue/aomi-responses-doctrine", ts: "2025-09-22T10:00:00Z" }
+  parents:
+    - "local://archive/20260612_step_2_1_dialogues/Context%20Layer/AOMI%20AI%20responses.ormd"
+  transforms:
+    - { fn: "e2core_consolidation_plan@2.1-dialogue-to-doctrine", ts: "2026-06-12T00:00:00Z" }
+policy:
+  read: [{ roles: ["public", "researcher"] }]
+semantics:
+  keywords: ["AOMI", "adversarial ethics", "occlusion zones", "mechanism design", "Goodhart's Law", "computational ethics"]
+resolution: { confidence: 0.92 }
+---
+
+# AOMI: Dialogue-Derived Doctrine Notes {#aomi-main}
+
+## Core Claim {#aomi-definition}
+
+Adversarial Occlusion and Mechanism Integrity (AOMI) studies how actors deliberately exploit blind spots, occlusion zones, proxy metrics, and undecidable regions inside ethical or governance mechanisms.
+
+The raw AI-response dialogue has been archived as lineage. This canonical note preserves the doctrinal claims without retaining the dialogue format.
+
+## Problem Domain {#problem-domain}
+
+Any complex ethical or institutional system contains regions where attribution, visibility, timing, and responsibility become difficult to resolve. Sophisticated actors can route action into those regions to avoid accountability or extract private benefit.
+
+AOMI treats this as a first-class design problem:
+
+- occlusion-seeking routes high-impact choices into low-visibility paths;
+- responsibility laundering splits decisions across actors, time, or systems;
+- metric gaming optimizes proxies while degrading true outcomes;
+- topology sculpting creates chokepoints and silos that manufacture opacity;
+- cognitive jamming overloads reviewers or interpreters;
+- temporal arbitrage pushes action into windows where response capacity is predictably low.
+
+## Mechanism Design Frame {#game-theory}
+
+AOMI can be modeled as an adversarial mechanism-design problem.
+
+The designer chooses guardrails, observability, topology, budgets, and enforcement mechanisms. The adversarial actor observes those mechanisms and chooses a policy that maximizes private payoff by increasing exposure to occlusion.
+
+The design goal is not perfect prevention. Perfect closure is impossible and can create new exploit surfaces. The design goal is mechanism integrity under adversarial pressure.
+
+## Design Patterns {#design-patterns}
+
+Useful AOMI patterns include:
+
+- occlusion budgets for high-risk decision classes;
+- audit probability that rises with occlusion;
+- liability staking for high-impact action;
+- metric ensembles and metric rotation;
+- process proofs rather than outcome screenshots;
+- minimum trace-density floors;
+- least-occlusion privilege;
+- instrumentation of chokepoints;
+- red-team drills that convert exploits into tests.
+
+## Exploitation as Signal {#exploitation-signal}
+
+Gaming attempts reveal stress points. A mechanism that records and metabolizes exploitation attempts can become more robust over time.
+
+The design principle:
+
+> The foggier the path, the higher the audit intensity.
+
+No actor should be able to stand outside the undecidability zone they create.
+
+## Relationship to Existing Fields {#disciplines}
+
+AOMI draws from mechanism design, security economics, adversarial machine learning, institutional corruption studies, public choice, compliance ethics, information ethics, agnotology, and epistemic injustice.
+
+Its distinctive contribution is the occlusion-geometry lens: the structure of the blind spot becomes part of the ethical mechanism.
+

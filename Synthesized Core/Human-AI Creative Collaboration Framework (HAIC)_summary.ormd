@@ -1,0 +1,61 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Human-AI Creative Collaboration Framework (HAIC)'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: local://haic-summary-2024
+    ts: '2024-05-22T14:30:00Z'
+  parents:
+  - urn:cb:Human-AI Creative Collaboration Framework (HAIC).ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - human-ai
+  - collaboration
+  - attribution
+  - governance
+  document_type:
+  - derived_framework
+  - specification
+  domains:
+  - ai_collaboration
+  - ethics_rights
+  - ontology_core
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B6 — Collective and Civilizational Application`](../../Synthesis Project/B6 — Collective and Civilizational Application.ormd#haic "meta:corresponds_to"). HAIC: five collaboration models with attribution architecture. Canonical treatment in B6 §6.3.
+
+# Summary of the Human-AI Creative Collaboration Framework (HAIC) {#summary-haic}
+
+The Human-AI Creative Collaboration Framework (HAIC) [defines](#haic-framework "ontological:defines") a rigorous methodology for managing and documenting the intersection of human creativity and machine intelligence. Its primary objective is to ensure that collaborative outputs are transparent, ethical, and properly attributed.
+
+## Foundational Architecture {#foundational-architecture}
+
+The framework is built upon three core pillars: **Iterative Refinement**, **Complementary Strengths**, and [Transparent Attribution](#transparent-attribution "ontological:composes"). By leveraging the rapid processing of AI alongside the contextual judgment of humans, the system facilitates a [systematic review](#best-practices "epistemic:supports") process that enhances the quality of the final output.
+
+## Operational Models {#operational-models}
+
+The HAIC framework identifies five distinct collaboration models, all of which [are constrained by](#core-principles "symmetric:constrains") the framework's ethical and structural principles:
+
+1.  **Human-Directed AI Creation (HDAC):** A model where the human provides the core concept, [composing](#hdac "ontological:composes") the primary creative direction while the AI generates content under strict guidance.
+2.  **Iterative Creative Cycle (ICC):** A balanced [methodology](#icc "ontological:composes") characterized by a dynamic, cyclic exchange of ideas and equal creative input.
+3.  **AI-Generated with Human Review (AGHR):** A process where the AI acts as the primary creator, [composing](#aghr "ontological:composes") the bulk of the content subject to light human editorial oversight.
+4.  **Rapid Iterative Feedback Loop (RIFL):** A high-velocity [methodology](#rifl "ontological:composes") focused on quick experimentation and fast-paced refinement cycles.
+5.  **Structured Knowledge Synthesis (SKS):** An information-centric [process](#sks "ontological:composes") where AI organizes data and human experts provide critical validation.
+
+## Implementation and Validation {#implementation-validation}
+
+To maintain accountability, the framework mandates a [standard format](#attribution-format "symmetric:constrains") for attribution, requiring disclosure of content type, process type, and contributor roles. The practical utility of these models is demonstrated through various applications in research, writing, and technical fields, which [measure the efficacy](#haic-framework "epistemic:measures") of the HAIC approach in diverse professional environments.
+
+## Future Trajectory {#future-trajectory}
+
+As technology progresses, the HAIC framework [is designed to evolve](#haic-framework "dynamical:transforms_to") into more sophisticated versions. Throughout this evolution, the system [preserves](#core-principles "symmetric:preserves") its foundational commitment to transparency and ethical collaboration standards.

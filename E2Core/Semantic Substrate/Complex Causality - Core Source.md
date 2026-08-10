@@ -1,0 +1,247 @@
+# Complex Causality
+
+Status: core source draft for promotion
+
+Source basis:
+
+- `staged work/20260612/complex causality.md`
+- `staged work/20260612/Complex Causality - Integration Review.md`
+- `staged work/20260612/Asymmetry Maintenance and Complex Causality - Paired Candidate Source.md`
+
+Corpus placement: causality / Signal as Bias Field / TCL / consequence routing / justice
+
+## 0. Core Claim
+
+Complex Causality is the propagation of asymmetry through a constrained landscape over time.
+
+It gives the existing causal grammar a geometry:
+
+```text
+cause deforms
+effect commits
+consequence propagates
+condition stabilizes
+```
+
+Expanded:
+
+- a cause deforms the landscape;
+- an effect is local closure into a basin;
+- a consequence is closure that continues to travel;
+- consequentiality is the field-weight of the traveling deformation;
+- a condition is a consequence stabilized into the terrain of future action.
+
+Short form:
+
+> Cause deforms. Effect commits. Consequence propagates. Condition becomes terrain.
+
+## 1. Scope Rule
+
+Complex Causality should be treated as a framework scoping rule rather than a final metaphysical claim about all reality.
+
+Within this framework, causality is settled enough to use as emergent unless proven otherwise or disputed by later work.
+
+That means:
+
+- the causal grammar applies in complex, open, constrained, driven regimes;
+- it should not be projected backward into the base layer as if every fluctuation must have a classical cause;
+- below the relevant complexity or dissipation threshold, the better language may be fluctuation rather than cause.
+
+This does not weaken the source. It gives it a boundary.
+
+## 2. The Causal Loop
+
+Complex Causality describes a recursive loop:
+
+```text
+landscape deforms
+system commits
+commitment propagates
+propagation stabilizes
+stabilized deformation becomes the next landscape
+```
+
+This is the event-to-terrain transition.
+
+Yesterday's consequences become tomorrow's causes because some propagated deformations stabilize into the conditions under which future closure occurs.
+
+The important distinction is not only between cause and effect. It is between:
+
+- fast-layer events;
+- traveling consequence;
+- slow-layer terrain.
+
+Consequentiality is the promotion gate: the measure of whether a propagating deformation is large, durable, or structurally positioned enough to become part of the terrain.
+
+## 3. Relationship to Asymmetry Maintenance
+
+Complex Causality is the companion source to Asymmetry Maintenance.
+
+AMM describes how usable difference is held against decay. Complex Causality describes how deformations move through time, closure, propagation, and stabilization.
+
+Paired compression:
+
+```text
+AMM: persistence of difference
+CC:  propagation of difference
+```
+
+The two should stay connected but distinct:
+
+- AMM is the maintenance reading of GCO;
+- Complex Causality is the propagation reading of signal deformation and consequence.
+
+When a deformation is held, AMM is foregrounded. When a deformation travels, Complex Causality is foregrounded.
+
+## 4. Relationship to Signal as Bias Field
+
+Signal as Bias Field supplies the language of continuous pressure, attractor deformation, bias, and closure-triggering.
+
+Complex Causality inherits that vocabulary. "Cause biases" should be read as "cause deforms the signal landscape."
+
+This prevents causality from becoming a lever model. A cause is not merely a discrete push. It is a deformation in a relational field that changes the probability, direction, cost, or availability of closure.
+
+## 5. Cause, Effect, Consequence, Condition
+
+The roles are useful, but they are not always clean in live cases.
+
+The note from the held-loosely section should be treated as a source discipline:
+
+> The roles do not remain clean under every live case, but they can be understood using the rest of the framework at proper scope and resolution.
+
+That means the grammar is resolution-relative:
+
+- at one scope, an event is an effect;
+- at a wider temporal scope, the same event may be a consequence;
+- once stabilized into background terrain, it may function as a condition;
+- when read from the next closure cycle, that condition may become part of the cause-field.
+
+The proper question is not "which label is absolutely true?" but "at this scope and resolution, what role is this deformation playing?"
+
+## 6. Tilt and Reshape
+
+Two causal modes should be retained:
+
+| Mode | Structure | Typical form | Risk |
+| --- | --- | --- | --- |
+| Tilt causation | Biases which basin is preferred without changing the option-space | Prioritize A over B | Over-amplifies existing attractors |
+| Reshape causation | Changes the option-space itself | Reorganize the structure | Fragile, delay-sensitive, and harder to attribute |
+
+Tilt modifies trajectory inside an existing landscape. Reshape modifies the landscape.
+
+This distinction matters for ethics and politics. High-power actors can reshape categories, incentives, defaults, time horizons, and attention fields while describing their action as ordinary influence.
+
+The more an actor reshapes the terrain on which future attribution will occur, the higher the assignment burden should become.
+
+## 7. TCL and the Attribution Window
+
+Complex Causality uses TCL conceptually while holding literal threshold values loosely outside validated domains.
+
+The key idea is the attributable operating window:
+
+- below sufficient coupling, causal stasis: deformations do not propagate enough for assignment;
+- above the chaos regime, causal incoherence: propagation happens, but maps decohere;
+- beyond the parametric wall, causal illegibility: the option-space changes faster than participants can update.
+
+The exact numbers should not be treated as universal social constants here. The concepts are source-relevant; the literal values require model-class validation.
+
+Justice depends on keeping causal systems within the attributable window whenever assignment, repair, or accountability is being attempted.
+
+## 8. Responsibility, Blame, and Accountability
+
+Responsibility binds an actor to a deformation it controlled, authored, preserved, amplified, concealed, or had standing obligation to address.
+
+Blame is moral closure over an attributed deformation.
+
+Accountability is response to the deformation: repair, restraint, redesign, disclosure, restitution, withdrawal, or consequence-routing correction.
+
+Guardrail:
+
+> Blame must not do the work of causality.
+
+When attribution is weak, blame tends to land on visible low-power nodes. That is blame capture. It routes moral closure to the easiest target rather than to the operative deformation.
+
+## 9. Responsibility Laundering
+
+Responsibility laundering occurs when a system is driven outside the attribution window while benefits remain routed up-gradient.
+
+It may happen through:
+
+- temporal compression;
+- fragmented action;
+- excessive coupling and delay;
+- category reshaping;
+- proxy indirection;
+- manufactured ambiguity;
+- visibility asymmetry;
+- burden dumping across power gradients.
+
+The result is not that consequence vanishes. It becomes harder to assign, easier to dump, and more likely to accumulate as remainder elsewhere.
+
+This connects Complex Causality directly to Remnant Stewardship:
+
+- Complex Causality traces how consequence propagates;
+- Remnant Stewardship asks where unmetabolized consequence lands;
+- Justice asks how visibility and answerability are restored.
+
+## 10. Relationship to Relational Localization
+
+Relational Localization supplies the assignment machinery for causal claims.
+
+Complex Causality can describe deformation, propagation, and stabilization. Relational Localization asks whether the field is resolved enough to assign responsibility, liability, custody, ownership, or intervention authority.
+
+The handoff:
+
+```text
+Complex Causality: what deformation propagated?
+Relational Localization: can assignment validly close over that deformation?
+Boundary Ethics: what posture is required if assignment is not licensed?
+Proxy Localization: what representation is valid if self-account cannot arrive?
+Remnant Stewardship: what remains after closure or failed closure?
+```
+
+## 11. Diagnostics
+
+Use Complex Causality when asking:
+
+- What deformation changed the landscape?
+- What closure event committed the system?
+- What consequence continued to travel?
+- Did the consequence stabilize into condition?
+- At what scope does the role change?
+- Is this tilt or reshape?
+- Is attribution inside the operating window?
+- Is blame following causal resolution or replacing it?
+- Who benefits from causal illegibility?
+- Where did the unassigned consequence go?
+
+## 12. Load-Bearing and Held-Loosely Claims
+
+Load-bearing:
+
+- Causality is propagation of asymmetry through a constrained landscape over time.
+- Cause/effect/consequence/condition are deformation/closure/propagation/stabilization roles.
+- Consequentiality is the promotion gate from event to terrain.
+- The grammar is scope- and resolution-relative.
+- Blame must follow adequate causal resolution rather than replace it.
+- Responsibility laundering pushes systems outside the attribution window while preserving up-gradient benefit.
+
+Held loosely:
+
+- Causality-as-emergent is a framework scoping rule, settled enough for use until later work disputes it.
+- The cause/effect/consequence/condition roles are not clean in every live case.
+- Literal TCL values should remain loose outside validated domains.
+- The free-energy landscape is literal in some model classes, analogical or structural in others.
+- The exact boundary between fluctuation and cause remains an open formal question.
+
+## 13. Promotion Note
+
+This document is ready to function as the unique source draft for Complex Causality.
+
+Before migration into the active Semantic Substrate, confirm cross-links to:
+
+- `Asymmetry Maintenance - Core Source.md`
+- `Remnant Stewardship - Core Source.md`
+- `Relational Localization - Core Source.md`
+- Signal as Bias Field, TCL, TC/EO, AOMI, MMPS, and Justice Across Scales
+

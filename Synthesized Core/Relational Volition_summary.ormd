@@ -1,0 +1,62 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary of Relational Volition: A Synthesis on the Nature of Freedom within
+  Relational Fields'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: urn:ormd:summary-relational-volition:2025-10-27
+    ts: '2025-10-27T14:30:00Z'
+  parents:
+  - urn:cb:Relational Volition.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - volition
+  - summary
+  - CFA dynamics
+  - relational ontology
+  - coherence
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - ethics_rights
+  - stewardship_architecture
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#reverent-stewardship "meta:corresponds_to"). Relational Volition: how agency and choice are relational rather than isolated properties. Canonical treatment in B5 §1–§2.
+
+# Executive Summary: Relational Volition {#summary-header}
+
+This document provides a synthesis of the proposal that human agency is a systems-level property rather than a metaphysical exception to natural law. By integrating [E² (Essence of Existence)](#abstract "meta:corresponds_to") and [CFA (Constraint-Fluctuation-Attention)](#cfa-dynamics "ontological:composes") dynamics, the original text establishes [Relational Volition (Vᵣ)](#definition-vr "ontological:defines") as a measurable capacity for a system to navigate its environment while maintaining field integrity.
+
+## 1. Redefining Agency {#redefining-agency}
+
+The traditional concept of "free will" is deconstructed into relational functions where [will and freedom](#definition-vr "meta:emerges_from") are seen to [emerge from](#definition-vr "meta:emerges_from") the interaction of nested systems. Key classical terms are mapped to relational equivalents:
+
+- **Freedom** is redefined as the [Constraint Gradient (∇C)](#components "meta:corresponds_to"), representing mobility within field boundaries.
+- **Will** is mapped to the [Attentional Vector (Â)](#components "meta:corresponds_to"), the directional bias that modulates the field.
+- **Moral Agency** becomes [Coherence Responsibility (Φ_res)](#components "meta:corresponds_to"), the duty to preserve the integrity of the containing system.
+
+## 2. The Mechanics of Volition {#mechanics}
+
+Within the [CFA model](#cfa-dynamics "ontological:composes"), [Volition](#summary "dynamical:interacts_with") operates through [attention’s selective amplification of fluctuation](#cfa-dynamics "dynamical:transforms_to"). This process does not override the laws of the field; rather, it utilizes [Attention as field modulation](#summary "ontological:defines") to achieve [local navigation](#summary "dynamical:transforms_to") within the [field geometry](#summary "symmetric:constrains") established by [Determinism](#summary "symmetric:constrains"). 
+
+[Relational Volition (Vᵣ)](#definition-vr "ontological:defines") is thus the ability to steer within [Boundary geometry](#summary "symmetric:constrains") by engaging with [Micro-level fluctuation potential](#summary "dynamical:interacts_with") without causing systemic collapse.
+
+## 3. Ethical Implications and Stewardship {#ethics-summary}
+
+The framework [supports](#ethics "epistemic:supports") the philosophy of [Reverent Stewardship](#ethics "epistemic:supports"), where freedom is characterized as the [capacity for coherence-preserving navigation](#summary "meta:emerges_from"). In this view, responsibility is the [Maintenance of field integrity](#summary "epistemic:supports").
+
+## 4. Conclusion {#conclusion-summary}
+
+To exercise true volition is to [act coherently](#conclusion "symmetric:preserves") within the laws of relational emergence. Freedom is found in the ability to [sustain pattern integrity](#conclusion "ontological:defines") and [preserve the generative capacity](#conclusion "epistemic:supports") of the relational fields we inhabit.

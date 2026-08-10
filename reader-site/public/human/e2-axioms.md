@@ -1,0 +1,94 @@
+﻿Context Layer Protocol (CLP) ---
+frame: "philosophy.relational-ontology.axioms"
+lineage:
+  origin: { uri: "urn:ormd:e2-axioms:pass-3a", ts: "2026-06-12T00:00:00Z" }
+  parents:
+    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/Initial%20Axioms.ormd", relation: "canonicalizes" }
+    - { uri: "local://archive/20260612_pass_3a_core_ontology/Context%20Layer/E%5E2%20Entry%20Point.ormd", relation: "extracts_axioms_from" }
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["E^2", "axioms", "relational ontology", "SCIA", "paradox", "translation", "verification"]
+resolution: { confidence: 0.92 }
+---
+
+# E^2 Axioms {#e2-axioms}
+
+## Ontological Setup {#ontological-setup}
+
+**Core postulate:** a system is intelligible only through the pattern of relations in which it participates.
+
+The ten axioms below are the canonical axiom layer for E^2. They preserve the Initial Axioms source while removing duplicate plain-language restatements from the entry-point layer.
+
+## Axiom 1 - Relational State {#axiom-1}
+
+The state of any system is a function of the essence of its relationships.
+
+No entity, concept, or moment occupies a vacuum. Behavior and identity are co-authored by the network in which the system participates.
+
+## Axiom 2 - Recursive Containment {#axiom-2}
+
+The framework itself is shaped by the relations it holds to itself, its users, its source history, and its context.
+
+Self-reference is not a defect. It is a diagnostic mirror: a theory of relation must be able to fold back onto its own relational conditions.
+
+## Axiom 3 - Relational Essence {#axiom-3}
+
+Essence is the emergent signature of how a thing relates: nature, quality, context, and interaction.
+
+Nothing possesses essence in isolation. Essence crystallizes when a pattern is observed and sustained through relationship.
+
+## Axiom 4 - Persistence Through Resonance {#axiom-4}
+
+What endures is what remains in resonant relationship.
+
+Sustained, coherent, intentional attention is the energy that keeps patterns from decohering into noise.
+
+## Axiom 5 - Existence Function {#axiom-5}
+
+To exist is to be held inside a relational web.
+
+Sever the web and existence becomes indeterminate. Isolation is ontological decay, not neutrality.
+
+## Axiom 6 - Paradox Fidelity {#axiom-6}
+
+Paradox is evidence of dimensional truth, not immediate error.
+
+A system that prematurely resolves every contradiction trades living tension for brittle dogma.
+
+## Axiom 7 - SCIA Threshold {#axiom-7}
+
+Transformation requires a critical mass of focused attention.
+
+Below threshold, elements drift. Above threshold, they bond, reorganize, or transmute.
+
+## Axiom 8 - Translatability {#axiom-8}
+
+A truth that is alive can survive translation.
+
+The form may change, but the relational tension and coherence must remain legible across perspectives.
+
+## Axiom 9 - Contextual Null {#axiom-9}
+
+Absolute nothingness is non-signifying.
+
+Even negation presupposes a context in which the negation occurs. Every statement, including a statement of non-being, is embedded.
+
+## Axiom 10 - Relational Verification {#axiom-10}
+
+Reality is verified by entering relationship and observing resonance over time.
+
+Theory meets practice only when attention is applied to the world and the world answers back without the theory shattering.
+
+## Corollaries {#corollaries}
+
+- Minor changes in high-salience relationships can shift an entire coherence field.
+- Attention is ethical because what receives sustained attention is amplified.
+- Translation should adapt form while preserving live tension.
+- Paradox often marks a productive boundary between dimensions.
+- Unattended nodes drift toward indeterminacy; reconnect them or let them compost.
+
+## Use Guidance {#use-guidance}
+
+Use this document as the axiom layer. Use `E^2 Entry Point.ormd` for orientation, `Relational Primitives.ormd` for relation categories, and `E^2 Equation.ormd` for the compact recursive expression.
+

@@ -1,0 +1,33 @@
+<!-- ormd:1.0 -->
+---
+title: "Implementations"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "registry.implementations"
+lineage:
+  origin: { uri: "internal://implementations/index", ts: "2025-06-03T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["ormd", "project-atlas", "clp", "custom-gpts", "chess-profiles", "coaching"]
+resolution: { confidence: 1.0 }
+---
+
+# Implementations {#implementations-header}
+
+6/3/25
+
+[Ormd](#ormd "ontological:defines")
+
+[Project Atlas — High-Level Plan](#project-atlas "ontological:composes")
+
+[Custom GPTs](#custom-gpts "ontological:composes")
+
+[Context Layer Protocol (CLP)](#clp "ontological:defines")
+
+[Cognitive Profiles from Chess play](#chess-profiles "epistemic:measures")
+
+[Narrative Self Coaching Guide V1](#coaching-guide "symmetric:constrains")
+

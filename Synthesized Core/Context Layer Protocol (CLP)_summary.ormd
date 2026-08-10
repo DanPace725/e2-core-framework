@@ -1,0 +1,65 @@
+core <!-- ormd:1.0 -->
+---
+title: "Summary: Context Layer Protocol (CLP) \u2014 Overview & Starter Spec v0.2"
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: urn:cb:summary:clp-v0.2
+    ts: '2025-10-27T14:30:00Z'
+  parents:
+  - urn:cb:Context Layer Protocol (CLP).ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - CLP
+  - ContextBundle
+  - provenance
+  - relational-summary
+  - data-protocol
+  document_type:
+  - specification
+  - foundational_theory
+  domains:
+  - ontology_core
+  - systems_engineering
+  - stewardship_architecture
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#operational-modes "meta:corresponds_to"). CLP: session context management protocol using witness tokens and relational state tracking. Canonical treatment in B4 §5.
+
+# Summary of Context Layer Protocol (CLP) {#clp-summary}
+
+The Context Layer Protocol (CLP) is a framework designed to create a context-aware data substrate that attaches limits and causes to every piece of information. It addresses the issues of context loss, over-precision, and opaque policy by treating [context](#core-object "ontological:defines"), [provenance](#lineage-event "ontological:defines"), [resolution limits](#resolution-floors "ontological:defines"), and [policy](#policy-membranes "ontological:defines") as foundational elements.
+
+## Core Architecture: The ContextBundle (CB) {#core-object}
+
+The central unit of CLP is the **ContextBundle (CB)**, which [encodes all four](#core-object "ontological:composes") axes of the protocol's design lens: Resources, Cognition, Context, and Power. A CB [is composed of](#glossary-cb "ontological:composes") content and its associated metadata, effectively [coupling content](#minimal-json "ontological:composes") with its frame, lineage, and policy.
+
+- **Frames**: These [define](#glossary-frame "ontological:defines") the domain lens and [constrain](#glossary-frame "symmetric:constrains") the context through schema validation and default resolution floors.
+- **Lineage**: Captured through [signed events](#lineage-event "epistemic:measures") in a [Lineage Ledger](#lineage-ledger "geometric:precedes"), providing a verifiable history of data origin and transformation.
+
+## Storage and Portability {#storage-model}
+
+CLP is designed to be portable and agnostic. It utilizes a **Sidecar** format (`.ormd.json`) that resides [next to any payload](#sidecar-format "geometric:embedded_in") such as PDFs or Markdown files. For shared environments, **Registries** manage [signed events](#lineage-event "epistemic:measures") and frame definitions, while an **Index Fabric**—[is composed of](#glossary-index-fabric "ontological:composes") SQL, vector, and graph data—enables high-performance recall. These registries [limit](#registries "symmetric:limits") their scope to metadata, ensuring content remains under the owner's control.
+
+## Query Model and Broker Behavior {#query-model}
+
+The **Query Model** is intention-aware, requiring requests to declare intent and resolution limits. The system [transforms to](#glossary-broker "dynamical:transforms_to") a response that includes [rows + EXPLAIN + telemetry](#response-json "dynamical:transforms_to"). 
+
+The **Context Broker** acts as the execution engine that [enforces guardrails](#resolution-floors "symmetric:constrains"). It manages:
+- **Resolution floors**: Ensuring the system does not guess when [resolution limits](#resolution-floors "ontological:defines") are unmet.
+- **Policy membranes**: Applying [policy](#policy-membranes "ontological:defines") and redaction rules.
+- **Coherence**: Measuring the agreement across evidence channels to [measure](#glossary-cb "epistemic:measures") the state of a ContextBundle.
+
+## Implementation and Validation {#implementation}
+
+The protocol is implemented through a staged path where [Milestone A](#milestone-a "geometric:precedes") (local storage and CLI) [precedes](#milestone-a "geometric:precedes") [Milestone B](#milestone-b "geometric:precedes") (networked registries). This implementation [supports](#implementation "epistemic:supports") the ability for AI agents to verify claims and reconcile data across different frames. 
+
+The system's integrity is maintained by treating [unresolved](#glossary-unresolved "ontological:defines") states as a first-class feature, which [limits](#glossary-unresolved "symmetric:constrains") visibility based on strict resolution thresholds to prevent the propagation of uncertain data. This approach [supports](#glossary-cb "epistemic:supports") claim verification and [corresponds to](#glossary-broker "meta:corresponds_to") the broker's logic for maintaining a stable, relational knowledge environment.

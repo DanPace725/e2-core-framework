@@ -1,0 +1,204 @@
+<!-- ormd:1.0 -->
+---
+title: 'Summary: CFAR Framework (Constraint-Fluctuation-Attention-Resolution)'
+authors:
+- Daniel Pace
+frame: summary.synthesized
+semantics:
+  keywords:
+  - behavioral-control
+  - rayleigh-criterion
+  - cfa-model
+  - bimodal-control
+  - gradient-engineering
+  - CFA model
+  - systems theory
+  - relational complexity
+  - summary
+  - CFAR
+  - Rayleigh criterion
+  - behavioral engineering
+  domains:
+  - ontology_core
+  - systems_engineering
+  - stewardship_architecture
+  - cognition_psychology
+  - mathematics_logic
+  document_type:
+  - foundational_theory
+  - derived_framework
+lineage:
+  parents:
+  - urn:cb:seed-doc
+  - urn:cb:requirements-v1
+  - urn:cb:CFA.ormd
+  - urn:cb:CFAR.ormd
+resolution:
+  confidence: 0.98
+---
+
+> **Synthesized document** — merged from 3 sources:
+> - CFAR-Framework-master Repo Summary.ormd
+> - CFA_summary.ormd
+> - CFAR_summary.ormd
+
+# CFAR Framework: Architectural Synthesis {#top}
+
+The **CFAR Framework** (Constraint-Fluctuation-Attention-Resolution) is a sophisticated behavioral control engine that applies optical physics analogies—specifically the Rayleigh Criterion—to social and cognitive systems. It is designed to match problem resolution to system capacity, ensuring that interventions do not attempt to "print" patterns finer than the target system can resolve.
+
+## 1. Core System Architecture {#engine-core}
+
+The repository is structured around a modular [Resolution Engine](#engine-logic "ontological:composes") that separates state management, physical dynamics, and control logic.
+
+*   **State Management**: The system [State](#state-definition "ontological:defines") tracks five fundamental variables: Outcome (Y), Norm (N), Attention (A), Constraint (C), and Burden (B).
+*   **System Dynamics**: The [Dynamics Module](#dynamics-logic "dynamical:transforms_to") implements a sigmoid outcome model where behavioral shifts are driven by the interaction of structural constraints and attention energy.
+*   **Parameter Estimation**: The [Estimator](#estimator-logic "epistemic:measures") calculates the system's "Numerical Aperture" (sensing/actuation richness) and "Effective Wavelength" (intervention cadence) to determine the resolution limit.
+
+## 2. Bimodal Control Strategy {#control-strategy}
+
+The framework's primary innovation is its bimodal approach to system governance, which [is governed by](#rayleigh-limit "symmetric:constrains") the physical limits of the environment.
+
+*   **Precision Mode (PID)**: When the error is larger than the [Rayleigh Limit](#rayleigh-limit "geometric:precedes"), the system utilizes a PID controller for structural adjustments (uC).
+*   **Fluctuation Mode (Gradient Engineering)**: When precision is blocked by resolution limits, the [Fluctuation Controller](#fluctuation-logic "dynamical:interacts_with") activates. It injects "engineered gradients" to create curvature in the attention landscape, allowing energy to flow even when structural fine-tuning is impossible.
+*   **Fast Interventions**: A [Thompson Sampling Bandit](#bandit-logic "dynamical:interacts_with") manages high-cadence messaging (uA) to prevent habituation and optimize message framing.
+
+## 3. Theoretical Foundation {#theory-docs}
+
+The implementation [corresponds to](#theoretical-foundation "meta:corresponds_to") a deep ontological shift from mechanistic determinism to relational agency.
+
+*   **AFD (Attention-Fluctuation Dynamics)**: Models attention as energy flow toward gravitational wells created by fluctuations.
+*   **CFA Model**: Formalizes the relationship between structural matter (Constraint), energy (Attention), and curvature (Fluctuation).
+*   **Rayleigh Analogy**: Maps optical resolution limits to the [Minimum Resolvable Change](#rayleigh-limit "epistemic:supports") ($\Delta Y_{min}$) in behavioral outcomes.
+
+## 4. Operational Infrastructure {#infrastructure}
+
+The framework provides a complete ecosystem for simulation and analysis:
+
+*   **API & Dashboard**: A [FastAPI Backend](#api-logic "ontological:composes") and [Streamlit Dashboard](#ui-logic "ontological:composes") provide real-time visualization of "Attention Traps" and bimodal switching.
+*   **Guardrails**: The [Guardrail System](#guardrail-system "symmetric:preserves") ensures equity, monitors burden accumulation, and prevents oscillatory instability.
+*   **Reporting**: An automated [Report Generator](#reporting-logic "epistemic:supports") synthesizes simulation data into interpretive insights and performance grades.
+
+## 5. Relational Primitives Map {#relational-map}
+
+| Component | Target | Relationship | Description |
+| :--- | :--- | :--- | :--- |
+| `engine/` | CFAR Framework | `ontological:composes` | The core computational substrate. |
+| `Rayleigh Criterion` | `PID Controller` | `symmetric:constrains` | Limits the precision of structural tweaks. |
+| `Fluctuation` | `Attention` | `dynamical:interacts_with` | Creates gradients for energy flow. |
+| `State (S_t)` | `State (S_t+1)` | `dynamical:transforms_to` | Evolution via sigmoid dynamics. |
+| `Estimator` | `NA_eff / λ_eff` | `epistemic:measures` | Quantifies system capacity. |
+| `Theory/` | `Engine/` | `meta:corresponds_to` | Mapping physics to Python implementation. |
+| `Guardrails` | `Action Planner` | `symmetric:constrains` | Enforces ethical and stability boundaries. |
+
+---
+
+### Key Technical Anchors {#anchors}
+
+*   **State Definition**: `engine/resolution_engine/state.py` {#state-definition}
+*   **Dynamics Logic**: `engine/resolution_engine/dynamics.py` {#dynamics-logic}
+*   **Rayleigh Limit**: Defined as $\Delta Y_{min} \approx k_1 \cdot \lambda_{eff} / NA_{eff}$ {#rayleigh-limit}
+*   **Fluctuation Logic**: `engine/resolution_engine/controller_fluctuation.py` {#fluctuation-logic}
+*   **Estimator Logic**: `engine/resolution_engine/estimator.py` {#estimator-logic}
+*   **Bandit Logic**: `engine/resolution_engine/controller_bandit.py` {#bandit-logic}
+*   **Guardrail System**: `engine/resolution_engine/guardrails.py` {#guardrail-system}
+*   **API Logic**: `ui/api/main.py` {#api-logic}
+*   **UI Logic**: `ui/streamlit_app.py` {#ui-logic}
+*   **Reporting Logic**: `examples/report_generator.py` {#reporting-logic}
+*   **Theoretical Foundation**: `theory/AFD.md` and `theory/CFA.md` {#theoretical-foundation}
+
+
+---
+
+## Supplementary Content from: Summary: The CFA Model for Systems Analysis and Intervention
+
+# Executive Summary: The CFA Model {#summary-top}
+
+The [CFA Model](#cfa-model "meta:corresponds_to") (Constraint-Fluctuation-Attention) is a framework designed to operationalize relational complexity for practical systems analysis. It moves beyond static component analysis to treat systems as [relational fields](#ontology "ontological:composes") governed by energy dynamics and informational abstraction.
+
+## Theoretical Foundations {#foundations-summary}
+
+The model [emerges from](#ontology "meta:emerges_from") three core principles:
+1.  **Essence of Existence (E²)**: Systems are defined by the relational networks that [sustain and constrain](#foundations "symmetric:constrains") them.
+2.  **Attention-Fluctuation Dynamics (AFD)**: Attention acts as an energy flow that [follows](#afd "geometric:precedes") fluctuations in the relational field.
+3.  **Adaptation via Informational Abstraction (AVIA)**: Systems [compress](#avia "ontological:composes") complexity into higher-order abstractions to navigate their environment.
+
+## The Three Variables {#variables-summary}
+
+The model abstracts system state into three interacting variables:
+-   **Constraint (C)**: The structural inertia and rules that [limit](#constraint "symmetric:constrains") adaptive capacity.
+-   **Fluctuation (F)**: The entropy and volatility that [create](#fluctuation "geometric:causes") opportunities for new patterns.
+-   **Attention (A)**: The cognitive or energetic focus that [determines](#attention "epistemic:supports") which fluctuations are amplified.
+
+## System Dynamics and Regimes {#dynamics-summary}
+
+A system's state is [represented as](#state-vector "ontological:defines") a vector **S(t) = [C, F, A]**. Its evolution [follows](#equations "meta:corresponds_to") coupled differential equations where attention acts as a primary [amplifier](#attention "dynamical:interacts_with") of both stability and change. 
+
+Systems typically fall into one of three regimes:
+-   **Constraint-Dominant**: High stability but [brittle](#c-regime "symmetric:preserves") and resistant to change.
+-   **Fluctuation-Dominant**: High innovation potential but risks [chaotic collapse](#f-regime "dynamical:transforms_to").
+-   **Attention-Dominant**: Purposeful transformation through [conscious direction](#a-regime "dynamical:transforms_to").
+
+## Strategic Intervention and Prediction {#intervention-summary}
+
+The CFA model enables [predictive analysis](#phase-prediction "geometric:precedes") by monitoring indices like [Constraint Brittleness](#cbi "epistemic:measures") and [Attention Fragmentation](#afi "ontological:composes"). 
+
+Interventions are mapped to parameter adjustments:
+-   **Constraint Modulation**: Reducing rigidity to [increase adaptability](#stagnation-risk "symmetric:constrains").
+-   **Fluctuation Management**: Channeling volatility toward [beneficial patterns](#fci "geometric:causes").
+-   **Attention Enhancement**: Focusing resources on [specific transformation objectives](#managed-transformation "geometric:causes").
+
+## Cross-Domain Applications {#applications-summary}
+
+The framework provides insights across diverse fields:
+-   **Education**: Identifying [institutional inertia](#k12 "symmetric:constrains") and opportunities for [managed transformation](#higher-ed "dynamical:transforms_to").
+-   **Organizations**: Balancing the [fluctuation-dominance](#startup "ontological:composes") of startups with the [constraint-dominance](#established-org "ontological:composes") of established firms.
+-   **AI-Human Systems**: Aligning [attention](#attention "ontological:defines") and managing [constraint evolution](#constraints "dynamical:transforms_to") in collaborative environments.
+
+## Conclusion {#conclusion-summary}
+
+The [CFA model](#cfa-model "ontological:defines") serves as an [analytical tool](#analytical-tool "ontological:composes") that allows for [sophisticated participation](#participation "dynamical:interacts_with") in complex systems. By understanding the [dynamic balance](#cfa-homeostasis "symmetric:preserves") between its three variables, actors can guide systems toward [conscious evolution](#evolution "dynamical:transforms_to") rather than reactive collapse. It represents a [fundamental shift](#shift "dynamical:transforms_to") in systems intelligence, providing [practical wisdom](#wisdom "epistemic:supports") for navigating the irreducible complexity of modern existence.
+
+
+---
+
+## Supplementary Content from: Summary: CFAR Framework (Constraint-Fluctuation-Attention-Resolution)
+
+# Executive Summary: The CFAR Framework {#summary}
+
+The **CFAR Framework** is a systems-theory approach designed to align problem-solving interventions with the inherent resolution capacity of a system. It is [defined as](#summary "ontological:defines") a methodology for achieving [stable behavior change](#outcomes "geometric:causes") by balancing structural limits, designed variance, and cognitive energy.
+
+## Core Theoretical Foundation {#theory}
+
+The framework is [composed of](#theory "ontological:composes") three primary variables that dictate system dynamics:
+
+- **[Constraint (C)](#constraint "ontological:defines")**: The structural boundaries and institutional inertia that [limit](#constraint "symmetric:constrains") behavior.
+- **[Fluctuation (F)](#fluctuation "ontological:defines")**: The engineered variance or "gradient" used to drive change when direct paths are [blocked](#rayleigh-criterion "symmetric:constrains").
+- **[Attention (A)](#attention "ontological:defines")**: The flow of cognitive resources and salience that [supports](#attention "epistemic:supports") the adoption of norms.
+
+A central innovation of CFAR is its [correspondence to](#rayleigh-criterion "meta:corresponds_to") optical physics, specifically the [Rayleigh criterion](#rayleigh-criterion "symmetric:constrains"). This principle establishes that systems have a "minimum resolvable change" ($\Delta Y_{min}$); attempting to implement changes finer than this limit [causes](#burden "geometric:causes") system failure or [transforms into](#burden "dynamical:transforms_to") participant disengagement (burden).
+
+## Technical Control Architecture {#implementation}
+
+To manage these variables, CFAR employs a [dual-controller architecture](#control-architecture "ontological:composes"):
+
+1. **[PID Controller](#pid-controller "ontological:composes")**: Manages slow-to-medium structural levers, using proportional, integral, and derivative feedback to [correct](#pid-controller "symmetric:constrains") system drift.
+2. **[Bandit Algorithms](#bandit-algorithms "ontological:composes")**: Manages fast-acting levers (like prompts or messages) to balance exploration and exploitation, preventing habituation.
+
+The system [automatically transforms](#strategy-switching "dynamical:transforms_to") between **Precision Mode**, used when the system can resolve fine adjustments, and **Fluctuation Mode**, used when the [Rayleigh criterion](#rayleigh-criterion "symmetric:constrains") prevents direct structural intervention.
+
+## Practical Outcomes and Applications {#outcomes}
+
+The framework [causes](#outcomes "geometric:causes") stable behavior change in complex environments—such as littering reduction or organizational transformation—without relying exclusively on financial incentives. By [respecting resolution limits](#rayleigh-criterion "symmetric:constrains") and utilizing [guardrails](#guardrails "symmetric:constrains") to monitor burden and equity, CFAR ensures that interventions remain within the "Depth of Focus" of the target population.
+
+Ultimately, CFAR [serves as a bridge](#summary "meta:corresponds_to") between theoretical relational complexity and actionable intervention design, ensuring that systems do not attempt to "print" patterns finer than their internal physics allow.
+
+---
+
+## Key Definitions {#glossary}
+
+- **[Constraint](#constraint)**: Structural limits (rules, design).
+- **[Fluctuation](#fluctuation)**: Designed variability/noise.
+- **[Attention](#attention)**: Cognitive salience and signal amplification.
+- **[Rayleigh Criterion](#rayleigh-criterion)**: The physical limit of system resolution.
+- **[Burden](#burden)**: The cost/fatigue that [emerges from](#burden "meta:emerges_from") over-complex interventions.
+- **[Guardrails](#guardrails)**: Safety systems that [constrain](#guardrails "symmetric:constrains") the intervention to prevent instability.

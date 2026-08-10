@@ -1,0 +1,72 @@
+core <!-- ormd:1.0 -->
+---
+title: Summary of Relational Field Dynamics 0.1
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/rfd-v0.1
+    ts: '2023-10-27T12:00:00Z'
+  parents:
+  - urn:cb:Relational Field Dynamics 0.1.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - RFD
+  - Relational Field Dynamics
+  - Summary
+  - Formalism
+  document_type:
+  - foundational_theory
+  - specification
+  domains:
+  - ontology_core
+  - systems_engineering
+  - stewardship_architecture
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B2 — Dynamics and Formal Validation`](../../Synthesis Project/B2 — Dynamics and Formal Validation.ormd#afd-loop "meta:corresponds_to"). Relational field dynamics: how fields evolve, attract, and couple. Canonical treatment in B2 §1.
+
+# Summary: Relational Field Dynamics 0.1 {#overview-summary}
+
+Relational Field Dynamics (RFD) v0.1 is a mathematical formalism designed to model qualitative social and cognitive dynamics—such as meaning, coherence, and attention—as fields on a substrate. This framework [defines](#overview-summary "ontological:defines") a portable structure for simulating relational environments and [corresponds to](#overview-summary "meta:corresponds_to") existing protocols like MMPS and AOMI.
+
+## 1. State Variables and Field Definitions {#state-summary}
+
+The system [defines](#state-summary "ontological:defines") the state of a domain using several key scalars and vectors:
+- **Meaning Density (M)** and **Coherence Index (κ)**.
+- **Occlusion/Uncertainty (Ω)** and **Temporal Compression (C_eff)**.
+- **Attention Flow (u)**, which acts as a vector field.
+
+To maintain stability, all tracked variables [are constrained by](#state-summary "symmetric:constrains") saturation operators and compact sets.
+
+## 2. Core Dynamics and Flow {#dynamics-summary}
+
+The evolution of the fields [transforms state](#dynamics-summary "dynamical:transforms_to") via an advection–diffusion–reaction equation. The dynamics [are composed of](#dynamics-summary "ontological:composes") several distinct physical behaviors:
+- **Advection**: Where fields [interact with](#state-summary "dynamical:interacts_with") the flow of attention.
+- **Diffusion**: The smoothing and dispersion of information.
+- **Reaction**: Local synthesis or decay of meaning, modeled after MMPS.
+
+The system also [enforces](#boundaries-summary "symmetric:constrains") continuity and local autonomy at the interfaces between different agents or domains through specific boundary conditions. {#boundaries-summary}
+
+## 3. Epistemic and Measurement Doctrines {#measurement-summary}
+
+RFD utilizes a [resolution doctrine](#resolution-summary "epistemic:measures") based on Rayleigh-style distinguishability, ensuring that two states are only treated as different if they exceed a specific threshold. Measurement in RFD [is handled via](#measurement-summary "epistemic:measures") ordinal and relational embeddings rather than absolute cardinal units. In this context, numeric coordinates [act as](#measurement-summary "ontological:defines") charts for calculus rather than absolute magnitudes. {#resolution-summary}
+
+## 4. Ethical Guards and Interventions {#ethics-summary}
+
+The framework includes "guards" that [constrain](#ethics-summary "symmetric:constrains") dynamics to prevent system failure or exploitation. These guards [measure](#ethics-summary "epistemic:measures") anti-gaming patterns (AOMI) and [constrain](#resolution-summary "symmetric:constrains") any actions that fall below the established resolution threshold. 
+
+Interventions are treated as morphisms that [transform state](#state-summary "dynamical:transforms_to") through canonical policies (Restore, Paradox, Integrate). The commitment of these interventions [is constrained by](#ethics-summary "symmetric:constrains") budget caps and pre-commit hooks. {#intervention-summary}
+
+## 5. Regimes and Dimensionless Metrics {#metrics-summary}
+
+The system [measures](#metrics-summary "epistemic:measures") its own state and falsifiability through dimensionless numbers, such as the Relational Reynolds number (advection vs. dissipation) and the Stewardship number (guard damping fraction). 
+
+Changes in these metrics [cause](#intervention-summary "geometric:causes") the system to transition between macro-modes or "regimes," such as **Flow**, **Rigidity**, **Overload**, or **Collapse**. These transitions trigger automated guardrails or scheduled policy interventions to restore system integrity.

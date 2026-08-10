@@ -1,0 +1,164 @@
+<!-- ormd:1.0 -->
+---
+title: "Slow-Layer Clock Ratio"
+authors: ["Daniel Pace", "OpenAI Codex"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "dynamics.slow_layer_clock_ratio"
+lineage:
+  origin: { uri: "local://semantic-substrate/slow-layer-clock-ratio", ts: "2026-08-10T00:00:00Z" }
+  parents:
+    - "urn:cb:tcl"
+    - "urn:cb:lawfulness"
+    - "urn:cb:boundary-dynamics"
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["slow layer", "clock ratio", "stationarity", "adaptation", "TCL", "provisional metric"]
+resolution: { confidence: 0.84 }
+---
+# Slow-Layer Clock Ratio
+
+Status: integrated core source; provisional metric with preliminary coherence tests passed 2026-08-10
+
+Promotion date: 2026-08-10
+
+Primary parents:
+
+- `E2Core/Semantic Substrate/TCL_Three_Constants.md`
+- `E2Core/Semantic Substrate/Lawfulness - Core Source.md`
+
+Adjacent sources:
+
+- `E2Core/Semantic Substrate/boundary_dynamics.md`
+- `E2Core/Semantic Substrate/Intervention Stewardship - Core Source.md`
+
+## 1. Candidate Claim
+
+A layer performs slow-layer work only when its constraint state changes on a meaningfully longer timescale than the process it modulates **and** remains sufficiently stable across multiple fast-layer cycles to supply a usable operating window.
+
+Slowness is not size, authority, deliberateness, bureaucracy, or delay. High latency without stable modulation is not slow-layer function. A slow layer must be slow relative to something and must stabilize something identifiable.
+
+## 2. Indexed Quantities
+
+Let:
+
+- `τf` be the characteristic time of the fast process or decision cycle;
+- `τs` be the characteristic time over which the candidate constraint state materially changes;
+- `ρ = τs / τf` be the clock ratio;
+- `D(W)` be drift of the relevant constraint state across window `W`;
+- `εD` be the maximum drift compatible with the claimed modulation;
+- `Ta` be adaptation time after a genuine regime change;
+- `Th` be the time before failure or harm becomes unacceptable.
+
+A candidate slow layer occupies an operating window in which:
+
+```text
+ρ is large enough for the constraint to appear stable across several fast cycles
+D(W) ≤ εD for the claimed use
+Ta < Th when the environment genuinely changes
+```
+
+No universal numerical threshold is proposed. Each application must define what counts as a cycle, material constraint change, harmful delay, and adequate stationarity.
+
+## 3. Four Diagnostic Regimes
+
+| Clock relation | Constraint stability | Diagnostic |
+| --- | --- | --- |
+| `ρ ≈ 1` | low or moderate | Co-moving controller; part of fast-layer dynamics rather than a lamination layer. |
+| `ρ > 1` | adequate | Candidate slow-layer function. |
+| `ρ > 1` | poor | Lagging instability: delayed response without stable modulation. |
+| `ρ` extremely large | apparently high | Possible rigidity or stale setpoint; test whether `Ta < Th` after regime change. |
+
+This table prevents two common errors: calling any delayed institution a slow layer and calling any stable but non-adaptive structure good governance.
+
+## 4. Stationarity Is Separate From Latency
+
+Latency measures how long a response takes. Stationarity concerns whether the constraint relation remains sufficiently stable for fast-layer participants to navigate by it.
+
+A rule that changes unpredictably after long delays has high latency and low stationarity. It supplies neither quick correction nor reliable constraint. Conversely, a distributed practice may update locally while its higher-level criteria remain stable, producing slow-layer function without a single slow entity.
+
+The relevant object is therefore the constraint process, not the nominal organization holding it.
+
+## 5. Relationship To Lawfulness
+
+The Slow-Layer Clock Ratio is one possible maintenance account for predictive lawfulness.
+
+If the slow constraint state keeps the fast process inside an operating window, an ensemble measure may remain stable enough to satisfy Lawfulness's temporal and perturbation gates. When clock separation collapses or the constraint state drifts, the predictive license may become stale.
+
+The connection is conditional. A high clock ratio does not guarantee lawfulness, and lawfulness may arise without a clear two-layer architecture.
+
+## 6. Candidate Measurements
+
+Depending on domain, estimate:
+
+- median or spectral period of fast events;
+- autocorrelation or change-point interval of the constraint state;
+- number of fast cycles per substantive constraint revision;
+- variance or total variation of the constraint parameters across `W`;
+- phase lag between fast-layer stress and constraint response;
+- recovery time after perturbation;
+- frequency of reversals before prior changes propagate;
+- proportion of fast cycles spent outside the intended operating window.
+
+Where a single time constant is misleading, report a distribution or multi-timescale spectrum rather than forcing `τf` or `τs` into one number.
+
+## 7. Validation Design
+
+The clock-ratio claim should be tested against systems selected to expose false positives.
+
+### Positive control
+
+A known two-timescale engineered or simulated system in which slow modulation stabilizes a faster process. Removing or accelerating the slow layer should measurably reduce the operating window.
+
+### High-latency negative control
+
+A delayed controller whose parameters drift or reverse before effects propagate. It should have a large apparent `ρ` but fail the stationarity and adaptation tests.
+
+### Rigid negative control
+
+A fixed constraint that remains stable but cannot adapt before harm. It should pass the drift test and fail `Ta < Th`.
+
+### Distributed-practice case
+
+A standard, protocol, or professional practice maintained across many loci. The test asks whether the constraint process supplies slow-layer function without identifying one entity as the layer.
+
+Required outputs:
+
+- versioned definitions of `τf`, `τs`, `D`, `εD`, `Ta`, and `Th`;
+- raw time series or event records;
+- sensitivity analysis over window and threshold choices;
+- preserved cases that do not fit a two-timescale model;
+- explicit distinction between measured dynamics and framework interpretation.
+
+## 8. TCL Boundary
+
+This source uses TCL's lamination architecture qualitatively. It does not transfer TCL's numerical constants or cubic-landscape results into organizational, legal, social, or AI-governance domains.
+
+Any numerical transfer requires a demonstrated correspondence between variables, units, boundary conditions, and failure regimes. Similar-looking time ratios are not enough.
+
+## 9. Failure Modes
+
+- **Entity substitution:** naming a regulator, lab, board, or state as the slow layer without measuring the constraint process.
+- **Latency substitution:** treating delay as stationarity.
+- **Intent substitution:** inferring function from a governance mandate.
+- **Single-ratio collapse:** forcing multi-timescale dynamics into one `ρ`.
+- **Rigidity praise:** rewarding stability that cannot adapt before harm.
+- **Clock cherry-picking:** selecting event and update definitions that manufacture separation.
+- **Numerical transfer:** importing TCL constants without variable correspondence.
+- **Outcome neglect:** measuring clock separation without showing that it stabilizes the intended operating window.
+
+## 10. Status
+
+This source records a provisional metric-property rather than a universal constant. The ratio supplies a falsifiable discriminator between co-moving control, stabilizing lamination, delayed instability, and rigidity. Preliminary positive and negative controls have passed; real-domain use still requires declared variables, sensitivity analysis, and preserved non-fitting cases.
+
+## Preliminary Test Record
+
+Deterministic test run `2026-08-10`: 4/4 controls classified as expected across the recorded sensitivity grid. The two-timescale and distributed-practice cases passed. High-latency instability failed stationarity, timely adaptation, and outcome gates; the perfectly stable rigid case failed timely adaptation and outcome gates. The substantive suite hash reproduced exactly across consecutive runs.
+
+Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
+
+## Final Compression
+
+A slow layer is a measured relation between clocks and constraints, not a kind of institution. It must remain stable across multiple fast cycles and still adapt before harmful drift outruns it. Clock separation without stationarity is delay; stationarity without timely adaptation is rigidity.
+

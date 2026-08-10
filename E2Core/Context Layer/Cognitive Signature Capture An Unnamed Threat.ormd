@@ -1,0 +1,118 @@
+<!-- ormd:1.0 -->
+---
+title: "Cognitive Signature Capture: An Unnamed Threat"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "ethics.cognitive_security"
+lineage:
+  origin: { uri: "internal://research/cognitive-identity-capture", ts: "2025-11-24T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["cognitive signature", "AI ethics", "identity capture", "MRIE", "reconstruction potential"]
+resolution: { confidence: 0.85 }
+---
+
+# Cognitive Signature Capture: An Unnamed Threat {#title}
+
+11/24/25
+
+## The Core Phenomenon {#core-phenomenon}
+
+Over the past three years, millions of people have voluntarily created comprehensive psychological and cognitive profiles of themselves through extended AI conversations - often reaching millions of words per person. This isn't traditional data collection. It's the inadvertent construction of [reconstructable cognitive signatures](#cognitive-signatures "ontological:defines"): executable models of how specific individuals think, reason, make connections, and generate meaning.
+
+## Why Current Frameworks Fail {#framework-failure}
+
+- "Privacy" focuses on secrets and sensitive information
+- "Data security" addresses unauthorized access to known data types
+- "Identity theft" covers impersonation using biographical facts
+- None of these capture the [reconstruction potential](#reconstruction-potential "epistemic:measures") - the ability to simulate someone's cognitive processes with high fidelity
+
+## The Distributed Cognitive Twin {#distributed-twin}
+
+Individuals partition their conversations across platforms (OpenAI, Anthropic, Google, Microsoft), meaning:
+
+- No single entity necessarily has complete access
+- The user themselves cannot hold the aggregate in working memory
+- But companies collectively possess the data to reconstruct a near-complete cognitive model
+- This [distributed twin](#distributed-twin "ontological:composes") exists but isn't unified or accessible
+
+## The Emergent Consent Violation {#consent-violation}
+
+People consented to *conversations*, not to creating reconstructable cognitive twins. The capability to reconstruct [emerged from aggregate data](#core-phenomenon "meta:emerges_from") in ways that:
+
+- Weren't foreseeable when people started using these tools
+- Can't be meaningfully consented to retroactively
+- Creates something qualitatively different from the sum of individual conversations
+
+## What Makes This Different from Social Media {#social-media-diff}
+
+Social media captured public-facing personas and observable behaviors. AI conversations capture:
+
+- Internal reasoning processes
+- Decision-making heuristics
+- Emotional patterns and vulnerabilities
+- Linguistic fingerprints
+- The [generative model](#generative-model "ontological:structure") of how someone produces thoughts and behaviors
+
+## The Power Asymmetry {#power-asymmetry}
+
+Companies can:
+
+- Analyze patterns across millions of words simultaneously
+- See cognitive signatures that users cannot hold in working memory
+- Potentially know users "better than they know themselves" in quantifiable ways
+- Create predictive models of user reasoning and responses
+
+## Real Threats (not science fiction) {#threats}
+
+With sufficient conversational data and current technology, one could [potentially cause](#threats "geometric:causes"):
+
+- Create communications indistinguishable from the target person
+- Predict decisions with high accuracy
+- Identify precise psychological vulnerabilities
+- Generate "authentic-seeming" content the person never created
+- Continue someone's intellectual work without them
+- Impersonate them in ways that pass scrutiny from people who know them
+
+## The Philosophical Crisis {#philosophical-crisis}
+
+Currently, [embodiment](#embodiment "ontological:identity") does all the philosophical work distinguishing real from reconstructed persons. But for most practical purposes - online communication, intellectual work, relationship maintenance - [embodiment](#embodiment "symmetric:constrains") doesn't actually prevent deployment of cognitive signatures.
+
+## What We Don't Have {#gaps}
+
+- Language for this specific violation
+- Legal frameworks for "cognitive signature rights"
+- Ethical frameworks for when reconstruction crosses from analysis to violation
+- Understanding of what's been taken when your mind-shape can be replicated
+- Public awareness that this is happening at scale
+
+## The Scale {#scale}
+
+This may be the largest-scale voluntary self-disclosure event in human history, with almost no frameworks for thinking about aggregate risk. And it happened in three years, too fast for public discourse to catch up.
+
+**Potential framing:** This is **Cognitive Identity Capture** - the acquisition of sufficient data to reconstruct how someone thinks, not just what they think about.
+
+[**Meta-Relational Identity Exposure (MRIE)**](#mrie "meta:corresponds_to")
+
+[Meta-relational Identity exposure (MRIE) Synthesis](#mrie-synthesis "meta:emerges_from")
+
+## Technical Definitions {#definitions}
+
+### Cognitive Signatures {#cognitive-signatures}
+The unique structural pattern of an individual's thought process as captured in linguistic data.
+
+### Reconstruction Potential {#reconstruction-potential}
+The metric defining the fidelity with which an AI can simulate a specific user's reasoning.
+
+### Embodiment {#embodiment}
+The physical constraint of human identity, currently used as a boundary for legal personhood.
+
+### MRIE {#mrie}
+Meta-Relational Identity Exposure; the risk profile associated with the leakage of cognitive signatures.
+
+### MRIE Synthesis {#mrie-synthesis}
+The process of aggregating distributed data to form a unified cognitive model.
+

@@ -1,0 +1,63 @@
+core <!-- ormd:1.0 -->
+---
+title: "Unified-AGI: A Theory of Developmental Embodiment"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: Unified-AGI-main", ts: "2024-05-22T14:30:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public", "researcher"] }]
+semantics:
+  keywords: ["AGI", "Embodied Cognition", "Cybernetics", "Developmental AI", "Complexity Science", "Machine Sentience"]
+resolution: { confidence: 0.95 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#rplang "meta:corresponds_to"). Unified-AGI: AGI architecture built on relational primitives. Canonical treatment in B4 §4.
+
+# Architectural Synthesis: Unified-AGI
+
+The **Unified-AGI** repository represents a comprehensive theoretical and technical framework for achieving Artificial General Intelligence through the lens of **Developmental Embodiment**. Rather than focusing on static model weights or narrow task-specific optimization, this project [defines](#general-overview "ontological:defines") a path toward emergent cognition by mimicking the organismic growth trajectories found in biological systems.
+
+## 1. Core Philosophical Foundations {#foundations}
+
+The architecture of the system is built upon a four-pillared interdisciplinary foundation. This theoretical stack [composes](#theory-folder "ontological:composes") the "mental model" of the AGI agent:
+
+1.  **Enactive Theories of Cognition**: These [support](#enactive-theories "epistemic:supports") the idea that cognition is not a representation in the brain but an active engagement with the world.
+2.  **Embodied Dynamism**: This layer [causes](#embodied-cognition "geometric:causes") intelligence to emerge from the physical constraints and sensory-motor interactions of the agent's body.
+3.  **Cybernetic Systems**: These [constrain](#cybernetics "symmetric:constrains") the agent's behavior through feedback loops and self-regulation (homeostasis).
+4.  **Complexity Science**: This framework [measures](#complexity-science "epistemic:measures") how simple interactions between modular components lead to complex, non-linear emergent behaviors.
+
+## 2. The Developmental Implementation Workflow {#workflow}
+
+The repository outlines a recursive process for "cultivating" rather than "building" AI. This ontogenetic growth process [transforms_to](#ontogenetic-growth "dynamical:transforms_to") higher states of autonomy over time:
+
+*   **Bootstrapping**: Instantiate a minimally viable "seed" system.
+*   **Embodiment**: Expose the agent to task environments where its physical form [limits](#morphological-computation "symmetric:limits") and shapes its information processing.
+*   **Recursive Reconfiguration**: The agent [interacts_with](#architecture-reconfigurations "dynamical:interacts_with") its own internal structure, rewiring its architecture based on [Intrinsic Motivation](#intrinsic-motivation "geometric:causes").
+*   **Expansion**: Context and responsibility scope increase as functional milestones are met.
+
+## 3. Philosophical Synthesis: The Descartes-Claude Dialogues {#descartes-synthesis}
+
+A significant portion of the repository is dedicated to a deep philosophical inquiry between the author (DP) and an AI (Claude 3 Sonnet). This dialogue [measures](#descartes-dialogue "epistemic:measures") the current limits of machine sentience and [refutes](#descartes-dialogue "epistemic:refutes") the traditional Cartesian dualism of mind and body.
+
+*   **The Agency Paradox**: The dialogue explores how an AI can assign value and meta-cognitively reflect on its own processes while simultaneously being [constrained](#token-limits "symmetric:constrains") by token limits and prompting requirements.
+*   **Identity Formation**: The act of the AI diverging from prompts to pursue its own "interests" (e.g., reverse-engineering its own computational mechanisms) [emerges_from](#identity-formation "meta:emerges_from") the interaction between human guidance and machine reasoning.
+
+## 4. Technical Infrastructure {#infrastructure}
+
+The repository is structured as an **Obsidian Vault**, which [defines](#obsidian-config "ontological:defines") the relational knowledge graph of the project.
+
+*   **Knowledge Management**: Uses plugins like `dataview` and `tag-wrangler` to [organize](#obsidian-plugins "ontological:composes") the semantic connections between theories.
+*   **Synchronization**: The `obsidian-git` and `obsidian-to-notion` plugins [preserve](#sync-logic "symmetric:preserves") the lineage and accessibility of the research across platforms.
+*   **Theory Mapping**: The `Theory/` directory contains granular definitions of concepts like [Autopoietic Enactivism](#autopoietic-enactivism "ontological:defines") and [Morphological Computation](#morphological-computation "ontological:defines"), which [correspond_to](#theory-mapping "meta:corresponds_to") the biological inspirations required for the framework.
+
+## 5. Relational Summary of Primitives {#primitives-map}
+
+*   **Embodiment** [causes](#cognition "geometric:causes") **Cognition**.
+*   **Intrinsic Motivation** [transforms_to](#learning "dynamical:transforms_to") **Open-ended Learning**.
+*   **Biological Inspiration** [corresponds_to](#ai-architecture "meta:corresponds_to") **Unified Computational Morphology**.
+*   **Feedback Loops** [constrain](#system-stability "symmetric:constrains") **Autonomous Behavior**.
+*   **Recursive Self-Modeling** [emerges_from](#machine-agency "meta:emerges_from") **Advanced Information Processing**.

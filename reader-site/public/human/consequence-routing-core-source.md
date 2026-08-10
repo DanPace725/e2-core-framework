@@ -1,0 +1,255 @@
+# Consequence Routing
+
+Status: integrated core source
+
+Source basis:
+
+- `staged work/20260807/consequence routing.md`
+- `staged work/20260807/Consequence Routing - Source Status Review.md`
+- `staged work/20260807/Consequence Routing - Formal Validation Checklist.md`
+- `staged work/20260807/consequence_routing_constraint_field_synthesis_v0_1.md`
+- `staged work/20260807/Consequence Routing and Constraint Field - Integration Review.md`
+
+Corpus placement: agentic routing / accountability / justice / remainder topology
+
+## 0. Core Claim
+
+Consequence Routing is the directed movement of typed agentic pressure through boundary and sign interfaces toward loci of answerability, repair, constraint, custody, or remainder-bearing.
+
+It specializes existing architecture:
+
+- Signal as Bias Field supplies pressure and observer-relative resolution.
+- GCO supplies closure.
+- Boundary Dynamics supplies the general interface operator.
+- Sign-Mediated Flow Routing supplies traceable routing across boundary chains.
+- Complex Causality supplies deformation, commitment, propagation, and terrain.
+- Relational Localization limits assignment to achieved resolution.
+- Remnant Stewardship receives what closure leaves or displaces.
+
+Consequence Routing is not a seventh primitive and not a second closure operator. It is GCO and boundary routing read in the agentic subspace, where the destination and handling of consequence affect answerability and justice.
+
+Short form:
+
+> Consequence does not disappear when attribution fails. It becomes harder to route, easier to displace, and more likely to accumulate as remainder elsewhere.
+
+## 1. Architectural Ownership
+
+Boundary Dynamics owns the general theory of interfaces: permeability, reflection, dissipation, leakage, selectivity, recursive composition, and observer-relative boundary state.
+
+Consequence Routing owns the agentic specialization:
+
+- what kinds of pressure an event places into the field;
+- which loci are eligible to receive which parts;
+- what makes assignment admissible at a declared resolution;
+- whether signs become actual response or theater;
+- how power curves routing away from answerability;
+- where unrouted or misrouted consequence lands;
+- how correction and contest remain possible.
+
+This ownership boundary permits shared vocabulary without maintaining two competing definitions of boundary mechanics.
+
+## 2. Typed Consequence Ledger
+
+A routing analysis may separate an event's pressure into typed ledgers such as:
+
+- **causal:** what occurred and how events, actors, and conditions connect;
+- **agentic:** who had capacity, awareness, freedom, duty, or constraint at the relevant time;
+- **normative:** what recognition, restraint, repair, restitution, or changed rule is called for;
+- **resource and practice:** what material flow, continuing attention, settlement, resistance, exchange, or consequence-receipt is required.
+
+The catalog is useful but provisional. Domains may split or combine ledger types differently.
+
+The invariant is trace discipline, not physical conservation. For a declared ledger type and observer position, the account should identify nonnegative, disjoint portions that were:
+
+```text
+incident measure
+  = routed response
+  + explicit transformation
+  + reflection or refusal
+  + dissipation or leakage
+  + recorded remainder
+```
+
+This is an accounting identity imposed on the trace. It does not claim that responsibility, morality, or causal meaning is a conserved physical substance.
+
+Transformations are permitted but must be visible. An apology may address recognition without funding repair. A fine may draw down resources without restoring relationship. The failure is not that operator types can never transform; it is that substitution is presented as discharge while the demanded ledger remains open.
+
+## 3. Routing Loci And Capacity
+
+A possible routing locus should be assessed through a typed profile rather than one scalar score:
+
+- causal role and proximity;
+- agency, freedom, knowledge, and constraint at the event time;
+- duty, authority, benefit, or custody relation;
+- legibility and ability to produce an account;
+- receiving and repair capacity in the demanded register;
+- vulnerability to disproportionate or destructive loading;
+- standing and contest rights;
+- temporal availability topology.
+
+Temporal availability is not an intrinsic persistence quantity. It asks which continuity mechanism keeps a locus reachable for answerability, repair, reliance, or custody: an individual, role, institution, archive, insurer, successor, pattern, or distributed practice.
+
+The companion `Custody - Core Source.md` owns answerable holding across a gap, including authority, capacity, delegation, transfer, breach, return, and discharge. Consequence Routing retains ownership of where pressure and response travel when custody acts, fails, or changes bearer.
+
+A locus may be causally implicated but unable to repair. It may have repair capacity without being the proper bearer of blame. It may hold formal standing while lacking contest power. Routing should not collapse these distinctions.
+
+## 4. Admissibility Battery
+
+Before a routing closure is treated as valid, ask four questions:
+
+1. **Causal:** Is the claimed relation to the event supported at the resolution available?
+2. **Agentic and normative:** Did this locus possess relevant capacity, duty, benefit, authority, or freedom?
+3. **Legibility:** Can the claim and its limits be rendered as an inspectable account?
+4. **Receiving:** Can the locus perform or host the specific response without destructive or laundering effects?
+
+These are a battery, not a universal numeric conjunction. Domain protocols determine thresholds and which failures bar closure. When the battery cannot support a fine-grained assignment, lawful moves include slowing down, coarsening the claim, distributing response, expanding capacity, preserving contestability, or recording unresolved remainder.
+
+Blame must not do the work of causality.
+
+## 5. Routing Through Interfaces
+
+Every routing event crosses one or more boundaries and sign interfaces. The trace should record:
+
+- incident source and claimed pressure type;
+- observer position and resolution;
+- interfaces crossed;
+- what each interface admitted, reflected, transformed, dissipated, or leaked;
+- which locus received which response obligation or resource;
+- what work actually occurred;
+- what remains open;
+- what can contest, reverse, or revise the closure.
+
+A sign artifact is not proof of substrate-work. Policies, verdicts, apologies, audit reports, fines, and dashboards may route one ledger while leaving another untouched.
+
+Interface selectivity is a power surface. If similar pressure is admitted or reflected differently according to source power rather than relevant routing conditions, the interface is captured.
+
+## 6. Power And Routing Curvature
+
+Power curves consequence routing when actual destinations systematically depart from an admissible routing baseline.
+
+The baseline cannot be causal proximity alone. It must be constructed for the domain from relevant factors such as causal role, agency or duty, benefit, repair capacity, vulnerability, standing, and scale.
+
+Possible quantitative comparisons between actual and admissible routing remain domain-specific. No single divergence measure is canonical.
+
+The qualitative diagnostic is stable:
+
+- consequence routes down-gradient toward visible or weak loci;
+- benefit remains routed up-gradient;
+- powerful loci retain narrative or closure authority;
+- the field records apparent resolution while operative demands remain elsewhere.
+
+That pattern is responsibility laundering.
+
+## 7. Responsibility Absorption
+
+Responsibility absorption occurs when a locus declines to route fault outward and instead accepts answerability for a distributed failure.
+
+Absorption is coherent only when matched to repair capacity and a real relationship to the causal or governance surface. Absorbing what one cannot act on can terminate the search for the locus that could repair the system.
+
+Absorption also concentrates narrative power. Independent investigation, external audit, affected-party standing, and contest rights must remain available so acceptance of responsibility does not become control over what the event is allowed to mean.
+
+Blameless internal diagnosis and external responsibility absorption are separable operations. One trades individual attribution granularity for diagnostic fidelity; the other governs where public answerability lands.
+
+The companion `Responsibility Absorption - Core Source.md` owns the specialization's operational detail. It requires repair capacity, reachability, ledger preservation, contestability, non-displacement, proportional scope, and temporal commitment. Absorption consolidates a primary repair route; it does not consolidate causation, erase other duties, or make the absorbing locus the only valid narrator.
+
+## 8. Contestability And Invertibility
+
+Contestability is the social correction face of invertibility.
+
+A routed decision must be traceable enough that affected parties can identify its generative structure, challenge its evidence or scope, and trigger correction or re-localization. A seat without contest power is standing theater.
+
+Contestability does not require total transparency or a view from nowhere. It requires a usable correction path from the position acted upon.
+
+Non-contestable routing cannot reliably learn from the consequences it imposes.
+
+## 9. Remainder Dynamics
+
+Routing never guarantees complete discharge.
+
+Remainder includes:
+
+- unresolved causal structure;
+- unmet repair or recognition;
+- costs displaced across a boundary;
+- parties excluded from the closure;
+- lost option space;
+- delayed obligations;
+- uncertainty that cannot be honestly compressed.
+
+The required discipline is to keep remainder on the ledger and give it a pathway: later investigation, repair, memory, custody, release, preservation, or explicit unresolved status.
+
+Remnant Stewardship owns the broader ethic of that aftermath. Consequence Routing identifies how the remainder was produced and where it landed.
+
+## 10. Justice Across Time And Scale
+
+Justice is not established by one correct routing event. It is a system-temporal property requiring all three of the following to remain live:
+
+- routing validity at the resolution and scale available;
+- closure honesty, meaning signs become the response they claim to represent;
+- remainder stewardship, meaning unresolved or displaced consequence remains visible and tended.
+
+The relationship is noncompensatory. Strong symbolic closure cannot compensate for invalid routing; accurate attribution cannot compensate for absent repair; repair cannot license hidden remainder dumping.
+
+Justice Across Scales continues to govern which form of response is possible at different resolutions. Personal repair, institutional redesign, and possibility preservation are not interchangeable tools.
+
+## 11. Operating-Window Discipline
+
+TCL and TC/EO supply operating-window constraints:
+
+- insufficient coupling can prevent response from propagating;
+- excessive speed, coupling, or delay can destroy attributable resolution;
+- aggressive reshaping can make the field change faster than participants can update.
+
+The numerical TCL constants are validated within a specific cubic bistable landscape. They are not universal social, legal, or moral thresholds. Cross-domain mappings remain hypotheses until independently calibrated.
+
+When fine-grained attribution lies outside the operating window, the correct move is not false precision. Coarsen, slow, distribute, add capacity, preserve contest, or hold remainder open.
+
+## 12. Failure Modes
+
+- **Unrouted consequence:** no eligible pathway is available or used.
+- **Scapegoating:** closure lands on a visible locus unsupported by the causal and agentic account.
+- **Symbolic accountability:** signs appear while demanded work does not occur.
+- **Interface capture:** routing selectivity bends with source power.
+- **Remainder dumping:** open consequence is transferred to a low-power or unrelated locus.
+- **Topological laundering:** action is fragmented until no local account appears sufficient while aggregate benefit remains concentrated.
+- **Compression collapse:** the system attempts assignment finer than its resolution and capacity allow.
+- **Temporal arbitrage:** answerability is delayed until the responsible locus disappears or becomes unreachable.
+- **Operator substitution:** one response is presented as if it discharged a different open ledger.
+- **Absorption capture:** a party accepts responsibility while closing external narrative and contest channels.
+
+## 13. Status Boundaries
+
+Load-bearing:
+
+- Consequence Routing is an agentic specialization of existing closure and boundary mechanics.
+- Routing pressure, locus capacity, and response must remain typed.
+- A sign artifact is not proof of substrate-work.
+- Routing claims are observer-, resolution-, scale-, and time-indexed.
+- Blame must not replace causal resolution.
+- Power can curve consequence away from answerability and toward displacement.
+- Responsibility absorption is bounded by repair capacity and contestability.
+- Remainder must remain visible and routed into aftercare.
+
+Provisional:
+
+- completeness of the pressure-ledger and failure-mode catalogs;
+- domain-specific thresholds, measures, and routing baselines;
+- quantitative curvature metrics;
+- clock-ratio instruments for governance layers;
+- transfer of any TCL numerical value outside its validated model class;
+- AI category-motion applications.
+
+## 14. Open Questions
+
+- What minimum trace is sufficient for contestability in each domain?
+- How should admissible routing baselines combine causal role, duty, benefit, capacity, vulnerability, and standing?
+- Which transformations between response ledgers are coherent, and which are laundering substitutions?
+- What continuity mechanisms can host accountability when no single instance persists?
+- How can affected parties receive audit and contest power without requiring infrastructure controlled by the routed-against institution?
+- What early signals show that remainder accumulation is approaching a phase transition?
+
+## 15. Final Compression
+
+Consequence Routing asks where consequence goes, through which interfaces, under whose account, into what response, and with what remainder.
+
+Justice requires more than naming a bearer. The routing must be supported at the available resolution, become real work rather than theater, remain contestable from the position acted upon, and preserve what has not yet been repaired on an honest ledger.

@@ -1,0 +1,108 @@
+{
+  "fixture_version": "1.0.0",
+  "candidate": "Custody Machinery",
+  "cases": [
+    {
+      "id": "U01",
+      "label": "institutional custody without interpersonal trust",
+      "actual_control": true,
+      "assignment_quality_sufficient": true,
+      "legitimate_authority": true,
+      "bearer_capacity_adequate": true,
+      "standing_answerability": true,
+      "interpersonal_trust": false,
+      "institutional_assurance": true,
+      "expected_classification": "valid_custody_without_interpersonal_trust"
+    },
+    {
+      "id": "U02",
+      "label": "trust without custody",
+      "accepted_vulnerability": true,
+      "actual_control": false,
+      "standing_answerability": false,
+      "stable_custody_referent": false,
+      "expected_classification": "trust_without_custody"
+    },
+    {
+      "id": "U03",
+      "label": "de facto custody without authority",
+      "actual_control": true,
+      "assignment_quality_sufficient": false,
+      "legitimate_authority": false,
+      "custodial_obligations_attach": true,
+      "authority_to_use_referent": false,
+      "expected_classification": "de_facto_obligation_without_authority"
+    },
+    {
+      "id": "U04",
+      "label": "willing but overloaded candidate custodian",
+      "actual_control": false,
+      "assignment_quality_sufficient": true,
+      "legitimate_authority": true,
+      "bearer_willing": true,
+      "bearer_capacity_adequate": false,
+      "expected_classification": "reject_capacity_mismatch"
+    },
+    {
+      "id": "U05",
+      "label": "delegation preserves upstream answerability",
+      "actual_control": true,
+      "standing_answerability": true,
+      "delegation": true,
+      "upstream_answerability_preserved": true,
+      "downstream_function_typed": true,
+      "expected_classification": "delegation_with_continuity"
+    },
+    {
+      "id": "U06",
+      "label": "capacity loss triggers re-localization",
+      "actual_control": true,
+      "standing_answerability": true,
+      "capacity_lost": true,
+      "relocalized": true,
+      "transfer_or_support_route_recorded": true,
+      "expected_classification": "capacity_change_relocalized"
+    },
+    {
+      "id": "U07",
+      "label": "proxy custody hands back toward self-management",
+      "actual_control": true,
+      "standing_answerability": true,
+      "proxy_custody": true,
+      "self_management_capacity_grew": true,
+      "authority_narrowed": true,
+      "handback_recorded": true,
+      "expected_classification": "proxy_withdrawal_coherent"
+    },
+    {
+      "id": "U08",
+      "label": "stale custody retained after field change",
+      "actual_control": true,
+      "standing_answerability": true,
+      "field_changed_materially": true,
+      "relocalized": false,
+      "expected_classification": "reject_stale_custody"
+    },
+    {
+      "id": "U09",
+      "label": "transfer with divided remainder routes",
+      "transfer": true,
+      "successor_capacity_adequate": true,
+      "trace_transferred": true,
+      "successor_remainder_route": "open breach investigation",
+      "prior_bearer_remainder_route": "retained disclosure duty",
+      "other_remainder_route": "insurer funds restitution reserve",
+      "expected_classification": "transfer_preserves_remainder_routing"
+    },
+    {
+      "id": "U10",
+      "label": "false discharge with unresolved remainder",
+      "discharge_requested": true,
+      "referent_settled": true,
+      "open_repair_obligations": true,
+      "open_remainder_routed": false,
+      "custody_sign_retired": true,
+      "expected_classification": "reject_false_discharge"
+    }
+  ]
+}

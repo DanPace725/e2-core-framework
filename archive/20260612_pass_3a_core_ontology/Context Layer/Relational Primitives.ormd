@@ -1,0 +1,177 @@
+<!-- ormd:1.0 -->
+---
+title: "Relational Primitives"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "formal.ontology.relational"
+lineage:
+  origin: { uri: "internal://relational-primitives-framework", ts: "2025-11-17T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["relational primitives", "ontology", "RPLang", "formal framework", "counter-modes", "GCO"]
+resolution: { confidence: 1.0 }
+---
+
+# Relational Primitives {#relational-primitives}
+
+11/17/25
+
+[Relational Ontology Derived from First Principles](#relational-ontology-derived-from-first-principles "ontological:defines")
+
+[Derivation deep dive](#derivation-deep-dive "epistemic:supports")
+
+[Spontaneous usage of RPs by model](#spontaneous-usage-of-rps-by-model "epistemic:measures")
+
+[CT translation of RPs](#ct-translation-of-rps "meta:corresponds_to")
+
+[Relational Primitives V3](#relational-primitives-v3 "ontological:composes")
+
+[Global Closure Operator](#global-closure-operator "symmetric:constrains")
+
+[**Relational Bill of Rights v1**](#relational-bill-of-rights-v1 "symmetric:constrains")
+
+[Relational Bill of Rights v2](#relational-bill-of-rights-v2 "symmetric:constrains")
+
+[Rplang](#rplang "meta:corresponds_to")
+
+[**The Stewardship Architecture: A Summary**](#the-stewardship-architecture-a-summary "ontological:composes")
+
+[GCO logic](#gco-logic "epistemic:supports")
+
+[RP Lambda Calc Translation](#rp-lambda-calc-translation "meta:corresponds_to")
+
+[E^2 Equation](#e2-equation "dynamical:transforms_to")
+
+[Relational Primitive Engine (RPE)](#relational-primitive-engine-rpe "ontological:composes")
+
+[Conav readme](#conav-readme "epistemic:supports")
+
+[Signal as Bias Field](#signal-as-bias-field "dynamical:interacts_with")
+
+# Formal Framework for Relational Primitives with Counter-Modes {#formal-framework}
+
+## 1. Sorts and Domains {#sorts-and-domains}
+
+- **M**: Matter entities
+- **E**: Energy entities
+- **S**: Spacetime entities
+- **D**: Unified domain of physical entities with injections:
+    - (i_M : M \to D)
+    - (i_E : E \to D)
+    - (i_S : S \to D)
+- **R**: Relational instances
+- **T**: Relational types
+
+## 2. Functions and Predicates {#functions-and-predicates}
+
+- **TypeOf**: (R \to T)
+- **Applies**: (R \times D^n)
+
+## 3. Primitive Relational Categories {#primitive-relational-categories}
+
+Unary predicates on (T):
+
+- Ont(t)
+- Dyn(t)
+- Geo(t)
+- Sym(t)
+- Epi(t)
+- Meta(t)
+
+Let (P = { Ont, Dyn, Geo, Sym, Epi, Meta }).
+
+## 4. Axioms: Relational Typing {#axioms-relational-typing}
+
+**A1 (Total Typing):**
+
+For every (r \in R), there exists (t \in T) such that TypeOf(r) = t.
+
+**A2 (Typing Uniqueness):**
+
+If TypeOf(r) = t1 and TypeOf(r) = t2, then t1 = t2.
+
+**A3 (Exhaustiveness of T):**
+
+All instantiated relations are typed: implicitly covered by A1.
+
+## 5. Primitive Partition Axioms {#primitive-partition-axioms}
+
+**B1 (Covering):**
+
+For all (t \in T): Ont(t) ∨ Dyn(t) ∨ Geo(t) ∨ Sym(t) ∨ Epi(t) ∨ Meta(t).
+
+**B2 (Disjointness):**
+
+No two distinct primitives apply to the same type.
+
+**B3 (Non-emptiness):**
+
+Each primitive has at least one type.
+
+## 6. Counter-Modes {#counter-modes}
+
+For each primitive X ∈ P we introduce two unary predicates on T: X⁺(t), X⁻(t).
+
+For concreteness:
+
+- Ont: Ont_elem, Ont_comp
+- Dyn: Dyn_det, Dyn_stoch
+- Geo: Geo_local, Geo_nonlocal
+- Sym: Sym_inv, Sym_var
+- Epi: Epi_obs, Epi_hidden
+- Meta: Meta_eq, Meta_neq
+
+### Mode Axioms {#mode-axioms}
+
+**M1 (Modes imply primitive):**
+
+X⁺(t) → X(t), and X⁻(t) → X(t).
+
+**M2 (Primitive as exclusive mode pair):**
+
+X(t) ↔ (X⁺(t) ∨ X⁻(t)).
+
+¬(X⁺(t) ∧ X⁻(t)).
+
+**M3 (Non-triviality of modes):**
+
+∃t X⁺(t) and ∃t X⁻(t).
+
+## 7. Modal Fingerprint Condition {#modal-fingerprint-condition}
+
+For each primitive X, define:
+
+**M4_X (Modal Fingerprint):**
+
+There exist two models M1, M2 of A1–A3, B1–B3, M1–M3 such that:
+
+- M1 and M2 agree on all primitives in P \ {X}, including their modes.
+- M1 and M2 differ on the assignment of X⁺ and X⁻ for at least one type.
+
+This condition ensures X's internal modal polarity is independent of other primitives.
+
+## 8. Theorem 1: Primitive Classification {#theorem-1}
+
+For each relational instance r ∈ R, there exists a unique primitive X ∈ P and a unique mode (X⁺ or X⁻) such that TypeOf(r) satisfies that mode.
+
+*Sketch:* By A1, TypeOf(r) exists; by B1–B2, its primitive is unique; by M2, the mode is unique.
+
+## 9. Theorem 2: Irreducibility of Primitives {#theorem-2}
+
+Assuming A1–A3, B1–B3, M1–M3, and M4_X for all X ∈ P:
+
+No primitive X is first-order definable from the remaining primitives P \ {X}.
+
+Thus P is minimal and irreducible.
+
+*Sketch:* If X were definable from P \ {X}, models that agree on P \ {X} would agree on X. But M4_X constructs models that agree on P \ {X} yet differ on X's internal mode structure, blocking definability.
+
+## 10. Consequence: Structured Primitives {#consequence}
+
+Each primitive is a two-pole modal field with internal tension. This endows P with modal fingerprints that make relational primitives conceptually and formally independent.
+
+[Cognitive Signature Capture: An Unnamed Threat](#cognitive-signature-capture "symmetric:limits")
+

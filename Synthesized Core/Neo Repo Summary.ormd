@@ -1,0 +1,74 @@
+core <!-- ormd:1.0 -->
+---
+title: "Neo System: Architectural Synthesis & Repository Summary"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: Neo", ts: "2024-05-22T14:30:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["NeOgham", "Procedural Generation", "Semantic Interference", "Global Closure Operator", "Interessence"]
+resolution: { confidence: 0.98 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#operational-modes "meta:corresponds_to"). Neo repo: runtime for relational computation and operational mode management. Canonical treatment in B4 §5.
+
+# Neo System Architecture
+
+The **Neo** repository represents a unified computational and linguistic substrate designed for the world of *Interessence*. It transitions from a 3D-carved script (NeOgham) into a functional geometric logic system that drives world generation, physics, and agency.
+
+## 1. The Glyph Engine {#glyph-engine}
+
+At the base of the system lies the [Neo Generator](#neo-generator "ontological:defines"), which codifies the 25-glyph NeOgham alphabet. This engine [composes](#neo-alphabet "ontological:composes") Latin characters into geometric primitives based on orientation (Right, Left, Cross, Diagonal, Backslash) and magnitude (1-5 marks).
+
+*   **Logic**: The system [constrains](#interaction-matrix "symmetric:constrains") interactions via a pairwise interference matrix, where glyph types determine structural effects like *Reinforcement*, *Opposition*, or *Crystallization*.
+*   **Sequential Propagation**: As explored in the [Brainstorming](#sequential-logic "meta:emerges_from") documents, the system utilizes a "Left Fold" composition. Each new glyph in an inscription modifies the accumulated field state rather than interacting globally, ensuring that [order matters](#positional-weight "geometric:precedes") and distance is preserved.
+
+## 2. Semantic Noise & Field Generation {#semantic-noise}
+
+The [Neo Noise Core](#noise-core "ontological:defines") replaces traditional random gradients with **Semantic Interference Patterns**. 
+
+*   **Mechanism**: The algorithm [measures](#latent-field "epistemic:measures") the interaction of "Ghost Glyphs" at every coordinate, derived deterministically from an inscription seed.
+*   **Layers**: The core [transforms](#semantic-layers "dynamical:transforms_to") raw noise into four functional layers:
+    1.  **Structure**: The large-scale heightmap.
+    2.  **Flow**: Gradient vectors for movement and erosion.
+    3.  **Constraint**: Laplacian-derived barriers and cliffs.
+    4.  **Vitality**: Anti-entropy fields defining biomass and spawn potential.
+
+## 3. The Global Closure Operator (GCO) {#closure-operator}
+
+The [GCO](#gco-system "dynamical:interacts_with") serves as the system's "collapse function." It [transforms](#closure-process "dynamical:transforms_to") continuous probability fields into discrete, committed world states.
+
+*   **Hydrology**: The [Hydrology Module](#hydrology "geometric:causes") uses D8 flow direction and accumulation to carve realistic river networks and basins.
+*   **Commitment**: Features like rivers, lakes, and forests are only "committed" if they achieve structural self-consistency, effectively [limiting](#closure-constraints "symmetric:limits") the chaos of raw noise into a stable, playable environment.
+
+## 4. World & Biome Emergence {#world-gen}
+
+The [World Generator](#world-module "geometric:embedded_in") operates across multiple scales, from continental maps to regional tiles.
+
+*   **Clustering**: The [Biome Classifier](#biomes "ontological:defines") uses K-means clustering on semantic axes (Density, Stability, Flow, Continuity) to [identify](#biome-discovery "ontological:defines") emergent ecological zones without hardcoded definitions.
+*   **Integration**: This entire pipeline [corresponds to](#rpe-integration "meta:corresponds_to") the Relational Primitive Engine (RPE), where every physical feature is a direct manifestation of the underlying Neo inscription.
+
+## 5. Technical Integration {#integration}
+
+The repository provides robust tooling for external engine support, specifically [targeting](#unreal-export "meta:corresponds_to") Unreal Engine 5.
+
+*   **Exporters**: The [Unreal Exporter](#ue5-exporter "meta:corresponds_to") generates 16-bit heightmaps, RGB splatmaps, and water masks, allowing the Neo substrate to [embed](#ue5-landscape "geometric:embedded_in") directly into modern game environments.
+*   **Verification**: The [Verification Generator](#verification "epistemic:supports") ensures that field generation remains deterministic across different implementations (Python/JS/C++).
+
+## Structural Relationships Summary
+
+| System | Target | Relationship | Primitive |
+| :--- | :--- | :--- | :--- |
+| `neo_generator.py` | NeOgham Alphabet | Defines | **ontological** |
+| `neo_noise_core.py` | Semantic Layers | Composes | **ontological** |
+| `neo_gco.py` | World State | Transforms to | **dynamical** |
+| `neo_hydrology.py` | Terrain | Interacts with | **dynamical** |
+| `neo_world.py` | Regional Tiles | Embeds in | **geometric** |
+| `neo_interaction_export.py` | Interaction Matrix | Constrains | **symmetric** |
+| `neo_verification_gen.py` | Field Integrity | Measures | **epistemic** |
+| `docs/Neo.md` | RPE | Corresponds to | **meta** |

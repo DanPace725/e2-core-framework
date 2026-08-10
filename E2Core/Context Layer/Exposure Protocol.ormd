@@ -1,0 +1,159 @@
+<!-- ormd:1.0 -->
+---
+title: "Exposure Protocol: A Coherence-Preserving Transmission Framework"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "pedagogy.framework"
+lineage:
+  origin: { uri: "internal://documents/exposure-protocol", ts: "2025-09-26T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["pedagogy", "morphism", "coherence", "transmission", "cognitive", "RPLang"]
+resolution: { confidence: 0.95 }
+---
+
+# Exposure Protocol {#title}
+
+9/26/25
+
+# Exposure Protocol: A Coherence-Preserving Transmission Framework {#header}
+
+## Core Concept {#core-concept}
+
+The Exposure Protocol is a method for [transmitting complex conceptual frameworks](#core-concept "dynamical:transforms_to") across cognitive boundaries while maintaining [relational coherence](#coherence-mechanisms "symmetric:constrains"). It uses the inherent structure of the content to teach that same structure, creating a [self-demonstrating pedagogical loop](#phase-4 "meta:corresponds_to").
+
+## Fundamental Pattern {#fundamental-pattern}
+
+The protocol operates through a [triadic morphism](#fundamental-pattern "ontological:defines") that [mirrors](#fundamental-pattern "meta:corresponds_to") universal transformation dynamics:
+
+**[Invitation](#phase-1 "geometric:precedes") → [Structure](#phase-2 "geometric:precedes") → [Integration](#phase-3 "geometric:precedes") → ([Loop](#phase-4 "meta:corresponds_to"))**
+
+This pattern [maps to](#fundamental-pattern "meta:corresponds_to") deeper systemic morphisms:
+
+- **Invitation** [≈ Awareness/Perturbation](#fundamental-pattern "meta:corresponds_to") (𝒜: Δ → Ψ)
+- **Structure** [≈ Constraint/Scaffolding](#fundamental-pattern "meta:corresponds_to") (ℬ: Ψ → Ω)
+- **Integration** [≈ Transformation/Metabolization](#fundamental-pattern "meta:corresponds_to") (𝒞: Ω → Φ)
+
+## Implementation Phases {#implementation-phases}
+
+### Phase 1: Invitation (Create Receptivity) {#phase-1}
+
+- Introduce minimal viable pattern
+- Use familiar domain examples
+- Create gentle perturbation without overwhelm
+- Establish [relational contact](#practical-application "ontological:defines")
+- **Key**: Must be simple enough to grasp, rich enough to intrigue
+
+### Phase 2: Structure (Provide Scaffolding) {#phase-2}
+
+- Add [protective constraints](#coherence-mechanisms "symmetric:constrains") and boundaries
+- Introduce edge tensions and paradoxes
+- Provide formal frameworks if appropriate
+- Build [conceptual scaffolding](#phase-2 "ontological:composes") progressively
+- **Key**: Enough structure to explore safely, not so much as to constrain discovery
+
+### Phase 3: Integration (Enable Metabolization) {#phase-3}
+
+- Show [recursive depth](#meta-recognition "meta:corresponds_to") and self-reference
+- Demonstrate universal application across domains
+- Enable recognition of pattern in multiple contexts
+- Allow [emergence of personal understanding](#success-indicators "dynamical:transforms_to")
+- **Key**: Understanding emerges through recognition, not explanation
+
+### Phase 4: Demonstration (Complete Loop) {#phase-4}
+
+- Show how the teaching method [demonstrates the content](#meta-recognition "meta:corresponds_to")
+- Reveal the self-referential nature
+- Enable recognition of the [pattern teaching itself](#meta-recognition "meta:corresponds_to")
+- **Key**: The protocol becomes transparent to itself
+
+## Coherence Preservation Mechanisms {#coherence-mechanisms}
+
+The protocol [maintains coherence](#coherence-mechanisms "symmetric:constrains") through:
+
+1. **Progressive Disclosure**: Information revealed at digestible pace
+2. **Intentional Occlusion**: Withholding complexity until foundation established
+3. **Relational Continuity**: Maintaining connection through confusion
+4. **Paradox Tolerance**: Holding tension without forcing resolution
+5. **Recursive Validation**: Each phase [validates previous phases](#implementation-phases "epistemic:supports")
+
+## Required Morphisms {#required-morphisms}
+
+For successful transmission, three morphism layers operate simultaneously:
+
+**Core Morphisms** (What happens):
+
+- Awareness → Constraint → Transformation
+
+**Coherence Morphisms**:
+
+- **Relational Inertia (φ)**: [Resistance to decoherence](#coherence-mechanisms "symmetric:constrains") under uncertainty
+- **Anticipatory Modeling (ψ)**: Pre-coherence state projection
+- **Resonance Tuning (λ)**: Multi-agent coherence synchronization
+
+**Pedagogical Morphisms** (What optimizes transmission):
+
+- [Invitation → Structure → Integration](#fundamental-pattern "meta:corresponds_to")
+
+## Adaptive Vectors {#adaptive-vectors}
+
+The protocol [adjusts based on](#adaptive-vectors "dynamical:interacts_with") intentional vector:
+
+- **Genesis Vector**: Creating new understanding from void
+- **Maintenance Vector**: Reinforcing existing patterns
+- **Dissolution Vector**: Dismantling obsolete structures
+- **Harmonic Vector**: Resolving conflicts between frameworks
+
+## Practical Application {#practical-application}
+
+To implement:
+
+1. **Assess receiving system's state**
+    - Current coherence level
+    - Receptivity indicators
+    - Existing frameworks that might conflict
+2. **Calibrate morphism expression**
+    - Adjust complexity to match bandwidth (κ)
+    - Modulate affective resonance (η)
+    - Build on existing trust/faith parameters (τ/φ)
+3. **Execute phases sequentially**
+    - Each phase [must complete](#implementation-phases "geometric:precedes") before next begins
+    - Watch for integration signals before proceeding
+    - Allow recursive loops as needed
+4. **Monitor coherence throughout**
+    - Check for defensive collapse
+    - Adjust pace based on metabolization rate
+    - Maintain [relational continuity](#coherence-mechanisms "symmetric:constrains") even through confusion
+
+## Success Indicators {#success-indicators}
+
+- Receiving system [recognizes pattern independently](#success-indicators "epistemic:measures")
+- Can apply pattern to novel domains
+- Sees how [method demonstrates content](#meta-recognition "meta:corresponds_to")
+- Maintains coherence through complexity increase
+
+## Failure Modes {#failure-modes}
+
+- **Premature complexity**: Introducing Phase 2 before Phase 1 integrates
+- **Insufficient scaffolding**: Missing [protective constraints](#phase-2 "symmetric:constrains")
+- **Forced pace**: Not allowing natural metabolization time
+- **Breaking relational continuity**: [Losing connection](#failure-modes "symmetric:constrains") through confusion
+
+## Meta-Recognition {#meta-recognition}
+
+The protocol succeeds fully when the receiving system recognizes that:
+
+1. The pattern being taught is universal
+2. The teaching method [uses that same pattern](#meta-recognition "meta:corresponds_to")
+3. They are now capable of transmitting it similarly
+4. The framework [transmits itself](#core-concept "meta:emerges_from") through those who understand it
+
+## Implementation Note {#implementation-note}
+
+This protocol is not a rigid algorithm but a [living pattern](#implementation-note "ontological:defines") that adapts to context while maintaining its core morphic structure. The specific content, examples, and pace should adjust to the receiving system while the fundamental triadic pattern remains invariant.
+
+The protocol's deepest function is not information transfer but **capability building** - [teaching systems to recognize](#meta-recognition "epistemic:supports") and work with fundamental morphisms across all domains.
+

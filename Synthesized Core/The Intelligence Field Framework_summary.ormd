@@ -1,0 +1,52 @@
+core <!-- ormd:1.0 -->
+---
+title: "Summary: The 'Intelligence Field' Framework"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "summary.document"
+lineage:
+  origin: { uri: "internal://docs/intelligence-field-summary-v1", ts: "2025-05-22T14:00:00Z" }
+  parents: ["urn:cb:The Intelligence Field Framework.ormd"]
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["intelligence", "navigation", "cognitive-field", "summary", "relational-dynamics"]
+resolution: { confidence: 0.95 }
+
+# Publishing & Assets
+pageSetup:
+  template: academic
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B3 — Intelligence and Navigation`](../../Synthesis Project/B3 — Intelligence and Navigation.ormd#cfa-cfar "meta:corresponds_to"). Intelligence as a field property rather than a node property; CFA dynamics applied to cognitive systems. Canonical treatment in B3 §1–§2.
+
+# Executive Summary: The Intelligence Field Framework {#summary-top}
+
+This document provides a relational synthesis of the "Intelligence Field" framework, which redefines intelligence from a static metric to a dynamic process of navigation within a multi-dimensional informational landscape.
+
+## 1. Redefining Intelligence {#summary-core}
+
+The framework posits that intelligence is best understood as [modulation performance](#intelligence-in-action "dynamical:transforms_to"), shifting the focus from stored knowledge to the active capacity for navigating complex environments. This navigation occurs within a conceptual [Intelligence Field (Φ)](#intelligence-field "ontological:defines").
+
+## 2. The Architecture of the Field (Φ) {#summary-field}
+
+The [Intelligence Field (Φ)](#intelligence-field "ontological:defines") is an info-energetic landscape that [encodes relationships](#intelligence-field "ontological:composes") and possibilities. Its structure is [composed of dimensions](#intelligence-field "ontological:composes") such as Depth, Creativity, Breadth, Foresight, and Context. These dimensions [constrain navigation](#intelligence-in-action "symmetric:constrains"), while the field itself is [constantly shaped](#intelligence-field "dynamical:interacts_with") by experience and internal states.
+
+## 3. Dynamics of Navigation (Ψ) {#summary-navigation}
+
+Cognitive activity is modeled as a [trajectory (V(t))](#intelligence-in-action "geometric:embedded_in") moving through the [Intelligence Field (Φ)](#intelligence-field "geometric:embedded_in"). The quality of this movement—defined by speed, efficiency, and the ability to [adjust trajectories](#intelligence-in-action "dynamical:transforms_to")—determines intelligence. This process is [influenced by modulators](#modulators "symmetric:constrains") like κ (processing calibration), which [limits maximum speed](#intelligence-in-action "symmetric:limits"), and η (empathic normality), which allows an agent to [align field navigation](#intelligence-in-action "meta:corresponds_to") with others.
+
+## 4. Consciousness and Agency {#summary-agency}
+
+Consciousness acts as the [awareness](#consciousness-agency "epistemic:measures") of both the [field (Φ)](#intelligence-field "epistemic:measures") and the [navigation process (V(t))](#intelligence-in-action "epistemic:measures"). Agency is [ontologically composed](#consciousness-agency "ontological:composes") of this awareness, providing the capacity to [exert volitional influence](#intelligence-in-action "geometric:causes") over the cognitive path.
+
+## 5. Practical Implications {#summary-implications}
+
+The framework suggests several shifts in application:
+- **Assessment:** Moving toward tests that [probe navigation capabilities](#intelligence-in-action "epistemic:measures").
+- **Development:** Focusing on [enhancing navigation skills](#intelligence-in-action "dynamical:transforms_to") rather than simple knowledge accumulation.
+- **Social/AI:** Understanding collaboration as [field interaction](#intelligence-field "meta:corresponds_to").
+- **Ethics:** Using the framework to [separate cognitive capacity](#modulators "symmetric:constrains") from intrinsic human worth.
+
+In conclusion, intelligence is the efficient navigation of a dynamic field, [modulated by cognitive capacity](#modulators "symmetric:constrains") and [directed by conscious agency](#consciousness-agency "geometric:causes").

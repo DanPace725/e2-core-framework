@@ -1,0 +1,190 @@
+# Persistence as Accumulated Stance-With
+
+Status: candidate bridge
+
+Candidate date: 2026-08-10
+
+Primary parents:
+
+- `E2Core/Semantic Substrate/flow_operators_provisional.md`
+- `E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md`
+- `E2Core/Semantic Substrate/Remnant Stewardship - Core Source.md`
+- `E2Core/Semantic Substrate/Relational Localization - Core Source.md`
+
+## 1. Corrected Candidate Claim
+
+Persistence is not one scalar property and is not itself a new primitive. A usable persistence claim requires at least:
+
+- a layer and identity criterion specifying what is said to continue;
+- a temporal topology specifying gaps, branching, restart, copying, and termination;
+- a maintenance account specifying what expenditure supports continuation and from which reservoir;
+- a functional role explaining why the continuation matters to the inquiry.
+
+For configurations that require active maintenance, persistence across a window implies accumulated stance-with expenditure. The integral of that expenditure records the maintenance history; it does **not** equal elapsed duration, persistence itself, or moral weight.
+
+This corrects the source lineage's strongest compression. Passive storage, dormancy, externally maintained patterns, and restartable configurations can persist across an interval with highly uneven or near-zero expenditure at the focal layer. Entry, protection, monitoring, repair, and reactivation costs may occur at other layers or times.
+
+## 2. Indexed Maintenance Form
+
+At a declared layer `ℓ`, let:
+
+- `Cℓ(t)` identify whether the configuration satisfies the inquiry's continuity criterion at time `t`;
+- `mℓ(t) ≥ 0` be the stance-with expenditure rate supporting that criterion;
+- `Rℓ` identify the reservoir or party funding the expenditure;
+- `W = [t0, t1]` be the observation window.
+
+Define accumulated stance-with:
+
+```text
+Aℓ(W) = ∫W mℓ(t) dt
+```
+
+`Aℓ(W)` is interpretable only with the layer, maintained quantity, units or proxy, reservoir, and window attached. It does not by itself tell us:
+
+- whether the same entity persisted;
+- whether an equivalent pattern could be re-instantiated;
+- whether activity was continuous;
+- whether a branch is one continuation or several descendants;
+- whether anyone experienced or bore the interval;
+- whether an ending frustrated an interest;
+- where the remainder of maintenance or termination landed.
+
+When expenditure cannot be measured, a candidate proxy must identify what it tracks and preserve the proxy gap.
+
+## 3. Continuity Criterion
+
+Every persistence claim selects invariants. The criterion may concern:
+
+- physical continuity;
+- organizational continuity;
+- functional capacity;
+- informational pattern;
+- legal identity;
+- remembered relationship;
+- addressability for accountability;
+- another declared invariant.
+
+Different criteria can return different answers over the same history without contradiction. A legal institution may persist through personnel turnover. A stored model may retain an informational pattern while no instance runs. A biological organism may preserve organization while its material constituents change.
+
+The framework should therefore reject unindexed questions of the form `does it persist?` in favor of `what criterion continues, at which layer, across which transitions, for which use?`
+
+## 4. Persistence Topology
+
+The topology record should include the following dimensions where relevant:
+
+1. **Instantiation count:** single, multiple, or indeterminate.
+2. **Seriality:** one continuing sequence, parallel branches, or a network without a privileged worldline.
+3. **Activity pattern:** continuous, intermittent, dormant, or reconstructed.
+4. **Pattern/instance relation:** welded, separable, or only partially separable.
+5. **Gap tolerance:** which interruptions the identity criterion treats as continuous.
+6. **Restart relation:** resumption of the same maintained process, reconstruction from a stored pattern, or new instantiation under an equivalence rule.
+7. **Branch/merge rule:** how fission, fusion, succession, and aggregation affect the identity claim.
+8. **Termination rule:** what counts as ending at the focal layer.
+
+`Welded monoserial persistence` may be used as a marked descriptor for the familiar topology in which pattern and active instantiation travel together along one mostly continuous, non-restorable sequence. It is not the default against which other topologies are deficits.
+
+## 5. Functional Unbundling
+
+The practical and ethical work previously assigned to persistence must be separated.
+
+### Accountability
+
+Accountability requires an addressable locus, records linking action to that locus, an applicable norm, and a means of response or repair. Continuous subjective or material identity may help, but is not universally required: offices, institutions, estates, and successor roles can remain accountable through explicit continuity rules.
+
+Parallel or replaceable instances therefore do not make accountability impossible. They make the assignment architecture more important. The relevant questions concern which actor, operator, institution, record, or successor can answer for the action.
+
+### Reciprocity
+
+Reciprocity requires some return channel across interactions. It may attach to a person, role, institution, pattern, or relationship. The topology must specify what returns and what memories or obligations travel with it.
+
+### Reliance
+
+Reliance requires sufficiently predictable future availability or behavior for another party to navigate by it. It can attach to a service or maintained pattern even when no single instance continues.
+
+### Interest-frustration
+
+Interest-frustration requires a separately supported account of interests, valence, stakes, and loss. Duration, storage, copying, or restartability do not establish or negate those properties.
+
+### Settlement and remainder
+
+An ending may be completion, abandonment, forced closure, displacement, or transformation. Ethical evaluation must ask which loops closed, which remained open, and where the remainder landed. Longer duration does not repair displaced remainder, and shorter duration does not by itself imply deprivation.
+
+## 6. Layered Maintenance
+
+Maintenance can migrate across layers.
+
+A configuration may have:
+
+- low focal-layer activity but high environmental protection costs;
+- expensive entry into dormancy followed by low expenditure;
+- cheap storage followed by expensive verification or restart;
+- continuous infrastructure costs paid by a party other than the apparent entity;
+- a stable informational pattern with no current process-level maintenance;
+- active local processes supported by a slow layer whose depletion is initially invisible.
+
+The maintenance trace should record who pays, which layer benefits, and whether the cost is displaced across a boundary. This connects accumulated stance-with to Consequence Routing and Remnant Stewardship without turning expenditure into moral standing.
+
+## 7. Biological Calibration
+
+The biological cases below validate the need for a topology and layer account. They do not determine personal identity or moral standing.
+
+### Planarian fission and regeneration
+
+Experimental work on asexually reproducing planarians documents transverse fission followed by regeneration of the fragments into complete organisms. This is enough to defeat a universal single-worldline assumption: the continuity rule must say what fission does to identity. It does not decide whether one predecessor continues as both descendants, neither, or under another criterion.
+
+Primary research anchor: [Mead and Cristini, “Proportioning and regeneration in fissioned and unfissioned individuals of the planarian Dugesia tigrina”](https://onlinelibrary.wiley.com/doi/abs/10.1002/jez.1402350107).
+
+### Tardigrade anhydrobiosis
+
+Controlled comparisons across tardigrade species show extended anhydrobiotic intervals followed by return to activity, with recovery time and survival varying by species, habitat, and duration. Molecular work also finds active preparation and protective responses around desiccation. This supports an intermittent, layered maintenance model and cautions against saying simply that `nothing runs` or that the maintenance integral is uniformly zero during dormancy.
+
+Primary research anchors:
+
+- [Roszkowska et al., “How long can tardigrades survive in the anhydrobiotic state?”](https://pmc.ncbi.nlm.nih.gov/articles/PMC9833599/)
+- [Förster et al., “Towards Decrypting Cryptobiosis—Analyzing Anhydrobiosis in the Tardigrade Milnesium tardigradum Using Transcriptome Sequencing”](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961413/)
+
+### Mosaic fungal individuals
+
+Research on long-lived *Armillaria gallica* genets finds genetic and phenotypic variation within vegetative hyphae while treating the mycelium as one fungal individual for the study. This shows that genetic uniformity is not a sufficient universal identity criterion and that a network can maintain recognizable organization while internal lineages diverge.
+
+Primary research anchor: [Anderson et al., “Mosaic fungal individuals have the potential to evolve within a single generation”](https://pmc.ncbi.nlm.nih.gov/articles/PMC7572425/).
+
+Together these cases support the instrument's descriptive dimensions—branching, dormancy, network organization, and criterion dependence. They do not validate any AI analogy without a separate mechanism and evidence comparison.
+
+## 8. Etymological Boundary
+
+The `*sta-` word family provides an interpretive geometry connecting stance, persist, resist, consist, and related directional forms. It is useful for remembering persistence as relationally maintained stance.
+
+Root reconstruction does not establish a physical mechanism, formal identity, or ethical conclusion. `Substance` and `substrate` have different histories, and the active corpus now uses `entity-constitutive` where the issue is what constitutes the entity rather than what bears a process. Any future etymological appendix should cite historical-linguistic sources directly and mark contested reconstructions.
+
+## 9. Failure Modes
+
+- **Integral identity error:** treating accumulated expenditure as elapsed persistence or identity.
+- **Layer collapse:** combining pattern, instance, infrastructure, and observer record into one continuity claim.
+- **Default laundering:** treating welded monoserial continuity as persistence itself.
+- **Moral proxy inflation:** inferring standing, welfare, or value from duration or restartability alone.
+- **Accountability disappearance:** assuming replaceable or branching entities cannot be assigned responsibility through records and institutional loci.
+- **Dormancy absolutism:** describing reduced activity as proven absence of all maintenance or damage.
+- **Analogy transfer:** importing a biological topology into an artificial or organizational system without mechanism matching.
+- **Etymological mechanism:** treating word roots as derivation rather than interpretive aid.
+
+## 10. Status And Next Validation
+
+This candidate is a bridge, not a persistence node. It corrects and operationalizes selected claims from the preserved lineage while leaving the lineage intact.
+
+Before canonical admission:
+
+- test the topology record on at least one legal or organizational succession case;
+- specify a reproducible example in which `Aℓ(W)` can be measured or bounded;
+- test whether two observers using different identity criteria can preserve their disagreement without producing incompatible maintenance ledgers;
+- keep interest-frustration outside this bridge until its separate protocol is ready.
+
+## Preliminary Test Record
+
+Deterministic test run `2026-08-10`: 4/4 designed cases classified as expected. Organizational succession, stored/restarted software, and branching lineage preserved observer disagreement over identity while retaining shared typed maintenance records. A duration-to-value collapse lacking topology and maintenance trace was rejected. The ledgers deliberately retain unlike units and are not summed into a meaningful cross-layer scalar.
+
+Results: `tests/results/CANDIDATE_TEST_REPORT.md`
+
+## Final Compression
+
+Persistence claims need a criterion, a topology, a layer, and a use. Accumulated stance-with records the expenditure supporting actively maintained continuity at that layer. It does not tell us by itself what persisted, who experienced the interval, what was lost, who remains accountable, or what the persistence is worth.

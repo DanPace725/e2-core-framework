@@ -1,0 +1,182 @@
+# E² Core Framework
+
+> Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.
+
+## How to read this corpus
+
+1. Start with the Context Layer Master Index.
+2. Select the relevant A–K cluster and read only the ORMD documents needed for the task.
+3. Preserve each document's frame, confidence, lineage, and policy metadata.
+4. Do not treat the index, generated catalog, or human Markdown as a substitute for the paired ORMD authority.
+
+- [Context Layer Master Index (ORMD)](/ormd/context-layer-master-index.ormd)
+- [Machine-readable catalog](/catalog.json)
+- [Combined ORMD corpus](/ormd-corpus.txt)
+- [Human mobile reader](/)
+
+## Cluster A — Foundational Axioms & Core Ontology
+
+Scope: The irreducible bedrock of E². Establishes what relationships *are*, how they compose, and what constraints govern all relational systems. Every other cluster presupposes this one.
+
+Entry point: Relational Primitives → E^2 Equation → Global Closure Operator
+
+- [E^2 Axioms](/ormd/e2-axioms.ormd) — frame: philosophy.relational-ontology.axioms; confidence: 0.92
+- [E^2 Entry Point](/ormd/e2-entry-point.ormd) — frame: ontology.relational.e2; confidence: 0.92
+- [E^2 Equation: Recursive Composition and the Global Closure Operator](/ormd/e2-equation.ormd) — frame: ontology.relational-physics; confidence: 0.98
+- [Global Closure Operator](/ormd/global-closure-operator.ormd) — frame: theoretical.ontology.relational; confidence: 0.95
+- [Original E^2 Work](/ormd/original-e2-work.ormd) — frame: research.index; confidence: 1
+- [Relational Primitives](/ormd/relational-primitives.ormd) — frame: formal.ontology.relational; confidence: 0.96
+
+## Cluster B — Formal & Mathematical Translations
+
+Scope: Formal mappings of E² into established mathematical formalisms — category theory, lambda calculus, relational physics, and computability theory. These documents verify the internal consistency of Cluster A claims and reveal the framework's theoretical limits.
+
+Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle
+
+- [AFD - First Principles](/ormd/afd-first-principles.ormd) — frame: science.theory.emergence; confidence: 0.92
+- [CT translation of RPs](/ormd/ct-translation-of-rps.ormd) — frame: formalism.relational-ontology; confidence: 0.95
+- [Derivation Deep Dive: Categorical and Relational Physics](/ormd/derivation-deep-dive.ormd) — frame: physics.theoretical.derivation; confidence: 0.85
+- [Embedded Universality Principle (EUP)](/ormd/embedded-universality-principle-eup.ormd) — frame: epistemology.governance.embedded-universality; confidence: 0.9
+- [Meta-Pattern Decidability Conjecture (MPDC)](/ormd/meta-pattern-decidability-conjecture-mpdc.ormd) — frame: epistemology.conjecture; confidence: 0.85
+- [Relational Field Dynamics 0.1](/ormd/relational-field-dynamics-0-1.ormd) — frame: research.formalism; confidence: 0.85
+- [RP Lambda Calc Translation](/ormd/rp-lambda-calc-translation.ormd) — frame: formal.logic.translation; confidence: 0.98
+
+## Cluster C — Dynamics, Emergence & Systems Frameworks
+
+Scope: How relational systems change, stabilize, and generate emergent structure. Covers the CFA/CFAR dynamics framework, AVIA adaptation theory, the REMF meta-framework, emergence simulation, and the physics of tensional intelligence.
+
+Entry point: REMF → Universal Emergence Pattern → CFA → CFAR
+
+- [Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems](/ormd/adaptation-via-informational-abstraction.ormd) — frame: scientific.theory; confidence: 0.85
+- [CFAR: Constraint-Fluctuation-Attention-Resolution Framework](/ormd/cfar.ormd) — frame: systems.framework.cfar; confidence: 0.95
+- [Emergence Determination Foreclosure](/ormd/emergence-determination-foreclosure.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+- [From Essential Relationships to Ontological Transformation](/ormd/from-essential-relationships-to-ontological-transformation.ormd) — frame: systems.ontology; confidence: 0.85
+- [Pattern Integrity over Time under Entropy](/ormd/pattern-integrity-over-time-under-entropy.ormd) — frame: theory.relational-physics; confidence: 0.85
+- [REMF](/ormd/remf.ormd) — frame: ontology.meta-framework; confidence: 0.9
+- [Synthesis: Tensional Intelligence and the Praxis of Paradox](/ormd/tension.ormd) — frame: philosophy.tensional_intelligence; confidence: 0.92
+- [Tensional Intelligence: A Theoretical Foundation](/ormd/tensional-intelligence-a-theoretical-foundation.ormd) — frame: theory.tensional_intelligence; confidence: 0.85
+- [The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention](/ormd/cfa.ormd) — frame: systems.science.cfa; confidence: 0.95
+- [The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize](/ormd/emergence-engine-overview.ormd) — frame: research.simulation.ecology; confidence: 0.95
+- [Universal Emergence Pattern](/ormd/universal-emergence-pattern.ormd) — frame: theory.emergence; confidence: 0.92
+
+## Cluster D — Metabolic, Resonance & Temporal Physics
+
+Scope: The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants.
+
+Entry point: Metabolic Meaning Phase Space → The Resonance Framework → Signal as Bias Field
+
+- [Metabolic Meaning Phase Space (MMPS)](/ormd/metabolic-meaning-phase-space-mmps.ormd) — frame: theory.metabolic-meaning; confidence: 0.95
+- [Resonance Architecture 4.17.25](/ormd/resonance-architecture-4-17-25.ormd) — frame: epistemology.resonance; confidence: 0.9
+- [Signal as Bias Field](/ormd/signal-as-bias-field.ormd) — frame: relational.physics.signal-theory; confidence: 0.9
+- [Temporal Constraint Lamination: What We Found](/ormd/tcl-plain-english-summary.ormd) — frame: research.report; confidence: 0.92
+- [The Architecture of Resonant Systems](/ormd/the-architecture-of-resonant-systems-4-26-25.ormd) — frame: relational.systems.theory; confidence: 0.92
+- [The Operating Window: Three Constants from One Landscape](/ormd/tcl-three-constants.ormd) — frame: systems.analysis.tcl; confidence: 0.96
+- [The Resonance Framework: An Ontological Map](/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd) — frame: ontology.map; confidence: 0.85
+
+## Cluster E — Ethics, Stewardship & Rights
+
+Scope: The normative layer of E². Grounds ethics in relational structure: rights derive from primitives, stewardship is the relational obligation to maintain coherence, and localization ethics assigns accountability within complex causal chains. Includes temporal ethics and AI interaction ethics.
+
+Entry point: Reverent Stewardship → Relational Bill of Rights v2 → Justice Across Scales
+
+- [Asymmetry Maintenance](/ormd/asymmetry-maintenance-core-source.ormd) — frame: mechanics.persistence.asymmetry; confidence: 0.9
+- [Boundary Ethics](/ormd/boundary-ethics-core-source.ormd) — frame: ethics.boundary.posture; confidence: 0.9
+- [Complex Causality](/ormd/complex-causality-core-source.ormd) — frame: mechanics.causality.consequence; confidence: 0.9
+- [Ethical Occlusion via Temporal Compression (EOTC)](/ormd/ethical-occlusion-via-temporal-compression-eotc.ormd) — frame: engineering.ethics.temporal-occlusion; confidence: 0.9
+- [Ethical Principles for Human-AI Interaction](/ormd/ethical-principles-for-human-ai-interaction.ormd) — frame: ethics.framework; confidence: 0.95
+- [Human-AI Creative Collaboration Framework (HAIC)](/ormd/human-ai-creative-collaboration-framework-haic.ormd) — frame: governance.collaboration; confidence: 1
+- [Interlocked Stewardship V2](/ormd/interlocked-stewardship-v2.ormd) — frame: social.analysis.stewardship; confidence: 0.92
+- [Justice Across Scales](/ormd/justice-across-scales.ormd) — frame: ethics.justice.scales; confidence: 0.9
+- [Justice Across Scales: Practical Applications](/ormd/justice-across-scales-practical-applications.ormd) — frame: justice.praxis.v1; confidence: 0.9
+- [Proxy Localization](/ormd/proxy-localization-core-source.ormd) — frame: ethics.assignment.proxy; confidence: 0.9
+- [Relational Bill of Rights v2](/ormd/relational-bill-of-rights-v2.ormd) — frame: ethics.relational; confidence: 0.95
+- [Relational Localization](/ormd/relational-localization-core-source.ormd) — frame: ethics.assignment.localization; confidence: 0.9
+- [Remnant Stewardship](/ormd/remnant-stewardship-core-source.ormd) — frame: ethics.stewardship.remnant; confidence: 0.9
+- [Reverent Stewardship: A Recursion of Principles & Practical Guide](/ormd/reverent-stewardship.ormd) — frame: ethics.stewardship.guide; confidence: 0.95
+
+## Cluster F — Adversarial, Security & Cognitive Integrity
+
+Scope: How relational systems resist, detect, and recover from adversarial manipulation. AOMI formalizes mechanism gaming and Goodhart dynamics; MRIE addresses identity-pattern exposure through relational signatures; the Exposure Protocol preserves coherence during transmission.
+
+Entry point: Adversarial Occlusion & Mechanism Integrity V1 → AOMI AI Responses → Cognitive Signature Capture → MRIE
+
+- [Adversarial Occlusion and Mechanism Integrity V1](/ormd/adversarial-occlusion-and-mechanism-integrity-v1.ormd) — frame: security.governance.framework; confidence: 0.95
+- [AOMI: Dialogue-Derived Doctrine Notes](/ormd/aomi-ai-responses.ormd) — frame: ethics.adversarial; confidence: 0.92
+- [Cognitive Signature Capture: An Unnamed Threat](/ormd/cognitive-signature-capture-an-unnamed-threat.ormd) — frame: ethics.cognitive_security; confidence: 0.85
+- [Exposure Protocol: A Coherence-Preserving Transmission Framework](/ormd/exposure-protocol.ormd) — frame: pedagogy.framework; confidence: 0.95
+- [MRIE - Unified Synthesis](/ormd/mrie-unified-synthesis.ormd) — frame: research.identity-security; confidence: 0.9
+- [Relational Irreducibility Framework (RIF)](/ormd/relational-irreducibility-framework-rif.ormd) — frame: philosophy.systems-theory; confidence: 0.9
+- [The Truth-Ceiling: A Categorical Formulation for Scalable Truth](/ormd/truth-ceiling.ormd) — frame: epistemics.governance; confidence: 0.85
+
+## Cluster G — Consciousness, Cognition & Identity
+
+Scope: How relational dynamics give rise to consciousness, cognitive structure, and identity. Treats consciousness as triadic relational architecture, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
+
+Entry point: Relational Emergence Meta-Architecture (REMA) → Collective Cognitive Substrate → Relational Volition
+
+- [Collective Cognitive Substrate](/ormd/collective-cognitive-substrate.ormd) — frame: cognitive.ecology.synthesis; confidence: 0.9
+- [Ontological Systems Interface (OSI) Model](/ormd/ontological-systems-interface-osi-model.ormd) — frame: relational.ontology; confidence: 0.9
+- [Relational Emergence Meta-Architecture (REMA)](/ormd/relational-emergence-meta-architecture-rema.ormd) — frame: theory.consciousness.rema; confidence: 0.88
+- [Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields](/ormd/relational-volition.ormd) — frame: philosophy.relational-physics; confidence: 0.9
+- [The 'Intelligence Field' Framework](/ormd/the-intelligence-field-framework.ormd) — frame: cognitive.theory.framework; confidence: 0.85
+
+## Cluster H — Social, Civilizational & Applied
+
+Scope: E² applied to human social systems: families, care economies, power dynamics, civilization, and collective substrate. Includes manifestos and applied frameworks for transformation. Covers communication theory as a social application.
+
+Entry point: Declaration of Interdependence → The Collective Relational Substrate → Power as Relational Field Coherence
+
+- [Caregiving as an Ecosystem](/ormd/caregiving-as-an-ecosystem.ormd) — frame: philosophy.caregiving; confidence: 0.85
+- [Collective Relational Substrate](/ormd/collective-relational-substrate.ormd) — frame: civilization.relational_substrate; confidence: 0.9
+- [Communication as Coherence](/ormd/communication-as-coherence.ormd) — frame: communication.theory; confidence: 0.9
+- [Declaration of Interdependence](/ormd/declaration-of-interdependence.ormd) — frame: social.manifesto; confidence: 1
+- [Essence of Existence Constitution - Draft 2](/ormd/essence-of-existence-constitution-draft-2.ormd) — frame: ontology.constitution; confidence: 0.9
+- [Family as a Relational Field](/ormd/family-as-a-relational-field.ormd) — frame: philosophy.family_dynamics; confidence: 0.9
+- [Layer 2 Draft: RVP + VME (Developments So Far)](/ormd/layer-2-draft-rvp-and-vme-developments.ormd) — frame: economics.relational.specification; confidence: 0.85
+- [Power as Relational Field Coherence](/ormd/power-as-relational-field-coherence.ormd) — frame: theoretical.sociophysics.power; confidence: 0.9
+- [Relational Perfection: A Manifesto](/ormd/relational-perfection-a-manifesto.ormd) — frame: philosophy.manifesto; confidence: 1
+- [The Cyclical Integrity framework](/ormd/the-cyclical-integrity-framework.ormd) — frame: philosophy.systems; confidence: 0.9
+- [The Essence of Existence](/ormd/the-essence-of-existence.ormd) — frame: manifesto.relational; confidence: 0.9
+
+## Cluster I — Protocol, Infrastructure & Meta
+
+Scope: The operational layer — how the Context Layer itself is structured, transmitted, and versioned. CLP defines the data model governing all other clusters; RPE is the simulation engine for relational primitives; Implementations is the living registry of E² applications.
+
+Entry point: Context Layer Protocol (CLP) → Implementations → Relational Primitive Engine (RPE)
+
+- [Context Layer Protocol (CLP) — Overview & Starter Spec v0.2](/ormd/context-layer-protocol-clp.ormd) — frame: protocol.specification; confidence: 0.9
+- [Implementations](/ormd/implementations.ormd) — frame: registry.implementations; confidence: 1
+- [Relational Primitive Engine (RPE)](/ormd/relational-primitive-engine-rpe.ormd) — frame: engineering.simulation.rpe; confidence: 0.98
+
+## Cluster J — Semantic Substrate (Working/Provisional)
+
+Scope: Low-level working documents generated from or supporting the semantic substrate derivation layer. These are provisional formalizations — stubs, synthesis notes, and flow mappings — rather than settled theory. Treat as reference material, not canonical sources.
+
+Entry point: No single entry point; consult as reference material when working with formal derivations in A or B.
+
+- [Boundary Dynamics](/ormd/boundary-dynamics.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+- [Flow Operators: A Provisional Snapshot](/ormd/flow-operators-provisional.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+- [Resolution: Synthesis Notes](/ormd/resolution-synthesis.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+- [Sign-Mediated Accountability and Flow Routing](/ormd/sign-mediated-flow-routing.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+
+## Cluster K — Integrated Core Sources — 2026-08-10
+
+Scope: Corrected sources admitted through the staged integration process after collision review and proportional preliminary tests. These remain placed inside the six-primitive architecture; this cluster records integration provenance rather than a new theoretical layer.
+
+Entry point: Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.
+
+- [Context Layer Master Index](/ormd/context-layer-master-index.ormd) — frame: meta.index.context-layer; confidence: 1
+- [Condition as Typed Terrain](/ormd/condition-as-typed-terrain-core-source.ormd) — frame: causality.condition_typed_terrain; confidence: 0.84
+- [Consequence Routing](/ormd/consequence-routing-core-source.ormd) — frame: accountability.consequence-routing; confidence: 0.9
+- [Custody](/ormd/custody-core-source.ormd) — frame: ethics.custody; confidence: 0.84
+- [Intervention Stewardship](/ormd/intervention-stewardship-core-source.ormd) — frame: ethics.stewardship.intervention; confidence: 0.9
+- [Lawfulness](/ormd/lawfulness-core-source.ormd) — frame: epistemics.predictive_lawfulness; confidence: 0.84
+- [Persistence as Accumulated Stance-With](/ormd/persistence-as-accumulated-stance-with-core-source.ormd) — frame: dynamics.persistence_accumulated_stance_with; confidence: 0.84
+- [Relational Derivation Chain - E2 to RCP, MPDC, and AFD](/ormd/relational-derivation-chain.ormd) — frame: philosophy.relational.computability; confidence: 0.85
+- [Relational Perfection: A Framework for Emergent Integrity](/ormd/relational-perfection-framework.ormd) — frame: philosophy.ontology; confidence: 0.95
+- [Responsibility Absorption](/ormd/responsibility-absorption-core-source.ormd) — frame: governance.responsibility_absorption; confidence: 0.84
+- [Slow-Layer Clock Ratio](/ormd/slow-layer-clock-ratio-core-source.ormd) — frame: dynamics.slow_layer_clock_ratio; confidence: 0.84
+- [Steward’s Creed](/ormd/steward-s-creed.ormd) — frame: philosophical.creed; confidence: 1
+- [The Self as Coherence Field](/ormd/self-as-coherence-field.ormd) — frame: cognition.self_coherence; confidence: 0.93
+- [Trust, Trustworthiness, and Reliance](/ormd/trust-trustworthiness-and-reliance-core-source.ormd) — frame: relational.trust; confidence: 0.84
+

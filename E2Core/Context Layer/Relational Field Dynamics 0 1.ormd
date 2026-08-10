@@ -1,0 +1,188 @@
+<!-- ormd:1.0 -->
+---
+title: "Relational Field Dynamics 0.1"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "research.formalism"
+lineage:
+  origin: { uri: "internal://rfd/v0.1", ts: "2025-10-02T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public", "researcher"] }]
+semantics:
+  keywords: ["Relational Field Dynamics", "RFD", "Field Theory", "MMPS", "AOMI", "Relational Primitives"]
+resolution: { confidence: 0.85 }
+---
+
+# Relational Field Dynamics 0.1 {#title}
+
+10/2/25
+
+Relational Field Dynamics (RFD) v0.1 — Axioms & Measurement Doctrine
+Status: Draft • Scope: Minimal formalism to model relational/coherence dynamics without faux precision.
+
+---
+
+## 0) Overview {#overview}
+RFD treats meaning, coherence, occlusion, attention, and temporal pressure as fields on a substrate (graph of agents/channels or a continuous domain). Dynamics [follow](#dynamics "dynamical:transforms_to") an advection–diffusion–reaction form with guarded interventions (morphisms) and a built‑in [resolution doctrine](#resolution-doctrine "epistemic:measures") (Rayleigh‑style) to keep ethics and measurement honest.
+
+RFD is [compatible with](#cip-manifest "meta:corresponds_to"): MMPS (metabolic meaning + boundary negotiation), Exposure Protocol (action/state duality via morphisms), MPDC (epistemic humility), AOMI (anti‑gaming + integrity), Temporal Compression (time‑pressure ↔ resolution).
+
+---
+
+## 1) State, Observables, and Domains {#state}
+Fields (continuous) or Node variables (graph):
+- **M(x,t) ∈ [0,1]** — [Meaning density](#state "ontological:defines") (stock)
+- **κ(x,t) ∈ [0,1]** — [Coherence index](#state "ontological:defines")
+- **Ω(x,t) ∈ [0,1]** — [Occlusion/uncertainty density](#state "ontological:defines")
+- **u(x,t)** — [Attention/interaction flow](#state "ontological:defines") (vector field) or edge flow uᵢⱼ(t) on graphs
+- **C_eff(x,t) ∈ [0,∞)** — [Temporal compression](#state "ontological:defines") (higher = more crushed time)
+
+Shared Field (for views & protocols):
+- **TI = 1/(1 + C_eff)** (Temporal Integrity ∈ (0,1])
+- **J_M = uM - D_M \nabla M** (Meaning flux)
+
+> **Bounds**: All tracked scalars [live in](#state "symmetric:constrains") compact sets; saturation operators ensure boundedness under interventions.
+
+---
+
+## 2) Dynamics {#dynamics}
+
+### 2.1 Continuous (PDE) form
+For $\Phi \in \{M, \kappa, \Omega\}$:
+$\partial_t \Phi + \nabla\!\cdot(u\,\Phi) \;=\; D_\Phi\,\nabla^2\!\Phi \;+\; R_\Phi(\text{local}) \;-\; \Gamma_\Phi(\Omega, C_{\rm eff})\,.$
+
+Components [composing](#dynamics "ontological:composes") the field:
+- **Advection**: [transport by](#state "dynamical:interacts_with") attention/interaction flow.
+- **Diffusion**: dispersion/smoothing.
+- **Reaction**: local synthesis/decay (from [MMPS](#cip-manifest "meta:corresponds_to"), etc.).
+- **Attenuation**: occlusion/pressure terms.
+
+Local reaction for M (MMPS proxy):
+$R_M \;=\; \eta\,[\,0.5\,A + 0.4\,R + 0.1\,C\,] \;-\; \lambda\,M\,.$
+
+Flow constitutive law: potential/viscous blend
+$u = -\alpha\,\nabla\Phi_u \;+\; \nu\,\nabla^2 u\,,\quad \Phi_u := f(C_{\rm eff},\,\nabla M,\,\nabla\kappa)\,.$
+
+### 2.2 Graph form (preferred for teams/channels)
+For node i with neighbors j (weights $w_{ij}$):
+$\dot M_i = \eta_i F_i - \lambda_i M_i - \chi\,\Omega_i M_i \;+\; D_M\!\sum_j w_{ij}(M_j - M_i) \;+\; \sum_j u_{ij}M_j \,.$
+
+---
+
+## 3) Boundaries & Interfaces (MMPS) {#boundaries}
+- **Dirichlet (fixed state)**: [rigid policy](#ethics "symmetric:constrains") sections.
+- **Neumann (no‑flux)**: respectful boundaries; preserve local autonomy.
+- **Robin/mixed**: leaky/negotiated interfaces. 
+
+Continuity of state and flux [is enforced](#boundaries "symmetric:constrains") at seams.
+
+---
+
+## 4) Resolution Doctrine (Rayleigh‑style) {#resolution-doctrine}
+Operator: $\mathcal{M}$. Two states $S_1, S_2$ [are distinguishable](#resolution-doctrine "epistemic:measures") only if:
+$\|S_1 - S_2\|_\mathcal{M} \;>\; \Theta\big(C_{\rm eff}, \Omega\big),$
+
+**Implication**: Interventions below resolution [are discouraged/blocked](#ethics "symmetric:constrains") (ethics with teeth).
+
+---
+
+## 5) Measurement Doctrine (Ordinal > Cardinal) {#measurement-doctrine}
+Use [ordinal/relational embeddings](#measurement-doctrine "epistemic:measures") (ranks, pairwise comps) for $\Phi$; any monotone transform is acceptable. We track shape and flow, not absolute units.
+Add [topological summaries](#measurement-doctrine "meta:corresponds_to") (e.g., persistence diagrams on interaction graphs) to capture multi‑scale structure without fragile scales.
+Numeric coordinates [act as](#measurement-doctrine "ontological:defines") charts for calculus rather than claims of absolute magnitude.
+
+---
+
+## 6) Ethics & Guards (AOMI + Reverent Stewardship) {#ethics}
+Guards [act as](#ethics "symmetric:constrains") pre‑commit hooks on dynamics and interventions:
+- **Boundedness**: saturate to domains.
+- **Budgeting**: total action cost/time caps; [throttle](#dynamics "symmetric:constrains") u and policy stacks.
+- **Anti‑gaming (AOMI)**: [detect exploit patterns](#ethics "epistemic:measures"); project state back to integrity set.
+- **Resolution guard**: [block actions](#resolution-doctrine "symmetric:constrains") under Rayleigh threshold.
+
+Lyapunov regularization (monotone recovery under λ): choose
+$V = \tfrac{1}{2}\sum_i \big(\lambda M_i^2 + \chi\,\Omega_i M_i^2\big) + \tfrac{D_M}{2}\!\sum_{ij} w_{ij}(M_i - M_j)^2 - \eta\sum_i F_i M_i$
+
+---
+
+## 7) Interventions as Morphisms (Exposure Protocol) {#interventions}
+Let Policies be small [transforms on state](#state "dynamical:transforms_to"); Meta‑morphisms are transforms on policies (gain, caps, scheduling).
+
+Canonical policies (local):
+- **ψ (Restore)**: $\dot \eta > 0$
+- **φ (Paradox)**: temporary $\Omega \uparrow$ to crack closure, then $\kappa \uparrow$
+- **λ (Integrate)**: $\dot C_{\rm eff} < 0$ (decompress time)
+
+Composition: left‑to‑right with declared costs; [guards gate](#ethics "symmetric:constrains") commit. Budgets cap total cost per horizon.
+
+---
+
+## 8) Regimes (macro‑modes) & Predicates {#regimes}
+- **Flow**: $\dot M > 0$ and $\kappa > 0.7$
+- **Rigidity**: $u \approx 0$ and $\kappa \to 1$
+- **Overload**: $C_{\rm eff} \gg 1$ and high $\Omega$ / compression
+- **Collapse**: $\dot M < 0$ and $\kappa \to 0$
+
+Transitions [trigger](#interventions "geometric:causes") guardrails or scheduled policies (e.g., λ when Overload persists).
+
+---
+
+## 9) Dimensionless Numbers (for comparison & falsifiability) {#dimensionless-numbers}
+- **Relational Reynolds**: $Re_R = \frac{\|u \nabla \Phi\|}{\|D \nabla^2 \Phi\|}$ — [measures](#dynamics "epistemic:measures") advection vs dissipation.
+- **Compression**: $Co = \frac{C_{\rm eff}}{C_{max}}$ — [measures](#state "epistemic:measures") compressibility/time‑crunch.
+- **Resonance**: $Rs = \frac{\eta F}{\lambda M + D \nabla^2 M}$ — [measures](#dynamics "epistemic:measures") synthesis vs diffusion.
+- **Occlusion**: $Oc = \chi \Omega$ — uncertainty attenuation strength.
+- **Stewardship**: $St = \frac{\text{Guard Action}}{\text{Raw Flow}}$ — [measures](#ethics "epistemic:measures") damping fraction by guards.
+
+---
+
+## 10) Algorithmic Loop (Graph substrate) {#algo-loop}
+1. **Sense** → [build ordinal embedding](#measurement-doctrine "epistemic:measures") for $\Phi$; estimate $u$ from interaction flows.
+2. **Evolve** → [integrate graph dynamics](#dynamics "dynamical:transforms_to") with diffusion and reaction terms.
+3. **Guard** → [apply resolution, budgets, and AOMI projections](#ethics "symmetric:constrains") before committing state.
+4. **Regime logic** → [evaluate predicates](#regimes "epistemic:measures"); schedule ψ/φ/λ as needed.
+5. **Evaluate** → track forecast error and $V$ under λ; [compute dimensionless numbers](#dimensionless-numbers "epistemic:measures") over time.
+
+---
+
+## 11) CIP Manifest (module stub) {#cip-manifest}
+
+```yaml
+module: rfd
+version: 0.1.0
+provides: 
+  store:
+    obs: [TI, dMdt, M, kappa, Omega]
+    lat: [C_eff, eta, lambda]
+  field:
+    project: |
+      TI = 1/(1+C_eff)
+      dMdt = eta*(0.5*A + 0.4*R + 0.1*C) - lambda*M
+  policies: [psi, phi, lambda]
+  guards: [reverent_cap, aomi_antigame, resolution_guard]
+  regimes:
+    - { name: Flow,     enter: "TI>=0.6 && dMdt>=0",      exit: "TI<0.55 || dMdt<-0.1" }
+    - { name: Rigidity, enter: "TI>=0.5 && dMdt<0" }
+    - { name: Overload, enter: "TI<0.5 && Co>Co_thr" }
+    - { name: Collapse, enter: "TI<0.5 && dMdt<0" }
+  views: [phase_plot, gauges, topology_summary]
+costs:
+  psi: 0.2
+  phi: 0.4
+  lambda: 0.3
+```
+
+---
+
+## 12) Notation & Defaults {#notation}
+- Time step $\Delta t$ [constrained by](#notation "symmetric:constrains") stability (graph Laplacian CFL‑style bound).
+- Diffusion $D$ tuned via validation; viscosity $\nu$ [prevents](#dynamics "symmetric:constrains") spurious oscillation.
+- All interventions [respect](#resolution-doctrine "symmetric:constrains") resolution $\Theta$ and budget caps.
+
+---
+
+### Summary
+RFD [provides](#title "ontological:defines") a portable structure—fields, boundary rules, guarded morphisms, and a resolution doctrine—that lets you simulate and reason about relational/meaning dynamics without pretending the qualitative is cardinal. It [integrates](#cip-manifest "meta:corresponds_to") cleanly with your existing MMPS/Exposure/AOMI/Temporal Compression stack.
+

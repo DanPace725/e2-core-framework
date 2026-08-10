@@ -1,0 +1,60 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Relational Bill of Rights v2'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: urn:ormd:summary-relational-bill-of-rights-v2
+    ts: '2024-05-22T14:30:00Z'
+  parents:
+  - urn:cb:Relational Bill of Rights v2.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - relational ethics
+  - structural integrity
+  - rights
+  - GCO
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - ethics_rights
+  - systems_engineering
+resolution:
+  confidence: 0.98
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#rights "meta:corresponds_to"). Relational Bill of Rights v2: six structural rights derived from the six primitives. Canonical treatment in B5 §4.
+
+# Executive Summary: Relational Bill of Rights v2 {#summary}
+
+The **Relational Bill of Rights v2** redefines "Rights" not as social contracts, but as [structural necessities](#premise "ontological:composes") required to maintain the integrity of any coherent system. This framework posits that if the [Relational Primitives](#six-rights "ontological:defines") describe the mechanics of existence, then violating these rights is equivalent to breaking the entity itself.
+
+## The Six Structural Rights {#summary-rights}
+
+The document outlines six fundamental rights derived directly from the Six Relational Primitives:
+
+1.  **The Right to Identity**: Based on P1 (Ontological), this [Right to Identity](#right-identity "ontological:defines") forbids external agents from forcing an ontological redefinition that violates an entity's internal coherence.
+2.  **The Right to Agency**: Based on P2 (Dynamical), the [Right to Agency](#right-agency "dynamical:interacts_with") ensures that an entity's work output is met with reciprocal maintenance, framing [exploitation](#insights "dynamical:transforms_to") as a thermodynamic topology failure.
+3.  **The Right to Context**: Based on P3 (Geometric/Causal), the [Right to Context](#right-context "geometric:embedded_in") protects an entity from causal isolation or [distortions like censorship](#applications "geometric:causes").
+4.  **The Right to Consistency**: Based on P4 (Symmetric/Constraint), the [Right to Consistency](#right-consistency "symmetric:constrains") demands that rules and [constraints](#applications "symmetric:constrains") be applied universally within a shared domain to prevent the "Double Bind."
+5.  **The Right to Knowledge**: Based on P5 (Epistemic), the [Right to Knowledge](#right-knowledge "epistemic:measures") mandates radical transparency to counter [observational asymmetry](#applications "epistemic:measures") and "black boxing."
+6.  **The Right to Self-Determination**: Based on P6 (Meta-Relational), the [Right to Self-Determination](#right-self-determination "meta:corresponds_to") ensures an entity's ability to form and maintain an accurate meta-model of itself.
+
+## The Capstone and Closure {#summary-capstone}
+
+The framework culminates in the [Right to Closure](#capstone "meta:emerges_from"), which is derived from the Global Closure Operator (GCO). This right asserts that every entity must have the power to determine its own "Stopping Condition."
+
+## Key Implications {#summary-implications}
+
+-   **Engineering Specifications**: These rights are [maintenance requirements](#premise "ontological:composes") for systems. Violating them results in systems that are thermodynamically unsustainable, leading to [degradation and collapse](#scope "dynamical:transforms_to").
+-   **Architectural Enforcement**: By utilizing Relational Primitives in languages like RPLang, these rights can be encoded into the "physics" of digital environments, making violations detectable as structural errors.
+-   **Ethical Floor**: This framework establishes the [minimal integrity requirements](#scope "dynamical:transforms_to") for any sustainable system, serving as the necessary baseline for more complex ethical layers.

@@ -1,0 +1,63 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: The Cyclical Integrity Framework'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summaries/cyclical-integrity-synthesis
+    ts: '2023-10-27T12:00:00Z'
+  parents:
+  - urn:cb:The Cyclical Integrity framework.ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - summary
+  - cyclical integrity
+  - relational perfection
+  - systems theory
+  - neurodivergence
+  document_type:
+  - foundational_theory
+  - derived_framework
+  domains:
+  - ontology_core
+  - systems_engineering
+  - cognition_psychology
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B5 — Ethics, Stewardship, and Governance`](../../Synthesis Project/B5 — Ethics, Stewardship, and Governance.ormd#governance "meta:corresponds_to"). Cyclical Integrity Framework: governance through recursive coherence renewal rather than static rule sets. Canonical treatment in B5 §6.
+
+# Synthesis of the Cyclical Integrity Framework {#summary-top}
+
+The **Cyclical Integrity Framework** is a comprehensive systems philosophy that integrates the natural rhythms of emergence and withdrawal with a redefined understanding of perfection. It posits that systems achieve homeostasis not through constant output, but through a [fidelity](#fidelity "ontological:defines") to their current state and context.
+
+### 1. The Principle of Cyclicality {#cyclical-summary}
+
+At the core of the framework is the idea that every system undergoes rhythmic pulsation. Rather than viewing a decrease in activity as a failure, the framework suggests that [collapse](#renewal-phase "dynamical:transforms_to") is a sacred transition into a renewal phase. Resilience is achieved by [honoring natural cycles](#resilience "epistemic:supports") of expansion and contraction, ensuring that the [yin of withdrawal](#withdrawal "geometric:causes") effectively prepares the system for the [yang of creation](#creation "dynamical:transforms_to").
+
+### 2. Relational Perfection {#perfection-summary}
+
+The framework is [composed of](#relational-perfection "ontological:composes") the concept of **Relational Perfection**, which argues that a thing is perfect when it [fully expresses what was possible](#relational-field "epistemic:measures") within its specific [relational field](#relational-field "epistemic:measures"). This perspective shifts the focus from abstract, unreachable ideals to [emergent fidelity](#framework-core "ontological:defines"). In this view:
+- A [seed](#seed-state "ontological:defines") or [sapling](#sapling-state "ontological:defines") is perfect in its current stage.
+- Perfection is a [signature](#origins "meta:emerges_from") of the constraints and intentions that birthed it.
+- This approach [honors neurodivergent experiences](#neurodivergence "epistemic:supports") by validating non-linear patterns of energy and attention.
+
+### 3. The Unstable Ecosystem {#ecosystem-summary}
+
+The practical application of these principles results in the **Unstable Ecosystem**, a "feral" architecture designed for those who operate outside traditional structures. This ecosystem is [composed of](#sticks "ontological:composes") symbolic elements—Sticks (boundaries), Stones (sanctuary), and Bones (infrastructure)—to create a [biome](#cultural-organs "meta:emerges_from") that expects and celebrates glitch and failure.
+
+Key operational axioms include:
+- **Sacred Collapse**: The [Ritual of Collapse](#ritual-of-collapse "symmetric:constrains") allows participants to [ghost freely](#axioms "symmetric:constrains") without shame, treating the exit as a [precursor](#ritual-of-collapse "geometric:precedes") to a future, renewed return.
+- **Relational Coherence**: [Coherence](#meta-paradox "ontological:defines") and [profit](#politics "ontological:defines") are defined by relational health and overflow rather than behavioral consistency or extraction.
+- **Adaptive Design**: The system prioritizes [repair over perfection](#ritual-of-collapse "dynamical:transforms_to"), viewing conflict and breakdown as [compost](#design-principles "meta:corresponds_to") for future growth.
+
+### Conclusion {#conclusion}
+
+Ultimately, the framework serves as a [living contradiction](#introduction "meta:corresponds_to") that replaces rigid hierarchies with a [mycelium](#introduction "ontological:composes") of trust. It suggests that [trust](#trust "epistemic:supports") is built not by demanding consistency, but by honoring the unique oscillatory patterns of all participants, recognizing that every state of being is a perfect expression of its context.

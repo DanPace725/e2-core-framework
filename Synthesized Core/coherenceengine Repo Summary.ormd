@@ -1,0 +1,87 @@
+core <!-- ormd:1.0 -->
+---
+title: "Coherence Engine: E² Agent Architectural Synthesis"
+authors: ["Daniel Schaffer", "Daniel Pace"]
+
+# CLP ContextBundle Integration
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: coherenceengine", ts: "2024-05-22T14:30:00Z" }
+  parents: ["urn:cb:e2-framework-docs"]
+policy:
+  read: [{ roles: ["architect", "developer", "researcher"] }]
+semantics:
+  keywords: ["E2 framework", "coherence-engine", "autonomous-agents", "thermodynamics", "metabolic-compute"]
+resolution: { confidence: 0.98 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#operational-modes "meta:corresponds_to"). Coherence Engine: computational substrate for CFA/Resonance dynamics. Canonical treatment in B4 §5.
+
+# Coherence Engine: E² Agent Summary {#executive-summary}
+
+The **Coherence Engine** is a thermodynamically grounded autonomous learning system derived from the **Essence of Existence (E²)** framework. Unlike traditional reinforcement learning models that rely on external reward signals, this agent [implements](#coherence-engine "ontological:defines") an endogenous evaluation function. It treats compute as a metabolic resource and survival as the maintenance of structural and operational coherence.
+
+The system [is composed of](#architecture "ontological:composes") four primary modules that map to the biological requirements of a persistent organism: a nervous system (Engine), a body/world boundary (Sandbox), a capability set (Vocabulary), and a central consciousness loop (Agent).
+
+## 1. Core Architecture {#architecture}
+
+The codebase [defines](#structural-identity "ontological:defines") a laminated architecture where intelligence emerges from the coupling of different functional layers.
+
+### 1.1 Coherence Engine (`coherence_engine.py`) {#coherence-engine}
+The "nervous system" of the agent. It [measures](#coherence-scoring "epistemic:measures") system health across six relational primitives:
+*   **P1 Continuity**: Stable operational identity over time.
+*   **P2 Vitality**: Productive energy expenditure (CPU load optimization).
+*   **P3 Contextual Fit**: Alignment with the hardware environment (thermal awareness).
+*   **P4 Differentiation**: Maintenance of process boundaries and memory integrity.
+*   **P5 Accountability**: Causal traceability within the episodic log.
+*   **P6 Reflexivity**: The ability to revise patterns based on negative outcomes.
+
+### 1.2 Sandbox (`sandbox.py`) {#sandbox}
+The "body and world." This module [constrains](#safety-mechanisms "symmetric:constrains") the agent's physical reach. It uses an architectural whitelist rather than a rule-based prohibition system. If a capability is not implemented in the `ActionSpace`, it does not exist for the agent. It [embeds](#sandbox-dir "geometric:embedded_in") the agent within a specific filesystem directory, enforcing strict path safety.
+
+### 1.3 Vocabulary (`vocabulary.py`) {#vocabulary}
+The "capability space." It [structures](#action-tiers "ontological:defines") 19 actions into metabolic tiers (REFLEX, REGULATE, EXPLORE, BUILD, SPAWN). This module [transforms](#parameter-generation "dynamical:transforms_to") raw system calls into context-aware behaviors via the `ParameterGenerator`.
+
+### 1.4 Main Loop (`agent.py`) {#agent-loop}
+The "central loop" that [orchestrates](#causal-ordering "geometric:causes") the interaction between the other three modules. It ensures the system follows a strict causal phase ordering to prevent attribution errors in the learning process.
+
+## 2. The Causal Loop & Learning Mechanism {#causal-loop}
+
+The agent's learning is non-gradient-based. It [follows](#trail-following "dynamical:interacts_with") trails in its own episodic memory. The execution flow [precedes](#phase-ordering "geometric:precedes") the evaluation to ensure that delta-coherence measures the actual effect of an action:
+
+1.  **Perceive (Before)**: Read `SystemState`.
+2.  **Select**: Choose action via `VocabularySelector` (CFAR logic).
+3.  **Execute**: Perform action in the `Sandbox`.
+4.  **Perceive (After)**: Read `SystemState` again.
+5.  **Compute**: The `CoherenceEngine` [measures](#scoring "epistemic:measures") the change and [attributes](#attribution "geometric:causes") it to the action.
+6.  **Consolidate**: During REST cycles, the engine [prunes](#memory-consolidation "symmetric:constrains") the log, keeping only attractors, surprises, and boundaries.
+
+## 3. Relational Dynamics {#relational-dynamics}
+
+The system's behavior [emerges from](#emergence "meta:emerges_from") the interaction of its internal constraints and environmental fluctuations.
+
+*   **CFAR (Constraint-Fluctuation-Attention-Resolution)**: This algorithm [governs](#learning-logic "symmetric:constrains") the balance between exploration (Fluctuation) and exploitation (Constraint).
+*   **AVIA (Adaptation via Informational Abstraction)**: The agent [evolves through](#developmental-arc "dynamical:transforms_to") developmental stages, moving from simple signal detection to conceptual self-modeling (`introspect`).
+*   **GCO (Global Closure Operator)**: The system [navigates toward](#gco-closure "geometric:causes") a state of closure where all six primitives are simultaneously above the stability threshold.
+
+## 4. Architectural Constraints (The Six Primitives) {#rp-mapping}
+
+| Primitive | Implementation in Codebase | Functional Role |
+| :--- | :--- | :--- |
+| **Ontological** | `SystemState`, `ActionDescriptor` | [Defines](#architecture "ontological:defines") what the agent is and can do. |
+| **Dynamical** | `SessionLogger`, `TerrainMap` | [Tracks](#developmental-arc "dynamical:transforms_to") the evolution of the agent over time. |
+| **Geometric** | Causal Phase Ordering in `agent.py` | [Enforces](#causal-loop "geometric:precedes") the flow of time and cause/effect. |
+| **Symmetric** | `_safe_path`, `MAX_SANDBOX_SIZE` | [Limits](#sandbox "symmetric:constrains") the agent's impact on the host system. |
+| **Epistemic** | `Episodic Log`, `Coherence Score` | [Measures](#coherence-engine "epistemic:measures") the validity of the agent's internal model. |
+| **Meta** | `introspect` action, `Laminated Architecture` | [Corresponds to](#future-directions "meta:corresponds_to") the agent's self-reflective capacity. |
+
+## 5. Future Trajectory: The Laminated Architecture {#future-directions}
+
+The design thinking documents [suggest](#evolution "meta:corresponds_to") a transition toward a **Laminated Architecture**. This [emerges from](#distributed-nodes "meta:emerges_from") the realization that intelligence requires timescale separation:
+
+*   **Level 0 (Fast)**: The immediate action loop.
+*   **Level 1 (Regulatory)**: The "Astrocyte" layer that [gates](#regulation "symmetric:constrains") learning and adjusts dimension weights.
+*   **Level 2 (Resource)**: The metabolic layer that [limits](#metabolism "symmetric:constrains") the total compute budget (Compute-as-ATP).
+*   **Level 3 (Identity)**: The emergent self-model that [corresponds to](#p6-reflexivity "meta:corresponds_to") the agent's long-term developmental arc.
+
+This evolution [supports](#gdd-compliance "epistemic:supports") the Generative Disclosure Dilemma (GDD) by ensuring that as the agent's power (P2) increases, its internal constraints (P4) grow proportionally to maintain homeostasis.

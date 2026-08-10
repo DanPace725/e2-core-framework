@@ -1,0 +1,63 @@
+core <!-- ormd:1.0 -->
+---
+title: 'Summary: Relational Primitive Engine (RPE)'
+authors:
+- Daniel Pace
+frame: summary.document
+lineage:
+  origin:
+    uri: internal://summary/rpe/v1
+    ts: '2024-05-22T14:30:00Z'
+  parents:
+  - urn:cb:Relational Primitive Engine (RPE).ormd
+policy:
+  read:
+  - roles:
+    - public
+semantics:
+  keywords:
+  - RPE
+  - Summary
+  - Relational Primitives
+  - Deterministic Simulation
+  - GCO
+  document_type:
+  - derived_framework
+  - specification
+  domains:
+  - ontology_core
+  - game_design
+  - systems_engineering
+resolution:
+  confidence: 0.95
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-2-six-primitives "meta:corresponds_to"). RPE: computational engine instantiating the six relational primitives. Canonical treatment in B1 §2.
+
+# Executive Summary: Relational Primitive Engine (RPE) {#summary-root}
+
+The Relational Primitive Engine (RPE) is a deterministic, engine-agnostic simulation framework designed to evaluate world states through an ontology-driven update cycle. By utilizing [six relational primitives](#update-cycle "ontological:composes") and the [Global Closure Operator (GCO)](#gco "symmetric:constrains"), the RPE ensures a stable and interpretable environment that [integrates cleanly](#integration "meta:corresponds_to") with major game engines like Unreal and Unity.
+
+## Core Data Model {#data-model-summary}
+
+The RPE architecture is built upon three primary components:
+1.  **Entities**: Discrete participants defined by unique IDs and states.
+2.  **Relations**: Typed edges [connecting entities](#entity "ontological:composes") that map to specific physical or logical primitives.
+3.  **World**: The comprehensive container that [defines](#world "ontological:defines") the simulation state, including spatial indexing and change tracking.
+
+## The Deterministic Update Cycle {#cycle-summary}
+
+The simulation progresses through a [strictly ordered](#step-1 "geometric:precedes") six-step sequence to maintain total determinism:
+
+1.  **GEOMETRY**: Establishes the [spatial foundation](#step-2 "geometric:precedes") by evaluating proximity, occlusion, and connectivity.
+2.  **CONSTRAINT**: Enforces systemic [bounds](#step-2 "symmetric:constrains") and conservation rules, ensuring the world is in a valid state before [Dynamics](#step-4 "geometric:precedes") occur.
+3.  **EPISTEMIC**: Determines what an entity [knows](#step-3 "epistemic:measures") based on [Geometry](#step-1 "epistemic:supports") and [Constraints](#step-2 "epistemic:supports"), grounding actions in [local perspective](#step-3 "epistemic:measures").
+4.  **DYNAMICS**: Executes [state changes](#step-4 "dynamical:transforms_to") such as movement, combat, and AI decision-making.
+5.  **META**: Facilitates [System-level mutation](#step-5 "meta:emerges_from") and allows the world to [evolve its own laws](#step-5 "meta:corresponds_to") by spawning entities or modifying the ruleset.
+6.  **GCO (Global Closure Operator)**: Acts to [finalize the tick](#gco "symmetric:constrains") by resolving contradictions and ensuring the state is [valid, minimal, and consistent](#rpe-root "symmetric:preserves") for the subsequent cycle.
+
+## Implementation and Performance {#implementation-summary}
+
+The RPE serves as the [semantic layer](#rpe-root "ontological:composes") for external engines. Rules are authored via data-driven formats (JSON, Lua, Blueprints) that [emit or modify](#relation "dynamical:transforms_to") relations, while META rules can [mutate the ruleset](#step-5 "meta:corresponds_to") itself. 
+
+To remain [scalable](#performance "symmetric:limits"), the engine utilizes [spatial indexing](#world "geometric:embedded_in") and change-driven evaluation. This transparency ensures that all AI and world behaviors are [fully explainable](#debugging "epistemic:supports"). Ultimately, the RPE is [deterministic](#determinism "symmetric:constrains") provided that input, evaluation, and resolution orders remain stable.

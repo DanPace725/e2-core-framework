@@ -1,0 +1,75 @@
+core <!-- ormd:1.0 -->
+---
+title: "Architectural Summary: Hybrid Reasoning System (hca-main)"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "repository.summary"
+lineage:
+  origin: { uri: "local-repo: hca-main", ts: "2024-05-20T10:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["architect", "developer"] }]
+semantics:
+  keywords: ["hybrid-reasoning", "GRU", "Ollama", "relational-memory", "symbolic-ai"]
+resolution: { confidence: 0.95 }
+---
+
+> **Corpus placement** — This standalone document is canonically synthesized in [`B4 — Language and Expression`](../../Synthesis Project/B4 — Language and Expression.ormd#ormd "meta:corresponds_to"). HCA (Human-Cognitive Architecture) main codebase. Canonical treatment in B4 §3.
+
+# Hybrid Reasoning System Architecture {#top}
+
+The **Hybrid Reasoning System** is a modular framework designed to solve complex reasoning tasks by synthesizing symbolic logic, neural processing, and large language model (LLM) semantic extraction. The system is built to run on consumer-grade hardware, specifically utilizing a [small transformer](#semantic-engine "epistemic:supports") (Phi-3) as a tool for structured perception rather than the primary reasoning loop.
+
+## 1. Core Orchestration {#controller}
+
+The system is managed by a central [Controller](#controller-impl "ontological:composes") which governs the lifecycle of a "reasoning episode." 
+
+*   **Episode Flow**: The controller [precedes](#reasoning-loop "geometric:precedes") the reasoning loop by first invoking the [Semantic Engine](#semantic-engine) to populate the initial state.
+*   **Closure**: It [implements](#closure-logic "symmetric:constrains") the Global Closure Operator (GCO) logic by monitoring the [halt probability](#reasoning-core) emitted by the neural core.
+*   **Traceability**: Every state change is [measured by](#trace-logs "epistemic:measures") a JSON-based tracing system that records the hidden state of the GRU, the relational graph snapshot, and the source of the reasoning (Rules vs. GRU).
+
+## 2. Semantic Perception Layer {#semantic-engine}
+
+The [Semantic Engine](#semantic-impl "ontological:defines") acts as the system's sensory organ. It uses [Ollama](#ollama-integration "meta:corresponds_to") to interface with the Phi-3 model.
+
+*   **Event Extraction**: It [transforms](#relational-memory "dynamical:transforms_to") raw text into a structured JSON payload containing entities and relations.
+*   **JSON Repair**: Because small models often produce malformed outputs, the engine [is limited by](#repair-logic "symmetric:constrains") a robust repair utility that ensures the [Relational Memory](#relational-memory) receives valid data.
+*   **Answer Rendering**: Upon triggering closure, the engine [converts](#final-output "dynamical:transforms_to") the final memory state back into human-readable prose.
+
+## 3. Relational Memory Substrate {#relational-memory}
+
+The [Relational Memory](#memory-impl "ontological:defines") is an RP-structured graph that serves as the persistent data substrate for the reasoning process.
+
+*   **Ontological Structure**: It [is composed of](#entities-relations "ontological:composes") Entities (nodes) and Relations (edges).
+*   **Constraint Enforcement**: The memory [preserves](#constraints "symmetric:preserves") logical invariants, such as `quantity_nonnegative`, ensuring that reasoning steps do not result in physically impossible states (e.g., negative apples).
+*   **State Snapshots**: The memory [provides evidence for](#reasoning-core "epistemic:supports") the reasoning core by featurizing the graph density and entity counts into tensors.
+
+## 4. Hybrid Reasoning Core {#reasoning-core}
+
+The [Reasoning Core](#core-impl "ontological:defines") is a multi-modal processor that selects between three distinct reasoning strategies:
+
+1.  **Rule-Based Mode**: A deterministic solver that [interacts with](#relational-memory "dynamical:interacts_with") specific scenarios (e.g., `apple_sharing`, `recipe_scaling`) using hardcoded mathematical logic.
+2.  **GRU Neural Network**: A stateful RNN [built on](#pytorch-impl "ontological:defines") PyTorch that iteratively processes the memory state. It [measures](#halt-prob "epistemic:measures") the likelihood that the problem is solved and [proposes](#relational-update "dynamical:transforms_to") updates to the memory.
+3.  **Feature-Based Stub**: A fallback mechanism that [precedes](#neural-learning "geometric:precedes") full training, providing a baseline for system stability.
+
+## 5. Training and Evaluation {#eval-harness}
+
+The repository includes a dedicated [Evaluation Harness](#evaluate-py "epistemic:measures") and [Teacher Set Generator](#build-teacher "meta:corresponds_to").
+
+*   **Supervised Learning**: The `train_core.py` script [supports](#reasoning-core "epistemic:supports") the optimization of the GRU by using rule-based solvers as "teachers" to generate high-confidence reasoning traces.
+*   **Performance Metrics**: The system [is validated by](#test-prompts "epistemic:measures") a 100-task dataset (`test_prompts.json`) covering math reasoning, time calculation, and scaling.
+
+## 6. Current System Status {#status}
+
+As of the latest update, the system has successfully [transitioned from](#silent-fallbacks "dynamical:transforms_to") a "silent fallback" model to a "loud failure" model to ensure architectural transparency. While the [Rule-Based solvers](#rule-based "epistemic:supports") provide 100% accuracy on covered scenarios, the [GRU Core](#reasoning-core "meta:emerges_from") is currently in a "ready-for-training" state, having mastered halting logic but still requiring supervised fine-tuning for complex answer generation.
+
+***
+
+### Relational Map (Summary)
+
+*   `main.py` [orchestrates](#controller "ontological:composes") the execution.
+*   `hybrid_reasoner/memory` [defines](#relational-memory "ontological:defines") the data substrate.
+*   `hybrid_reasoner/semantic` [interacts with](#ollama-integration "dynamical:interacts_with") external LLMs.
+*   `hybrid_reasoner/core` [transforms](#relational-memory "dynamical:transforms_to") the internal state.
+*   `evaluate.py` [measures](#top "epistemic:measures") the system's total accuracy.

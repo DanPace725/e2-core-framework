@@ -1,0 +1,73 @@
+<!-- ormd:1.0 -->
+---
+title: "The 'Intelligence Field' Framework"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "cognitive.theory.framework"
+lineage:
+  origin: { uri: "internal://docs/intelligence-field-v1", ts: "2025-04-28T08:30:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["intelligence", "navigation", "cognitive-field", "modulation-performance", "consciousness"]
+resolution: { confidence: 0.85 }
+
+# Publishing & Assets
+pageSetup:
+  template: academic
+---
+
+# The "Intelligence Field" Framework {#title}
+
+4/28/25 8:30 AM
+
+## 1. Core Concept: Intelligence as Dynamic Navigation {#core-concept}
+
+This framework shifts from viewing intelligence as a static quantity (like knowledge stored or IQ score) to seeing it as a dynamic [modulation performance](#intelligence-in-action "dynamical:transforms_to") – the capacity to effectively navigate a complex internal and external landscape. It's less about *what* you know and more about *how* you move through what you know, what you don't know, and what you can imagine or predict.
+
+## 2. The Intelligence Field (Φ) {#intelligence-field}
+
+The "landscape" is conceptualized as a multi-dimensional [Intelligence Field (Φ)](#intelligence-field "ontological:defines"). This field represents the mind's latent potential, including its knowledge structures, learned patterns, biases, and the probability distributions governing potential cognitive movements.
+
+- **Dimensions (Initial Model):** Key dimensions [influencing navigation](#intelligence-in-action "symmetric:constrains") include **Depth (D)** (analytical penetration), **Creativity (C)** (novel, coherent linkage), **Breadth (B)** (cross-domain connections), **Foresight (F)** (prediction, planning), and **Past/Context (P)** (accessing relevant experience/knowledge). It's recognized these [dimensions](#intelligence-field "ontological:composes") are high-level and likely multifaceted.
+- **Nature of the Field:**
+    - **Informational:** [Encodes relationships](#intelligence-field "ontological:composes"), concepts, possibilities.
+    - **Energetic:** Navigation requires cognitive effort or energy; different paths or states have different associated costs/loads.
+    - **Dynamic & Open:** The field is [constantly shaped](#intelligence-field "dynamical:interacts_with") by learning, experience, internal states (mood, fatigue), and interaction with the external environment. It is not a fixed, isolated system.
+
+## 3. Intelligence in Action (Ψ): Navigation & Performance {#intelligence-in-action}
+
+Actual thinking, problem-solving, or interaction (Ψ) is modeled as a [trajectory (V(t))](#intelligence-in-action "geometric:embedded_in") through the [Intelligence Field (Φ)](#intelligence-field "geometric:embedded_in").
+
+- **Modulation Performance (MP):** Intelligence is assessed by the *quality* of this navigation, rather than a single score. Key characteristics include:
+    - **Outcome/Reach:** Successfully achieving relevant goals or target states within the field.
+    - **Speed:** The rate of meaningful traversal along the trajectory.
+    - **Efficiency:** Achieving the outcome with minimal wasted cost (time, cognitive effort/load).
+    - **Adaptability:** The ability to [adjust trajectories](#intelligence-in-action "dynamical:transforms_to") effectively in response to changing contexts or unexpected obstacles.
+    - **Coherence:** Maintaining meaningful, integrated processing without descending into noise or confusion ("decoherence").
+
+## 4. Essential Modulators {#modulators}
+
+Navigation quality is [influenced by key modulators](#modulators "symmetric:constrains"):
+
+- **κ (Cognitive Processing Calibration):** Relates to inherent processing capacity, [influencing maximum speed](#intelligence-in-action "symmetric:limits"), complexity handling, and energy efficiency.
+- **η (Empathic Normality Constant):** Tunes affective resonance and the ability to [align one's own field navigation](#intelligence-in-action "meta:corresponds_to") with that of others, crucial for social intelligence and communication efficiency.
+
+## 5. Consciousness and Agency {#consciousness-agency}
+
+Consciousness is framed not as *being* the field, but as the [awareness](#consciousness-agency "epistemic:measures") of the [field (Φ)](#intelligence-field "epistemic:measures") and the ongoing [navigation process (V(t))](#intelligence-in-action "epistemic:measures").
+
+Agency is [linked to this awareness](#consciousness-agency "ontological:composes") – the capacity to experience the navigation and potentially [exert volitional influence](#intelligence-in-action "geometric:causes"), directing attention, setting goals (V_target), and choosing paths within the field.
+
+## 6. Implications {#implications}
+
+- **Measurement:** Suggests moving beyond static tests towards dynamic assessments that [probe navigation capabilities](#intelligence-in-action "epistemic:measures") (speed, efficiency, adaptability across D,C,B,F,P).
+- **Development & Training:** Focus shifts from merely accumulating knowledge (modifying Φ's content) to [enhancing navigation skills](#intelligence-in-action "dynamical:transforms_to") (improving Ψ) and cultivating adaptive, efficient field structures (optimizing Φ).
+- **Understanding Differences:** Individual differences arise from [variations in field shape (Φ)](#intelligence-field "ontological:defines"), navigation preferences (Ψ), and modulator settings (η, κ).
+- **Collaboration & AI:** Provides a framework for understanding social intelligence as [field interaction](#intelligence-field "meta:corresponds_to") and for designing AI with more flexible, context-aware, and efficient cognitive architectures.
+- **Ethics:** Clearly [separates cognitive capacity](#modulators "symmetric:constrains") (field properties, navigation skill) from inherent personal or social worth.
+
+In essence, intelligence is portrayed as the **efficient, adaptive, and potentially creative navigation of a dynamic, info-energetic field of possibility**, shaped by experience and [modulated by cognitive capacity](#modulators "symmetric:constrains") and social attunement, all potentially [overseen and directed](#consciousness-agency "geometric:causes") by conscious agency.
+

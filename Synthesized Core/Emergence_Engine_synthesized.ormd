@@ -1,0 +1,159 @@
+<!-- ormd:1.0 -->
+---
+title: 'Emergence Engine: Architectural Synthesis & System Summary'
+authors:
+- Daniel Pace
+frame: summary.synthesized
+semantics:
+  keywords:
+  - multi-agent-systems
+  - reinforcement-learning
+  - stigmergy
+  - computational-ecology
+  - turing-completeness
+  - summary
+  - emergence
+  - artificial life
+  - computational biology
+  - reinforcement learning
+  - parameter optimization
+  - behavioral strategies
+  - complex systems
+  - synthesis
+  domains:
+  - cognition_psychology
+  - systems_engineering
+  - ai_collaboration
+  - ontology_core
+  document_type:
+  - implementation
+  - derived_framework
+  - foundational_theory
+lineage:
+  parents:
+  - urn:repo:EmergenceEngine:src
+  - urn:cb:Emergence Engine overview.ormd
+  - urn:cb:Emergence Engine.ormd
+resolution:
+  confidence: 1.0
+---
+
+> **Synthesized document** — merged from 3 sources:
+> - EmergenceEngine Repo Summary.ormd
+> - Emergence Engine overview_summary.ormd
+> - Emergence Engine_summary.ormd
+
+# Emergence Engine Architectural Synthesis
+
+The **Emergence Engine** is a sophisticated multi-agent sandbox designed to simulate and evolve complex collective behaviors through a combination of biologically-inspired mechanics and reinforcement learning. The system [integrates](#core-orchestration "dynamical:interacts_with") spatial stigmergy, dynamic resource ecology, and Turing-complete computational substrates.
+
+## 1. Core Orchestration {#core-orchestration}
+
+The simulation lifecycle is managed by a deterministic phase-based loop that ensures consistency across both real-time "Play" mode and accelerated "Training" episodes.
+
+*   **Main Entry Point:** `app.js` [composes](#world-system "ontological:composes") the high-level systems, initializing the PixiJS renderer and the [World](#world-system "ontological:defines") state.
+*   **Simulation Loop:** `src/core/simulationLoop.js` [defines](#loop-logic "ontological:defines") the `capture → update → environment → resource → reproduction → decay → finalize` sequence.
+*   **State Management:** `src/core/world.js` [measures](#metrics-tracking "epistemic:measures") the global population and resource pressure, acting as the primary data container.
+
+## 2. Agent Mechanics (Bundles) {#agent-mechanics}
+
+Agents, referred to as "Bundles," are autonomous entities whose behavior is a product of both hand-coded heuristics and learned policies.
+
+*   **Behavioral Logic:** `src/core/bundle.js` [defines](#bundle-logic "ontological:defines") the agent's physical presence and [interacts with](#signal-field "dynamical:interacts_with") the environment.
+*   **Sensing System:** `src/core/sensing.js` [constrains](#metabolism "symmetric:constrains") the agent's vision based on Chi (energy) expenditure and frustration levels.
+*   **Controller Routing:** `src/systems/controllerAction.js` [corresponds to](#learning-engine "meta:corresponds_to") the decision-making bridge, switching between `HeuristicController` and `LinearPolicyController` in `controllers.js`.
+*   **Metabolism:** `src/systems/metabolism.js` [causes](#decay-system "geometric:causes") energy depletion over time, which [is limited by](#config-layer "symmetric:constrains") the `baseDecayPerSecond` in `config.js`.
+
+## 3. Environmental Substrate {#environmental-substrate}
+
+The environment is not a static backdrop but an active participant in the simulation, providing multiple channels for agent interaction.
+
+*   **Stigmergy (Trails):** The `Trail` system in `app.js` [supports](#cooperation "epistemic:supports") indirect communication, where agents [transform](#trail-logic "dynamical:transforms_to") their movement into chemical signals.
+*   **Signal Field:** `signalField.js` [defines](#signal-field "ontological:defines") a multi-channel grid for resource success, distress, and bonding signals.
+*   **Plant Ecology:** `plantEcology.js` [causes](#resource-logic "geometric:causes") resource clustering and spontaneous growth based on a [Fertility Grid](#fertility-logic "ontological:defines").
+*   **Scent Gradients:** `scentGradient.js` [measures](#navigation "epistemic:measures") the distance to resources, providing a continuous navigation field for agents.
+
+## 4. Learning & Adaptation {#learning-adaptation}
+
+The engine features a built-in training pipeline that uses the Cross-Entropy Method (CEM) to optimize agent behavior.
+
+*   **Policy Evolution:** `learner.js` [transforms](#policy-states "dynamical:transforms_to") random weight distributions into elite policies based on [Reward Tracking](#reward-logic "epistemic:measures").
+*   **Reward System:** `rewards.js` [measures](#performance "epistemic:measures") performance using adaptive rewards that [scale with](#metabolism "meta:corresponds_to") search difficulty and metabolic costs.
+*   **Observation Building:** `observations.js` [defines](#obs-vector "ontological:defines") the 29-dimensional vector that feeds into the neural controllers.
+*   **Adaptive Heuristics:** `src/core/adaptiveHeuristics.js` [constrains](#behavioral-tuning "symmetric:constrains") heuristic parameters in real-time, allowing the system to [evolve](#learning-engine "dynamical:transforms_to") without full policy retraining.
+
+## 5. Turing Completeness (TC) {#turing-completeness}
+
+The simulation includes experimental layers for universal computation, allowing the environment to be driven by algorithmic patterns.
+
+*   **Rule 110:** `tc/tcRule110.js` [corresponds to](#environmental-substrate "meta:corresponds_to") a cellular automaton that can [influence](#resource-logic "geometric:causes") resource spawning via `tcResourceBridge.js`.
+*   **Turing Tape:** `tc/tcTape.js` [defines](#tape-logic "ontological:defines") a deterministic tape-based machine runtime.
+*   **TC Scheduler:** `tcStorage.js` [constrains](#loop-logic "symmetric:constrains") the execution of computational steps to specific simulation phases.
+
+## 6. System Relationships & Primitives {#relationships}
+
+| Relationship | Primitive | Description |
+| :--- | :--- | :--- |
+| `config.js` → Simulation | **Symmetric** | [constrains](#loop-logic "symmetric:constrains") all physics and behavioral constants. |
+| `rewards.js` → `learner.js` | **Epistemic** | [measures](#learning-engine "epistemic:measures") the fitness of sampled policies. |
+| `plantEcology.js` → `resource.js` | **Geometric** | [causes](#resource-logic "geometric:causes") the spatial distribution of resources. |
+| `mitosis.js` → `world.js` | **Dynamical** | [transforms](#population "dynamical:transforms_to") the agent population size. |
+| `app.js` → `pixi.js` | **Ontological** | [is composed of](#rendering "ontological:composes") the visual rendering pipeline. |
+| `signalField.js` → `bundle.js` | **Dynamical** | [interacts with](#bundle-logic "dynamical:interacts_with") agent perception to bias steering. |
+
+## 7. Operational Summary {#operational-summary}
+
+The Emergence Engine [is composed of](#core-orchestration "ontological:composes") a modular core where `src/core/world.js` maintains the state, `src/core/bundle.js` executes agent logic, and `src/core/simulationLoop.js` drives the clock. The system [measures](#analytics "epistemic:measures") its own progress via `src/core/metricsTracker.js` and [transforms](#evolution "dynamical:transforms_to") agent behavior through the `CEMLearner`. All systems [are limited by](#config-layer "symmetric:constrains") the centralized `config.js`, which [defines](#tuning "ontological:defines") the boundaries of the simulated physics.
+
+
+---
+
+## Supplementary Content from: Summary: The Emergence Engine - A Computational Microscope
+
+# Executive Summary: The Emergence Engine {#summary-top}
+
+The Emergence Engine is a sophisticated browser-based simulation designed to observe the crystallization of intelligence through interaction. Rather than using pre-programmed behaviors, the system utilizes [simple agents](#agent-behavior "ontological:composes") that navigate a 2D environment to discover survival strategies. This discovery is facilitated by a robust [interaction topology](#topology "symmetric:constrains") and [reinforcement learning](#rl "dynamical:transforms_to") (RL) mechanisms.
+
+## Metabolic and Ecological Foundations {#metabolic-foundations}
+
+The simulation's economy is grounded in [Ï‡ (chi)](#chi-energy "ontological:defines"), a fundamental energy currency. This currency is not merely a game mechanic but [corresponds to](#metabolism "meta:corresponds_to") [biological reality](#metabolism "meta:corresponds_to") and [cellular metabolism](#metabolism "meta:corresponds_to"), where 1 Ï‡ represents approximately 10⁸ ATP molecules. Agents must manage chi expenditures—including metabolism, movement, and sensing—against resource acquisition.
+
+The environment is a dynamic ecology where resources are generated by a [fertility grid](#fertility-grid "geometric:causes"). This grid creates a feedback loop of growth, depletion, and migration, ensuring the world remains non-static and challenging for the agent population.
+
+## Agent Dynamics and Communication {#agent-dynamics}
+
+Agents possess internal states like hunger and frustration that modulate their behavior. To navigate and cooperate, they rely on a [trail system](#trail-system "epistemic:supports") that functions as a collective memory. As agents move, they deposit [chemical trails](#trail-system "epistemic:supports") that others can follow, creating emergent social coordination.
+
+Information gathering is balanced by [sensing economics](#sensing-economics "symmetric:limits"). A [quadratic cost model](#sensing-economics "symmetric:limits") ensures that extended vision is energetically expensive, forcing agents to pulse their sensing and rely on cheaper [scent gradients](#scent-gradients "epistemic:supports") for [navigation](#scent-gradients "epistemic:supports").
+
+## Learning and Evolutionary Optimization {#learning-optimization}
+
+The engine employs the [Cross-Entropy Method (CEM)](#cem-process "ontological:defines") to optimize behavioral parameters across generations. This is augmented by [Adaptive Heuristics (AH)](#adaptive-heuristics "meta:corresponds_to"), which [constrains](#adaptive-heuristics "symmetric:constrains") parameter expression based on real-time environmental conditions.
+
+The [reward structure](#reward-structure "symmetric:constrains") is critical for learning legibility. It utilizes [adaptive rewards](#reward-formula "symmetric:constrains") that scale based on search difficulty, ensuring a clear [signal](#reward-formula "dynamical:transforms_to") for the optimization process. Successful agents eventually undergo [mitosis](#reproduction "ontological:composes"), passing learned policies to their offspring.
+
+## Emergent Intelligence and Philosophical Implications {#emergence-philosophy}
+
+The simulation demonstrates that [complex adaptive behavior](#intelligence-interaction "meta:emerges_from") and [distinct strategies](#behavioral-archetypes "meta:emerges_from")—such as scouts, foragers, and parasites—[emerge from](#behavioral-archetypes "meta:emerges_from") simple rules and interaction dynamics. 
+
+Ultimately, the Emergence Engine serves as a [computational microscope](#microscope "epistemic:measures") for [watching intelligence crystallize](#intelligence-emergence "epistemic:measures"). It acts as an [existence proof](#proof-of-concept "epistemic:supports") for the [E² framework](#e2-framework "ontological:composes"), showing that when agents are provided with proper [ontological grounding](#chi "ontological:defines") and [dynamical constraints](#metabolism "symmetric:constrains"), they discover the conditions for their own flourishing.
+
+
+---
+
+## Supplementary Content from: Summary: Emergence Engine
+
+# Synthesis of the Emergence Engine {#synthesis-top}
+
+The [Emergence Engine](#emergence-engine "ontological:defines") is a technical framework and research methodology focused on the development of [Emergent Behavioral Strategies Through Parameter Optimization](#core-concept "ontological:defines"). 
+
+## Core Methodology {#methodology}
+The system functions by identifying how specific [parameter optimization](#optimization-process "dynamical:transforms_to") routines can lead to the spontaneous development of complex behaviors. This process [composes](#behavioral-landscape "ontological:composes") a behavioral landscape where strategies are not explicitly programmed but instead emerge from the underlying [relational physics](#physics-engine "geometric:causes") of the environment.
+
+## Research Implications {#implications}
+The documentation [supports](#research-validity "epistemic:supports") the theory that complex system dynamics can be effectively steered by fine-tuning fundamental constraints. This approach [corresponds to](#complex-systems-theory "meta:corresponds_to") broader studies in autonomous agent evolution and self-organizing systems.
+
+### Key Entities & Relations
+- **The Engine**: [Emergence Engine](#emergence-engine "ontological:defines") acts as the primary substrate for experimentation.
+- **The Strategy**: [Behavioral Strategies](#strategies "ontological:composes") are the emergent outputs of the optimization cycles.
+- **The Constraints**: The system [is limited by](#parameter-bounds "symmetric:constrains") the initial parameter space defined at the onset of simulation.

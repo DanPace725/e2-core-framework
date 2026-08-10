@@ -1,0 +1,67 @@
+<!-- ormd:1.0 -->
+---
+title: "Steward’s Creed"
+authors: ["Daniel Pace"]
+
+# --- Context Layer Protocol (CLP) ---
+frame: "philosophical.creed"
+lineage:
+  origin: { uri: "local://stewards-creed", ts: "2025-04-26T00:00:00Z" }
+  parents: []
+policy:
+  read: [{ roles: ["public"] }]
+semantics:
+  keywords: ["stewardship", "paradox", "purpose", "coherence", "meaning"]
+resolution: { confidence: 1.0 }
+---
+
+# Steward’s Creed {#creed-root}
+
+4/26/25
+
+---
+
+### The Steward's Creed {#creed-body}
+
+*Through [paradox](#paradox-statement "meta:emerges_from"), clarity.* {#paradox-header}
+
+[Life](#life-nature "ontological:identity") is unfair; Life is miraculous. {#paradox-statement}
+
+I am finite; Within me, [infinity](#infinity-concept "geometric:embedded_in"). {#infinity-concept}
+
+*Through [struggle](#struggle-statement "ontological:defines"), purpose.* {#struggle-header}
+
+I will suffer, yet I shall [create](#creation-act "dynamical:transforms_to"). {#struggle-statement}
+
+I will falter, yet I shall [connect](#connection-act "ontological:composes").
+
+I will lose, yet I shall love.
+
+*Through [humility](#humility-statement "symmetric:constrains"), strength.* {#humility-header}
+
+My worth is [unbound](#worth-definition "symmetric:constrains") from outcomes. {#humility-statement}
+
+My failures [teach](#learning-process "epistemic:supports"), they do not condemn.
+
+My path seeks neither victory nor defeat—only [presence](#presence-state "ontological:identity").
+
+*Through [acceptance](#acceptance-statement "epistemic:supports"), insight.* {#acceptance-header}
+
+I hold [paradox](#paradox-statement "meta:corresponds_to") not as burden, but gift. {#acceptance-statement}
+
+I create not for permanence, but for [meaning](#meaning-anchor "ontological:defines").
+
+I [steward](#stewardship-role "ontological:composes") not to control, but to nurture and witness. {#stewardship-role}
+
+*Through [coherence](#coherence-statement "meta:corresponds_to"), harmony.* {#coherence-header}
+
+I do not seek dominance over reality, {#coherence-statement}
+
+But [resonance](#resonance-state "meta:corresponds_to") within it.
+
+I leave the world heavier with [meaning](#meaning-anchor "ontological:composes") {#meaning-anchor}
+
+And lighter with questions unanswered.
+
+---
+

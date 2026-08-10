@@ -1,0 +1,120 @@
+<!-- ormd:1.0 -->
+---
+title: 'Summary: Adversarial Occlusion and Mechanism Integrity (AOMI) Framework'
+authors:
+- Daniel Pace
+- AOMI AI Synthesis
+frame: summary.synthesized
+semantics:
+  keywords:
+  - AOMI
+  - adversarial ethics
+  - mechanism design
+  - summary
+  - relational primitives
+  - mechanism integrity
+  - adversarial occlusion
+  - anti-fragility
+  - relational graph
+  domains:
+  - ethics_rights
+  - systems_engineering
+  - mathematics_logic
+  - stewardship_architecture
+  document_type:
+  - foundational_theory
+  - derived_framework
+  - specification
+lineage:
+  parents:
+  - urn:cb:AOMI AI responses.ormd
+  - urn:cb:Adversarial Occlusion and Mechanism Integrity V1.ormd
+  - urn:cb:AOMI Adversarial Occlusion and Mechanism Integrity.ormd
+resolution:
+  confidence: 0.95
+---
+
+> **Synthesized document** — merged from 3 sources:
+> - AOMI AI responses_summary.ormd
+> - Adversarial Occlusion and Mechanism Integrity V1_summary.ormd
+> - AOMI Adversarial Occlusion and Mechanism Integrity_summary.ormd
+
+# Executive Summary: The AOMI Framework {#summary-main}
+
+This document synthesizes the core tenets of **Adversarial Occlusion & Mechanism Integrity (AOMI)**, a proposed branch of ethics and system design focused on the strategic exploitation of "blind spots" within formal frameworks.
+
+## 1. Conceptual Definition {#definition-summary}
+
+[AOMI](#aomi-definition "ontological:defines") serves as a formal discipline to model, predict, and counter behaviors that deliberately utilize [occlusion zones](#aomi-definition "ontological:is_part_of")—areas of high complexity or low telemetry—to extract private gain or avoid accountability. It addresses the "gaming" of systems where actors steer decisions into the "fog" of undecidability.
+
+## 2. Theoretical Foundations & Adversarial Dynamics {#foundations}
+
+The framework draws heavily from [mechanism design](#game-theory "meta:corresponds_to") (often termed "reverse game theory") to create incentive structures that remain robust even when participants are actively adversarial. A primary challenge identified is the phenomenon where [Goodhart's Law](#goodharts-law "epistemic:refutes") causes measures to fail once they become targets, leading to "metric gaming."
+
+In these adversarial environments, actors exploit [computationally irreducible pockets](#math-formalization "ontological:composes") to create plausible deniability. Historical precedents, such as the [2008 financial crisis](#crisis-example "geometric:precedes"), demonstrate how manufactured complexity can eventually trap even the exploiters within the zones of undecidability they created.
+
+## 3. The AOMI Threat Model {#threat-model-summary}
+
+The [threat model](#threat-model "ontological:composes") identifies several key tactics used by "gamers":
+*   **Occlusion-seeking**: Routing choices into high-complexity workflows.
+*   **Responsibility laundering**: Fragmenting decisions across time and actors to prevent attribution.
+*   **Cognitive jamming**: Overloading oversight mechanisms with "complexity stuffing."
+*   **Temporal arbitrage**: Exploiting predictable gaps in monitoring or high-pressure windows.
+
+## 4. Mitigation Strategies & Design Patterns {#mitigation}
+
+To counter these exploits, AOMI proposes several [design patterns](#design-patterns "symmetric:constrains") aimed at maintaining system integrity:
+*   **Paradoxical Policing**: Setting audit probabilities as an increasing function of occlusion; the "foggier" a path, the higher the audit intensity.
+*   **Occlusion Budgets**: Capping the allowable exposure to undecidable zones per decision class, which may [auto slow-path or halt](#design-patterns "symmetric:constrains") processes that exceed limits.
+*   **Liability Staking**: Requiring "Responsibility Bonds" for high-risk actions.
+*   **Metric Ensembles**: Rotating and hiding the specific weights of metrics to blunt the effects of Goodharting.
+
+## 5. Formalization and Metrics {#formalization-summary}
+
+The framework moves toward mathematical rigor by defining an [Exploitability index](#math-formalization "epistemic:measures") (Ξ), which quantifies the inverse relationship between detection/penalties and the potential for exploitation. By treating [AOMI](#aomi-definition "ontological:defines") as a Stackelberg game, designers can optimize for "mechanism resilience," minimizing the regret caused by the best possible adversarial strategies.
+
+
+---
+
+## Supplementary Content from: Summary: Adversarial Occlusion and Mechanism Integrity (AOMI) Framework
+
+# Summary of the AOMI Framework {#aomi-summary}
+AOMI Adversarial Occlusion and Mechanism Integrity
+The **Adversarial Occlusion and Mechanism Integrity (AOMI)** framework is a comprehensive methodology designed to protect accountability systems from sophisticated actors who exploit [blind spots](#threat-model "ontological:composes") and uncertainty. It moves beyond reactive security by treating "ethical occlusion"—the structural fog within complex systems—as a geometric property that can be measured and managed.
+
+## Core Philosophy and Foundations {#foundations-summary}
+
+The framework is built upon the [Gaming Inevitability Principle](#gaming-principle "ontological:defines"), which asserts that any sufficiently complex mechanism will be [interacted with](#threat-model "dynamical:interacts_with") by actors seeking to bypass its intent. These [theoretical foundations](#foundations "ontological:composes") suggest that gaming [emerges from](#foundations "meta:emerges_from") the inherent structure of the system rather than simple malice.
+
+## Defense Architecture and Strategy {#defense-summary}
+
+To counter exploitation, the [defense architecture](#defense-architecture "symmetric:constrains") employs several innovative layers:
+
+- **Paradoxical Policing**: A strategy where high-occlusion pathways [trigger enhanced monitoring](#layer-4 "dynamical:interacts_with"), effectively making "foggy" decision-making more risky and expensive.
+- **Adversarial Reserve Capacity**: The system maintains excess attention and measurement bandwidth specifically to [absorb gaming](#gaming-principle "symmetric:constrains") without collapsing.
+- **Exploitation-as-Signal**: Gaming attempts are not merely blocked but are treated as [valuable intelligence](#layer-4 "epistemic:supports") to identify and harden system vulnerabilities.
+
+## Measurement and Implementation {#implementation-summary}
+
+AOMI provides a rigorous mathematical approach to integrity, utilizing metrics such as the [Exploitability Index (Ξ)](#exploitability-index "epistemic:measures") and the [Gaming Exposure Score (GES)](#ges-def "epistemic:measures"). These allow for the [measurement](#layer-5 "epistemic:measures") of power field distortions and beneficiary patterns.
+
+The framework [corresponds to](#implementation-companion "meta:corresponds_to") practical deployment through [CLP witness tokens](#clp-sketch "epistemic:measures") and [estimators](#estimators "ontological:composes") that monitor temporal compression and resolution. The system [transforms into](#phase-4 "dynamical:transforms_to") an anti-fragile state via a [four-phase roadmap](#roadmap "ontological:defines"), ensuring that [transparency measures](#transparency-principles "epistemic:supports") and [invariants](#invariants "symmetric:constrains") are maintained even under adversarial pressure.
+
+## Conclusion {#conclusion-summary}
+
+By integrating with existing protocols like CFAR and CLP, AOMI ensures that accountability remains a live, verifiable property. It transforms the adversarial dynamic into a positive-sum evolution, where the system becomes measurably stronger through the very attempts made to subvert it.
+
+
+---
+
+## Supplementary Content from: Summary: AOMI Adversarial Occlusion and Mechanism Integrity
+
+# Summary: AOMI Adversarial Occlusion and Mechanism Integrity {#summary-header}
+
+This document provides a synthesized overview of the AOMI report regarding Adversarial Occlusion and Mechanism Integrity. The original document, authored by Daniel Pace, serves as a critical reference for AI safety and robustness protocols.
+
+## Relational Synthesis {#relational-synthesis}
+
+The AOMI framework is designed to maintain system stability under pressure. It functions as an iterative development in security research, where this specific version [corresponds to](#aomi-v1 "meta:corresponds_to") the earlier Adversarial Occlusion and Mechanism Integrity V1. 
+
+The core contribution of the document is its epistemic value; the methodologies and findings presented [support AI responses](#aomi-ai-responses "epistemic:supports") by ensuring that mechanism integrity is preserved even when adversarial occlusion occurs. This ensures that the [AOMI framework](#aomi-header "ontological:defines") remains a robust substrate for verifiable AI behavior.

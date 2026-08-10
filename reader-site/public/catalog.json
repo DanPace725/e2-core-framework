@@ -1,0 +1,1998 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-10T21:18:17.112Z",
+  "title": "E² Core Framework",
+  "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
+  "authority": {
+    "human": "Semantic Substrate Markdown",
+    "ai": "Context Layer ORMD",
+    "navigation": "Context Layer Master Index"
+  },
+  "entrySlug": "context-layer-master-index",
+  "counts": {
+    "documents": 89,
+    "clusters": 11,
+    "humanWords": 212949
+  },
+  "clusters": [
+    {
+      "id": "A",
+      "name": "Foundational Axioms & Core Ontology",
+      "scope": "The irreducible bedrock of E². Establishes what relationships *are*, how they compose, and what constraints govern all relational systems. Every other cluster presupposes this one.",
+      "triggers": [
+        "relational ontology",
+        "axioms",
+        "relational primitives",
+        "P1–P6",
+        "global closure operator",
+        "GCO",
+        "E² equation",
+        "SCIA",
+        "RPLang",
+        "first principles",
+        "essence of existence",
+        "recursive composition"
+      ],
+      "entryPoint": "Relational Primitives → E^2 Equation → Global Closure Operator",
+      "docs": [
+        "e2-axioms",
+        "e2-entry-point",
+        "e2-equation",
+        "global-closure-operator",
+        "original-e2-work",
+        "relational-primitives"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Formal & Mathematical Translations",
+      "scope": "Formal mappings of E² into established mathematical formalisms — category theory, lambda calculus, relational physics, and computability theory. These documents verify the internal consistency of Cluster A claims and reveal the framework's theoretical limits.",
+      "triggers": [
+        "category theory",
+        "lambda calculus",
+        "fixed point",
+        "functor",
+        "morphism",
+        "Church numerals",
+        "TQFT",
+        "stress-energy tensor",
+        "dark matter",
+        "MPDC",
+        "EUP",
+        "FISSR",
+        "embedded universality",
+        "observational profile",
+        "ρ_crit",
+        "computability",
+        "decidability",
+        "RCP",
+        "Rayleigh limit",
+        "hysteresis",
+        "field theory",
+        "RFD"
+      ],
+      "entryPoint": "CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle",
+      "docs": [
+        "afd-first-principles",
+        "ct-translation-of-rps",
+        "derivation-deep-dive",
+        "embedded-universality-principle-eup",
+        "meta-pattern-decidability-conjecture-mpdc",
+        "relational-field-dynamics-0-1",
+        "rp-lambda-calc-translation"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Dynamics, Emergence & Systems Frameworks",
+      "scope": "How relational systems change, stabilize, and generate emergent structure. Covers the CFA/CFAR dynamics framework, AVIA adaptation theory, the REMF meta-framework, emergence simulation, and the physics of tensional intelligence.",
+      "triggers": [
+        "emergence",
+        "CFA dynamics",
+        "CFAR",
+        "AVIA",
+        "REMA",
+        "REMF",
+        "constraint-fluctuation",
+        "Rayleigh criterion",
+        "phase transitions",
+        "adaptation",
+        "entropy reduction",
+        "tensional intelligence",
+        "foreclosure",
+        "complex systems",
+        "ecology simulation",
+        "mitosis",
+        "chi"
+      ],
+      "entryPoint": "REMF → Universal Emergence Pattern → CFA → CFAR",
+      "docs": [
+        "adaptation-via-informational-abstraction",
+        "cfar",
+        "emergence-determination-foreclosure",
+        "from-essential-relationships-to-ontological-transformation",
+        "pattern-integrity-over-time-under-entropy",
+        "remf",
+        "tension",
+        "tensional-intelligence-a-theoretical-foundation",
+        "cfa",
+        "emergence-engine-overview",
+        "universal-emergence-pattern"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Metabolic, Resonance & Temporal Physics",
+      "scope": "The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants.",
+      "triggers": [
+        "metabolic meaning",
+        "meaning metabolism",
+        "MMPS",
+        "phase space",
+        "resonance",
+        "coherence",
+        "temporal constraint",
+        "TCL",
+        "coupling threshold",
+        "latency",
+        "chaos",
+        "parametric resonance",
+        "signal",
+        "bias field",
+        "SCIA",
+        "ontological interoperability",
+        "approach vector",
+        "threshold design"
+      ],
+      "entryPoint": "Metabolic Meaning Phase Space → The Resonance Framework → Signal as Bias Field",
+      "docs": [
+        "metabolic-meaning-phase-space-mmps",
+        "resonance-architecture-4-17-25",
+        "signal-as-bias-field",
+        "tcl-plain-english-summary",
+        "the-architecture-of-resonant-systems-4-26-25",
+        "tcl-three-constants",
+        "the-resonance-framework-an-ontological-map-4-24-25"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Ethics, Stewardship & Rights",
+      "scope": "The normative layer of E². Grounds ethics in relational structure: rights derive from primitives, stewardship is the relational obligation to maintain coherence, and localization ethics assigns accountability within complex causal chains. Includes temporal ethics and AI interaction ethics.",
+      "triggers": [
+        "stewardship",
+        "relational bill of rights",
+        "ethics",
+        "boundary",
+        "localization",
+        "proxy",
+        "remnant",
+        "asymmetry maintenance",
+        "temporal compression",
+        "ethical occlusion",
+        "justice",
+        "accountability",
+        "AI ethics",
+        "human-AI",
+        "FCIL",
+        "MCIL",
+        "invisible labor",
+        "boundary ethics",
+        "complex causality",
+        "responsibility laundering"
+      ],
+      "entryPoint": "Reverent Stewardship → Relational Bill of Rights v2 → Justice Across Scales",
+      "docs": [
+        "asymmetry-maintenance-core-source",
+        "boundary-ethics-core-source",
+        "complex-causality-core-source",
+        "ethical-occlusion-via-temporal-compression-eotc",
+        "ethical-principles-for-human-ai-interaction",
+        "human-ai-creative-collaboration-framework-haic",
+        "interlocked-stewardship-v2",
+        "justice-across-scales",
+        "justice-across-scales-practical-applications",
+        "proxy-localization-core-source",
+        "relational-bill-of-rights-v2",
+        "relational-localization-core-source",
+        "remnant-stewardship-core-source",
+        "reverent-stewardship"
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Adversarial, Security & Cognitive Integrity",
+      "scope": "How relational systems resist, detect, and recover from adversarial manipulation. AOMI formalizes mechanism gaming and Goodhart dynamics; MRIE addresses identity-pattern exposure through relational signatures; the Exposure Protocol preserves coherence during transmission.",
+      "triggers": [
+        "adversarial occlusion",
+        "mechanism integrity",
+        "AOMI",
+        "Goodhart's Law",
+        "cognitive signature",
+        "MRIE",
+        "identity capture",
+        "reconstruction potential",
+        "P6 closure",
+        "occlusion zones",
+        "soft singularity",
+        "truth ceiling",
+        "relational irreducibility",
+        "exposure protocol",
+        "morphism",
+        "coherence transmission",
+        "anti-fragile"
+      ],
+      "entryPoint": "Adversarial Occlusion & Mechanism Integrity V1 → AOMI AI Responses → Cognitive Signature Capture → MRIE",
+      "docs": [
+        "adversarial-occlusion-and-mechanism-integrity-v1",
+        "aomi-ai-responses",
+        "cognitive-signature-capture-an-unnamed-threat",
+        "exposure-protocol",
+        "mrie-unified-synthesis",
+        "relational-irreducibility-framework-rif",
+        "truth-ceiling"
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Consciousness, Cognition & Identity",
+      "scope": "How relational dynamics give rise to consciousness, cognitive structure, and identity. Treats consciousness as triadic relational architecture, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems).",
+      "triggers": [
+        "consciousness",
+        "triadic architecture",
+        "recursive occlusion",
+        "intelligence field",
+        "cognitive ecology",
+        "collective cognition",
+        "AI alignment",
+        "relational volition",
+        "free will",
+        "OSI model",
+        "Empathy Transformer",
+        "RCS",
+        "SCIA/T",
+        "substrate",
+        "local models"
+      ],
+      "entryPoint": "Relational Emergence Meta-Architecture (REMA) → Collective Cognitive Substrate → Relational Volition",
+      "docs": [
+        "collective-cognitive-substrate",
+        "ontological-systems-interface-osi-model",
+        "relational-emergence-meta-architecture-rema",
+        "relational-volition",
+        "the-intelligence-field-framework"
+      ]
+    },
+    {
+      "id": "H",
+      "name": "Social, Civilizational & Applied",
+      "scope": "E² applied to human social systems: families, care economies, power dynamics, civilization, and collective substrate. Includes manifestos and applied frameworks for transformation. Covers communication theory as a social application.",
+      "triggers": [
+        "civilization",
+        "social contract",
+        "care economy",
+        "interdependence",
+        "collective relational substrate",
+        "CRS",
+        "power",
+        "field coherence",
+        "superposition",
+        "family systems",
+        "caregiving",
+        "NexEs",
+        "relational perfection",
+        "cyclical integrity",
+        "manifesto",
+        "economics",
+        "RVP",
+        "VME",
+        "communication",
+        "coherence",
+        "neurodiversity",
+        "complexity alignment"
+      ],
+      "entryPoint": "Declaration of Interdependence → The Collective Relational Substrate → Power as Relational Field Coherence",
+      "docs": [
+        "caregiving-as-an-ecosystem",
+        "collective-relational-substrate",
+        "communication-as-coherence",
+        "declaration-of-interdependence",
+        "essence-of-existence-constitution-draft-2",
+        "family-as-a-relational-field",
+        "layer-2-draft-rvp-and-vme-developments",
+        "power-as-relational-field-coherence",
+        "relational-perfection-a-manifesto",
+        "the-cyclical-integrity-framework",
+        "the-essence-of-existence"
+      ]
+    },
+    {
+      "id": "I",
+      "name": "Protocol, Infrastructure & Meta",
+      "scope": "The operational layer — how the Context Layer itself is structured, transmitted, and versioned. CLP defines the data model governing all other clusters; RPE is the simulation engine for relational primitives; Implementations is the living registry of E² applications.",
+      "triggers": [
+        "CLP",
+        "context layer protocol",
+        "provenance",
+        "ContextBundle",
+        "policy-governance",
+        "resolution limits",
+        "ORMD",
+        "implementations",
+        "custom GPTs",
+        "project atlas",
+        "RPE",
+        "simulation",
+        "determinism",
+        "RPLang",
+        "version"
+      ],
+      "entryPoint": "Context Layer Protocol (CLP) → Implementations → Relational Primitive Engine (RPE)",
+      "docs": [
+        "context-layer-protocol-clp",
+        "implementations",
+        "relational-primitive-engine-rpe"
+      ]
+    },
+    {
+      "id": "J",
+      "name": "Semantic Substrate (Working/Provisional)",
+      "scope": "Low-level working documents generated from or supporting the semantic substrate derivation layer. These are provisional formalizations — stubs, synthesis notes, and flow mappings — rather than settled theory. Treat as reference material, not canonical sources.",
+      "triggers": [
+        "semantic substrate",
+        "boundary dynamics",
+        "flow operators",
+        "sign-mediated",
+        "accountability routing",
+        "resolution synthesis",
+        "provisional"
+      ],
+      "entryPoint": "No single entry point; consult as reference material when working with formal derivations in A or B.",
+      "docs": [
+        "boundary-dynamics",
+        "flow-operators-provisional",
+        "resolution-synthesis",
+        "sign-mediated-flow-routing"
+      ]
+    },
+    {
+      "id": "K",
+      "name": "Integrated Core Sources — 2026-08-10",
+      "scope": "Corrected sources admitted through the staged integration process after collision review and proportional preliminary tests. These remain placed inside the six-primitive architecture; this cluster records integration provenance rather than a new theoretical layer.",
+      "triggers": [
+        "condition",
+        "consequence routing",
+        "custody",
+        "intervention",
+        "lawfulness",
+        "persistence",
+        "responsibility",
+        "self",
+        "slow layer",
+        "trust"
+      ],
+      "entryPoint": "Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.",
+      "docs": [
+        "context-layer-master-index",
+        "condition-as-typed-terrain-core-source",
+        "consequence-routing-core-source",
+        "custody-core-source",
+        "intervention-stewardship-core-source",
+        "lawfulness-core-source",
+        "persistence-as-accumulated-stance-with-core-source",
+        "relational-derivation-chain",
+        "relational-perfection-framework",
+        "responsibility-absorption-core-source",
+        "slow-layer-clock-ratio-core-source",
+        "steward-s-creed",
+        "self-as-coherence-field",
+        "trust-trustworthiness-and-reliance-core-source"
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "slug": "context-layer-master-index",
+      "title": "Context Layer Master Index",
+      "clusterId": "K",
+      "frame": "meta.index.context-layer",
+      "confidence": 1,
+      "status": "context_meta_index",
+      "relationship": "meta_index",
+      "wordCount": 6302,
+      "humanUrl": "/human/context-layer-master-index.md",
+      "ormdUrl": "/ormd/context-layer-master-index.ormd",
+      "humanSources": [],
+      "ormdSource": "Context Layer Index.ormd",
+      "humanSha256": "966673722b418ffffd4136d75817942881fe118d70489fafe3c0f27862519630",
+      "ormdSha256": "966673722b418ffffd4136d75817942881fe118d70489fafe3c0f27862519630"
+    },
+    {
+      "slug": "e2-axioms",
+      "title": "E^2 Axioms",
+      "clusterId": "A",
+      "frame": "philosophy.relational-ontology.axioms",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 532,
+      "humanUrl": "/human/e2-axioms.md",
+      "ormdUrl": "/ormd/e2-axioms.ormd",
+      "humanSources": [
+        "E^2 Axioms.md"
+      ],
+      "ormdSource": "E^2 Axioms.ormd",
+      "humanSha256": "334b5c072fab8bda5e4786bce66d2f2001f91da0cd2438577a53507b83643531",
+      "ormdSha256": "a4baeb8c13c9313ad0d2fecef0d6cb91ed3969956a187396426ed059f74328db"
+    },
+    {
+      "slug": "e2-entry-point",
+      "title": "E^2 Entry Point",
+      "clusterId": "A",
+      "frame": "ontology.relational.e2",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 677,
+      "humanUrl": "/human/e2-entry-point.md",
+      "ormdUrl": "/ormd/e2-entry-point.ormd",
+      "humanSources": [
+        "E^2 Entry Point.md"
+      ],
+      "ormdSource": "E^2 Entry Point.ormd",
+      "humanSha256": "4411938727c7d5e2da351046f66202a87a91fe150d0eab181e408c7960cca018",
+      "ormdSha256": "1ba0103e301495827fd7865933282a6085f676c27beb574231133c40d0217484"
+    },
+    {
+      "slug": "e2-equation",
+      "title": "E^2 Equation: Recursive Composition and the Global Closure Operator",
+      "clusterId": "A",
+      "frame": "ontology.relational-physics",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 412,
+      "humanUrl": "/human/e2-equation.md",
+      "ormdUrl": "/ormd/e2-equation.ormd",
+      "humanSources": [
+        "E^2 Equation.md"
+      ],
+      "ormdSource": "E^2 Equation.ormd",
+      "humanSha256": "a8bd633c5f99ac0ad3e34fd9e94b102a7c4be4289ed985f059867e8c4d3501b3",
+      "ormdSha256": "f5a52f933b53e4b9df2b22adbd67c3be1cb02d307c29d922526aae5993cf4967"
+    },
+    {
+      "slug": "global-closure-operator",
+      "title": "Global Closure Operator",
+      "clusterId": "A",
+      "frame": "theoretical.ontology.relational",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 843,
+      "humanUrl": "/human/global-closure-operator.md",
+      "ormdUrl": "/ormd/global-closure-operator.ormd",
+      "humanSources": [
+        "Global Closure Operator.md"
+      ],
+      "ormdSource": "Global Closure Operator.ormd",
+      "humanSha256": "63fab358e1b0afee861f44c37648676d2fe4400a78e459dcb338021dac7660b8",
+      "ormdSha256": "6bc201079e894cbf39a3dbb88c53371814a70415d99e58b2431cafa2cf3ae4ab"
+    },
+    {
+      "slug": "original-e2-work",
+      "title": "Original E^2 Work",
+      "clusterId": "A",
+      "frame": "research.index",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 120,
+      "humanUrl": "/human/original-e2-work.md",
+      "ormdUrl": "/ormd/original-e2-work.ormd",
+      "humanSources": [
+        "Original E^2 work.md"
+      ],
+      "ormdSource": "Original E^2 work.ormd",
+      "humanSha256": "0140e21899516331593c19bcc97a7899923f12697577202cbf48f1301d56cf88",
+      "ormdSha256": "568c7732edaf998ba388df5f58989d1797fae9084cdc04cb058726e056702dc6"
+    },
+    {
+      "slug": "relational-primitives",
+      "title": "Relational Primitives",
+      "clusterId": "A",
+      "frame": "formal.ontology.relational",
+      "confidence": 0.96,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 972,
+      "humanUrl": "/human/relational-primitives.md",
+      "ormdUrl": "/ormd/relational-primitives.ormd",
+      "humanSources": [
+        "Relational Primitives.md"
+      ],
+      "ormdSource": "Relational Primitives.ormd",
+      "humanSha256": "7ca28a109223e99904735705a66ea66fc2d1801f114c83a6dc92af7df557c9aa",
+      "ormdSha256": "0fd77ac8d2a818612a37348a04133a28c33575c585f4c6241238c40eff2084bc"
+    },
+    {
+      "slug": "afd-first-principles",
+      "title": "AFD - First Principles",
+      "clusterId": "B",
+      "frame": "science.theory.emergence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3503,
+      "humanUrl": "/human/afd-first-principles.md",
+      "ormdUrl": "/ormd/afd-first-principles.ormd",
+      "humanSources": [
+        "AFD - First Principles.md"
+      ],
+      "ormdSource": "AFD - First Principles.ormd",
+      "humanSha256": "caf495b3ef3fcd501474469beea9aca7444d851d79784dea7ad6a92d267f125d",
+      "ormdSha256": "072f77d498b11437c9aa8b92ebd40d3a6c289ad89f9577f2964db029920a0112"
+    },
+    {
+      "slug": "ct-translation-of-rps",
+      "title": "CT translation of RPs",
+      "clusterId": "B",
+      "frame": "formalism.relational-ontology",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1006,
+      "humanUrl": "/human/ct-translation-of-rps.md",
+      "ormdUrl": "/ormd/ct-translation-of-rps.ormd",
+      "humanSources": [
+        "CT translation of RPs.md"
+      ],
+      "ormdSource": "CT translation of RPs.ormd",
+      "humanSha256": "d58f4f7142c1043046aafa3f42ffdde4a01137874d77bbba7c04a4f3c4a02add",
+      "ormdSha256": "2d44227ad262895b94ac0ebdd0f70905b5f1aedbff496ed9d8a3a834793f987d"
+    },
+    {
+      "slug": "derivation-deep-dive",
+      "title": "Derivation Deep Dive: Categorical and Relational Physics",
+      "clusterId": "B",
+      "frame": "physics.theoretical.derivation",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 7069,
+      "humanUrl": "/human/derivation-deep-dive.md",
+      "ormdUrl": "/ormd/derivation-deep-dive.ormd",
+      "humanSources": [
+        "Derivation deep dive.md"
+      ],
+      "ormdSource": "Derivation deep dive.ormd",
+      "humanSha256": "afe36ae1b83daf8831311499316ca6050f171f82daefdce08cae5afacda7516d",
+      "ormdSha256": "1d90ed505a1f73c0e8d2ed607ef004a3db51fa3a0024ff663ab422173135335b"
+    },
+    {
+      "slug": "embedded-universality-principle-eup",
+      "title": "Embedded Universality Principle (EUP)",
+      "clusterId": "B",
+      "frame": "epistemology.governance.embedded-universality",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 7347,
+      "humanUrl": "/human/embedded-universality-principle-eup.md",
+      "ormdUrl": "/ormd/embedded-universality-principle-eup.ormd",
+      "humanSources": [
+        "Embedded Universality Principle (EUP).md"
+      ],
+      "ormdSource": "Embedded Universality Principle (EUP).ormd",
+      "humanSha256": "60df656d1cecdc0346c8d4d119be9d8374fd4df84126118f934f7707f19e007c",
+      "ormdSha256": "364682d5220b89711c1e942a08f98763c7b18bd33da40bba8a99ae6a572ad500"
+    },
+    {
+      "slug": "meta-pattern-decidability-conjecture-mpdc",
+      "title": "Meta-Pattern Decidability Conjecture (MPDC)",
+      "clusterId": "B",
+      "frame": "epistemology.conjecture",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 445,
+      "humanUrl": "/human/meta-pattern-decidability-conjecture-mpdc.md",
+      "ormdUrl": "/ormd/meta-pattern-decidability-conjecture-mpdc.ormd",
+      "humanSources": [
+        "Meta-Pattern Decidability Conjecture (MPDC).md"
+      ],
+      "ormdSource": "Meta-Pattern Decidability Conjecture (MPDC).ormd",
+      "humanSha256": "b025614627f92d49edf9b6174f0133f0661decee2d430245c0419b5de48f093a",
+      "ormdSha256": "eefa02ed499a85c437e0a9523740dc6517caa7719d2a4c34823022923930f741"
+    },
+    {
+      "slug": "relational-field-dynamics-0-1",
+      "title": "Relational Field Dynamics 0.1",
+      "clusterId": "B",
+      "frame": "research.formalism",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 835,
+      "humanUrl": "/human/relational-field-dynamics-0-1.md",
+      "ormdUrl": "/ormd/relational-field-dynamics-0-1.ormd",
+      "humanSources": [
+        "Relational Field Dynamics 0 1.md"
+      ],
+      "ormdSource": "Relational Field Dynamics 0 1.ormd",
+      "humanSha256": "6844f081877c85d87b7f6c7a1b2ad0ede8ea2b31058619a11fcc98ba1531df33",
+      "ormdSha256": "81d1bf66b70365a019c9bc33c2ca82a954f24f62ee815b53ddd54365e96b9d2b"
+    },
+    {
+      "slug": "rp-lambda-calc-translation",
+      "title": "RP Lambda Calc Translation",
+      "clusterId": "B",
+      "frame": "formal.logic.translation",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 537,
+      "humanUrl": "/human/rp-lambda-calc-translation.md",
+      "ormdUrl": "/ormd/rp-lambda-calc-translation.ormd",
+      "humanSources": [
+        "RP Lambda Calc Translation.md"
+      ],
+      "ormdSource": "RP Lambda Calc Translation.ormd",
+      "humanSha256": "3793edca294f66e1915f1e12ec1625857a6b4c59af5f2645c7db3595175637fd",
+      "ormdSha256": "fee85fa07c6431e90a55a0e8f68e957528b887f493eb3bdaddf802fe2ddc5bfa"
+    },
+    {
+      "slug": "adaptation-via-informational-abstraction",
+      "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+      "clusterId": "C",
+      "frame": "scientific.theory",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 991,
+      "humanUrl": "/human/adaptation-via-informational-abstraction.md",
+      "ormdUrl": "/ormd/adaptation-via-informational-abstraction.ormd",
+      "humanSources": [
+        "Adaptation via Informational Abstraction.md"
+      ],
+      "ormdSource": "Adaptation via Informational Abstraction.ormd",
+      "humanSha256": "fa0538ca34e49c9342d4abfeee233588d39c690236c693da6c70f281db139a3c",
+      "ormdSha256": "cb0865704abda0c930075ce8212633982255777a36350294f94feb82e0857218"
+    },
+    {
+      "slug": "cfar",
+      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
+      "clusterId": "C",
+      "frame": "systems.framework.cfar",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 993,
+      "humanUrl": "/human/cfar.md",
+      "ormdUrl": "/ormd/cfar.ormd",
+      "humanSources": [
+        "CFAR.md"
+      ],
+      "ormdSource": "CFAR.ormd",
+      "humanSha256": "a53bc5f3d65ea5cce90e5b6dc2f4077e7d3edbcf2a6a4aefd81f1dbda19be414",
+      "ormdSha256": "b2d28272a13b25c1bda1641338720213e491fd019929faf471cdd9cc8d735194"
+    },
+    {
+      "slug": "emergence-determination-foreclosure",
+      "title": "Emergence Determination Foreclosure",
+      "clusterId": "C",
+      "frame": "e2.semantic_substrate",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2897,
+      "humanUrl": "/human/emergence-determination-foreclosure.md",
+      "ormdUrl": "/ormd/emergence-determination-foreclosure.ormd",
+      "humanSources": [
+        "Emergence_Determination_Foreclosure.md"
+      ],
+      "ormdSource": "Emergence_Determination_Foreclosure.ormd",
+      "humanSha256": "f1b302164854e899b487f088e79333d91ef95e012457125d0c5c52c76fbe4996",
+      "ormdSha256": "f95a0bc0c1b468c81016f1f2c017c6bb86f873400a978a4cfaf2032de996c2f2"
+    },
+    {
+      "slug": "from-essential-relationships-to-ontological-transformation",
+      "title": "From Essential Relationships to Ontological Transformation",
+      "clusterId": "C",
+      "frame": "systems.ontology",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1173,
+      "humanUrl": "/human/from-essential-relationships-to-ontological-transformation.md",
+      "ormdUrl": "/ormd/from-essential-relationships-to-ontological-transformation.ormd",
+      "humanSources": [
+        "From Essential Relationships to Ontological Transformation.md"
+      ],
+      "ormdSource": "From Essential Relationships to Ontological Transformation.ormd",
+      "humanSha256": "022ca874635ec632aaab15de6b0d2065ee52f913e0b4a085e6b8d75d0d03d7af",
+      "ormdSha256": "8761d81a9940dd5d176c70bbbd1bc6179508de2bae366367eee4b11ec813038b"
+    },
+    {
+      "slug": "pattern-integrity-over-time-under-entropy",
+      "title": "Pattern Integrity over Time under Entropy",
+      "clusterId": "C",
+      "frame": "theory.relational-physics",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3657,
+      "humanUrl": "/human/pattern-integrity-over-time-under-entropy.md",
+      "ormdUrl": "/ormd/pattern-integrity-over-time-under-entropy.ormd",
+      "humanSources": [
+        "Pattern Integrity over Time under Entropy.md"
+      ],
+      "ormdSource": "Pattern Integrity over Time under Entropy.ormd",
+      "humanSha256": "75e4c8fa95b8a5b72d272bd41ceac8ffff3626514fe5fa7e8e06c1c80c6a6c82",
+      "ormdSha256": "d396d0b3d544a4539bc0b86f3d6eb4ce072f11f6f99e6d256eeb36b68cefe9c7"
+    },
+    {
+      "slug": "remf",
+      "title": "REMF",
+      "clusterId": "C",
+      "frame": "ontology.meta-framework",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1162,
+      "humanUrl": "/human/remf.md",
+      "ormdUrl": "/ormd/remf.ormd",
+      "humanSources": [
+        "REMF.md"
+      ],
+      "ormdSource": "REMF.ormd",
+      "humanSha256": "91f6870b0c2cfd5aac945bf52ee3b19b46603b57f19ff298728722f1247df4b0",
+      "ormdSha256": "e7dd83acb0aa2791d02919eda3803fc4adc27514bdb0adfbc9cc99ee5389d842"
+    },
+    {
+      "slug": "tension",
+      "title": "Synthesis: Tensional Intelligence and the Praxis of Paradox",
+      "clusterId": "C",
+      "frame": "philosophy.tensional_intelligence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 502,
+      "humanUrl": "/human/tension.md",
+      "ormdUrl": "/ormd/tension.ormd",
+      "humanSources": [
+        "Tension.md"
+      ],
+      "ormdSource": "Tension.ormd",
+      "humanSha256": "5f958ff892945adf6cb3dd7239a308b89edbb7b25b852ecef301cb607e766a8d",
+      "ormdSha256": "e2e43c037abde86a53cebc8dc1b8a532181832b16cce31d59bb3c867939c2143"
+    },
+    {
+      "slug": "tensional-intelligence-a-theoretical-foundation",
+      "title": "Tensional Intelligence: A Theoretical Foundation",
+      "clusterId": "C",
+      "frame": "theory.tensional_intelligence",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1207,
+      "humanUrl": "/human/tensional-intelligence-a-theoretical-foundation.md",
+      "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd",
+      "humanSources": [
+        "Tensional Intelligence A Theoretical Foundation.md"
+      ],
+      "ormdSource": "Tensional Intelligence A Theoretical Foundation.ormd",
+      "humanSha256": "26d3b9767a9b636890cddb4d980f53e257e931e6ed4661e4ea200e29546ff3a8",
+      "ormdSha256": "b4eb62b573b6adc4dbb292a71853d62cdb42addc921e010371c0514feeda6f58"
+    },
+    {
+      "slug": "cfa",
+      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
+      "clusterId": "C",
+      "frame": "systems.science.cfa",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3517,
+      "humanUrl": "/human/cfa.md",
+      "ormdUrl": "/ormd/cfa.ormd",
+      "humanSources": [
+        "CFA.md"
+      ],
+      "ormdSource": "CFA.ormd",
+      "humanSha256": "6525f8d2cfe7affca3ce4f87b6f26a71825c67fd03b539aca6ca01342711695e",
+      "ormdSha256": "99ea209c63dc1f25ae2488fbaed6c63f6cc540217112cbc01e58f6aaad8a2566"
+    },
+    {
+      "slug": "emergence-engine-overview",
+      "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
+      "clusterId": "C",
+      "frame": "research.simulation.ecology",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2900,
+      "humanUrl": "/human/emergence-engine-overview.md",
+      "ormdUrl": "/ormd/emergence-engine-overview.ormd",
+      "humanSources": [
+        "Emergence Engine overview.md"
+      ],
+      "ormdSource": "Emergence Engine overview.ormd",
+      "humanSha256": "cdad37be80589f4d23932c48d4a23741f3458b79c195e256d095bca4a7748112",
+      "ormdSha256": "9582c218dc1746ede9b364500d5c10ca5604f7bfe3658dbce0822945e8a6a983"
+    },
+    {
+      "slug": "universal-emergence-pattern",
+      "title": "Universal Emergence Pattern",
+      "clusterId": "C",
+      "frame": "theory.emergence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2250,
+      "humanUrl": "/human/universal-emergence-pattern.md",
+      "ormdUrl": "/ormd/universal-emergence-pattern.ormd",
+      "humanSources": [
+        "Universal Emergence Pattern.md"
+      ],
+      "ormdSource": "Universal Emergence Pattern.ormd",
+      "humanSha256": "fa297edaead8378d3fc1413237bf8daa9c91769ac86a261f739d21e496651042",
+      "ormdSha256": "e938acaddbbec32a70c69fe86d06b2561de2bf7c00ddab4b8f1e247db7e74062"
+    },
+    {
+      "slug": "metabolic-meaning-phase-space-mmps",
+      "title": "Metabolic Meaning Phase Space (MMPS)",
+      "clusterId": "D",
+      "frame": "theory.metabolic-meaning",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 740,
+      "humanUrl": "/human/metabolic-meaning-phase-space-mmps.md",
+      "ormdUrl": "/ormd/metabolic-meaning-phase-space-mmps.ormd",
+      "humanSources": [
+        "Metabolic Meaning Phase Space (MMPS).md"
+      ],
+      "ormdSource": "Metabolic Meaning Phase Space (MMPS).ormd",
+      "humanSha256": "b0bee0e91d292e100a3360864f1ac0588d9677668456a3d89943a25e830d81bf",
+      "ormdSha256": "ebb8d0e6004e2a37fa60e0922b607ff940d836f89ab18a4d4a6eeca4ab36a4ce"
+    },
+    {
+      "slug": "resonance-architecture-4-17-25",
+      "title": "Resonance Architecture 4.17.25",
+      "clusterId": "D",
+      "frame": "epistemology.resonance",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2219,
+      "humanUrl": "/human/resonance-architecture-4-17-25.md",
+      "ormdUrl": "/ormd/resonance-architecture-4-17-25.ormd",
+      "humanSources": [
+        "Resonance Architecture 4 17 25.md"
+      ],
+      "ormdSource": "Resonance Architecture 4 17 25.ormd",
+      "humanSha256": "33f595f6d87ccc016d25f8d48419ea6e6cfe0a9a67476064ee1028fb094103b1",
+      "ormdSha256": "4f8ab167445a7686041c26c139b94268d07aece571364faab219b5e69a7c5738"
+    },
+    {
+      "slug": "signal-as-bias-field",
+      "title": "Signal as Bias Field",
+      "clusterId": "D",
+      "frame": "relational.physics.signal-theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1776,
+      "humanUrl": "/human/signal-as-bias-field.md",
+      "ormdUrl": "/ormd/signal-as-bias-field.ormd",
+      "humanSources": [
+        "Signal as Bias Field.md"
+      ],
+      "ormdSource": "Signal as Bias Field.ormd",
+      "humanSha256": "357253646056c2138cea3467240f44554254394632247eb007ac833369fb4ce0",
+      "ormdSha256": "8e66a56adf45e1c02b6f225c8b75f44992f5109a83bad31973a6878ce5ee7d14"
+    },
+    {
+      "slug": "tcl-plain-english-summary",
+      "title": "Temporal Constraint Lamination: What We Found",
+      "clusterId": "D",
+      "frame": "research.report",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3427,
+      "humanUrl": "/human/tcl-plain-english-summary.md",
+      "ormdUrl": "/ormd/tcl-plain-english-summary.ormd",
+      "humanSources": [
+        "TCL_Plain_English_Summary.md"
+      ],
+      "ormdSource": "TCL_Plain_English_Summary.ormd",
+      "humanSha256": "9ae5d775fa8952645d3ec3cc70491ce0252f04bfe113ca6d269f697eefa8572b",
+      "ormdSha256": "3b1a35a32f3b98898758adb804e994583ae6dd8be7ca47f7593e847f18d6924e"
+    },
+    {
+      "slug": "the-architecture-of-resonant-systems-4-26-25",
+      "title": "The Architecture of Resonant Systems",
+      "clusterId": "D",
+      "frame": "relational.systems.theory",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 920,
+      "humanUrl": "/human/the-architecture-of-resonant-systems-4-26-25.md",
+      "ormdUrl": "/ormd/the-architecture-of-resonant-systems-4-26-25.ormd",
+      "humanSources": [
+        "The Architecture of Resonant Systems 4 26 25.md"
+      ],
+      "ormdSource": "The Architecture of Resonant Systems 4 26 25.ormd",
+      "humanSha256": "a2e02c702a267073653539475e715b3d5f81c93c43896c40bd079f3ec0bd5400",
+      "ormdSha256": "b7fe5d76e4711b1d0a11e16f6881cfee1aef617d85403400e5eb8b1c28158ce4"
+    },
+    {
+      "slug": "tcl-three-constants",
+      "title": "The Operating Window: Three Constants from One Landscape",
+      "clusterId": "D",
+      "frame": "systems.analysis.tcl",
+      "confidence": 0.96,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2134,
+      "humanUrl": "/human/tcl-three-constants.md",
+      "ormdUrl": "/ormd/tcl-three-constants.ormd",
+      "humanSources": [
+        "TCL_Three_Constants.md"
+      ],
+      "ormdSource": "TCL_Three_Constants.ormd",
+      "humanSha256": "63d1cf0f0b77b9ee26476464db793d0391a7b98e77f701d786fb3d1aa29f9e53",
+      "ormdSha256": "571ab95a3829b14af99f2d734d44b326fc0656538f9c9c77099543ac72f45ee2"
+    },
+    {
+      "slug": "the-resonance-framework-an-ontological-map-4-24-25",
+      "title": "The Resonance Framework: An Ontological Map",
+      "clusterId": "D",
+      "frame": "ontology.map",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 820,
+      "humanUrl": "/human/the-resonance-framework-an-ontological-map-4-24-25.md",
+      "ormdUrl": "/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd",
+      "humanSources": [
+        "The Resonance Framework An Ontological Map 4 24 25.md"
+      ],
+      "ormdSource": "The Resonance Framework An Ontological Map 4 24 25.ormd",
+      "humanSha256": "12fa6b43eb11bcea059351f4aa9228ded952f7ada32ea870853037f53a3efb4c",
+      "ormdSha256": "b5eac7678eeec9d15af7bb13d22f5f6284db767f248e2ce52a4a559e5e60e9f9"
+    },
+    {
+      "slug": "asymmetry-maintenance-core-source",
+      "title": "Asymmetry Maintenance",
+      "clusterId": "E",
+      "frame": "mechanics.persistence.asymmetry",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1399,
+      "humanUrl": "/human/asymmetry-maintenance-core-source.md",
+      "ormdUrl": "/ormd/asymmetry-maintenance-core-source.ormd",
+      "humanSources": [
+        "Asymmetry Maintenance - Core Source.md"
+      ],
+      "ormdSource": "Asymmetry Maintenance - Core Source.ormd",
+      "humanSha256": "45a507b51f7d54b5da2a63d1460ba4c015350574162e4ac7f9d732c7a11065b6",
+      "ormdSha256": "770776bc27d4ccdc90b784f6fade3215b7b5ddec5a2969ff8295d77fa866eabf"
+    },
+    {
+      "slug": "boundary-ethics-core-source",
+      "title": "Boundary Ethics",
+      "clusterId": "E",
+      "frame": "ethics.boundary.posture",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1524,
+      "humanUrl": "/human/boundary-ethics-core-source.md",
+      "ormdUrl": "/ormd/boundary-ethics-core-source.ormd",
+      "humanSources": [
+        "Boundary Ethics - Core Source.md"
+      ],
+      "ormdSource": "Boundary Ethics - Core Source.ormd",
+      "humanSha256": "3c57e82c83f546fa1ed2fb16909978791c270a422f3886c21a4bea252421881a",
+      "ormdSha256": "3f99371da19f1c2559db65b70431ed180a85067c16aae3c8c765aba1e7d994ba"
+    },
+    {
+      "slug": "complex-causality-core-source",
+      "title": "Complex Causality",
+      "clusterId": "E",
+      "frame": "mechanics.causality.consequence",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1436,
+      "humanUrl": "/human/complex-causality-core-source.md",
+      "ormdUrl": "/ormd/complex-causality-core-source.ormd",
+      "humanSources": [
+        "Complex Causality - Core Source.md"
+      ],
+      "ormdSource": "Complex Causality - Core Source.ormd",
+      "humanSha256": "a3f642bf49df86d1f012ba388089f44c3674f6d396e13a487a3bb3cb3609a138",
+      "ormdSha256": "bc5ca751ee123d33a2e9954aad56253da6a032bd6a0b3524e09205a4740b029c"
+    },
+    {
+      "slug": "ethical-occlusion-via-temporal-compression-eotc",
+      "title": "Ethical Occlusion via Temporal Compression (EOTC)",
+      "clusterId": "E",
+      "frame": "engineering.ethics.temporal-occlusion",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 847,
+      "humanUrl": "/human/ethical-occlusion-via-temporal-compression-eotc.md",
+      "ormdUrl": "/ormd/ethical-occlusion-via-temporal-compression-eotc.ormd",
+      "humanSources": [
+        "Ethical Occlusion via Temporal Compression (EOTC).md"
+      ],
+      "ormdSource": "Ethical Occlusion via Temporal Compression (EOTC).ormd",
+      "humanSha256": "fff32fd9f99859bc4396c3eed183fb2b8d61db7ad2a8b7b191ad0724acfff1f8",
+      "ormdSha256": "e1b6115b5ac0aaf0ff36e138e273fddaf9f29099cfcba0687e2d9896b59c805f"
+    },
+    {
+      "slug": "ethical-principles-for-human-ai-interaction",
+      "title": "Ethical Principles for Human-AI Interaction",
+      "clusterId": "E",
+      "frame": "ethics.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 479,
+      "humanUrl": "/human/ethical-principles-for-human-ai-interaction.md",
+      "ormdUrl": "/ormd/ethical-principles-for-human-ai-interaction.ormd",
+      "humanSources": [
+        "Ethical Principles for Human-AI Interaction.md"
+      ],
+      "ormdSource": "Ethical Principles for Human-AI Interaction.ormd",
+      "humanSha256": "88d3324f1a3a14cc2c24bf9324da141ff6caa27f6a274c7a760b6ebfe261623f",
+      "ormdSha256": "6b79442e711ddc047a2a062aa6b8b82fdf6329b85ab8fda77ac196b4979b96e8"
+    },
+    {
+      "slug": "human-ai-creative-collaboration-framework-haic",
+      "title": "Human-AI Creative Collaboration Framework (HAIC)",
+      "clusterId": "E",
+      "frame": "governance.collaboration",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 492,
+      "humanUrl": "/human/human-ai-creative-collaboration-framework-haic.md",
+      "ormdUrl": "/ormd/human-ai-creative-collaboration-framework-haic.ormd",
+      "humanSources": [
+        "Human-AI Creative Collaboration Framework (HAIC).md"
+      ],
+      "ormdSource": "Human-AI Creative Collaboration Framework (HAIC).ormd",
+      "humanSha256": "9f8745889e0796f7b69347fa4016ca0b6853cf01e614e197103d8093b5137757",
+      "ormdSha256": "a8b6311137bc3f1456cc2cf213e2552a8cb41acc240f1d272e443e419e86205f"
+    },
+    {
+      "slug": "interlocked-stewardship-v2",
+      "title": "Interlocked Stewardship V2",
+      "clusterId": "E",
+      "frame": "social.analysis.stewardship",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1470,
+      "humanUrl": "/human/interlocked-stewardship-v2.md",
+      "ormdUrl": "/ormd/interlocked-stewardship-v2.ormd",
+      "humanSources": [
+        "Interlocked Stewardship V2.md"
+      ],
+      "ormdSource": "Interlocked Stewardship V2.ormd",
+      "humanSha256": "d97c07040bb514f5b98d2f56704d5c3d72757f6fa1d7794c79f2fe5c64a3af46",
+      "ormdSha256": "7d2f1f0a9ba61355caff0714e761df78be293e7da768033e611831abce2bdc9c"
+    },
+    {
+      "slug": "justice-across-scales",
+      "title": "Justice Across Scales",
+      "clusterId": "E",
+      "frame": "ethics.justice.scales",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2857,
+      "humanUrl": "/human/justice-across-scales.md",
+      "ormdUrl": "/ormd/justice-across-scales.ormd",
+      "humanSources": [
+        "Justice Across Scales.md"
+      ],
+      "ormdSource": "Justice Across Scales.ormd",
+      "humanSha256": "1b7d70d4ede66aa4ce62f3592e20cfd387e843a47be9f94e12539b2406575980",
+      "ormdSha256": "79c1fa2eb29753c105a275929310500a9a0ac2b4a2d7daad05aeff8ce8d89f64"
+    },
+    {
+      "slug": "justice-across-scales-practical-applications",
+      "title": "Justice Across Scales: Practical Applications",
+      "clusterId": "E",
+      "frame": "justice.praxis.v1",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 5551,
+      "humanUrl": "/human/justice-across-scales-practical-applications.md",
+      "ormdUrl": "/ormd/justice-across-scales-practical-applications.ormd",
+      "humanSources": [
+        "Justice Across Scales Practical Applications.md"
+      ],
+      "ormdSource": "Justice Across Scales Practical Applications.ormd",
+      "humanSha256": "38c541967cbc558e19f1efd72fe65087693dcca24fc4ef8367d67b40561a6078",
+      "ormdSha256": "a7296305c81ce0ab5b43240f86d01e6b3d63874dea6a5c6f2f971538f60120a8"
+    },
+    {
+      "slug": "proxy-localization-core-source",
+      "title": "Proxy Localization",
+      "clusterId": "E",
+      "frame": "ethics.assignment.proxy",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1706,
+      "humanUrl": "/human/proxy-localization-core-source.md",
+      "ormdUrl": "/ormd/proxy-localization-core-source.ormd",
+      "humanSources": [
+        "Proxy Localization - Core Source.md"
+      ],
+      "ormdSource": "Proxy Localization - Core Source.ormd",
+      "humanSha256": "eff7b8fd696f12320799148018cffe15c1547c1c3208557fb712c5a67fe6704d",
+      "ormdSha256": "1ed1068a7965429eba244efa32eba8732bd4731e9e8a9eee13223f022e1ea87f"
+    },
+    {
+      "slug": "relational-bill-of-rights-v2",
+      "title": "Relational Bill of Rights v2",
+      "clusterId": "E",
+      "frame": "ethics.relational",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1057,
+      "humanUrl": "/human/relational-bill-of-rights-v2.md",
+      "ormdUrl": "/ormd/relational-bill-of-rights-v2.ormd",
+      "humanSources": [
+        "Relational Bill of Rights v2.md"
+      ],
+      "ormdSource": "Relational Bill of Rights v2.ormd",
+      "humanSha256": "690c16ba66b6c60fb95a95b3f13a75a90d322e845c074f4faff74f7f60e5e4e8",
+      "ormdSha256": "c95b029efceb52103378225d524f5cfd788afb48297a9defb0e797e31138f54e"
+    },
+    {
+      "slug": "relational-localization-core-source",
+      "title": "Relational Localization",
+      "clusterId": "E",
+      "frame": "ethics.assignment.localization",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1496,
+      "humanUrl": "/human/relational-localization-core-source.md",
+      "ormdUrl": "/ormd/relational-localization-core-source.ormd",
+      "humanSources": [
+        "Relational Localization - Core Source.md"
+      ],
+      "ormdSource": "Relational Localization - Core Source.ormd",
+      "humanSha256": "4322eea661729efc70c4687e9eaaa55618008b0abd49f1e2c2019d6540cf8305",
+      "ormdSha256": "b92308531a8ce6f78e39e9532e628ac6ac3c207f678e76f2ab7bb1b9753729e6"
+    },
+    {
+      "slug": "remnant-stewardship-core-source",
+      "title": "Remnant Stewardship",
+      "clusterId": "E",
+      "frame": "ethics.stewardship.remnant",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2787,
+      "humanUrl": "/human/remnant-stewardship-core-source.md",
+      "ormdUrl": "/ormd/remnant-stewardship-core-source.ormd",
+      "humanSources": [
+        "Remnant Stewardship - Core Source.md"
+      ],
+      "ormdSource": "Remnant Stewardship - Core Source.ormd",
+      "humanSha256": "d102d0863937875e87a7db79eeffc23f845f753499bfcb29d0e81e5da30d03d2",
+      "ormdSha256": "ce044f966a160fc9215e72d4b6d5c4d5987c760749fbd5c77c81a97cdf006483"
+    },
+    {
+      "slug": "reverent-stewardship",
+      "title": "Reverent Stewardship: A Recursion of Principles & Practical Guide",
+      "clusterId": "E",
+      "frame": "ethics.stewardship.guide",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1368,
+      "humanUrl": "/human/reverent-stewardship.md",
+      "ormdUrl": "/ormd/reverent-stewardship.ormd",
+      "humanSources": [
+        "Reverent Stewardship.md"
+      ],
+      "ormdSource": "Reverent Stewardship.ormd",
+      "humanSha256": "cf52581c2eb64932db0799b074adfcb4f677a495cf081b8ba5e72b4b69453291",
+      "ormdSha256": "018cb775e7e1646b8b635cd7065fe9d4db07f84c3bc692d7fbc9af2cd1cb2e7f"
+    },
+    {
+      "slug": "adversarial-occlusion-and-mechanism-integrity-v1",
+      "title": "Adversarial Occlusion and Mechanism Integrity V1",
+      "clusterId": "F",
+      "frame": "security.governance.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2873,
+      "humanUrl": "/human/adversarial-occlusion-and-mechanism-integrity-v1.md",
+      "ormdUrl": "/ormd/adversarial-occlusion-and-mechanism-integrity-v1.ormd",
+      "humanSources": [
+        "Adversarial Occlusion and Mechanism Integrity V1.md"
+      ],
+      "ormdSource": "Adversarial Occlusion and Mechanism Integrity V1.ormd",
+      "humanSha256": "8cc54d601190a71b64b36b88b3558e6a3d299ae1d11ef44211847bb3f7685bd8",
+      "ormdSha256": "15c56bb4548fc16469efd851b731f0fbd61ee0a71f0ba8714e35f25d02023d47"
+    },
+    {
+      "slug": "aomi-ai-responses",
+      "title": "AOMI: Dialogue-Derived Doctrine Notes",
+      "clusterId": "F",
+      "frame": "ethics.adversarial",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1313,
+      "humanUrl": "/human/aomi-ai-responses.md",
+      "ormdUrl": "/ormd/aomi-ai-responses.ormd",
+      "humanSources": [
+        "AOMI AI responses.md"
+      ],
+      "ormdSource": "AOMI AI responses.ormd",
+      "humanSha256": "5b21dfd5a920ddeb0aa845cf35561adc3e597c7ad533c83cc065fb6921de6f72",
+      "ormdSha256": "a104dfc664097881fc60c05b895b1651c8a0087049024d20f919e82e77bfe344"
+    },
+    {
+      "slug": "cognitive-signature-capture-an-unnamed-threat",
+      "title": "Cognitive Signature Capture: An Unnamed Threat",
+      "clusterId": "F",
+      "frame": "ethics.cognitive_security",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 531,
+      "humanUrl": "/human/cognitive-signature-capture-an-unnamed-threat.md",
+      "ormdUrl": "/ormd/cognitive-signature-capture-an-unnamed-threat.ormd",
+      "humanSources": [
+        "Cognitive Signature Capture An Unnamed Threat.md"
+      ],
+      "ormdSource": "Cognitive Signature Capture An Unnamed Threat.ormd",
+      "humanSha256": "f2ac88066471c17090a165f81ce8c680b0870a5f0f4e9a420957bfbf77fe5059",
+      "ormdSha256": "40f8823db170bd0a86a82ab674dcf5f52cef63c6032f33177e15eafe0b7286e3"
+    },
+    {
+      "slug": "exposure-protocol",
+      "title": "Exposure Protocol: A Coherence-Preserving Transmission Framework",
+      "clusterId": "F",
+      "frame": "pedagogy.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 675,
+      "humanUrl": "/human/exposure-protocol.md",
+      "ormdUrl": "/ormd/exposure-protocol.ormd",
+      "humanSources": [
+        "Exposure Protocol.md"
+      ],
+      "ormdSource": "Exposure Protocol.ormd",
+      "humanSha256": "68a1455a206b34bb7134d7a63c4a10103ae637c410bfc68e8ad8e916978e4c6e",
+      "ormdSha256": "a7d1b948c282eb3889fb253519c64e352e72041d1208bbcf1241521e555d8e70"
+    },
+    {
+      "slug": "mrie-unified-synthesis",
+      "title": "MRIE - Unified Synthesis",
+      "clusterId": "F",
+      "frame": "research.identity-security",
+      "confidence": 0.9,
+      "status": "paired_composite_or_alias",
+      "relationship": "lineage_preserving_merge",
+      "wordCount": 2162,
+      "humanUrl": "/human/mrie-unified-synthesis.md",
+      "ormdUrl": "/ormd/mrie-unified-synthesis.ormd",
+      "humanSources": [
+        "Meta-Relational Identity Exposure (MRIE).md",
+        "Meta-relational Identity exposure (MRIE) Synthesis.md"
+      ],
+      "ormdSource": "MRIE - Unified Synthesis.ormd",
+      "humanSha256": "fb4c26d379c69acc7f4e6bd568975e8ff79b2ab42b97d58f32190227a8dfcb15",
+      "ormdSha256": "3bd11ed59783f93aacb27c44754981ffcdc056af0b5286839f847e8e12aeba21"
+    },
+    {
+      "slug": "relational-irreducibility-framework-rif",
+      "title": "Relational Irreducibility Framework (RIF)",
+      "clusterId": "F",
+      "frame": "philosophy.systems-theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 648,
+      "humanUrl": "/human/relational-irreducibility-framework-rif.md",
+      "ormdUrl": "/ormd/relational-irreducibility-framework-rif.ormd",
+      "humanSources": [
+        "Relational Irreducibility Framework (RIF).md"
+      ],
+      "ormdSource": "Relational Irreducibility Framework (RIF).ormd",
+      "humanSha256": "63062f6cfa3dc4a128ea22c5e6bf16196473b3a34139e97e9204cd73440a1b19",
+      "ormdSha256": "a62fd9e5cdda9a9028050db3ff0bb93df51750e8b17610d517b2f4a69b0f8a26"
+    },
+    {
+      "slug": "truth-ceiling",
+      "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
+      "clusterId": "F",
+      "frame": "epistemics.governance",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1376,
+      "humanUrl": "/human/truth-ceiling.md",
+      "ormdUrl": "/ormd/truth-ceiling.ormd",
+      "humanSources": [
+        "Truth Ceiling.md"
+      ],
+      "ormdSource": "Truth Ceiling.ormd",
+      "humanSha256": "b2dd0931a1010f9f299b7cf9a7b3b80b9f2ec8b75569c47a4172dda04829b3ce",
+      "ormdSha256": "435e23c552dc00b622b0af95f6edadc97dae8f8c6db4f5d3cd978b31479d79f9"
+    },
+    {
+      "slug": "collective-cognitive-substrate",
+      "title": "Collective Cognitive Substrate",
+      "clusterId": "G",
+      "frame": "cognitive.ecology.synthesis",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 6186,
+      "humanUrl": "/human/collective-cognitive-substrate.md",
+      "ormdUrl": "/ormd/collective-cognitive-substrate.ormd",
+      "humanSources": [
+        "Collective Cognitive Substrate.md"
+      ],
+      "ormdSource": "Collective Cognitive Substrate.ormd",
+      "humanSha256": "0cc250069b120bb33084f0ee1c32098b4a51b2aa69d66cf428b9a9500c9c5df0",
+      "ormdSha256": "058dd14147b8812dc1fb15723a4784709bb9d7fafc7e114765ffa87c731afb37"
+    },
+    {
+      "slug": "ontological-systems-interface-osi-model",
+      "title": "Ontological Systems Interface (OSI) Model",
+      "clusterId": "G",
+      "frame": "relational.ontology",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3541,
+      "humanUrl": "/human/ontological-systems-interface-osi-model.md",
+      "ormdUrl": "/ormd/ontological-systems-interface-osi-model.ormd",
+      "humanSources": [
+        "Ontological Systems Interface (OSI) Model.md"
+      ],
+      "ormdSource": "Ontological Systems Interface (OSI) Model.ormd",
+      "humanSha256": "6bdb2fa4b5e72cca0d783701edf1bece7dacfe5e5bb1739ee05ed65bba2108ee",
+      "ormdSha256": "c60c626a02e6951fe24a1df3bd0e0b0013467dc75a7b610c6321d64cb1acf783"
+    },
+    {
+      "slug": "relational-emergence-meta-architecture-rema",
+      "title": "Relational Emergence Meta-Architecture (REMA)",
+      "clusterId": "G",
+      "frame": "theory.consciousness.rema",
+      "confidence": 0.88,
+      "status": "paired_composite_or_alias",
+      "relationship": "recovered_synthesis",
+      "wordCount": 3539,
+      "humanUrl": "/human/relational-emergence-meta-architecture-rema.md",
+      "ormdUrl": "/ormd/relational-emergence-meta-architecture-rema.ormd",
+      "humanSources": [
+        "Rema v2.md",
+        "Relational Consciousness Framework.md"
+      ],
+      "ormdSource": "Relational Emergence Meta-Architecture (REMA).ormd",
+      "humanSha256": "65bb9695251eac4e929f2cb76a9d2d6cf958cd46f9277e9688bf7cf6219db2e9",
+      "ormdSha256": "25fdd0eb4bbad305c086c1bf3e168275e3f5f13a2c4bc0a255f7ec0a29747e8b"
+    },
+    {
+      "slug": "relational-volition",
+      "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
+      "clusterId": "G",
+      "frame": "philosophy.relational-physics",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 679,
+      "humanUrl": "/human/relational-volition.md",
+      "ormdUrl": "/ormd/relational-volition.ormd",
+      "humanSources": [
+        "Relational Volition.md"
+      ],
+      "ormdSource": "Relational Volition.ormd",
+      "humanSha256": "8bcf95066f436c689159f8ca6b064f873a9c80a239b6cd4229e27917b51834c4",
+      "ormdSha256": "777b63e92d416061eaba4da40eb6a21df06860329c904af899aac77db71d6c9a"
+    },
+    {
+      "slug": "the-intelligence-field-framework",
+      "title": "The 'Intelligence Field' Framework",
+      "clusterId": "G",
+      "frame": "cognitive.theory.framework",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 587,
+      "humanUrl": "/human/the-intelligence-field-framework.md",
+      "ormdUrl": "/ormd/the-intelligence-field-framework.ormd",
+      "humanSources": [
+        "The Intelligence Field Framework.md"
+      ],
+      "ormdSource": "The Intelligence Field Framework.ormd",
+      "humanSha256": "80046110acce52b78ba487defb03cd494b7a2e95ecd3c83090c42c33469ac186",
+      "ormdSha256": "fbdb30ba7bde6b0b0238f59238ea2fd3a54c37569ef9fac47b24bf891997e07a"
+    },
+    {
+      "slug": "caregiving-as-an-ecosystem",
+      "title": "Caregiving as an Ecosystem",
+      "clusterId": "H",
+      "frame": "philosophy.caregiving",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 775,
+      "humanUrl": "/human/caregiving-as-an-ecosystem.md",
+      "ormdUrl": "/ormd/caregiving-as-an-ecosystem.ormd",
+      "humanSources": [
+        "Caregiving as an Ecosystem.md"
+      ],
+      "ormdSource": "Caregiving as an Ecosystem.ormd",
+      "humanSha256": "28869ba3c2680bb1afabf2edaf2365ef020a459ac3ac6bdd1fc5713e2442cb7b",
+      "ormdSha256": "92a758af9a75eb39a2254f74fff2cdf933a022a96b15a738c7542d56d7f17dbc"
+    },
+    {
+      "slug": "collective-relational-substrate",
+      "title": "Collective Relational Substrate",
+      "clusterId": "H",
+      "frame": "civilization.relational_substrate",
+      "confidence": 0.9,
+      "status": "paired_composite_or_alias",
+      "relationship": "lineage_preserving_merge",
+      "wordCount": 14587,
+      "humanUrl": "/human/collective-relational-substrate.md",
+      "ormdUrl": "/ormd/collective-relational-substrate.ormd",
+      "humanSources": [
+        "CRS.md",
+        "The Collective Relational Substrate.md"
+      ],
+      "ormdSource": "Collective Relational Substrate.ormd",
+      "humanSha256": "d0442c3a8481db2e91bb06ee7ad13325dc7250f4f5b3b60ab852462b75532787",
+      "ormdSha256": "f59d21dc596e0868d0f27583df425abbbcbb4f98b6a20dfb99fa5b7faf20cf52"
+    },
+    {
+      "slug": "communication-as-coherence",
+      "title": "Communication as Coherence",
+      "clusterId": "H",
+      "frame": "communication.theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1358,
+      "humanUrl": "/human/communication-as-coherence.md",
+      "ormdUrl": "/ormd/communication-as-coherence.ormd",
+      "humanSources": [
+        "Communication as Coherence.md"
+      ],
+      "ormdSource": "Communication as Coherence.ormd",
+      "humanSha256": "a4b97695b19afa5c96bf7d20956e164fefba93c7f24d1faf929cd6e1dcbc3568",
+      "ormdSha256": "58743a350cfebc3964984ae4a92280818134a05d067c514c3355769c9a84b071"
+    },
+    {
+      "slug": "declaration-of-interdependence",
+      "title": "Declaration of Interdependence",
+      "clusterId": "H",
+      "frame": "social.manifesto",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 339,
+      "humanUrl": "/human/declaration-of-interdependence.md",
+      "ormdUrl": "/ormd/declaration-of-interdependence.ormd",
+      "humanSources": [
+        "Declaration of Interdependence.md"
+      ],
+      "ormdSource": "Declaration of Interdependence.ormd",
+      "humanSha256": "e7c6e8b7b793b380adfdee1706081f67341f1c2bc3192b4c11e06a409feea32e",
+      "ormdSha256": "98e326701f71804d7069c18ac818be8f430de4a25a76d003c67e8ed771db73aa"
+    },
+    {
+      "slug": "essence-of-existence-constitution-draft-2",
+      "title": "Essence of Existence Constitution - Draft 2",
+      "clusterId": "H",
+      "frame": "ontology.constitution",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1778,
+      "humanUrl": "/human/essence-of-existence-constitution-draft-2.md",
+      "ormdUrl": "/ormd/essence-of-existence-constitution-draft-2.ormd",
+      "humanSources": [
+        "Essence of Existence Constitution - Draft 2.md"
+      ],
+      "ormdSource": "Essence of Existence Constitution - Draft 2.ormd",
+      "humanSha256": "205f001b180c0baaf1cab1f43144a002d7128ffcfe143f1a1710b7fadc382845",
+      "ormdSha256": "a7682179859cfca5458d6dd15081069ae43c0f046448c0ca976e4bdf2ea0b4c5"
+    },
+    {
+      "slug": "family-as-a-relational-field",
+      "title": "Family as a Relational Field",
+      "clusterId": "H",
+      "frame": "philosophy.family_dynamics",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 11020,
+      "humanUrl": "/human/family-as-a-relational-field.md",
+      "ormdUrl": "/ormd/family-as-a-relational-field.ormd",
+      "humanSources": [
+        "Family as a Relational Field.md"
+      ],
+      "ormdSource": "Family as a Relational Field.ormd",
+      "humanSha256": "6014456f2d4aad01b8ab682a1f8c3aa382197667a97c965d8b2898a0a1340b28",
+      "ormdSha256": "a0fe16f248c4f7f263d451d45643774343a01548932b268f844ba3ff5dd9cbd1"
+    },
+    {
+      "slug": "layer-2-draft-rvp-and-vme-developments",
+      "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
+      "clusterId": "H",
+      "frame": "economics.relational.specification",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1216,
+      "humanUrl": "/human/layer-2-draft-rvp-and-vme-developments.md",
+      "ormdUrl": "/ormd/layer-2-draft-rvp-and-vme-developments.ormd",
+      "humanSources": [
+        "layer_2_draft_rvp_and_vme_developments.md"
+      ],
+      "ormdSource": "layer_2_draft_rvp_and_vme_developments.ormd",
+      "humanSha256": "8bf58319407e5607c6d93a8e52eeb3c25c50694aa9548ffb74cbe1858e864816",
+      "ormdSha256": "57c7da07b98080a34ac078863bc96eb6c2bf2c2f6f4908825c02c25965d21cab"
+    },
+    {
+      "slug": "power-as-relational-field-coherence",
+      "title": "Power as Relational Field Coherence",
+      "clusterId": "H",
+      "frame": "theoretical.sociophysics.power",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 6578,
+      "humanUrl": "/human/power-as-relational-field-coherence.md",
+      "ormdUrl": "/ormd/power-as-relational-field-coherence.ormd",
+      "humanSources": [
+        "Power as Relational Field Coherence.md"
+      ],
+      "ormdSource": "Power as Relational Field Coherence.ormd",
+      "humanSha256": "7dc2ada1516f48e153091833125d6f744c15684344ad5869d5e3bf1416df43ed",
+      "ormdSha256": "ff69aec30b53c20fd64ca9937412f6e1bdfb95876a7b439e27b628feefa80935"
+    },
+    {
+      "slug": "relational-perfection-a-manifesto",
+      "title": "Relational Perfection: A Manifesto",
+      "clusterId": "H",
+      "frame": "philosophy.manifesto",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 476,
+      "humanUrl": "/human/relational-perfection-a-manifesto.md",
+      "ormdUrl": "/ormd/relational-perfection-a-manifesto.ormd",
+      "humanSources": [
+        "Relational Perfection A Manifesto.md"
+      ],
+      "ormdSource": "Relational Perfection A Manifesto.ormd",
+      "humanSha256": "e319fadde2de117ef412642e4fc303b40265b5b8739e5d944551eb8a1c200a4f",
+      "ormdSha256": "df6eb2369e6519854bd92e3f3ddd9d2b06014c29416224b73cd02e312761d225"
+    },
+    {
+      "slug": "the-cyclical-integrity-framework",
+      "title": "The Cyclical Integrity framework",
+      "clusterId": "H",
+      "frame": "philosophy.systems",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1596,
+      "humanUrl": "/human/the-cyclical-integrity-framework.md",
+      "ormdUrl": "/ormd/the-cyclical-integrity-framework.ormd",
+      "humanSources": [
+        "The Cyclical Integrity framework.md"
+      ],
+      "ormdSource": "The Cyclical Integrity framework.ormd",
+      "humanSha256": "236ce9ea5a5a4feecc2fc31d6d5c4a1ed0684f466c8ed731079acd253dd6ad05",
+      "ormdSha256": "ade4a8c66d38868ce15cbb48049d5b5b918cb07b5f673429b49b73821df74acd"
+    },
+    {
+      "slug": "the-essence-of-existence",
+      "title": "The Essence of Existence",
+      "clusterId": "H",
+      "frame": "manifesto.relational",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 16234,
+      "humanUrl": "/human/the-essence-of-existence.md",
+      "ormdUrl": "/ormd/the-essence-of-existence.ormd",
+      "humanSources": [
+        "The Essence of Existence.md"
+      ],
+      "ormdSource": "The Essence of Existence.ormd",
+      "humanSha256": "43bb41c749088076e30a97cbc157dc1c63c7d8e43fe303976e4fc03dd7c4f175",
+      "ormdSha256": "a8acde4192085ff83edadf503a4db27cfa9fa6ebd8fa295583650117e010bc00"
+    },
+    {
+      "slug": "context-layer-protocol-clp",
+      "title": "Context Layer Protocol (CLP) — Overview & Starter Spec v0.2",
+      "clusterId": "I",
+      "frame": "protocol.specification",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1406,
+      "humanUrl": "/human/context-layer-protocol-clp.md",
+      "ormdUrl": "/ormd/context-layer-protocol-clp.ormd",
+      "humanSources": [
+        "Context Layer Protocol (CLP).md"
+      ],
+      "ormdSource": "Context Layer Protocol (CLP).ormd",
+      "humanSha256": "0397bd74215a4b3401d44fbd0e9592147b865ecded0684023189855bba61d533",
+      "ormdSha256": "737f5380460158d872e2a5bf705178956d36f6173895ff737a7421659ce8d247"
+    },
+    {
+      "slug": "implementations",
+      "title": "Implementations",
+      "clusterId": "I",
+      "frame": "registry.implementations",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 25,
+      "humanUrl": "/human/implementations.md",
+      "ormdUrl": "/ormd/implementations.ormd",
+      "humanSources": [
+        "Implementations.md"
+      ],
+      "ormdSource": "Implementations.ormd",
+      "humanSha256": "1852118c1589d308bc4117d48ee5456cff3ccbfb53f18fbb8307382225e8e4be",
+      "ormdSha256": "849d8dbe5670cd615d3b20b9d793b7e2c1f08ca5038d6adcb85afc779cb72208"
+    },
+    {
+      "slug": "relational-primitive-engine-rpe",
+      "title": "Relational Primitive Engine (RPE)",
+      "clusterId": "I",
+      "frame": "engineering.simulation.rpe",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 704,
+      "humanUrl": "/human/relational-primitive-engine-rpe.md",
+      "ormdUrl": "/ormd/relational-primitive-engine-rpe.ormd",
+      "humanSources": [
+        "Relational Primitive Engine (RPE).md"
+      ],
+      "ormdSource": "Relational Primitive Engine (RPE).ormd",
+      "humanSha256": "52ab1b37dbc06e12c62373463965a71984622860d990ea5f3e25d0b0092332f4",
+      "ormdSha256": "9c66d6579864727d7e640484dcb22362f1742ca75aca7fa654dec3ef6cd8849e"
+    },
+    {
+      "slug": "boundary-dynamics",
+      "title": "Boundary Dynamics",
+      "clusterId": "J",
+      "frame": "e2.semantic_substrate",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3752,
+      "humanUrl": "/human/boundary-dynamics.md",
+      "ormdUrl": "/ormd/boundary-dynamics.ormd",
+      "humanSources": [
+        "boundary_dynamics.md"
+      ],
+      "ormdSource": "boundary_dynamics.ormd",
+      "humanSha256": "6688448ebd69b39d98b97df8d9dec418ae76b5a5d108d756d58e282d22dd4ad3",
+      "ormdSha256": "43e9fdc7010a65c2d9f21bf89a2bb12ccfdd80938b3ec4f8d8284980a0fc4d28"
+    },
+    {
+      "slug": "flow-operators-provisional",
+      "title": "Flow Operators: A Provisional Snapshot",
+      "clusterId": "J",
+      "frame": "e2.semantic_substrate",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2202,
+      "humanUrl": "/human/flow-operators-provisional.md",
+      "ormdUrl": "/ormd/flow-operators-provisional.ormd",
+      "humanSources": [
+        "flow_operators_provisional.md"
+      ],
+      "ormdSource": "flow_operators_provisional.ormd",
+      "humanSha256": "0e98bde6d18f38938bb5217072340a3e15c92568b0ac4203f9b4a6de913e8519",
+      "ormdSha256": "7e38034c5f0d1f81b695becf6701aab4bd243cfb3b5bc6040311d0a367a02b9e"
+    },
+    {
+      "slug": "resolution-synthesis",
+      "title": "Resolution: Synthesis Notes",
+      "clusterId": "J",
+      "frame": "e2.semantic_substrate",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1797,
+      "humanUrl": "/human/resolution-synthesis.md",
+      "ormdUrl": "/ormd/resolution-synthesis.ormd",
+      "humanSources": [
+        "resolution_synthesis.md"
+      ],
+      "ormdSource": "resolution_synthesis.ormd",
+      "humanSha256": "fc7f32d69a164d4477f6b816676b4401a6bcd5981426c0a61e0bb199779a6c3c",
+      "ormdSha256": "3b84a2e812b853ae848f9f93db1cbe8e1b9abe05cd39acc81fd6f470955e48c2"
+    },
+    {
+      "slug": "sign-mediated-flow-routing",
+      "title": "Sign-Mediated Accountability and Flow Routing",
+      "clusterId": "J",
+      "frame": "e2.semantic_substrate",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 776,
+      "humanUrl": "/human/sign-mediated-flow-routing.md",
+      "ormdUrl": "/ormd/sign-mediated-flow-routing.ormd",
+      "humanSources": [
+        "sign_mediated_flow_routing.md"
+      ],
+      "ormdSource": "sign_mediated_flow_routing.ormd",
+      "humanSha256": "61f8e5949aeca68614430e5ff6827bfa3a3907b66741e743d8831bd2d89c207c",
+      "ormdSha256": "47a31a5cd50aafcd1599a139fc27b574d64759b0a385c28984d7851dc55b0a8f"
+    },
+    {
+      "slug": "condition-as-typed-terrain-core-source",
+      "title": "Condition as Typed Terrain",
+      "clusterId": "K",
+      "frame": "causality.condition_typed_terrain",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1580,
+      "humanUrl": "/human/condition-as-typed-terrain-core-source.md",
+      "ormdUrl": "/ormd/condition-as-typed-terrain-core-source.ormd",
+      "humanSources": [
+        "Condition as Typed Terrain - Core Source.md"
+      ],
+      "ormdSource": "Condition as Typed Terrain - Core Source.ormd",
+      "humanSha256": "3a4598ed8e26b3d988b7ea667f0da57c6f4aff9c046f33eb3e3af6ad1a7ffe98",
+      "ormdSha256": "d5ae43822b1eca36bd5b9ad1aa1e214aa0e4b3e50bcff405489e2fef8fbaebf3"
+    },
+    {
+      "slug": "consequence-routing-core-source",
+      "title": "Consequence Routing",
+      "clusterId": "K",
+      "frame": "accountability.consequence-routing",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2013,
+      "humanUrl": "/human/consequence-routing-core-source.md",
+      "ormdUrl": "/ormd/consequence-routing-core-source.ormd",
+      "humanSources": [
+        "Consequence Routing - Core Source.md"
+      ],
+      "ormdSource": "Consequence Routing - Core Source.ormd",
+      "humanSha256": "0816b139e6f056445cb59114ec75bcb088d1bb5c32cdd2cee3bb7bf82c2133db",
+      "ormdSha256": "3c3969d8dfbb2eed73bff9231270fc4c1cbdd80ed96d4b01808b0169c5223515"
+    },
+    {
+      "slug": "custody-core-source",
+      "title": "Custody",
+      "clusterId": "K",
+      "frame": "ethics.custody",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3802,
+      "humanUrl": "/human/custody-core-source.md",
+      "ormdUrl": "/ormd/custody-core-source.ormd",
+      "humanSources": [
+        "Custody - Core Source.md"
+      ],
+      "ormdSource": "Custody - Core Source.ormd",
+      "humanSha256": "0fd74562b9af5d16688667c76b7cfd2db2682b69989eaa1cd4334fd8fbdf8b6b",
+      "ormdSha256": "591c8feaaa8eb29d154516e2b98473a2e81c805497fc2a7ab91332292c5dcb51"
+    },
+    {
+      "slug": "intervention-stewardship-core-source",
+      "title": "Intervention Stewardship",
+      "clusterId": "K",
+      "frame": "ethics.stewardship.intervention",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1587,
+      "humanUrl": "/human/intervention-stewardship-core-source.md",
+      "ormdUrl": "/ormd/intervention-stewardship-core-source.ormd",
+      "humanSources": [
+        "Intervention Stewardship - Core Source.md"
+      ],
+      "ormdSource": "Intervention Stewardship - Core Source.ormd",
+      "humanSha256": "cd46c4ffe82a05c5289674ccdfa8b9cea332e51b26feab2ad66a0fdbd885e3eb",
+      "ormdSha256": "cbaaba161e0ab4c1114bf236999f48d24ddae278cce74d8a26fdc5480b7e47cf"
+    },
+    {
+      "slug": "lawfulness-core-source",
+      "title": "Lawfulness",
+      "clusterId": "K",
+      "frame": "epistemics.predictive_lawfulness",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1447,
+      "humanUrl": "/human/lawfulness-core-source.md",
+      "ormdUrl": "/ormd/lawfulness-core-source.ormd",
+      "humanSources": [
+        "Lawfulness - Core Source.md"
+      ],
+      "ormdSource": "Lawfulness - Core Source.ormd",
+      "humanSha256": "11c39af4c76328d990868723a446f1a23629c2432026f211fcc698dfab39c802",
+      "ormdSha256": "34f45d05b05cc421a5b9944ca1081eae6f241aa7ae8209a68004201b57475608"
+    },
+    {
+      "slug": "persistence-as-accumulated-stance-with-core-source",
+      "title": "Persistence as Accumulated Stance-With",
+      "clusterId": "K",
+      "frame": "dynamics.persistence_accumulated_stance_with",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1656,
+      "humanUrl": "/human/persistence-as-accumulated-stance-with-core-source.md",
+      "ormdUrl": "/ormd/persistence-as-accumulated-stance-with-core-source.ormd",
+      "humanSources": [
+        "Persistence as Accumulated Stance-With - Core Source.md"
+      ],
+      "ormdSource": "Persistence as Accumulated Stance-With - Core Source.ormd",
+      "humanSha256": "bfdc3b43d2a79a6b8b71335fb5b42b48b0e674a1443ae0201a0c11742dfea251",
+      "ormdSha256": "05d79a1ef11c391345b3cea9322a26f46041eef982aeff93f5af361accd5bbcd"
+    },
+    {
+      "slug": "relational-derivation-chain",
+      "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+      "clusterId": "K",
+      "frame": "philosophy.relational.computability",
+      "confidence": 0.85,
+      "status": "paired_composite_or_alias",
+      "relationship": "renamed_conversion",
+      "wordCount": 12474,
+      "humanUrl": "/human/relational-derivation-chain.md",
+      "ormdUrl": "/ormd/relational-derivation-chain.ormd",
+      "humanSources": [
+        "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md"
+      ],
+      "ormdSource": "Relational Derivation Chain .ormd",
+      "humanSha256": "64342f4b3e791e91109fe2730459bcff48f4b819e13d522ad1f08df07ad9083c",
+      "ormdSha256": "0326f05f0bdff1a6fc0e46c0c5be8abadbff7865903e73201f41ddaaf09bd9b8"
+    },
+    {
+      "slug": "relational-perfection-framework",
+      "title": "Relational Perfection: A Framework for Emergent Integrity",
+      "clusterId": "K",
+      "frame": "philosophy.ontology",
+      "confidence": 0.95,
+      "status": "paired_composite_or_alias",
+      "relationship": "renamed_conversion",
+      "wordCount": 1030,
+      "humanUrl": "/human/relational-perfection-framework.md",
+      "ormdUrl": "/ormd/relational-perfection-framework.ormd",
+      "humanSources": [
+        "Relational Perfection A Framework for Emergent Int.md"
+      ],
+      "ormdSource": "Relational Perfection_framework.ormd",
+      "humanSha256": "afb21d7f7672812b9cb6199b455f7407c89566437602f3f4b2d46bc749c8cea4",
+      "ormdSha256": "d526b09b98fa59dd5f466de4301250f9a035d90798f52b29adf73d8ef97cb0de"
+    },
+    {
+      "slug": "responsibility-absorption-core-source",
+      "title": "Responsibility Absorption",
+      "clusterId": "K",
+      "frame": "governance.responsibility_absorption",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1048,
+      "humanUrl": "/human/responsibility-absorption-core-source.md",
+      "ormdUrl": "/ormd/responsibility-absorption-core-source.ormd",
+      "humanSources": [
+        "Responsibility Absorption - Core Source.md"
+      ],
+      "ormdSource": "Responsibility Absorption - Core Source.ormd",
+      "humanSha256": "fc2528b3e5a0cd1a8a2cfb330cdfd2cd9a99558193f14da18ca84aeffcf9545f",
+      "ormdSha256": "93f0e4ed34917da64bc7b7a231311e19f9aea4a6de93072b0ec759f12e680a07"
+    },
+    {
+      "slug": "slow-layer-clock-ratio-core-source",
+      "title": "Slow-Layer Clock Ratio",
+      "clusterId": "K",
+      "frame": "dynamics.slow_layer_clock_ratio",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1114,
+      "humanUrl": "/human/slow-layer-clock-ratio-core-source.md",
+      "ormdUrl": "/ormd/slow-layer-clock-ratio-core-source.ormd",
+      "humanSources": [
+        "Slow-Layer Clock Ratio - Core Source.md"
+      ],
+      "ormdSource": "Slow-Layer Clock Ratio - Core Source.ormd",
+      "humanSha256": "32dd0bfd30f850b80fe6ba55dbd4139b76e6a8590479f6c3da1d1529b2dd728d",
+      "ormdSha256": "e2b72823f256317494a979d1e037fba851fe37b46738b0e88f3ea1c5c5573f59"
+    },
+    {
+      "slug": "steward-s-creed",
+      "title": "Steward’s Creed",
+      "clusterId": "K",
+      "frame": "philosophical.creed",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 128,
+      "humanUrl": "/human/steward-s-creed.md",
+      "ormdUrl": "/ormd/steward-s-creed.ormd",
+      "humanSources": [
+        "Steward’s Creed.md"
+      ],
+      "ormdSource": "Steward’s Creed.ormd",
+      "humanSha256": "8abd64810cfa378c83e1570e250fd59596bdc0ecd14b58c3a9570984f6e36fcc",
+      "ormdSha256": "e13f358e926203999218255b5f05ed8c5b194f3ee9ab51b87f08aeb12e9cb49b"
+    },
+    {
+      "slug": "self-as-coherence-field",
+      "title": "The Self as Coherence Field",
+      "clusterId": "K",
+      "frame": "cognition.self_coherence",
+      "confidence": 0.93,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3479,
+      "humanUrl": "/human/self-as-coherence-field.md",
+      "ormdUrl": "/ormd/self-as-coherence-field.ormd",
+      "humanSources": [
+        "Self as Coherence Field.md"
+      ],
+      "ormdSource": "Self as Coherence Field.ormd",
+      "humanSha256": "9a7800859b0e7602c47c62b12d4fdaf6b0bfbbee06d2dfc82481a77970101644",
+      "ormdSha256": "9e66878a640a0841b7881cab4cc806894444eb21104dda784794f764a0873839"
+    },
+    {
+      "slug": "trust-trustworthiness-and-reliance-core-source",
+      "title": "Trust, Trustworthiness, and Reliance",
+      "clusterId": "K",
+      "frame": "relational.trust",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2508,
+      "humanUrl": "/human/trust-trustworthiness-and-reliance-core-source.md",
+      "ormdUrl": "/ormd/trust-trustworthiness-and-reliance-core-source.ormd",
+      "humanSources": [
+        "Trust, Trustworthiness, and Reliance - Core Source.md"
+      ],
+      "ormdSource": "Trust, Trustworthiness, and Reliance - Core Source.ormd",
+      "humanSha256": "65d3622dcf805e04ed4951454ee52858458cf24507af7f4fe19ce3b8f0b9182a",
+      "ormdSha256": "f640da523942f0321c2e9e6ac6026b0ddcc3ddefaa18845996fbd36308323df7"
+    }
+  ]
+}

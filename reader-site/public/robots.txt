@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AI navigation index
+Sitemap: /llms.txt
