@@ -3,6 +3,8 @@
 > Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.
 
 Canonical AI mirror: https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/llms.txt
+HTML AI mirror: https://danpace725.github.io/e2-core-framework/
+Whole-corpus HTML mirror: https://danpace725.github.io/e2-core-framework/corpus.html
 Source repository: https://github.com/DanPace725/e2-core-framework
 
 ## How to read this corpus

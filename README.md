@@ -13,6 +13,7 @@ The public reader is available at <https://e2-core-framework.capulusirl.chatgpt.
 - Humans read the Semantic Substrate in the mobile-friendly site.
 - AI systems read the paired Context Layer ORMD as the machine-facing authority.
 - `llms.txt` is the compact navigation entry point: <https://e2-core-framework.capulusirl.chatgpt.site/llms.txt>
+- The neutral HTML AI mirror is at <https://danpace725.github.io/e2-core-framework/>; its single-page whole-corpus view is <https://danpace725.github.io/e2-core-framework/corpus.html>.
 - The raw master ORMD index is at <https://e2-core-framework.capulusirl.chatgpt.site/ormd/context-layer-master-index.ormd>.
 - A machine-readable pairing catalog is at <https://e2-core-framework.capulusirl.chatgpt.site/catalog.json>.
 - The complete combined ORMD snapshot is at <https://e2-core-framework.capulusirl.chatgpt.site/ormd-corpus.txt>.

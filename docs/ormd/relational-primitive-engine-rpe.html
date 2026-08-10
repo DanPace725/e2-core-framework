@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="AI-readable ORMD authority document: Relational Primitive Engine (RPE)">
+  <link rel="canonical" href="https://danpace725.github.io/e2-core-framework/ormd/relational-primitive-engine-rpe.html">
+  <title>Relational Primitive Engine (RPE) | E² Core Framework</title>
+  <style>
+    :root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; background: #f7f4e9; color: #102f27; }
+    body { margin: 0; }
+    main { width: min(100% - 2rem, 72rem); margin: 0 auto; padding: 2.5rem 0 5rem; }
+    h1, h2 { font-family: Georgia, serif; line-height: 1.12; }
+    h1 { font-size: clamp(2rem, 7vw, 4rem); margin: 0 0 1rem; }
+    h2 { margin-top: 2.5rem; }
+    a { color: #075b4a; }
+    .meta { color: #48655d; }
+    .notice { padding: 1rem; border: 1px solid #b9c8bd; border-radius: .75rem; background: #fffdf5; }
+    li { margin: .55rem 0; }
+    pre { margin-top: 1.5rem; padding: 1rem; overflow-wrap: anywhere; white-space: pre-wrap; border: 1px solid #cbd4cc; border-radius: .75rem; background: #fffdf8; font: .92rem/1.55 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+</head>
+<body>
+<main>
+<p><a href="../">← E² AI index</a> · <a href="../corpus.html">Whole ORMD corpus</a></p>
+<h1>Relational Primitive Engine (RPE)</h1>
+<p class="notice">This page is an HTML transport mirror. The ORMD below is the AI-facing authority and is preserved verbatim from <a href="https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-primitive-engine-rpe.ormd">the canonical repository snapshot</a>.</p>
+<pre>&lt;!-- ormd:1.0 --&gt;
+---
+title: &quot;Relational Primitive Engine (RPE)&quot;
+authors: [&quot;Daniel Pace&quot;]
+
+# --- Context Layer Protocol (CLP) ---
+frame: &quot;engineering.simulation.rpe&quot;
+lineage:
+  origin: { uri: &quot;internal://rpe/spec/v2&quot;, ts: &quot;2025-12-11T00:00:00Z&quot; }
+  parents: []
+policy:
+  read: [{ roles: [&quot;public&quot;] }]
+semantics:
+  keywords: [&quot;RPE&quot;, &quot;Relational Primitives&quot;, &quot;GCO&quot;, &quot;Simulation&quot;, &quot;Determinism&quot;, &quot;RPLang&quot;]
+resolution: { confidence: 0.98 }
+---
+
+# Relational Primitive Engine (RPE) {#rpe-root}
+
+12/11/25
+📘 **Relational Primitive Engine (RPE)
+Deterministic Update Algorithm v2**
+
+## Purpose {#purpose}
+The Relational Primitive Engine (RPE) provides a deterministic, ontology-driven, emergent simulation layer. It evaluates world state through [six relational primitives](#update-cycle &quot;ontological:composes&quot;) (Ontology, Geometry, Constraint, Epistemic, Dynamics, Meta) and applies the [Global Closure Operator (GCO)](#gco &quot;symmetric:constrains&quot;) to produce a consistent, stable, and interpretable world update each tick.
+
+The RPE is engine-agnostic and [integrates cleanly](#integration &quot;meta:corresponds_to&quot;) with Unreal, Unity, Godot, or a custom engine.
+
+---
+
+## 1. Data Model {#data-model}
+
+### Entity {#entity}
+A discrete world participant.
+```json
+Entity {
+  id: string,
+  kind: string,      // category/class/template
+  state: { key: value } // arbitrary properties (hp, hunger, faction, resources...)
+}
+```
+
+### Relation {#relation}
+A typed edge [connecting entities](#entity &quot;ontological:composes&quot;) or expressing a property.
+```json
+Relation {
+  primitive: ONTOLOGY | GEOMETRY | CONSTRAINT | EPISTEMIC | DYNAMICS | META,
+  source: EntityID,
+  target?: EntityID,
+  payload?: any      // radius, weight, occlusion, visibility, resource delta, rule references...
+}
+```
+
+### World {#world}
+The [World](#world &quot;ontological:defines&quot;) is the container for the simulation state.
+```json
+World {
+  entities: Set&lt;Entity&gt;,
+  relations: Set&lt;Relation&gt;,
+  spatialIndex: Structure,    // quadtree/octree/BVH for GEOMETRY + EPISTEMIC
+  dirtyFlags: Map&lt;EntityID, Flags&gt; // tracks which entities changed and why
+}
+```
+
+---
+
+## 2. Update Cycle (One Tick) {#update-cycle}
+The RPE update cycle is [strictly ordered](#step-1 &quot;geometric:precedes&quot;) for determinism:
+
+---
+
+### ⭐ Step 1 — GEOMETRY {#step-1}
+(Spatial, structural, topological evaluation)
+**Purpose**: Build a geometric snapshot for the tick.
+**Operations**:
+- Compute proximity relations
+- Field gradients (pressure, influence, heat, mana, etc.)
+- Occlusion and line-of-sight
+- Structural connectivity
+- Region membership
+- Local curvature / manifold effects
+
+**Output**: `GeometryContext`
+This serves as the [spatial foundation](#step-2 &quot;geometric:precedes&quot;) for all subsequent primitives.
+
+---
+
+### ⭐ Step 2 — CONSTRAINT {#step-2}
+**Purpose**: Enforce physical, systemic, resource, or logical [bounds](#step-2 &quot;symmetric:constrains&quot;).
+**Examples**:
+- clamp health, energy, capacity
+- enforce conservation rules
+- apply faction laws or cultural norms
+- stabilize invalid states
+- handle collisions or blocked actions
+
+This stage ensures the world enters [Dynamics](#step-4 &quot;geometric:precedes&quot;) in a valid, bounded configuration.
+
+---
+
+### ⭐ Step 3 — EPISTEMIC {#step-3}
+**Purpose**: Determine what each entity [knows](#step-3 &quot;epistemic:measures&quot;), based on [Geometry](#step-1 &quot;epistemic:supports&quot;) and [Constraints](#step-2 &quot;epistemic:supports&quot;).
+**Derived from**:
+- visibility
+- sensory ranges
+- occlusion
+- faction intelligence
+- memory
+- inference rules
+
+**Output**: Knowledge graph per agent or per faction.
+This grounds the simulation in [local perspective](#step-3 &quot;epistemic:measures&quot;) — agents cannot act on information they do not have. (It also supports stealth, misinformation, rumors, and drift.)
+
+---
+
+### ⭐ Step 4 — DYNAMICS {#step-4}
+**Purpose**: Apply [state changes](#step-4 &quot;dynamical:transforms_to&quot;)—movement, growth, decay, combat, reproduction, trade, social action—filtered through [Constraints](#step-2 &quot;symmetric:constrains&quot;) and [Epistemics](#step-3 &quot;epistemic:supports&quot;).
+**Dynamics include**:
+- movement or pathing
+- metabolic cycles
+- resource flows
+- combat resolution
+- AI decision-making
+- behavior scripts (or RP-rule behavior selectors)
+- ecological or systemic dynamics
+
+This is the main “action” stage of the simulation.
+
+---
+
+### ⭐ Step 5 — META {#step-5}
+**Purpose**: Rules about rules. Structural operations. [System-level mutation](#step-5 &quot;meta:emerges_from&quot;).
+**META handles**:
+- spawning / despawning entities
+- adding/removing relations
+- role changes
+- faction reorganization
+- cultural drift
+- rule injection (e.g., new schema when player builds a creation)
+- architecture changes
+- large-scale systemic adjustments
+- rewriting topologies or categories
+
+META is how the world [evolves its own laws](#step-5 &quot;meta:corresponds_to&quot;).
+
+---
+
+### ⭐ Step 6 — GCO (Global Closure Operator) {#gco}
+**Purpose**: Ensure world consistency; resolve contradictions; [finalize the tick](#gco &quot;symmetric:constrains&quot;).
+**Operations**:
+- dedupe relations
+- remove contradictions
+- enforce schema-level invariants
+- resolve conflicts deterministically
+- collapse equivalences
+- freeze stable states
+- trigger RESET events where appropriate
+- produce a closure report for debugging and/or narrative use
+
+After GCO completes, the world state is [valid, minimal, and consistent](#rpe-root &quot;symmetric:preserves&quot;) for the next tick.
+
+---
+
+## 3. Runtime Integration {#integration}
+For UE5 or Unity:
+Run `RPE.Step(world)`:
+1. after physics simulation
+2. after animation updates
+3. before AI planning or rendering
+4. optionally multiple times per gameplay tick (substepping)
+
+The RPE becomes the [semantic layer](#rpe-root &quot;ontological:composes&quot;) of the engine.
+
+---
+
+## 4. Authoring Rules {#authoring}
+Rules are authored as:
+- JSON
+- ScriptableObjects / DataAssets
+- Lua fragments
+- Blueprint function objects
+- Graph-based logic
+
+Each rule [emits or modifies](#relation &quot;dynamical:transforms_to&quot;) Relations.
+META rules may [mutate the ruleset](#step-5 &quot;meta:corresponds_to&quot;) itself.
+
+---
+
+## 5. Performance Notes {#performance}
+- Use [spatial indexing](#world &quot;geometric:embedded_in&quot;) aggressively for GEOMETRY and EPISTEMIC.
+- Use change-driven evaluation (only recompute relations touching “dirty” entities).
+- Keep [GCO](#gco &quot;symmetric:constrains&quot;) simple (not a solver—just a closure pruner).
+- Cache perceptual fields where possible.
+
+This keeps the simulation [scalable](#performance &quot;symmetric:limits&quot;) to thousands of entities.
+
+---
+
+## 6. Debugging and Introspection {#debugging}
+The greatest strength of RPE is transparency.
+Log or visualize:
+- relations added this tick
+- relations removed
+- contradictions detected
+- closure events
+- epistemic states
+- META rewrites
+
+This makes AI and world-sim behavior [fully explainable](#debugging &quot;epistemic:supports&quot;).
+
+---
+
+## ⭐ 7. Determinism Guarantees {#determinism}
+The RPE tick cycle is [deterministic](#determinism &quot;symmetric:constrains&quot;) if:
+1. input order is stable
+2. relation evaluation order is stable
+3. GCO resolution rules are stable
+
+This enables:
+- replays
+- debugging
+- synchronization for multiplayer
+- predictable AI
+- reproducible world evolutions
+
+</pre>
+</main>
+</body>
+</html>

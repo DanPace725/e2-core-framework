@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import test from "node:test";
 
 async function render() {
@@ -39,16 +39,21 @@ test("publishes complete paired human and AI catalogs", async () => {
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {
-  const [llms, rootLlms, corpus, robots] = await Promise.all([
+  const [llms, rootLlms, corpus, robots, htmlIndex, htmlCorpus, htmlMaster, htmlDocs] = await Promise.all([
     readFile(new URL("../public/llms.txt", import.meta.url), "utf8"),
     readFile(new URL("../../llms.txt", import.meta.url), "utf8"),
     readFile(new URL("../public/ormd-corpus.txt", import.meta.url), "utf8"),
     readFile(new URL("../public/robots.txt", import.meta.url), "utf8"),
+    readFile(new URL("../../docs/index.html", import.meta.url), "utf8"),
+    readFile(new URL("../../docs/corpus.html", import.meta.url), "utf8"),
+    readFile(new URL("../../docs/ormd/context-layer-master-index.html", import.meta.url), "utf8"),
+    readdir(new URL("../../docs/ormd/", import.meta.url)),
   ]);
   assert.match(llms, /Context Layer Master Index \(ORMD\)/);
   assert.match(llms, /## Cluster K/);
   assert.match(llms, /ORMD is the AI-facing authority/);
   assert.match(llms, /https:\/\/raw\.githubusercontent\.com\/DanPace725\/e2-core-framework\/main\/reader-site\/public\/ormd\/context-layer-master-index\.ormd/);
+  assert.match(llms, /HTML AI mirror: https:\/\/danpace725\.github\.io\/e2-core-framework\//);
   assert.doesNotMatch(llms, /\]\(\/ormd\//);
   assert.equal(rootLlms, llms);
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
@@ -56,6 +61,12 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(robots, /User-agent: Claude-User\nAllow: \//);
   assert.match(robots, /User-agent: Google-Extended\nAllow: \//);
   assert.doesNotMatch(robots, /^Sitemap:/m);
+  assert.match(htmlIndex, /^<!doctype html>/);
+  assert.match(htmlIndex, /Whole combined ORMD corpus/);
+  assert.match(htmlIndex, /## Cluster K|Cluster K/);
+  assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);
+  assert.match(htmlMaster, /&lt;!-- ormd:1\.0 --&gt;/);
+  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 89);
 });
 
 test("keeps ORMD metadata out of the human reading surface", async () => {

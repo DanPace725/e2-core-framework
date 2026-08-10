@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="AI-readable ORMD authority document: Context Layer Protocol (CLP) — Overview &amp; Starter Spec v0.2">
+  <link rel="canonical" href="https://danpace725.github.io/e2-core-framework/ormd/context-layer-protocol-clp.html">
+  <title>Context Layer Protocol (CLP) — Overview &amp; Starter Spec v0.2 | E² Core Framework</title>
+  <style>
+    :root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; background: #f7f4e9; color: #102f27; }
+    body { margin: 0; }
+    main { width: min(100% - 2rem, 72rem); margin: 0 auto; padding: 2.5rem 0 5rem; }
+    h1, h2 { font-family: Georgia, serif; line-height: 1.12; }
+    h1 { font-size: clamp(2rem, 7vw, 4rem); margin: 0 0 1rem; }
+    h2 { margin-top: 2.5rem; }
+    a { color: #075b4a; }
+    .meta { color: #48655d; }
+    .notice { padding: 1rem; border: 1px solid #b9c8bd; border-radius: .75rem; background: #fffdf5; }
+    li { margin: .55rem 0; }
+    pre { margin-top: 1.5rem; padding: 1rem; overflow-wrap: anywhere; white-space: pre-wrap; border: 1px solid #cbd4cc; border-radius: .75rem; background: #fffdf8; font: .92rem/1.55 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+</head>
+<body>
+<main>
+<p><a href="../">← E² AI index</a> · <a href="../corpus.html">Whole ORMD corpus</a></p>
+<h1>Context Layer Protocol (CLP) — Overview &amp; Starter Spec v0.2</h1>
+<p class="notice">This page is an HTML transport mirror. The ORMD below is the AI-facing authority and is preserved verbatim from <a href="https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/context-layer-protocol-clp.ormd">the canonical repository snapshot</a>.</p>
+<pre>&lt;!-- ormd:1.0 --&gt;
+---
+title: &quot;Context Layer Protocol (CLP) — Overview &amp; Starter Spec v0.2&quot;
+authors: [&quot;Daniel Pace&quot;]
+
+# --- Context Layer Protocol (CLP) ---
+frame: &quot;protocol.specification&quot;
+lineage:
+  origin: { uri: &quot;urn:clp:spec:v0.2&quot;, ts: &quot;2025-09-18T00:00:00Z&quot; }
+  parents: []
+policy:
+  read: [{ roles: [&quot;public&quot;] }]
+semantics:
+  keywords: [&quot;context-aware&quot;, &quot;provenance&quot;, &quot;resolution-limits&quot;, &quot;policy-governance&quot;, &quot;ContextBundle&quot;]
+resolution: { confidence: 0.90 }
+---
+
+# Context Layer Protocol (CLP) {#clp-main}
+
+9/18/25
+
+Here’s a single, self-contained doc you can hand to other AIs (and humans) to understand and iterate on the vision. It’s concise, normative where helpful, and includes concrete data shapes.
+
+# Context Layer Protocol (CLP) — Overview &amp; Starter Spec v0.2 {#clp-overview}
+
+## 0) Purpose {#purpose}
+
+Build a **context-aware data layer** that returns answers **with their limits and causes attached**. CLP treats [context](#core-object &quot;ontological:defines&quot;), [provenance](#lineage-event &quot;ontological:defines&quot;), [resolution limits](#resolution-floors &quot;ontological:defines&quot;), and [policy](#policy-membranes &quot;ontological:defines&quot;) as first-class. It is **format-agnostic** (works with PDFs, DOCX, Markdown) and **database-agnostic** (works with SQLite/Postgres + vector/graph indices).
+
+## 1) Problem (why this exists) {#problem}
+
+- **Context loss**: data travels; meaning doesn’t.
+- **Over-precision**: systems claim distinctions beyond evidence (no resolution guardrails).
+- **Opaque power**: policies/roles curve outputs invisibly.
+- **Human bandwidth**: explanations must fit attention budgets.
+
+## 2) Four-Axis Design Lens {#design-lens}
+
+- **Resources** (constraint): compute, storage, time.
+- **Cognition** (constraint): human/model attention &amp; verification capacity.
+- **Context** (field condition): frames, lineage, semantics that create coherence.
+- **Power** (curvature/gradient): policies/roles/incentives that bend outcomes.
+
+CLP [encodes all four](#core-object &quot;ontological:composes&quot;) across data, queries, planning, and governance.
+
+---
+
+## 3) Core Object: ContextBundle (CB) {#core-object}
+
+Portable unit [coupling content](#minimal-json &quot;ontological:composes&quot;) with **frame**, **lineage**, **policy**, **semantics**, **resolution limits**, and **explain**.
+
+**Minimal JSON (canonical form)** {#minimal-json}
+
+```json
+{
+  &quot;id&quot;: &quot;urn:cb:ulid&quot;,
+  &quot;version&quot;: &quot;1.0&quot;,
+  &quot;frame&quot;: &quot;domain.subdomain&quot;,               // e.g. &quot;news.report&quot;, &quot;finance.invoice&quot;
+  &quot;content&quot;: {},                              // typed payload or reference
+  &quot;lineage&quot;: {
+    &quot;origin&quot;: {&quot;uri&quot;: &quot;s3://...|file://...|http://...&quot;, &quot;ts&quot;: &quot;2025-09-18T00:00:00Z&quot;},
+    &quot;parents&quot;: [&quot;urn:cb:...&quot;],                // if derived
+    &quot;transforms&quot;: [{&quot;fn&quot;:&quot;ocr@sha256:...&quot;, &quot;ts&quot;:&quot;...&quot;}]
+  },
+  &quot;policy&quot;: {
+    &quot;read&quot;: [{&quot;roles&quot;:[&quot;auditor&quot;], &quot;conds&quot;:[&quot;pii:masked&quot;]}],
+    &quot;write&quot;: [{&quot;roles&quot;:[&quot;etl.bot&quot;]}],
+    &quot;purpose&quot;: [&quot;verify&quot;,&quot;reconcile&quot;],
+    &quot;expiry&quot;: null
+  },
+  &quot;semantics&quot;: {
+    &quot;keywords&quot;: [&quot;invoice&quot;,&quot;shipment&quot;],
+    &quot;embedding&quot;: {&quot;model&quot;:&quot;text-embedding&quot;, &quot;handle&quot;:&quot;vector://index/123&quot;}
+  },
+  &quot;resolution&quot;: { &quot;min_separation&quot;: 0.20, &quot;min_support&quot;: 3, &quot;confidence&quot;: 0.90 },
+  &quot;explain&quot;: { &quot;reason&quot;: &quot;symbolic+vector+lineage&quot;, &quot;unresolved&quot;: false },
+  &quot;refs&quot;: { &quot;content_hash&quot;:&quot;sha256:...&quot;, &quot;content_ref&quot;:&quot;s3|file|http URI&quot; }
+}
+
+```
+
+**Frames (namespacing &amp; validation)** {#frames}
+
+```yaml
+# Frame Registry unit
+name: finance.invoice
+version: 1.2
+required_fields: [invoice_id, amount, currency, issued_at, vendor_name]
+validators:
+  - field: currency
+    rule: one_of
+    args: [&quot;USD&quot;,&quot;EUR&quot;,&quot;GBP&quot;]
+defaults:
+  resolution: { min_separation: 0.20, min_support: 25, confidence: 0.90 }
+  policy.read: [{ roles: [&quot;finance.ap&quot;,&quot;auditor&quot;] }]
+
+```
+
+---
+
+## 4) Storage Model (where things “live”) {#storage-model}
+
+### A) With/Near the File (portable) {#portable-storage}
+
+- **Sidecar** (recommended): `mydoc.ormd.json` [next to any payload](#sidecar-format &quot;geometric:embedded_in&quot;) (PDF/DOCX/MD).
+- Holds the CB subset needed to open/understand offline: `id`, `frame`, `refs.content_hash`, short `lineage.origin`, `semantics.keywords`, optional `embedding.handle`.
+
+### B) Registries (shared receipts; auditable) {#registries}
+
+Small **append-only** stores for slow-moving, verifiable metadata:
+
+1. **Lineage Ledger** {#lineage-ledger} — [signed events](#lineage-event &quot;epistemic:measures&quot;) about bundles (created, transformed, derivedFrom, linkedTo, attestedBy, redacted).
+2. **Frame Registry** — versioned frame definitions &amp; validators.
+3. **Policy/Trust Registry** — public keys, grants/roles, revocations.
+4. **Resolver** — maps bundle IDs/hashes → candidate URIs.
+
+&gt; Registries are not data lakes. They hold hashes, pointers, events, and signatures. Content stays in files/stores you control. Registries can be local, team-scoped, or mirrored publicly; they federate by syncing events (no blockchain, no consensus).
+&gt; 
+
+**Lineage Event (JSONL schema)** {#lineage-event}
+
+```json
+{
+  &quot;event_id&quot;: &quot;ulid&quot;,
+  &quot;type&quot;: &quot;created|transformed|derivedFrom|linkedTo|attestedBy|redacted&quot;,
+  &quot;object&quot;: &quot;urn:cb:ulid&quot;,          // bundle id or content hash urn:sha256:...
+  &quot;refs&quot;: [&quot;urn:cb:parent&quot;, &quot;urn:cb:claim&quot;],  // depends on type
+  &quot;by&quot;: &quot;did:key:z6Mk...&quot;,          // signer
+  &quot;at&quot;: &quot;2025-09-18T20:21:00Z&quot;,
+  &quot;payload&quot;: { &quot;fn&quot;:&quot;ocr@sha256:...&quot;, &quot;note&quot;:&quot;ocr→ner&quot; },
+  &quot;sig&quot;: &quot;base64-ed25519&quot;
+}
+
+```
+
+### C) Index Fabric (fast but disposable) {#index-fabric}
+
+- **Relational** (SQLite/Postgres) for CB projections.
+- **Vector** index for semantic recall (Annoy/FAISS/pgvector).
+- **Graph** edges for [lineage](#lineage-ledger &quot;geometric:precedes&quot;) &amp; `supports|refutes|derives`.
+
+Indexes rebuild from files + registry when needed.
+
+---
+
+## 5) Query Model (Intention-Aware) {#query-model}
+
+Requests declare **intent**, **frame scope**, **resolution limits**, and **attention budget**. Response returns [rows + EXPLAIN + telemetry](#response-json &quot;dynamical:transforms_to&quot;).
+
+**Request** {#request-json}
+
+```json
+{
+  &quot;intent&quot;: &quot;verify event claims&quot;,
+  &quot;frame&quot;: [&quot;news.report&quot;,&quot;claim&quot;],
+  &quot;filters&quot;: {&quot;keyword&quot;:&quot;earthquake&quot;,&quot;date_gte&quot;:&quot;2025-09-01&quot;},
+  &quot;resolution&quot;: {&quot;min_support&quot;:3, &quot;confidence&quot;:0.95},
+  &quot;attention_budget&quot;: &quot;low&quot;,               // &quot;low&quot; | &quot;medium&quot; | &quot;high&quot;
+  &quot;evidence&quot;: [&quot;symbolic&quot;,&quot;vector&quot;,&quot;lineage&quot;],
+  &quot;policy_view&quot;: &quot;effective&quot;               // &quot;effective&quot; | &quot;raw&quot; (admin)
+}
+
+```
+
+**Response** {#response-json}
+
+```json
+{
+  &quot;rows&quot;: [ { &quot;id&quot;:&quot;urn:cb:...&quot;, &quot;frame&quot;:&quot;claim&quot;, &quot;content&quot;:{...} } ],
+  &quot;explain&quot;: [
+    {
+      &quot;row_id&quot;:&quot;urn:cb:...&quot;,
+      &quot;why&quot;:[&quot;filter.frame&quot;,&quot;filter.keyword&quot;,&quot;vector.k=50&quot;,&quot;supports.depth=1&quot;],
+      &quot;evidence&quot;:{&quot;support_count&quot;:3,&quot;diversity&quot;:2,&quot;vector_score&quot;:0.88},
+      &quot;policy&quot;:[{&quot;rule&quot;:&quot;pii:mask&quot;,&quot;effect&quot;:&quot;applied&quot;}],
+      &quot;resolution_status&quot;:&quot;met&quot;
+    }
+  ],
+  &quot;telemetry&quot;: {
+    &quot;coherence_score&quot;: 0.82,
+    &quot;unresolved_clusters&quot;: [ { &quot;key&quot;:&quot;urn:cb:...&quot;, &quot;reason&quot;:&quot;support&lt;3 (1)&quot; } ],
+    &quot;redaction_rate&quot;: 0.22,
+    &quot;power_curvature&quot;: {
+      &quot;dominant_policies&quot;: [&quot;pii:mask&quot;,&quot;role:auditor&quot;],
+      &quot;centralization_index&quot;: 0.61
+    },
+    &quot;attention_used_ms&quot;: 150
+  }
+}
+
+```
+
+---
+
+## 6) Broker Behavior (normative) {#broker-behavior}
+
+The **Context Broker** composes sub-plans across SQL + vector + graph and [enforces guardrails](#resolution-floors &quot;symmetric:constrains&quot;):
+
+1. **Resolution floors** (Rayleigh/CFAR): {#resolution-floors}
+    
+    If `min_support`/`min_separation` unmet → **do not guess**. Return **unresolved** clusters or degrade to coarser bins; annotate `resolution_status`.
+    
+2. **Policy membranes** (least-privilege): {#policy-membranes}
+    
+    Apply row/field redaction. Emit **explainable denial** entries without leaking protected content.
+    
+3. **Exploration floor** (resilience):
+    
+    Maintain 5–10% exploratory recall to avoid brittle certainty; tag exploratory steps in `explain.why`.
+    
+4. **Attention budget**:
+    
+    Bound EXPLAIN verbosity and trace depth (“low” ≤ 2–3 lines per row).
+    
+5. **Coherence scoring (operational, not truth)**:
+    
+    Combine agreement across evidence channels; expose score and inputs.
+    
+
+**Deployment modes**
+
+- Library (direct function call from scripts/tests).
+- Local agent (HTTP endpoints for desktop/VS Code viewer).
+- Team service (shared queries/telemetry). All read the same files/registries.
+
+---
+
+## 7) Sidecar Format (portable, editor-friendly) {#sidecar-format}
+
+- **`.ormd.json`** (recommended alongside any payload)
+
+```json
+{
+  &quot;id&quot;:&quot;urn:cb:ulid&quot;,
+  &quot;frame&quot;:&quot;news.article&quot;,
+  &quot;refs&quot;:{&quot;content_hash&quot;:&quot;sha256:...&quot;, &quot;content_ref&quot;:&quot;file://...|http://...&quot;},
+  &quot;semantics&quot;:{&quot;keywords&quot;:[&quot;quake&quot;,&quot;cityX&quot;], &quot;embedding&quot;:{&quot;handle&quot;:&quot;vector://...&quot;}},
+  &quot;lineage&quot;:{&quot;origin&quot;:{&quot;uri&quot;:&quot;http://...&quot;, &quot;ts&quot;:&quot;...&quot;}}  // short form
+}
+
+```
+
+Editors update the payload; a CLI or watcher updates the sidecar and writes **events** to the [Lineage Ledger](#lineage-ledger &quot;epistemic:supports&quot;).
+
+## 8) Registries (APIs &amp; layout) {#registries}
+
+**File layout (local project)**
+
+```
+my-workspace/
+  .clp/
+    lineage.log.jsonl      # append-only events (signed)
+    frames/                # YAML frame defs (versioned)
+    resolver.json          # id/hash -&gt; URIs
+    keys/                  # your public keys
+
+```
+
+The `lineage.log.jsonl` file [composes](#glossary-registry &quot;ontological:composes&quot;) the local project registry.
+
+**Tiny Registry APIs (FastAPI/Flask)**
+
+- `POST /events` (append; [interacts with](#registries &quot;dynamical:interacts_with&quot;) the registry state)
+- `GET /events?object=urn:cb:...`
+- `GET /events?since=ulid` (sync/mirror)
+- `GET /frames` / `GET /frames/{name}@{ver}`
+- `GET /resolve/{bundle_id}` → `[{&quot;uri&quot;:&quot;...&quot;}]`
+
+**Sync**
+
+- Pull-based. Deduplicate by `(event_id, sig)`. Publish only non-sensitive fields; keep payload private.
+
+---
+
+## 9) UI/UX Primitives (beyond terminal) {#ui-ux}
+
+- **Bundle Cards**: frame pill, key fields, **2-line EXPLAIN**; expand to full trace. These cards [measure](#glossary-cb &quot;epistemic:measures&quot;) the state of a ContextBundle.
+- **Unresolved Tray**: items below resolution floors with reasons (e.g., `support&lt;3`). This tray [limits](#glossary-unresolved &quot;symmetric:constrains&quot;) visibility based on resolution thresholds.
+- **Query Composer**: intent, frames, filters; sliders for resolution &amp; attention. Inputs here [transform to](#glossary-broker &quot;dynamical:transforms_to&quot;) broker requests.
+- **Bundle Inspector**: sidecar &amp; payload preview, lineage graph, relations, signatures.
+- **Telemetry Panel**: coherence trend, unresolved %, redaction rate, power-curvature.
+
+(Desktop via Tauri + local agent; or small web app via FastAPI + HTMX/React. No Docker required.)
+
+---
+
+## 10) Implementation Path (no-Docker, staged) {#implementation}
+
+### Milestone A — CLP-Mini (1–2 weeks) {#milestone-a}
+
+- **SQLite** [composes](#milestone-a &quot;ontological:composes&quot;) the storage for CB tables; **Annoy/FAISS** for vectors; simple graph via tables.
+- **CLI**: `record`, `attest`, `link`, `query`.
+- **Examples**: 6 bundles (1 claim, 3 supports, 1 refute, 1 thin).
+- **Broker**: frame-scoped search, min_support check, EXPLAIN, unresolved.
+
+[Milestone A](#milestone-a &quot;geometric:precedes&quot;) precedes the development of networked registries.
+
+### Milestone B — Registries (1–2 weeks) {#milestone-b}
+
+- `.clp/lineage.log.jsonl` + signing (ed25519).
+- Tiny Registry API (append/get/since/frames/resolve).
+- Broker includes event ids &amp; frame version in EXPLAIN.
+
+[Milestone B](#milestone-b &quot;geometric:precedes&quot;) precedes the integration of advanced policy controls.
+
+### Milestone C — Policy &amp; Review (2–3 weeks) {#milestone-c}
+
+- Field redaction for one frame (e.g., PII mask). EXPLAINable denial.
+- “Unresolved Review” queue; decisions update thresholds.
+
+(Upgrade to Postgres + pgvector + RLS when multi-user concurrency and policy at scale are needed.)
+
+---
+
+## 11) Acceptance Tests (copyable) {#acceptance-tests}
+
+These tests [supports](#implementation &quot;epistemic:supports&quot;) the validation of the implementation path.
+
+1. **Frame scoping**: queries never return objects outside requested [frames](#glossary-frame &quot;symmetric:constrains&quot;).
+2. **Resolution enforcement**: `min_support` unmet → item appears in `unresolved_clusters`, not `rows`.
+3. **Explain determinism**: same data/query → same ordered `why` steps.
+4. **Attention budget**: `&quot;low&quot;` → ≤ 3 explain lines per row.
+5. **Diversity**: multiple supports from *same* domain count as 1 (prevent echo chambers).
+6. **Provenance surface**: each row EXPLAIN cites event ids and frame version used.
+
+---
+
+## 12) Non-Goals {#non-goals}
+
+These boundaries [limits](#registries &quot;symmetric:limits&quot;) the scope of the registry and broker logic.
+
+- No blockchain/consensus/tokens.
+- No universal truth adjudication.
+- No global ontology requirement.
+- No ultra-low-latency trading paths (use a fast path without EXPLAIN if needed).
+
+---
+
+## 13) Glossary {#glossary}
+
+- **Frame** {#glossary-frame}: named domain lens that [defines](#glossary-frame &quot;ontological:defines&quot;) what “context” means (schema + defaults).
+- **ContextBundle (CB)** {#glossary-cb}: [is composed of](#glossary-cb &quot;ontological:composes&quot;) content + context (lineage, policy, semantics, resolution, explain).
+- **Registry** {#glossary-registry}: signed, append-only receipts for lineage/frames/policies; small and auditable.
+- **Index Fabric** {#glossary-index-fabric}: SQL + vector + graph [is composed of](#glossary-index-fabric &quot;ontological:composes&quot;) data built from files/registries for fast query.
+- **Broker** {#glossary-broker}: planner that [constrains](#glossary-broker &quot;symmetric:constrains&quot;) results by enforcing resolution/policy and returns EXPLAIN + telemetry.
+- **Unresolved** {#glossary-unresolved}: an honest “we don’t know yet” result state that [defines](#glossary-unresolved &quot;ontological:defines&quot;) a feature of the system, not a bug.
+
+---
+
+## 14) Two Ready-to-Run Examples {#examples}
+
+**A) Verify an event claim** {#example-a}
+
+```json
+{
+  &quot;intent&quot;:&quot;verify event claims&quot;,
+  &quot;frame&quot;:[&quot;news.report&quot;,&quot;claim&quot;],
+  &quot;filters&quot;:{&quot;keyword&quot;:&quot;earthquake&quot;},
+  &quot;resolution&quot;:{&quot;min_support&quot;:3,&quot;confidence&quot;:0.95},
+  &quot;attention_budget&quot;:&quot;low&quot;,
+  &quot;evidence&quot;:[&quot;lineage&quot;,&quot;vector&quot;,&quot;symbolic&quot;]
+}
+
+```
+
+*Expected*: one claim row with ≥3 independent supports; casualty detail flagged in `unresolved_clusters` if support&lt;3. This example [supports](#glossary-cb &quot;epistemic:supports&quot;) the claim verification process.
+
+**B) Reconcile shipments ↔ invoices (toy)** {#example-b}
+
+```json
+{
+  &quot;intent&quot;:&quot;reconcile invoices to shipments&quot;,
+  &quot;frame&quot;:[&quot;finance.invoice&quot;,&quot;ops.shipment&quot;],
+  &quot;filters&quot;:{&quot;date_gte&quot;:&quot;2025-08-01&quot;},
+  &quot;resolution&quot;:{&quot;min_separation&quot;:0.20,&quot;min_support&quot;:25,&quot;confidence&quot;:0.90},
+  &quot;attention_budget&quot;:&quot;low&quot;
+}
+
+```
+
+*Expected*: matched pairs with EXPLAIN (symbolic join + vector similarity + lineage hop), and unresolved pairs under support/CI thresholds. This logic [corresponds to](#glossary-broker &quot;meta:corresponds_to&quot;) the broker&#39;s reconciliation mapping.
+
+---
+
+### Hand-off {#hand-off}
+
+This document [supports](#implementation &quot;epistemic:supports&quot;) the ability for another AI to:
+
+- implement a minimal broker &amp; registries,
+- define 1–2 frames,
+- ingest a few ContextBundles (from PDFs/MD via sidecars),
+- run the acceptance tests,
+- and iterate on coherence/resolution heuristics.
+
+If you want, I can also generate a starter repo layout (folders, stub code, and sample bundles) tailored to your preferred language/runtime.
+
+</pre>
+</main>
+</body>
+</html>

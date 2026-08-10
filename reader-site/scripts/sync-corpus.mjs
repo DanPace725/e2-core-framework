@@ -7,12 +7,14 @@ import YAML from "yaml";
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const coreRoot = path.resolve(siteRoot, "..");
 const publicRoot = path.join(siteRoot, "public");
+const docsRoot = path.join(coreRoot, "docs");
 const registryPath = path.join(coreRoot, "core_registry.json");
 const contextRoot = path.join(coreRoot, "E2Core", "Context Layer");
 const semanticIndexPath = path.join(coreRoot, "E2Core", "context layer index.md");
 const contextIndexPath = path.join(contextRoot, "Context Layer Index.ormd");
 const publicSiteBase = "https://e2-core-framework.capulusirl.chatgpt.site";
 const githubRawBase = "https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public";
+const githubPagesBase = "https://danpace725.github.io/e2-core-framework";
 
 const exists = async (target) => {
   try {
@@ -155,10 +157,54 @@ function stripHumanEnvelope(markdown) {
   return withoutBom;
 }
 
+function escapeHtml(value = "") {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function renderAiPage({ title, description, body, canonicalUrl }) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="${escapeHtml(description)}">
+  <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+  <title>${escapeHtml(title)} | E² Core Framework</title>
+  <style>
+    :root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; background: #f7f4e9; color: #102f27; }
+    body { margin: 0; }
+    main { width: min(100% - 2rem, 72rem); margin: 0 auto; padding: 2.5rem 0 5rem; }
+    h1, h2 { font-family: Georgia, serif; line-height: 1.12; }
+    h1 { font-size: clamp(2rem, 7vw, 4rem); margin: 0 0 1rem; }
+    h2 { margin-top: 2.5rem; }
+    a { color: #075b4a; }
+    .meta { color: #48655d; }
+    .notice { padding: 1rem; border: 1px solid #b9c8bd; border-radius: .75rem; background: #fffdf5; }
+    li { margin: .55rem 0; }
+    pre { margin-top: 1.5rem; padding: 1rem; overflow-wrap: anywhere; white-space: pre-wrap; border: 1px solid #cbd4cc; border-radius: .75rem; background: #fffdf8; font: .92rem/1.55 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  </style>
+</head>
+<body>
+<main>
+${body}
+</main>
+</body>
+</html>
+`;
+}
+
 await rm(path.join(publicRoot, "human"), { recursive: true, force: true });
 await rm(path.join(publicRoot, "ormd"), { recursive: true, force: true });
+await rm(path.join(docsRoot, "ormd"), { recursive: true, force: true });
 await mkdir(path.join(publicRoot, "human"), { recursive: true });
 await mkdir(path.join(publicRoot, "ormd"), { recursive: true });
+await mkdir(path.join(docsRoot, "ormd"), { recursive: true });
 
 const docs = [];
 const corpusParts = [];
@@ -186,11 +232,26 @@ for (const item of items) {
     throw new Error(`No human Semantic Substrate source for ${item.context.name}`);
   }
 
+  const title = frontmatter.title || item.context.title || item.record.key;
   humanText = rewriteHumanLinks(stripHumanEnvelope(humanText)).replace(/\r\n/g, "\n");
   await writeFile(path.join(publicRoot, "ormd", `${item.slug}.ormd`), ormdBytes);
   await writeFile(path.join(publicRoot, "human", `${item.slug}.md`), humanText, "utf8");
+  await writeFile(
+    path.join(docsRoot, "ormd", `${item.slug}.html`),
+    renderAiPage({
+      title,
+      description: `AI-readable ORMD authority document: ${title}`,
+      canonicalUrl: `${githubPagesBase}/ormd/${item.slug}.html`,
+      body: [
+        '<p><a href="../">← E² AI index</a> · <a href="../corpus.html">Whole ORMD corpus</a></p>',
+        `<h1>${escapeHtml(title)}</h1>`,
+        `<p class="notice">This page is an HTML transport mirror. The ORMD below is the AI-facing authority and is preserved verbatim from <a href="${githubRawBase}/ormd/${item.slug}.ormd">the canonical repository snapshot</a>.</p>`,
+        `<pre>${escapeHtml(ormdText)}</pre>`,
+      ].join("\n"),
+    }),
+    "utf8",
+  );
 
-  const title = frontmatter.title || item.context.title || item.record.key;
   const wordCount = humanText.trim().split(/\s+/).filter(Boolean).length;
   docs.push({
     slug: item.slug,
@@ -259,6 +320,8 @@ const llmsLines = [
   "> Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.",
   "",
   `Canonical AI mirror: ${githubRawBase}/llms.txt`,
+  `HTML AI mirror: ${githubPagesBase}/`,
+  `Whole-corpus HTML mirror: ${githubPagesBase}/corpus.html`,
   `Source repository: https://github.com/DanPace725/e2-core-framework`,
   "",
   "## How to read this corpus",
@@ -285,11 +348,54 @@ for (const cluster of catalogClusters) {
   llmsLines.push("");
 }
 
-await writeFile(path.join(publicRoot, "catalog.json"), `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
 const llmsText = `${llmsLines.join("\n")}\n`;
+const corpusText = `${corpusParts.join("\n\n")}\n`;
+const catalogText = `${JSON.stringify(catalog, null, 2)}\n`;
+const htmlIndexSections = catalogClusters.map((cluster) => {
+  const links = cluster.docs.map((slug) => {
+    const doc = docs.find((candidate) => candidate.slug === slug);
+    return `<li><a href="ormd/${doc.slug}.html">${escapeHtml(doc.title)}</a> <span class="meta">— frame: ${escapeHtml(doc.frame ?? "unclassified")}; confidence: ${escapeHtml(doc.confidence ?? "unrecorded")}</span></li>`;
+  }).join("\n");
+  return `<section id="cluster-${cluster.id.toLowerCase()}">
+<h2>Cluster ${cluster.id} — ${escapeHtml(cluster.name)}</h2>
+<p>${escapeHtml(cluster.scope)}</p>
+<ul>${links}</ul>
+</section>`;
+}).join("\n");
+const htmlIndex = renderAiPage({
+  title: "AI index",
+  description: "HTML navigation index for the E² Core Framework ORMD corpus.",
+  canonicalUrl: `${githubPagesBase}/`,
+  body: [
+    "<h1>E² Core Framework — AI index</h1>",
+    '<p class="notice">ORMD is the AI-facing authority. This is a standard HTML mirror for clients that cannot fetch raw text. Start with the master index, then follow only the cluster documents needed for the task.</p>',
+    '<ol><li>Preserve each document’s frame, confidence, lineage, and policy metadata.</li><li>Do not substitute the generated catalog or human Markdown for paired ORMD authority.</li></ol>',
+    '<ul><li><a href="ormd/context-layer-master-index.html">Context Layer Master Index</a></li><li><a href="corpus.html">Whole combined ORMD corpus in one HTML page</a></li><li><a href="catalog.json">Machine-readable catalog</a></li><li><a href="llms.txt">Plain-text AI index</a></li><li><a href="https://e2-core-framework.capulusirl.chatgpt.site/">Human mobile reader</a></li></ul>',
+    htmlIndexSections,
+  ].join("\n"),
+});
+const htmlCorpus = renderAiPage({
+  title: "Combined ORMD corpus",
+  description: "The complete E² Core Framework ORMD corpus in a single HTML document for AI clients.",
+  canonicalUrl: `${githubPagesBase}/corpus.html`,
+  body: [
+    '<p><a href="./">← E² AI index</a></p>',
+    "<h1>Combined ORMD corpus</h1>",
+    '<p class="notice">This page contains the complete generated ORMD snapshot in one standard HTML document. ORMD remains the AI-facing authority.</p>',
+    `<pre>${escapeHtml(corpusText)}</pre>`,
+  ].join("\n"),
+});
+
 await writeFile(path.join(publicRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(coreRoot, "llms.txt"), llmsText, "utf8");
-await writeFile(path.join(publicRoot, "ormd-corpus.txt"), `${corpusParts.join("\n\n")}\n`, "utf8");
+await writeFile(path.join(publicRoot, "catalog.json"), catalogText, "utf8");
+await writeFile(path.join(publicRoot, "ormd-corpus.txt"), corpusText, "utf8");
+await writeFile(path.join(docsRoot, "index.html"), htmlIndex, "utf8");
+await writeFile(path.join(docsRoot, "corpus.html"), htmlCorpus, "utf8");
+await writeFile(path.join(docsRoot, "catalog.json"), catalogText, "utf8");
+await writeFile(path.join(docsRoot, "llms.txt"), llmsText, "utf8");
+await writeFile(path.join(docsRoot, ".nojekyll"), "", "utf8");
+await writeFile(path.join(docsRoot, "robots.txt"), "User-agent: *\nAllow: /\n", "utf8");
 await writeFile(
   path.join(publicRoot, "robots.txt"),
   [
