@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { PointerEvent as ReactPointerEvent } from "react";
 
 type GraphNode = {
   id: string;
@@ -37,6 +38,15 @@ export type GraphData = {
 
 type Point = { x: number; y: number };
 type ViewBox = { x: number; y: number; width: number; height: number };
+type NodeDrag = {
+  id: string;
+  pointerId: number;
+  offsetX: number;
+  offsetY: number;
+  startClientX: number;
+  startClientY: number;
+  moved: boolean;
+};
 
 const WORLD = { width: 1200, height: 780 };
 const FULL_VIEW: ViewBox = { x: 0, y: 0, width: WORLD.width, height: WORLD.height };
@@ -167,6 +177,16 @@ function zoomView(view: ViewBox, factor: number): ViewBox {
   };
 }
 
+function clientPointToWorld(svg: SVGSVGElement, clientX: number, clientY: number): Point | null {
+  const matrix = svg.getScreenCTM();
+  if (!matrix) return null;
+  const point = svg.createSVGPoint();
+  point.x = clientX;
+  point.y = clientY;
+  const worldPoint = point.matrixTransform(matrix.inverse());
+  return { x: worldPoint.x, y: worldPoint.y };
+}
+
 export function CorpusGraph({
   graph,
   selectedId,
@@ -184,6 +204,10 @@ export function CorpusGraph({
   const [activeClusters, setActiveClusters] = useState(() => new Set(graph.clusters.map((cluster) => cluster.id)));
   const [viewBox, setViewBox] = useState<ViewBox>(FULL_VIEW);
   const [dragStart, setDragStart] = useState<{ x: number; y: number; view: ViewBox } | null>(null);
+  const [nodePositions, setNodePositions] = useState<Record<string, Point>>({});
+  const [draggingNodeId, setDraggingNodeId] = useState<string | null>(null);
+  const nodeDragRef = useRef<NodeDrag | null>(null);
+  const suppressedNodeClickRef = useRef<string | null>(null);
   const canvasRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
@@ -197,7 +221,13 @@ export function CorpusGraph({
     return () => canvas.removeEventListener("wheel", handleWheel);
   }, []);
 
-  const { positions, centers } = useMemo(() => buildLayout(graph), [graph]);
+  const layout = useMemo(() => buildLayout(graph), [graph]);
+  const positions = useMemo(() => {
+    const result = new Map(layout.positions);
+    for (const [id, point] of Object.entries(nodePositions)) result.set(id, point);
+    return result;
+  }, [layout.positions, nodePositions]);
+  const centers = layout.centers;
   const nodeMap = useMemo(() => new Map(graph.nodes.map((node) => [node.id, node])), [graph.nodes]);
   const selectedNode = nodeMap.get(selectedId) ?? graph.nodes[0];
 
@@ -270,6 +300,66 @@ export function CorpusGraph({
     setFocusMode(false);
   }
 
+  function beginNodeDrag(event: ReactPointerEvent<SVGGElement>, id: string) {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    const canvas = canvasRef.current;
+    const position = positions.get(id);
+    if (!canvas || !position) return;
+    const pointer = clientPointToWorld(canvas, event.clientX, event.clientY);
+    if (!pointer) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    suppressedNodeClickRef.current = null;
+    event.currentTarget.setPointerCapture(event.pointerId);
+    nodeDragRef.current = {
+      id,
+      pointerId: event.pointerId,
+      offsetX: position.x - pointer.x,
+      offsetY: position.y - pointer.y,
+      startClientX: event.clientX,
+      startClientY: event.clientY,
+      moved: false,
+    };
+    setDraggingNodeId(id);
+  }
+
+  function moveNode(event: ReactPointerEvent<SVGGElement>) {
+    const drag = nodeDragRef.current;
+    const canvas = canvasRef.current;
+    if (!drag || drag.pointerId !== event.pointerId || !canvas) return;
+    const pointer = clientPointToWorld(canvas, event.clientX, event.clientY);
+    if (!pointer) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    if (Math.hypot(event.clientX - drag.startClientX, event.clientY - drag.startClientY) > 3) drag.moved = true;
+    const nextPosition = {
+      x: Math.min(WORLD.width - 18, Math.max(18, pointer.x + drag.offsetX)),
+      y: Math.min(WORLD.height - 18, Math.max(18, pointer.y + drag.offsetY)),
+    };
+    setNodePositions((current) => ({ ...current, [drag.id]: nextPosition }));
+  }
+
+  function endNodeDrag(event: ReactPointerEvent<SVGGElement>) {
+    const drag = nodeDragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+    if (drag.moved) suppressedNodeClickRef.current = drag.id;
+    nodeDragRef.current = null;
+    setDraggingNodeId(null);
+  }
+
+  function handleNodeClick(id: string) {
+    if (suppressedNodeClickRef.current === id) {
+      suppressedNodeClickRef.current = null;
+      return;
+    }
+    selectNode(id);
+  }
+
   return (
     <section className="graph-view" aria-labelledby="graph-title">
       <header className="graph-intro">
@@ -337,6 +427,7 @@ export function CorpusGraph({
             <button type="button" onClick={() => setViewBox((view) => zoomView(view, 0.78))} aria-label="Zoom in">+</button>
             <button type="button" onClick={() => setViewBox((view) => zoomView(view, 1.28))} aria-label="Zoom out">−</button>
             <button type="button" onClick={() => setViewBox(FULL_VIEW)}>Fit</button>
+            <button type="button" onClick={() => setNodePositions({})} disabled={Object.keys(nodePositions).length === 0}>Reset nodes</button>
           </div>
           <svg
             ref={canvasRef}
@@ -399,9 +490,13 @@ export function CorpusGraph({
                 return (
                   <g
                     key={node.id}
-                    className={`graph-node ${selected ? "selected" : ""}`}
+                    className={`graph-node ${selected ? "selected" : ""} ${draggingNodeId === node.id ? "dragging" : ""}`}
                     transform={`translate(${point.x} ${point.y})`}
-                    onClick={() => selectNode(node.id)}
+                    onPointerDown={(event) => beginNodeDrag(event, node.id)}
+                    onPointerMove={moveNode}
+                    onPointerUp={endNodeDrag}
+                    onPointerCancel={endNodeDrag}
+                    onClick={() => handleNodeClick(node.id)}
                     role="button"
                     tabIndex={0}
                     aria-label={`${node.title}${node.clusterId ? `, Cluster ${node.clusterId}` : ", framework index"}`}
@@ -419,6 +514,7 @@ export function CorpusGraph({
             </g>
           </svg>
           <div className="graph-legend">
+            <span>Drag nodes to rearrange</span>
             <span><i className="solid-line" /> Curated</span>
             <span><i className="dashed-line" /> Suggested</span>
             <span><i className="confidence-dot" /> Ring = recorded confidence</span>

@@ -78,6 +78,9 @@ test("publishes a typed E2 relationship graph", async () => {
   assert.ok(pagesConfig.content.some((item) => item.name === "navigation"));
   assert.match(graphComponent, /addEventListener\("wheel", handleWheel, \{ passive: false \}\)/);
   assert.doesNotMatch(graphComponent, /onWheel=/);
+  assert.match(graphComponent, /onPointerDown=\{\(event\) => beginNodeDrag\(event, node\.id\)\}/);
+  assert.match(graphComponent, /Drag nodes to rearrange/);
+  assert.match(graphComponent, /Reset nodes/);
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {
