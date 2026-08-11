@@ -11,7 +11,7 @@ What makes this special is that you're not programming behaviors. You're creatin
 
 ## The Core Metaphor: Chi as Life Energy
 
-At the heart of everything is **Ï‡ (chi)**, the fundamental energy currency. Every agent is born with it, spends it constantly, and dies without it. This isn't just an arbitrary game mechanic. It's anchored to biological reality: 1 Ï‡ represents approximately 10â¸ ATP molecules, making the simulation's energy economy grounded in actual cellular metabolism.
+At the heart of everything is **χ (chi)**, the fundamental energy currency. Every agent is born with it, spends it constantly, and dies without it. This isn't just an arbitrary game mechanic. It's anchored to biological reality: 1 χ represents approximately 10⁸ ATP molecules, making the simulation's energy economy grounded in actual cellular metabolism.
 
 Agents burn chi in three ways:
 - **Base metabolism**: a constant drain, like breathing
@@ -63,11 +63,11 @@ The sensing system underwent a major rebalance to create meaningful strategic de
 Now, sensing follows a quadratic cost model:
 - **Base range**: 160 pixels (cheap to maintain)
 - **Expansion cost**: chi per second to increase range
-- **Holding cost**: proportional to (range above base)Â², divided by 100
+- **Holding cost**: proportional to (range above base)², divided by 100
 
 This means extending your vision from 160 to 260 pixels costs roughly 5 chi/second. Going all the way to 360 pixels (the maximum) costs about 16.6 chi/second. That's unsustainable for most agents most of the time.
 
-Hunger makes it worse. The cost multiplier is `1 + hunger Ã— 0.5`, so at maximum hunger, sensing costs 50% more.
+Hunger makes it worse. The cost multiplier is `1 + hunger × 0.5`, so at maximum hunger, sensing costs 50% more.
 
 The result? Agents must pulse their sensing. They expand when lost, retract when following trails, and carefully manage their vision as a scarce resource. This creates emergent cooperation: following another agent's trail becomes more valuable than solo exploration because it's energetically cheaper than burning chi on extended sensing.
 
@@ -77,9 +77,9 @@ When an agent gathers enough chi (threshold is 30 by default), it can reproduce 
 
 Population is constrained in two ways:
 - **Hard cap**: 32 agents maximum (configurable)
-- **Soft cap**: carrying capacity based on resources Ã— multiplier (default 1.5)
+- **Soft cap**: carrying capacity based on resources × multiplier (default 1.5)
 
-The color system elegantly handles unlimited populations. The first four agents get classic colors (cyan, magenta, yellow, orange). Agents 5+ use HSL colors distributed via the golden angle (137.5Â°), guaranteeing visual distinction.
+The color system elegantly handles unlimited populations. The first four agents get classic colors (cyan, magenta, yellow, orange). Agents 5+ use HSL colors distributed via the golden angle (137.5°), guaranteeing visual distinction.
 
 Children inherit their parent's learned policy if one exists, allowing evolutionary strategies to propagate. This creates lineages. Generation counters track heredity depth. In principle, you could see dynasties emerge: families of agents that specialize in particular strategies.
 
@@ -109,7 +109,7 @@ The reward system had to balance biological realism with learning signal strengt
 The solution was **adaptive rewards** that scale with search difficulty:
 
 ```
-reward = base_gain Ã— metabolic_cost Ã— average_search_time
+reward = base_gain × metabolic_cost × average_search_time
 ```
 
 If resources are typically found after 8 seconds of searching, the reward becomes approximately 19 chi instead of 6. This is 3x stronger, making the learning signal clear enough to drive optimization while remaining anchored to biological metabolism.
@@ -223,7 +223,7 @@ And crucially, **the system is scientifically legible**. Strategies are interpre
 
 You can run this right now. Load `index.html` in a browser and you'll see:
 
-- 4 agents navigating a 960Ã—540 world
+- 4 agents navigating a 960×540 world
 - Plant resources regenerating from a fertility grid
 - Chemical trails depositing, evaporating, diffusing
 - Real-time statistics (chi levels, frustration, generation)
@@ -265,7 +265,7 @@ The key insight: you don't need enormous complexity to get sophisticated behavio
 
 Intelligence can emerge from good interaction topology, modest optimization, and sensible constraints.
 
-This mirrors the core philosophy of the EÂ² framework itself: meaningful existence requires satisfying relational primitives across counter-modes. Systems that lack proper relational structure either don't exist meaningfully or exist in "sub-threshold persistence" (thermodynamically cheap but functionally inert).
+This mirrors the core philosophy of the E² framework itself: meaningful existence requires satisfying relational primitives across counter-modes. Systems that lack proper relational structure either don't exist meaningfully or exist in "sub-threshold persistence" (thermodynamically cheap but functionally inert).
 
 The Emergence Engine is an existence proof that this principle works computationally. Give agents ontological grounding (chi), dynamical constraints (metabolism), geometric structure (trails, sensing), symmetries (uniform physics), epistemic channels (observation space), and meta-relational capacity (learning), and they discover how to exist meaningfully within their world.
 

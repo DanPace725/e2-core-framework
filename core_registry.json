@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-11T20:05:33.161130+00:00",
+  "generated_at": "2026-08-11T20:57:13.009442+00:00",
   "scope": "E2Core",
   "authority": "active_filesystem_state",
   "counts": {
@@ -424,8 +424,8 @@
           "stem": "Collective Cognitive Substrate",
           "title": "Collective Cognitive Substrate",
           "layer": "context_layer",
-          "size_bytes": 54308,
-          "sha256": "058dd14147b8812dc1fb15723a4784709bb9d7fafc7e114765ffa87c731afb37",
+          "size_bytes": 53813,
+          "sha256": "2951df31e74c34fd700d0012d28c3868a791b5230a5f74ca39c9604a7ee5530e",
           "frame": "cognitive.ecology.synthesis",
           "confidence": 0.9
         }
@@ -468,8 +468,8 @@
           "stem": "Collective Relational Substrate",
           "title": "Collective Relational Substrate",
           "layer": "context_layer",
-          "size_bytes": 69922,
-          "sha256": "f59d21dc596e0868d0f27583df425abbbcbb4f98b6a20dfb99fa5b7faf20cf52",
+          "size_bytes": 69492,
+          "sha256": "c763b18091b14413abebaf6869c0b48f112337e4c89dd9c21d30934b730c8b69",
           "frame": "civilization.relational_substrate",
           "confidence": 0.9
         }
@@ -501,8 +501,8 @@
           "stem": "Communication as Coherence",
           "title": "Communication as Coherence",
           "layer": "context_layer",
-          "size_bytes": 17579,
-          "sha256": "58743a350cfebc3964984ae4a92280818134a05d067c514c3355769c9a84b071",
+          "size_bytes": 17460,
+          "sha256": "9fb938f02a41c3eb43f29fab711c1bcb21a48f9e6c5075e6098262fd6ed81c0b",
           "frame": "communication.theory",
           "confidence": 0.9
         }
@@ -959,8 +959,8 @@
           "stem": "Emergence Engine overview",
           "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
           "layer": "semantic_substrate",
-          "size_bytes": 21289,
-          "sha256": "ff388e95af691bbc2a103de72e29afee41c4cfeb4509db903062ae7c17fe4814",
+          "size_bytes": 21259,
+          "sha256": "084ac434d27a6cab7a2aeabc5ad667949b54939b5117a7c82bdfbb9db5d3f543",
           "frame": null,
           "confidence": null
         }
@@ -972,8 +972,8 @@
           "stem": "Emergence Engine overview",
           "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
           "layer": "context_layer",
-          "size_bytes": 25524,
-          "sha256": "9582c218dc1746ede9b364500d5c10ca5604f7bfe3658dbce0822945e8a6a983",
+          "size_bytes": 25518,
+          "sha256": "fc411d1bc058eab1a2d76830e1235485e2decb42df51613aaa03d677cac13a41",
           "frame": "research.simulation.ecology",
           "confidence": 0.95
         }
@@ -1467,13 +1467,13 @@
           "stem": "Justice Across Scales",
           "title": "Justice Across Scales",
           "layer": "context_layer",
-          "size_bytes": 21466,
-          "sha256": "79c1fa2eb29753c105a275929310500a9a0ac2b4a2d7daad05aeff8ce8d89f64",
+          "size_bytes": 21231,
+          "sha256": "ef9c33dcf87b63807f3c7d5207d3585465ff7d2bc37fbdfae4d73a52e7bbf44a",
           "frame": "ethics.justice.scales",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
@@ -1676,8 +1676,8 @@
           "stem": "MRIE - Unified Synthesis",
           "title": "MRIE - Unified Synthesis",
           "layer": "context_layer",
-          "size_bytes": 19181,
-          "sha256": "3bd11ed59783f93aacb27c44754981ffcdc056af0b5286839f847e8e12aeba21",
+          "size_bytes": 18784,
+          "sha256": "b01bdd976bea071c76f62ad129ebdd83a04b4c11b46ae6e44daac27b5f7e36be",
           "frame": "research.identity-security",
           "confidence": 0.9
         }
@@ -1883,8 +1883,8 @@
           "stem": "Power as Relational Field Coherence",
           "title": "Power as Relational Field Coherence",
           "layer": "context_layer",
-          "size_bytes": 70944,
-          "sha256": "ff69aec30b53c20fd64ca9937412f6e1bdfb95876a7b439e27b628feefa80935",
+          "size_bytes": 70929,
+          "sha256": "ff220f195a2d9edfd457c6403e44f9c08410dd26acb4587e8beaae8e2afff7f1",
           "frame": "theoretical.sociophysics.power",
           "confidence": 0.9
         }
@@ -2221,8 +2221,8 @@
           "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "semantic_substrate",
-          "size_bytes": 85942,
-          "sha256": "90575406077a937cb7a0ac89ecd3390e28b36f7cebb28599f5aff3254fff3088",
+          "size_bytes": 84681,
+          "sha256": "924a557165d1efc57ba3f9689019237612d7c3baf93fa812eb72b593f6bb5fa4",
           "frame": null,
           "confidence": null
         }
@@ -2344,8 +2344,8 @@
           "stem": "REMF",
           "title": "REMF",
           "layer": "context_layer",
-          "size_bytes": 14051,
-          "sha256": "e7dd83acb0aa2791d02919eda3803fc4adc27514bdb0adfbc9cc99ee5389d842",
+          "size_bytes": 13969,
+          "sha256": "b102431319dc65e89f99e2481c2dd67a0df0968cf9c2fa14a6e24184edb95874",
           "frame": "ontology.meta-framework",
           "confidence": 0.9
         }
@@ -3090,8 +3090,8 @@
           "stem": "Universal Emergence Pattern",
           "title": "Universal Emergence Pattern",
           "layer": "semantic_substrate",
-          "size_bytes": 18811,
-          "sha256": "b4536bd5b17ac2d630c73501db37350e37a82134f5853d82750fb011738577b1",
+          "size_bytes": 18681,
+          "sha256": "3d8231ecf8d34d82184bc1a0ebf1d7f90fd8170e7380e3f28f6bdef1fefa154c",
           "frame": null,
           "confidence": null
         }

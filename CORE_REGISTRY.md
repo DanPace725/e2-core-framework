@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-08-11T20:05:33.161130+00:00`
+Generated: `2026-08-11T20:57:13.009442+00:00`
 
 Authority: `active_filesystem_state`
 
@@ -66,7 +66,7 @@ Authority: `active_filesystem_state`
 | Implementations | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Implementations.md | E2Core/Context Layer/Implementations.ormd | no |
 | Interlocked Stewardship V2 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Interlocked Stewardship V2.md | E2Core/Context Layer/Interlocked Stewardship V2.ormd | no |
 | Intervention Stewardship - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Intervention Stewardship - Core Source.md | E2Core/Context Layer/Intervention Stewardship - Core Source.ormd | yes |
-| Justice Across Scales | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Justice Across Scales.md | E2Core/Context Layer/Justice Across Scales.ormd | no |
+| Justice Across Scales | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Justice Across Scales.md | E2Core/Context Layer/Justice Across Scales.ormd | yes |
 | Justice Across Scales Practical Applications | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Justice Across Scales Practical Applications.md | E2Core/Context Layer/Justice Across Scales Practical Applications.ormd | no |
 | Lawfulness - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Lawfulness - Core Source.md | E2Core/Context Layer/Lawfulness - Core Source.ormd | yes |
 | layer_2_draft_rvp_and_vme_developments | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md | E2Core/Context Layer/layer_2_draft_rvp_and_vme_developments.ormd | no |

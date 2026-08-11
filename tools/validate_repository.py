@@ -8,9 +8,13 @@ import subprocess
 import sys
 from pathlib import Path
 
+from encoding_health import find_mojibake_sequences
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTEXT_DIR = ROOT / "E2Core" / "Context Layer"
+SEMANTIC_DIR = ROOT / "E2Core" / "Semantic Substrate"
+SYNTHESIZED_DIR = ROOT / "Synthesized Core"
 MOBILE_DRAFTS_DIR = ROOT / "staged work" / "mobile drafts"
 
 REQUIRED_FILES = (
@@ -98,6 +102,22 @@ def validate_mobile_draft(path: Path, errors: list[str]) -> None:
             add_error(errors, path, f"missing non-empty frontmatter key '{key}'")
 
 
+def validate_encoding_health(path: Path, errors: list[str]) -> None:
+    text = path.read_text(encoding="utf-8-sig", errors="strict")
+    findings = find_mojibake_sequences(text)
+    if not findings:
+        return
+    examples = ", ".join(
+        source.encode("unicode_escape").decode("ascii")
+        for _, source, _ in findings[:3]
+    )
+    add_error(
+        errors,
+        path,
+        f"contains {len(findings)} probable mojibake sequence(s) ({examples}); run tools/repair_mojibake.py --write",
+    )
+
+
 def validate_tracked_paths(errors: list[str]) -> None:
     if not (ROOT / ".git").exists():
         return
@@ -154,6 +174,25 @@ def main() -> int:
         for path in ormd_files:
             try:
                 validate_ormd(path, errors)
+                validate_encoding_health(path, errors)
+            except UnicodeDecodeError:
+                add_error(errors, path, "file is not valid UTF-8")
+
+    if not SEMANTIC_DIR.is_dir():
+        add_error(errors, SEMANTIC_DIR, "active Semantic Substrate directory is missing")
+    else:
+        for path in sorted(SEMANTIC_DIR.glob("*.md")):
+            try:
+                validate_encoding_health(path, errors)
+            except UnicodeDecodeError:
+                add_error(errors, path, "file is not valid UTF-8")
+
+    if SYNTHESIZED_DIR.is_dir():
+        for path in sorted(SYNTHESIZED_DIR.iterdir()):
+            if not path.is_file() or path.suffix.lower() not in {".md", ".ormd"}:
+                continue
+            try:
+                validate_encoding_health(path, errors)
             except UnicodeDecodeError:
                 add_error(errors, path, "file is not valid UTF-8")
 

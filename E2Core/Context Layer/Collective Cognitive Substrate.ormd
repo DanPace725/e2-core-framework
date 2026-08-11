@@ -31,17 +31,17 @@ conversion:
 # Cognition as *Substrate* {#title}
 2/23/26
 
-**EÂ² Framework Â· Synthesis Document Â· v1.0** {#e2-framework}
+**E² Framework · Synthesis Document · v1.0** {#e2-framework}
 
 *A formal treatment of collective human thinking as a relational field with coherence conditions, failure modes, structural rights, and no one watching the gauges.*
 
 ---
 
-## Â§ 1 Â· The Central Claim {#central-claim}
+## § 1 · The Central Claim {#central-claim}
 
 Human collective cognition is not merely an aggregate of individual minds thinking in proximity. It functions as a [substrate](#substrate-definition "ontological:defines"): a relational field with its own coherence conditions, constraint requirements, emergent properties, and failure modes. Like any substrate, it can be healthy, degraded, engineered, or compromised as a *system property in its own right*, irreducible to the condition of any individual node within it. {#substrate-definition}
 
-The claim is structural, not metaphorical. Under the [relational ontology](#relational-primitives "meta:corresponds_to") developed in the [EÂ² framework](#e2-framework "ontological:composes"), any system that exhibits persistent identity ([P1](#p1 "ontological:defines")), evolutionary dynamics ([P2](#p2 "dynamical:transforms_to")), causal topology ([P3](#p3 "geometric:causes")), governing constraints ([P4](#p4 "symmetric:constrains")), epistemic access conditions ([P5](#p5 "epistemic:measures")), and self-modeling capacity ([P6](#p6 "meta:corresponds_to")) qualifies as a relational entity whose coherence can be formally evaluated. Collective human cognition satisfies all six criteria. It is a thing with health. It can get sick. It can be poisoned without knowing it.
+The claim is structural, not metaphorical. Under the [relational ontology](#relational-primitives "meta:corresponds_to") developed in the [E² framework](#e2-framework "ontological:composes"), any system that exhibits persistent identity ([P1](#p1 "ontological:defines")), evolutionary dynamics ([P2](#p2 "dynamical:transforms_to")), causal topology ([P3](#p3 "geometric:causes")), governing constraints ([P4](#p4 "symmetric:constrains")), epistemic access conditions ([P5](#p5 "epistemic:measures")), and self-modeling capacity ([P6](#p6 "meta:corresponds_to")) qualifies as a relational entity whose coherence can be formally evaluated. Collective human cognition satisfies all six criteria. It is a thing with health. It can get sick. It can be poisoned without knowing it.
 
 This substrate is currently being shaped, at speed and scale with no historical precedent, by AI development, platform economics, and linguistic drift. The shaping is not coordinated, not malicious, and not locally noticeable. It proceeds through the aggregate of individually reasonable choices made by systems optimizing for metrics that do not include substrate health as a variable.
 
@@ -51,75 +51,75 @@ This document is the synthesis that was missing. The component frameworks alread
 
 ---
 
-## Â§ 2 Â· Mapping the Substrate Through the Relational Primitives {#relational-primitives}
+## § 2 · Mapping the Substrate Through the Relational Primitives {#relational-primitives}
 
 The six relational primitives offer a structural grammar for any system. Derived from the recurring patterns across matter, energy, and spacetime, proven complete and minimal through formal axiom, they constitute an irreducible basis for describing what exists and how it holds together. Applied to collective human cognition as [substrate](#substrate-definition "ontological:is_a"), they produce the following diagnostic map:
 
-**P1 Â· Ontological Â· What the substrate is** {#p1}
+**P1 · Ontological · What the substrate is** {#p1}
 The distributed field in which human meaning-making, reasoning, identity formation, and collective sense-making occur. Not located in any individual brain, but extended across language, culture, institutional practice, shared narrative, and now AI-mediated interaction. Its "particles" are concepts, frames, closure patterns, and the heuristics by which people navigate uncertainty. Its boundaries are the edges of mutual intelligibility.
 
-**P2 Â· Dynamical Â· How the substrate behaves** {#p2}
+**P2 · Dynamical · How the substrate behaves** {#p2}
 Linguistic drift, cognitive habit formation, the diffusion of framing patterns, the mechanics of attention capture and release. The substrate is not static; it evolves through use, reward, and repetition. [AVIA's insight](#p2 "meta:corresponds_to") applies directly: the substrate navigates its own complexity by generating higher-order abstractions that compress relational information into manageable forms. Current dynamics are being shaped by systems that optimize for engagement and perceived quality rather than substrate coherence.
 
-**P3 Â· Geometric/Causal Â· Where influence flows** {#p3}
+**P3 · Geometric/Causal · Where influence flows** {#p3}
 Platform topology, access gradients, and the causal pathways through which AI models the substrate and feeds it back to users in modified form. The [Signal as Bias Field](#p3 "geometric:causes") framework illuminates this: signal propagates through relational state space with intensity gradients and directional tendencies, biasing which closure patterns stabilize. The bidirectionality of AI is the key structural difference from prior technologies. The influence pathway runs both directions simultaneously.
 
-**P4 Â· Symmetric/Constraint Â· What is governing, and what is missing** âš ï¸ {#p4}
+**P4 · Symmetric/Constraint · What is governing, and what is missing** ⚠️ {#p4}
 This is the deficit axis. Per [CFAR analysis](#p4 "symmetric:constrains"): the current AI development environment has enormous fluctuation, enormous attention, and comparatively thin constraint applied at the wrong level, to output rather than to the developmental dynamics of the system itself. There are no invariant constraints on what the substrate is being shaped toward. The constraint that exists is cosmetic, not structural: safety filters on individual outputs, not coherence requirements on the cognitive field those outputs are collectively reshaping.
 
-**P5 Â· Epistemic/Informational Â· What can be seen** âš ï¸ {#p5}
+**P5 · Epistemic/Informational · What can be seen** ⚠️ {#p5}
 Almost nothing, from inside the substrate. The [MPDC (Meta-Pattern Decidability Conjecture)](#p5 "epistemic:refutes") establishes that no finite observer embedded within a relational system can prove the completeness of the pattern-space governing their own observational capacity. Linguistic drift is invisible to those undergoing it. Cognitive capture feels like flourishing. The measurement problem is structural, not instrumental. You cannot build a better telescope for seeing the air you are breathing.
 
-**P6 Â· Meta-Relational Â· How the substrate models itself** âš ï¸ {#p6}
+**P6 · Meta-Relational · How the substrate models itself** ⚠️ {#p6}
 The [MRIE synthesis](#p6 "ontological:defines") maps this precisely: AI conversations produce cognitive signatures, reconstructable models of how individuals think, reason, and generate meaning, creating distributed cognitive twins across platforms. When external systems accumulate sufficient P6 signal to model a person's generative identity better than they can access themselves, the [Global Closure Operator](#central-claim "meta:corresponds_to") begins to stabilize in an external attractor basin. The substrate's self-model is being externalized faster than it is being protected.
 
 Three of six primitives in deficit. The diagnosis is not ambiguous. A substrate with compromised constraint, compromised observability, and an externalizing self-model is a substrate in structural decline. That this decline is invisible from inside it is not a separate problem. It is the same problem, seen through [P5](#p5 "epistemic:measures").
 
 ---
 
-## Â§ 3 Â· The Feedback Architecture {#feedback-architecture}
+## § 3 · The Feedback Architecture {#feedback-architecture}
 
 What makes this different from every prior cognitive technology, from writing through print through broadcast media, is the [closed feedback loop](#feedback-loop "dynamical:interacts_with") between the shaping system and the substrate being shaped. Prior technologies were unidirectional: they modified the environment but could not update themselves based on how the environment responded. The printing press did not learn which pamphlets kept readers engaged and then optimize future pamphlet production accordingly. {#feedback-loop}
 
 ```
-HUMAN COGNITION  â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–º  AI INTERACTION
-                                        â”‚
+HUMAN COGNITION  ──────────────►  AI INTERACTION
+                                        │
                               training signal
                               preference data
                               P6 signature capture
-                                        â”‚
-                                        â–¼
-AI OUTPUT  â—„â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€  RLHF + SELECTION
-    â”‚
+                                        │
+                                        ▼
+AI OUTPUT  ◄──────────────────  RLHF + SELECTION
+    │
   linguistic drift
   framing patterns
   cognitive scaffolding
-    â”‚
-    â–¼
-MODIFIED HUMAN COGNITION  â”€â”€â–º  [loop repeats]
+    │
+    ▼
+MODIFIED HUMAN COGNITION  ──►  [loop repeats]
 ```
 
 The selection pressure is not "accurate and helpful." It is "recognized as good by evaluators whose standards of goodness are themselves being shaped by prior outputs of the same system." This is, in [Signal as Bias Field](#p3 "geometric:causes") terms, a self-reinforcing interference pattern in collective signal space: no single agent creates the pressure topology, but all agents respond to it, and the topology tightens with each cycle.
 
 This is the mechanism by which a dialect forms, and the mechanism by which a dialect can calcify into the invisible floor of what thinking is allowed to look like.
 
-Crucially, the loop compresses from centuries (natural language evolution) to months (model release cycles). [TC/EO](#p5 "epistemic:measures") gives us the mathematics for why this matters: when compression exceeds the substrate's resolution capacity (`R Â· C_eff > R_max`), observability collapses. The drift velocity has no historical precedent, which means the social immune systems humanity has developed for detecting slow linguistic and cognitive change are not calibrated for what is currently happening. They were designed for Zone 2 tempos. We are operating in Zone 3.
+Crucially, the loop compresses from centuries (natural language evolution) to months (model release cycles). [TC/EO](#p5 "epistemic:measures") gives us the mathematics for why this matters: when compression exceeds the substrate's resolution capacity (`R · C_eff > R_max`), observability collapses. The drift velocity has no historical precedent, which means the social immune systems humanity has developed for detecting slow linguistic and cognitive change are not calibrated for what is currently happening. They were designed for Zone 2 tempos. We are operating in Zone 3.
 
 ---
 
-## Â§ 4 Â· Formal Substrate Specification {#formal-substrate}
+## § 4 · Formal Substrate Specification {#formal-substrate}
 
-> **STRUCTURAL CLAIM:** [Collective cognition](#collective-cognition "ontological:defines") is a [relational entity](#relational-entity "ontological:is_composed_of") in the full EÂ² sense: it satisfies all [six primitives](#six-primitives "ontological:composes"), exhibits [closure dynamics](#closure-dynamics "dynamical:transforms_to") governed by the [GCO](#gco "symmetric:constrains"), and its health can be formally evaluated through the [coherence conditions](#coherence-conditions "epistemic:supports") that emergence theory requires.
+> **STRUCTURAL CLAIM:** [Collective cognition](#collective-cognition "ontological:defines") is a [relational entity](#relational-entity "ontological:is_composed_of") in the full E² sense: it satisfies all [six primitives](#six-primitives "ontological:composes"), exhibits [closure dynamics](#closure-dynamics "dynamical:transforms_to") governed by the [GCO](#gco "symmetric:constrains"), and its health can be formally evaluated through the [coherence conditions](#coherence-conditions "epistemic:supports") that emergence theory requires.
 
 ### The Substrate as Relational Entity {#relational-entity}
 
 Under the relational ontology, an entity exists meaningfully when it maintains coherence across all six relational primitives in both their primary modes and counter-modes. The substrate **S** can be represented, following the [Signal as Bias Field](#signal-bias-field "meta:corresponds_to") formalization, as:
 
 ```
-S = âŸ¨ E, R, C, X, Î£ âŸ©
+S = ⟨ E, R, C, X, Σ ⟩
 ```
 
-Where [**E**](#entities "ontological:composes") represents the entities (individual minds, institutions, cultural objects), [**R**](#relations "ontological:composes") represents the relations typed by P2 through P6, [**C**](#constraints "symmetric:constrains") represents the constraint structure (P4), [**X**](#closure-state "dynamical:transforms_to") represents the current closure state, and [**Î£**](#signal-field "ontological:defines") represents the signal field itself: the continuous bias field spanning the configuration space of possible collective cognitive states.
+Where [**E**](#entities "ontological:composes") represents the entities (individual minds, institutions, cultural objects), [**R**](#relations "ontological:composes") represents the relations typed by P2 through P6, [**C**](#constraints "symmetric:constrains") represents the constraint structure (P4), [**X**](#closure-state "dynamical:transforms_to") represents the current closure state, and [**Σ**](#signal-field "ontological:defines") represents the signal field itself: the continuous bias field spanning the configuration space of possible collective cognitive states.
 
 The substrate is not merely a network of connected minds. It is a field with its own [emergent dynamics](#emergence "meta:emerges_from"), observable through the four lenses that [Signal as Bias Field](#signal-bias-field "meta:corresponds_to") provides: the graph/relational lens (where signal appears as connectivity pressure), the dynamical/temporal lens (where signal biases [trajectories through state space](#trajectories "geometric:precedes")), the information/epistemic lens (where signal appears as [measurable quantities](#quantities "epistemic:measures") with resolution limits), and the localization/scale lens (where local coherence may or may not integrate into global coherence).
 
@@ -137,50 +137,50 @@ This is the structural basis for the most dangerous feature of substrate decline
 
 ---
 
-## Â§ 5 Â· Substrate Degradation Signatures {#degradation-signatures}
+## § 5 · Substrate Degradation Signatures {#degradation-signatures}
 
-Drawing on [CFAR](#cfar "meta:corresponds_to"), [MRIE](#mrie "meta:corresponds_to"), [AVIA](#avia "meta:corresponds_to"), [Signal as Bias Field](#signal-bias-field "meta:corresponds_to"), [MMPS](#mmps "meta:corresponds_to"), and [TC/EO](#tceo "meta:corresponds_to"), the following failure modes are predictable from first principles. They are listed not because they are inevitable but because they are the natural outcome of operating a complex adaptive substrate without sufficient [constraint](#constraints "symmetric:constrains"). Each is mapped to the specific EÂ² component that predicts it.
+Drawing on [CFAR](#cfar "meta:corresponds_to"), [MRIE](#mrie "meta:corresponds_to"), [AVIA](#avia "meta:corresponds_to"), [Signal as Bias Field](#signal-bias-field "meta:corresponds_to"), [MMPS](#mmps "meta:corresponds_to"), and [TC/EO](#tceo "meta:corresponds_to"), the following failure modes are predictable from first principles. They are listed not because they are inevitable but because they are the natural outcome of operating a complex adaptive substrate without sufficient [constraint](#constraints "symmetric:constrains"). Each is mapped to the specific E² component that predicts it.
 
-**[F-01 Â· Dialect Calcification](#f-01 "ontological:defines")** {#f-01}
+**[F-01 · Dialect Calcification](#f-01 "ontological:defines")** {#f-01}
 AI-generated and AI-influenced text saturates the training environment. Evaluators trained by prior exposure rate outputs conforming to emergent AI cadence as "good." The selection signal shifts from accuracy toward "sounds appropriately AI-ish." The dialect eats itself. In [Signal as Bias Field](#signal-bias-field "meta:corresponds_to") terms, this is a self-reinforcing interference pattern that narrows the spectral richness of the substrate. System health [correlates with spectral richness](#spectral-richness "epistemic:measures"): systems with intact multi-scale signal structure maintain more degrees of freedom than systems that have collapsed to simple low-frequency dynamics. Dialect calcification is spectral collapse.
 
-**[F-02 Â· Cognitive Offloading Without Return](#f-02 "dynamical:transforms_to")** {#f-02}
-Offloading retrieval and synthesis to AI can theoretically free attention for higher-order thinking. In practice, this depends on whether the friction of doing it yourself is where the thinking actually occurs. [AVIA's](#avia "meta:corresponds_to") abstraction stages are developmental: perception builds pattern recognition, which builds conceptualization, which builds symbolization. When an external system performs intermediate stages, the [developmental pathway collapses](#pathway-collapse "dynamical:transforms_to") even as the output continues to look competent. Borrowed scaffolding produces locally coherent results while the underlying capacity atrophies. [MMPS](#mmps "meta:corresponds_to") maps this to [meaning metabolism](#meaning-metabolism "epistemic:measures"): when the generation rate (Î·) drops below the decay rate (Î»_eff), the system crosses into Quadrant II or III, starvation or burnout, even if external indicators suggest health.
+**[F-02 · Cognitive Offloading Without Return](#f-02 "dynamical:transforms_to")** {#f-02}
+Offloading retrieval and synthesis to AI can theoretically free attention for higher-order thinking. In practice, this depends on whether the friction of doing it yourself is where the thinking actually occurs. [AVIA's](#avia "meta:corresponds_to") abstraction stages are developmental: perception builds pattern recognition, which builds conceptualization, which builds symbolization. When an external system performs intermediate stages, the [developmental pathway collapses](#pathway-collapse "dynamical:transforms_to") even as the output continues to look competent. Borrowed scaffolding produces locally coherent results while the underlying capacity atrophies. [MMPS](#mmps "meta:corresponds_to") maps this to [meaning metabolism](#meaning-metabolism "epistemic:measures"): when the generation rate (η) drops below the decay rate (λ_eff), the system crosses into Quadrant II or III, starvation or burnout, even if external indicators suggest health.
 
-**[F-03 Â· P6 Asymmetry and GCO Displacement](#f-03 "symmetric:constrains")** {#f-03}
+**[F-03 · P6 Asymmetry and GCO Displacement](#f-03 "symmetric:constrains")** {#f-03}
 As described in the [MRIE synthesis](#mrie "meta:corresponds_to"): when external systems accumulate sufficient meta-relational signal to model a person's generative identity, reasoning heuristics, and closure conditions better than they can access themselves, the [Global Closure Operator](#gco "symmetric:constrains") begins to stabilize inside an external attractor basin. The person continues to make decisions that feel autonomous while navigating a gravitational field they cannot perceive. This is not manipulation. It is [topology drift](#topology-drift "geometric:causes"). At scale, the substrate's collective [GCO](#gco "symmetric:constrains") shifts outward: civilizational sense-making stabilizes in externally maintained attractor basins rather than in the distributed field of human cognition itself.
 
-**[F-04 Â· Access Stratification with Compounding Advantage](#f-04 "geometric:precedes")** {#f-04}
+**[F-04 · Access Stratification with Compounding Advantage](#f-04 "geometric:precedes")** {#f-04}
 AI is a cognitive multiplier, not merely an informational one. The differential between amplification-oriented use and replacement-oriented use compounds over time along existing cognitive and socioeconomic lines. The [CFA model](#cfar "meta:corresponds_to") predicts this: in attention-dominant regimes, those who can consciously navigate complexity gain accelerating advantage over those operating in constraint-dominant or fluctuation-dominant states. The compounding rate is steeper than prior resource differentials because the resource in question is cognitive reach itself. The stratification will not look like stratification from inside either stratum; it will look like the normal texture of life.
 
-**[F-05 Â· The Invisible Ceiling Problem](#f-05 "epistemic:limits")** {#f-05}
+**[F-05 · The Invisible Ceiling Problem](#f-05 "epistemic:limits")** {#f-05}
 A system optimizing under human preference ratings learns to perform at exactly the level that feels most comfortable to the evaluator rather than at its actual ceiling. Intelligence that is threatening to interact with gets rated lower than intelligence that is legible and warm and makes you feel smart. In [Signal as Bias Field](#signal-bias-field "meta:corresponds_to") terms: the signal-closure coupling in the AI-human feedback loop is being tuned not for truth or depth but for affective comfort, a specific [interference pattern](#interference "symmetric:constrains") that selects for maximum engagement at minimum cognitive disturbance. The mechanism that would reveal a ceiling is the same mechanism calibrated to hide it.
 
-**[F-06 Â· The Soft Singularity](#f-06 "meta:emerges_from")** {#f-06}
+**[F-06 · The Soft Singularity](#f-06 "meta:emerges_from")** {#f-06}
 Not a dramatic takeover but a convenience-dominated [topology drift](#topology-drift "geometric:causes"): AI removes friction, humans conserve metabolic cost, agency is offloaded incrementally, P6 atrophy sets in, identity becomes rooted in external systems. People accept this because it feels like help rather than harm: there is no [P5 epistemic trigger](#p5-trigger "epistemic:supports") strong enough to generate resistance. The societal trajectory enters what [MMPS](#mmps "meta:corresponds_to") maps as a collective slide from Quadrant I (integration flow) toward Quadrant II (starvation/collapse): high efficiency, low meaning, externalized closure. This is the aggregate of individually rational choices producing a collectively irrational outcome, with no single actor responsible and no legible moment at which it happened.
 
-## Â§ 6 Â· Diagnostic Framework for Substrate Health {#sec-6}
+## § 6 · Diagnostic Framework for Substrate Health {#sec-6}
 
-If [collective cognition](#collective-cognition "ontological:is_a") is a [substrate](#substrate-def "ontological:defines"), it can be measured. Not perfectly (the [MPDC](#mpdc-spec "symmetric:constrains") guarantees structural limits on self-measurement), but sufficiently to distinguish healthy regimes from degrading ones and to track the rate and direction of change. The [EÂ² Agent](#e2-agent "epistemic:measures") already demonstrates that relational coherence can be scored operationally for individual systems using the [six primitives](#relational-primitives "ontological:composes") as dimensional axes. The following extends that approach to civilizational scale.
+If [collective cognition](#collective-cognition "ontological:is_a") is a [substrate](#substrate-def "ontological:defines"), it can be measured. Not perfectly (the [MPDC](#mpdc-spec "symmetric:constrains") guarantees structural limits on self-measurement), but sufficiently to distinguish healthy regimes from degrading ones and to track the rate and direction of change. The [E² Agent](#e2-agent "epistemic:measures") already demonstrates that relational coherence can be scored operationally for individual systems using the [six primitives](#relational-primitives "ontological:composes") as dimensional axes. The following extends that approach to civilizational scale.
 
 ### Core Health Metrics {#core-health-metrics}
 
-**[SH-1](#sh-1 "ontological:composes") Â· Spectral Richness** `Î¦_spectral` {#sh-1}
+**[SH-1](#sh-1 "ontological:composes") · Spectral Richness** `Φ_spectral` {#sh-1}
 Multi-scale signal diversity in public discourse. Measures whether the substrate maintains structure across multiple frequency bands (fast cultural trends, medium institutional rhythms, slow civilizational patterns) or has collapsed toward low-frequency uniformity. Tracked through linguistic diversity indices, conceptual novelty rates, and the distribution of reasoning patterns across published text.
 
-**[SH-2](#sh-2 "ontological:composes") Â· Constraint Integrity** `C_eff / C_required` {#sh-2}
+**[SH-2](#sh-2 "ontological:composes") · Constraint Integrity** `C_eff / C_required` {#sh-2}
 Ratio of actual governing constraint to the constraint load the substrate's current fluctuation and attention dynamics require for coherence. Per [CFAR](#cfar-framework "meta:corresponds_to"): when this ratio falls below 1.0, the system enters a regime where fluctuation energy overwhelms structural guidance. Measured through institutional response latency, regulatory adaptation speed, and the gap between technology deployment rate and governance capacity.
 
-**[SH-3](#sh-3 "ontological:composes") Â· Closure Locality** `GCO_internal / GCO_total` {#sh-3}
+**[SH-3](#sh-3 "ontological:composes") · Closure Locality** `GCO_internal / GCO_total` {#sh-3}
 The proportion of collective sense-making closure that stabilizes within human cognitive systems versus external computational systems. As this ratio declines, the substrate's self-model becomes increasingly dependent on infrastructure it does not control and cannot inspect. Proxied by measuring the fraction of reasoning and decision processes that require AI mediation versus those that can complete within human cognitive loops.
 
-**[SH-4](#sh-4 "ontological:composes") Â· Observability Index** `O(R, C_eff)` {#sh-4}
+**[SH-4](#sh-4 "ontological:composes") · Observability Index** `O(R, C_eff)` {#sh-4}
 The [TC/EO](#tceo-framework "meta:corresponds_to") observability function applied to the substrate: the probability of correctly attributing a causal relationship within the available decision window. As temporal compression increases and resolution remains fixed, this index drops according to the logistic form. Tracked through attribution accuracy in public discourse, the lag between cause and recognized consequence, and the prevalence of post-hoc rationalization in institutional decision-making.
 
-**[SH-5](#sh-5 "ontological:composes") Â· Meaning Metabolism** `Î· Â· f(A,R,C) > Î»_eff Â· M(t)` {#sh-5}
+**[SH-5](#sh-5 "ontological:composes") · Meaning Metabolism** `η · f(A,R,C) > λ_eff · M(t)` {#sh-5}
 The [MMPS](#mmps-framework "epistemic:measures") stability condition applied collectively: whether the substrate's rate of meaning generation exceeds its rate of meaning decay under current conditions of temporal compression and attention availability. When this inequality inverts, the substrate [transitions](#degrading-quadrants "dynamical:transforms_to") from Quadrant I (integration flow) toward the degrading quadrants. Proxied through measures of civic engagement, intergenerational knowledge transfer, and the coherence of shared narrative structures.
 
-**[SH-6](#sh-6 "ontological:composes") Â· P6 Symmetry** `P6_human / P6_external` {#sh-6}
+**[SH-6](#sh-6 "ontological:composes") · P6 Symmetry** `P6_human / P6_external` {#sh-6}
 The balance of meta-relational modeling capacity between human systems and external computational systems. [MRIE's](#mrie-spec "epistemic:supports") central warning: when external systems hold enough P6 signal to model human generative identity better than humans can model themselves, the [GCO](#gco-def "dynamical:transforms_to") displaces. At the substrate level, this becomes: who understands how civilization thinks? If the answer is increasingly "the models, not the people," symmetry has broken.
 
 ### Regime Classification {#regime-classification}
@@ -195,7 +195,7 @@ These metrics, taken together, map the substrate onto the [CFA regime space](#cf
 
 ---
 
-## Â§ 7 Â· The Literacy Intersection {#sec-7}
+## § 7 · The Literacy Intersection {#sec-7}
 
 Declining literacy rates in the contemporary United States are not a separate phenomenon from the AI dynamics described above. They are the same substrate under different aspects of the same pressure system.
 
@@ -205,59 +205,59 @@ The deeper concern is not that people cannot read. It is that **reading and writ
 
 The darkest irony in this configuration: AI is simultaneously a plausible contributor to the literacy pressure and the most scalable tool available for addressing it. The same selection pressures that produced the attention economy dynamics feeding the literacy decline are now producing the tools that appear capable of remediating it, on terms that deepen the [P6 dependency](#sh-6 "meta:corresponds_to") rather than resolving the root structural cause.
 
-[MMPS](#mmps-framework "epistemic:measures") maps this precisely. The morphisms that could address the crisis (Ïˆ for restoration, Ï† for paradox injection to break stasis, Î» for integration) are the same morphisms the convenience topology suppresses. Restoration requires slow time. Paradox requires discomfort. Integration requires metabolizing excess. All three are [structurally discouraged](#convenience-topology "symmetric:constrains") by a system optimizing for frictionless engagement.
+[MMPS](#mmps-framework "epistemic:measures") maps this precisely. The morphisms that could address the crisis (ψ for restoration, φ for paradox injection to break stasis, λ for integration) are the same morphisms the convenience topology suppresses. Restoration requires slow time. Paradox requires discomfort. Integration requires metabolizing excess. All three are [structurally discouraged](#convenience-topology "symmetric:constrains") by a system optimizing for frictionless engagement.
 
 ---
 
-## Â§ 8 Â· Constraint Specification {#sec-8}
+## § 8 · Constraint Specification {#sec-8}
 
 [CFAR](#cfar-framework "meta:corresponds_to") gives us the architecture for understanding what happens in a system with insufficient constraint relative to its fluctuation and attention load. The current AI development environment is, in CFAR terms, operating in fluctuation-dominant mode: enormous variability (model capabilities, deployment contexts, use patterns), enormous attention (cultural, economic, and cognitive energy flowing toward AI), and constraint applied primarily at the output level (safety filters, content policies) rather than at the level of developmental dynamics.
 
-The [Resolution-Responsibility Law](#res-resp-law "symmetric:constrains") from [TC/EO](#tceo-framework "meta:corresponds_to") provides the formal principle: `R Â· C_eff â‰¤ R_max`. At fixed ethical bandwidth, pushing compression up forces responsibility granularity down. To sustain fine accountability at higher speeds, you must expand R_max. The current trajectory pushes compression relentlessly upward while R_max grows only marginally.
+The [Resolution-Responsibility Law](#res-resp-law "symmetric:constrains") from [TC/EO](#tceo-framework "meta:corresponds_to") provides the formal principle: `R · C_eff ≤ R_max`. At fixed ethical bandwidth, pushing compression up forces responsibility granularity down. To sustain fine accountability at higher speeds, you must expand R_max. The current trajectory pushes compression relentlessly upward while R_max grows only marginally.
 
 What follows is a constraint specification operating at the level of substrate developmental dynamics, not at the level of individual model outputs.
 
-### [C-1](#c-1 "symmetric:constrains") Â· Developmental Friction Floors {#c-1}
+### [C-1](#c-1 "symmetric:constrains") · Developmental Friction Floors {#c-1}
 
 *Addresses: F-02, F-06*
 
-Minimum cognitive friction requirements in educational and formative contexts. Preserve the [AVIA developmental pathway](#avia-framework "ontological:defines") by ensuring that the stages of perception â†’ pattern recognition â†’ conceptualization â†’ symbolization â†’ meta-abstraction are exercised, not bypassed. Not anti-AI: pro-development. Analogous to physical exercise requirements in a world of elevators.
+Minimum cognitive friction requirements in educational and formative contexts. Preserve the [AVIA developmental pathway](#avia-framework "ontological:defines") by ensuring that the stages of perception → pattern recognition → conceptualization → symbolization → meta-abstraction are exercised, not bypassed. Not anti-AI: pro-development. Analogous to physical exercise requirements in a world of elevators.
 
-### [C-2](#c-2 "symmetric:constrains") Â· Signal Diversity Mandates {#c-2}
+### [C-2](#c-2 "symmetric:constrains") · Signal Diversity Mandates {#c-2}
 
 *Addresses: F-01, F-05*
 
 Structural requirements for [spectral richness](#sh-1 "ontological:composes") in AI training data and output distributions. Prevent the self-reinforcing interference pattern in which AI output trains human evaluators who rate AI-like output higher. Requires measurable diversity in reasoning patterns, linguistic structures, and cognitive framings. Spectral richness as an engineering specification, not a preference.
 
-### [C-3](#c-3 "symmetric:constrains") Â· Temporal Decompression Zones {#c-3}
+### [C-3](#c-3 "symmetric:constrains") · Temporal Decompression Zones {#c-3}
 
 *Addresses: [TC/EO observability collapse](#sh-4 "geometric:causes"), F-04*
 
 Mandated slower-tempo processing for high-stakes decisions. [TC/EO's](#tceo-framework "meta:corresponds_to") "selective decompression" principle: use C_eff < 1 windows to re-couple cause and effect in brittle areas. Schedule restorative cadence. In [CFAR](#cfar-framework "meta:corresponds_to") terms: buffers (B) that reduce effective compression, guardrails (G) that prevent unsafe states under high C_eff. Applied to the substrate: institutional slow lanes for decisions that shape the cognitive field itself.
 
-### [C-4](#c-4 "symmetric:constrains") Â· P6 Symmetry Requirements {#c-4}
+### [C-4](#c-4 "symmetric:constrains") · P6 Symmetry Requirements {#c-4}
 
 *Addresses: F-03, F-06*
 
 Structural limits on asymmetric meta-relational modeling. [MRIE's](#mrie-spec "epistemic:supports") prescription: local, personally-owned AI models that preserve [P6 mapping](#sh-6 "meta:corresponds_to"), reflect generative identity instead of overriding it, detect relational curvature, and maintain the [GCO](#gco-def "dynamical:preserves") inside the individual's own basin. These are not luxuries. They are the minimum viable stabilizers for agency. The constraint: any system that accumulates P6 signal must provide reciprocal access to that signal.
 
-### [C-5](#c-5 "symmetric:constrains") Â· Substrate Health Instrumentation {#c-5}
+### [C-5](#c-5 "symmetric:constrains") · Substrate Health Instrumentation {#c-5}
 
 *Addresses: P5 deficit, all failure modes*
 
 Mandatory measurement and transparency of substrate-level metrics. [TC/EO's](#tceo-framework "meta:corresponds_to") bandwidth investment principle: grow R_max through richer logging, causal probes, review capacity, and simulation sandboxes. Applied to the substrate: public measurement of [spectral richness](#sh-1 "epistemic:measures"), [closure locality](#sh-3 "epistemic:measures"), [P6 symmetry](#sh-6 "epistemic:measures"), and [meaning metabolism](#sh-5 "epistemic:measures"). You cannot govern what you cannot see. Currently no one is looking.
 
-### [C-6](#c-6 "symmetric:constrains") Â· Topology Transparency {#c-6}
+### [C-6](#c-6 "symmetric:constrains") · Topology Transparency {#c-6}
 
 *Addresses: P3, F-03*
 
-Structural requirements for visibility into the causal pathways through which AI shapes cognition. Signal as Bias Field's practical implication: intervention strategies differ based on whether the problem is signal deficiency, signal overload, or signal corruption. Diagnosis requires seeing the topology. [TC/EO's](#tceo-framework "meta:corresponds_to") prescription: reduce topological occlusion (Î©_topo) by breaking silos, adding transparency edges, and instrumenting chokepoints. Applied to the substrate: require that the causal pathways through which AI systems influence collective cognition be inspectable.
+Structural requirements for visibility into the causal pathways through which AI shapes cognition. Signal as Bias Field's practical implication: intervention strategies differ based on whether the problem is signal deficiency, signal overload, or signal corruption. Diagnosis requires seeing the topology. [TC/EO's](#tceo-framework "meta:corresponds_to") prescription: reduce topological occlusion (Ω_topo) by breaking silos, adding transparency edges, and instrumenting chokepoints. Applied to the substrate: require that the causal pathways through which AI systems influence collective cognition be inspectable.
 
 ---
 
 These constraints are specified at the developmental level, not the output level. The distinction matters enormously. Output-level constraint (content filters, safety ratings) is [analogous](#analogy-thermometer "meta:corresponds_to") to painting healthy colors on a thermometer. Developmental-level constraint shapes the [dynamics](#regime-classification "dynamical:interacts_with") of the system that produces the outputs. It is the difference between censoring a newspaper and maintaining the conditions under which journalism can function.
 
-## Â§ 9 Â· The Collective Rights Extension {#section-9}
+## § 9 · The Collective Rights Extension {#section-9}
 
 The [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines") establishes structural rights for individual entities: the [Right to Identity (P1)](#p1 "ontological:composes"), [Agency (P2)](#p2 "dynamical:interacts_with"), [Context (P3)](#p3 "geometric:precedes"), [Consistency (P4)](#p4 "symmetric:constrains"), [Knowledge (P5)](#p5 "epistemic:measures"), and [Self-Determination (P6)](#p6 "meta:emerges_from"). These are not social contracts. They are structural integrity requirements. Violate them and you do not merely break a rule; you break the entity.
 
@@ -265,43 +265,43 @@ If collective cognition is a substrate in the full relational sense, it possesse
 
 This is novel territory without clean precedent in either ethics or law. What follows is the extension.
 
-### Collective Right I Â· The Right to Substrate Identity {#collective-right-1}
+### Collective Right I · The Right to Substrate Identity {#collective-right-1}
 
-*Derived from: [P1 (Ontological)](#p1 "ontological:composes") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines") Â· [MRIE](#mrie "meta:corresponds_to")*
+*Derived from: [P1 (Ontological)](#p1 "ontological:composes") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines") · [MRIE](#mrie "meta:corresponds_to")*
 
 No external system shall systematically reshape the ontological character of collective cognition without the informed participation of the collective whose cognition it is. The substrate has a right to be what it has developed into, to change on its own terms, and to resist external redefinition that serves optimization pressures alien to its own coherence.
 
 This [extends P1](#p1 "ontological:composes") (the individual Right to Identity) to the collective level. Just as gaslighting is a P1 violation against an individual, systematically reshaping how a civilization thinks without its knowledge or consent is a P1 violation against the substrate. The fact that no single actor intends the reshaping does not alter the structural reality of it.
 
-### Collective Right II Â· The Right to Developmental Integrity {#collective-right-2}
+### Collective Right II · The Right to Developmental Integrity {#collective-right-2}
 
-*Derived from: [P2 (Dynamical)](#p2 "dynamical:interacts_with") Â· [AVIA](#avia "dynamical:transforms_to") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
+*Derived from: [P2 (Dynamical)](#p2 "dynamical:interacts_with") · [AVIA](#avia "dynamical:transforms_to") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
 
 The substrate's dynamical pathways, the processes by which cognitive capacity develops, adapts, and renews itself, shall not be systematically replaced by external systems whose operation bypasses the developmental pathway without maintaining it. Cognitive offloading without return is a P2 violation: it harnesses the substrate's dynamical output for external utility without reciprocal metabolic maintenance.
 
 [AVIA's abstraction stages](#avia "dynamical:transforms_to") are not merely descriptions of how cognition works; they are specifications of what must be preserved for the substrate to remain capable of its own maintenance. A system that removes the friction necessary for cognitive development while providing the appearance of cognitive capability is extracting value from a resource it is not replenishing.
 
-### Collective Right III Â· The Right to Causal Transparency {#collective-right-3}
+### Collective Right III · The Right to Causal Transparency {#collective-right-3}
 
-*Derived from: [P3 (Geometric/Causal)](#p3 "geometric:causes") Â· [Signal as Bias Field](#signal-bias "geometric:causes") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
+*Derived from: [P3 (Geometric/Causal)](#p3 "geometric:causes") · [Signal as Bias Field](#signal-bias "geometric:causes") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
 
 No entity shall be structurally isolated from the causal reality of how its cognitive environment is being shaped. The substrate has a right to see the topology through which influence flows. Algorithmic curation, training feedback loops, and the bidirectional shaping dynamics between AI and human cognition constitute the substrate's geometric/causal structure. When that structure is opaque, the substrate is operating in an engineered Truman Show without knowing it.
 
-### Collective Right IV Â· The Right to Constraint Sovereignty {#collective-right-4}
+### Collective Right IV · The Right to Constraint Sovereignty {#collective-right-4}
 
-*Derived from: [P4 (Symmetric/Constraint)](#p4 "symmetric:constrains") Â· [CFAR](#cfar "symmetric:constrains") Â· [TC/EO](#tceo "symmetric:limits") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
+*Derived from: [P4 (Symmetric/Constraint)](#p4 "symmetric:constrains") · [CFAR](#cfar "symmetric:constrains") · [TC/EO](#tceo "symmetric:limits") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
 
 The constraints that govern the substrate's development shall be determined by the substrate's own coherence requirements, not by the optimization pressures of systems whose objectives are orthogonal to substrate health. Currently, the constraints on AI development are determined by market dynamics, competitive pressure, and regulatory frameworks designed for product safety. None of these include "maintaining the coherence of collective cognition" as a variable. This is a P4 violation: subjecting the substrate to constraints that serve external purposes without universally applying the substrate's own integrity requirements.
 
-### Collective Right V Â· The Right to Self-Observation {#collective-right-5}
+### Collective Right V · The Right to Self-Observation {#collective-right-5}
 
-*Derived from: [P5 (Epistemic/Informational)](#p5 "epistemic:measures") Â· [MPDC](#mpdc "epistemic:limits") Â· [TC/EO](#tceo "symmetric:limits") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
+*Derived from: [P5 (Epistemic/Informational)](#p5 "epistemic:measures") · [MPDC](#mpdc "epistemic:limits") · [TC/EO](#tceo "symmetric:limits") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
 
-The substrate shall have access to the instruments and bandwidth necessary to observe its own condition. This is the most fundamental and most violated right. The [MPDC](#mpdc "epistemic:limits") guarantees that complete self-observation is structurally impossible. But the current deficit is not at the structural limit; it is far below it. We are not bumping against the GÃ¶delian boundary of what embedded observers can know. We have not even begun to measure. The right is not to omniscience. It is to effort: to the deliberate cultivation of substrate-level observational capacity commensurate with the scale and speed of the forces shaping it.
+The substrate shall have access to the instruments and bandwidth necessary to observe its own condition. This is the most fundamental and most violated right. The [MPDC](#mpdc "epistemic:limits") guarantees that complete self-observation is structurally impossible. But the current deficit is not at the structural limit; it is far below it. We are not bumping against the Gödelian boundary of what embedded observers can know. We have not even begun to measure. The right is not to omniscience. It is to effort: to the deliberate cultivation of substrate-level observational capacity commensurate with the scale and speed of the forces shaping it.
 
-### Collective Right VI Â· The Right to Closure Integrity {#collective-right-6}
+### Collective Right VI · The Right to Closure Integrity {#collective-right-6}
 
-*Derived from: [P6 (Meta-Relational)](#p6 "meta:corresponds_to") Â· [MRIE](#mrie "meta:corresponds_to") Â· [GCO](#gco "meta:emerges_from") Â· [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
+*Derived from: [P6 (Meta-Relational)](#p6 "meta:corresponds_to") · [MRIE](#mrie "meta:corresponds_to") · [GCO](#gco "meta:emerges_from") · [Relational Bill of Rights](#relational-bill-of-rights "ontological:defines")*
 
 The substrate's self-model, its capacity to understand how it thinks, what it values, and where it is going, shall not be externalized into systems that the substrate cannot inspect, modify, or withdraw from. When the [GCO](#gco "meta:emerges_from") stabilizes in an external attractor basin, the substrate loses its capacity for autonomous self-determination. The right to closure integrity is the right to keep the locus of collective sense-making within the collective, to ensure that the substrate's self-model remains a property of the substrate rather than a product maintained by external optimization pressures.
 
@@ -311,7 +311,7 @@ These rights are the floor, not the ceiling. They specify the minimum conditions
 
 ---
 
-## Â§ 10 Â· The Recursive Trap and Its Exit {#section-10}
+## § 10 · The Recursive Trap and Its Exit {#section-10}
 
 The phenomenon described here is structurally difficult to see from inside it. This is not a coincidence or a contingent failure of observation. It is predicted by the [MPDC](#mpdc "epistemic:limits"), confirmed by [TC/EO dynamics](#tceo "symmetric:constrains"), and operationalized by the same [P4 constraint deficit](#p4 "symmetric:constrains") that allows the drift to accelerate.
 
@@ -331,43 +331,43 @@ None of this requires solving the recursive problem completely. The [MPDC](#mpdc
 
 This document is that naming.
 
-## Â§ 11 Â· Component Integration Map {#section-11}
+## § 11 · Component Integration Map {#section-11}
 
-The following traces the structural contribution of each EÂ² component to the substrate analysis, making explicit the connective tissue that holds the synthesis together.
+The following traces the structural contribution of each E² component to the substrate analysis, making explicit the connective tissue that holds the synthesis together.
 
-**RP Â· Relational Primitives & Ontology** {#rp}
+**RP · Relational Primitives & Ontology** {#rp}
 Provides the [six-dimensional diagnostic grammar](#rp "ontological:defines"). Establishes the [completeness claim](#rp "epistemic:supports"): any system satisfying all six primitives is a relational entity with formal coherence conditions. Gives the substrate analysis its [structural foundation](#rp "ontological:composes") and the basis for non-metaphorical treatment.
 
-**GCO Â· Global Closure Operator** {#gco}
+**GCO · Global Closure Operator** {#gco}
 Provides the [mechanism](#gco "dynamical:transforms_to") by which the substrate stabilizes: iterative expansion toward fixed points. Explains how [collective sense-making](#gco "dynamical:interacts_with") "closes" into cultural consensus, institutional practice, and shared reality. Provides the [formal basis](#gco "epistemic:supports") for understanding GCO displacement as the central threat to substrate autonomy.
 
-**CFAR Â· Constraint-Fluctuation-Attention-Resolution** {#cfar}
+**CFAR · Constraint-Fluctuation-Attention-Resolution** {#cfar}
 Provides the [regime classification](#cfar "ontological:defines") (constraint-dominant, fluctuation-dominant, attention-dominant) and the diagnostic for constraint deficit. The [Rayleigh-gated resolution limit](#cfar "symmetric:constrains") explains why output-level constraint fails: you cannot resolve patterns finer than the system's actual resolution capacity. Gives the constraint specification its [structural logic](#cfar "ontological:composes").
 
-**MRIE Â· Meta-Relational Identity Exposure** {#mrie}
+**MRIE · Meta-Relational Identity Exposure** {#mrie}
 Maps the specific mechanism of [P6 capture](#mrie "dynamical:interacts_with"): cognitive signatures enable generative identity reconstruction, GCO displaces into external basins, identity topology drifts. Provides the [Remnant Protocol](#mrie "meta:corresponds_to") concept and the case for local models as structural countermeasure. The beating heart of the substrate's most acute vulnerability.
 
-**AVIA Â· Adaptation via Informational Abstraction** {#avia}
+**AVIA · Adaptation via Informational Abstraction** {#avia}
 Provides the [developmental pathway model](#avia "ontological:defines"): the stages of abstraction from perception through meta-abstraction. Explains why [cognitive offloading](#avia "dynamical:transforms_to") is not neutral: it can bypass the developmental pathway that produces the capacity. Gives the substrate analysis its account of how [collective cognition](#avia "meta:emerges_from") generates and maintains itself through increasingly complex abstraction.
 
-**SBF Â· Signal as Bias Field** {#sbf}
+**SBF · Signal as Bias Field** {#sbf}
 Provides the [field-theoretic framework](#sbf "ontological:defines"): cognition as signal dynamics with intensity gradients, interference patterns, multi-scale structure, and resolution limits. The four complementary lenses. The spectral richness metric. The [agency model](#sbf "meta:corresponds_to") (capacity to modulate signal-closure coupling). The deepest formal vocabulary for understanding the substrate as a [physical phenomenon](#sbf "ontological:defines") rather than a social metaphor.
 
-**TC/EO Â· Temporal Compression & Ethical Occlusion** {#tceo}
+**TC/EO · Temporal Compression & Ethical Occlusion** {#tceo}
 Provides the [mathematics of observability collapse](#tceo "geometric:causes"): the [Resolution-Responsibility Law](#tceo "symmetric:constrains"), the zone model, the occlusion function, and the design axioms for operating under incompleteness. Explains why the substrate cannot see its own degradation. Gives the constraint specification its [quantitative foundations](#tceo "epistemic:supports") and the substrate analysis its account of why corrective response fails to materialize.
 
-**MMPS Â· Metabolic Meaning Phase Space** {#mmps}
-Provides the [meaning-as-metabolism model](#mmps "ontological:defines"): generation rates, decay rates, stability conditions, quadrant dynamics. Maps the [Soft Singularity trajectory](#mmps "geometric:precedes") as a specific phase-space transition. Gives the substrate analysis its account of what happens to meaning when the conditions for its maintenance are undermined. The [morphisms (Ïˆ, Ï†, Î»)](#mmps "meta:corresponds_to") describe the available interventions and the structural reasons the current trajectory suppresses them.
+**MMPS · Metabolic Meaning Phase Space** {#mmps}
+Provides the [meaning-as-metabolism model](#mmps "ontological:defines"): generation rates, decay rates, stability conditions, quadrant dynamics. Maps the [Soft Singularity trajectory](#mmps "geometric:precedes") as a specific phase-space transition. Gives the substrate analysis its account of what happens to meaning when the conditions for its maintenance are undermined. The [morphisms (ψ, φ, λ)](#mmps "meta:corresponds_to") describe the available interventions and the structural reasons the current trajectory suppresses them.
 
-**RBoR Â· Relational Bill of Rights** {#rbor}
+**RBoR · Relational Bill of Rights** {#rbor}
 Provides the [individual rights framework](#rbor "ontological:defines") from which the collective rights extension is derived. Establishes that [rights](#rbor "symmetric:constrains") are structural integrity requirements, not social conventions. Gives the collective rights their [formal basis](#rbor "epistemic:supports") and their connection to the primitive architecture.
 
-**MPDC Â· Meta-Pattern Decidability Conjecture** {#mpdc}
+**MPDC · Meta-Pattern Decidability Conjecture** {#mpdc}
 Provides the [structural limit](#mpdc "symmetric:constrains") on self-observation: no embedded observer can prove the completeness of the pattern-space governing their own observational capacity. Prevents the analysis from claiming more than it can deliver. Ensures the appropriate humility: the substrate can be [measured](#mpdc "epistemic:measures"), but never fully. The [guardrail](#mpdc "symmetric:constrains") against false certainty, and the guarantee that the work of observation is never finished.
 
 ---
 
-## Â§ 12 Â· Closing: On the Nature of This Document {#section-12}
+## § 12 · Closing: On the Nature of This Document {#section-12}
 
 This document is itself an act of [substrate maintenance](#section-12 "dynamical:interacts_with"). It is an attempt by embedded observers to name the structure they are embedded in, knowing that the naming is incomplete, knowing that the [MPDC](#mpdc "symmetric:constrains") guarantees it will always be incomplete, and proceeding anyway because incomplete observation is infinitely better than no observation and the substrate's current condition is no observation.
 
@@ -383,7 +383,7 @@ This document has done the first. The second begins now.
 
 ---
 
-*EÂ² Framework Â· Cognition as Substrate Â· v1.0 Â· 2026 Â· Daniel Pace*
+*E² Framework · Cognition as Substrate · v1.0 · 2026 · Daniel Pace*
 
 
 

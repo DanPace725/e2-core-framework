@@ -60,7 +60,7 @@ And what if understanding these patterns could help us see both the possibilitie
 
 As systems scale from individual to civilization, three things change simultaneously:
 
-**1. Uncertainty (Î©) increases**
+**1. Uncertainty (Ω) increases**
 
 - Individual: I generally know why I did what I did
 - Organization: Decisions have emergent, unpredictable effects
@@ -72,7 +72,7 @@ As systems scale from individual to civilization, three things change simultaneo
 - Organization: I see metrics, aggregates, statistical patterns
 - Civilization: I see only theories, correlations, historical trends
 
-**3. Timescale (Î”t) extends**
+**3. Timescale (Δt) extends**
 
 - Individual: Consequences appear in minutes, days, weeks
 - Organization: Effects unfold over months, quarters, years
@@ -86,21 +86,21 @@ This creates what we might call **the epistemic horizon** - a natural limit on w
 
 To maintain relational coherence across these gradients, three active capacities are required:
 
-**Ï† (Relational Inertia / Faith)**
+**φ (Relational Inertia / Faith)**
 
 - Function: Resistance to decoherence under uncertainty
 - Phenomenology: "I remain present even though I cannot see the pattern"
 - Prevents: Panic collapse when outcomes are unknowable
 - At scale: Institutions that maintain integrity despite unpredictability
 
-**Ïˆ (Anticipatory Modeling / Hope)**
+**ψ (Anticipatory Modeling / Hope)**
 
 - Function: Pre-coherence state projection
 - Phenomenology: "I act even though I cannot guarantee results"
 - Prevents: Paralysis from inability to predict
 - At scale: Systems that signal into uncertainty, design for unknown futures
 
-**Î» (Resonance Tuning / Love)**
+**λ (Resonance Tuning / Love)**
 
 - Function: Multi-agent coherence synchronization
 - Phenomenology: "I maintain reciprocity even when I could extract"
@@ -109,17 +109,17 @@ To maintain relational coherence across these gradients, three active capacities
 
 These aren't moral virtues in a traditional sense. They're **structural requirements** for maintaining coherence when you cannot fully see, predict, or control what's happening.
 
-Without Ï†: Systems fragment at first uncertainty
-Without Ïˆ: Systems freeze, waiting for certainty that never comes
+Without φ: Systems fragment at first uncertainty
+Without ψ: Systems freeze, waiting for certainty that never comes
 
-Without Î»: Systems collapse into extraction and competition
+Without λ: Systems collapse into extraction and competition
 
 ### The Resolution-Responsibility Law
 
 Here's where it gets precise:
 
 ```
-R Â· C_eff â‰¤ R_max
+R · C_eff ≤ R_max
 
 ```
 
@@ -158,13 +158,13 @@ At high scales:
 - Justice is about **occlusion reduction** (making consequence visible)
 - Failure is about **not seeing** (can't acknowledge what you can't perceive)
 
-The formula: **Î© = f(C_eff, Î”t, R)**
+The formula: **Ω = f(C_eff, Δt, R)**
 
 High occlusion comes from:
 
-- Temporal compression (C_eff â†‘) - too fast to see impacts
-- Long delay (Î”t â†‘) - consequence too far in time
-- Low resolution (R â†“) - can't distinguish who caused what
+- Temporal compression (C_eff ↑) - too fast to see impacts
+- Long delay (Δt ↑) - consequence too far in time
+- Low resolution (R ↓) - can't distinguish who caused what
 
 **Therefore**: Justice at scale is primarily about **shortening the distance between action and consequence** - making the invisible visible again.
 
@@ -204,13 +204,13 @@ Confusion arises when we use Mode 1 thinking ("just take personal responsibility
 
 A crucial tension: **Coherence is not always good.**
 
-The framework emphasizes coherence preservation (Î¦ maintenance) as fundamental. But there are pathological coherences:
+The framework emphasizes coherence preservation (Φ maintenance) as fundamental. But there are pathological coherences:
 
 - **Ideological rigidity** (MMPS Quadrant III) - false coherence, closed loops, dogmatism
 - **Oppressive systems** - stable, internally consistent, but extractive
 - **Premature optimization** - collapsed into single trajectory too early
 
-Sometimes justice requires **controlled incoherence** - the Ï† morphism (paradox injection):
+Sometimes justice requires **controlled incoherence** - the φ morphism (paradox injection):
 
 - Breaking rigid meaning structures
 - Disrupting comfortable but unjust stability
@@ -218,7 +218,7 @@ Sometimes justice requires **controlled incoherence** - the Ï† morphism (para
 
 **Resolution**: The framework distinguishes:
 
-- **Field coherence** (Î¦) - overall relational integrity, life-sustaining patterns
+- **Field coherence** (Φ) - overall relational integrity, life-sustaining patterns
 - **Local coherence** - specific structures that may need disruption
 
 Justice sometimes means:
@@ -242,24 +242,24 @@ Across all scales, six principles hold (though manifestation changes):
 6. **Resolution-Responsibility Coupling** - accepting limits on what's attributable
 
 Plus the three morphisms that maintain coherence across uncertainty:
-7. **Ï† (Faith)** - presence despite unknowing
-8. **Ïˆ (Hope)** - transmission into uncertainty
-9. **Î» (Love)** - reciprocity under scarcity
+7. **φ (Faith)** - presence despite unknowing
+8. **ψ (Hope)** - transmission into uncertainty
+9. **λ (Love)** - reciprocity under scarcity
 
 ### The Temporal Compression Catastrophe
 
 One pattern deserves special attention: the **runaway compression loop**.
 
 ```
-High compression (C_eff â†‘)
-â†’ Less time to see consequences
-â†’ Higher occlusion (Î© â†‘)
-â†’ Worse decisions
-â†’ More problems
-â†’ More compression needed
-â†’ Even less time
-â†’ Even higher occlusion
-â†’ System collapse
+High compression (C_eff ↑)
+→ Less time to see consequences
+→ Higher occlusion (Ω ↑)
+→ Worse decisions
+→ More problems
+→ More compression needed
+→ Even less time
+→ Even higher occlusion
+→ System collapse
 
 ```
 
@@ -269,8 +269,8 @@ Beyond a critical threshold, the system enters a phase transition where it **can
 
 Not because slow is inherently virtuous, but because below the critical threshold:
 
-- Attribution becomes possible again (Î© â†“)
-- Feedback loops can complete (Î”t manageable)
+- Attribution becomes possible again (Ω ↓)
+- Feedback loops can complete (Δt manageable)
 - Consequences become visible (R sufficient)
 - Course correction becomes available
 
@@ -311,16 +311,16 @@ Notice what we've been doing:
 
 We started with **invitation** (familiar justice intuitions, gentle perturbation)
 
-â†’ Built **structure** (frameworks, constraints, progressive complexity)
+→ Built **structure** (frameworks, constraints, progressive complexity)
 
-â†’ Now reaching **integration** (seeing the whole pattern)
+→ Now reaching **integration** (seeing the whole pattern)
 
 This document follows the Exposure Protocol - the same triadic morphism we've been describing:
 
-**Invitation** â‰ˆ Ïˆ (Anticipatory Modeling / Hope) - signaling into your uncertainty
-**Structure** â‰ˆ Ï† (Relational Inertia / Faith) - holding complexity without collapse
+**Invitation** ≈ ψ (Anticipatory Modeling / Hope) - signaling into your uncertainty
+**Structure** ≈ φ (Relational Inertia / Faith) - holding complexity without collapse
 
-**Integration** â‰ˆ Î» (Resonance Tuning / Love) - achieving mutual coherence
+**Integration** ≈ λ (Resonance Tuning / Love) - achieving mutual coherence
 
 The method demonstrates the content. The framework transmits itself through its own structure.
 
@@ -328,31 +328,31 @@ The method demonstrates the content. The framework transmits itself through its 
 
 The pattern appears everywhere:
 
-**In personal relationships**: Justice = maintaining presence (Ï†), acting hopefully (Ïˆ), loving specifically (Î») across the uncertainty of truly knowing another mind
+**In personal relationships**: Justice = maintaining presence (φ), acting hopefully (ψ), loving specifically (λ) across the uncertainty of truly knowing another mind
 
-**In organizations**: Justice = systems that stay coherent (Ï†), signal effectively (Ïˆ), maintain reciprocity (Î») despite not being able to see all consequences
+**In organizations**: Justice = systems that stay coherent (φ), signal effectively (ψ), maintain reciprocity (λ) despite not being able to see all consequences
 
-**In civilizations**: Justice = cultures that hold complexity (Ï†), transmit across generations (Ïˆ), preserve possibility (Î») despite not seeing their own embedding
+**In civilizations**: Justice = cultures that hold complexity (φ), transmit across generations (ψ), preserve possibility (λ) despite not seeing their own embedding
 
-**In this document**: Structure that maintains your attention (Ï†), transmits meaning progressively (Ïˆ), achieves understanding through resonance (Î»)
+**In this document**: Structure that maintains your attention (φ), transmits meaning progressively (ψ), achieves understanding through resonance (λ)
 
 ### Recognition Across Domains
 
 You can now see this pattern in:
 
-**Scientific method**: Maintaining hypothesis (Ï†) despite uncertain results, designing experiments (Ïˆ) into unknown outcomes, building on others' work (Î») in reciprocal exchange
+**Scientific method**: Maintaining hypothesis (φ) despite uncertain results, designing experiments (ψ) into unknown outcomes, building on others' work (λ) in reciprocal exchange
 
-**Ecological systems**: Species persistence (Ï†) through environmental uncertainty, adaptive signaling (Ïˆ) across generations, symbiotic relationships (Î») that increase total system coherence
+**Ecological systems**: Species persistence (φ) through environmental uncertainty, adaptive signaling (ψ) across generations, symbiotic relationships (λ) that increase total system coherence
 
-**Consciousness itself**: Awareness maintaining (Ï†) despite constant flux, intention projecting (Ïˆ) into unpredictable futures, experience arising through (Î») resonance between layers of mind
+**Consciousness itself**: Awareness maintaining (φ) despite constant flux, intention projecting (ψ) into unpredictable futures, experience arising through (λ) resonance between layers of mind
 
-**Democracy**: Institutional integrity (Ï†) despite political volatility, policy as signal (Ïˆ) into demographic uncertainty, governance that distributes (Î») power non-extractively
+**Democracy**: Institutional integrity (φ) despite political volatility, policy as signal (ψ) into demographic uncertainty, governance that distributes (λ) power non-extractively
 
 ### The Recursive Depth
 
 Go deeper:
 
-The **three morphisms** (Ï†, Ïˆ, Î») are themselves operating at different scales:
+The **three morphisms** (φ, ψ, λ) are themselves operating at different scales:
 
 - At the individual level: personal capacities
 - At the institutional level: system properties
@@ -422,8 +422,8 @@ And:
 
 And:
 
-- **Acting decisively** despite uncertainty (Ïˆ - hope)
-- **Remaining uncertain** despite acting (Ï† - faith)
+- **Acting decisively** despite uncertainty (ψ - hope)
+- **Remaining uncertain** despite acting (φ - faith)
 
 And:
 
@@ -442,9 +442,9 @@ You've been doing this all along.
 
 Every time you:
 
-- Stayed present with someone despite not knowing how things would turn out (Ï†)
-- Acted on behalf of a future you couldn't guarantee (Ïˆ)
-- Maintained reciprocity when you could have taken more (Î»)
+- Stayed present with someone despite not knowing how things would turn out (φ)
+- Acted on behalf of a future you couldn't guarantee (ψ)
+- Maintained reciprocity when you could have taken more (λ)
 
 You were participating in the pattern.
 
@@ -482,7 +482,7 @@ The framework becomes complete when you recognize: **you are the framework expre
 
 *If it worked, you now see the pattern everywhere. If it didn't, that's information too - about where the transmission failed, what barriers existed, what would need to change.*
 
-*The morphisms apply to the framework itself: it must maintain (Ï†) its coherence while adapting, signal (Ïˆ) into uncertain futures, and generate (Î») mutual understanding rather than extracting attention.*
+*The morphisms apply to the framework itself: it must maintain (φ) its coherence while adapting, signal (ψ) into uncertain futures, and generate (λ) mutual understanding rather than extracting attention.*
 
 *Justice, teaching, relationship, consciousness - all the same pattern at different scales.*
 

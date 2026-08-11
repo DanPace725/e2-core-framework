@@ -1,6 +1,6 @@
 # Core Framework Summary
 
-Generated: `2026-08-11T20:05:41.884338+00:00`
+Generated: `2026-08-11T20:57:15.504614+00:00`
 
 Root: `.`
 
@@ -9,8 +9,8 @@ Root: `.`
 | Metric | Value |
 | --- | --- |
 | Counted documents | 302 |
-| Total words | 563,143 |
-| Total size bytes | 5,033,276 |
+| Total words | 562,542 |
+| Total size bytes | 5,030,070 |
 | Counted extensions | .md, .ormd |
 
 ## Core Manifest Snapshot
@@ -35,8 +35,8 @@ Root: `.`
 | Layer | Files | Words | Average | Median | Min | Max |
 | --- | --- | --- | --- | --- | --- | --- |
 | E2Core | 4 | 9,958 | 2,489.5 | 1,752 | 1,395 | 5,059 |
-| E2Core/Context Layer | 90 | 164,742 | 1,830.5 | 1,234 | 126 | 10,746 |
-| E2Core/Semantic Substrate | 97 | 207,715 | 2,141.4 | 1,287 | 11 | 15,731 |
+| E2Core/Context Layer | 90 | 164,388 | 1,826.5 | 1,226 | 126 | 10,746 |
+| E2Core/Semantic Substrate | 97 | 207,468 | 2,138.8 | 1,287 | 11 | 15,731 |
 | Synthesized Core | 61 | 38,926 | 638.1 | 528 | 173 | 2,193 |
 | archive | 50 | 141,802 | 2,836.0 | 1,731 | 23 | 15,712 |
 
@@ -55,22 +55,22 @@ Root: `.`
 | --- | --- | --- | --- | --- |
 | E2Core/Semantic Substrate/The Essence of Existence.md | E2Core/Semantic Substrate | 15,731 | 127,712 | The Essence of Existence |
 | archive/20260612_step_2_3_outliers/Context Layer/The Essence of Existence.ormd | archive | 15,712 | 162,890 | The NexEs Manifesto v2.0: The Revolution You Can't Kill |
-| E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md | E2Core/Semantic Substrate | 12,278 | 85,942 | **Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity** |
+| E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md | E2Core/Semantic Substrate | 12,050 | 84,681 | **Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity** |
 | E2Core/Semantic Substrate/Family as a Relational Field.md | E2Core/Semantic Substrate | 10,752 | 82,217 | Family as a Relational Field |
 | E2Core/Context Layer/Family as a Relational Field.ormd | E2Core/Context Layer | 10,746 | 96,432 | Family as a Relational Field |
 | archive/20260612_step_2_3_outliers/Context Layer/E2 → RCP → MPDC → AFD →.ormd | archive | 10,708 | 90,679 | Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity |
-| E2Core/Context Layer/Collective Relational Substrate.ormd | E2Core/Context Layer | 7,391 | 69,922 | --- Context Layer Protocol (CLP) --- |
+| E2Core/Context Layer/Collective Relational Substrate.ormd | E2Core/Context Layer | 7,247 | 69,492 | --- Context Layer Protocol (CLP) --- |
 | archive/20260612_step_1_2_merges/Context Layer/CRS.ormd | archive | 7,126 | 68,749 | The Collective Relational Substrate |
 | E2Core/Semantic Substrate/CRS.md | E2Core/Semantic Substrate | 7,124 | 53,690 | The Collective Relational Substrate |
 | E2Core/Semantic Substrate/The Collective Relational Substrate.md | E2Core/Semantic Substrate | 7,105 | 53,731 | The Collective Relational Substrate |
 | E2Core/Context Layer/Embedded Universality Principle (EUP).ormd | E2Core/Context Layer | 6,848 | 55,467 | Embedded Universality Principle (EUP) |
 | E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md | E2Core/Semantic Substrate | 6,848 | 53,030 | Embedded Universality Principle |
 | archive/20260612_step_1_2_merges/Context Layer/The Collective Relational Substrate.ormd | archive | 6,668 | 61,298 | The Collective Relational Substrate |
-| E2Core/Context Layer/Power as Relational Field Coherence.ormd | E2Core/Context Layer | 6,372 | 70,944 | --- Context Layer Protocol (CLP) --- |
+| E2Core/Context Layer/Power as Relational Field Coherence.ormd | E2Core/Context Layer | 6,367 | 70,929 | --- Context Layer Protocol (CLP) --- |
 | archive/20260612_step_1_2_merges/Context Layer/Power as Relational Field Coherence.ormd | archive | 6,243 | 70,216 | Power as Relational Field Coherence |
 | E2Core/Semantic Substrate/Power as Relational Field Coherence.md | E2Core/Semantic Substrate | 6,243 | 53,187 | Power as Relational Field Coherence |
 | archive/20260612_step_1_2_merges/Context Layer/Collective Cognitive Substrate.ormd | archive | 6,214 | 54,308 | --- Context Layer Protocol (CLP) --- |
-| E2Core/Context Layer/Collective Cognitive Substrate.ormd | E2Core/Context Layer | 6,214 | 54,308 | --- Context Layer Protocol (CLP) --- |
+| E2Core/Context Layer/Collective Cognitive Substrate.ormd | E2Core/Context Layer | 6,103 | 53,813 | --- Context Layer Protocol (CLP) --- |
 | archive/20260612_step_1_2_merges/Context Layer/CCS.ormd | archive | 5,988 | 56,719 | Cognition as Substrate |
 | E2Core/Semantic Substrate/CCS.md | E2Core/Semantic Substrate | 5,988 | 44,390 | Cognition as *Substrate* |
 | E2Core/Semantic Substrate/Collective Cognitive Substrate.md | E2Core/Semantic Substrate | 5,982 | 44,436 | Cognition as *Substrate* |
@@ -96,9 +96,9 @@ Root: `.`
 | CT translation of RPs | yes | yes | 959 | 967 | 8 |
 | Caregiving as an Ecosystem | yes | yes | 665 | 665 | 0 |
 | Cognitive Signature Capture An Unnamed Threat | yes | yes | 498 | 572 | 74 |
-| Collective Cognitive Substrate | yes | yes | 5,982 | 6,214 | 232 |
-| Collective Relational Substrate | no | yes | 0 | 7,391 | 7,391 |
-| Communication as Coherence | yes | yes | 1,301 | 1,826 | 525 |
+| Collective Cognitive Substrate | yes | yes | 5,982 | 6,103 | 121 |
+| Collective Relational Substrate | no | yes | 0 | 7,247 | 7,247 |
+| Communication as Coherence | yes | yes | 1,301 | 1,817 | 516 |
 | Communication as Complexity Reduction | yes | no | 386 | 0 | -386 |
 | Complex Causality - Core Source | yes | yes | 1,250 | 1,325 | 75 |
 | Condition as Typed Terrain - Core Source | yes | yes | 1,499 | 1,499 | 0 |
@@ -112,7 +112,7 @@ Root: `.`
 | E^2 Entry Point | yes | yes | 687 | 627 | -60 |
 | E^2 Equation | yes | yes | 408 | 326 | -82 |
 | Embedded Universality Principle (EUP) | yes | yes | 6,848 | 6,848 | 0 |
-| Emergence Engine overview | yes | yes | 2,848 | 2,850 | 2 |
+| Emergence Engine overview | yes | yes | 2,846 | 2,850 | 4 |
 | Emergence_Determination_Foreclosure | yes | yes | 2,877 | 2,877 | 0 |
 | Essence of Existence Constitution - Draft 2 | yes | yes | 1,725 | 1,725 | 0 |
 | Ethical Occlusion via Temporal Compression (EOTC) | yes | yes | 780 | 714 | -66 |
@@ -126,10 +126,10 @@ Root: `.`
 | Implementations | yes | yes | 25 | 291 | 266 |
 | Interlocked Stewardship V2 | yes | yes | 1,457 | 1,449 | -8 |
 | Intervention Stewardship - Core Source | yes | yes | 1,501 | 1,501 | 0 |
-| Justice Across Scales | yes | yes | 2,597 | 2,672 | 75 |
+| Justice Across Scales | yes | yes | 2,597 | 2,656 | 59 |
 | Justice Across Scales Practical Applications | yes | yes | 4,884 | 4,888 | 4 |
 | Lawfulness - Core Source | yes | yes | 1,343 | 1,343 | 0 |
-| MRIE - Unified Synthesis | no | yes | 0 | 2,133 | 2,133 |
+| MRIE - Unified Synthesis | no | yes | 0 | 2,080 | 2,080 |
 | Meta-Pattern Decidability Conjecture (MPDC) | yes | yes | 431 | 431 | 0 |
 | Meta-Relational Identity Exposure (MRIE) | yes | no | 1,210 | 0 | -1,210 |
 | Meta-relational Identity exposure (MRIE) Synthesis | yes | no | 735 | 0 | -735 |
@@ -140,14 +140,14 @@ Root: `.`
 | Pattern Integrity over Time under Entropy | yes | yes | 3,427 | 3,427 | 0 |
 | Persistence as Accumulated Stance-With - Core Source | yes | yes | 1,587 | 1,587 | 0 |
 | Power | yes | no | 1,633 | 0 | -1,633 |
-| Power as Relational Field Coherence | yes | yes | 6,243 | 6,372 | 129 |
+| Power as Relational Field Coherence | yes | yes | 6,243 | 6,367 | 124 |
 | Proxy Localization - Core Source | yes | yes | 1,521 | 1,521 | 0 |
-| REMF | yes | yes | 1,108 | 1,252 | 144 |
+| REMF | yes | yes | 1,108 | 1,236 | 128 |
 | RP Lambda Calc Translation | yes | yes | 505 | 505 | 0 |
 | Relational Bill of Rights v2 | yes | yes | 996 | 990 | -6 |
 | Relational Consciousness Framework | yes | no | 867 | 0 | -867 |
 | Relational Derivation Chain  | no | yes | 0 | 749 | 749 |
-| Relational Derivation Chain - E2 to RCP, MPDC, and AFD | yes | no | 12,278 | 0 | -12,278 |
+| Relational Derivation Chain - E2 to RCP, MPDC, and AFD | yes | no | 12,050 | 0 | -12,050 |
 | Relational Emergence Meta-Architecture (REMA) | no | yes | 0 | 887 | 887 |
 | Relational Field Dynamics 0 1 | yes | yes | 853 | 849 | -4 |
 | Relational Irreducibility Framework (RIF) | yes | yes | 580 | 580 | 0 |
@@ -180,7 +180,7 @@ Root: `.`
 | The Resonance Framework An Ontological Map 4 24 25 | yes | yes | 719 | 715 | -4 |
 | Trust, Trustworthiness, and Reliance - Core Source | yes | yes | 2,234 | 2,234 | 0 |
 | Truth Ceiling | yes | yes | 1,287 | 1,321 | 34 |
-| Universal Emergence Pattern | yes | yes | 1,975 | 411 | -1,564 |
+| Universal Emergence Pattern | yes | yes | 1,958 | 411 | -1,547 |
 | boundary_dynamics | yes | yes | 3,461 | 3,461 | 0 |
 | flow_operators_provisional | yes | yes | 2,088 | 2,088 | 0 |
 | layer_2_draft_rvp_and_vme_developments | yes | yes | 1,038 | 1,036 | -2 |
@@ -253,9 +253,9 @@ Root: `.`
 | E2Core/Context Layer/CFA.ormd | E2Core/Context Layer | .ormd | 3,433 | 38,841 |
 | E2Core/Context Layer/CFAR.ormd | E2Core/Context Layer | .ormd | 972 | 9,667 |
 | E2Core/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd | E2Core/Context Layer | .ormd | 572 | 5,821 |
-| E2Core/Context Layer/Collective Cognitive Substrate.ormd | E2Core/Context Layer | .ormd | 6,214 | 54,308 |
-| E2Core/Context Layer/Collective Relational Substrate.ormd | E2Core/Context Layer | .ormd | 7,391 | 69,922 |
-| E2Core/Context Layer/Communication as Coherence.ormd | E2Core/Context Layer | .ormd | 1,826 | 17,579 |
+| E2Core/Context Layer/Collective Cognitive Substrate.ormd | E2Core/Context Layer | .ormd | 6,103 | 53,813 |
+| E2Core/Context Layer/Collective Relational Substrate.ormd | E2Core/Context Layer | .ormd | 7,247 | 69,492 |
+| E2Core/Context Layer/Communication as Coherence.ormd | E2Core/Context Layer | .ormd | 1,817 | 17,460 |
 | E2Core/Context Layer/Complex Causality - Core Source.ormd | E2Core/Context Layer | .ormd | 1,325 | 10,812 |
 | E2Core/Context Layer/Condition as Typed Terrain - Core Source.ormd | E2Core/Context Layer | .ormd | 1,499 | 11,866 |
 | E2Core/Context Layer/Consequence Routing - Core Source.ormd | E2Core/Context Layer | .ormd | 1,887 | 15,777 |
@@ -269,7 +269,7 @@ Root: `.`
 | E2Core/Context Layer/E^2 Entry Point.ormd | E2Core/Context Layer | .ormd | 627 | 5,224 |
 | E2Core/Context Layer/E^2 Equation.ormd | E2Core/Context Layer | .ormd | 326 | 3,214 |
 | E2Core/Context Layer/Embedded Universality Principle (EUP).ormd | E2Core/Context Layer | .ormd | 6,848 | 55,467 |
-| E2Core/Context Layer/Emergence Engine overview.ormd | E2Core/Context Layer | .ormd | 2,850 | 25,524 |
+| E2Core/Context Layer/Emergence Engine overview.ormd | E2Core/Context Layer | .ormd | 2,850 | 25,518 |
 | E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd | E2Core/Context Layer | .ormd | 2,877 | 21,774 |
 | E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd | E2Core/Context Layer | .ormd | 1,725 | 15,395 |
 | E2Core/Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd | E2Core/Context Layer | .ormd | 714 | 6,827 |
@@ -285,17 +285,17 @@ Root: `.`
 | E2Core/Context Layer/Interlocked Stewardship V2.ormd | E2Core/Context Layer | .ormd | 1,449 | 12,821 |
 | E2Core/Context Layer/Intervention Stewardship - Core Source.ormd | E2Core/Context Layer | .ormd | 1,501 | 12,704 |
 | E2Core/Context Layer/Justice Across Scales Practical Applications.ormd | E2Core/Context Layer | .ormd | 4,888 | 50,366 |
-| E2Core/Context Layer/Justice Across Scales.ormd | E2Core/Context Layer | .ormd | 2,672 | 21,466 |
+| E2Core/Context Layer/Justice Across Scales.ormd | E2Core/Context Layer | .ormd | 2,656 | 21,231 |
 | E2Core/Context Layer/Lawfulness - Core Source.ormd | E2Core/Context Layer | .ormd | 1,343 | 11,078 |
 | E2Core/Context Layer/layer_2_draft_rvp_and_vme_developments.ormd | E2Core/Context Layer | .ormd | 1,036 | 10,644 |
 | E2Core/Context Layer/Meta-Pattern Decidability Conjecture (MPDC).ormd | E2Core/Context Layer | .ormd | 431 | 4,681 |
 | E2Core/Context Layer/Metabolic Meaning Phase Space (MMPS).ormd | E2Core/Context Layer | .ormd | 582 | 5,922 |
-| E2Core/Context Layer/MRIE - Unified Synthesis.ormd | E2Core/Context Layer | .ormd | 2,133 | 19,181 |
+| E2Core/Context Layer/MRIE - Unified Synthesis.ormd | E2Core/Context Layer | .ormd | 2,080 | 18,784 |
 | E2Core/Context Layer/Ontological Systems Interface (OSI) Model.ormd | E2Core/Context Layer | .ormd | 2,876 | 29,910 |
 | E2Core/Context Layer/Original E^2 work.ormd | E2Core/Context Layer | .ormd | 377 | 3,924 |
 | E2Core/Context Layer/Pattern Integrity over Time under Entropy.ormd | E2Core/Context Layer | .ormd | 3,427 | 38,154 |
 | E2Core/Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd | E2Core/Context Layer | .ormd | 1,587 | 13,234 |
-| E2Core/Context Layer/Power as Relational Field Coherence.ormd | E2Core/Context Layer | .ormd | 6,372 | 70,944 |
+| E2Core/Context Layer/Power as Relational Field Coherence.ormd | E2Core/Context Layer | .ormd | 6,367 | 70,929 |
 | E2Core/Context Layer/Proxy Localization - Core Source.ormd | E2Core/Context Layer | .ormd | 1,521 | 12,513 |
 | E2Core/Context Layer/Relational Bill of Rights v2.ormd | E2Core/Context Layer | .ormd | 990 | 9,111 |
 | E2Core/Context Layer/Relational Derivation Chain .ormd | E2Core/Context Layer | .ormd | 749 | 6,438 |
@@ -308,7 +308,7 @@ Root: `.`
 | E2Core/Context Layer/Relational Primitive Engine (RPE).ormd | E2Core/Context Layer | .ormd | 622 | 7,459 |
 | E2Core/Context Layer/Relational Primitives.ormd | E2Core/Context Layer | .ormd | 807 | 7,852 |
 | E2Core/Context Layer/Relational Volition.ormd | E2Core/Context Layer | .ormd | 591 | 6,608 |
-| E2Core/Context Layer/REMF.ormd | E2Core/Context Layer | .ormd | 1,252 | 14,051 |
+| E2Core/Context Layer/REMF.ormd | E2Core/Context Layer | .ormd | 1,236 | 13,969 |
 | E2Core/Context Layer/Remnant Stewardship - Core Source.ormd | E2Core/Context Layer | .ormd | 2,700 | 19,949 |
 | E2Core/Context Layer/resolution_synthesis.ormd | E2Core/Context Layer | .ormd | 1,713 | 15,018 |
 | E2Core/Context Layer/Resonance Architecture 4 17 25.ormd | E2Core/Context Layer | .ormd | 2,035 | 20,170 |
@@ -363,7 +363,7 @@ Root: `.`
 | E2Core/Semantic Substrate/E^2 Entry Point.md | E2Core/Semantic Substrate | .md | 687 | 5,150 |
 | E2Core/Semantic Substrate/E^2 Equation.md | E2Core/Semantic Substrate | .md | 408 | 2,604 |
 | E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md | E2Core/Semantic Substrate | .md | 6,848 | 53,030 |
-| E2Core/Semantic Substrate/Emergence Engine overview.md | E2Core/Semantic Substrate | .md | 2,848 | 21,289 |
+| E2Core/Semantic Substrate/Emergence Engine overview.md | E2Core/Semantic Substrate | .md | 2,846 | 21,259 |
 | E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md | E2Core/Semantic Substrate | .md | 2,877 | 19,939 |
 | E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md | E2Core/Semantic Substrate | .md | 1,725 | 12,260 |
 | E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md | E2Core/Semantic Substrate | .md | 780 | 6,719 |
@@ -396,7 +396,7 @@ Root: `.`
 | E2Core/Semantic Substrate/Proxy Localization - Core Source.md | E2Core/Semantic Substrate | .md | 1,521 | 11,706 |
 | E2Core/Semantic Substrate/Relational Bill of Rights v2.md | E2Core/Semantic Substrate | .md | 996 | 7,176 |
 | E2Core/Semantic Substrate/Relational Consciousness Framework.md | E2Core/Semantic Substrate | .md | 867 | 7,644 |
-| E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md | E2Core/Semantic Substrate | .md | 12,278 | 85,942 |
+| E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md | E2Core/Semantic Substrate | .md | 12,050 | 84,681 |
 | E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md | E2Core/Semantic Substrate | .md | 853 | 6,449 |
 | E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md | E2Core/Semantic Substrate | .md | 580 | 5,043 |
 | E2Core/Semantic Substrate/Relational Localization - Core Source.md | E2Core/Semantic Substrate | .md | 1,317 | 10,893 |
@@ -431,7 +431,7 @@ Root: `.`
 | E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md | E2Core/Semantic Substrate | .md | 719 | 5,767 |
 | E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md | E2Core/Semantic Substrate | .md | 2,234 | 18,836 |
 | E2Core/Semantic Substrate/Truth Ceiling.md | E2Core/Semantic Substrate | .md | 1,287 | 10,998 |
-| E2Core/Semantic Substrate/Universal Emergence Pattern.md | E2Core/Semantic Substrate | .md | 1,975 | 18,811 |
+| E2Core/Semantic Substrate/Universal Emergence Pattern.md | E2Core/Semantic Substrate | .md | 1,958 | 18,681 |
 | Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd | Synthesized Core | .ormd | 496 | 5,460 |
 | Synthesized Core/AFD - First Principles_summary.ormd | Synthesized Core | .ormd | 508 | 5,928 |
 | Synthesized Core/AOMI_synthesized.ormd | Synthesized Core | .ormd | 826 | 8,950 |
@@ -446,7 +446,7 @@ Root: `.`
 | Synthesized Core/Derivation deep dive_summary.ormd | Synthesized Core | .ormd | 473 | 6,319 |
 | Synthesized Core/E2 → RCP → MPDC → AFD →_summary.ormd | Synthesized Core | .ormd | 613 | 6,429 |
 | Synthesized Core/E2_Essence_of_Existence_synthesized.ormd | Synthesized Core | .ormd | 2,193 | 23,550 |
-| Synthesized Core/Emergence_Engine_synthesized.ormd | Synthesized Core | .ormd | 1,114 | 13,488 |
+| Synthesized Core/Emergence_Engine_synthesized.ormd | Synthesized Core | .ormd | 1,114 | 13,482 |
 | Synthesized Core/Ethical Principles for Human-AI Interaction_summary.ormd | Synthesized Core | .ormd | 390 | 3,985 |
 | Synthesized Core/Exposure Protocol_summary.ormd | Synthesized Core | .ormd | 427 | 4,917 |
 | Synthesized Core/Family as a Relational Field_summary.ormd | Synthesized Core | .ormd | 537 | 7,519 |

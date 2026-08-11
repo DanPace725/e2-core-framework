@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T20:06:20.511Z",
+  "generatedAt": "2026-08-11T20:57:39.202Z",
   "title": "E² Core Framework",
   "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
   "authority": {
@@ -12,7 +12,7 @@
   "counts": {
     "documents": 90,
     "clusters": 9,
-    "humanWords": 214737
+    "humanWords": 214710
   },
   "clusters": [
     {
@@ -640,14 +640,14 @@
       "confidence": 0.85,
       "status": "paired_composite_or_alias",
       "relationship": "renamed_conversion",
-      "wordCount": 12474,
+      "wordCount": 12447,
       "humanUrl": "/human/relational-derivation-chain.md",
       "ormdUrl": "/ormd/relational-derivation-chain.ormd",
       "humanSources": [
         "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md"
       ],
       "ormdSource": "Relational Derivation Chain .ormd",
-      "humanSha256": "a26fc43e4f388f3137f41258356db9c1605405fc706a0baf96a0f59e04ebc723",
+      "humanSha256": "c302b1b49efa74a4f47a6dfc4f41787d58b1109f6b3ede3640d3894c2aba35c3",
       "ormdSha256": "0326f05f0bdff1a6fc0e46c0c5be8abadbff7865903e73201f41ddaaf09bd9b8"
     },
     {
@@ -846,7 +846,7 @@
       ],
       "ormdSource": "REMF.ormd",
       "humanSha256": "91f6870b0c2cfd5aac945bf52ee3b19b46603b57f19ff298728722f1247df4b0",
-      "ormdSha256": "e7dd83acb0aa2791d02919eda3803fc4adc27514bdb0adfbc9cc99ee5389d842"
+      "ormdSha256": "b102431319dc65e89f99e2481c2dd67a0df0968cf9c2fa14a6e24184edb95874"
     },
     {
       "slug": "resolution-synthesis",
@@ -935,8 +935,8 @@
         "Emergence Engine overview.md"
       ],
       "ormdSource": "Emergence Engine overview.ormd",
-      "humanSha256": "cdad37be80589f4d23932c48d4a23741f3458b79c195e256d095bca4a7748112",
-      "ormdSha256": "9582c218dc1746ede9b364500d5c10ca5604f7bfe3658dbce0822945e8a6a983"
+      "humanSha256": "c301f52b1ff43498ad7d7dddffe9fadc550615019348b224e8895e42c181efe8",
+      "ormdSha256": "fc411d1bc058eab1a2d76830e1235485e2decb42df51613aaa03d677cac13a41"
     },
     {
       "slug": "universal-emergence-pattern",
@@ -953,7 +953,7 @@
         "Universal Emergence Pattern.md"
       ],
       "ormdSource": "Universal Emergence Pattern.ormd",
-      "humanSha256": "95c26cf86a6fe73ec455e5e28ace4aabddd2a54df89f6f70391ca9bd40e8227b",
+      "humanSha256": "f75f0c2ff7465443bc6934f451c80a64a3646c956484bc612a990d213bb09000",
       "ormdSha256": "e938acaddbbec32a70c69fe86d06b2561de2bf7c00ddab4b8f1e247db7e74062"
     },
     {
@@ -1314,7 +1314,7 @@
       ],
       "ormdSource": "Justice Across Scales.ormd",
       "humanSha256": "1b7d70d4ede66aa4ce62f3592e20cfd387e843a47be9f94e12539b2406575980",
-      "ormdSha256": "79c1fa2eb29753c105a275929310500a9a0ac2b4a2d7daad05aeff8ce8d89f64"
+      "ormdSha256": "ef9c33dcf87b63807f3c7d5207d3585465ff7d2bc37fbdfae4d73a52e7bbf44a"
     },
     {
       "slug": "justice-across-scales-practical-applications",
@@ -1585,7 +1585,7 @@
       ],
       "ormdSource": "MRIE - Unified Synthesis.ormd",
       "humanSha256": "fb4c26d379c69acc7f4e6bd568975e8ff79b2ab42b97d58f32190227a8dfcb15",
-      "ormdSha256": "3bd11ed59783f93aacb27c44754981ffcdc056af0b5286839f847e8e12aeba21"
+      "ormdSha256": "b01bdd976bea071c76f62ad129ebdd83a04b4c11b46ae6e44daac27b5f7e36be"
     },
     {
       "slug": "relational-irreducibility-framework-rif",
@@ -1639,7 +1639,7 @@
       ],
       "ormdSource": "Collective Cognitive Substrate.ormd",
       "humanSha256": "0cc250069b120bb33084f0ee1c32098b4a51b2aa69d66cf428b9a9500c9c5df0",
-      "ormdSha256": "058dd14147b8812dc1fb15723a4784709bb9d7fafc7e114765ffa87c731afb37"
+      "ormdSha256": "2951df31e74c34fd700d0012d28c3868a791b5230a5f74ca39c9604a7ee5530e"
     },
     {
       "slug": "ontological-systems-interface-osi-model",
@@ -1767,7 +1767,7 @@
       ],
       "ormdSource": "Collective Relational Substrate.ormd",
       "humanSha256": "d0442c3a8481db2e91bb06ee7ad13325dc7250f4f5b3b60ab852462b75532787",
-      "ormdSha256": "f59d21dc596e0868d0f27583df425abbbcbb4f98b6a20dfb99fa5b7faf20cf52"
+      "ormdSha256": "c763b18091b14413abebaf6869c0b48f112337e4c89dd9c21d30934b730c8b69"
     },
     {
       "slug": "communication-as-coherence",
@@ -1785,7 +1785,7 @@
       ],
       "ormdSource": "Communication as Coherence.ormd",
       "humanSha256": "a4b97695b19afa5c96bf7d20956e164fefba93c7f24d1faf929cd6e1dcbc3568",
-      "ormdSha256": "58743a350cfebc3964984ae4a92280818134a05d067c514c3355769c9a84b071"
+      "ormdSha256": "9fb938f02a41c3eb43f29fab711c1bcb21a48f9e6c5075e6098262fd6ed81c0b"
     },
     {
       "slug": "declaration-of-interdependence",
@@ -1875,7 +1875,7 @@
       ],
       "ormdSource": "Power as Relational Field Coherence.ormd",
       "humanSha256": "7dc2ada1516f48e153091833125d6f744c15684344ad5869d5e3bf1416df43ed",
-      "ormdSha256": "ff69aec30b53c20fd64ca9937412f6e1bdfb95876a7b439e27b628feefa80935"
+      "ormdSha256": "ff220f195a2d9edfd457c6403e44f9c08410dd26acb4587e8beaae8e2afff7f1"
     },
     {
       "slug": "relational-perfection-framework",

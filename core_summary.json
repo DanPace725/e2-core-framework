@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T20:05:41.884338+00:00",
+  "generated_at": "2026-08-11T20:57:15.504614+00:00",
   "root": ".",
   "counted_extensions": [
     ".md",
     ".ormd"
   ],
   "document_count": 302,
-  "total_words": 563143,
-  "total_size_bytes": 5033276,
+  "total_words": 562542,
+  "total_size_bytes": 5030070,
   "extension_summary": {
     ".ormd": 188,
     ".md": 114
@@ -24,21 +24,21 @@
     },
     "E2Core/Context Layer": {
       "file_count": 90,
-      "word_count": 164742,
-      "average_words": 1830.5,
-      "median_words": 1234,
+      "word_count": 164388,
+      "average_words": 1826.5,
+      "median_words": 1226,
       "min_words": 126,
       "max_words": 10746,
-      "size_bytes": 1548247
+      "size_bytes": 1546468
     },
     "E2Core/Semantic Substrate": {
       "file_count": 97,
-      "word_count": 207715,
-      "average_words": 2141.4,
+      "word_count": 207468,
+      "average_words": 2138.8,
       "median_words": 1287,
       "min_words": 11,
       "max_words": 15731,
-      "size_bytes": 1636148
+      "size_bytes": 1634727
     },
     "Synthesized Core": {
       "file_count": 61,
@@ -47,7 +47,7 @@
       "median_words": 528,
       "min_words": 173,
       "max_words": 2193,
-      "size_bytes": 431925
+      "size_bytes": 431919
     },
     "archive": {
       "file_count": 50,
@@ -200,8 +200,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 5982,
-        "context_words": 6214,
-        "word_delta": 232,
+        "context_words": 6103,
+        "word_delta": 121,
         "semantic_path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
         "context_path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd"
       },
@@ -210,8 +210,8 @@
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 7391,
-        "word_delta": 7391,
+        "context_words": 7247,
+        "word_delta": 7247,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/Collective Relational Substrate.ormd"
       },
@@ -220,8 +220,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 1301,
-        "context_words": 1826,
-        "word_delta": 525,
+        "context_words": 1817,
+        "word_delta": 516,
         "semantic_path": "E2Core/Semantic Substrate/Communication as Coherence.md",
         "context_path": "E2Core/Context Layer/Communication as Coherence.ormd"
       },
@@ -359,9 +359,9 @@
         "stem": "Emergence Engine overview",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 2848,
+        "semantic_words": 2846,
         "context_words": 2850,
-        "word_delta": 2,
+        "word_delta": 4,
         "semantic_path": "E2Core/Semantic Substrate/Emergence Engine overview.md",
         "context_path": "E2Core/Context Layer/Emergence Engine overview.ormd"
       },
@@ -500,8 +500,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 2597,
-        "context_words": 2672,
-        "word_delta": 75,
+        "context_words": 2656,
+        "word_delta": 59,
         "semantic_path": "E2Core/Semantic Substrate/Justice Across Scales.md",
         "context_path": "E2Core/Context Layer/Justice Across Scales.ormd"
       },
@@ -530,8 +530,8 @@
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 2133,
-        "word_delta": 2133,
+        "context_words": 2080,
+        "word_delta": 2080,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/MRIE - Unified Synthesis.ormd"
       },
@@ -640,8 +640,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 6243,
-        "context_words": 6372,
-        "word_delta": 129,
+        "context_words": 6367,
+        "word_delta": 124,
         "semantic_path": "E2Core/Semantic Substrate/Power as Relational Field Coherence.md",
         "context_path": "E2Core/Context Layer/Power as Relational Field Coherence.ormd"
       },
@@ -660,8 +660,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 1108,
-        "context_words": 1252,
-        "word_delta": 144,
+        "context_words": 1236,
+        "word_delta": 128,
         "semantic_path": "E2Core/Semantic Substrate/REMF.md",
         "context_path": "E2Core/Context Layer/REMF.ormd"
       },
@@ -709,9 +709,9 @@
         "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
         "has_semantic_substrate": true,
         "has_context_layer": false,
-        "semantic_words": 12278,
+        "semantic_words": 12050,
         "context_words": 0,
-        "word_delta": -12278,
+        "word_delta": -12050,
         "semantic_path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
         "context_path": null
       },
@@ -1039,9 +1039,9 @@
         "stem": "Universal Emergence Pattern",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1975,
+        "semantic_words": 1958,
         "context_words": 411,
-        "word_delta": -1564,
+        "word_delta": -1547,
         "semantic_path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
         "context_path": "E2Core/Context Layer/Universal Emergence Pattern.ormd"
       },
@@ -1127,9 +1127,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
-      "word_count": 12278,
-      "size_bytes": 85942,
-      "modified": "2026-06-12T19:40:40.090159+00:00"
+      "word_count": 12050,
+      "size_bytes": 84681,
+      "modified": "2026-08-11T20:54:30.908636+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
@@ -1171,9 +1171,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 7391,
-      "size_bytes": 69922,
-      "modified": "2026-06-12T18:11:44.766413+00:00"
+      "word_count": 7247,
+      "size_bytes": 69492,
+      "modified": "2026-08-11T20:54:30.222512+00:00"
     },
     {
       "path": "archive/20260612_step_1_2_merges/Context Layer/CRS.ormd",
@@ -1248,9 +1248,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 6372,
-      "size_bytes": 70944,
-      "modified": "2026-06-12T19:38:46.415267+00:00"
+      "word_count": 6367,
+      "size_bytes": 70929,
+      "modified": "2026-08-11T20:54:30.477220+00:00"
     },
     {
       "path": "archive/20260612_step_1_2_merges/Context Layer/Power as Relational Field Coherence.ormd",
@@ -1292,9 +1292,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 6214,
-      "size_bytes": 54308,
-      "modified": "2026-06-12T18:11:44.766413+00:00"
+      "word_count": 6103,
+      "size_bytes": 53813,
+      "modified": "2026-08-11T20:54:30.188182+00:00"
     },
     {
       "path": "archive/20260612_step_1_2_merges/Context Layer/CCS.ormd",
@@ -2064,9 +2064,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 6214,
-      "size_bytes": 54308,
-      "modified": "2026-06-12T18:11:44.766413+00:00"
+      "word_count": 6103,
+      "size_bytes": 53813,
+      "modified": "2026-08-11T20:54:30.188182+00:00"
     },
     {
       "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -2075,9 +2075,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 7391,
-      "size_bytes": 69922,
-      "modified": "2026-06-12T18:11:44.766413+00:00"
+      "word_count": 7247,
+      "size_bytes": 69492,
+      "modified": "2026-08-11T20:54:30.222512+00:00"
     },
     {
       "path": "E2Core/Context Layer/Communication as Coherence.ormd",
@@ -2086,9 +2086,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 1826,
-      "size_bytes": 17579,
-      "modified": "2026-06-12T18:11:44.770439+00:00"
+      "word_count": 1817,
+      "size_bytes": 17460,
+      "modified": "2026-08-11T20:54:30.233550+00:00"
     },
     {
       "path": "E2Core/Context Layer/Complex Causality - Core Source.ormd",
@@ -2241,8 +2241,8 @@
       "layer": "E2Core/Context Layer",
       "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
       "word_count": 2850,
-      "size_bytes": 25524,
-      "modified": "2026-03-02T12:22:58.732530+00:00"
+      "size_bytes": 25518,
+      "modified": "2026-08-11T20:54:30.319051+00:00"
     },
     {
       "path": "E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd",
@@ -2416,9 +2416,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 2672,
-      "size_bytes": 21466,
-      "modified": "2026-06-12T19:32:14.426079+00:00"
+      "word_count": 2656,
+      "size_bytes": 21231,
+      "modified": "2026-08-11T20:54:30.405071+00:00"
     },
     {
       "path": "E2Core/Context Layer/Lawfulness - Core Source.ormd",
@@ -2471,9 +2471,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 2133,
-      "size_bytes": 19181,
-      "modified": "2026-06-12T18:11:44.770439+00:00"
+      "word_count": 2080,
+      "size_bytes": 18784,
+      "modified": "2026-08-11T20:54:30.425034+00:00"
     },
     {
       "path": "E2Core/Context Layer/Ontological Systems Interface (OSI) Model.ormd",
@@ -2526,9 +2526,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 6372,
-      "size_bytes": 70944,
-      "modified": "2026-06-12T19:38:46.415267+00:00"
+      "word_count": 6367,
+      "size_bytes": 70929,
+      "modified": "2026-08-11T20:54:30.477220+00:00"
     },
     {
       "path": "E2Core/Context Layer/Proxy Localization - Core Source.ormd",
@@ -2669,9 +2669,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 1252,
-      "size_bytes": 14051,
-      "modified": "2026-06-12T18:11:44.770439+00:00"
+      "word_count": 1236,
+      "size_bytes": 13969,
+      "modified": "2026-08-11T20:54:30.513334+00:00"
     },
     {
       "path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd",
@@ -3274,9 +3274,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
-      "word_count": 2848,
-      "size_bytes": 21289,
-      "modified": "2026-02-25T04:05:20.970515+00:00"
+      "word_count": 2846,
+      "size_bytes": 21259,
+      "modified": "2026-08-11T20:54:30.738290+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md",
@@ -3637,9 +3637,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
-      "word_count": 12278,
-      "size_bytes": 85942,
-      "modified": "2026-06-12T19:40:40.090159+00:00"
+      "word_count": 12050,
+      "size_bytes": 84681,
+      "modified": "2026-08-11T20:54:30.908636+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
@@ -4022,9 +4022,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Universal Emergence Pattern",
-      "word_count": 1975,
-      "size_bytes": 18811,
-      "modified": "2026-06-12T19:40:40.166183+00:00"
+      "word_count": 1958,
+      "size_bytes": 18681,
+      "modified": "2026-08-11T20:54:31.064287+00:00"
     },
     {
       "path": "Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
@@ -4188,8 +4188,8 @@
       "layer": "Synthesized Core",
       "title": "'Emergence Engine: Architectural Synthesis & System Summary'",
       "word_count": 1114,
-      "size_bytes": 13488,
-      "modified": "2026-03-03T01:43:44.748924+00:00"
+      "size_bytes": 13482,
+      "modified": "2026-08-11T20:57:12.772156+00:00"
     },
     {
       "path": "Synthesized Core/Ethical Principles for Human-AI Interaction_summary.ormd",
