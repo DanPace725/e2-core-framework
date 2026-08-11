@@ -8,7 +8,7 @@ import type { GraphData } from "./CorpusGraph";
 
 const CorpusGraph = lazy(() => import("./CorpusGraph").then((module) => ({ default: module.CorpusGraph })));
 
-marked.use(markedKatex({ throwOnError: false, strict: false }));
+marked.use(markedKatex({ throwOnError: false, strict: false, nonStandard: true }));
 
 type CoreDoc = {
   slug: string;
@@ -42,7 +42,7 @@ type Catalog = {
 
 function sanitizeMarkdown(markdown: string) {
   const displayMarkdown = markdown.replace(
-    /^(#{1,6})\s+(.+?)\s*\{#([A-Za-z0-9_-]+)\}\s*$/gm,
+    /^(#{1,6})\s+(.+?)\s*\{#([A-Za-z0-9_-]+)\}[ \t]*$/gm,
     (_whole, marks: string, heading: string, id: string) => {
       const content = marked.parseInline(heading, { async: false }) as string;
       return `<h${marks.length} id="${id}">${content}</h${marks.length}>`;
