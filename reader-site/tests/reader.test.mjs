@@ -52,11 +52,12 @@ test("publishes complete paired human and AI catalogs", async () => {
 });
 
 test("publishes a typed E2 relationship graph", async () => {
-  const [graph, docsGraph, relationSource, pagesConfig] = await Promise.all([
+  const [graph, docsGraph, relationSource, pagesConfig, graphComponent] = await Promise.all([
     readFile(new URL("../public/graph.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../../docs/graph.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../graph-relations.yml", import.meta.url), "utf8").then(YAML.parse),
     readFile(new URL("../../.pages.yml", import.meta.url), "utf8").then(YAML.parse),
+    readFile(new URL("../app/CorpusGraph.tsx", import.meta.url), "utf8"),
   ]);
   const nodeIds = new Set(graph.nodes.map((node) => node.id));
   assert.equal(graph.schemaVersion, 1);
@@ -75,6 +76,8 @@ test("publishes a typed E2 relationship graph", async () => {
   assert.equal(relationSource.schema_version, 1);
   assert.ok(relationSource.relations.length >= 40);
   assert.ok(pagesConfig.content.some((item) => item.name === "navigation"));
+  assert.match(graphComponent, /addEventListener\("wheel", handleWheel, \{ passive: false \}\)/);
+  assert.doesNotMatch(graphComponent, /onWheel=/);
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type GraphNode = {
   id: string;
@@ -184,6 +184,18 @@ export function CorpusGraph({
   const [activeClusters, setActiveClusters] = useState(() => new Set(graph.clusters.map((cluster) => cluster.id)));
   const [viewBox, setViewBox] = useState<ViewBox>(FULL_VIEW);
   const [dragStart, setDragStart] = useState<{ x: number; y: number; view: ViewBox } | null>(null);
+  const canvasRef = useRef<SVGSVGElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const handleWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      setViewBox((view) => zoomView(view, event.deltaY < 0 ? 0.88 : 1.14));
+    };
+    canvas.addEventListener("wheel", handleWheel, { passive: false });
+    return () => canvas.removeEventListener("wheel", handleWheel);
+  }, []);
 
   const { positions, centers } = useMemo(() => buildLayout(graph), [graph]);
   const nodeMap = useMemo(() => new Map(graph.nodes.map((node) => [node.id, node])), [graph.nodes]);
@@ -327,14 +339,11 @@ export function CorpusGraph({
             <button type="button" onClick={() => setViewBox(FULL_VIEW)}>Fit</button>
           </div>
           <svg
+            ref={canvasRef}
             className="graph-canvas"
             viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`}
             role="img"
             aria-label={`Interactive E squared corpus graph showing ${visibleNodeIds.size} documents and ${visibleEdges.length} relationships`}
-            onWheel={(event) => {
-              event.preventDefault();
-              setViewBox((view) => zoomView(view, event.deltaY < 0 ? 0.88 : 1.14));
-            }}
             onPointerDown={(event) => {
               if (event.target !== event.currentTarget) return;
               event.currentTarget.setPointerCapture(event.pointerId);
