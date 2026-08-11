@@ -1,12 +1,12 @@
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-08-10 | 89 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-08-11 | 90 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 89 active documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 90 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -42,7 +42,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 | ID | Cluster | Docs | Conf Range | Entry Point |
 |----|---------|------|------------|-------------|
-| [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 6 | 0.92–1.0 | Relational Primitives |
+| [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 7 | 0.90–1.0 | Relational Primitives |
 | [B](#cluster-b "meta:corresponds_to") | Formal, Mathematical & Epistemic Constraints | 9 | 0.84–0.98 | CT Translation of RPs |
 | [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 15 | 0.84–0.95 | REMF |
 | [D](#cluster-d "dynamical:interacts_with") | Metabolic, Resonance & Temporal Physics | 8 | 0.84–0.96 | Metabolic Meaning Phase Space |
@@ -58,9 +58,9 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Scope:** The irreducible bedrock of E². Establishes what relationships *are*, how they compose, and what constraints govern all relational systems. Every other cluster presupposes this one.
 
-**Trigger keywords:** `relational ontology`, `axioms`, `relational primitives`, `P1–P6`, `global closure operator`, `GCO`, `E² equation`, `SCIA`, `RPLang`, `first principles`, `essence of existence`, `recursive composition`
+**Trigger keywords:** `relational ontology`, `axioms`, `relational primitives`, `P1–P6`, `global closure operator`, `GCO`, `E² equation`, `SCIA`, `RPLang`, `first principles`, `essence of existence`, `recursive composition`, `translation architecture`, `human remembrance`, `faithful abstraction`, `hollowing`
 
-**Entry point:** [Relational Primitives](#cluster-a "ontological:defines") → [E^2 Equation](#cluster-a "dynamical:transforms_to") → [Global Closure Operator](#cluster-a "symmetric:constrains")
+**Entry point:** [Relational Primitives](/?doc=relational-primitives "ontological:defines") → [E^2 Equation](/?doc=e2-equation "dynamical:transforms_to") → [Global Closure Operator](/?doc=global-closure-operator "symmetric:constrains")
 
 **Cross-cluster links:** All clusters draw from A. Direct feeds to [B](#cluster-b "ontological:defines") (formal translations verify A's claims), [C](#cluster-c "dynamical:produces") (primitives generate dynamics), [E](#cluster-e "symmetric:constrains") (rights grounded in primitives), [I](#cluster-i "meta:corresponds_to") (protocol encodes A).
 
@@ -71,6 +71,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | E^2 Equation ★ | `E^2 Equation.ormd` | ontology.relational-physics | 0.98 | Recursive composition formula: E²=Γ(Σ(⊕(◇(⊗_t(P))))) |
 | E^2 Axioms | `E^2 Axioms.ormd` | philosophy.relational-ontology.axioms | 0.92 | Canonical ten axioms; extracted from Initial Axioms and Entry Point |
 | E^2 Entry Point | `E^2 Entry Point.ormd` | ontology.relational.e2 | 0.92 | Clean reader-facing orientation; integrates primer compression and routes formal detail to canon |
+| E² as a Translation Architecture for Human Remembrance | `E² as a Translation Architecture for Human Remembrance.ormd` | philosophy.orientation.translation-remembrance | 0.90 | Human-purpose orientation; faithful abstraction, anti-hollowing posture, and explicit scope limits |
 | Original E^2 Work ★ | `Original E^2 work.ormd` | research.index | 1.0 | Expanded lineage anchors registry; archived link-hub parent preserved |
 
 ---
@@ -81,7 +82,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `category theory`, `lambda calculus`, `fixed point`, `functor`, `morphism`, `Church numerals`, `TQFT`, `stress-energy tensor`, `dark matter`, `MPDC`, `EUP`, `FISSR`, `embedded universality`, `observational profile`, `ρ_crit`, `computability`, `decidability`, `RCP`, `predictive lawfulness`, `predictive license`, `observer indexing`, `Rayleigh limit`, `hysteresis`, `field theory`, `RFD`
 
-**Entry point:** [CT Translation of RPs](#cluster-b "meta:corresponds_to") → [RP Lambda Calc Translation](#cluster-b "meta:corresponds_to") → [Meta-Pattern Decidability Conjecture](#cluster-b "epistemic:supports") → [Embedded Universality Principle](#cluster-b "epistemic:constrains")
+**Entry point:** [CT Translation of RPs](/?doc=ct-translation-of-rps "meta:corresponds_to") → [RP Lambda Calc Translation](/?doc=rp-lambda-calc-translation "meta:corresponds_to") → [Meta-Pattern Decidability Conjecture](/?doc=meta-pattern-decidability-conjecture-mpdc "epistemic:supports") → [Embedded Universality Principle](/?doc=embedded-universality-principle-eup "epistemic:constrains")
 
 **Cross-cluster links:** Provides formal support for [A](#cluster-a "epistemic:supports"), scaffolds [C](#cluster-c "meta:corresponds_to") (emergence dynamics), constrains [F](#cluster-f "symmetric:constrains") (MPDC sets hard adversarial limits).
 
@@ -105,7 +106,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `emergence`, `boundary dynamics`, `flow operators`, `resolution`, `persistence`, `stance-with`, `CFA dynamics`, `CFAR`, `AVIA`, `REMA`, `REMF`, `constraint-fluctuation`, `Rayleigh criterion`, `phase transitions`, `adaptation`, `entropy reduction`, `tensional intelligence`, `foreclosure`, `complex systems`, `ecology simulation`, `mitosis`, `chi`
 
-**Entry point:** [REMF](#cluster-c "ontological:defines") → [Universal Emergence Pattern](#cluster-c "dynamical:produces") → [CFA](#cluster-c "dynamical:interacts_with") → [CFAR](#cluster-c "dynamical:interacts_with")
+**Entry point:** [REMF](/?doc=remf "ontological:defines") → [Universal Emergence Pattern](/?doc=universal-emergence-pattern "dynamical:produces") → [CFA](/?doc=cfa "dynamical:interacts_with") → [CFAR](/?doc=cfar "dynamical:interacts_with")
 
 **Cross-cluster links:** Extends [A](#cluster-a "dynamical:derives_from") (primitives become dynamics), supports [D](#cluster-d "dynamical:interacts_with") (metabolic/resonance physics), generates claims tested by [B](#cluster-b "epistemic:supports"), applied in [G](#cluster-g "dynamical:produces") (consciousness) and [H](#cluster-h "dynamical:produces") (civilization).
 
@@ -135,7 +136,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `metabolic meaning`, `meaning metabolism`, `MMPS`, `phase space`, `resonance`, `coherence`, `temporal constraint`, `TCL`, `slow layer`, `clock ratio`, `stationarity`, `coupling threshold`, `latency`, `chaos`, `parametric resonance`, `signal`, `bias field`, `SCIA`, `ontological interoperability`, `approach vector`, `threshold design`
 
-**Entry point:** [Metabolic Meaning Phase Space](#cluster-d "ontological:defines") → [The Resonance Framework](#cluster-d "ontological:defines") → [Signal as Bias Field](#cluster-d "dynamical:interacts_with")
+**Entry point:** [Metabolic Meaning Phase Space](/?doc=metabolic-meaning-phase-space-mmps "ontological:defines") → [The Resonance Framework](/?doc=the-resonance-framework-an-ontological-map-4-24-25 "ontological:defines") → [Signal as Bias Field](/?doc=signal-as-bias-field "dynamical:interacts_with")
 
 **Cross-cluster links:** Temporal physics constrains [E](#cluster-e "symmetric:constrains") (ethical occlusion under temporal compression), resonance architecture informs [G](#cluster-g "dynamical:interacts_with") (cognition) and [H](#cluster-h "dynamical:interacts_with") (social coherence), metabolic meaning feeds [C](#cluster-c "dynamical:interacts_with") (CFA dynamics).
 
@@ -158,7 +159,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `stewardship`, `relational bill of rights`, `ethics`, `boundary`, `localization`, `proxy`, `remnant`, `asymmetry maintenance`, `condition`, `typed terrain`, `consequence routing`, `custody`, `trust`, `trustworthiness`, `reliance`, `responsibility absorption`, `sign-mediated accountability`, `temporal compression`, `ethical occlusion`, `justice`, `accountability`, `AI ethics`, `human-AI`, `FCIL`, `MCIL`, `invisible labor`, `boundary ethics`, `complex causality`, `responsibility laundering`
 
-**Entry point:** [Reverent Stewardship](#cluster-e "ontological:defines") → [Relational Bill of Rights v2](#cluster-e "symmetric:constrains") → [Justice Across Scales](#cluster-e "dynamical:produces")
+**Entry point:** [Reverent Stewardship](/?doc=reverent-stewardship "ontological:defines") → [Relational Bill of Rights v2](/?doc=relational-bill-of-rights-v2 "symmetric:constrains") → [Justice Across Scales](/?doc=justice-across-scales "dynamical:produces")
 
 **Cross-cluster links:** Grounded in [A](#cluster-a "ontological:derives_from") (primitives and GCO), constrained by [D](#cluster-d "symmetric:constrains") (temporal compression creates ethical limits), overlaps with [F](#cluster-f "symmetric:constrains") (adversarial integrity), applied in [H](#cluster-h "dynamical:produces") (social systems).
 
@@ -195,7 +196,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `adversarial occlusion`, `mechanism integrity`, `AOMI`, `Goodhart's Law`, `cognitive signature`, `MRIE`, `identity capture`, `reconstruction potential`, `P6 closure`, `occlusion zones`, `soft singularity`, `truth ceiling`, `relational irreducibility`, `exposure protocol`, `morphism`, `coherence transmission`, `anti-fragile`
 
-**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](#cluster-f "ontological:defines") → [AOMI AI Responses](#cluster-f "epistemic:supports") → [Cognitive Signature Capture](#cluster-f "epistemic:measures") → [MRIE](#cluster-f "ontological:composes")
+**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](/?doc=adversarial-occlusion-and-mechanism-integrity-v1 "ontological:defines") → [AOMI AI Responses](/?doc=aomi-ai-responses "epistemic:supports") → [Cognitive Signature Capture](/?doc=cognitive-signature-capture-an-unnamed-threat "epistemic:measures") → [MRIE](/?doc=mrie-unified-synthesis "ontological:composes")
 
 **Cross-cluster links:** Constrains [E](#cluster-e "symmetric:constrains") (ethical systems must be adversarially robust), constrained by [B](#cluster-b "symmetric:constrains") (MPDC sets theoretical limits on detection), informs [G](#cluster-g "epistemic:measures") (cognitive integrity ≡ identity integrity), informs [I](#cluster-i "meta:corresponds_to") (protocol must encode adversarial protections).
 
@@ -217,7 +218,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
 
-**Entry point:** [Relational Emergence Meta-Architecture (REMA)](#cluster-g "ontological:defines") → [Collective Cognitive Substrate](#cluster-g "epistemic:measures") → [Relational Volition](#cluster-g "dynamical:interacts_with")
+**Entry point:** [Relational Emergence Meta-Architecture (REMA)](/?doc=relational-emergence-meta-architecture-rema "ontological:defines") → [Collective Cognitive Substrate](/?doc=collective-cognitive-substrate "epistemic:measures") → [Relational Volition](/?doc=relational-volition "dynamical:interacts_with")
 
 **Cross-cluster links:** Emerges from [C](#cluster-c "meta:emerges_from") (CFA dynamics produce consciousness structure), constrained by [F](#cluster-f "symmetric:constrains") (cognitive integrity), grounded in [A](#cluster-a "ontological:derives_from") (relational primitives), applied in [H](#cluster-h "dynamical:produces") (collective cognition → civilizational substrate).
 
@@ -238,7 +239,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `civilization`, `social contract`, `care economy`, `interdependence`, `collective relational substrate`, `CRS`, `power`, `field coherence`, `superposition`, `family systems`, `caregiving`, `NexEs`, `relational perfection`, `cyclical integrity`, `manifesto`, `economics`, `RVP`, `VME`, `communication`, `coherence`, `neurodiversity`, `complexity alignment`
 
-**Entry point:** [Declaration of Interdependence](#cluster-h "ontological:defines") → [The Collective Relational Substrate](#cluster-h "ontological:composes") → [Power as Relational Field Coherence](#cluster-h "dynamical:interacts_with")
+**Entry point:** [Declaration of Interdependence](/?doc=declaration-of-interdependence "ontological:defines") → [The Collective Relational Substrate](/?doc=collective-relational-substrate "ontological:composes") → [Power as Relational Field Coherence](/?doc=power-as-relational-field-coherence "dynamical:interacts_with")
 
 **Cross-cluster links:** Grounded in [A](#cluster-a "ontological:derives_from"), shaped by [E](#cluster-e "symmetric:constrains") (ethics), informed by [G](#cluster-g "dynamical:produces") (cognition), constrained by [F](#cluster-f "symmetric:constrains") (adversarial integrity in social systems).
 
@@ -265,7 +266,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `CLP`, `context layer protocol`, `provenance`, `ContextBundle`, `policy-governance`, `resolution limits`, `ORMD`, `implementations`, `custom GPTs`, `project atlas`, `RPE`, `simulation`, `determinism`, `RPLang`, `version`
 
-**Entry point:** [Context Layer Protocol (CLP)](#cluster-i "ontological:defines") → [Implementations](#cluster-i "meta:corresponds_to") → [Relational Primitive Engine (RPE)](#cluster-i "dynamical:produces")
+**Entry point:** [Context Layer Protocol (CLP)](/?doc=context-layer-protocol-clp "ontological:defines") → [Implementations](/?doc=implementations "meta:corresponds_to") → [Relational Primitive Engine (RPE)](/?doc=relational-primitive-engine-rpe "dynamical:produces")
 
 **Cross-cluster links:** CLP governs all clusters (it is the data model for the entire context layer). RPE operationalizes [A](#cluster-a "meta:corresponds_to") (runs primitive dynamics). Implementations maps to [H](#cluster-h "meta:corresponds_to") (applied contexts). The OSI Model is indexed in [G](#cluster-g "epistemic:measures") and bridges cognition to infrastructure.
 

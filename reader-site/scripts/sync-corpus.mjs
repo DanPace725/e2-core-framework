@@ -141,7 +141,7 @@ function decodeHref(value) {
 }
 
 function normalizedCorpusName(value) {
-  const decoded = decodeHref(value).replace(/\\/g, "/");
+  const decoded = decodeHref(value).replace(/&/g, " and ").replace(/\\/g, "/");
   const name = decoded.split("/").pop() ?? decoded;
   const stem = name
     .replace(/\.(?:md|ormd)$/i, "")
@@ -158,9 +158,45 @@ function registerCorpusName(name, slug) {
 
 for (const item of items) {
   for (const source of item.record.semantic_substrate ?? []) registerCorpusName(source.name, item.slug);
+  registerCorpusName(item.record.key, item.slug);
   registerCorpusName(item.context.name, item.slug);
+  registerCorpusName(item.context.title, item.slug);
+  registerCorpusName(item.slug, item.slug);
 }
 registerCorpusName("context layer index.md", "context-layer-master-index");
+
+function resolveCorpusLabel(label) {
+  const normalized = normalizedCorpusName(label);
+  if (!normalized || normalized.length < 3) return null;
+
+  const direct = normalizedCorpusNameToSlug.get(normalized);
+  if (direct) return direct;
+
+  const withoutArticle = normalized.replace(/^the-/, "");
+  const matches = new Set();
+  for (const [candidate, slug] of normalizedCorpusNameToSlug) {
+    if (!slug) continue;
+    const candidateWithoutArticle = candidate.replace(/^the-/, "");
+    if (
+      candidateWithoutArticle === withoutArticle
+      || candidateWithoutArticle.startsWith(`${withoutArticle}-`)
+      || withoutArticle.startsWith(`${candidateWithoutArticle}-`)
+    ) {
+      matches.add(slug);
+    }
+  }
+  return matches.size === 1 ? [...matches][0] : null;
+}
+
+function rewriteIndexDocumentLinks(markdown) {
+  return markdown.replace(
+    /\[([^\]]+)\]\((#cluster-[a-i])(\s+(?:"[^"]*"|'[^']*'|\([^)]*\)))?\)/gi,
+    (whole, label, _cluster, title = "") => {
+      const target = resolveCorpusLabel(label);
+      return target ? `[${label}](/?doc=${target}${title})` : whole;
+    },
+  );
+}
 
 function rewriteHumanLinks(markdown) {
   let cursor = 0;
@@ -315,7 +351,9 @@ for (const item of items) {
   }
 
   const title = frontmatter.title || item.context.title || item.record.key;
-  humanText = rewriteHumanLinks(stripHumanEnvelope(humanText)).replace(/\r\n/g, "\n");
+  humanText = stripHumanEnvelope(humanText);
+  if (item.slug === "context-layer-master-index") humanText = rewriteIndexDocumentLinks(humanText);
+  humanText = rewriteHumanLinks(humanText).replace(/\r\n/g, "\n");
   humanTextBySlug.set(item.slug, humanText);
   await writeFile(path.join(publicRoot, "ormd", `${item.slug}.ormd`), ormdBytes);
   await writeFile(path.join(publicRoot, "human", `${item.slug}.md`), humanText, "utf8");

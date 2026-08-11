@@ -31,10 +31,11 @@ E^2 uses several recurring commitments:
 For a first pass:
 
 1. Read this entry point.
-2. Read `E^2 Axioms.ormd` for the ten core axioms.
-3. Read `Relational Primitives.ormd` for the six relation categories.
-4. Read `Global Closure Operator.ormd` for stability and closure.
-5. Read `E^2 Equation.ormd` for the compact recursive formula.
+2. Read `E² as a Translation Architecture for Human Remembrance.ormd` for the framework's human purpose, anti-hollowing posture, and scope limits.
+3. Read `E^2 Axioms.ormd` for the ten core axioms.
+4. Read `Relational Primitives.ormd` for the six relation categories.
+5. Read `Global Closure Operator.ormd` for stability and closure.
+6. Read `E^2 Equation.ormd` for the compact recursive formula.
 
 For applied work, follow the cluster index rather than treating this entry point as a substitute for the source documents.
 
@@ -59,6 +60,7 @@ This entry point does not attempt to specify ECN. It only preserves the orientat
 
 ## Canonical Pointers {#canonical-pointers}
 
+- `E² as a Translation Architecture for Human Remembrance.ormd`: human-purpose orientation and translation-fidelity posture.
 - `E^2 Axioms.ormd`: foundational axioms and corollaries.
 - `Relational Primitives.ormd`: six primitive relation categories and formal/categorical mappings.
 - `E^2 Equation.ormd`: recursive composition formula.

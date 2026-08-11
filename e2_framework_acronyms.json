@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-10T20:23:15.247353+00:00",
+  "generated_at": "2026-08-11T20:06:06.339471+00:00",
   "scope": ".",
   "dictionary": "legacy://phase1/Acronym Dictionary.md",
   "seed_count": 97,
   "present_count": 72,
-  "files_scanned": 249,
+  "files_scanned": 252,
   "acronyms": {
     "AFD": {
       "acronym": "AFD",
@@ -14,14 +14,14 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 51,
+      "total_occurrences": 49,
       "source_file_count": 16,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 7
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/AFD - First Principles.ormd",
@@ -39,7 +39,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 7
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Relational Derivation Chain .ormd",
@@ -115,7 +115,7 @@
         }
       ],
       "layers": {
-        "E2Core": 38,
+        "E2Core": 36,
         "Synthesized Core": 13
       }
     },
@@ -2880,14 +2880,14 @@
       "dictionary_notes": [
         "`Meta-Pattern Decidability Conjecture (MPDC)`; `The Essence of Existence`"
       ],
-      "total_occurrences": 248,
+      "total_occurrences": 246,
       "source_file_count": 55,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 15
+          "occurrences": 14
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -2905,7 +2905,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 15
+          "occurrences": 14
         },
         {
           "path": "E2Core/Context Layer/Embedded Universality Principle (EUP).ormd",
@@ -3215,7 +3215,7 @@
         }
       ],
       "layers": {
-        "E2Core": 221,
+        "E2Core": 219,
         "Synthesized Core": 27
       }
     },
@@ -3435,20 +3435,20 @@
       "dictionary_notes": [
         "`Organization plan`; `Ormd Readme`; `Ormd`"
       ],
-      "total_occurrences": 24,
+      "total_occurrences": 26,
       "source_file_count": 12,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 2
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 2
         },
         {
           "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
@@ -3512,7 +3512,7 @@
         }
       ],
       "layers": {
-        "E2Core": 9,
+        "E2Core": 11,
         "Synthesized Core": 15
       }
     },
@@ -3524,14 +3524,14 @@
       "dictionary_notes": [
         "`Ontological Systems Interface (OSI) Model`"
       ],
-      "total_occurrences": 70,
+      "total_occurrences": 66,
       "source_file_count": 23,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 12
+          "occurrences": 10
         },
         {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -3543,7 +3543,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 12
+          "occurrences": 10
         },
         {
           "path": "E2Core/Context Layer/Ethical Principles for Human-AI Interaction.ormd",
@@ -3667,7 +3667,7 @@
         }
       ],
       "layers": {
-        "E2Core": 57,
+        "E2Core": 53,
         "Synthesized Core": 13
       }
     },
@@ -4017,20 +4017,20 @@
       "dictionary_notes": [
         "`E2 -> RCP -> MPDC -> AFD ->`; `The Essence of Existence`"
       ],
-      "total_occurrences": 32,
+      "total_occurrences": 30,
       "source_file_count": 12,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 4
+          "occurrences": 3
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 4
+          "occurrences": 3
         },
         {
           "path": "E2Core/Context Layer/From Essential Relationships to Ontological Transformation.ormd",
@@ -4094,7 +4094,7 @@
         }
       ],
       "layers": {
-        "E2Core": 27,
+        "E2Core": 25,
         "Synthesized Core": 5
       }
     },

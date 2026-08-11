@@ -137,4 +137,4 @@ It is the beginning of reverence.
 > When you judge your work against what it could have been, you deny the miracle of what it is—the perfect expression of a specific moment in time, never to be repeated.
 > 
 
-[Relational Perfection: A Manifesto](Relational%20Perfection%20A%20Framework%20for%20Emergent%20Int/Relational%20Perfection%20A%20Manifesto%201ea11588332080778d98f25dc6211bd0.md)
+[Relational Perfection: A Manifesto](/?doc=relational-perfection-a-manifesto)

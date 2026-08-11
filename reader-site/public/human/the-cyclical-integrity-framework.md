@@ -135,7 +135,7 @@ Let this principle seed itself in the framework of E², and wherever emergence i
 
 [Follow up Principles](The%20Cyclical%20Integrity%20framework/Follow%20up%20Principles%201ea115883320802e9b70c87c53a5220d.md)
 
-[Relational Perfection: A Framework for Emergent Integrity](The%20Cyclical%20Integrity%20framework/Relational%20Perfection%20A%20Framework%20for%20Emergent%20Int%201ea115883320807e9ee6fa9e4ca42eec.md)
+[Relational Perfection: A Framework for Emergent Integrity](/?doc=relational-perfection-framework)
 
 The Unstable Ecosystem
 

@@ -1,21 +1,21 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-08-11T03:57:56.895178+00:00",
+  "generated_at": "2026-08-11T20:05:33.163463+00:00",
   "root": "legacy://phase1",
   "output_root": ".",
   "active_core_root": "E2Core",
   "authority": "active_filesystem_state_with_preserved_synthesis_provenance",
   "registry": "core_registry.json",
   "synthesized_core_count": 61,
-  "explicit_core_addition_count": 24,
-  "active_semantic_substrate_count": 96,
-  "active_context_layer_count": 89,
-  "active_raw_file_count": 185,
-  "active_file_count": 246,
+  "explicit_core_addition_count": 25,
+  "active_semantic_substrate_count": 97,
+  "active_context_layer_count": 90,
+  "active_raw_file_count": 187,
+  "active_file_count": 248,
   "archived_raw_file_count": 50,
-  "copied_file_count": 246,
-  "copied_raw_file_count": 185,
-  "registered_active_raw_file_count": 184,
+  "copied_file_count": 248,
+  "copied_raw_file_count": 187,
+  "registered_active_raw_file_count": 186,
   "meta_file_count": 1,
   "meta_files": [
     "Context Layer/Context Layer Index.ormd"
@@ -1620,6 +1620,16 @@
       ],
       "archived_raw_copies": [],
       "status": "included_unindexed_addition"
+    },
+    {
+      "stem": "E² as a Translation Architecture for Human Remembrance",
+      "source_record_id": "phase1:e-as-a-translation-architecture-for-human-remembrance:7b51ff892fd3",
+      "raw_copies": [
+        "Context Layer/E² as a Translation Architecture for Human Remembrance.ormd",
+        "Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included_orientation"
     },
     {
       "stem": "sign_mediated_accountability",

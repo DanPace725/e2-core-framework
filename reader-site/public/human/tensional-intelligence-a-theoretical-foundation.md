@@ -109,8 +109,8 @@ In a world that often seeks comfort through oversimplification, Tensional Intell
 
 What began as an observation about patience and stubbornness has revealed itself as nothing less than a fundamental principle of existence - the creative tension through which all becoming unfolds.
 
-[Tension](Tensional%20Intelligence%20A%20Theoretical%20Foundation/Tension%201e4115883320800fa117e9461a23fd41.md)
+[Tension](/?doc=tension)
 
 [TI Guide ](Tensional%20Intelligence%20A%20Theoretical%20Foundation/TI%20Guide%201e5115883320805381c8fe93507772be.md)
 
-[The "Intelligence Field" Framework](Tensional%20Intelligence%20A%20Theoretical%20Foundation/The%20Intelligence%20Field%20Framework%201e311588332080a688c2efcaa5785fd8.md)
+[The "Intelligence Field" Framework](/?doc=the-intelligence-field-framework)

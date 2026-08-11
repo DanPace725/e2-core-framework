@@ -29,6 +29,7 @@ Entry point: Relational Primitives → E^2 Equation → Global Closure Operator
 - [E^2 Axioms](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/e2-axioms.ormd) — frame: philosophy.relational-ontology.axioms; confidence: 0.92
 - [E^2 Entry Point](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/e2-entry-point.ormd) — frame: ontology.relational.e2; confidence: 0.92
 - [E^2 Equation: Recursive Composition and the Global Closure Operator](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/e2-equation.ormd) — frame: ontology.relational-physics; confidence: 0.98
+- [E² as a Translation Architecture for Human Remembrance](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/e2-as-a-translation-architecture-for-human-remembrance.ormd) — frame: philosophy.orientation.translation-remembrance; confidence: 0.9
 - [Global Closure Operator](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/global-closure-operator.ormd) — frame: theoretical.ontology.relational; confidence: 0.95
 - [Original E^2 Work](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/original-e2-work.ormd) — frame: research.index; confidence: 1
 - [Relational Primitives](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-primitives.ormd) — frame: formal.ontology.relational; confidence: 0.96

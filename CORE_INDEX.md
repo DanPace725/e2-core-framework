@@ -1,6 +1,6 @@
 # Core Framework Index
 
-Generated: `2026-08-11T03:57:56.895178+00:00`
+Generated: `2026-08-11T20:05:33.163463+00:00`
 
 Active Core root: `E2Core`
 
@@ -11,11 +11,11 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Metric | Count |
 | --- | --- |
 | Synthesized Core files | 61 |
-| Semantic Substrate files | 96 |
-| Context Layer files | 89 |
-| Active raw SS/CL files | 185 |
-| Active files total | 246 |
-| Explicit additions | 24 |
+| Semantic Substrate files | 97 |
+| Context Layer files | 90 |
+| Active raw SS/CL files | 187 |
+| Active files total | 248 |
+| Explicit additions | 25 |
 | Archived raw files | 50 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
@@ -25,7 +25,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Exact-stem pairs | 83 |
+| Exact-stem pairs | 84 |
 | Composite or alias pairs | 5 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
@@ -123,6 +123,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Custody - Core Source | included_provisional_machinery | Context Layer/Custody - Core Source.ormd<br>Semantic Substrate/Custody - Core Source.md | - |
 | Trust, Trustworthiness, and Reliance - Core Source | included | Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd<br>Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md | - |
 | Embedded Universality Principle (EUP) | included_unindexed_addition | Context Layer/Embedded Universality Principle (EUP).ormd<br>Semantic Substrate/Embedded Universality Principle (EUP).md | - |
+| E² as a Translation Architecture for Human Remembrance | included_orientation | Context Layer/E² as a Translation Architecture for Human Remembrance.ormd<br>Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md | - |
 | sign_mediated_accountability | archived_into_sign_mediated_flow_routing | - | archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/sign_mediated_accountability.ormd<br>archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/sign_mediated_accountability.md |
 | sign_mediated_flow_routing | included | Context Layer/sign_mediated_flow_routing.ormd<br>Semantic Substrate/sign_mediated_flow_routing.md | - |
 

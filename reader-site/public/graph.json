@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T17:10:41.574Z",
+  "generatedAt": "2026-08-11T20:06:20.511Z",
   "title": "E² Core Framework relationship graph",
   "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
   "authority": {
@@ -9,9 +9,9 @@
     "relationships": "Navigation metadata only; consult the linked documents for authority"
   },
   "counts": {
-    "nodes": 89,
-    "edges": 146,
-    "explicitEdges": 76,
+    "nodes": 90,
+    "edges": 147,
+    "explicitEdges": 77,
     "suggestedEdges": 70
   },
   "clusters": [
@@ -70,7 +70,7 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6229,
+      "wordCount": 6270,
       "readerUrl": "/?doc=context-layer-master-index",
       "ormdUrl": "/ormd/context-layer-master-index.ormd"
     },
@@ -94,7 +94,7 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 623,
+      "wordCount": 657,
       "readerUrl": "/?doc=e2-entry-point",
       "ormdUrl": "/ormd/e2-entry-point.ormd"
     },
@@ -109,6 +109,18 @@
       "wordCount": 412,
       "readerUrl": "/?doc=e2-equation",
       "ormdUrl": "/ormd/e2-equation.ormd"
+    },
+    {
+      "id": "e2-as-a-translation-architecture-for-human-remembrance",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "clusterId": "A",
+      "frame": "philosophy.orientation.translation-remembrance",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2172,
+      "readerUrl": "/?doc=e2-as-a-translation-architecture-for-human-remembrance",
+      "ormdUrl": "/ormd/e2-as-a-translation-architecture-for-human-remembrance.ormd"
     },
     {
       "id": "global-closure-operator",
@@ -1167,6 +1179,15 @@
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
       "note": "The research index preserves the earlier E2 development context."
+    },
+    {
+      "id": "e2-as-a-translation-architecture-for-human-remembrance--contextualizes--e2-entry-point",
+      "source": "e2-as-a-translation-architecture-for-human-remembrance",
+      "target": "e2-entry-point",
+      "type": "contextualizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The human-remembrance orientation states the framework's translation purpose and scope."
     },
     {
       "id": "ct-translation-of-rps--translates--relational-primitives",

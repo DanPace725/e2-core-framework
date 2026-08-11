@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-08-11T03:57:56.894199+00:00`
+Generated: `2026-08-11T20:05:33.161130+00:00`
 
 Authority: `active_filesystem_state`
 
@@ -8,10 +8,10 @@ Authority: `active_filesystem_state`
 
 | Metric | Count |
 | --- | --- |
-| Semantic Substrate files | 96 |
-| Context Layer files | 89 |
-| Active raw files | 185 |
-| Exact-stem pairs | 83 |
+| Semantic Substrate files | 97 |
+| Context Layer files | 90 |
+| Active raw files | 187 |
+| Exact-stem pairs | 84 |
 | Composite or alias pairs | 5 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
@@ -57,6 +57,7 @@ Authority: `active_filesystem_state`
 | Ethical Occlusion via Temporal Compression (EOTC) | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md | E2Core/Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd | no |
 | Ethical Principles for Human-AI Interaction | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Ethical Principles for Human-AI Interaction.md | E2Core/Context Layer/Ethical Principles for Human-AI Interaction.ormd | no |
 | Exposure Protocol | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Exposure Protocol.md | E2Core/Context Layer/Exposure Protocol.ormd | no |
+| E² as a Translation Architecture for Human Remembrance | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md | E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd | yes |
 | Family as a Relational Field | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Family as a Relational Field.md | E2Core/Context Layer/Family as a Relational Field.ormd | no |
 | flow_operators_provisional | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/flow_operators_provisional.md | E2Core/Context Layer/flow_operators_provisional.ormd | no |
 | From Essential Relationships to Ontological Transformation | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/From Essential Relationships to Ontological Transformation.md | E2Core/Context Layer/From Essential Relationships to Ontological Transformation.ormd | no |

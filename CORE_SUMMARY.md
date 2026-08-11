@@ -1,6 +1,6 @@
 # Core Framework Summary
 
-Generated: `2026-08-10T20:23:10.317575+00:00`
+Generated: `2026-08-11T20:05:41.884338+00:00`
 
 Root: `.`
 
@@ -8,9 +8,9 @@ Root: `.`
 
 | Metric | Value |
 | --- | --- |
-| Counted documents | 299 |
-| Total words | 556,636 |
-| Total size bytes | 4,988,086 |
+| Counted documents | 302 |
+| Total words | 563,143 |
+| Total size bytes | 5,033,276 |
 | Counted extensions | .md, .ormd |
 
 ## Core Manifest Snapshot
@@ -19,11 +19,11 @@ Root: `.`
 | --- | --- |
 | Manifest available | yes |
 | Synthesized Core entries | 61 |
-| Explicit core additions | 24 |
-| Active Semantic Substrate files | 96 |
-| Active Context Layer files | 89 |
-| Active raw SS/CL files | 185 |
-| Active files total | 246 |
+| Explicit core additions | 25 |
+| Active Semantic Substrate files | 97 |
+| Active Context Layer files | 90 |
+| Active raw SS/CL files | 187 |
+| Active files total | 248 |
 | Archived raw files | 50 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
@@ -34,9 +34,9 @@ Root: `.`
 
 | Layer | Files | Words | Average | Median | Min | Max |
 | --- | --- | --- | --- | --- | --- | --- |
-| E2Core | 3 | 7,899 | 2,633.0 | 1,509 | 1,395 | 4,995 |
-| E2Core/Context Layer | 89 | 162,486 | 1,825.7 | 1,216 | 126 | 10,746 |
-| E2Core/Semantic Substrate | 96 | 205,523 | 2,140.9 | 1,276 | 11 | 15,731 |
+| E2Core | 4 | 9,958 | 2,489.5 | 1,752 | 1,395 | 5,059 |
+| E2Core/Context Layer | 90 | 164,742 | 1,830.5 | 1,234 | 126 | 10,746 |
+| E2Core/Semantic Substrate | 97 | 207,715 | 2,141.4 | 1,287 | 11 | 15,731 |
 | Synthesized Core | 61 | 38,926 | 638.1 | 528 | 173 | 2,193 |
 | archive | 50 | 141,802 | 2,836.0 | 1,731 | 23 | 15,712 |
 
@@ -44,8 +44,8 @@ Root: `.`
 
 | Metric | Count |
 | --- | --- |
-| Raw stems | 102 |
-| Complete SS/CL pairs | 83 |
+| Raw stems | 103 |
+| Complete SS/CL pairs | 84 |
 | Missing Semantic Substrate | 6 |
 | Missing Context Layer | 13 |
 
@@ -103,13 +103,13 @@ Root: `.`
 | Complex Causality - Core Source | yes | yes | 1,250 | 1,325 | 75 |
 | Condition as Typed Terrain - Core Source | yes | yes | 1,499 | 1,499 | 0 |
 | Consequence Routing - Core Source | yes | yes | 1,887 | 1,887 | 0 |
-| Context Layer Index | no | yes | 0 | 4,995 | 4,995 |
+| Context Layer Index | no | yes | 0 | 5,059 | 5,059 |
 | Context Layer Protocol (CLP) | yes | yes | 1,005 | 1,113 | 108 |
 | Custody - Core Source | yes | yes | 3,392 | 3,392 | 0 |
 | Declaration of Interdependence | yes | yes | 328 | 328 | 0 |
 | Derivation deep dive | yes | yes | 5,959 | 5,932 | -27 |
 | E^2 Axioms | yes | yes | 496 | 440 | -56 |
-| E^2 Entry Point | yes | yes | 652 | 592 | -60 |
+| E^2 Entry Point | yes | yes | 687 | 627 | -60 |
 | E^2 Equation | yes | yes | 408 | 326 | -82 |
 | Embedded Universality Principle (EUP) | yes | yes | 6,848 | 6,848 | 0 |
 | Emergence Engine overview | yes | yes | 2,848 | 2,850 | 2 |
@@ -118,6 +118,7 @@ Root: `.`
 | Ethical Occlusion via Temporal Compression (EOTC) | yes | yes | 780 | 714 | -66 |
 | Ethical Principles for Human-AI Interaction | yes | yes | 457 | 457 | 0 |
 | Exposure Protocol | yes | yes | 593 | 593 | 0 |
+| E² as a Translation Architecture for Human Remembrance | yes | yes | 2,154 | 2,154 | 0 |
 | Family as a Relational Field | yes | yes | 10,752 | 10,746 | -6 |
 | From Essential Relationships to Ontological Transformation | yes | yes | 1,166 | 1,166 | 0 |
 | Global Closure Operator | yes | yes | 768 | 706 | -62 |
@@ -184,7 +185,7 @@ Root: `.`
 | flow_operators_provisional | yes | yes | 2,088 | 2,088 | 0 |
 | layer_2_draft_rvp_and_vme_developments | yes | yes | 1,038 | 1,036 | -2 |
 | resolution_synthesis | yes | yes | 1,713 | 1,713 | 0 |
-| sign_mediated_flow_routing | yes | yes | 680 | 626 | -54 |
+| sign_mediated_flow_routing | yes | yes | 683 | 629 | -54 |
 
 ## Per-Document Counts
 
@@ -240,14 +241,14 @@ Root: `.`
 | archive/20260612_step_2_3_outliers/Context Layer/Implementations.ormd | archive | .ormd | 23 | 892 |
 | archive/20260612_step_2_3_outliers/Context Layer/Original E^2 work.ormd | archive | .ormd | 125 | 3,067 |
 | archive/20260612_step_2_3_outliers/Context Layer/The Essence of Existence.ormd | archive | .ormd | 15,712 | 162,890 |
-| E2Core/context layer index.md | E2Core | .md | 4,995 | 49,087 |
+| E2Core/context layer index.md | E2Core | .md | 5,059 | 49,500 |
 | E2Core/Context Layer/Adaptation via Informational Abstraction.ormd | E2Core/Context Layer | .ormd | 934 | 9,688 |
 | E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd | E2Core/Context Layer | .ormd | 2,491 | 27,650 |
 | E2Core/Context Layer/AFD - First Principles.ormd | E2Core/Context Layer | .ormd | 3,435 | 33,411 |
 | E2Core/Context Layer/AOMI AI responses.ormd | E2Core/Context Layer | .ormd | 355 | 3,648 |
 | E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd | E2Core/Context Layer | .ormd | 1,340 | 10,392 |
 | E2Core/Context Layer/Boundary Ethics - Core Source.ormd | E2Core/Context Layer | .ormd | 1,441 | 11,339 |
-| E2Core/Context Layer/boundary_dynamics.ormd | E2Core/Context Layer | .ormd | 3,461 | 28,983 |
+| E2Core/Context Layer/boundary_dynamics.ormd | E2Core/Context Layer | .ormd | 3,461 | 28,986 |
 | E2Core/Context Layer/Caregiving as an Ecosystem.ormd | E2Core/Context Layer | .ormd | 665 | 7,131 |
 | E2Core/Context Layer/CFA.ormd | E2Core/Context Layer | .ormd | 3,433 | 38,841 |
 | E2Core/Context Layer/CFAR.ormd | E2Core/Context Layer | .ormd | 972 | 9,667 |
@@ -258,24 +259,25 @@ Root: `.`
 | E2Core/Context Layer/Complex Causality - Core Source.ormd | E2Core/Context Layer | .ormd | 1,325 | 10,812 |
 | E2Core/Context Layer/Condition as Typed Terrain - Core Source.ormd | E2Core/Context Layer | .ormd | 1,499 | 11,866 |
 | E2Core/Context Layer/Consequence Routing - Core Source.ormd | E2Core/Context Layer | .ormd | 1,887 | 15,777 |
-| E2Core/Context Layer/Context Layer Index.ormd | E2Core/Context Layer | .ormd | 4,995 | 49,087 |
+| E2Core/Context Layer/Context Layer Index.ormd | E2Core/Context Layer | .ormd | 5,059 | 49,500 |
 | E2Core/Context Layer/Context Layer Protocol (CLP).ormd | E2Core/Context Layer | .ormd | 1,113 | 15,888 |
 | E2Core/Context Layer/CT translation of RPs.ormd | E2Core/Context Layer | .ormd | 967 | 9,096 |
 | E2Core/Context Layer/Custody - Core Source.ormd | E2Core/Context Layer | .ormd | 3,392 | 29,283 |
 | E2Core/Context Layer/Declaration of Interdependence.ormd | E2Core/Context Layer | .ormd | 328 | 3,081 |
 | E2Core/Context Layer/Derivation deep dive.ormd | E2Core/Context Layer | .ormd | 5,932 | 71,518 |
 | E2Core/Context Layer/E^2 Axioms.ormd | E2Core/Context Layer | .ormd | 440 | 4,012 |
-| E2Core/Context Layer/E^2 Entry Point.ormd | E2Core/Context Layer | .ormd | 592 | 4,950 |
+| E2Core/Context Layer/E^2 Entry Point.ormd | E2Core/Context Layer | .ormd | 627 | 5,224 |
 | E2Core/Context Layer/E^2 Equation.ormd | E2Core/Context Layer | .ormd | 326 | 3,214 |
 | E2Core/Context Layer/Embedded Universality Principle (EUP).ormd | E2Core/Context Layer | .ormd | 6,848 | 55,467 |
 | E2Core/Context Layer/Emergence Engine overview.ormd | E2Core/Context Layer | .ormd | 2,850 | 25,524 |
-| E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd | E2Core/Context Layer | .ormd | 2,877 | 21,752 |
+| E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd | E2Core/Context Layer | .ormd | 2,877 | 21,774 |
 | E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd | E2Core/Context Layer | .ormd | 1,725 | 15,395 |
 | E2Core/Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd | E2Core/Context Layer | .ormd | 714 | 6,827 |
 | E2Core/Context Layer/Ethical Principles for Human-AI Interaction.ormd | E2Core/Context Layer | .ormd | 457 | 4,741 |
 | E2Core/Context Layer/Exposure Protocol.ormd | E2Core/Context Layer | .ormd | 593 | 7,643 |
+| E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd | E2Core/Context Layer | .ormd | 2,154 | 15,856 |
 | E2Core/Context Layer/Family as a Relational Field.ormd | E2Core/Context Layer | .ormd | 10,746 | 96,432 |
-| E2Core/Context Layer/flow_operators_provisional.ormd | E2Core/Context Layer | .ormd | 2,088 | 17,551 |
+| E2Core/Context Layer/flow_operators_provisional.ormd | E2Core/Context Layer | .ormd | 2,088 | 17,552 |
 | E2Core/Context Layer/From Essential Relationships to Ontological Transformation.ormd | E2Core/Context Layer | .ormd | 1,166 | 10,579 |
 | E2Core/Context Layer/Global Closure Operator.ormd | E2Core/Context Layer | .ormd | 706 | 6,248 |
 | E2Core/Context Layer/Human-AI Creative Collaboration Framework (HAIC).ormd | E2Core/Context Layer | .ormd | 357 | 5,446 |
@@ -308,13 +310,13 @@ Root: `.`
 | E2Core/Context Layer/Relational Volition.ormd | E2Core/Context Layer | .ormd | 591 | 6,608 |
 | E2Core/Context Layer/REMF.ormd | E2Core/Context Layer | .ormd | 1,252 | 14,051 |
 | E2Core/Context Layer/Remnant Stewardship - Core Source.ormd | E2Core/Context Layer | .ormd | 2,700 | 19,949 |
-| E2Core/Context Layer/resolution_synthesis.ormd | E2Core/Context Layer | .ormd | 1,713 | 15,021 |
+| E2Core/Context Layer/resolution_synthesis.ormd | E2Core/Context Layer | .ormd | 1,713 | 15,018 |
 | E2Core/Context Layer/Resonance Architecture 4 17 25.ormd | E2Core/Context Layer | .ormd | 2,035 | 20,170 |
 | E2Core/Context Layer/Responsibility Absorption - Core Source.ormd | E2Core/Context Layer | .ormd | 973 | 8,563 |
 | E2Core/Context Layer/Reverent Stewardship.ormd | E2Core/Context Layer | .ormd | 1,216 | 11,765 |
 | E2Core/Context Layer/RP Lambda Calc Translation.ormd | E2Core/Context Layer | .ormd | 505 | 4,833 |
 | E2Core/Context Layer/Self as Coherence Field.ormd | E2Core/Context Layer | .ormd | 3,380 | 24,561 |
-| E2Core/Context Layer/sign_mediated_flow_routing.ormd | E2Core/Context Layer | .ormd | 626 | 6,091 |
+| E2Core/Context Layer/sign_mediated_flow_routing.ormd | E2Core/Context Layer | .ormd | 629 | 6,131 |
 | E2Core/Context Layer/Signal as Bias Field.ormd | E2Core/Context Layer | .ormd | 1,751 | 16,103 |
 | E2Core/Context Layer/Slow-Layer Clock Ratio - Core Source.ormd | E2Core/Context Layer | .ormd | 1,004 | 8,495 |
 | E2Core/Context Layer/Steward’s Creed.ormd | E2Core/Context Layer | .ormd | 126 | 2,316 |
@@ -331,6 +333,7 @@ Root: `.`
 | E2Core/Context Layer/Truth Ceiling.ormd | E2Core/Context Layer | .ormd | 1,321 | 12,611 |
 | E2Core/Context Layer/Universal Emergence Pattern.ormd | E2Core/Context Layer | .ormd | 411 | 4,040 |
 | E2Core/E2Core Consolidation Plan.ormd | E2Core | .ormd | 1,395 | 11,616 |
+| E2Core/E² as a Translation Architecture for Human Remembrance.md | E2Core | .md | 1,995 | 13,314 |
 | E2Core/notes.md | E2Core | .md | 1,509 | 11,532 |
 | E2Core/Semantic Substrate/Adaptation via Informational Abstraction.md | E2Core/Semantic Substrate | .md | 938 | 7,620 |
 | E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md | E2Core/Semantic Substrate | .md | 2,299 | 22,892 |
@@ -357,7 +360,7 @@ Root: `.`
 | E2Core/Semantic Substrate/Declaration of Interdependence.md | E2Core/Semantic Substrate | .md | 328 | 2,128 |
 | E2Core/Semantic Substrate/Derivation deep dive.md | E2Core/Semantic Substrate | .md | 5,959 | 52,291 |
 | E2Core/Semantic Substrate/E^2 Axioms.md | E2Core/Semantic Substrate | .md | 496 | 3,943 |
-| E2Core/Semantic Substrate/E^2 Entry Point.md | E2Core/Semantic Substrate | .md | 652 | 4,876 |
+| E2Core/Semantic Substrate/E^2 Entry Point.md | E2Core/Semantic Substrate | .md | 687 | 5,150 |
 | E2Core/Semantic Substrate/E^2 Equation.md | E2Core/Semantic Substrate | .md | 408 | 2,604 |
 | E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md | E2Core/Semantic Substrate | .md | 6,848 | 53,030 |
 | E2Core/Semantic Substrate/Emergence Engine overview.md | E2Core/Semantic Substrate | .md | 2,848 | 21,289 |
@@ -366,6 +369,7 @@ Root: `.`
 | E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md | E2Core/Semantic Substrate | .md | 780 | 6,719 |
 | E2Core/Semantic Substrate/Ethical Principles for Human-AI Interaction.md | E2Core/Semantic Substrate | .md | 457 | 3,337 |
 | E2Core/Semantic Substrate/Exposure Protocol.md | E2Core/Semantic Substrate | .md | 593 | 5,198 |
+| E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md | E2Core/Semantic Substrate | .md | 2,154 | 14,543 |
 | E2Core/Semantic Substrate/Family as a Relational Field.md | E2Core/Semantic Substrate | .md | 10,752 | 82,217 |
 | E2Core/Semantic Substrate/flow_operators_provisional.md | E2Core/Semantic Substrate | .md | 2,088 | 15,811 |
 | E2Core/Semantic Substrate/From Essential Relationships to Ontological Transformation.md | E2Core/Semantic Substrate | .md | 1,166 | 9,218 |
@@ -411,7 +415,7 @@ Root: `.`
 | E2Core/Semantic Substrate/Reverent Stewardship.md | E2Core/Semantic Substrate | .md | 1,226 | 8,917 |
 | E2Core/Semantic Substrate/RP Lambda Calc Translation.md | E2Core/Semantic Substrate | .md | 505 | 3,486 |
 | E2Core/Semantic Substrate/Self as Coherence Field.md | E2Core/Semantic Substrate | .md | 3,380 | 23,262 |
-| E2Core/Semantic Substrate/sign_mediated_flow_routing.md | E2Core/Semantic Substrate | .md | 680 | 5,987 |
+| E2Core/Semantic Substrate/sign_mediated_flow_routing.md | E2Core/Semantic Substrate | .md | 683 | 6,027 |
 | E2Core/Semantic Substrate/Signal as Bias Field.md | E2Core/Semantic Substrate | .md | 1,753 | 13,718 |
 | E2Core/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md | E2Core/Semantic Substrate | .md | 1,004 | 7,933 |
 | E2Core/Semantic Substrate/Steward’s Creed.md | E2Core/Semantic Substrate | .md | 126 | 817 |

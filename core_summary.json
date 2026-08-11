@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-08-10T20:23:10.317575+00:00",
+  "generated_at": "2026-08-11T20:05:41.884338+00:00",
   "root": ".",
   "counted_extensions": [
     ".md",
     ".ormd"
   ],
-  "document_count": 299,
-  "total_words": 556636,
-  "total_size_bytes": 4988086,
+  "document_count": 302,
+  "total_words": 563143,
+  "total_size_bytes": 5033276,
   "extension_summary": {
-    ".ormd": 187,
-    ".md": 112
+    ".ormd": 188,
+    ".md": 114
   },
   "layer_summary": {
     "E2Core": {
-      "file_count": 3,
-      "word_count": 7899,
-      "average_words": 2633.0,
-      "median_words": 1509,
+      "file_count": 4,
+      "word_count": 9958,
+      "average_words": 2489.5,
+      "median_words": 1752,
       "min_words": 1395,
-      "max_words": 4995,
-      "size_bytes": 72235
+      "max_words": 5059,
+      "size_bytes": 85962
     },
     "E2Core/Context Layer": {
-      "file_count": 89,
-      "word_count": 162486,
-      "average_words": 1825.7,
-      "median_words": 1216,
+      "file_count": 90,
+      "word_count": 164742,
+      "average_words": 1830.5,
+      "median_words": 1234,
       "min_words": 126,
       "max_words": 10746,
-      "size_bytes": 1531641
+      "size_bytes": 1548247
     },
     "E2Core/Semantic Substrate": {
-      "file_count": 96,
-      "word_count": 205523,
-      "average_words": 2140.9,
-      "median_words": 1276,
+      "file_count": 97,
+      "word_count": 207715,
+      "average_words": 2141.4,
+      "median_words": 1287,
       "min_words": 11,
       "max_words": 15731,
-      "size_bytes": 1621291
+      "size_bytes": 1636148
     },
     "Synthesized Core": {
       "file_count": 61,
@@ -60,8 +60,8 @@
     }
   },
   "pair_health": {
-    "total_raw_stems": 102,
-    "complete_pairs": 83,
+    "total_raw_stems": 103,
+    "complete_pairs": 84,
     "missing_semantic_substrate": 6,
     "missing_context_layer": 13,
     "pairs": [
@@ -270,8 +270,8 @@
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 4995,
-        "word_delta": 4995,
+        "context_words": 5059,
+        "word_delta": 5059,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/Context Layer Index.ormd"
       },
@@ -329,8 +329,8 @@
         "stem": "E^2 Entry Point",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 652,
-        "context_words": 592,
+        "semantic_words": 687,
+        "context_words": 627,
         "word_delta": -60,
         "semantic_path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
         "context_path": "E2Core/Context Layer/E^2 Entry Point.ormd"
@@ -414,6 +414,16 @@
         "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Exposure Protocol.md",
         "context_path": "E2Core/Context Layer/Exposure Protocol.ormd"
+      },
+      {
+        "stem": "E² as a Translation Architecture for Human Remembrance",
+        "has_semantic_substrate": true,
+        "has_context_layer": true,
+        "semantic_words": 2154,
+        "context_words": 2154,
+        "word_delta": 0,
+        "semantic_path": "E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
+        "context_path": "E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd"
       },
       {
         "stem": "Family as a Relational Field",
@@ -1079,8 +1089,8 @@
         "stem": "sign_mediated_flow_routing",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 680,
-        "context_words": 626,
+        "semantic_words": 683,
+        "context_words": 629,
         "word_delta": -54,
         "semantic_path": "E2Core/Semantic Substrate/sign_mediated_flow_routing.md",
         "context_path": "E2Core/Context Layer/sign_mediated_flow_routing.ormd"
@@ -1922,9 +1932,9 @@
       "extension": ".md",
       "layer": "E2Core",
       "title": "Context Layer Master Index",
-      "word_count": 4995,
-      "size_bytes": 49087,
-      "modified": "2026-08-10T20:15:18.358608+00:00"
+      "word_count": 5059,
+      "size_bytes": 49500,
+      "modified": "2026-08-11T19:33:50.491136+00:00"
     },
     {
       "path": "E2Core/Context Layer/Adaptation via Informational Abstraction.ormd",
@@ -2000,8 +2010,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Boundary Dynamics",
       "word_count": 3461,
-      "size_bytes": 28983,
-      "modified": "2026-05-13T20:32:37.584569+00:00"
+      "size_bytes": 28986,
+      "modified": "2026-08-11T03:50:59.594996+00:00"
     },
     {
       "path": "E2Core/Context Layer/Caregiving as an Ecosystem.ormd",
@@ -2120,9 +2130,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Context Layer Master Index",
-      "word_count": 4995,
-      "size_bytes": 49087,
-      "modified": "2026-08-10T20:15:19.198264+00:00"
+      "word_count": 5059,
+      "size_bytes": 49500,
+      "modified": "2026-08-11T19:33:51.777282+00:00"
     },
     {
       "path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd",
@@ -2197,9 +2207,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "E^2 Entry Point",
-      "word_count": 592,
-      "size_bytes": 4950,
-      "modified": "2026-06-12T19:46:11.383857+00:00"
+      "word_count": 627,
+      "size_bytes": 5224,
+      "modified": "2026-08-11T17:21:15.143229+00:00"
     },
     {
       "path": "E2Core/Context Layer/E^2 Equation.ormd",
@@ -2242,8 +2252,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Emergence Determination Foreclosure",
       "word_count": 2877,
-      "size_bytes": 21752,
-      "modified": "2026-08-07T18:10:59.678046+00:00"
+      "size_bytes": 21774,
+      "modified": "2026-08-11T03:51:03.541160+00:00"
     },
     {
       "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
@@ -2290,6 +2300,17 @@
       "modified": "2026-03-02T12:31:59.118873+00:00"
     },
     {
+      "path": "E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd",
+      "name": "E² as a Translation Architecture for Human Remembrance.ormd",
+      "stem": "E² as a Translation Architecture for Human Remembrance",
+      "extension": ".ormd",
+      "layer": "E2Core/Context Layer",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "word_count": 2154,
+      "size_bytes": 15856,
+      "modified": "2026-08-11T17:20:55.054781+00:00"
+    },
+    {
       "path": "E2Core/Context Layer/Family as a Relational Field.ormd",
       "name": "Family as a Relational Field.ormd",
       "stem": "Family as a Relational Field",
@@ -2308,8 +2329,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Flow Operators: A Provisional Snapshot",
       "word_count": 2088,
-      "size_bytes": 17551,
-      "modified": "2026-05-13T20:32:37.591121+00:00"
+      "size_bytes": 17552,
+      "modified": "2026-08-11T03:51:00.563298+00:00"
     },
     {
       "path": "E2Core/Context Layer/From Essential Relationships to Ontological Transformation.ormd",
@@ -2671,8 +2692,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Resolution: Synthesis Notes",
       "word_count": 1713,
-      "size_bytes": 15021,
-      "modified": "2026-05-13T20:32:37.592119+00:00"
+      "size_bytes": 15018,
+      "modified": "2026-08-11T03:51:01.578985+00:00"
     },
     {
       "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
@@ -2736,9 +2757,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Sign-Mediated Accountability and Flow Routing",
-      "word_count": 626,
-      "size_bytes": 6091,
-      "modified": "2026-06-12T19:55:39.939992+00:00"
+      "word_count": 629,
+      "size_bytes": 6131,
+      "modified": "2026-08-11T03:51:02.568238+00:00"
     },
     {
       "path": "E2Core/Context Layer/Signal as Bias Field.ormd",
@@ -2915,6 +2936,17 @@
       "word_count": 1395,
       "size_bytes": 11616,
       "modified": "2026-06-12T17:33:09.524513+00:00"
+    },
+    {
+      "path": "E2Core/E² as a Translation Architecture for Human Remembrance.md",
+      "name": "E² as a Translation Architecture for Human Remembrance.md",
+      "stem": "E² as a Translation Architecture for Human Remembrance",
+      "extension": ".md",
+      "layer": "E2Core",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "word_count": 1995,
+      "size_bytes": 13314,
+      "modified": "2026-08-11T17:10:18.248760+00:00"
     },
     {
       "path": "E2Core/notes.md",
@@ -3209,9 +3241,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "E^2 Entry Point",
-      "word_count": 652,
-      "size_bytes": 4876,
-      "modified": "2026-06-12T19:46:33.691532+00:00"
+      "word_count": 687,
+      "size_bytes": 5150,
+      "modified": "2026-08-11T17:21:14.176222+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E^2 Equation.md",
@@ -3300,6 +3332,17 @@
       "word_count": 593,
       "size_bytes": 5198,
       "modified": "2026-02-25T11:23:08+00:00"
+    },
+    {
+      "path": "E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
+      "name": "E² as a Translation Architecture for Human Remembrance.md",
+      "stem": "E² as a Translation Architecture for Human Remembrance",
+      "extension": ".md",
+      "layer": "E2Core/Semantic Substrate",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "word_count": 2154,
+      "size_bytes": 14543,
+      "modified": "2026-08-11T17:20:53.832929+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
@@ -3803,9 +3846,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Sign-Mediated Accountability and Flow Routing",
-      "word_count": 680,
-      "size_bytes": 5987,
-      "modified": "2026-06-12T19:55:50.870759+00:00"
+      "word_count": 683,
+      "size_bytes": 6027,
+      "modified": "2026-08-11T03:51:04.535936+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Signal as Bias Field.md",
@@ -4658,16 +4701,16 @@
   "core_manifest_summary": {
     "available": true,
     "synthesized_core_count": 61,
-    "explicit_core_addition_count": 24,
-    "active_semantic_substrate_count": 96,
-    "active_context_layer_count": 89,
-    "active_raw_file_count": 185,
-    "active_file_count": 246,
+    "explicit_core_addition_count": 25,
+    "active_semantic_substrate_count": 97,
+    "active_context_layer_count": 90,
+    "active_raw_file_count": 187,
+    "active_file_count": 248,
     "archived_raw_file_count": 50,
     "unregistered_active_raw_count": 0,
     "missing_registered_path_count": 0,
-    "copied_file_count": 246,
-    "copied_raw_file_count": 185,
+    "copied_file_count": 248,
+    "copied_raw_file_count": 187,
     "skipped_cull_review_count": 14,
     "unresolved_count": 0
   }

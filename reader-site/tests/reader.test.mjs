@@ -35,20 +35,21 @@ test("server-renders the E2 corpus reader shell", async () => {
 test("publishes complete paired human and AI catalogs", async () => {
   const catalog = JSON.parse(await readFile(new URL("../public/catalog.json", import.meta.url), "utf8"));
   assert.equal(catalog.entrySlug, "context-layer-master-index");
-  assert.equal(catalog.counts.documents, 89);
+  assert.equal(catalog.counts.documents, 90);
   assert.equal(catalog.counts.clusters, 9);
-  assert.equal(catalog.docs.length, 89);
+  assert.equal(catalog.docs.length, 90);
   assert.equal(catalog.clusters.length, 9);
-  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 89);
-  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 89);
+  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 90);
+  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 90);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
   assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
-  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, 88);
+  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, 89);
   assert.deepEqual(catalog.clusters.map((cluster) => cluster.id), ["A", "B", "C", "D", "E", "F", "G", "H", "I"]);
   assert.equal(catalog.docs.find((doc) => doc.slug === "boundary-dynamics")?.clusterId, "C");
   assert.equal(catalog.docs.find((doc) => doc.slug === "lawfulness-core-source")?.clusterId, "B");
   assert.equal(catalog.docs.find((doc) => doc.slug === "sign-mediated-flow-routing")?.clusterId, "E");
   assert.equal(catalog.docs.find((doc) => doc.slug === "self-as-coherence-field")?.clusterId, "G");
+  assert.equal(catalog.docs.find((doc) => doc.slug === "e2-as-a-translation-architecture-for-human-remembrance")?.clusterId, "A");
 });
 
 test("publishes a typed E2 relationship graph", async () => {
@@ -61,9 +62,9 @@ test("publishes a typed E2 relationship graph", async () => {
   ]);
   const nodeIds = new Set(graph.nodes.map((node) => node.id));
   assert.equal(graph.schemaVersion, 1);
-  assert.equal(graph.counts.nodes, 89);
-  assert.equal(graph.nodes.length, 89);
-  assert.equal(nodeIds.size, 89);
+  assert.equal(graph.counts.nodes, 90);
+  assert.equal(graph.nodes.length, 90);
+  assert.equal(nodeIds.size, 90);
   assert.equal(graph.clusters.length, 9);
   assert.ok(graph.counts.explicitEdges >= 75);
   assert.ok(graph.counts.suggestedEdges > 0);
@@ -71,6 +72,7 @@ test("publishes a typed E2 relationship graph", async () => {
   assert.ok(graph.edges.every((edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)));
   assert.ok(graph.edges.every((edge) => edge.source !== edge.target));
   assert.ok(graph.edges.some((edge) => edge.type === "indexes" && edge.target === "aomi-ai-responses"));
+  assert.ok(graph.edges.some((edge) => edge.source === "e2-as-a-translation-architecture-for-human-remembrance" && edge.target === "e2-entry-point" && edge.type === "contextualizes"));
   assert.ok(graph.edges.some((edge) => edge.certainty === "suggested" && edge.provenance === "exact-title-mention"));
   assert.deepEqual(docsGraph.counts, graph.counts);
   assert.equal(relationSource.schema_version, 1);
@@ -103,6 +105,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(llms, /https:\/\/raw\.githubusercontent\.com\/DanPace725\/e2-core-framework\/main\/reader-site\/public\/ormd\/context-layer-master-index\.ormd/);
   assert.match(llms, /HTML AI mirror: https:\/\/danpace725\.github\.io\/e2-core-framework\//);
   assert.match(llms, /Machine-readable relationship graph/);
+  assert.match(llms, /E² as a Translation Architecture for Human Remembrance/);
   assert.doesNotMatch(llms, /\]\(\/ormd\//);
   assert.equal(rootLlms, llms);
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
@@ -117,7 +120,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(htmlIndex, /Cluster [JK]/);
   assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);
   assert.match(htmlMaster, /&lt;!-- ormd:1\.0 --&gt;/);
-  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 89);
+  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 90);
 });
 
 test("keeps ORMD metadata out of the human reading surface", async () => {

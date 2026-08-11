@@ -4,9 +4,9 @@
 
 [Interlocked Stewardship ](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%2024911588332080b59a16c92fbb34fc18.md)
 
-[Interlocked Stewardship V2](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%20V2%2024911588332080e39e79eec18d7eaaae.md)
+[Interlocked Stewardship V2](/?doc=interlocked-stewardship-v2)
 
-[Family as a Relational Field ](Caregiving%20as%20an%20Ecosystem/Family%20as%20a%20Relational%20Field%202b8115883320806c9518d5dfc4fc2197.md)
+[Family as a Relational Field ](/?doc=family-as-a-relational-field)
 
 ## ∞ Core Insight
 

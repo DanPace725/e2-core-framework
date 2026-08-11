@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-11T03:57:56.894199+00:00",
+  "generated_at": "2026-08-11T20:05:33.161130+00:00",
   "scope": "E2Core",
   "authority": "active_filesystem_state",
   "counts": {
-    "semantic_substrate_files": 96,
-    "context_layer_files": 89,
-    "active_raw_files": 185,
-    "registry_records": 94,
-    "exact_stem_pairs": 83,
+    "semantic_substrate_files": 97,
+    "context_layer_files": 90,
+    "active_raw_files": 187,
+    "registry_records": 95,
+    "exact_stem_pairs": 84,
     "composite_or_alias_pairs": 5,
     "semantic_substrate_only": 5,
     "context_layer_only": 0,
@@ -642,8 +642,8 @@
           "stem": "Context Layer Index",
           "title": "Context Layer Master Index",
           "layer": "context_layer",
-          "size_bytes": 49132,
-          "sha256": "739c310cbb6ad57680885635451a22c102c2c799a54ee1f200b7cbeeee403e81",
+          "size_bytes": 49500,
+          "sha256": "9c36fdee6caaf1cc2850e9dec56c85444cd4104887fdc5d2c6e63dc696109e6e",
           "frame": "meta.index.context-layer",
           "confidence": 1.0
         }
@@ -860,8 +860,8 @@
           "stem": "E^2 Entry Point",
           "title": "E^2 Entry Point",
           "layer": "semantic_substrate",
-          "size_bytes": 4876,
-          "sha256": "6ec3a028bf792c71e0d99f123087947e3e65b35fdc38cd686b46cd9c22599718",
+          "size_bytes": 5150,
+          "sha256": "0d0e577a7edce0b77343a52c7e4f6c294fb83f48f4b26efbd3935fb537867918",
           "frame": null,
           "confidence": null
         }
@@ -873,8 +873,8 @@
           "stem": "E^2 Entry Point",
           "title": "E^2 Entry Point",
           "layer": "context_layer",
-          "size_bytes": 4950,
-          "sha256": "1ba0103e301495827fd7865933282a6085f676c27beb574231133c40d0217484",
+          "size_bytes": 5224,
+          "sha256": "3091e0abb681388873cafb095fcd544031c5f0702845646ee866bd0bd519fd59",
           "frame": "ontology.relational.e2",
           "confidence": 0.92
         }
@@ -1144,6 +1144,39 @@
         }
       ],
       "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "E² as a Translation Architecture for Human Remembrance",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
+          "name": "E² as a Translation Architecture for Human Remembrance.md",
+          "stem": "E² as a Translation Architecture for Human Remembrance",
+          "title": "E² as a Translation Architecture for Human Remembrance",
+          "layer": "semantic_substrate",
+          "size_bytes": 14543,
+          "sha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd",
+          "name": "E² as a Translation Architecture for Human Remembrance.ormd",
+          "stem": "E² as a Translation Architecture for Human Remembrance",
+          "title": "E² as a Translation Architecture for Human Remembrance",
+          "layer": "context_layer",
+          "size_bytes": 15856,
+          "sha256": "9251d42d27a7dcab874ff710e64a966a2acebce931aa7658359530e4d36122f9",
+          "frame": "philosophy.orientation.translation-remembrance",
+          "confidence": 0.9
+        }
+      ],
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {

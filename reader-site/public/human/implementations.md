@@ -8,7 +8,7 @@
 
 [Custom GPTs](Implementations/Custom%20GPTs%201de1158833208085a6faf0bbbca055a1.md)
 
-[Context Layer Protocol (CLP)](Implementations/Context%20Layer%20Protocol%20(CLP)%2027311588332080ccb950e631d6f82bb6.md)
+[Context Layer Protocol (CLP)](/?doc=context-layer-protocol-clp)
 
 [Cognitive Profiles from Chess play](Implementations/Cognitive%20Profiles%20from%20Chess%20play%202f51158833208031bc60c91f73587308.md)
 

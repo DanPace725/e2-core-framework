@@ -17,13 +17,13 @@ resolution: { confidence: 1.0 }
 
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-08-10 | 89 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-08-11 | 90 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 89 active documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 90 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -59,7 +59,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 | ID | Cluster | Docs | Conf Range | Entry Point |
 |----|---------|------|------------|-------------|
-| [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 6 | 0.92–1.0 | Relational Primitives |
+| [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 7 | 0.90–1.0 | Relational Primitives |
 | [B](#cluster-b "meta:corresponds_to") | Formal, Mathematical & Epistemic Constraints | 9 | 0.84–0.98 | CT Translation of RPs |
 | [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 15 | 0.84–0.95 | REMF |
 | [D](#cluster-d "dynamical:interacts_with") | Metabolic, Resonance & Temporal Physics | 8 | 0.84–0.96 | Metabolic Meaning Phase Space |
@@ -75,7 +75,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Scope:** The irreducible bedrock of E². Establishes what relationships *are*, how they compose, and what constraints govern all relational systems. Every other cluster presupposes this one.
 
-**Trigger keywords:** `relational ontology`, `axioms`, `relational primitives`, `P1–P6`, `global closure operator`, `GCO`, `E² equation`, `SCIA`, `RPLang`, `first principles`, `essence of existence`, `recursive composition`
+**Trigger keywords:** `relational ontology`, `axioms`, `relational primitives`, `P1–P6`, `global closure operator`, `GCO`, `E² equation`, `SCIA`, `RPLang`, `first principles`, `essence of existence`, `recursive composition`, `translation architecture`, `human remembrance`, `faithful abstraction`, `hollowing`
 
 **Entry point:** [Relational Primitives](#cluster-a "ontological:defines") → [E^2 Equation](#cluster-a "dynamical:transforms_to") → [Global Closure Operator](#cluster-a "symmetric:constrains")
 
@@ -88,6 +88,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | E^2 Equation ★ | `E^2 Equation.ormd` | ontology.relational-physics | 0.98 | Recursive composition formula: E²=Γ(Σ(⊕(◇(⊗_t(P))))) |
 | E^2 Axioms | `E^2 Axioms.ormd` | philosophy.relational-ontology.axioms | 0.92 | Canonical ten axioms; extracted from Initial Axioms and Entry Point |
 | E^2 Entry Point | `E^2 Entry Point.ormd` | ontology.relational.e2 | 0.92 | Clean reader-facing orientation; integrates primer compression and routes formal detail to canon |
+| E² as a Translation Architecture for Human Remembrance | `E² as a Translation Architecture for Human Remembrance.ormd` | philosophy.orientation.translation-remembrance | 0.90 | Human-purpose orientation; faithful abstraction, anti-hollowing posture, and explicit scope limits |
 | Original E^2 Work ★ | `Original E^2 work.ormd` | research.index | 1.0 | Expanded lineage anchors registry; archived link-hub parent preserved |
 
 ---

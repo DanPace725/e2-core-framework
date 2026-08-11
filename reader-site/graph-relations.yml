@@ -19,6 +19,10 @@ relations:
     target: e2-entry-point
     type: contextualizes
     note: The research index preserves the earlier E2 development context.
+  - source: e2-as-a-translation-architecture-for-human-remembrance
+    target: e2-entry-point
+    type: contextualizes
+    note: The human-remembrance orientation states the framework's translation purpose and scope.
   - source: ct-translation-of-rps
     target: relational-primitives
     type: translates

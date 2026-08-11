@@ -70,6 +70,6 @@ This may be the largest-scale voluntary self-disclosure event in human history, 
 
 **Potential framing:** This is **Cognitive Identity Capture** - the acquisition of sufficient data to reconstruct how someone thinks, not just what they think about.
 
-[**Meta-Relational Identity Exposure (MRIE)**](Cognitive%20Signature%20Capture%20An%20Unnamed%20Threat/Meta-Relational%20Identity%20Exposure%20(MRIE)%202b611588332080069020d3300a4fa097.md)
+[**Meta-Relational Identity Exposure (MRIE)**](/?doc=mrie-unified-synthesis)
 
-[Meta-relational Identity exposure (MRIE) Synthesis ](Cognitive%20Signature%20Capture%20An%20Unnamed%20Threat/Meta-relational%20Identity%20exposure%20(MRIE)%20Synthesis%202b611588332080cfb1fcd657dd501c43.md)
+[Meta-relational Identity exposure (MRIE) Synthesis ](/?doc=mrie-unified-synthesis)

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T17:10:41.574Z",
+  "generatedAt": "2026-08-11T20:06:20.511Z",
   "title": "E² Core Framework",
   "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
   "authority": {
@@ -10,9 +10,9 @@
   },
   "entrySlug": "context-layer-master-index",
   "counts": {
-    "documents": 89,
+    "documents": 90,
     "clusters": 9,
-    "humanWords": 212490
+    "humanWords": 214737
   },
   "clusters": [
     {
@@ -31,13 +31,18 @@
         "RPLang",
         "first principles",
         "essence of existence",
-        "recursive composition"
+        "recursive composition",
+        "translation architecture",
+        "human remembrance",
+        "faithful abstraction",
+        "hollowing"
       ],
       "entryPoint": "Relational Primitives → E^2 Equation → Global Closure Operator",
       "docs": [
         "e2-axioms",
         "e2-entry-point",
         "e2-equation",
+        "e2-as-a-translation-architecture-for-human-remembrance",
         "global-closure-operator",
         "original-e2-work",
         "relational-primitives"
@@ -385,13 +390,13 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6229,
+      "wordCount": 6270,
       "humanUrl": "/human/context-layer-master-index.md",
       "ormdUrl": "/ormd/context-layer-master-index.ormd",
       "humanSources": [],
       "ormdSource": "Context Layer Index.ormd",
-      "humanSha256": "2bc193943bb00146183e3699b65da9f653f2c5dcc6b56d40d197389623400abd",
-      "ormdSha256": "739c310cbb6ad57680885635451a22c102c2c799a54ee1f200b7cbeeee403e81"
+      "humanSha256": "9309f454ba19a1fc7f140f3d84cf770b0bd6407282b4c3997333603fc3635b7a",
+      "ormdSha256": "9c36fdee6caaf1cc2850e9dec56c85444cd4104887fdc5d2c6e63dc696109e6e"
     },
     {
       "slug": "e2-axioms",
@@ -419,15 +424,15 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 623,
+      "wordCount": 657,
       "humanUrl": "/human/e2-entry-point.md",
       "ormdUrl": "/ormd/e2-entry-point.ormd",
       "humanSources": [
         "E^2 Entry Point.md"
       ],
       "ormdSource": "E^2 Entry Point.ormd",
-      "humanSha256": "88a6de2e24e33f0526608e5384e87f7f7278eecbd9e653376a6cde4d6e238253",
-      "ormdSha256": "1ba0103e301495827fd7865933282a6085f676c27beb574231133c40d0217484"
+      "humanSha256": "80e1881b9dc8aeb93723b9c7dcad4e32d5282668b6b8005d73b6265bb0082431",
+      "ormdSha256": "3091e0abb681388873cafb095fcd544031c5f0702845646ee866bd0bd519fd59"
     },
     {
       "slug": "e2-equation",
@@ -446,6 +451,24 @@
       "ormdSource": "E^2 Equation.ormd",
       "humanSha256": "a8bd633c5f99ac0ad3e34fd9e94b102a7c4be4289ed985f059867e8c4d3501b3",
       "ormdSha256": "f5a52f933b53e4b9df2b22adbd67c3be1cb02d307c29d922526aae5993cf4967"
+    },
+    {
+      "slug": "e2-as-a-translation-architecture-for-human-remembrance",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "clusterId": "A",
+      "frame": "philosophy.orientation.translation-remembrance",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2172,
+      "humanUrl": "/human/e2-as-a-translation-architecture-for-human-remembrance.md",
+      "ormdUrl": "/ormd/e2-as-a-translation-architecture-for-human-remembrance.ormd",
+      "humanSources": [
+        "E² as a Translation Architecture for Human Remembrance.md"
+      ],
+      "ormdSource": "E² as a Translation Architecture for Human Remembrance.ormd",
+      "humanSha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821",
+      "ormdSha256": "9251d42d27a7dcab874ff710e64a966a2acebce931aa7658359530e4d36122f9"
     },
     {
       "slug": "global-closure-operator",
@@ -480,7 +503,7 @@
         "Original E^2 work.md"
       ],
       "ormdSource": "Original E^2 work.ormd",
-      "humanSha256": "0140e21899516331593c19bcc97a7899923f12697577202cbf48f1301d56cf88",
+      "humanSha256": "cca973210336f16d6819f167aa60343df13765a0c99d1bcb775d5097aa522d0b",
       "ormdSha256": "568c7732edaf998ba388df5f58989d1797fae9084cdc04cb058726e056702dc6"
     },
     {
@@ -876,7 +899,7 @@
         "Tensional Intelligence A Theoretical Foundation.md"
       ],
       "ormdSource": "Tensional Intelligence A Theoretical Foundation.ormd",
-      "humanSha256": "26d3b9767a9b636890cddb4d980f53e257e931e6ed4661e4ea200e29546ff3a8",
+      "humanSha256": "d646637510baae716ac2e18cb8361ecdea7a53eca12a0b25131a7e8ffd3048a0",
       "ormdSha256": "b4eb62b573b6adc4dbb292a71853d62cdb42addc921e010371c0514feeda6f58"
     },
     {
@@ -1524,7 +1547,7 @@
         "Cognitive Signature Capture An Unnamed Threat.md"
       ],
       "ormdSource": "Cognitive Signature Capture An Unnamed Threat.ormd",
-      "humanSha256": "f2ac88066471c17090a165f81ce8c680b0870a5f0f4e9a420957bfbf77fe5059",
+      "humanSha256": "7e1456a60769bf86868a40194e969a2f9d46aaaab466508fe92c154cd4a75896",
       "ormdSha256": "40f8823db170bd0a86a82ab674dcf5f52cef63c6032f33177e15eafe0b7286e3"
     },
     {
@@ -1724,7 +1747,7 @@
         "Caregiving as an Ecosystem.md"
       ],
       "ormdSource": "Caregiving as an Ecosystem.ormd",
-      "humanSha256": "28869ba3c2680bb1afabf2edaf2365ef020a459ac3ac6bdd1fc5713e2442cb7b",
+      "humanSha256": "079dbad86cae036b4297c1a6c1e3d3cdb792008e9e2f391608e0295470416309",
       "ormdSha256": "92a758af9a75eb39a2254f74fff2cdf933a022a96b15a738c7542d56d7f17dbc"
     },
     {
@@ -1869,7 +1892,7 @@
         "Relational Perfection A Framework for Emergent Int.md"
       ],
       "ormdSource": "Relational Perfection_framework.ormd",
-      "humanSha256": "afb21d7f7672812b9cb6199b455f7407c89566437602f3f4b2d46bc749c8cea4",
+      "humanSha256": "3a0996c5755e72ae87687cca38081324647e6fedf9e3487db500b0fd7115fdac",
       "ormdSha256": "d526b09b98fa59dd5f466de4301250f9a035d90798f52b29adf73d8ef97cb0de"
     },
     {
@@ -1905,7 +1928,7 @@
         "The Cyclical Integrity framework.md"
       ],
       "ormdSource": "The Cyclical Integrity framework.ormd",
-      "humanSha256": "236ce9ea5a5a4feecc2fc31d6d5c4a1ed0684f466c8ed731079acd253dd6ad05",
+      "humanSha256": "c3eb7bf615863a504d0890841fc45195f988cb674f02430c26804f12fd65f1aa",
       "ormdSha256": "ade4a8c66d38868ce15cbb48049d5b5b918cb07b5f673429b49b73821df74acd"
     },
     {
@@ -1959,7 +1982,7 @@
         "Implementations.md"
       ],
       "ormdSource": "Implementations.ormd",
-      "humanSha256": "1852118c1589d308bc4117d48ee5456cff3ccbfb53f18fbb8307382225e8e4be",
+      "humanSha256": "6f86b5f611d5fc1e1a372c82a14aea18a2b45477f2c16212d2ea95b6d1ccd636",
       "ormdSha256": "849d8dbe5670cd615d3b20b9d793b7e2c1f08ca5038d6adcb85afc779cb72208"
     },
     {

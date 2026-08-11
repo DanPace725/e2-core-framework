@@ -48,3 +48,18 @@ test("renders formulas and keeps corpus cross-links resolvable", async () => {
   assert.ok(packageJson.dependencies.katex);
   assert.ok(packageJson.dependencies["marked-katex-extension"]);
 });
+
+test("master-index document names open documents while cluster navigation stays local", async () => {
+  const markdown = await readFile(
+    new URL("../public/human/context-layer-master-index.md", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(markdown, /\[Relational Primitives\]\(\/?\?doc=relational-primitives/);
+  assert.match(markdown, /\[E\^2 Equation\]\(\/?\?doc=e2-equation/);
+  assert.match(markdown, /\[REMF\]\(\/?\?doc=remf/);
+  assert.match(markdown, /\[Adversarial Occlusion & Mechanism Integrity V1\]\(\/?\?doc=adversarial-occlusion-and-mechanism-integrity-v1/);
+  assert.match(markdown, /\[Context Layer Protocol \(CLP\)\]\(\/?\?doc=context-layer-protocol-clp/);
+  assert.match(markdown, /\| \[A\]\(#cluster-a/);
+  assert.match(markdown, /\[Cluster A\]\(#cluster-a\)/);
+});
