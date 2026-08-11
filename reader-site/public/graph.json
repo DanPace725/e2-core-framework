@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T16:47:35.828Z",
+  "generatedAt": "2026-08-11T16:55:24.899Z",
   "title": "E² Core Framework relationship graph",
   "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
   "authority": {
