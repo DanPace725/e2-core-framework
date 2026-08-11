@@ -12,6 +12,7 @@ const registryPath = path.join(coreRoot, "core_registry.json");
 const contextRoot = path.join(coreRoot, "E2Core", "Context Layer");
 const semanticIndexPath = path.join(coreRoot, "E2Core", "context layer index.md");
 const contextIndexPath = path.join(contextRoot, "Context Layer Index.ormd");
+const graphRelationsPath = path.join(siteRoot, "graph-relations.yml");
 const publicSiteBase = "https://e2-core-framework.capulusirl.chatgpt.site";
 const githubRawBase = "https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public";
 const githubPagesBase = "https://danpace725.github.io/e2-core-framework";
@@ -211,6 +212,7 @@ await mkdir(path.join(docsRoot, "ormd"), { recursive: true });
 
 const docs = [];
 const corpusParts = [];
+const humanTextBySlug = new Map();
 
 for (const item of items) {
   const contextPath = path.join(coreRoot, ...item.context.path.split("/"));
@@ -237,6 +239,7 @@ for (const item of items) {
 
   const title = frontmatter.title || item.context.title || item.record.key;
   humanText = rewriteHumanLinks(stripHumanEnvelope(humanText)).replace(/\r\n/g, "\n");
+  humanTextBySlug.set(item.slug, humanText);
   await writeFile(path.join(publicRoot, "ormd", `${item.slug}.ormd`), ormdBytes);
   await writeFile(path.join(publicRoot, "human", `${item.slug}.md`), humanText, "utf8");
   await writeFile(
@@ -317,6 +320,138 @@ const catalog = {
   docs,
 };
 
+const graphSource = YAML.parse(await readFile(graphRelationsPath, "utf8")) ?? {};
+if (graphSource.schema_version !== 1 || !Array.isArray(graphSource.relations)) {
+  throw new Error("graph-relations.yml must use schema_version 1 and contain a relations list");
+}
+
+const docBySlug = new Map(docs.map((doc) => [doc.slug, doc]));
+const graphEdges = [];
+const explicitPairs = new Set();
+
+function addGraphEdge(edge) {
+  if (!docBySlug.has(edge.source)) throw new Error(`Graph relationship has unknown source: ${edge.source}`);
+  if (!docBySlug.has(edge.target)) throw new Error(`Graph relationship has unknown target: ${edge.target}`);
+  if (edge.source === edge.target) throw new Error(`Graph relationship cannot point to itself: ${edge.source}`);
+  const id = `${edge.source}--${edge.type}--${edge.target}`;
+  if (graphEdges.some((candidate) => candidate.id === id)) throw new Error(`Duplicate graph relationship: ${id}`);
+  graphEdges.push({ id, ...edge });
+  if (edge.certainty === "explicit") {
+    explicitPairs.add([edge.source, edge.target].sort().join("::"));
+  }
+}
+
+for (const relation of graphSource.relations) {
+  addGraphEdge({
+    source: relation.source,
+    target: relation.target,
+    type: relation.type,
+    certainty: "explicit",
+    provenance: "curated-navigation-ledger",
+    note: relation.note ?? "Curated navigation relationship.",
+  });
+}
+
+function graphTitleKey(value) {
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/\([^)]*\)/g, " ")
+    .toLocaleLowerCase()
+    .replace(/\bthe\b/g, " ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+const graphEntryAliases = new Map([
+  ["aomi ai responses", "aomi-ai-responses"],
+]);
+
+for (const cluster of catalogClusters) {
+  const entries = cluster.entryPoint.split(/\s*→\s*/).filter(Boolean);
+  for (const entry of entries) {
+    const entryKey = graphTitleKey(entry);
+    const aliasedTarget = graphEntryAliases.get(entryKey);
+    const target = aliasedTarget ? docBySlug.get(aliasedTarget) : docs.find((doc) => {
+      const titleKey = graphTitleKey(doc.title);
+      return titleKey === entryKey || titleKey.startsWith(`${entryKey} `) || entryKey.startsWith(`${titleKey} `);
+    });
+    if (!target) continue;
+    addGraphEdge({
+      source: "context-layer-master-index",
+      target: target.slug,
+      type: "indexes",
+      certainty: "explicit",
+      provenance: "context-layer-master-index",
+      note: `Entry point for Cluster ${cluster.id}.`,
+    });
+  }
+}
+
+const eligibleMentionTargets = docs.filter((doc) => {
+  if (doc.slug === "context-layer-master-index") return false;
+  const words = doc.title.match(/[A-Za-z0-9]+/g) ?? [];
+  return words.length >= 3 || doc.title.length >= 22;
+});
+
+for (const source of docs) {
+  if (source.slug === "context-layer-master-index") continue;
+  const sourceText = humanTextBySlug.get(source.slug)?.toLocaleLowerCase() ?? "";
+  const suggestions = [];
+  for (const target of eligibleMentionTargets) {
+    if (target.slug === source.slug) continue;
+    const pair = [source.slug, target.slug].sort().join("::");
+    if (explicitPairs.has(pair)) continue;
+    const needle = target.title.toLocaleLowerCase();
+    const occurrences = sourceText.split(needle).length - 1;
+    if (occurrences > 0) suggestions.push({ target, occurrences, score: occurrences * 100 + needle.length });
+  }
+  suggestions.sort((a, b) => b.score - a.score || a.target.title.localeCompare(b.target.title));
+  for (const suggestion of suggestions.slice(0, 3)) {
+    addGraphEdge({
+      source: source.slug,
+      target: suggestion.target.slug,
+      type: "references",
+      certainty: "suggested",
+      provenance: "exact-title-mention",
+      note: `Generated from ${suggestion.occurrences} exact title mention${suggestion.occurrences === 1 ? "" : "s"}; review before treating as framework structure.`,
+    });
+  }
+}
+
+const graph = {
+  schemaVersion: 1,
+  generatedAt: catalog.generatedAt,
+  title: "E² Core Framework relationship graph",
+  description: "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
+  authority: {
+    nodeContent: "Paired Context Layer ORMD",
+    humanReading: "Semantic Substrate Markdown",
+    relationships: "Navigation metadata only; consult the linked documents for authority",
+  },
+  counts: {
+    nodes: docs.length,
+    edges: graphEdges.length,
+    explicitEdges: graphEdges.filter((edge) => edge.certainty === "explicit").length,
+    suggestedEdges: graphEdges.filter((edge) => edge.certainty === "suggested").length,
+  },
+  clusters: catalogClusters.map(({ id, name, scope }) => ({ id, name, scope })),
+  nodes: docs.map((doc) => ({
+    id: doc.slug,
+    title: doc.title,
+    clusterId: doc.clusterId,
+    frame: doc.frame,
+    confidence: doc.confidence,
+    status: doc.status,
+    relationship: doc.relationship,
+    wordCount: doc.wordCount,
+    readerUrl: `/?doc=${doc.slug}`,
+    ormdUrl: doc.ormdUrl,
+  })),
+  edges: graphEdges,
+};
+
 const llmsLines = [
   "# E² Core Framework",
   "",
@@ -336,6 +471,7 @@ const llmsLines = [
   "",
   `- [Context Layer Master Index (ORMD)](${githubRawBase}/ormd/context-layer-master-index.ormd)`,
   `- [Machine-readable catalog](${githubRawBase}/catalog.json)`,
+  `- [Machine-readable relationship graph](${githubRawBase}/graph.json)`,
   `- [Combined ORMD corpus](${githubRawBase}/ormd-corpus.txt)`,
   `- [Human mobile reader](${publicSiteBase}/)`,
   "",
@@ -354,6 +490,7 @@ for (const cluster of catalogClusters) {
 const llmsText = `${llmsLines.join("\n")}\n`;
 const corpusText = `${corpusParts.join("\n\n")}\n`;
 const catalogText = `${JSON.stringify(catalog, null, 2)}\n`;
+const graphText = `${JSON.stringify(graph, null, 2)}\n`;
 const htmlIndexSections = catalogClusters.map((cluster) => {
   const links = cluster.docs.map((slug) => {
     const doc = docs.find((candidate) => candidate.slug === slug);
@@ -373,7 +510,7 @@ const htmlIndex = renderAiPage({
     "<h1>E² Core Framework — AI index</h1>",
     '<p class="notice">ORMD is the AI-facing authority. This is a standard HTML mirror for clients that cannot fetch raw text. Start with the master index, then follow only the cluster documents needed for the task.</p>',
     '<ol><li>Preserve each document’s frame, confidence, lineage, and policy metadata.</li><li>Do not substitute the generated catalog or human Markdown for paired ORMD authority.</li></ol>',
-    '<ul><li><a href="ormd/context-layer-master-index.html">Context Layer Master Index</a></li><li><a href="corpus.html">Whole combined ORMD corpus in one HTML page</a></li><li><a href="catalog.json">Machine-readable catalog</a></li><li><a href="llms.txt">Plain-text AI index</a></li><li><a href="https://e2-core-framework.capulusirl.chatgpt.site/">Human mobile reader</a></li></ul>',
+    '<ul><li><a href="ormd/context-layer-master-index.html">Context Layer Master Index</a></li><li><a href="corpus.html">Whole combined ORMD corpus in one HTML page</a></li><li><a href="catalog.json">Machine-readable catalog</a></li><li><a href="graph.json">Machine-readable relationship graph</a></li><li><a href="llms.txt">Plain-text AI index</a></li><li><a href="https://e2-core-framework.capulusirl.chatgpt.site/">Human mobile reader</a></li></ul>',
     htmlIndexSections,
   ].join("\n"),
 });
@@ -392,10 +529,12 @@ const htmlCorpus = renderAiPage({
 await writeFile(path.join(publicRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(coreRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(publicRoot, "catalog.json"), catalogText, "utf8");
+await writeFile(path.join(publicRoot, "graph.json"), graphText, "utf8");
 await writeFile(path.join(publicRoot, "ormd-corpus.txt"), corpusText, "utf8");
 await writeFile(path.join(docsRoot, "index.html"), htmlIndex, "utf8");
 await writeFile(path.join(docsRoot, "corpus.html"), htmlCorpus, "utf8");
 await writeFile(path.join(docsRoot, "catalog.json"), catalogText, "utf8");
+await writeFile(path.join(docsRoot, "graph.json"), graphText, "utf8");
 await writeFile(path.join(docsRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(docsRoot, ".nojekyll"), "", "utf8");
 await writeFile(path.join(docsRoot, "robots.txt"), "User-agent: *\nAllow: /\n", "utf8");

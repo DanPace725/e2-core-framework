@@ -1,0 +1,189 @@
+# Curated navigation relationships for the public corpus graph.
+# This file describes orientation metadata, not source authority.
+# Direction reads as: source <type> target.
+schema_version: 1
+relations:
+  - source: e2-axioms
+    target: e2-entry-point
+    type: formalizes
+    note: The axioms make the entry-point commitments explicit.
+  - source: relational-primitives
+    target: e2-entry-point
+    type: formalizes
+    note: The primitives provide the working relational grammar.
+  - source: e2-equation
+    target: global-closure-operator
+    type: incorporates
+    note: The equation develops recursive composition through global closure.
+  - source: original-e2-work
+    target: e2-entry-point
+    type: contextualizes
+    note: The research index preserves the earlier E2 development context.
+  - source: ct-translation-of-rps
+    target: relational-primitives
+    type: translates
+    note: Category-theoretic translation of the relational primitives.
+  - source: rp-lambda-calc-translation
+    target: relational-primitives
+    type: translates
+    note: Lambda-calculus translation of the relational primitives.
+  - source: relational-field-dynamics-0-1
+    target: relational-primitives
+    type: formalizes
+    note: Field dynamics develops a formal systems expression of the primitives.
+  - source: relational-derivation-chain
+    target: e2-axioms
+    type: derives-from
+    note: The derivation chain begins from the E2 commitments.
+  - source: relational-derivation-chain
+    target: meta-pattern-decidability-conjecture-mpdc
+    type: connects
+    note: The chain explicitly connects E2 to MPDC.
+  - source: relational-derivation-chain
+    target: afd-first-principles
+    type: connects
+    note: The chain explicitly connects E2 to AFD.
+  - source: derivation-deep-dive
+    target: relational-field-dynamics-0-1
+    type: extends
+    note: The deep dive extends the formal relational-physics program.
+  - source: boundary-dynamics
+    target: flow-operators-provisional
+    type: generalizes
+    note: Boundary dynamics generalizes operations previously framed as flow.
+  - source: boundary-dynamics
+    target: metabolic-meaning-phase-space-mmps
+    type: derives-from
+    note: Boundary dynamics inherits the recursive-morphism treatment from MMPS.
+  - source: flow-operators-provisional
+    target: signal-as-bias-field
+    type: depends-on
+    note: Flow interpretation inherits observer-position dependence.
+  - source: resolution-synthesis
+    target: cfar
+    type: informs
+    note: Resolution supplies one of CFAR's operative dynamics.
+  - source: emergence-determination-foreclosure
+    target: universal-emergence-pattern
+    type: constrains
+    note: Foreclosure describes a limiting condition on emergence.
+  - source: emergence-engine-overview
+    target: universal-emergence-pattern
+    type: operationalizes
+    note: The simulation makes emergence dynamics inspectable.
+  - source: persistence-as-accumulated-stance-with-core-source
+    target: pattern-integrity-over-time-under-entropy
+    type: extends
+    note: Persistence develops how pattern integrity accumulates over time.
+  - source: tension
+    target: tensional-intelligence-a-theoretical-foundation
+    type: synthesizes
+    note: The synthesis translates the theoretical foundation into praxis.
+  - source: cfa
+    target: cfar
+    type: operationalizes
+    note: CFA operationalizes relational complexity for intervention.
+  - source: the-architecture-of-resonant-systems-4-26-25
+    target: resonance-architecture-4-17-25
+    type: extends
+    note: The later architecture develops the earlier resonance account.
+  - source: the-resonance-framework-an-ontological-map-4-24-25
+    target: resonance-architecture-4-17-25
+    type: maps
+    note: The ontological map orients the resonance framework.
+  - source: tcl-plain-english-summary
+    target: tcl-three-constants
+    type: explains
+    note: The plain-English report interprets the three-constant result.
+  - source: slow-layer-clock-ratio-core-source
+    target: tcl-three-constants
+    type: connects
+    note: Both address temporal scale and operating-window dynamics.
+  - source: sign-mediated-flow-routing
+    target: boundary-dynamics
+    type: depends-on
+    note: Accountability routing relies on typed boundary structure.
+  - source: sign-mediated-flow-routing
+    target: consequence-routing-core-source
+    type: extends
+    note: Sign mediation extends the routing of consequence and accountability.
+  - source: consequence-routing-core-source
+    target: complex-causality-core-source
+    type: operationalizes
+    note: Consequence routing gives complex causality an assignment pathway.
+  - source: intervention-stewardship-core-source
+    target: remnant-stewardship-core-source
+    type: extends
+    note: Intervention stewardship extends the prior remnant-stewardship commitment.
+  - source: reverent-stewardship
+    target: steward-s-creed
+    type: operationalizes
+    note: The practical guide develops the creed into stewarding practice.
+  - source: trust-trustworthiness-and-reliance-core-source
+    target: boundary-ethics-core-source
+    type: connects
+    note: Reliance depends on how boundaries and permissions are held.
+  - source: custody-core-source
+    target: boundary-ethics-core-source
+    type: operationalizes
+    note: Custody applies boundary ethics to entrusted conditions.
+  - source: responsibility-absorption-core-source
+    target: proxy-localization-core-source
+    type: constrains
+    note: Responsibility absorption complicates proxy assignment.
+  - source: justice-across-scales-practical-applications
+    target: justice-across-scales
+    type: applies
+    note: The practical document applies the cross-scale justice framework.
+  - source: aomi-ai-responses
+    target: adversarial-occlusion-and-mechanism-integrity-v1
+    type: contextualizes
+    note: The dialogue notes preserve development context for AOMI.
+  - source: cognitive-signature-capture-an-unnamed-threat
+    target: mrie-unified-synthesis
+    type: raises-risk-for
+    note: Signature capture identifies a threat to identity and relational integrity.
+  - source: truth-ceiling
+    target: lawfulness-core-source
+    type: constrains
+    note: Truth ceilings limit what can remain lawfully legible across scale.
+  - source: self-as-coherence-field
+    target: relational-emergence-meta-architecture-rema
+    type: extends
+    note: The self is treated as a coherence pattern within relational emergence.
+  - source: collective-cognitive-substrate
+    target: the-intelligence-field-framework
+    type: extends
+    note: The collective substrate develops intelligence as an ecological field.
+  - source: relational-volition
+    target: self-as-coherence-field
+    type: extends
+    note: Volition develops freedom within a relationally constituted self.
+  - source: family-as-a-relational-field
+    target: collective-relational-substrate
+    type: specializes
+    note: Family is treated as a domain-specific relational field.
+  - source: caregiving-as-an-ecosystem
+    target: family-as-a-relational-field
+    type: applies
+    note: Caregiving applies relational-field thinking to a lived ecosystem.
+  - source: relational-perfection-a-manifesto
+    target: relational-perfection-framework
+    type: expresses
+    note: The manifesto expresses the framework in public-facing form.
+  - source: essence-of-existence-constitution-draft-2
+    target: the-essence-of-existence
+    type: formalizes
+    note: The constitution develops the manifesto into explicit commitments.
+  - source: context-layer-protocol-clp
+    target: context-layer-master-index
+    type: governs
+    note: CLP specifies the machine-readable layer used by the index.
+  - source: relational-primitive-engine-rpe
+    target: relational-primitives
+    type: operationalizes
+    note: RPE operationalizes the relational primitives computationally.
+  - source: implementations
+    target: relational-primitive-engine-rpe
+    type: indexes
+    note: The implementation registry points to executable framework work.

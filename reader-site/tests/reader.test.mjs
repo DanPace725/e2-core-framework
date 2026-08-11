@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import test from "node:test";
+import YAML from "yaml";
 
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -21,6 +22,7 @@ test("server-renders the E2 corpus reader shell", async () => {
   assert.match(html, /<title>E² Core Framework<\/title>/i);
   assert.match(html, /Core Framework/);
   assert.match(html, /AI index/);
+  assert.match(html, />Graph<\/button>/);
   assert.match(html, /For AI assistants/);
   assert.match(html, /href="\/llms\.txt"/);
   assert.match(html, /href="\/ormd-corpus\.txt"/);
@@ -49,6 +51,32 @@ test("publishes complete paired human and AI catalogs", async () => {
   assert.equal(catalog.docs.find((doc) => doc.slug === "self-as-coherence-field")?.clusterId, "G");
 });
 
+test("publishes a typed E2 relationship graph", async () => {
+  const [graph, docsGraph, relationSource, pagesConfig] = await Promise.all([
+    readFile(new URL("../public/graph.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../../docs/graph.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../graph-relations.yml", import.meta.url), "utf8").then(YAML.parse),
+    readFile(new URL("../../.pages.yml", import.meta.url), "utf8").then(YAML.parse),
+  ]);
+  const nodeIds = new Set(graph.nodes.map((node) => node.id));
+  assert.equal(graph.schemaVersion, 1);
+  assert.equal(graph.counts.nodes, 89);
+  assert.equal(graph.nodes.length, 89);
+  assert.equal(nodeIds.size, 89);
+  assert.equal(graph.clusters.length, 9);
+  assert.ok(graph.counts.explicitEdges >= 75);
+  assert.ok(graph.counts.suggestedEdges > 0);
+  assert.equal(graph.edges.length, graph.counts.edges);
+  assert.ok(graph.edges.every((edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)));
+  assert.ok(graph.edges.every((edge) => edge.source !== edge.target));
+  assert.ok(graph.edges.some((edge) => edge.type === "indexes" && edge.target === "aomi-ai-responses"));
+  assert.ok(graph.edges.some((edge) => edge.certainty === "suggested" && edge.provenance === "exact-title-mention"));
+  assert.deepEqual(docsGraph.counts, graph.counts);
+  assert.equal(relationSource.schema_version, 1);
+  assert.ok(relationSource.relations.length >= 40);
+  assert.ok(pagesConfig.content.some((item) => item.name === "navigation"));
+});
+
 test("publishes lightweight and full-corpus AI entry points", async () => {
   const [llms, rootLlms, corpus, robots, htmlIndex, htmlCorpus, htmlMaster, htmlDocs] = await Promise.all([
     readFile(new URL("../public/llms.txt", import.meta.url), "utf8"),
@@ -68,6 +96,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(llms, /ORMD is the AI-facing authority/);
   assert.match(llms, /https:\/\/raw\.githubusercontent\.com\/DanPace725\/e2-core-framework\/main\/reader-site\/public\/ormd\/context-layer-master-index\.ormd/);
   assert.match(llms, /HTML AI mirror: https:\/\/danpace725\.github\.io\/e2-core-framework\//);
+  assert.match(llms, /Machine-readable relationship graph/);
   assert.doesNotMatch(llms, /\]\(\/ormd\//);
   assert.equal(rootLlms, llms);
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
@@ -77,6 +106,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(robots, /^Sitemap:/m);
   assert.match(htmlIndex, /^<!doctype html>/);
   assert.match(htmlIndex, /Whole combined ORMD corpus/);
+  assert.match(htmlIndex, /Machine-readable relationship graph/);
   assert.match(htmlIndex, /Cluster I/);
   assert.doesNotMatch(htmlIndex, /Cluster [JK]/);
   assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);

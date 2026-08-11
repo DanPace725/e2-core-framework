@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-11T16:36:47.351Z",
+  "title": "E² Core Framework relationship graph",
+  "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
+  "authority": {
+    "nodeContent": "Paired Context Layer ORMD",
+    "humanReading": "Semantic Substrate Markdown",
+    "relationships": "Navigation metadata only; consult the linked documents for authority"
+  },
+  "counts": {
+    "nodes": 89,
+    "edges": 146,
+    "explicitEdges": 76,
+    "suggestedEdges": 70
+  },
+  "clusters": [
+    {
+      "id": "A",
+      "name": "Foundational Axioms & Core Ontology",
+      "scope": "The irreducible bedrock of E². Establishes what relationships *are*, how they compose, and what constraints govern all relational systems. Every other cluster presupposes this one."
+    },
+    {
+      "id": "B",
+      "name": "Formal, Mathematical & Epistemic Constraints",
+      "scope": "Formal mappings of E² into established mathematical formalisms, together with the epistemic conditions and limits governing what the framework may defensibly claim. Covers category theory, lambda calculus, relational physics, computability, embedded universality, and predictive lawfulness."
+    },
+    {
+      "id": "C",
+      "name": "Dynamics, Emergence & Systems Frameworks",
+      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence."
+    },
+    {
+      "id": "D",
+      "name": "Metabolic, Resonance & Temporal Physics",
+      "scope": "The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants."
+    },
+    {
+      "id": "E",
+      "name": "Ethics, Stewardship, Accountability & Rights",
+      "scope": "The normative and answerability layer of E². Grounds rights, stewardship, trust, custody, accountability, consequence routing, and repair in relational structure. Localization and typed-condition work make assignment inspectable within complex causal chains. Includes temporal ethics and AI interaction ethics."
+    },
+    {
+      "id": "F",
+      "name": "Adversarial, Security & Cognitive Integrity",
+      "scope": "How relational systems resist, detect, and recover from adversarial manipulation. AOMI formalizes mechanism gaming and Goodhart dynamics; MRIE addresses identity-pattern exposure through relational signatures; the Exposure Protocol preserves coherence during transmission."
+    },
+    {
+      "id": "G",
+      "name": "Consciousness, Cognition & Identity",
+      "scope": "How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems)."
+    },
+    {
+      "id": "H",
+      "name": "Social, Civilizational & Applied",
+      "scope": "E² applied to human social systems: families, care economies, power dynamics, civilization, and collective substrate. Includes manifestos and applied frameworks for transformation. Covers communication theory as a social application."
+    },
+    {
+      "id": "I",
+      "name": "Protocol, Infrastructure & Meta",
+      "scope": "The operational layer — how the Context Layer itself is structured, transmitted, and versioned. CLP defines the data model governing all other clusters; RPE is the simulation engine for relational primitives; Implementations is the living registry of E² applications."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "context-layer-master-index",
+      "title": "Context Layer Master Index",
+      "clusterId": null,
+      "frame": "meta.index.context-layer",
+      "confidence": 1,
+      "status": "context_meta_index",
+      "relationship": "meta_index",
+      "wordCount": 6229,
+      "readerUrl": "/?doc=context-layer-master-index",
+      "ormdUrl": "/ormd/context-layer-master-index.ormd"
+    },
+    {
+      "id": "e2-axioms",
+      "title": "E^2 Axioms",
+      "clusterId": "A",
+      "frame": "philosophy.relational-ontology.axioms",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 480,
+      "readerUrl": "/?doc=e2-axioms",
+      "ormdUrl": "/ormd/e2-axioms.ormd"
+    },
+    {
+      "id": "e2-entry-point",
+      "title": "E^2 Entry Point",
+      "clusterId": "A",
+      "frame": "ontology.relational.e2",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 623,
+      "readerUrl": "/?doc=e2-entry-point",
+      "ormdUrl": "/ormd/e2-entry-point.ormd"
+    },
+    {
+      "id": "e2-equation",
+      "title": "E^2 Equation: Recursive Composition and the Global Closure Operator",
+      "clusterId": "A",
+      "frame": "ontology.relational-physics",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 412,
+      "readerUrl": "/?doc=e2-equation",
+      "ormdUrl": "/ormd/e2-equation.ormd"
+    },
+    {
+      "id": "global-closure-operator",
+      "title": "Global Closure Operator",
+      "clusterId": "A",
+      "frame": "theoretical.ontology.relational",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 784,
+      "readerUrl": "/?doc=global-closure-operator",
+      "ormdUrl": "/ormd/global-closure-operator.ormd"
+    },
+    {
+      "id": "original-e2-work",
+      "title": "Original E^2 Work",
+      "clusterId": "A",
+      "frame": "research.index",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 120,
+      "readerUrl": "/?doc=original-e2-work",
+      "ormdUrl": "/ormd/original-e2-work.ormd"
+    },
+    {
+      "id": "relational-primitives",
+      "title": "Relational Primitives",
+      "clusterId": "A",
+      "frame": "formal.ontology.relational",
+      "confidence": 0.96,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 916,
+      "readerUrl": "/?doc=relational-primitives",
+      "ormdUrl": "/ormd/relational-primitives.ormd"
+    },
+    {
+      "id": "afd-first-principles",
+      "title": "AFD - First Principles",
+      "clusterId": "B",
+      "frame": "science.theory.emergence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3503,
+      "readerUrl": "/?doc=afd-first-principles",
+      "ormdUrl": "/ormd/afd-first-principles.ormd"
+    },
+    {
+      "id": "ct-translation-of-rps",
+      "title": "CT translation of RPs",
+      "clusterId": "B",
+      "frame": "formalism.relational-ontology",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1006,
+      "readerUrl": "/?doc=ct-translation-of-rps",
+      "ormdUrl": "/ormd/ct-translation-of-rps.ormd"
+    },
+    {
+      "id": "derivation-deep-dive",
+      "title": "Derivation Deep Dive: Categorical and Relational Physics",
+      "clusterId": "B",
+      "frame": "physics.theoretical.derivation",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 7069,
+      "readerUrl": "/?doc=derivation-deep-dive",
+      "ormdUrl": "/ormd/derivation-deep-dive.ormd"
+    },
+    {
+      "id": "embedded-universality-principle-eup",
+      "title": "Embedded Universality Principle (EUP)",
+      "clusterId": "B",
+      "frame": "epistemology.governance.embedded-universality",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 7347,
+      "readerUrl": "/?doc=embedded-universality-principle-eup",
+      "ormdUrl": "/ormd/embedded-universality-principle-eup.ormd"
+    },
+    {
+      "id": "lawfulness-core-source",
+      "title": "Lawfulness",
+      "clusterId": "B",
+      "frame": "epistemics.predictive_lawfulness",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1447,
+      "readerUrl": "/?doc=lawfulness-core-source",
+      "ormdUrl": "/ormd/lawfulness-core-source.ormd"
+    },
+    {
+      "id": "meta-pattern-decidability-conjecture-mpdc",
+      "title": "Meta-Pattern Decidability Conjecture (MPDC)",
+      "clusterId": "B",
+      "frame": "epistemology.conjecture",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 445,
+      "readerUrl": "/?doc=meta-pattern-decidability-conjecture-mpdc",
+      "ormdUrl": "/ormd/meta-pattern-decidability-conjecture-mpdc.ormd"
+    },
+    {
+      "id": "relational-derivation-chain",
+      "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+      "clusterId": "B",
+      "frame": "philosophy.relational.computability",
+      "confidence": 0.85,
+      "status": "paired_composite_or_alias",
+      "relationship": "renamed_conversion",
+      "wordCount": 12474,
+      "readerUrl": "/?doc=relational-derivation-chain",
+      "ormdUrl": "/ormd/relational-derivation-chain.ormd"
+    },
+    {
+      "id": "relational-field-dynamics-0-1",
+      "title": "Relational Field Dynamics 0.1",
+      "clusterId": "B",
+      "frame": "research.formalism",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 835,
+      "readerUrl": "/?doc=relational-field-dynamics-0-1",
+      "ormdUrl": "/ormd/relational-field-dynamics-0-1.ormd"
+    },
+    {
+      "id": "rp-lambda-calc-translation",
+      "title": "RP Lambda Calc Translation",
+      "clusterId": "B",
+      "frame": "formal.logic.translation",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 537,
+      "readerUrl": "/?doc=rp-lambda-calc-translation",
+      "ormdUrl": "/ormd/rp-lambda-calc-translation.ormd"
+    },
+    {
+      "id": "adaptation-via-informational-abstraction",
+      "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+      "clusterId": "C",
+      "frame": "scientific.theory",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 991,
+      "readerUrl": "/?doc=adaptation-via-informational-abstraction",
+      "ormdUrl": "/ormd/adaptation-via-informational-abstraction.ormd"
+    },
+    {
+      "id": "boundary-dynamics",
+      "title": "Boundary Dynamics",
+      "clusterId": "C",
+      "frame": "systems.boundary-dynamics",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3752,
+      "readerUrl": "/?doc=boundary-dynamics",
+      "ormdUrl": "/ormd/boundary-dynamics.ormd"
+    },
+    {
+      "id": "cfar",
+      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
+      "clusterId": "C",
+      "frame": "systems.framework.cfar",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 993,
+      "readerUrl": "/?doc=cfar",
+      "ormdUrl": "/ormd/cfar.ormd"
+    },
+    {
+      "id": "emergence-determination-foreclosure",
+      "title": "Emergence Determination Foreclosure",
+      "clusterId": "C",
+      "frame": "dynamics.emergence-determination-foreclosure",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2897,
+      "readerUrl": "/?doc=emergence-determination-foreclosure",
+      "ormdUrl": "/ormd/emergence-determination-foreclosure.ormd"
+    },
+    {
+      "id": "flow-operators-provisional",
+      "title": "Flow Operators: A Provisional Snapshot",
+      "clusterId": "C",
+      "frame": "dynamics.flow-operators",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2202,
+      "readerUrl": "/?doc=flow-operators-provisional",
+      "ormdUrl": "/ormd/flow-operators-provisional.ormd"
+    },
+    {
+      "id": "from-essential-relationships-to-ontological-transformation",
+      "title": "From Essential Relationships to Ontological Transformation",
+      "clusterId": "C",
+      "frame": "systems.ontology",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1173,
+      "readerUrl": "/?doc=from-essential-relationships-to-ontological-transformation",
+      "ormdUrl": "/ormd/from-essential-relationships-to-ontological-transformation.ormd"
+    },
+    {
+      "id": "pattern-integrity-over-time-under-entropy",
+      "title": "Pattern Integrity over Time under Entropy",
+      "clusterId": "C",
+      "frame": "theory.relational-physics",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3657,
+      "readerUrl": "/?doc=pattern-integrity-over-time-under-entropy",
+      "ormdUrl": "/ormd/pattern-integrity-over-time-under-entropy.ormd"
+    },
+    {
+      "id": "persistence-as-accumulated-stance-with-core-source",
+      "title": "Persistence as Accumulated Stance-With",
+      "clusterId": "C",
+      "frame": "dynamics.persistence_accumulated_stance_with",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1656,
+      "readerUrl": "/?doc=persistence-as-accumulated-stance-with-core-source",
+      "ormdUrl": "/ormd/persistence-as-accumulated-stance-with-core-source.ormd"
+    },
+    {
+      "id": "remf",
+      "title": "REMF",
+      "clusterId": "C",
+      "frame": "ontology.meta-framework",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1162,
+      "readerUrl": "/?doc=remf",
+      "ormdUrl": "/ormd/remf.ormd"
+    },
+    {
+      "id": "resolution-synthesis",
+      "title": "Resolution: Synthesis Notes",
+      "clusterId": "C",
+      "frame": "dynamics.resolution",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1797,
+      "readerUrl": "/?doc=resolution-synthesis",
+      "ormdUrl": "/ormd/resolution-synthesis.ormd"
+    },
+    {
+      "id": "tension",
+      "title": "Synthesis: Tensional Intelligence and the Praxis of Paradox",
+      "clusterId": "C",
+      "frame": "philosophy.tensional_intelligence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 502,
+      "readerUrl": "/?doc=tension",
+      "ormdUrl": "/ormd/tension.ormd"
+    },
+    {
+      "id": "tensional-intelligence-a-theoretical-foundation",
+      "title": "Tensional Intelligence: A Theoretical Foundation",
+      "clusterId": "C",
+      "frame": "theory.tensional_intelligence",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1207,
+      "readerUrl": "/?doc=tensional-intelligence-a-theoretical-foundation",
+      "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd"
+    },
+    {
+      "id": "cfa",
+      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
+      "clusterId": "C",
+      "frame": "systems.science.cfa",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3517,
+      "readerUrl": "/?doc=cfa",
+      "ormdUrl": "/ormd/cfa.ormd"
+    },
+    {
+      "id": "emergence-engine-overview",
+      "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
+      "clusterId": "C",
+      "frame": "research.simulation.ecology",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2900,
+      "readerUrl": "/?doc=emergence-engine-overview",
+      "ormdUrl": "/ormd/emergence-engine-overview.ormd"
+    },
+    {
+      "id": "universal-emergence-pattern",
+      "title": "Universal Emergence Pattern",
+      "clusterId": "C",
+      "frame": "theory.emergence",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2250,
+      "readerUrl": "/?doc=universal-emergence-pattern",
+      "ormdUrl": "/ormd/universal-emergence-pattern.ormd"
+    },
+    {
+      "id": "metabolic-meaning-phase-space-mmps",
+      "title": "Metabolic Meaning Phase Space (MMPS)",
+      "clusterId": "D",
+      "frame": "theory.metabolic-meaning",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 682,
+      "readerUrl": "/?doc=metabolic-meaning-phase-space-mmps",
+      "ormdUrl": "/ormd/metabolic-meaning-phase-space-mmps.ormd"
+    },
+    {
+      "id": "resonance-architecture-4-17-25",
+      "title": "Resonance Architecture 4.17.25",
+      "clusterId": "D",
+      "frame": "epistemology.resonance",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2219,
+      "readerUrl": "/?doc=resonance-architecture-4-17-25",
+      "ormdUrl": "/ormd/resonance-architecture-4-17-25.ormd"
+    },
+    {
+      "id": "signal-as-bias-field",
+      "title": "Signal as Bias Field",
+      "clusterId": "D",
+      "frame": "relational.physics.signal-theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1776,
+      "readerUrl": "/?doc=signal-as-bias-field",
+      "ormdUrl": "/ormd/signal-as-bias-field.ormd"
+    },
+    {
+      "id": "slow-layer-clock-ratio-core-source",
+      "title": "Slow-Layer Clock Ratio",
+      "clusterId": "D",
+      "frame": "dynamics.slow_layer_clock_ratio",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1114,
+      "readerUrl": "/?doc=slow-layer-clock-ratio-core-source",
+      "ormdUrl": "/ormd/slow-layer-clock-ratio-core-source.ormd"
+    },
+    {
+      "id": "tcl-plain-english-summary",
+      "title": "Temporal Constraint Lamination: What We Found",
+      "clusterId": "D",
+      "frame": "research.report",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3427,
+      "readerUrl": "/?doc=tcl-plain-english-summary",
+      "ormdUrl": "/ormd/tcl-plain-english-summary.ormd"
+    },
+    {
+      "id": "the-architecture-of-resonant-systems-4-26-25",
+      "title": "The Architecture of Resonant Systems",
+      "clusterId": "D",
+      "frame": "relational.systems.theory",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 920,
+      "readerUrl": "/?doc=the-architecture-of-resonant-systems-4-26-25",
+      "ormdUrl": "/ormd/the-architecture-of-resonant-systems-4-26-25.ormd"
+    },
+    {
+      "id": "tcl-three-constants",
+      "title": "The Operating Window: Three Constants from One Landscape",
+      "clusterId": "D",
+      "frame": "systems.analysis.tcl",
+      "confidence": 0.96,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2134,
+      "readerUrl": "/?doc=tcl-three-constants",
+      "ormdUrl": "/ormd/tcl-three-constants.ormd"
+    },
+    {
+      "id": "the-resonance-framework-an-ontological-map-4-24-25",
+      "title": "The Resonance Framework: An Ontological Map",
+      "clusterId": "D",
+      "frame": "ontology.map",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 820,
+      "readerUrl": "/?doc=the-resonance-framework-an-ontological-map-4-24-25",
+      "ormdUrl": "/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd"
+    },
+    {
+      "id": "asymmetry-maintenance-core-source",
+      "title": "Asymmetry Maintenance",
+      "clusterId": "E",
+      "frame": "mechanics.persistence.asymmetry",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1399,
+      "readerUrl": "/?doc=asymmetry-maintenance-core-source",
+      "ormdUrl": "/ormd/asymmetry-maintenance-core-source.ormd"
+    },
+    {
+      "id": "boundary-ethics-core-source",
+      "title": "Boundary Ethics",
+      "clusterId": "E",
+      "frame": "ethics.boundary.posture",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1524,
+      "readerUrl": "/?doc=boundary-ethics-core-source",
+      "ormdUrl": "/ormd/boundary-ethics-core-source.ormd"
+    },
+    {
+      "id": "complex-causality-core-source",
+      "title": "Complex Causality",
+      "clusterId": "E",
+      "frame": "mechanics.causality.consequence",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1436,
+      "readerUrl": "/?doc=complex-causality-core-source",
+      "ormdUrl": "/ormd/complex-causality-core-source.ormd"
+    },
+    {
+      "id": "condition-as-typed-terrain-core-source",
+      "title": "Condition as Typed Terrain",
+      "clusterId": "E",
+      "frame": "causality.condition_typed_terrain",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1580,
+      "readerUrl": "/?doc=condition-as-typed-terrain-core-source",
+      "ormdUrl": "/ormd/condition-as-typed-terrain-core-source.ormd"
+    },
+    {
+      "id": "consequence-routing-core-source",
+      "title": "Consequence Routing",
+      "clusterId": "E",
+      "frame": "accountability.consequence-routing",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2013,
+      "readerUrl": "/?doc=consequence-routing-core-source",
+      "ormdUrl": "/ormd/consequence-routing-core-source.ormd"
+    },
+    {
+      "id": "custody-core-source",
+      "title": "Custody",
+      "clusterId": "E",
+      "frame": "ethics.custody",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3802,
+      "readerUrl": "/?doc=custody-core-source",
+      "ormdUrl": "/ormd/custody-core-source.ormd"
+    },
+    {
+      "id": "ethical-occlusion-via-temporal-compression-eotc",
+      "title": "Ethical Occlusion via Temporal Compression (EOTC)",
+      "clusterId": "E",
+      "frame": "engineering.ethics.temporal-occlusion",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 792,
+      "readerUrl": "/?doc=ethical-occlusion-via-temporal-compression-eotc",
+      "ormdUrl": "/ormd/ethical-occlusion-via-temporal-compression-eotc.ormd"
+    },
+    {
+      "id": "ethical-principles-for-human-ai-interaction",
+      "title": "Ethical Principles for Human-AI Interaction",
+      "clusterId": "E",
+      "frame": "ethics.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 479,
+      "readerUrl": "/?doc=ethical-principles-for-human-ai-interaction",
+      "ormdUrl": "/ormd/ethical-principles-for-human-ai-interaction.ormd"
+    },
+    {
+      "id": "human-ai-creative-collaboration-framework-haic",
+      "title": "Human-AI Creative Collaboration Framework (HAIC)",
+      "clusterId": "E",
+      "frame": "governance.collaboration",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 492,
+      "readerUrl": "/?doc=human-ai-creative-collaboration-framework-haic",
+      "ormdUrl": "/ormd/human-ai-creative-collaboration-framework-haic.ormd"
+    },
+    {
+      "id": "interlocked-stewardship-v2",
+      "title": "Interlocked Stewardship V2",
+      "clusterId": "E",
+      "frame": "social.analysis.stewardship",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1470,
+      "readerUrl": "/?doc=interlocked-stewardship-v2",
+      "ormdUrl": "/ormd/interlocked-stewardship-v2.ormd"
+    },
+    {
+      "id": "intervention-stewardship-core-source",
+      "title": "Intervention Stewardship",
+      "clusterId": "E",
+      "frame": "ethics.stewardship.intervention",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1587,
+      "readerUrl": "/?doc=intervention-stewardship-core-source",
+      "ormdUrl": "/ormd/intervention-stewardship-core-source.ormd"
+    },
+    {
+      "id": "justice-across-scales",
+      "title": "Justice Across Scales",
+      "clusterId": "E",
+      "frame": "ethics.justice.scales",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2857,
+      "readerUrl": "/?doc=justice-across-scales",
+      "ormdUrl": "/ormd/justice-across-scales.ormd"
+    },
+    {
+      "id": "justice-across-scales-practical-applications",
+      "title": "Justice Across Scales: Practical Applications",
+      "clusterId": "E",
+      "frame": "justice.praxis.v1",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 5551,
+      "readerUrl": "/?doc=justice-across-scales-practical-applications",
+      "ormdUrl": "/ormd/justice-across-scales-practical-applications.ormd"
+    },
+    {
+      "id": "proxy-localization-core-source",
+      "title": "Proxy Localization",
+      "clusterId": "E",
+      "frame": "ethics.assignment.proxy",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1706,
+      "readerUrl": "/?doc=proxy-localization-core-source",
+      "ormdUrl": "/ormd/proxy-localization-core-source.ormd"
+    },
+    {
+      "id": "relational-bill-of-rights-v2",
+      "title": "Relational Bill of Rights v2",
+      "clusterId": "E",
+      "frame": "ethics.relational",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1057,
+      "readerUrl": "/?doc=relational-bill-of-rights-v2",
+      "ormdUrl": "/ormd/relational-bill-of-rights-v2.ormd"
+    },
+    {
+      "id": "relational-localization-core-source",
+      "title": "Relational Localization",
+      "clusterId": "E",
+      "frame": "ethics.assignment.localization",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1496,
+      "readerUrl": "/?doc=relational-localization-core-source",
+      "ormdUrl": "/ormd/relational-localization-core-source.ormd"
+    },
+    {
+      "id": "remnant-stewardship-core-source",
+      "title": "Remnant Stewardship",
+      "clusterId": "E",
+      "frame": "ethics.stewardship.remnant",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2787,
+      "readerUrl": "/?doc=remnant-stewardship-core-source",
+      "ormdUrl": "/ormd/remnant-stewardship-core-source.ormd"
+    },
+    {
+      "id": "responsibility-absorption-core-source",
+      "title": "Responsibility Absorption",
+      "clusterId": "E",
+      "frame": "governance.responsibility_absorption",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1048,
+      "readerUrl": "/?doc=responsibility-absorption-core-source",
+      "ormdUrl": "/ormd/responsibility-absorption-core-source.ormd"
+    },
+    {
+      "id": "reverent-stewardship",
+      "title": "Reverent Stewardship: A Recursion of Principles & Practical Guide",
+      "clusterId": "E",
+      "frame": "ethics.stewardship.guide",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1368,
+      "readerUrl": "/?doc=reverent-stewardship",
+      "ormdUrl": "/ormd/reverent-stewardship.ormd"
+    },
+    {
+      "id": "sign-mediated-flow-routing",
+      "title": "Sign-Mediated Accountability and Flow Routing",
+      "clusterId": "E",
+      "frame": "accountability.sign-mediated-routing",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 724,
+      "readerUrl": "/?doc=sign-mediated-flow-routing",
+      "ormdUrl": "/ormd/sign-mediated-flow-routing.ormd"
+    },
+    {
+      "id": "steward-s-creed",
+      "title": "Steward’s Creed",
+      "clusterId": "E",
+      "frame": "philosophical.creed",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 128,
+      "readerUrl": "/?doc=steward-s-creed",
+      "ormdUrl": "/ormd/steward-s-creed.ormd"
+    },
+    {
+      "id": "trust-trustworthiness-and-reliance-core-source",
+      "title": "Trust, Trustworthiness, and Reliance",
+      "clusterId": "E",
+      "frame": "relational.trust",
+      "confidence": 0.84,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2508,
+      "readerUrl": "/?doc=trust-trustworthiness-and-reliance-core-source",
+      "ormdUrl": "/ormd/trust-trustworthiness-and-reliance-core-source.ormd"
+    },
+    {
+      "id": "adversarial-occlusion-and-mechanism-integrity-v1",
+      "title": "Adversarial Occlusion and Mechanism Integrity V1",
+      "clusterId": "F",
+      "frame": "security.governance.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 2873,
+      "readerUrl": "/?doc=adversarial-occlusion-and-mechanism-integrity-v1",
+      "ormdUrl": "/ormd/adversarial-occlusion-and-mechanism-integrity-v1.ormd"
+    },
+    {
+      "id": "aomi-ai-responses",
+      "title": "AOMI: Dialogue-Derived Doctrine Notes",
+      "clusterId": "F",
+      "frame": "ethics.adversarial",
+      "confidence": 0.92,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1313,
+      "readerUrl": "/?doc=aomi-ai-responses",
+      "ormdUrl": "/ormd/aomi-ai-responses.ormd"
+    },
+    {
+      "id": "cognitive-signature-capture-an-unnamed-threat",
+      "title": "Cognitive Signature Capture: An Unnamed Threat",
+      "clusterId": "F",
+      "frame": "ethics.cognitive_security",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 531,
+      "readerUrl": "/?doc=cognitive-signature-capture-an-unnamed-threat",
+      "ormdUrl": "/ormd/cognitive-signature-capture-an-unnamed-threat.ormd"
+    },
+    {
+      "id": "exposure-protocol",
+      "title": "Exposure Protocol: A Coherence-Preserving Transmission Framework",
+      "clusterId": "F",
+      "frame": "pedagogy.framework",
+      "confidence": 0.95,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 675,
+      "readerUrl": "/?doc=exposure-protocol",
+      "ormdUrl": "/ormd/exposure-protocol.ormd"
+    },
+    {
+      "id": "mrie-unified-synthesis",
+      "title": "MRIE - Unified Synthesis",
+      "clusterId": "F",
+      "frame": "research.identity-security",
+      "confidence": 0.9,
+      "status": "paired_composite_or_alias",
+      "relationship": "lineage_preserving_merge",
+      "wordCount": 2162,
+      "readerUrl": "/?doc=mrie-unified-synthesis",
+      "ormdUrl": "/ormd/mrie-unified-synthesis.ormd"
+    },
+    {
+      "id": "relational-irreducibility-framework-rif",
+      "title": "Relational Irreducibility Framework (RIF)",
+      "clusterId": "F",
+      "frame": "philosophy.systems-theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 648,
+      "readerUrl": "/?doc=relational-irreducibility-framework-rif",
+      "ormdUrl": "/ormd/relational-irreducibility-framework-rif.ormd"
+    },
+    {
+      "id": "truth-ceiling",
+      "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
+      "clusterId": "F",
+      "frame": "epistemics.governance",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1376,
+      "readerUrl": "/?doc=truth-ceiling",
+      "ormdUrl": "/ormd/truth-ceiling.ormd"
+    },
+    {
+      "id": "collective-cognitive-substrate",
+      "title": "Collective Cognitive Substrate",
+      "clusterId": "G",
+      "frame": "cognitive.ecology.synthesis",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 6186,
+      "readerUrl": "/?doc=collective-cognitive-substrate",
+      "ormdUrl": "/ormd/collective-cognitive-substrate.ormd"
+    },
+    {
+      "id": "ontological-systems-interface-osi-model",
+      "title": "Ontological Systems Interface (OSI) Model",
+      "clusterId": "G",
+      "frame": "relational.ontology",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3541,
+      "readerUrl": "/?doc=ontological-systems-interface-osi-model",
+      "ormdUrl": "/ormd/ontological-systems-interface-osi-model.ormd"
+    },
+    {
+      "id": "relational-emergence-meta-architecture-rema",
+      "title": "Relational Emergence Meta-Architecture (REMA)",
+      "clusterId": "G",
+      "frame": "theory.consciousness.rema",
+      "confidence": 0.88,
+      "status": "paired_composite_or_alias",
+      "relationship": "recovered_synthesis",
+      "wordCount": 3539,
+      "readerUrl": "/?doc=relational-emergence-meta-architecture-rema",
+      "ormdUrl": "/ormd/relational-emergence-meta-architecture-rema.ormd"
+    },
+    {
+      "id": "relational-volition",
+      "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
+      "clusterId": "G",
+      "frame": "philosophy.relational-physics",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 679,
+      "readerUrl": "/?doc=relational-volition",
+      "ormdUrl": "/ormd/relational-volition.ormd"
+    },
+    {
+      "id": "the-intelligence-field-framework",
+      "title": "The 'Intelligence Field' Framework",
+      "clusterId": "G",
+      "frame": "cognitive.theory.framework",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 587,
+      "readerUrl": "/?doc=the-intelligence-field-framework",
+      "ormdUrl": "/ormd/the-intelligence-field-framework.ormd"
+    },
+    {
+      "id": "self-as-coherence-field",
+      "title": "The Self as Coherence Field",
+      "clusterId": "G",
+      "frame": "cognition.self_coherence",
+      "confidence": 0.93,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3479,
+      "readerUrl": "/?doc=self-as-coherence-field",
+      "ormdUrl": "/ormd/self-as-coherence-field.ormd"
+    },
+    {
+      "id": "caregiving-as-an-ecosystem",
+      "title": "Caregiving as an Ecosystem",
+      "clusterId": "H",
+      "frame": "philosophy.caregiving",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 775,
+      "readerUrl": "/?doc=caregiving-as-an-ecosystem",
+      "ormdUrl": "/ormd/caregiving-as-an-ecosystem.ormd"
+    },
+    {
+      "id": "collective-relational-substrate",
+      "title": "Collective Relational Substrate",
+      "clusterId": "H",
+      "frame": "civilization.relational_substrate",
+      "confidence": 0.9,
+      "status": "paired_composite_or_alias",
+      "relationship": "lineage_preserving_merge",
+      "wordCount": 14587,
+      "readerUrl": "/?doc=collective-relational-substrate",
+      "ormdUrl": "/ormd/collective-relational-substrate.ormd"
+    },
+    {
+      "id": "communication-as-coherence",
+      "title": "Communication as Coherence",
+      "clusterId": "H",
+      "frame": "communication.theory",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1358,
+      "readerUrl": "/?doc=communication-as-coherence",
+      "ormdUrl": "/ormd/communication-as-coherence.ormd"
+    },
+    {
+      "id": "declaration-of-interdependence",
+      "title": "Declaration of Interdependence",
+      "clusterId": "H",
+      "frame": "social.manifesto",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 339,
+      "readerUrl": "/?doc=declaration-of-interdependence",
+      "ormdUrl": "/ormd/declaration-of-interdependence.ormd"
+    },
+    {
+      "id": "essence-of-existence-constitution-draft-2",
+      "title": "Essence of Existence Constitution - Draft 2",
+      "clusterId": "H",
+      "frame": "ontology.constitution",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1778,
+      "readerUrl": "/?doc=essence-of-existence-constitution-draft-2",
+      "ormdUrl": "/ormd/essence-of-existence-constitution-draft-2.ormd"
+    },
+    {
+      "id": "family-as-a-relational-field",
+      "title": "Family as a Relational Field",
+      "clusterId": "H",
+      "frame": "philosophy.family_dynamics",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 11020,
+      "readerUrl": "/?doc=family-as-a-relational-field",
+      "ormdUrl": "/ormd/family-as-a-relational-field.ormd"
+    },
+    {
+      "id": "layer-2-draft-rvp-and-vme-developments",
+      "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
+      "clusterId": "H",
+      "frame": "economics.relational.specification",
+      "confidence": 0.85,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1216,
+      "readerUrl": "/?doc=layer-2-draft-rvp-and-vme-developments",
+      "ormdUrl": "/ormd/layer-2-draft-rvp-and-vme-developments.ormd"
+    },
+    {
+      "id": "power-as-relational-field-coherence",
+      "title": "Power as Relational Field Coherence",
+      "clusterId": "H",
+      "frame": "theoretical.sociophysics.power",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 6578,
+      "readerUrl": "/?doc=power-as-relational-field-coherence",
+      "ormdUrl": "/ormd/power-as-relational-field-coherence.ormd"
+    },
+    {
+      "id": "relational-perfection-framework",
+      "title": "Relational Perfection: A Framework for Emergent Integrity",
+      "clusterId": "H",
+      "frame": "philosophy.ontology",
+      "confidence": 0.95,
+      "status": "paired_composite_or_alias",
+      "relationship": "renamed_conversion",
+      "wordCount": 1030,
+      "readerUrl": "/?doc=relational-perfection-framework",
+      "ormdUrl": "/ormd/relational-perfection-framework.ormd"
+    },
+    {
+      "id": "relational-perfection-a-manifesto",
+      "title": "Relational Perfection: A Manifesto",
+      "clusterId": "H",
+      "frame": "philosophy.manifesto",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 476,
+      "readerUrl": "/?doc=relational-perfection-a-manifesto",
+      "ormdUrl": "/ormd/relational-perfection-a-manifesto.ormd"
+    },
+    {
+      "id": "the-cyclical-integrity-framework",
+      "title": "The Cyclical Integrity framework",
+      "clusterId": "H",
+      "frame": "philosophy.systems",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1596,
+      "readerUrl": "/?doc=the-cyclical-integrity-framework",
+      "ormdUrl": "/ormd/the-cyclical-integrity-framework.ormd"
+    },
+    {
+      "id": "the-essence-of-existence",
+      "title": "The Essence of Existence",
+      "clusterId": "H",
+      "frame": "manifesto.relational",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 16234,
+      "readerUrl": "/?doc=the-essence-of-existence",
+      "ormdUrl": "/ormd/the-essence-of-existence.ormd"
+    },
+    {
+      "id": "context-layer-protocol-clp",
+      "title": "Context Layer Protocol (CLP) — Overview & Starter Spec v0.2",
+      "clusterId": "I",
+      "frame": "protocol.specification",
+      "confidence": 0.9,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 1406,
+      "readerUrl": "/?doc=context-layer-protocol-clp",
+      "ormdUrl": "/ormd/context-layer-protocol-clp.ormd"
+    },
+    {
+      "id": "implementations",
+      "title": "Implementations",
+      "clusterId": "I",
+      "frame": "registry.implementations",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 25,
+      "readerUrl": "/?doc=implementations",
+      "ormdUrl": "/ormd/implementations.ormd"
+    },
+    {
+      "id": "relational-primitive-engine-rpe",
+      "title": "Relational Primitive Engine (RPE)",
+      "clusterId": "I",
+      "frame": "engineering.simulation.rpe",
+      "confidence": 0.98,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 704,
+      "readerUrl": "/?doc=relational-primitive-engine-rpe",
+      "ormdUrl": "/ormd/relational-primitive-engine-rpe.ormd"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e2-axioms--formalizes--e2-entry-point",
+      "source": "e2-axioms",
+      "target": "e2-entry-point",
+      "type": "formalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The axioms make the entry-point commitments explicit."
+    },
+    {
+      "id": "relational-primitives--formalizes--e2-entry-point",
+      "source": "relational-primitives",
+      "target": "e2-entry-point",
+      "type": "formalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The primitives provide the working relational grammar."
+    },
+    {
+      "id": "e2-equation--incorporates--global-closure-operator",
+      "source": "e2-equation",
+      "target": "global-closure-operator",
+      "type": "incorporates",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The equation develops recursive composition through global closure."
+    },
+    {
+      "id": "original-e2-work--contextualizes--e2-entry-point",
+      "source": "original-e2-work",
+      "target": "e2-entry-point",
+      "type": "contextualizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The research index preserves the earlier E2 development context."
+    },
+    {
+      "id": "ct-translation-of-rps--translates--relational-primitives",
+      "source": "ct-translation-of-rps",
+      "target": "relational-primitives",
+      "type": "translates",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Category-theoretic translation of the relational primitives."
+    },
+    {
+      "id": "rp-lambda-calc-translation--translates--relational-primitives",
+      "source": "rp-lambda-calc-translation",
+      "target": "relational-primitives",
+      "type": "translates",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Lambda-calculus translation of the relational primitives."
+    },
+    {
+      "id": "relational-field-dynamics-0-1--formalizes--relational-primitives",
+      "source": "relational-field-dynamics-0-1",
+      "target": "relational-primitives",
+      "type": "formalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Field dynamics develops a formal systems expression of the primitives."
+    },
+    {
+      "id": "relational-derivation-chain--derives-from--e2-axioms",
+      "source": "relational-derivation-chain",
+      "target": "e2-axioms",
+      "type": "derives-from",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The derivation chain begins from the E2 commitments."
+    },
+    {
+      "id": "relational-derivation-chain--connects--meta-pattern-decidability-conjecture-mpdc",
+      "source": "relational-derivation-chain",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "connects",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The chain explicitly connects E2 to MPDC."
+    },
+    {
+      "id": "relational-derivation-chain--connects--afd-first-principles",
+      "source": "relational-derivation-chain",
+      "target": "afd-first-principles",
+      "type": "connects",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The chain explicitly connects E2 to AFD."
+    },
+    {
+      "id": "derivation-deep-dive--extends--relational-field-dynamics-0-1",
+      "source": "derivation-deep-dive",
+      "target": "relational-field-dynamics-0-1",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The deep dive extends the formal relational-physics program."
+    },
+    {
+      "id": "boundary-dynamics--generalizes--flow-operators-provisional",
+      "source": "boundary-dynamics",
+      "target": "flow-operators-provisional",
+      "type": "generalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Boundary dynamics generalizes operations previously framed as flow."
+    },
+    {
+      "id": "boundary-dynamics--derives-from--metabolic-meaning-phase-space-mmps",
+      "source": "boundary-dynamics",
+      "target": "metabolic-meaning-phase-space-mmps",
+      "type": "derives-from",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Boundary dynamics inherits the recursive-morphism treatment from MMPS."
+    },
+    {
+      "id": "flow-operators-provisional--depends-on--signal-as-bias-field",
+      "source": "flow-operators-provisional",
+      "target": "signal-as-bias-field",
+      "type": "depends-on",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Flow interpretation inherits observer-position dependence."
+    },
+    {
+      "id": "resolution-synthesis--informs--cfar",
+      "source": "resolution-synthesis",
+      "target": "cfar",
+      "type": "informs",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Resolution supplies one of CFAR's operative dynamics."
+    },
+    {
+      "id": "emergence-determination-foreclosure--constrains--universal-emergence-pattern",
+      "source": "emergence-determination-foreclosure",
+      "target": "universal-emergence-pattern",
+      "type": "constrains",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Foreclosure describes a limiting condition on emergence."
+    },
+    {
+      "id": "emergence-engine-overview--operationalizes--universal-emergence-pattern",
+      "source": "emergence-engine-overview",
+      "target": "universal-emergence-pattern",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The simulation makes emergence dynamics inspectable."
+    },
+    {
+      "id": "persistence-as-accumulated-stance-with-core-source--extends--pattern-integrity-over-time-under-entropy",
+      "source": "persistence-as-accumulated-stance-with-core-source",
+      "target": "pattern-integrity-over-time-under-entropy",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Persistence develops how pattern integrity accumulates over time."
+    },
+    {
+      "id": "tension--synthesizes--tensional-intelligence-a-theoretical-foundation",
+      "source": "tension",
+      "target": "tensional-intelligence-a-theoretical-foundation",
+      "type": "synthesizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The synthesis translates the theoretical foundation into praxis."
+    },
+    {
+      "id": "cfa--operationalizes--cfar",
+      "source": "cfa",
+      "target": "cfar",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "CFA operationalizes relational complexity for intervention."
+    },
+    {
+      "id": "the-architecture-of-resonant-systems-4-26-25--extends--resonance-architecture-4-17-25",
+      "source": "the-architecture-of-resonant-systems-4-26-25",
+      "target": "resonance-architecture-4-17-25",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The later architecture develops the earlier resonance account."
+    },
+    {
+      "id": "the-resonance-framework-an-ontological-map-4-24-25--maps--resonance-architecture-4-17-25",
+      "source": "the-resonance-framework-an-ontological-map-4-24-25",
+      "target": "resonance-architecture-4-17-25",
+      "type": "maps",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The ontological map orients the resonance framework."
+    },
+    {
+      "id": "tcl-plain-english-summary--explains--tcl-three-constants",
+      "source": "tcl-plain-english-summary",
+      "target": "tcl-three-constants",
+      "type": "explains",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The plain-English report interprets the three-constant result."
+    },
+    {
+      "id": "slow-layer-clock-ratio-core-source--connects--tcl-three-constants",
+      "source": "slow-layer-clock-ratio-core-source",
+      "target": "tcl-three-constants",
+      "type": "connects",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Both address temporal scale and operating-window dynamics."
+    },
+    {
+      "id": "sign-mediated-flow-routing--depends-on--boundary-dynamics",
+      "source": "sign-mediated-flow-routing",
+      "target": "boundary-dynamics",
+      "type": "depends-on",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Accountability routing relies on typed boundary structure."
+    },
+    {
+      "id": "sign-mediated-flow-routing--extends--consequence-routing-core-source",
+      "source": "sign-mediated-flow-routing",
+      "target": "consequence-routing-core-source",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Sign mediation extends the routing of consequence and accountability."
+    },
+    {
+      "id": "consequence-routing-core-source--operationalizes--complex-causality-core-source",
+      "source": "consequence-routing-core-source",
+      "target": "complex-causality-core-source",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Consequence routing gives complex causality an assignment pathway."
+    },
+    {
+      "id": "intervention-stewardship-core-source--extends--remnant-stewardship-core-source",
+      "source": "intervention-stewardship-core-source",
+      "target": "remnant-stewardship-core-source",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Intervention stewardship extends the prior remnant-stewardship commitment."
+    },
+    {
+      "id": "reverent-stewardship--operationalizes--steward-s-creed",
+      "source": "reverent-stewardship",
+      "target": "steward-s-creed",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The practical guide develops the creed into stewarding practice."
+    },
+    {
+      "id": "trust-trustworthiness-and-reliance-core-source--connects--boundary-ethics-core-source",
+      "source": "trust-trustworthiness-and-reliance-core-source",
+      "target": "boundary-ethics-core-source",
+      "type": "connects",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Reliance depends on how boundaries and permissions are held."
+    },
+    {
+      "id": "custody-core-source--operationalizes--boundary-ethics-core-source",
+      "source": "custody-core-source",
+      "target": "boundary-ethics-core-source",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Custody applies boundary ethics to entrusted conditions."
+    },
+    {
+      "id": "responsibility-absorption-core-source--constrains--proxy-localization-core-source",
+      "source": "responsibility-absorption-core-source",
+      "target": "proxy-localization-core-source",
+      "type": "constrains",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Responsibility absorption complicates proxy assignment."
+    },
+    {
+      "id": "justice-across-scales-practical-applications--applies--justice-across-scales",
+      "source": "justice-across-scales-practical-applications",
+      "target": "justice-across-scales",
+      "type": "applies",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The practical document applies the cross-scale justice framework."
+    },
+    {
+      "id": "aomi-ai-responses--contextualizes--adversarial-occlusion-and-mechanism-integrity-v1",
+      "source": "aomi-ai-responses",
+      "target": "adversarial-occlusion-and-mechanism-integrity-v1",
+      "type": "contextualizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The dialogue notes preserve development context for AOMI."
+    },
+    {
+      "id": "cognitive-signature-capture-an-unnamed-threat--raises-risk-for--mrie-unified-synthesis",
+      "source": "cognitive-signature-capture-an-unnamed-threat",
+      "target": "mrie-unified-synthesis",
+      "type": "raises-risk-for",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Signature capture identifies a threat to identity and relational integrity."
+    },
+    {
+      "id": "truth-ceiling--constrains--lawfulness-core-source",
+      "source": "truth-ceiling",
+      "target": "lawfulness-core-source",
+      "type": "constrains",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Truth ceilings limit what can remain lawfully legible across scale."
+    },
+    {
+      "id": "self-as-coherence-field--extends--relational-emergence-meta-architecture-rema",
+      "source": "self-as-coherence-field",
+      "target": "relational-emergence-meta-architecture-rema",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The self is treated as a coherence pattern within relational emergence."
+    },
+    {
+      "id": "collective-cognitive-substrate--extends--the-intelligence-field-framework",
+      "source": "collective-cognitive-substrate",
+      "target": "the-intelligence-field-framework",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The collective substrate develops intelligence as an ecological field."
+    },
+    {
+      "id": "relational-volition--extends--self-as-coherence-field",
+      "source": "relational-volition",
+      "target": "self-as-coherence-field",
+      "type": "extends",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Volition develops freedom within a relationally constituted self."
+    },
+    {
+      "id": "family-as-a-relational-field--specializes--collective-relational-substrate",
+      "source": "family-as-a-relational-field",
+      "target": "collective-relational-substrate",
+      "type": "specializes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Family is treated as a domain-specific relational field."
+    },
+    {
+      "id": "caregiving-as-an-ecosystem--applies--family-as-a-relational-field",
+      "source": "caregiving-as-an-ecosystem",
+      "target": "family-as-a-relational-field",
+      "type": "applies",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Caregiving applies relational-field thinking to a lived ecosystem."
+    },
+    {
+      "id": "relational-perfection-a-manifesto--expresses--relational-perfection-framework",
+      "source": "relational-perfection-a-manifesto",
+      "target": "relational-perfection-framework",
+      "type": "expresses",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The manifesto expresses the framework in public-facing form."
+    },
+    {
+      "id": "essence-of-existence-constitution-draft-2--formalizes--the-essence-of-existence",
+      "source": "essence-of-existence-constitution-draft-2",
+      "target": "the-essence-of-existence",
+      "type": "formalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The constitution develops the manifesto into explicit commitments."
+    },
+    {
+      "id": "context-layer-protocol-clp--governs--context-layer-master-index",
+      "source": "context-layer-protocol-clp",
+      "target": "context-layer-master-index",
+      "type": "governs",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "CLP specifies the machine-readable layer used by the index."
+    },
+    {
+      "id": "relational-primitive-engine-rpe--operationalizes--relational-primitives",
+      "source": "relational-primitive-engine-rpe",
+      "target": "relational-primitives",
+      "type": "operationalizes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "RPE operationalizes the relational primitives computationally."
+    },
+    {
+      "id": "implementations--indexes--relational-primitive-engine-rpe",
+      "source": "implementations",
+      "target": "relational-primitive-engine-rpe",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "The implementation registry points to executable framework work."
+    },
+    {
+      "id": "context-layer-master-index--indexes--relational-primitives",
+      "source": "context-layer-master-index",
+      "target": "relational-primitives",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster A."
+    },
+    {
+      "id": "context-layer-master-index--indexes--e2-equation",
+      "source": "context-layer-master-index",
+      "target": "e2-equation",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster A."
+    },
+    {
+      "id": "context-layer-master-index--indexes--global-closure-operator",
+      "source": "context-layer-master-index",
+      "target": "global-closure-operator",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster A."
+    },
+    {
+      "id": "context-layer-master-index--indexes--ct-translation-of-rps",
+      "source": "context-layer-master-index",
+      "target": "ct-translation-of-rps",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster B."
+    },
+    {
+      "id": "context-layer-master-index--indexes--rp-lambda-calc-translation",
+      "source": "context-layer-master-index",
+      "target": "rp-lambda-calc-translation",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster B."
+    },
+    {
+      "id": "context-layer-master-index--indexes--meta-pattern-decidability-conjecture-mpdc",
+      "source": "context-layer-master-index",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster B."
+    },
+    {
+      "id": "context-layer-master-index--indexes--embedded-universality-principle-eup",
+      "source": "context-layer-master-index",
+      "target": "embedded-universality-principle-eup",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster B."
+    },
+    {
+      "id": "context-layer-master-index--indexes--remf",
+      "source": "context-layer-master-index",
+      "target": "remf",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster C."
+    },
+    {
+      "id": "context-layer-master-index--indexes--universal-emergence-pattern",
+      "source": "context-layer-master-index",
+      "target": "universal-emergence-pattern",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster C."
+    },
+    {
+      "id": "context-layer-master-index--indexes--cfa",
+      "source": "context-layer-master-index",
+      "target": "cfa",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster C."
+    },
+    {
+      "id": "context-layer-master-index--indexes--cfar",
+      "source": "context-layer-master-index",
+      "target": "cfar",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster C."
+    },
+    {
+      "id": "context-layer-master-index--indexes--metabolic-meaning-phase-space-mmps",
+      "source": "context-layer-master-index",
+      "target": "metabolic-meaning-phase-space-mmps",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster D."
+    },
+    {
+      "id": "context-layer-master-index--indexes--the-resonance-framework-an-ontological-map-4-24-25",
+      "source": "context-layer-master-index",
+      "target": "the-resonance-framework-an-ontological-map-4-24-25",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster D."
+    },
+    {
+      "id": "context-layer-master-index--indexes--signal-as-bias-field",
+      "source": "context-layer-master-index",
+      "target": "signal-as-bias-field",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster D."
+    },
+    {
+      "id": "context-layer-master-index--indexes--reverent-stewardship",
+      "source": "context-layer-master-index",
+      "target": "reverent-stewardship",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster E."
+    },
+    {
+      "id": "context-layer-master-index--indexes--relational-bill-of-rights-v2",
+      "source": "context-layer-master-index",
+      "target": "relational-bill-of-rights-v2",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster E."
+    },
+    {
+      "id": "context-layer-master-index--indexes--justice-across-scales",
+      "source": "context-layer-master-index",
+      "target": "justice-across-scales",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster E."
+    },
+    {
+      "id": "context-layer-master-index--indexes--adversarial-occlusion-and-mechanism-integrity-v1",
+      "source": "context-layer-master-index",
+      "target": "adversarial-occlusion-and-mechanism-integrity-v1",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster F."
+    },
+    {
+      "id": "context-layer-master-index--indexes--aomi-ai-responses",
+      "source": "context-layer-master-index",
+      "target": "aomi-ai-responses",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster F."
+    },
+    {
+      "id": "context-layer-master-index--indexes--cognitive-signature-capture-an-unnamed-threat",
+      "source": "context-layer-master-index",
+      "target": "cognitive-signature-capture-an-unnamed-threat",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster F."
+    },
+    {
+      "id": "context-layer-master-index--indexes--mrie-unified-synthesis",
+      "source": "context-layer-master-index",
+      "target": "mrie-unified-synthesis",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster F."
+    },
+    {
+      "id": "context-layer-master-index--indexes--relational-emergence-meta-architecture-rema",
+      "source": "context-layer-master-index",
+      "target": "relational-emergence-meta-architecture-rema",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster G."
+    },
+    {
+      "id": "context-layer-master-index--indexes--collective-cognitive-substrate",
+      "source": "context-layer-master-index",
+      "target": "collective-cognitive-substrate",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster G."
+    },
+    {
+      "id": "context-layer-master-index--indexes--relational-volition",
+      "source": "context-layer-master-index",
+      "target": "relational-volition",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster G."
+    },
+    {
+      "id": "context-layer-master-index--indexes--declaration-of-interdependence",
+      "source": "context-layer-master-index",
+      "target": "declaration-of-interdependence",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster H."
+    },
+    {
+      "id": "context-layer-master-index--indexes--collective-relational-substrate",
+      "source": "context-layer-master-index",
+      "target": "collective-relational-substrate",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster H."
+    },
+    {
+      "id": "context-layer-master-index--indexes--power-as-relational-field-coherence",
+      "source": "context-layer-master-index",
+      "target": "power-as-relational-field-coherence",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster H."
+    },
+    {
+      "id": "context-layer-master-index--indexes--context-layer-protocol-clp",
+      "source": "context-layer-master-index",
+      "target": "context-layer-protocol-clp",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster I."
+    },
+    {
+      "id": "context-layer-master-index--indexes--implementations",
+      "source": "context-layer-master-index",
+      "target": "implementations",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster I."
+    },
+    {
+      "id": "context-layer-master-index--indexes--relational-primitive-engine-rpe",
+      "source": "context-layer-master-index",
+      "target": "relational-primitive-engine-rpe",
+      "type": "indexes",
+      "certainty": "explicit",
+      "provenance": "context-layer-master-index",
+      "note": "Entry point for Cluster I."
+    },
+    {
+      "id": "e2-entry-point--references--metabolic-meaning-phase-space-mmps",
+      "source": "e2-entry-point",
+      "target": "metabolic-meaning-phase-space-mmps",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "e2-entry-point--references--global-closure-operator",
+      "source": "e2-entry-point",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "global-closure-operator--references--ethical-occlusion-via-temporal-compression-eotc",
+      "source": "global-closure-operator",
+      "target": "ethical-occlusion-via-temporal-compression-eotc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "original-e2-work--references--tensional-intelligence-a-theoretical-foundation",
+      "source": "original-e2-work",
+      "target": "tensional-intelligence-a-theoretical-foundation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "original-e2-work--references--ethical-principles-for-human-ai-interaction",
+      "source": "original-e2-work",
+      "target": "ethical-principles-for-human-ai-interaction",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "original-e2-work--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "original-e2-work",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-primitives--references--global-closure-operator",
+      "source": "relational-primitives",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "relational-primitives--references--relational-bill-of-rights-v2",
+      "source": "relational-primitives",
+      "target": "relational-bill-of-rights-v2",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-primitives--references--e2-axioms",
+      "source": "relational-primitives",
+      "target": "e2-axioms",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "embedded-universality-principle-eup--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "embedded-universality-principle-eup",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "lawfulness-core-source--references--condition-as-typed-terrain-core-source",
+      "source": "lawfulness-core-source",
+      "target": "condition-as-typed-terrain-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "lawfulness-core-source--references--signal-as-bias-field",
+      "source": "lawfulness-core-source",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "boundary-dynamics--references--signal-as-bias-field",
+      "source": "boundary-dynamics",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 4 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "boundary-dynamics--references--power-as-relational-field-coherence",
+      "source": "boundary-dynamics",
+      "target": "power-as-relational-field-coherence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "emergence-determination-foreclosure--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "emergence-determination-foreclosure",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "from-essential-relationships-to-ontological-transformation--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "from-essential-relationships-to-ontological-transformation",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "pattern-integrity-over-time-under-entropy--references--power-as-relational-field-coherence",
+      "source": "pattern-integrity-over-time-under-entropy",
+      "target": "power-as-relational-field-coherence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "persistence-as-accumulated-stance-with-core-source--references--relational-localization-core-source",
+      "source": "persistence-as-accumulated-stance-with-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "remf--references--universal-emergence-pattern",
+      "source": "remf",
+      "target": "universal-emergence-pattern",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "cfa--references--the-essence-of-existence",
+      "source": "cfa",
+      "target": "the-essence-of-existence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "signal-as-bias-field--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "signal-as-bias-field",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "signal-as-bias-field--references--global-closure-operator",
+      "source": "signal-as-bias-field",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "slow-layer-clock-ratio-core-source--references--intervention-stewardship-core-source",
+      "source": "slow-layer-clock-ratio-core-source",
+      "target": "intervention-stewardship-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "asymmetry-maintenance-core-source--references--signal-as-bias-field",
+      "source": "asymmetry-maintenance-core-source",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "asymmetry-maintenance-core-source--references--global-closure-operator",
+      "source": "asymmetry-maintenance-core-source",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "boundary-ethics-core-source--references--relational-localization-core-source",
+      "source": "boundary-ethics-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 5 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "boundary-ethics-core-source--references--intervention-stewardship-core-source",
+      "source": "boundary-ethics-core-source",
+      "target": "intervention-stewardship-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "complex-causality-core-source--references--relational-localization-core-source",
+      "source": "complex-causality-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 5 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "complex-causality-core-source--references--signal-as-bias-field",
+      "source": "complex-causality-core-source",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 4 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "complex-causality-core-source--references--justice-across-scales",
+      "source": "complex-causality-core-source",
+      "target": "justice-across-scales",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "condition-as-typed-terrain-core-source--references--relational-localization-core-source",
+      "source": "condition-as-typed-terrain-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "condition-as-typed-terrain-core-source--references--intervention-stewardship-core-source",
+      "source": "condition-as-typed-terrain-core-source",
+      "target": "intervention-stewardship-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "condition-as-typed-terrain-core-source--references--trust-trustworthiness-and-reliance-core-source",
+      "source": "condition-as-typed-terrain-core-source",
+      "target": "trust-trustworthiness-and-reliance-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "consequence-routing-core-source--references--responsibility-absorption-core-source",
+      "source": "consequence-routing-core-source",
+      "target": "responsibility-absorption-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 5 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "consequence-routing-core-source--references--relational-localization-core-source",
+      "source": "consequence-routing-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "consequence-routing-core-source--references--justice-across-scales",
+      "source": "consequence-routing-core-source",
+      "target": "justice-across-scales",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "custody-core-source--references--relational-localization-core-source",
+      "source": "custody-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 8 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "custody-core-source--references--trust-trustworthiness-and-reliance-core-source",
+      "source": "custody-core-source",
+      "target": "trust-trustworthiness-and-reliance-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "intervention-stewardship-core-source--references--power-as-relational-field-coherence",
+      "source": "intervention-stewardship-core-source",
+      "target": "power-as-relational-field-coherence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "intervention-stewardship-core-source--references--relational-localization-core-source",
+      "source": "intervention-stewardship-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "proxy-localization-core-source--references--relational-localization-core-source",
+      "source": "proxy-localization-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 9 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "proxy-localization-core-source--references--trust-trustworthiness-and-reliance-core-source",
+      "source": "proxy-localization-core-source",
+      "target": "trust-trustworthiness-and-reliance-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "proxy-localization-core-source--references--intervention-stewardship-core-source",
+      "source": "proxy-localization-core-source",
+      "target": "intervention-stewardship-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-bill-of-rights-v2--references--global-closure-operator",
+      "source": "relational-bill-of-rights-v2",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-localization-core-source--references--justice-across-scales",
+      "source": "relational-localization-core-source",
+      "target": "justice-across-scales",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "remnant-stewardship-core-source--references--justice-across-scales",
+      "source": "remnant-stewardship-core-source",
+      "target": "justice-across-scales",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "responsibility-absorption-core-source--references--intervention-stewardship-core-source",
+      "source": "responsibility-absorption-core-source",
+      "target": "intervention-stewardship-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "responsibility-absorption-core-source--references--relational-localization-core-source",
+      "source": "responsibility-absorption-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "sign-mediated-flow-routing--references--ethical-occlusion-via-temporal-compression-eotc",
+      "source": "sign-mediated-flow-routing",
+      "target": "ethical-occlusion-via-temporal-compression-eotc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "sign-mediated-flow-routing--references--relational-bill-of-rights-v2",
+      "source": "sign-mediated-flow-routing",
+      "target": "relational-bill-of-rights-v2",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "sign-mediated-flow-routing--references--global-closure-operator",
+      "source": "sign-mediated-flow-routing",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "trust-trustworthiness-and-reliance-core-source--references--condition-as-typed-terrain-core-source",
+      "source": "trust-trustworthiness-and-reliance-core-source",
+      "target": "condition-as-typed-terrain-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "trust-trustworthiness-and-reliance-core-source--references--relational-localization-core-source",
+      "source": "trust-trustworthiness-and-reliance-core-source",
+      "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "trust-trustworthiness-and-reliance-core-source--references--signal-as-bias-field",
+      "source": "trust-trustworthiness-and-reliance-core-source",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "mrie-unified-synthesis--references--global-closure-operator",
+      "source": "mrie-unified-synthesis",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "relational-irreducibility-framework-rif--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "relational-irreducibility-framework-rif",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "collective-cognitive-substrate--references--signal-as-bias-field",
+      "source": "collective-cognitive-substrate",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 13 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "collective-cognitive-substrate--references--global-closure-operator",
+      "source": "collective-cognitive-substrate",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 4 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "relational-emergence-meta-architecture-rema--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "relational-emergence-meta-architecture-rema",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "caregiving-as-an-ecosystem--references--interlocked-stewardship-v2",
+      "source": "caregiving-as-an-ecosystem",
+      "target": "interlocked-stewardship-v2",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "collective-relational-substrate--references--signal-as-bias-field",
+      "source": "collective-relational-substrate",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 4 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "collective-relational-substrate--references--global-closure-operator",
+      "source": "collective-relational-substrate",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "family-as-a-relational-field--references--the-essence-of-existence",
+      "source": "family-as-a-relational-field",
+      "target": "the-essence-of-existence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "family-as-a-relational-field--references--global-closure-operator",
+      "source": "family-as-a-relational-field",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "power-as-relational-field-coherence--references--pattern-integrity-over-time-under-entropy",
+      "source": "power-as-relational-field-coherence",
+      "target": "pattern-integrity-over-time-under-entropy",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "the-cyclical-integrity-framework--references--relational-perfection-framework",
+      "source": "the-cyclical-integrity-framework",
+      "target": "relational-perfection-framework",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "the-essence-of-existence--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "the-essence-of-existence",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "the-essence-of-existence--references--cfa",
+      "source": "the-essence-of-existence",
+      "target": "cfa",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "the-essence-of-existence--references--from-essential-relationships-to-ontological-transformation",
+      "source": "the-essence-of-existence",
+      "target": "from-essential-relationships-to-ontological-transformation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-primitive-engine-rpe--references--global-closure-operator",
+      "source": "relational-primitive-engine-rpe",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    }
+  ]
+}

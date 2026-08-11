@@ -16,6 +16,7 @@ Source repository: https://github.com/DanPace725/e2-core-framework
 
 - [Context Layer Master Index (ORMD)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/context-layer-master-index.ormd)
 - [Machine-readable catalog](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/catalog.json)
+- [Machine-readable relationship graph](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/graph.json)
 - [Combined ORMD corpus](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd-corpus.txt)
 - [Human mobile reader](https://e2-core-framework.capulusirl.chatgpt.site/)
 

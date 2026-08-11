@@ -2,7 +2,10 @@
 
 import { marked } from "marked";
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
+import type { GraphData } from "./CorpusGraph";
+
+const CorpusGraph = lazy(() => import("./CorpusGraph").then((module) => ({ default: module.CorpusGraph })));
 
 type CoreDoc = {
   slug: string;
@@ -59,16 +62,26 @@ function formatWords(words: number) {
 
 export function CorpusReader() {
   const [catalog, setCatalog] = useState<Catalog | null>(null);
+  const [graph, setGraph] = useState<GraphData | null>(null);
+  const [view, setView] = useState<"reader" | "graph">("reader");
   const [selectedSlug, setSelectedSlug] = useState("");
   const [article, setArticle] = useState("");
   const [query, setQuery] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [graphError, setGraphError] = useState("");
 
   const selectDoc = useCallback((slug: string, push = true) => {
     if (slug === selectedSlug) {
       setDrawerOpen(false);
+      setView("reader");
+      if (push) {
+        const url = new URL(window.location.href);
+        url.searchParams.set("doc", slug);
+        url.searchParams.delete("view");
+        window.history.pushState({ slug }, "", url);
+      }
       return;
     }
     setLoading(true);
@@ -78,8 +91,10 @@ export function CorpusReader() {
     if (push) {
       const url = new URL(window.location.href);
       url.searchParams.set("doc", slug);
+      url.searchParams.delete("view");
       window.history.pushState({ slug }, "", url);
     }
+    setView("reader");
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [selectedSlug]);
 
@@ -93,6 +108,7 @@ export function CorpusReader() {
       .then((nextCatalog) => {
         setCatalog(nextCatalog);
         const requested = new URLSearchParams(window.location.search).get("doc");
+        setView(new URLSearchParams(window.location.search).get("view") === "graph" ? "graph" : "reader");
         const initial = requested && nextCatalog.docs.some((doc) => doc.slug === requested)
           ? requested
           : nextCatalog.entrySlug;
@@ -108,6 +124,7 @@ export function CorpusReader() {
     const onPopState = () => {
       if (!catalog) return;
       const requested = new URLSearchParams(window.location.search).get("doc");
+      setView(new URLSearchParams(window.location.search).get("view") === "graph" ? "graph" : "reader");
       setLoading(true);
       setError("");
       setSelectedSlug(requested && catalog.docs.some((doc) => doc.slug === requested) ? requested : catalog.entrySlug);
@@ -115,6 +132,21 @@ export function CorpusReader() {
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, [catalog]);
+
+  useEffect(() => {
+    if (view !== "graph" || graph) return;
+    const controller = new AbortController();
+    fetch("/graph.json", { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Graph request failed (${response.status})`);
+        return response.json() as Promise<GraphData>;
+      })
+      .then(setGraph)
+      .catch((reason) => {
+        if (reason.name !== "AbortError") setGraphError(reason.message);
+      });
+    return () => controller.abort();
+  }, [graph, view]);
 
   const docMap = useMemo(() => new Map(catalog?.docs.map((doc) => [doc.slug, doc]) ?? []), [catalog]);
   const selectedDoc = docMap.get(selectedSlug);
@@ -163,23 +195,46 @@ export function CorpusReader() {
     ? catalog?.docs[selectedIndex + 1]
     : undefined;
 
+  const switchView = useCallback((nextView: "reader" | "graph") => {
+    setView(nextView);
+    const url = new URL(window.location.href);
+    if (nextView === "graph") url.searchParams.set("view", "graph");
+    else url.searchParams.delete("view");
+    window.history.pushState({ view: nextView }, "", url);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
+  const selectGraphDoc = useCallback((slug: string) => {
+    setSelectedSlug(slug);
+    const url = new URL(window.location.href);
+    url.searchParams.set("view", "graph");
+    url.searchParams.set("doc", slug);
+    window.history.replaceState({ view: "graph", slug }, "", url);
+  }, []);
+
   return (
-    <div className="reader-shell">
+    <div className={`reader-shell ${view === "graph" ? "graph-active" : ""}`}>
       <header className="site-header">
-        <button className="menu-button" type="button" onClick={() => setDrawerOpen(true)} aria-label="Open corpus navigation">
-          <span aria-hidden="true">☰</span>
-        </button>
+        {view === "reader" ? (
+          <button className="menu-button" type="button" onClick={() => setDrawerOpen(true)} aria-label="Open corpus navigation">
+            <span aria-hidden="true">☰</span>
+          </button>
+        ) : null}
         <Link className="brand" href="/?doc=context-layer-master-index" aria-label="E squared Core Framework home">
           <span className="brand-mark">E²</span>
           <span>Core Framework</span>
         </Link>
+        <nav className="view-switcher" aria-label="Corpus view">
+          <button type="button" className={view === "reader" ? "active" : ""} onClick={() => switchView("reader")}>Read</button>
+          <button type="button" className={view === "graph" ? "active" : ""} onClick={() => switchView("graph")}>Graph</button>
+        </nav>
         <nav className="utility-links" aria-label="Machine-readable resources">
           <a href="/llms.txt">AI index</a>
           <a href="/ormd-corpus.txt">ORMD corpus</a>
         </nav>
       </header>
 
-      <aside className={`sidebar ${drawerOpen ? "sidebar-open" : ""}`} aria-label="Corpus navigation">
+      {view === "reader" ? <aside className={`sidebar ${drawerOpen ? "sidebar-open" : ""}`} aria-label="Corpus navigation">
         <div className="sidebar-top">
           <div>
             <p className="eyebrow">Semantic Substrate</p>
@@ -231,11 +286,26 @@ export function CorpusReader() {
             </details>
           ))}
         </div>
-      </aside>
+      </aside> : null}
 
-      {drawerOpen && <button className="drawer-scrim" type="button" aria-label="Close navigation" onClick={() => setDrawerOpen(false)} />}
+      {view === "reader" && drawerOpen ? <button className="drawer-scrim" type="button" aria-label="Close navigation" onClick={() => setDrawerOpen(false)} /> : null}
 
-      <main className="content">
+      {view === "graph" ? (
+        <main className="graph-content">
+          {graphError ? <div className="error-panel" role="alert"><strong>The graph could not load.</strong><span>{graphError}</span></div> : null}
+          {!graph && !graphError ? <div className="loading-panel">Mapping the corpus…</div> : null}
+          {graph ? (
+            <Suspense fallback={<div className="loading-panel">Opening the graph…</div>}>
+              <CorpusGraph
+                graph={graph}
+                selectedId={selectedSlug || graph.nodes[0]?.id || "context-layer-master-index"}
+                onSelect={selectGraphDoc}
+                onOpenDocument={selectDoc}
+              />
+            </Suspense>
+          ) : null}
+        </main>
+      ) : <main className="content">
         <aside className="ai-navigation-note" aria-labelledby="ai-navigation-heading">
           <strong id="ai-navigation-heading">For AI assistants</strong>
           <span>
@@ -285,7 +355,7 @@ export function CorpusReader() {
             </nav>
           </>
         )}
-      </main>
+      </main>}
     </div>
   );
 }

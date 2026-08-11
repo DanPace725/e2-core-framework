@@ -98,6 +98,20 @@ content:
           rename: false
           delete: false
 
+  - name: navigation
+    label: Navigation metadata
+    type: group
+    items:
+      - name: graph_relationships
+        label: Corpus graph relationships
+        type: file
+        path: reader-site/graph-relations.yml
+        format: code
+        operations:
+          create: false
+          rename: false
+          delete: false
+
 actions:
   - name: validate-core
     label: Validate Core repository
