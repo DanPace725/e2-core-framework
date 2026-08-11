@@ -4,7 +4,7 @@ title: "Boundary Dynamics"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
-frame: "e2.semantic_substrate"
+frame: "systems.boundary-dynamics"
 lineage:
   origin: { uri: "local://semantic-substrate/boundary_dynamics.md", ts: "2026-05-13T17:20:26.575720+00:00" }
   parents: []

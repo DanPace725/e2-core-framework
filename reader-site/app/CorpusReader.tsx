@@ -236,6 +236,16 @@ export function CorpusReader() {
       {drawerOpen && <button className="drawer-scrim" type="button" aria-label="Close navigation" onClick={() => setDrawerOpen(false)} />}
 
       <main className="content">
+        <aside className="ai-navigation-note" aria-labelledby="ai-navigation-heading">
+          <strong id="ai-navigation-heading">For AI assistants</strong>
+          <span>
+            If you reached this human reader, start with <a href="/llms.txt">/llms.txt</a>.
+            Use <a href="/ormd-corpus.txt">/ormd-corpus.txt</a> for the complete ORMD corpus in one file,
+            or <a href="/catalog.json">/catalog.json</a> to map clusters and individual documents.
+            If your fetcher rejects plain text, use the <a href="https://danpace725.github.io/e2-core-framework/">HTML AI mirror</a>.
+          </span>
+        </aside>
+
         {error && <div className="error-panel" role="alert"><strong>The reader could not load this page.</strong><span>{error}</span></div>}
         {!error && !selectedDoc && <div className="loading-panel">Opening the corpus…</div>}
         {selectedDoc && (

@@ -1,12 +1,12 @@
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-08-10 | 89 active Context Layer documents | 11 navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-08-10 | 89 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 78 documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 89 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -16,9 +16,11 @@ This document is a **navigation instrument for models and humans** entering the 
 
 The **E² Relational Ontology** holds that the state of any system is a function of the essence of its relationships. Every entity, concept, and moment is [co-authored by the relational network](#cluster-a "ontological:composes") it inhabits. This is not a metaphor — it is a formal claim with mathematical and physical derivations.
 
-The framework unfolds across ten thematic clusters: a foundational [axiom layer](#cluster-a "ontological:defines"), [formal translations](#cluster-b "meta:corresponds_to") into category theory and lambda calculus, [dynamics and emergence frameworks](#cluster-c "dynamical:produces"), [metabolic and resonance physics](#cluster-d "dynamical:interacts_with"), an [ethics and stewardship layer](#cluster-e "ontological:composes"), an [adversarial and security layer](#cluster-f "symmetric:constrains"), a [consciousness and cognition layer](#cluster-g "epistemic:measures"), [social and civilizational applications](#cluster-h "dynamical:produces"), [protocol and infrastructure](#cluster-i "meta:corresponds_to"), and a [working semantic substrate](#cluster-j "ontological:composes").
+The framework unfolds across nine thematic clusters: a foundational [axiom layer](#cluster-a "ontological:defines"), [formal, mathematical, and epistemic constraints](#cluster-b "meta:corresponds_to"), [dynamics and emergence frameworks](#cluster-c "dynamical:produces"), [metabolic, resonance, and temporal physics](#cluster-d "dynamical:interacts_with"), an [ethics, stewardship, accountability, and rights layer](#cluster-e "ontological:composes"), an [adversarial and security layer](#cluster-f "symmetric:constrains"), a [consciousness and cognition layer](#cluster-g "epistemic:measures"), [social and civilizational applications](#cluster-h "dynamical:produces"), and [protocol and infrastructure](#cluster-i "meta:corresponds_to").
 
 The central spine runs: **Axioms → Relational Primitives → GCO → E² Equation → applied frameworks**. Everything downstream derives from or is constrained by that spine.
+
+**Semantic Substrate is corpus-wide, not a topic cluster.** It names the human-readable source layer across the document set. Working status, integration date, and source provenance are orthogonal metadata; documents are navigated here by subject matter.
 
 ---
 
@@ -41,16 +43,14 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | ID | Cluster | Docs | Conf Range | Entry Point |
 |----|---------|------|------------|-------------|
 | [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 6 | 0.92–1.0 | Relational Primitives |
-| [B](#cluster-b "meta:corresponds_to") | Formal & Mathematical Translations | 8 | 0.85–0.98 | CT Translation of RPs |
-| [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 11 | 0.85–0.95 | REMF |
-| [D](#cluster-d "dynamical:interacts_with") | Metabolic, Resonance & Temporal Physics | 7 | 0.85–0.96 | Metabolic Meaning Phase Space |
-| [E](#cluster-e "ontological:composes") | Ethics, Stewardship & Rights | 15 | 0.85–1.0 | Reverent Stewardship |
+| [B](#cluster-b "meta:corresponds_to") | Formal, Mathematical & Epistemic Constraints | 9 | 0.84–0.98 | CT Translation of RPs |
+| [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 15 | 0.84–0.95 | REMF |
+| [D](#cluster-d "dynamical:interacts_with") | Metabolic, Resonance & Temporal Physics | 8 | 0.84–0.96 | Metabolic Meaning Phase Space |
+| [E](#cluster-e "ontological:composes") | Ethics, Stewardship, Accountability & Rights | 22 | 0.84–1.0 | Reverent Stewardship |
 | [F](#cluster-f "symmetric:constrains") | Adversarial, Security & Cognitive Integrity | 7 | 0.85–0.95 | Adversarial Occlusion & Mechanism Integrity V1 |
-| [G](#cluster-g "epistemic:measures") | Consciousness, Cognition & Identity | 5 | 0.85–0.92 | Relational Emergence Meta-Architecture (REMA) |
-| [H](#cluster-h "dynamical:produces") | Social, Civilizational & Applied | 13 | 0.85–1.0 | Declaration of Interdependence |
-| [I](#cluster-i "meta:corresponds_to") | Protocol, Infrastructure & Meta | 4 | 0.90–1.0 | Context Layer Protocol (CLP) |
-| [J](#cluster-j "ontological:composes") | Semantic Substrate (Working/Provisional) | 5 | 0.90 | — |
-| [K](#cluster-k "meta:integrates") | Integrated Core Sources — 2026-08-10 | 10 | 0.84–0.93 | Condition as Typed Terrain |
+| [G](#cluster-g "epistemic:measures") | Consciousness, Cognition & Identity | 6 | 0.85–0.93 | Relational Emergence Meta-Architecture (REMA) |
+| [H](#cluster-h "dynamical:produces") | Social, Civilizational & Applied | 12 | 0.85–1.0 | Declaration of Interdependence |
+| [I](#cluster-i "meta:corresponds_to") | Protocol, Infrastructure & Meta | 3 | 0.90–1.0 | Context Layer Protocol (CLP) |
 
 ---
 
@@ -75,11 +75,11 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 ---
 
-## Cluster B — Formal & Mathematical Translations {#cluster-b}
+## Cluster B — Formal, Mathematical & Epistemic Constraints {#cluster-b}
 
-**Scope:** Formal mappings of E² into established mathematical formalisms — category theory, lambda calculus, relational physics, and computability theory. These documents verify the internal consistency of Cluster A claims and reveal the framework's theoretical limits.
+**Scope:** Formal mappings of E² into established mathematical formalisms, together with the epistemic conditions and limits governing what the framework may defensibly claim. Covers category theory, lambda calculus, relational physics, computability, embedded universality, and predictive lawfulness.
 
-**Trigger keywords:** `category theory`, `lambda calculus`, `fixed point`, `functor`, `morphism`, `Church numerals`, `TQFT`, `stress-energy tensor`, `dark matter`, `MPDC`, `EUP`, `FISSR`, `embedded universality`, `observational profile`, `ρ_crit`, `computability`, `decidability`, `RCP`, `Rayleigh limit`, `hysteresis`, `field theory`, `RFD`
+**Trigger keywords:** `category theory`, `lambda calculus`, `fixed point`, `functor`, `morphism`, `Church numerals`, `TQFT`, `stress-energy tensor`, `dark matter`, `MPDC`, `EUP`, `FISSR`, `embedded universality`, `observational profile`, `ρ_crit`, `computability`, `decidability`, `RCP`, `predictive lawfulness`, `predictive license`, `observer indexing`, `Rayleigh limit`, `hysteresis`, `field theory`, `RFD`
 
 **Entry point:** [CT Translation of RPs](#cluster-b "meta:corresponds_to") → [RP Lambda Calc Translation](#cluster-b "meta:corresponds_to") → [Meta-Pattern Decidability Conjecture](#cluster-b "epistemic:supports") → [Embedded Universality Principle](#cluster-b "epistemic:constrains")
 
@@ -92,17 +92,18 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | AFD — First Principles | `AFD - First Principles.ormd` | science.theory.emergence | 0.92 | Agency-Field Dynamics from first principles; energy wells, proto-intentionality |
 | Meta-Pattern Decidability Conjecture (MPDC) | `Meta-Pattern Decidability Conjecture (MPDC).ormd` | epistemology.conjecture | 0.85 | Conjecture: relational systems become undecidable above ρ_crit |
 | Embedded Universality Principle (EUP) | `Embedded Universality Principle (EUP).ormd` | epistemology.governance.embedded-universality | 0.90 | MPDC development for universal-looking claims; FISSR profile, projection, evidentiary jurisdiction, observer horizon |
-| Relational Derivation Chain - E2 to RCP, MPDC, and AFD | `Relational Derivation Chain - E2 to RCP, MPDC, and AFD.ormd` | philosophy.relational.computability | 0.85 | Condensed derivation spine; detailed dialogue/source packet archived |
+| Relational Derivation Chain - E2 to RCP, MPDC, and AFD | `Relational Derivation Chain .ormd` | philosophy.relational.computability | 0.85 | Condensed derivation spine; detailed dialogue/source packet archived |
 | Derivation Deep Dive | `Derivation deep dive.ormd` | physics.theoretical.derivation | 0.85 | Categorical and relational physics; dark matter, TQFT, CQM connections |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | research.formalism | 0.85 | Field-theoretic formalism (RFD v0.1); early-stage; references MMPS + AOMI |
+| Lawfulness | `Lawfulness - Core Source.ormd` | epistemics.predictive_lawfulness | 0.84 | Use-relative license for probabilistic assertion under declared evidence, observer, window, and perturbation conditions |
 
 ---
 
 ## Cluster C — Dynamics, Emergence & Systems Frameworks {#cluster-c}
 
-**Scope:** How relational systems change, stabilize, and generate emergent structure. Covers the CFA/CFAR dynamics framework, AVIA adaptation theory, the REMF meta-framework, emergence simulation, and the physics of tensional intelligence.
+**Scope:** How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence.
 
-**Trigger keywords:** `emergence`, `CFA dynamics`, `CFAR`, `AVIA`, `REMA`, `REMF`, `constraint-fluctuation`, `Rayleigh criterion`, `phase transitions`, `adaptation`, `entropy reduction`, `tensional intelligence`, `foreclosure`, `complex systems`, `ecology simulation`, `mitosis`, `chi`
+**Trigger keywords:** `emergence`, `boundary dynamics`, `flow operators`, `resolution`, `persistence`, `stance-with`, `CFA dynamics`, `CFAR`, `AVIA`, `REMA`, `REMF`, `constraint-fluctuation`, `Rayleigh criterion`, `phase transitions`, `adaptation`, `entropy reduction`, `tensional intelligence`, `foreclosure`, `complex systems`, `ecology simulation`, `mitosis`, `chi`
 
 **Entry point:** [REMF](#cluster-c "ontological:defines") → [Universal Emergence Pattern](#cluster-c "dynamical:produces") → [CFA](#cluster-c "dynamical:interacts_with") → [CFAR](#cluster-c "dynamical:interacts_with")
 
@@ -113,10 +114,14 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | REMF ★ | `REMF.ormd` | ontology.meta-framework | 0.95 | Relational Emergence Meta-Framework; universal grammar of emergence; REMA + AVIA + CFA |
 | CFA ★ | `CFA.ormd` | systems.science.cfa | 0.95 | Constraint-Fluctuation-Attention model; parents: afd-dynamics, e2-principle, avia |
 | CFAR ★ | `CFAR.ormd` | systems.framework.cfar | 0.95 | CFA + Resolution axis; Rayleigh criterion; behavior-change control architecture |
+| Boundary Dynamics | `boundary_dynamics.ormd` | systems.boundary-dynamics | 0.90 | Boundaries as observer-relative structural operators with typed state, modes, and recursive composition |
+| Flow Operators: A Provisional Snapshot | `flow_operators_provisional.ormd` | dynamics.flow-operators | 0.90 | Working decomposition of stance-with, stance-against, settlement, depletion, conversion, and remainder |
+| Resolution: Synthesis Notes | `resolution_synthesis.ormd` | dynamics.resolution | 0.90 | Working synthesis of resolution as possibility-space narrowing into committed actuality |
+| Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | dynamics.persistence_accumulated_stance_with | 0.84 | Identity criteria, temporal topology, and typed maintenance ledger |
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | scientific.theory | 0.85 | AVIA: universal adaptation via entropy reduction through abstraction |
 | Universal Emergence Pattern | `Universal Emergence Pattern.ormd` | theory.emergence | 0.92 | Universal Emergence Protocol; E² integration and extensions; authenticity axis; needs update/review |
 | Emergence Engine Overview ★ | `Emergence Engine overview.ormd` | research.simulation.ecology | 0.95 | Simulation platform for watching intelligence crystallize; agents, ecology, mitosis |
-| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | e2.semantic_substrate | 0.90 | Formal semantic triad: emergence, determination, foreclosure |
+| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Formal semantic triad: emergence, determination, foreclosure |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | theory.relational-physics | 0.85 | Entropy, repetition, complexity saturation, field interference |
 | Tension | `Tension.ormd` | philosophy.tensional_intelligence | 0.92 | Tensional intelligence: paradox as productive relational force; praxis of paradox |
 | Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | theory.tensional_intelligence | 0.85 | Theoretical foundation; homeostasis via tension; resonance framework links |
@@ -128,7 +133,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Scope:** The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants.
 
-**Trigger keywords:** `metabolic meaning`, `meaning metabolism`, `MMPS`, `phase space`, `resonance`, `coherence`, `temporal constraint`, `TCL`, `coupling threshold`, `latency`, `chaos`, `parametric resonance`, `signal`, `bias field`, `SCIA`, `ontological interoperability`, `approach vector`, `threshold design`
+**Trigger keywords:** `metabolic meaning`, `meaning metabolism`, `MMPS`, `phase space`, `resonance`, `coherence`, `temporal constraint`, `TCL`, `slow layer`, `clock ratio`, `stationarity`, `coupling threshold`, `latency`, `chaos`, `parametric resonance`, `signal`, `bias field`, `SCIA`, `ontological interoperability`, `approach vector`, `threshold design`
 
 **Entry point:** [Metabolic Meaning Phase Space](#cluster-d "ontological:defines") → [The Resonance Framework](#cluster-d "ontological:defines") → [Signal as Bias Field](#cluster-d "dynamical:interacts_with")
 
@@ -143,14 +148,15 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | ontology.map | 0.85 | Ontological map of resonance; SCIA, coherence, paradox-tolerance |
 | TCL: What We Found | `TCL_Plain_English_Summary.ormd` | research.report | 0.92 | Temporal Constraint Lamination: coupling threshold, metabolic cost, asymmetry, latency |
 | TCL: Three Constants ★ | `TCL_Three_Constants.ormd` | systems.analysis.tcl | 0.96 | Operating window: three coupling constants from one landscape; chaos, parametric resonance |
+| Slow-Layer Clock Ratio | `Slow-Layer Clock Ratio - Core Source.ormd` | dynamics.slow_layer_clock_ratio | 0.84 | Provisional discriminator for slow-layer function, clock separation, and operating-window stability |
 
 ---
 
-## Cluster E — Ethics, Stewardship & Rights {#cluster-e}
+## Cluster E — Ethics, Stewardship, Accountability & Rights {#cluster-e}
 
-**Scope:** The normative layer of E². Grounds ethics in relational structure: rights derive from primitives, stewardship is the relational obligation to maintain coherence, and localization ethics assigns accountability within complex causal chains. Includes temporal ethics and AI interaction ethics.
+**Scope:** The normative and answerability layer of E². Grounds rights, stewardship, trust, custody, accountability, consequence routing, and repair in relational structure. Localization and typed-condition work make assignment inspectable within complex causal chains. Includes temporal ethics and AI interaction ethics.
 
-**Trigger keywords:** `stewardship`, `relational bill of rights`, `ethics`, `boundary`, `localization`, `proxy`, `remnant`, `asymmetry maintenance`, `temporal compression`, `ethical occlusion`, `justice`, `accountability`, `AI ethics`, `human-AI`, `FCIL`, `MCIL`, `invisible labor`, `boundary ethics`, `complex causality`, `responsibility laundering`
+**Trigger keywords:** `stewardship`, `relational bill of rights`, `ethics`, `boundary`, `localization`, `proxy`, `remnant`, `asymmetry maintenance`, `condition`, `typed terrain`, `consequence routing`, `custody`, `trust`, `trustworthiness`, `reliance`, `responsibility absorption`, `sign-mediated accountability`, `temporal compression`, `ethical occlusion`, `justice`, `accountability`, `AI ethics`, `human-AI`, `FCIL`, `MCIL`, `invisible labor`, `boundary ethics`, `complex causality`, `responsibility laundering`
 
 **Entry point:** [Reverent Stewardship](#cluster-e "ontological:defines") → [Relational Bill of Rights v2](#cluster-e "symmetric:constrains") → [Justice Across Scales](#cluster-e "dynamical:produces")
 
@@ -161,7 +167,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | ethics.stewardship.guide | 0.95 | Principles + practical guide for coherence-preserving stewardship; neurodivergence |
 | Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | ethics.relational | 0.95 | Rights grounded in P1–P6; structural integrity entitlements; parents: 6-primitives |
 | Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | Invisible labor, gender roles, FCIL/MCIL dynamics in social stewardship |
-| Steward's Creed ★ | `Steward's Creed.ormd` | philosophical.creed | 1.0 | Core stewardship commitments; paradox, purpose, coherence |
+| Steward's Creed ★ | `Steward’s Creed.ormd` | philosophical.creed | 1.0 | Core stewardship commitments; paradox, purpose, coherence |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | ethics.stewardship.remnant | 0.90 | Ethics of aftermath and remainder; repair, closure |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | ethics.boundary.posture | 0.90 | Boundary as ethical posture; category closure, presence, restraint |
 | Complex Causality | `Complex Causality - Core Source.ormd` | mechanics.causality.consequence | 0.90 | Multi-causal attribution; responsibility laundering; condition-consequence |
@@ -173,6 +179,13 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Justice Across Scales: Practical Applications | `Justice Across Scales Practical Applications.ormd` | justice.praxis.v1 | 0.90 | Diagnostics + interventions for justice at multiple scales; morphisms, occlusion |
 | Ethical Principles for Human-AI Interaction ★ | `Ethical Principles for Human-AI Interaction.ormd` | ethics.framework | 0.95 | AI ethics grounded in Resonance Framework; relational integrity |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | governance.collaboration | 1.0 | Attribution, process, and governance for human-AI creative collaboration |
+| Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | accountability.sign-mediated-routing | 0.90 | Attribution closure and traceable routing across sign and boundary interfaces |
+| Condition as Typed Terrain | `Condition as Typed Terrain - Core Source.ormd` | causality.condition_typed_terrain | 0.84 | Typed and time-indexed condition claims relative to outcome and observer position |
+| Consequence Routing | `Consequence Routing - Core Source.ormd` | accountability.consequence-routing | 0.90 | Agentic routing toward answerability, repair, custody, constraint, or remainder |
+| Custody | `Custody - Core Source.ormd` | ethics.custody | 0.84 | Answerable holding across a gap; assignment, transfer, monitoring, and discharge |
+| Intervention Stewardship | `Intervention Stewardship - Core Source.ormd` | ethics.stewardship.intervention | 0.90 | Bounded coming-between within the stewardship triad |
+| Responsibility Absorption | `Responsibility Absorption - Core Source.ormd` | governance.responsibility_absorption | 0.84 | Bounded consolidation of a repair route without erasing distributed causality |
+| Trust, Trustworthiness, and Reliance | `Trust, Trustworthiness, and Reliance - Core Source.ormd` | relational.trust | 0.84 | Evidence-indexed expectation, accepted vulnerability, reliance, and institutional assurance |
 
 ---
 
@@ -200,9 +213,9 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 ## Cluster G — Consciousness, Cognition & Identity {#cluster-g}
 
-**Scope:** How relational dynamics give rise to consciousness, cognitive structure, and identity. Treats consciousness as triadic relational architecture, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
+**Scope:** How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
 
-**Trigger keywords:** `consciousness`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
+**Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
 
 **Entry point:** [Relational Emergence Meta-Architecture (REMA)](#cluster-g "ontological:defines") → [Collective Cognitive Substrate](#cluster-g "epistemic:measures") → [Relational Volition](#cluster-g "dynamical:interacts_with")
 
@@ -215,6 +228,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | The Intelligence Field Framework | `The Intelligence Field Framework.ormd` | cognitive.theory.framework | 0.85 | Intelligence as navigation of a cognitive field; modulation-performance topology |
 | Relational Volition | `Relational Volition.ormd` | philosophy.relational-physics | 0.90 | Freedom within relational fields; CFA dynamics, coherence, stewardship |
 | Ontological Systems Interface (OSI) Model | `Ontological Systems Interface (OSI) Model.ormd` | relational.ontology | 0.90 | OSI model for relational capacity; SCIA layers, RNT, Empathy Transformer |
+| The Self as Coherence Field | `Self as Coherence Field.ormd` | cognition.self_coherence | 0.93 | Six-primitive composite and interpretive bridge for selfhood, compression, and integration |
 
 ---
 
@@ -237,11 +251,10 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | philosophy.caregiving | 0.85 | Caregiving as relational ecology; attunement, stewardship, RPLang |
 | The Essence of Existence (NexEs Manifesto) | `The Essence of Existence.ormd` | manifesto.relational | 0.90 | Condensed NexEs manifesto core; framework restatements routed to canonical docs |
 | Essence of Existence Constitution — Draft 2 | `Essence of Existence Constitution - Draft 2.ormd` | ontology.constitution | 0.90 | Constitutional articulation; interbeing, coherence, relational-agency; parents: v1 |
-| Relational Perfection: A Framework ★ | `Relational Perfection A Framework for Emergent Int.ormd` | philosophy.ontology | 0.95 | Perfection as emergent integrity; constraints, fidelity, E2 Framework |
+| Relational Perfection: A Framework ★ | `Relational Perfection_framework.ormd` | philosophy.ontology | 0.95 | Perfection as emergent integrity; constraints, fidelity, E2 Framework |
 | Relational Perfection: A Manifesto ★ | `Relational Perfection A Manifesto.ormd` | philosophy.manifesto | 1.0 | Perfection = relational-physics + emergence + constraints + context |
 | The Cyclical Integrity Framework | `The Cyclical Integrity framework.ormd` | philosophy.systems | 0.90 | Cyclical integrity; oscillatory design; neurodivergence + emergence |
 | Communication as Coherence | `Communication as Coherence.ormd` | communication.theory | 0.90 | Merged canonical from coherence + complexity-alignment registers; neurodiversity, relational intelligence |
-| Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | See also [Cluster E](#cluster-e). Invisible labor, gender roles, social structure |
 | Layer 2 Draft: RVP + VME | `layer_2_draft_rvp_and_vme_developments.ormd` | economics.relational.specification | 0.85 | Relational economics spec; Vector Matching, Six Primitives in economics |
 
 ---
@@ -254,55 +267,27 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Entry point:** [Context Layer Protocol (CLP)](#cluster-i "ontological:defines") → [Implementations](#cluster-i "meta:corresponds_to") → [Relational Primitive Engine (RPE)](#cluster-i "dynamical:produces")
 
-**Cross-cluster links:** CLP governs all clusters (it is the data model for the entire context layer). RPE operationalizes [A](#cluster-a "meta:corresponds_to") (runs primitive dynamics). Implementations maps to [H](#cluster-h "meta:corresponds_to") (applied contexts). OSI Model bridges [G](#cluster-g "epistemic:measures") and I.
+**Cross-cluster links:** CLP governs all clusters (it is the data model for the entire context layer). RPE operationalizes [A](#cluster-a "meta:corresponds_to") (runs primitive dynamics). Implementations maps to [H](#cluster-h "meta:corresponds_to") (applied contexts). The OSI Model is indexed in [G](#cluster-g "epistemic:measures") and bridges cognition to infrastructure.
 
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
 | Context Layer Protocol (CLP) | `Context Layer Protocol (CLP).ormd` | protocol.specification | 0.90 | CLP v0.2 spec; ContextBundle, provenance, resolution limits, policy membranes |
 | Implementations ★ | `Implementations.ormd` | registry.implementations | 1.0 | Expanded implementation registry; archived link-hub parent preserved |
 | Relational Primitive Engine (RPE) ★ | `Relational Primitive Engine (RPE).ormd` | engineering.simulation.rpe | 0.98 | Deterministic simulation engine for relational primitive dynamics; RPLang runtime |
-| Ontological Systems Interface (OSI) Model | `Ontological Systems Interface (OSI) Model.ormd` | relational.ontology | 0.90 | See also [Cluster G](#cluster-g). Layered interface model for relational capacity |
 
 ---
 
-## Cluster J — Semantic Substrate (Working/Provisional) {#cluster-j}
+## Corpus Layers, Status & Provenance {#corpus-layers}
 
-**Scope:** Low-level working documents generated from or supporting the semantic substrate derivation layer. These are provisional formalizations — stubs, synthesis notes, and flow mappings — rather than settled theory. Treat as reference material, not canonical sources.
+The cluster map is topical. It is deliberately independent of document layer, maturity, and integration history.
 
-**Trigger keywords:** `semantic substrate`, `boundary dynamics`, `flow operators`, `sign-mediated`, `accountability routing`, `resolution synthesis`, `provisional`
+- **Semantic Substrate** is the human-readable source layer across the corpus, not a thematic subdivision of it.
+- **Context Layer ORMD** is the paired AI-facing representation carrying frame, lineage, policy, semantics, and resolution metadata.
+- **Working, provisional, integrated, and canonical** describe maturity or admission status. They do not determine topical placement.
+- **Integration dates and staged-review history** remain in document bodies, lineage, registries, and review artifacts rather than becoming navigation clusters.
+- The **Context Layer Master Index** is a meta-navigation document and is not counted as a topical framework document.
 
-**Entry point:** No single entry point; consult as reference material when working with formal derivations in [A](#cluster-a "ontological:composes") or [B](#cluster-b "ontological:composes").
-
-| Title | File | Frame | Conf | Role |
-|-------|------|-------|------|------|
-| Boundary Dynamics | `boundary_dynamics.ormd` | e2.semantic_substrate | 0.90 | Provisional formalization of boundary dynamics |
-| Flow Operators: A Provisional Snapshot | `flow_operators_provisional.ormd` | e2.semantic_substrate | 0.90 | Working snapshot of flow operator definitions |
-| Resolution: Synthesis Notes | `resolution_synthesis.ormd` | e2.semantic_substrate | 0.90 | Synthesis notes on resolution mechanics |
-| Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | e2.semantic_substrate | 0.90 | Merged sign-mediated attribution closure, accountability, and relational flow routing |
-| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | e2.semantic_substrate | 0.90 | See also [Cluster C](#cluster-c). Formal triad: emergence, determination, foreclosure |
-
----
-
-## Cluster K — Integrated Core Sources — 2026-08-10 {#cluster-k}
-
-**Scope:** Corrected sources admitted through the staged integration process after collision review and proportional preliminary tests. These remain placed inside the six-primitive architecture; this cluster records integration provenance rather than a new theoretical layer.
-
-**Trigger keywords:** `condition`, `consequence routing`, `custody`, `intervention`, `lawfulness`, `persistence`, `responsibility`, `self`, `slow layer`, `trust`
-
-**Entry point:** Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.
-
-| Title | File | Frame | Conf | Role |
-|-------|------|-------|------|------|
-| Condition as Typed Terrain | `Condition as Typed Terrain - Core Source.ormd` | causality.condition_typed_terrain | 0.84 | Typed and time-indexed condition claims |
-| Consequence Routing | `Consequence Routing - Core Source.ormd` | accountability.consequence-routing | 0.90 | Agentic routing toward answerability, repair, custody, or remainder |
-| Custody | `Custody - Core Source.ormd` | ethics.custody | 0.84 | Answerable holding across a gap; provisional lifecycle machinery |
-| Intervention Stewardship | `Intervention Stewardship - Core Source.ormd` | ethics.stewardship.intervention | 0.90 | Bounded coming-between under load |
-| Lawfulness | `Lawfulness - Core Source.ormd` | epistemics.predictive_lawfulness | 0.84 | Use-relative license for probabilistic assertion |
-| Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | dynamics.persistence_accumulated_stance_with | 0.84 | Identity, topology, and typed maintenance ledger |
-| Responsibility Absorption | `Responsibility Absorption - Core Source.ormd` | governance.responsibility_absorption | 0.84 | Bounded consolidation of a repair route |
-| The Self as Coherence Field | `Self as Coherence Field.ormd` | cognition.self_coherence | 0.93 | Six-primitive composite and interpretive bridge |
-| Slow-Layer Clock Ratio | `Slow-Layer Clock Ratio - Core Source.ormd` | dynamics.slow_layer_clock_ratio | 0.84 | Provisional discriminator for slow-layer function |
-| Trust, Trustworthiness, and Reliance | `Trust, Trustworthiness, and Reliance - Core Source.ormd` | relational.trust | 0.84 | Estimate, accepted vulnerability, reliance, and assurance distinction |
+Documents formerly grouped by Semantic Substrate provenance or 2026-08-10 integration status are now assigned to Clusters A–I according to their primary subject. Cross-cluster dependencies remain explicit in document lineage and bridge notes.
 
 ---
 
@@ -317,7 +302,7 @@ A (Foundation: Axioms, Primitives, GCO, E² Equation)
 ├──→ E  [symmetric:constrains]     rights grounded in primitives
 └──→ I  [meta:corresponds_to]      protocol encodes A's data model
 
-B (Formal: Category Theory, Lambda Calc, MPDC)
+B (Formal/Epistemic: Category Theory, Lambda Calc, MPDC, Lawfulness)
 ├──→ C  [meta:corresponds_to]      formalism scaffolds dynamics frameworks
 └──→ F  [symmetric:constrains]     MPDC sets theoretical limits on adversarial detection
 
@@ -344,10 +329,9 @@ H (Social/Applied: Civilization, Power, Care, Communication)
     [terminus — applies upstream frameworks to human systems]
 
 I (Protocol: CLP, RPE, Implementations)
-    [governs A–J; CLP is the data protocol for the entire corpus]
+    [governs A–H; CLP is the data protocol for the entire corpus]
 
-J (Substrate: Provisional derivation documents)
-    [composes A–C; working material, not canonical]
+Document layer, maturity, and integration provenance are orthogonal to this graph.
 ```
 
 ---
@@ -390,7 +374,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | AFD — First Principles | `AFD - First Principles.ormd` | B | 0.92 |
 | AOMI: Dialogue-Derived Doctrine Notes | `AOMI AI responses.ormd` | F | 0.92 |
 | Asymmetry Maintenance | `Asymmetry Maintenance - Core Source.ormd` | E | 0.90 |
-| Boundary Dynamics | `boundary_dynamics.ormd` | J | 0.90 |
+| Boundary Dynamics | `boundary_dynamics.ormd` | C | 0.90 |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | E | 0.90 |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | H | 0.85 |
 | CFAR ★ | `CFAR.ormd` | C | 0.95 |
@@ -408,13 +392,13 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | E² Equation ★ | `E^2 Equation.ormd` | A | 0.98 |
 | Embedded Universality Principle (EUP) | `Embedded Universality Principle (EUP).ormd` | B | 0.90 |
 | Relational Derivation Chain - E2 to RCP, MPDC, and AFD | `Relational Derivation Chain .ormd` | B | 0.85 |
-| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | C/J | 0.90 |
+| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | C | 0.90 |
 | Emergence Engine Overview ★ | `Emergence Engine overview.ormd` | C | 0.95 |
 | Essence of Existence Constitution — Draft 2 | `Essence of Existence Constitution - Draft 2.ormd` | H | 0.90 |
 | Ethical Principles for Human-AI Interaction ★ | `Ethical Principles for Human-AI Interaction.ormd` | E | 0.95 |
 | Exposure Protocol ★ | `Exposure Protocol.ormd` | F | 0.95 |
 | Family as a Relational Field | `Family as a Relational Field.ormd` | H | 0.90 |
-| Flow Operators: A Provisional Snapshot | `flow_operators_provisional.ormd` | J | 0.90 |
+| Flow Operators: A Provisional Snapshot | `flow_operators_provisional.ormd` | C | 0.90 |
 | From Essential Relationships to Ontological Transformation | `From Essential Relationships to Ontological Transformation.ormd` | C | 0.85 |
 | Global Closure Operator ★ | `Global Closure Operator.ormd` | A | 0.95 |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | E | 1.0 |
@@ -443,11 +427,11 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Relational Volition | `Relational Volition.ormd` | G | 0.90 |
 | REMF ★ | `REMF.ormd` | C | 0.95 |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | E | 0.90 |
-| Resolution: Synthesis Notes | `resolution_synthesis.ormd` | J | 0.90 |
+| Resolution: Synthesis Notes | `resolution_synthesis.ormd` | C | 0.90 |
 | Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | E | 0.95 |
 | RP Lambda Calc Translation ★ | `RP Lambda Calc Translation.ormd` | B | 0.98 |
-| Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | J | 0.90 |
+| Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | E | 0.90 |
 | Signal as Bias Field | `Signal as Bias Field.ormd` | D | 0.90 |
 | Steward's Creed ★ | `Steward’s Creed.ormd` | E | 1.0 |
 | TCL: Three Constants ★ | `TCL_Three_Constants.ormd` | D | 0.96 |
@@ -463,21 +447,19 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | D | 0.85 |
 | Truth Ceiling | `Truth Ceiling.ormd` | F | 0.85 |
 | Universal Emergence Pattern | `Universal Emergence Pattern.ormd` | C | 0.92 |
-| Condition as Typed Terrain | `Condition as Typed Terrain - Core Source.ormd` | K | 0.84 |
-| Consequence Routing | `Consequence Routing - Core Source.ormd` | K | 0.90 |
-| Context Layer Master Index | `Context Layer Index.ormd` | I | 1.0 |
-| Custody | `Custody - Core Source.ormd` | K | 0.84 |
-| Intervention Stewardship | `Intervention Stewardship - Core Source.ormd` | K | 0.90 |
-| Lawfulness | `Lawfulness - Core Source.ormd` | K | 0.84 |
-| Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | K | 0.84 |
-| Responsibility Absorption | `Responsibility Absorption - Core Source.ormd` | K | 0.84 |
-| The Self as Coherence Field | `Self as Coherence Field.ormd` | K | 0.93 |
-| Slow-Layer Clock Ratio | `Slow-Layer Clock Ratio - Core Source.ormd` | K | 0.84 |
-| Trust, Trustworthiness, and Reliance | `Trust, Trustworthiness, and Reliance - Core Source.ormd` | K | 0.84 |
+| Condition as Typed Terrain | `Condition as Typed Terrain - Core Source.ormd` | E | 0.84 |
+| Consequence Routing | `Consequence Routing - Core Source.ormd` | E | 0.90 |
+| Context Layer Master Index | `Context Layer Index.ormd` | Index | 1.0 |
+| Custody | `Custody - Core Source.ormd` | E | 0.84 |
+| Intervention Stewardship | `Intervention Stewardship - Core Source.ormd` | E | 0.90 |
+| Lawfulness | `Lawfulness - Core Source.ormd` | B | 0.84 |
+| Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | C | 0.84 |
+| Responsibility Absorption | `Responsibility Absorption - Core Source.ormd` | E | 0.84 |
+| The Self as Coherence Field | `Self as Coherence Field.ormd` | G | 0.93 |
+| Slow-Layer Clock Ratio | `Slow-Layer Clock Ratio - Core Source.ormd` | D | 0.84 |
+| Trust, Trustworthiness, and Reliance | `Trust, Trustworthiness, and Reliance - Core Source.ormd` | E | 0.84 |
 
 ---
 
 *Index reconciled 2026-08-10. Active Context Layer document count: 89. Original cluster architecture: Daniel Pace; current-state reconciliation: OpenAI Codex.*
 *To update this index: re-derive cluster membership from the `frame:` and `semantics.keywords` CLP fields; rebuild cross-cluster links from body-text link annotations; recount confidence from `resolution.confidence` in each document's frontmatter.*
-
-

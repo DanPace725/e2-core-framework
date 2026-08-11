@@ -10,7 +10,7 @@ Source repository: https://github.com/DanPace725/e2-core-framework
 ## How to read this corpus
 
 1. Start with the Context Layer Master Index.
-2. Select the relevant A–K cluster and read only the ORMD documents needed for the task.
+2. Select the relevant A–I cluster and read only the ORMD documents needed for the task.
 3. Preserve each document's frame, confidence, lineage, and policy metadata.
 4. Do not treat the index, generated catalog, or human Markdown as a substitute for the paired ORMD authority.
 
@@ -32,9 +32,9 @@ Entry point: Relational Primitives → E^2 Equation → Global Closure Operator
 - [Original E^2 Work](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/original-e2-work.ormd) — frame: research.index; confidence: 1
 - [Relational Primitives](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-primitives.ormd) — frame: formal.ontology.relational; confidence: 0.96
 
-## Cluster B — Formal & Mathematical Translations
+## Cluster B — Formal, Mathematical & Epistemic Constraints
 
-Scope: Formal mappings of E² into established mathematical formalisms — category theory, lambda calculus, relational physics, and computability theory. These documents verify the internal consistency of Cluster A claims and reveal the framework's theoretical limits.
+Scope: Formal mappings of E² into established mathematical formalisms, together with the epistemic conditions and limits governing what the framework may defensibly claim. Covers category theory, lambda calculus, relational physics, computability, embedded universality, and predictive lawfulness.
 
 Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle
 
@@ -42,22 +42,28 @@ Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Patte
 - [CT translation of RPs](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/ct-translation-of-rps.ormd) — frame: formalism.relational-ontology; confidence: 0.95
 - [Derivation Deep Dive: Categorical and Relational Physics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/derivation-deep-dive.ormd) — frame: physics.theoretical.derivation; confidence: 0.85
 - [Embedded Universality Principle (EUP)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/embedded-universality-principle-eup.ormd) — frame: epistemology.governance.embedded-universality; confidence: 0.9
+- [Lawfulness](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/lawfulness-core-source.ormd) — frame: epistemics.predictive_lawfulness; confidence: 0.84
 - [Meta-Pattern Decidability Conjecture (MPDC)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/meta-pattern-decidability-conjecture-mpdc.ormd) — frame: epistemology.conjecture; confidence: 0.85
+- [Relational Derivation Chain - E2 to RCP, MPDC, and AFD](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-derivation-chain.ormd) — frame: philosophy.relational.computability; confidence: 0.85
 - [Relational Field Dynamics 0.1](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-field-dynamics-0-1.ormd) — frame: research.formalism; confidence: 0.85
 - [RP Lambda Calc Translation](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/rp-lambda-calc-translation.ormd) — frame: formal.logic.translation; confidence: 0.98
 
 ## Cluster C — Dynamics, Emergence & Systems Frameworks
 
-Scope: How relational systems change, stabilize, and generate emergent structure. Covers the CFA/CFAR dynamics framework, AVIA adaptation theory, the REMF meta-framework, emergence simulation, and the physics of tensional intelligence.
+Scope: How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence.
 
 Entry point: REMF → Universal Emergence Pattern → CFA → CFAR
 
 - [Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/adaptation-via-informational-abstraction.ormd) — frame: scientific.theory; confidence: 0.85
+- [Boundary Dynamics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/boundary-dynamics.ormd) — frame: systems.boundary-dynamics; confidence: 0.9
 - [CFAR: Constraint-Fluctuation-Attention-Resolution Framework](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/cfar.ormd) — frame: systems.framework.cfar; confidence: 0.95
-- [Emergence Determination Foreclosure](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/emergence-determination-foreclosure.ormd) — frame: e2.semantic_substrate; confidence: 0.9
+- [Emergence Determination Foreclosure](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/emergence-determination-foreclosure.ormd) — frame: dynamics.emergence-determination-foreclosure; confidence: 0.9
+- [Flow Operators: A Provisional Snapshot](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/flow-operators-provisional.ormd) — frame: dynamics.flow-operators; confidence: 0.9
 - [From Essential Relationships to Ontological Transformation](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/from-essential-relationships-to-ontological-transformation.ormd) — frame: systems.ontology; confidence: 0.85
 - [Pattern Integrity over Time under Entropy](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/pattern-integrity-over-time-under-entropy.ormd) — frame: theory.relational-physics; confidence: 0.85
+- [Persistence as Accumulated Stance-With](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/persistence-as-accumulated-stance-with-core-source.ormd) — frame: dynamics.persistence_accumulated_stance_with; confidence: 0.84
 - [REMF](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/remf.ormd) — frame: ontology.meta-framework; confidence: 0.9
+- [Resolution: Synthesis Notes](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/resolution-synthesis.ormd) — frame: dynamics.resolution; confidence: 0.9
 - [Synthesis: Tensional Intelligence and the Praxis of Paradox](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tension.ormd) — frame: philosophy.tensional_intelligence; confidence: 0.92
 - [Tensional Intelligence: A Theoretical Foundation](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tensional-intelligence-a-theoretical-foundation.ormd) — frame: theory.tensional_intelligence; confidence: 0.85
 - [The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/cfa.ormd) — frame: systems.science.cfa; confidence: 0.95
@@ -73,31 +79,40 @@ Entry point: Metabolic Meaning Phase Space → The Resonance Framework → Signa
 - [Metabolic Meaning Phase Space (MMPS)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/metabolic-meaning-phase-space-mmps.ormd) — frame: theory.metabolic-meaning; confidence: 0.95
 - [Resonance Architecture 4.17.25](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/resonance-architecture-4-17-25.ormd) — frame: epistemology.resonance; confidence: 0.9
 - [Signal as Bias Field](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/signal-as-bias-field.ormd) — frame: relational.physics.signal-theory; confidence: 0.9
+- [Slow-Layer Clock Ratio](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/slow-layer-clock-ratio-core-source.ormd) — frame: dynamics.slow_layer_clock_ratio; confidence: 0.84
 - [Temporal Constraint Lamination: What We Found](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tcl-plain-english-summary.ormd) — frame: research.report; confidence: 0.92
 - [The Architecture of Resonant Systems](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/the-architecture-of-resonant-systems-4-26-25.ormd) — frame: relational.systems.theory; confidence: 0.92
 - [The Operating Window: Three Constants from One Landscape](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tcl-three-constants.ormd) — frame: systems.analysis.tcl; confidence: 0.96
 - [The Resonance Framework: An Ontological Map](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd) — frame: ontology.map; confidence: 0.85
 
-## Cluster E — Ethics, Stewardship & Rights
+## Cluster E — Ethics, Stewardship, Accountability & Rights
 
-Scope: The normative layer of E². Grounds ethics in relational structure: rights derive from primitives, stewardship is the relational obligation to maintain coherence, and localization ethics assigns accountability within complex causal chains. Includes temporal ethics and AI interaction ethics.
+Scope: The normative and answerability layer of E². Grounds rights, stewardship, trust, custody, accountability, consequence routing, and repair in relational structure. Localization and typed-condition work make assignment inspectable within complex causal chains. Includes temporal ethics and AI interaction ethics.
 
 Entry point: Reverent Stewardship → Relational Bill of Rights v2 → Justice Across Scales
 
 - [Asymmetry Maintenance](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/asymmetry-maintenance-core-source.ormd) — frame: mechanics.persistence.asymmetry; confidence: 0.9
 - [Boundary Ethics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/boundary-ethics-core-source.ormd) — frame: ethics.boundary.posture; confidence: 0.9
 - [Complex Causality](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/complex-causality-core-source.ormd) — frame: mechanics.causality.consequence; confidence: 0.9
+- [Condition as Typed Terrain](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/condition-as-typed-terrain-core-source.ormd) — frame: causality.condition_typed_terrain; confidence: 0.84
+- [Consequence Routing](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/consequence-routing-core-source.ormd) — frame: accountability.consequence-routing; confidence: 0.9
+- [Custody](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/custody-core-source.ormd) — frame: ethics.custody; confidence: 0.84
 - [Ethical Occlusion via Temporal Compression (EOTC)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/ethical-occlusion-via-temporal-compression-eotc.ormd) — frame: engineering.ethics.temporal-occlusion; confidence: 0.9
 - [Ethical Principles for Human-AI Interaction](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/ethical-principles-for-human-ai-interaction.ormd) — frame: ethics.framework; confidence: 0.95
 - [Human-AI Creative Collaboration Framework (HAIC)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/human-ai-creative-collaboration-framework-haic.ormd) — frame: governance.collaboration; confidence: 1
 - [Interlocked Stewardship V2](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/interlocked-stewardship-v2.ormd) — frame: social.analysis.stewardship; confidence: 0.92
+- [Intervention Stewardship](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/intervention-stewardship-core-source.ormd) — frame: ethics.stewardship.intervention; confidence: 0.9
 - [Justice Across Scales](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/justice-across-scales.ormd) — frame: ethics.justice.scales; confidence: 0.9
 - [Justice Across Scales: Practical Applications](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/justice-across-scales-practical-applications.ormd) — frame: justice.praxis.v1; confidence: 0.9
 - [Proxy Localization](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/proxy-localization-core-source.ormd) — frame: ethics.assignment.proxy; confidence: 0.9
 - [Relational Bill of Rights v2](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-bill-of-rights-v2.ormd) — frame: ethics.relational; confidence: 0.95
 - [Relational Localization](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-localization-core-source.ormd) — frame: ethics.assignment.localization; confidence: 0.9
 - [Remnant Stewardship](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/remnant-stewardship-core-source.ormd) — frame: ethics.stewardship.remnant; confidence: 0.9
+- [Responsibility Absorption](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/responsibility-absorption-core-source.ormd) — frame: governance.responsibility_absorption; confidence: 0.84
 - [Reverent Stewardship: A Recursion of Principles & Practical Guide](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/reverent-stewardship.ormd) — frame: ethics.stewardship.guide; confidence: 0.95
+- [Sign-Mediated Accountability and Flow Routing](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/sign-mediated-flow-routing.ormd) — frame: accountability.sign-mediated-routing; confidence: 0.9
+- [Steward’s Creed](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/steward-s-creed.ormd) — frame: philosophical.creed; confidence: 1
+- [Trust, Trustworthiness, and Reliance](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/trust-trustworthiness-and-reliance-core-source.ormd) — frame: relational.trust; confidence: 0.84
 
 ## Cluster F — Adversarial, Security & Cognitive Integrity
 
@@ -115,7 +130,7 @@ Entry point: Adversarial Occlusion & Mechanism Integrity V1 → AOMI AI Response
 
 ## Cluster G — Consciousness, Cognition & Identity
 
-Scope: How relational dynamics give rise to consciousness, cognitive structure, and identity. Treats consciousness as triadic relational architecture, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
+Scope: How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
 
 Entry point: Relational Emergence Meta-Architecture (REMA) → Collective Cognitive Substrate → Relational Volition
 
@@ -124,6 +139,7 @@ Entry point: Relational Emergence Meta-Architecture (REMA) → Collective Cognit
 - [Relational Emergence Meta-Architecture (REMA)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-emergence-meta-architecture-rema.ormd) — frame: theory.consciousness.rema; confidence: 0.88
 - [Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-volition.ormd) — frame: philosophy.relational-physics; confidence: 0.9
 - [The 'Intelligence Field' Framework](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/the-intelligence-field-framework.ormd) — frame: cognitive.theory.framework; confidence: 0.85
+- [The Self as Coherence Field](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/self-as-coherence-field.ormd) — frame: cognition.self_coherence; confidence: 0.93
 
 ## Cluster H — Social, Civilizational & Applied
 
@@ -139,6 +155,7 @@ Entry point: Declaration of Interdependence → The Collective Relational Substr
 - [Family as a Relational Field](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/family-as-a-relational-field.ormd) — frame: philosophy.family_dynamics; confidence: 0.9
 - [Layer 2 Draft: RVP + VME (Developments So Far)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/layer-2-draft-rvp-and-vme-developments.ormd) — frame: economics.relational.specification; confidence: 0.85
 - [Power as Relational Field Coherence](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/power-as-relational-field-coherence.ormd) — frame: theoretical.sociophysics.power; confidence: 0.9
+- [Relational Perfection: A Framework for Emergent Integrity](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-perfection-framework.ormd) — frame: philosophy.ontology; confidence: 0.95
 - [Relational Perfection: A Manifesto](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-perfection-a-manifesto.ormd) — frame: philosophy.manifesto; confidence: 1
 - [The Cyclical Integrity framework](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/the-cyclical-integrity-framework.ormd) — frame: philosophy.systems; confidence: 0.9
 - [The Essence of Existence](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/the-essence-of-existence.ormd) — frame: manifesto.relational; confidence: 0.9
@@ -152,35 +169,4 @@ Entry point: Context Layer Protocol (CLP) → Implementations → Relational Pri
 - [Context Layer Protocol (CLP) — Overview & Starter Spec v0.2](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/context-layer-protocol-clp.ormd) — frame: protocol.specification; confidence: 0.9
 - [Implementations](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/implementations.ormd) — frame: registry.implementations; confidence: 1
 - [Relational Primitive Engine (RPE)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-primitive-engine-rpe.ormd) — frame: engineering.simulation.rpe; confidence: 0.98
-
-## Cluster J — Semantic Substrate (Working/Provisional)
-
-Scope: Low-level working documents generated from or supporting the semantic substrate derivation layer. These are provisional formalizations — stubs, synthesis notes, and flow mappings — rather than settled theory. Treat as reference material, not canonical sources.
-
-Entry point: No single entry point; consult as reference material when working with formal derivations in A or B.
-
-- [Boundary Dynamics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/boundary-dynamics.ormd) — frame: e2.semantic_substrate; confidence: 0.9
-- [Flow Operators: A Provisional Snapshot](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/flow-operators-provisional.ormd) — frame: e2.semantic_substrate; confidence: 0.9
-- [Resolution: Synthesis Notes](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/resolution-synthesis.ormd) — frame: e2.semantic_substrate; confidence: 0.9
-- [Sign-Mediated Accountability and Flow Routing](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/sign-mediated-flow-routing.ormd) — frame: e2.semantic_substrate; confidence: 0.9
-
-## Cluster K — Integrated Core Sources — 2026-08-10
-
-Scope: Corrected sources admitted through the staged integration process after collision review and proportional preliminary tests. These remain placed inside the six-primitive architecture; this cluster records integration provenance rather than a new theoretical layer.
-
-Entry point: Condition as Typed Terrain for typed condition claims; use the more specific source when the task concerns custody, routing, stewardship, persistence, self-coherence, or trust.
-
-- [Condition as Typed Terrain](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/condition-as-typed-terrain-core-source.ormd) — frame: causality.condition_typed_terrain; confidence: 0.84
-- [Consequence Routing](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/consequence-routing-core-source.ormd) — frame: accountability.consequence-routing; confidence: 0.9
-- [Custody](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/custody-core-source.ormd) — frame: ethics.custody; confidence: 0.84
-- [Intervention Stewardship](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/intervention-stewardship-core-source.ormd) — frame: ethics.stewardship.intervention; confidence: 0.9
-- [Lawfulness](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/lawfulness-core-source.ormd) — frame: epistemics.predictive_lawfulness; confidence: 0.84
-- [Persistence as Accumulated Stance-With](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/persistence-as-accumulated-stance-with-core-source.ormd) — frame: dynamics.persistence_accumulated_stance_with; confidence: 0.84
-- [Relational Derivation Chain - E2 to RCP, MPDC, and AFD](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-derivation-chain.ormd) — frame: philosophy.relational.computability; confidence: 0.85
-- [Relational Perfection: A Framework for Emergent Integrity](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/relational-perfection-framework.ormd) — frame: philosophy.ontology; confidence: 0.95
-- [Responsibility Absorption](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/responsibility-absorption-core-source.ormd) — frame: governance.responsibility_absorption; confidence: 0.84
-- [Slow-Layer Clock Ratio](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/slow-layer-clock-ratio-core-source.ormd) — frame: dynamics.slow_layer_clock_ratio; confidence: 0.84
-- [Steward’s Creed](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/steward-s-creed.ormd) — frame: philosophical.creed; confidence: 1
-- [The Self as Coherence Field](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/self-as-coherence-field.ormd) — frame: cognition.self_coherence; confidence: 0.93
-- [Trust, Trustworthiness, and Reliance](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/trust-trustworthiness-and-reliance-core-source.ormd) — frame: relational.trust; confidence: 0.84
 

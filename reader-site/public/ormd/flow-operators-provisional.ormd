@@ -4,7 +4,7 @@ title: "Flow Operators: A Provisional Snapshot"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
-frame: "e2.semantic_substrate"
+frame: "dynamics.flow-operators"
 lineage:
   origin: { uri: "local://semantic-substrate/flow_operators_provisional.md", ts: "2026-05-02T01:01:56.752995+00:00" }
   parents: []

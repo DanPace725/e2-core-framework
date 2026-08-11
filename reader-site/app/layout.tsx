@@ -26,6 +26,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="AI content index" />
+        <link rel="alternate" type="text/plain" href="/ormd-corpus.txt" title="Complete ORMD corpus" />
+      </head>
       <body>{children}</body>
     </html>
   );

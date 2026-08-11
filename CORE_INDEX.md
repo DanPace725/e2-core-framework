@@ -1,6 +1,6 @@
 # Core Framework Index
 
-Generated: `2026-08-10T20:23:09.822173+00:00`
+Generated: `2026-08-11T03:57:56.895178+00:00`
 
 Active Core root: `E2Core`
 

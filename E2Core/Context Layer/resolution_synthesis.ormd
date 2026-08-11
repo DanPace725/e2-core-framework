@@ -4,7 +4,7 @@ title: "Resolution: Synthesis Notes"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
-frame: "e2.semantic_substrate"
+frame: "dynamics.resolution"
 lineage:
   origin: { uri: "local://semantic-substrate/resolution_synthesis.md", ts: "2026-04-27T18:17:51.225206+00:00" }
   parents: []

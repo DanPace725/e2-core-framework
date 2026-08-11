@@ -1,6 +1,6 @@
 # Sign-Mediated Accountability and Flow Routing {#sign-mediated-flow-routing}
 
-This document is the unified specification for sign-mediated accountability and flow routing. It remains a Cluster J working/provisional substrate document, but the prior accountability and routing packets have been consolidated into one active node.
+This document is the unified specification for sign-mediated accountability and flow routing. It is a working/provisional specification in Cluster E's accountability and routing family; the prior accountability and routing packets have been consolidated into one active node.
 
 ## Core Claim {#core-claim}
 

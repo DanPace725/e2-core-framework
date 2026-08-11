@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-10T20:23:09.821606+00:00",
+  "generated_at": "2026-08-11T03:57:56.894199+00:00",
   "scope": "E2Core",
   "authority": "active_filesystem_state",
   "counts": {
@@ -238,9 +238,9 @@
           "stem": "boundary_dynamics",
           "title": "Boundary Dynamics",
           "layer": "context_layer",
-          "size_bytes": 28983,
-          "sha256": "43e9fdc7010a65c2d9f21bf89a2bb12ccfdd80938b3ec4f8d8284980a0fc4d28",
-          "frame": "e2.semantic_substrate",
+          "size_bytes": 28986,
+          "sha256": "2e3db317e9dbaa89cd2ba44dd0159086cbf993c42180c836d6d350a672f8b3b3",
+          "frame": "systems.boundary-dynamics",
           "confidence": 0.9
         }
       ],
@@ -642,8 +642,8 @@
           "stem": "Context Layer Index",
           "title": "Context Layer Master Index",
           "layer": "context_layer",
-          "size_bytes": 49087,
-          "sha256": "966673722b418ffffd4136d75817942881fe118d70489fafe3c0f27862519630",
+          "size_bytes": 49132,
+          "sha256": "739c310cbb6ad57680885635451a22c102c2c799a54ee1f200b7cbeeee403e81",
           "frame": "meta.index.context-layer",
           "confidence": 1.0
         }
@@ -1005,9 +1005,9 @@
           "stem": "Emergence_Determination_Foreclosure",
           "title": "Emergence Determination Foreclosure",
           "layer": "context_layer",
-          "size_bytes": 21752,
-          "sha256": "f95a0bc0c1b468c81016f1f2c017c6bb86f873400a978a4cfaf2032de996c2f2",
-          "frame": "e2.semantic_substrate",
+          "size_bytes": 21774,
+          "sha256": "12f877a3f487fd9e5185d0436a640294d884b1d360c0af7fc56c93064401c65b",
+          "frame": "dynamics.emergence-determination-foreclosure",
           "confidence": 0.9
         }
       ],
@@ -1203,9 +1203,9 @@
           "stem": "flow_operators_provisional",
           "title": "Flow Operators: A Provisional Snapshot",
           "layer": "context_layer",
-          "size_bytes": 17551,
-          "sha256": "7e38034c5f0d1f81b695becf6701aab4bd243cfb3b5bc6040311d0a367a02b9e",
-          "frame": "e2.semantic_substrate",
+          "size_bytes": 17552,
+          "sha256": "3643437878e7fec8857af4394f2d73e9d67ddddf6ce8822cda7c4d6401ec743d",
+          "frame": "dynamics.flow-operators",
           "confidence": 0.9
         }
       ],
@@ -2377,9 +2377,9 @@
           "stem": "resolution_synthesis",
           "title": "Resolution: Synthesis Notes",
           "layer": "context_layer",
-          "size_bytes": 15021,
-          "sha256": "3b84a2e812b853ae848f9f93db1cbe8e1b9abe05cd39acc81fd6f470955e48c2",
-          "frame": "e2.semantic_substrate",
+          "size_bytes": 15018,
+          "sha256": "8d587ca509b464eb22d8befaf2dbde73a9a2072eaf8fa20b1595d2301b902822",
+          "frame": "dynamics.resolution",
           "confidence": 0.9
         }
       ],
@@ -2562,8 +2562,8 @@
           "stem": "sign_mediated_flow_routing",
           "title": "Sign-Mediated Accountability and Flow Routing",
           "layer": "semantic_substrate",
-          "size_bytes": 5987,
-          "sha256": "254231f41418b08e6fb17577573856e4fd51767b18427989fefc8ff4cf052c9b",
+          "size_bytes": 6027,
+          "sha256": "e83ac6b45518ee1b7b5fe0e8d28ba25232544ff0608858caf77009c7f827cf66",
           "frame": null,
           "confidence": null
         }
@@ -2575,9 +2575,9 @@
           "stem": "sign_mediated_flow_routing",
           "title": "Sign-Mediated Accountability and Flow Routing",
           "layer": "context_layer",
-          "size_bytes": 6091,
-          "sha256": "47a31a5cd50aafcd1599a139fc27b574d64759b0a385c28984d7851dc55b0a8f",
-          "frame": "e2.semantic_substrate",
+          "size_bytes": 6131,
+          "sha256": "54474867a5b2d9efb9a64031334aba15f0e9358c4a3504d65e12dee7dbb698e6",
+          "frame": "accountability.sign-mediated-routing",
           "confidence": 0.9
         }
       ],

@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-08-10T20:23:09.821606+00:00`
+Generated: `2026-08-11T03:57:56.894199+00:00`
 
 Authority: `active_filesystem_state`
 

@@ -67,12 +67,15 @@ function cleanInline(value = "") {
 
 function parseClusters(raw) {
   const clusters = [];
-  const headingPattern = /^## Cluster ([A-K])\s+[—-]\s+(.+?)(?:\s+\{#[^}]+\})?\s*$/gm;
+  const headingPattern = /^## Cluster ([A-I])\s+[—-]\s+(.+?)(?:\s+\{#[^}]+\})?\s*$/gm;
   const matches = [...raw.matchAll(headingPattern)];
 
   for (let i = 0; i < matches.length; i += 1) {
     const match = matches[i];
-    const section = raw.slice(match.index, matches[i + 1]?.index ?? raw.length);
+    const tailStart = match.index + match[0].length;
+    const nextHeadingOffset = raw.slice(tailStart).search(/^##\s+/m);
+    const sectionEnd = nextHeadingOffset === -1 ? raw.length : tailStart + nextHeadingOffset;
+    const section = raw.slice(match.index, sectionEnd);
     const scope = section.match(/^\*\*Scope:\*\*\s*(.+)$/m)?.[1]?.trim() ?? "";
     const triggers = section.match(/^\*\*Trigger keywords:\*\*\s*(.+)$/m)?.[1]
       ?.split(",")
@@ -94,7 +97,7 @@ function parseClusters(raw) {
 }
 
 const clusters = parseClusters(indexText);
-if (clusters.length !== 11) throw new Error(`Expected 11 clusters, found ${clusters.length}`);
+if (clusters.length !== 9) throw new Error(`Expected 9 clusters, found ${clusters.length}`);
 
 const clusterByFilename = new Map();
 for (const cluster of clusters) {
@@ -327,7 +330,7 @@ const llmsLines = [
   "## How to read this corpus",
   "",
   "1. Start with the Context Layer Master Index.",
-  "2. Select the relevant A–K cluster and read only the ORMD documents needed for the task.",
+  "2. Select the relevant A–I cluster and read only the ORMD documents needed for the task.",
   "3. Preserve each document's frame, confidence, lineage, and policy metadata.",
   "4. Do not treat the index, generated catalog, or human Markdown as a substitute for the paired ORMD authority.",
   "",

@@ -4,7 +4,7 @@ title: "Emergence Determination Foreclosure"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
-frame: "e2.semantic_substrate"
+frame: "dynamics.emergence-determination-foreclosure"
 lineage:
   origin: { uri: "local://semantic-substrate/Emergence_Determination_Foreclosure.md", ts: "2026-05-08T23:16:54.719108+00:00" }
   parents: []

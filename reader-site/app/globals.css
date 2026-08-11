@@ -369,6 +369,28 @@ a {
   color: var(--forest-900);
 }
 
+.ai-navigation-note {
+  display: grid;
+  gap: 5px;
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid #c7cfc8;
+  border-radius: 8px;
+  color: #4f5853;
+  background: rgba(255, 255, 255, 0.42);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.ai-navigation-note strong {
+  color: var(--forest-900);
+}
+
+.ai-navigation-note a {
+  color: #225d49;
+  font-weight: 700;
+}
+
 .markdown-body {
   padding-top: 23px;
   font-family: Georgia, Cambria, "Times New Roman", serif;
