@@ -1,11 +1,14 @@
 "use client";
 
 import { marked } from "marked";
+import markedKatex from "marked-katex-extension";
 import Link from "next/link";
-import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { GraphData } from "./CorpusGraph";
 
 const CorpusGraph = lazy(() => import("./CorpusGraph").then((module) => ({ default: module.CorpusGraph })));
+
+marked.use(markedKatex({ throwOnError: false, strict: false }));
 
 type CoreDoc = {
   slug: string;
@@ -38,7 +41,13 @@ type Catalog = {
 };
 
 function sanitizeMarkdown(markdown: string) {
-  const displayMarkdown = markdown.replace(/\s*\{#[A-Za-z0-9_-]+\}\s*$/gm, "");
+  const displayMarkdown = markdown.replace(
+    /^(#{1,6})\s+(.+?)\s*\{#([A-Za-z0-9_-]+)\}\s*$/gm,
+    (_whole, marks: string, heading: string, id: string) => {
+      const content = marked.parseInline(heading, { async: false }) as string;
+      return `<h${marks.length} id="${id}">${content}</h${marks.length}>`;
+    },
+  );
   const rendered = marked.parse(displayMarkdown, { async: false }) as string;
   const parsed = new DOMParser().parseFromString(rendered, "text/html");
 
@@ -52,8 +61,35 @@ function sanitizeMarkdown(markdown: string) {
       }
     }
   });
+  parsed.querySelectorAll<HTMLAnchorElement>("a[href]").forEach((anchor) => {
+    const href = anchor.getAttribute("href") ?? "";
+    if (href.startsWith("#") && !parsed.getElementById(href.slice(1))) {
+      anchor.removeAttribute("href");
+      anchor.classList.add("unpublished-reference");
+      anchor.setAttribute("aria-disabled", "true");
+      anchor.setAttribute("title", "Referenced section is not present in this document");
+      return;
+    }
+    const fileTarget = href.split(/[?#]/, 1)[0];
+    if (!/\.(?:md|ormd)$/i.test(fileTarget) || href.startsWith("/human/") || href.startsWith("/ormd/")) return;
+    anchor.removeAttribute("href");
+    anchor.classList.add("unpublished-reference");
+    anchor.setAttribute("aria-disabled", "true");
+    anchor.setAttribute("title", "Referenced source is not included in the public corpus");
+  });
 
   return parsed.body.innerHTML;
+}
+
+function scrollToDocumentAnchor(hash: string) {
+  if (!hash) return;
+  let id = hash.replace(/^#/, "");
+  try {
+    id = decodeURIComponent(id);
+  } catch {
+    // Keep the literal fragment when it is not valid percent-encoding.
+  }
+  document.getElementById(id)?.scrollIntoView({ block: "start" });
 }
 
 function formatWords(words: number) {
@@ -71,8 +107,9 @@ export function CorpusReader() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [graphError, setGraphError] = useState("");
+  const articleRef = useRef<HTMLElement>(null);
 
-  const selectDoc = useCallback((slug: string, push = true) => {
+  const selectDoc = useCallback((slug: string, push = true, hash = "") => {
     if (slug === selectedSlug) {
       setDrawerOpen(false);
       setView("reader");
@@ -80,8 +117,10 @@ export function CorpusReader() {
         const url = new URL(window.location.href);
         url.searchParams.set("doc", slug);
         url.searchParams.delete("view");
+        url.hash = hash;
         window.history.pushState({ slug }, "", url);
       }
+      if (hash) window.requestAnimationFrame(() => scrollToDocumentAnchor(hash));
       return;
     }
     setLoading(true);
@@ -92,6 +131,7 @@ export function CorpusReader() {
       const url = new URL(window.location.href);
       url.searchParams.set("doc", slug);
       url.searchParams.delete("view");
+      url.hash = hash;
       window.history.pushState({ slug }, "", url);
     }
     setView("reader");
@@ -125,13 +165,18 @@ export function CorpusReader() {
       if (!catalog) return;
       const requested = new URLSearchParams(window.location.search).get("doc");
       setView(new URLSearchParams(window.location.search).get("view") === "graph" ? "graph" : "reader");
-      setLoading(true);
-      setError("");
-      setSelectedSlug(requested && catalog.docs.some((doc) => doc.slug === requested) ? requested : catalog.entrySlug);
+      const nextSlug = requested && catalog.docs.some((doc) => doc.slug === requested) ? requested : catalog.entrySlug;
+      if (nextSlug !== selectedSlug) {
+        setLoading(true);
+        setError("");
+        setSelectedSlug(nextSlug);
+      } else {
+        window.requestAnimationFrame(() => scrollToDocumentAnchor(window.location.hash));
+      }
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
-  }, [catalog]);
+  }, [catalog, selectedSlug]);
 
   useEffect(() => {
     if (view !== "graph" || graph) return;
@@ -150,6 +195,31 @@ export function CorpusReader() {
 
   const docMap = useMemo(() => new Map(catalog?.docs.map((doc) => [doc.slug, doc]) ?? []), [catalog]);
   const selectedDoc = docMap.get(selectedSlug);
+
+  useEffect(() => {
+    const articleElement = articleRef.current;
+    if (!articleElement) return;
+    const handleClick = (event: MouseEvent) => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const target = event.target as Element;
+      const anchor = target.closest("a");
+      if (!anchor) return;
+      if (anchor.getAttribute("aria-disabled") === "true") {
+        event.preventDefault();
+        return;
+      }
+      const href = anchor.getAttribute("href");
+      if (!href) return;
+      const url = new URL(href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      const slug = url.searchParams.get("doc");
+      if (!slug || !docMap.has(slug)) return;
+      event.preventDefault();
+      selectDoc(slug, true, url.hash);
+    };
+    articleElement.addEventListener("click", handleClick);
+    return () => articleElement.removeEventListener("click", handleClick);
+  }, [article, docMap, selectDoc]);
 
   useEffect(() => {
     if (!selectedDoc) return;
@@ -171,6 +241,11 @@ export function CorpusReader() {
       });
     return () => controller.abort();
   }, [selectedDoc]);
+
+  useEffect(() => {
+    if (loading || view !== "reader") return;
+    scrollToDocumentAnchor(window.location.hash);
+  }, [article, loading, selectedSlug, view]);
 
   const normalizedQuery = query.trim().toLowerCase();
   const filteredClusters = useMemo(() => {
@@ -346,7 +421,7 @@ export function CorpusReader() {
             {loading ? (
               <div className="loading-panel">Loading document…</div>
             ) : (
-              <article className="markdown-body" dangerouslySetInnerHTML={{ __html: article }} />
+              <article ref={articleRef} className="markdown-body" dangerouslySetInnerHTML={{ __html: article }} />
             )}
 
             <nav className="document-pagination" aria-label="Adjacent documents">

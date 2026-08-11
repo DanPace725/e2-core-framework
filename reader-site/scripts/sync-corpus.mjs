@@ -129,21 +129,98 @@ const items = allContextItems.map(({ record, context }) => {
   };
 });
 
-const humanNameToSlug = new Map();
-for (const item of items) {
-  for (const source of item.record.semantic_substrate ?? []) {
-    humanNameToSlug.set(source.name.toLowerCase(), item.slug);
+const corpusNameToSlug = new Map();
+const normalizedCorpusNameToSlug = new Map();
+
+function decodeHref(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
   }
 }
-humanNameToSlug.set("context layer index.md", "context-layer-master-index");
+
+function normalizedCorpusName(value) {
+  const decoded = decodeHref(value).replace(/\\/g, "/");
+  const name = decoded.split("/").pop() ?? decoded;
+  const stem = name
+    .replace(/\.(?:md|ormd)$/i, "")
+    .replace(/[\s_-]*[0-9a-f]{32}$/i, "");
+  return slugify(stem);
+}
+
+function registerCorpusName(name, slug) {
+  corpusNameToSlug.set(name.toLowerCase(), slug);
+  const normalized = normalizedCorpusName(name);
+  const existing = normalizedCorpusNameToSlug.get(normalized);
+  normalizedCorpusNameToSlug.set(normalized, existing && existing !== slug ? null : slug);
+}
+
+for (const item of items) {
+  for (const source of item.record.semantic_substrate ?? []) registerCorpusName(source.name, item.slug);
+  registerCorpusName(item.context.name, item.slug);
+}
+registerCorpusName("context layer index.md", "context-layer-master-index");
 
 function rewriteHumanLinks(markdown) {
-  return markdown.replace(/\]\(([^)\s]+\.md)(?:#[^)\s]+)?(?:\s+"[^"]*")?\)/gi, (whole, href) => {
-    const decoded = decodeURIComponent(href).replace(/\\/g, "/");
+  let cursor = 0;
+  let searchFrom = 0;
+  let rewritten = "";
+
+  while (searchFrom < markdown.length) {
+    const destinationStart = markdown.indexOf("](", searchFrom);
+    if (destinationStart === -1) break;
+
+    let depth = 1;
+    let escaped = false;
+    let destinationEnd = destinationStart + 2;
+    for (; destinationEnd < markdown.length; destinationEnd += 1) {
+      const character = markdown[destinationEnd];
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (character === "\\") {
+        escaped = true;
+        continue;
+      }
+      if (character === "(") depth += 1;
+      else if (character === ")") {
+        depth -= 1;
+        if (depth === 0) break;
+      }
+    }
+    if (depth !== 0) break;
+
+    const rawDestination = markdown.slice(destinationStart + 2, destinationEnd).trim();
+    const destinationMatch = rawDestination.match(/^(?:<([^>]+)>|(\S+))(\s+(?:"[^"]*"|'[^']*'|\([^)]*\)))?$/s);
+    const href = destinationMatch?.[1] ?? destinationMatch?.[2];
+    if (!href || !/\.(?:md|ormd)(?:#|$)/i.test(href)) {
+      searchFrom = destinationEnd + 1;
+      continue;
+    }
+
+    const hashIndex = href.indexOf("#");
+    const fileHref = hashIndex === -1 ? href : href.slice(0, hashIndex);
+    const fragment = hashIndex === -1 ? "" : href.slice(hashIndex);
+    const decoded = decodeHref(fileHref).replace(/\\/g, "/");
     const name = decoded.split("/").pop()?.toLowerCase();
-    const target = name ? humanNameToSlug.get(name) : null;
-    return target ? `](/?doc=${target})` : whole;
-  });
+    const exactTarget = name ? corpusNameToSlug.get(name) : null;
+    const target = exactTarget ?? normalizedCorpusNameToSlug.get(normalizedCorpusName(decoded));
+    if (!target) {
+      searchFrom = destinationEnd + 1;
+      continue;
+    }
+
+    const title = destinationMatch?.[3] ?? "";
+    rewritten += markdown.slice(cursor, destinationStart + 2);
+    rewritten += `/?doc=${target}${fragment}${title}`;
+    rewritten += ")";
+    cursor = destinationEnd + 1;
+    searchFrom = cursor;
+  }
+
+  return `${rewritten}${markdown.slice(cursor)}`;
 }
 
 function stripHumanEnvelope(markdown) {
