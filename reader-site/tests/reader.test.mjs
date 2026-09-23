@@ -33,7 +33,10 @@ test("server-renders the E2 corpus reader shell", async () => {
 });
 
 test("publishes complete paired human and AI catalogs", async () => {
-  const catalog = JSON.parse(await readFile(new URL("../public/catalog.json", import.meta.url), "utf8"));
+  const [catalog, readerComponent] = await Promise.all([
+    readFile(new URL("../public/catalog.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../app/CorpusReader.tsx", import.meta.url), "utf8"),
+  ]);
   assert.equal(catalog.entrySlug, "context-layer-master-index");
   assert.equal(catalog.counts.documents, 90);
   assert.equal(catalog.counts.clusters, 9);
@@ -50,6 +53,8 @@ test("publishes complete paired human and AI catalogs", async () => {
   assert.equal(catalog.docs.find((doc) => doc.slug === "sign-mediated-flow-routing")?.clusterId, "E");
   assert.equal(catalog.docs.find((doc) => doc.slug === "self-as-coherence-field")?.clusterId, "G");
   assert.equal(catalog.docs.find((doc) => doc.slug === "e2-as-a-translation-architecture-for-human-remembrance")?.clusterId, "A");
+  assert.match(readerComponent, /download=\{`\$\{selectedDoc\.slug\}\.md`\}/);
+  assert.match(readerComponent, />Download \.md<\/a>/);
 });
 
 test("publishes a typed E2 relationship graph", async () => {
@@ -107,11 +112,11 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(llms, /Machine-readable relationship graph/);
   assert.match(llms, /E² as a Translation Architecture for Human Remembrance/);
   assert.doesNotMatch(llms, /\]\(\/ormd\//);
-  assert.equal(rootLlms, llms);
+  assert.equal(rootLlms.replace(/\r\n/g, "\n"), llms.replace(/\r\n/g, "\n"));
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
   assert.match(corpus, /BEGIN ORMD: Context Layer Index\.ormd/);
-  assert.match(robots, /User-agent: Claude-User\nAllow: \//);
-  assert.match(robots, /User-agent: Google-Extended\nAllow: \//);
+  assert.match(robots, /User-agent: Claude-User\r?\nAllow: \//);
+  assert.match(robots, /User-agent: Google-Extended\r?\nAllow: \//);
   assert.doesNotMatch(robots, /^Sitemap:/m);
   assert.match(htmlIndex, /^<!doctype html>/);
   assert.match(htmlIndex, /Whole combined ORMD corpus/);

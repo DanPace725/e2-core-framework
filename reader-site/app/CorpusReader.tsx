@@ -408,7 +408,8 @@ export function CorpusReader() {
               </div>
               <div className="document-actions">
                 <a className="primary-action" href={selectedDoc.ormdUrl}>ORMD for AI</a>
-                <a href={selectedDoc.humanUrl}>Raw Markdown</a>
+                <a className="download-action" href={selectedDoc.humanUrl} download={`${selectedDoc.slug}.md`}>Download .md</a>
+                <a href={selectedDoc.humanUrl}>View raw</a>
                 <a href="/catalog.json">JSON catalog</a>
               </div>
             </section>
