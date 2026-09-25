@@ -44,9 +44,9 @@ relations:
     type: connects
     note: The chain explicitly connects E2 to MPDC.
   - source: relational-derivation-chain
-    target: afd-first-principles
+    target: constraint-fluctuation-attention-resolution-core-source
     type: connects
-    note: The chain explicitly connects E2 to AFD.
+    note: The chain connects E2 to the AFD lineage, now preserved in the reconciled CFAR source.
   - source: derivation-deep-dive
     target: relational-field-dynamics-0-1
     type: extends
@@ -64,9 +64,13 @@ relations:
     type: depends-on
     note: Flow interpretation inherits observer-position dependence.
   - source: resolution-synthesis
-    target: cfar
+    target: constraint-fluctuation-attention-resolution-core-source
     type: informs
-    note: Resolution supplies one of CFAR's operative dynamics.
+    note: Resolution supplies one of the reconciled CFAR source's operative dynamics.
+  - source: signal-as-bias-field
+    target: constraint-fluctuation-attention-resolution-core-source
+    type: informs
+    note: Conditional signal uptake helps distinguish receiver-side access from emitter-side inputs.
   - source: emergence-determination-foreclosure
     target: universal-emergence-pattern
     type: constrains
@@ -83,10 +87,6 @@ relations:
     target: tensional-intelligence-a-theoretical-foundation
     type: synthesizes
     note: The synthesis translates the theoretical foundation into praxis.
-  - source: cfa
-    target: cfar
-    type: operationalizes
-    note: CFA operationalizes relational complexity for intervention.
   - source: the-architecture-of-resonant-systems-4-26-25
     target: resonance-architecture-4-17-25
     type: extends

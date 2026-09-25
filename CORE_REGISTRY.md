@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-08-11T20:57:13.009442+00:00`
+Generated: `2026-09-24T16:16:22.951828+00:00`
 
 Authority: `active_filesystem_state`
 
@@ -8,15 +8,15 @@ Authority: `active_filesystem_state`
 
 | Metric | Count |
 | --- | --- |
-| Semantic Substrate files | 97 |
-| Context Layer files | 90 |
-| Active raw files | 187 |
-| Exact-stem pairs | 84 |
+| Semantic Substrate files | 95 |
+| Context Layer files | 88 |
+| Active raw files | 183 |
+| Exact-stem pairs | 82 |
 | Composite or alias pairs | 5 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
-| Archived raw files | 50 |
+| Archived raw files | 56 |
 
 ## Active Records
 
@@ -24,15 +24,12 @@ Authority: `active_filesystem_state`
 | --- | --- | --- | --- | --- | --- |
 | Adaptation via Informational Abstraction | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Adaptation via Informational Abstraction.md | E2Core/Context Layer/Adaptation via Informational Abstraction.ormd | no |
 | Adversarial Occlusion and Mechanism Integrity V1 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md | E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd | no |
-| AFD - First Principles | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/AFD - First Principles.md | E2Core/Context Layer/AFD - First Principles.ormd | no |
 | AOMI AI responses | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/AOMI AI responses.md | E2Core/Context Layer/AOMI AI responses.ormd | no |
 | Asymmetry Maintenance - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md | E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd | yes |
 | Boundary Ethics - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Boundary Ethics - Core Source.md | E2Core/Context Layer/Boundary Ethics - Core Source.ormd | yes |
 | boundary_dynamics | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/boundary_dynamics.md | E2Core/Context Layer/boundary_dynamics.ormd | no |
 | Caregiving as an Ecosystem | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Caregiving as an Ecosystem.md | E2Core/Context Layer/Caregiving as an Ecosystem.ormd | no |
 | CCS | semantic_substrate_only | unpaired_active_source | E2Core/Semantic Substrate/CCS.md | - | n/a |
-| CFA | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/CFA.md | E2Core/Context Layer/CFA.ormd | no |
-| CFAR | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/CFAR.md | E2Core/Context Layer/CFAR.ormd | no |
 | Cognitive Signature Capture An Unnamed Threat | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md | E2Core/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd | no |
 | Collective Cognitive Substrate | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Collective Cognitive Substrate.md | E2Core/Context Layer/Collective Cognitive Substrate.ormd | no |
 | collective-relational-substrate | paired_composite_or_alias | lineage_preserving_merge | E2Core/Semantic Substrate/CRS.md<br>E2Core/Semantic Substrate/The Collective Relational Substrate.md | E2Core/Context Layer/Collective Relational Substrate.ormd | n/a |
@@ -41,6 +38,7 @@ Authority: `active_filesystem_state`
 | Complex Causality - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Complex Causality - Core Source.md | E2Core/Context Layer/Complex Causality - Core Source.ormd | yes |
 | Condition as Typed Terrain - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Condition as Typed Terrain - Core Source.md | E2Core/Context Layer/Condition as Typed Terrain - Core Source.ormd | yes |
 | Consequence Routing - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Consequence Routing - Core Source.md | E2Core/Context Layer/Consequence Routing - Core Source.ormd | yes |
+| Constraint-Fluctuation-Attention-Resolution - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md | E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd | no |
 | Context Layer Index | context_meta_index | meta_index | - | E2Core/Context Layer/Context Layer Index.ormd | n/a |
 | Context Layer Protocol (CLP) | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Context Layer Protocol (CLP).md | E2Core/Context Layer/Context Layer Protocol (CLP).ormd | no |
 | CT translation of RPs | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/CT translation of RPs.md | E2Core/Context Layer/CT translation of RPs.ormd | no |

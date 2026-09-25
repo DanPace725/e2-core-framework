@@ -1,4 +1,4 @@
-﻿Context Layer Protocol (CLP) ---
+Context Layer Protocol (CLP) ---
 frame: "philosophy.relational-ontology.axioms"
 lineage:
   origin: { uri: "urn:ormd:e2-axioms:pass-3a", ts: "2026-06-12T00:00:00Z" }

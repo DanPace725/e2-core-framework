@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-11T20:57:13.009442+00:00",
+  "generated_at": "2026-09-24T16:16:22.951828+00:00",
   "scope": "E2Core",
   "authority": "active_filesystem_state",
   "counts": {
-    "semantic_substrate_files": 97,
-    "context_layer_files": 90,
-    "active_raw_files": 187,
-    "registry_records": 95,
-    "exact_stem_pairs": 84,
+    "semantic_substrate_files": 95,
+    "context_layer_files": 88,
+    "active_raw_files": 183,
+    "registry_records": 93,
+    "exact_stem_pairs": 82,
     "composite_or_alias_pairs": 5,
     "semantic_substrate_only": 5,
     "context_layer_only": 0,
     "context_meta_indexes": 1,
-    "archived_raw_files": 50
+    "archived_raw_files": 56
   },
   "records": [
     {
@@ -77,39 +77,6 @@
           "sha256": "15c56bb4548fc16469efd851b731f0fbd61ee0a71f0ba8714e35f25d02023d47",
           "frame": "security.governance.framework",
           "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "AFD - First Principles",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/AFD - First Principles.md",
-          "name": "AFD - First Principles.md",
-          "stem": "AFD - First Principles",
-          "title": "AFD - First Principles",
-          "layer": "semantic_substrate",
-          "size_bytes": 28327,
-          "sha256": "caf495b3ef3fcd501474469beea9aca7444d851d79784dea7ad6a92d267f125d",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/AFD - First Principles.ormd",
-          "name": "AFD - First Principles.ormd",
-          "stem": "AFD - First Principles",
-          "title": "AFD - First Principles",
-          "layer": "context_layer",
-          "size_bytes": 33411,
-          "sha256": "072f77d498b11437c9aa8b92ebd40d3a6c289ad89f9577f2964db029920a0112",
-          "frame": "science.theory.emergence",
-          "confidence": 0.92
         }
       ],
       "body_equivalent_after_frontmatter": false,
@@ -300,72 +267,6 @@
       "context_layer": [],
       "body_equivalent_after_frontmatter": null,
       "note": "No active Context Layer counterpart is registered."
-    },
-    {
-      "key": "CFA",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/CFA.md",
-          "name": "CFA.md",
-          "stem": "CFA",
-          "title": "CFA",
-          "layer": "semantic_substrate",
-          "size_bytes": 29000,
-          "sha256": "6525f8d2cfe7affca3ce4f87b6f26a71825c67fd03b539aca6ca01342711695e",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/CFA.ormd",
-          "name": "CFA.ormd",
-          "stem": "CFA",
-          "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-          "layer": "context_layer",
-          "size_bytes": 38841,
-          "sha256": "99ea209c63dc1f25ae2488fbaed6c63f6cc540217112cbc01e58f6aaad8a2566",
-          "frame": "systems.science.cfa",
-          "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "CFAR",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/CFAR.md",
-          "name": "CFAR.md",
-          "stem": "CFAR",
-          "title": "CFAR",
-          "layer": "semantic_substrate",
-          "size_bytes": 7717,
-          "sha256": "a53bc5f3d65ea5cce90e5b6dc2f4077e7d3edbcf2a6a4aefd81f1dbda19be414",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/CFAR.ormd",
-          "name": "CFAR.ormd",
-          "stem": "CFAR",
-          "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
-          "layer": "context_layer",
-          "size_bytes": 9667,
-          "sha256": "b2d28272a13b25c1bda1641338720213e491fd019929faf471cdd9cc8d735194",
-          "frame": "systems.framework.cfar",
-          "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
     },
     {
       "key": "Cognitive Signature Capture An Unnamed Threat",
@@ -631,6 +532,39 @@
       "note": null
     },
     {
+      "key": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "semantic_substrate",
+          "size_bytes": 16939,
+          "sha256": "feb77ec1ba5f8b9ee260f13a9db6c364b1c09b917bc632d69e70545fc70ac0ec",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "context_layer",
+          "size_bytes": 18250,
+          "sha256": "7004620002334155c33619e2a557e2d82c27b9c3ecd62bda753ab043385b35c3",
+          "frame": "systems.framework.cfar.reconciled",
+          "confidence": 0.86
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
       "key": "Context Layer Index",
       "status": "context_meta_index",
       "relationship": "meta_index",
@@ -642,8 +576,8 @@
           "stem": "Context Layer Index",
           "title": "Context Layer Master Index",
           "layer": "context_layer",
-          "size_bytes": 49500,
-          "sha256": "9c36fdee6caaf1cc2850e9dec56c85444cd4104887fdc5d2c6e63dc696109e6e",
+          "size_bytes": 49875,
+          "sha256": "22f1ca542cba8182a08b16523e267124c9be4d68bcb45d133766ed905f46b830",
           "frame": "meta.index.context-layer",
           "confidence": 1.0
         }
@@ -827,8 +761,8 @@
           "stem": "E^2 Axioms",
           "title": "E^2 Axioms",
           "layer": "semantic_substrate",
-          "size_bytes": 3943,
-          "sha256": "b3d9dbe9ad6f16c2b1f734592acbd90f7b29a7fb9433cbdc678885ae3962f87c",
+          "size_bytes": 3939,
+          "sha256": "6f8274c5630f63f2792be7406e1eebf0e8d69ffb9efe70483c58ca7350595bee",
           "frame": null,
           "confidence": null
         }
@@ -2234,8 +2168,8 @@
           "stem": "Relational Derivation Chain ",
           "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "context_layer",
-          "size_bytes": 6438,
-          "sha256": "0326f05f0bdff1a6fc0e46c0c5be8abadbff7865903e73201f41ddaaf09bd9b8",
+          "size_bytes": 6626,
+          "sha256": "28576d68fa6fa6a95c9219e07fc2c8fb88c6e1a87cee9ee66c11a0388132a237",
           "frame": "philosophy.relational.computability",
           "confidence": 0.85
         }
@@ -2938,8 +2872,8 @@
           "stem": "The Essence of Existence",
           "title": "The Essence of Existence",
           "layer": "context_layer",
-          "size_bytes": 6795,
-          "sha256": "a8acde4192085ff83edadf503a4db27cfa9fa6ebd8fa295583650117e010bc00",
+          "size_bytes": 6985,
+          "sha256": "6ad4a2b06f4fb91fa073f0b14d14f5fb3c4cdc9f6c65da8a5d898bb73c50268b",
           "frame": "manifesto.relational",
           "confidence": 0.9
         }
@@ -3363,6 +3297,36 @@
       "path": "archive/20260612_step_2_3_outliers/Context Layer/The Essence of Existence.ormd",
       "size_bytes": 162890,
       "sha256": "d512f69b490c0177cc1f3aff24134043ebcf4a8557e91dda5cc8146684206ea2"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/AFD - First Principles.ormd",
+      "size_bytes": 33411,
+      "sha256": "072f77d498b11437c9aa8b92ebd40d3a6c289ad89f9577f2964db029920a0112"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/CFA.ormd",
+      "size_bytes": 38841,
+      "sha256": "99ea209c63dc1f25ae2488fbaed6c63f6cc540217112cbc01e58f6aaad8a2566"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/CFAR.ormd",
+      "size_bytes": 9667,
+      "sha256": "b2d28272a13b25c1bda1641338720213e491fd019929faf471cdd9cc8d735194"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/AFD - First Principles.md",
+      "size_bytes": 28327,
+      "sha256": "caf495b3ef3fcd501474469beea9aca7444d851d79784dea7ad6a92d267f125d"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFA.md",
+      "size_bytes": 29000,
+      "sha256": "6525f8d2cfe7affca3ce4f87b6f26a71825c67fd03b539aca6ca01342711695e"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFAR.md",
+      "size_bytes": 7717,
+      "sha256": "a53bc5f3d65ea5cce90e5b6dc2f4077e7d3edbcf2a6a4aefd81f1dbda19be414"
     }
   ]
 }

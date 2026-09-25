@@ -1,6 +1,6 @@
 # Core Framework Index
 
-Generated: `2026-08-11T20:57:13.035027+00:00`
+Generated: `2026-09-24T16:16:22.976163+00:00`
 
 Active Core root: `E2Core`
 
@@ -11,12 +11,12 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Metric | Count |
 | --- | --- |
 | Synthesized Core files | 61 |
-| Semantic Substrate files | 97 |
-| Context Layer files | 90 |
-| Active raw SS/CL files | 187 |
-| Active files total | 248 |
-| Explicit additions | 25 |
-| Archived raw files | 50 |
+| Semantic Substrate files | 95 |
+| Context Layer files | 88 |
+| Active raw SS/CL files | 183 |
+| Active files total | 244 |
+| Explicit additions | 26 |
+| Archived raw files | 56 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
 | Unresolved synthesized references | 0 |
@@ -25,7 +25,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Exact-stem pairs | 84 |
+| Exact-stem pairs | 82 |
 | Composite or alias pairs | 5 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
@@ -36,9 +36,9 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Synthesized Document | Summary Sources | Source Records | Active SS | Active CL | Archived Raw | Unresolved |
 | --- | --- | --- | --- | --- | --- | --- |
 | Adaptation via Informational Abstraction (AVIA) A _summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
-| AFD - First Principles_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
+| AFD - First Principles_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | AOMI_synthesized.ormd | 3 | 3 | 2 | 2 | 0 | no |
-| CFA_CFAR_synthesized.ormd | 3 | 3 | 2 | 2 | 0 | no |
+| CFA_CFAR_synthesized.ormd | 3 | 3 | 0 | 0 | 0 | no |
 | coherenceengine Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Collective_Cognitive_Substrate_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
 | Communication_Coherence_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
@@ -102,6 +102,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Stem | Status | Active Copies | Archived Copies |
 | --- | --- | --- | --- |
 | Asymmetry Maintenance - Core Source | included | Context Layer/Asymmetry Maintenance - Core Source.ormd<br>Semantic Substrate/Asymmetry Maintenance - Core Source.md | - |
+| Constraint-Fluctuation-Attention-Resolution - Core Source | included | Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd<br>Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md | - |
 | Boundary Ethics - Core Source | included | Context Layer/Boundary Ethics - Core Source.ormd<br>Semantic Substrate/Boundary Ethics - Core Source.md | - |
 | boundary_dynamics | included | Context Layer/boundary_dynamics.ormd<br>Semantic Substrate/boundary_dynamics.md | - |
 | Complex Causality - Core Source | included | Context Layer/Complex Causality - Core Source.ormd<br>Semantic Substrate/Complex Causality - Core Source.md | - |

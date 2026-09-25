@@ -38,15 +38,17 @@ test("publishes complete paired human and AI catalogs", async () => {
     readFile(new URL("../app/CorpusReader.tsx", import.meta.url), "utf8"),
   ]);
   assert.equal(catalog.entrySlug, "context-layer-master-index");
-  assert.equal(catalog.counts.documents, 90);
+  assert.equal(catalog.counts.documents, 88);
   assert.equal(catalog.counts.clusters, 9);
-  assert.equal(catalog.docs.length, 90);
+  assert.equal(catalog.docs.length, 88);
   assert.equal(catalog.clusters.length, 9);
-  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 90);
-  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 90);
+  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 88);
+  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 88);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
   assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
-  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, 89);
+  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, 87);
+  assert.equal(catalog.docs.find((doc) => doc.slug === "constraint-fluctuation-attention-resolution-core-source")?.clusterId, "C");
+  assert.ok(catalog.docs.every((doc) => !["afd-first-principles", "cfa", "cfar"].includes(doc.slug)));
   assert.deepEqual(catalog.clusters.map((cluster) => cluster.id), ["A", "B", "C", "D", "E", "F", "G", "H", "I"]);
   assert.equal(catalog.docs.find((doc) => doc.slug === "boundary-dynamics")?.clusterId, "C");
   assert.equal(catalog.docs.find((doc) => doc.slug === "lawfulness-core-source")?.clusterId, "B");
@@ -67,9 +69,9 @@ test("publishes a typed E2 relationship graph", async () => {
   ]);
   const nodeIds = new Set(graph.nodes.map((node) => node.id));
   assert.equal(graph.schemaVersion, 1);
-  assert.equal(graph.counts.nodes, 90);
-  assert.equal(graph.nodes.length, 90);
-  assert.equal(nodeIds.size, 90);
+  assert.equal(graph.counts.nodes, 88);
+  assert.equal(graph.nodes.length, 88);
+  assert.equal(nodeIds.size, 88);
   assert.equal(graph.clusters.length, 9);
   assert.ok(graph.counts.explicitEdges >= 75);
   assert.ok(graph.counts.suggestedEdges > 0);
@@ -125,7 +127,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(htmlIndex, /Cluster [JK]/);
   assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);
   assert.match(htmlMaster, /&lt;!-- ormd:1\.0 --&gt;/);
-  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 90);
+  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 88);
 });
 
 test("keeps ORMD metadata out of the human reading surface", async () => {

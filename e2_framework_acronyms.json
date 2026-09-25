@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-11T20:57:24.400691+00:00",
+  "generated_at": "2026-09-24T16:16:42.585793+00:00",
   "scope": ".",
   "dictionary": "legacy://phase1/Acronym Dictionary.md",
   "seed_count": 97,
-  "present_count": 72,
-  "files_scanned": 252,
+  "present_count": 74,
+  "files_scanned": 263,
   "acronyms": {
     "AFD": {
       "acronym": "AFD",
@@ -14,44 +14,38 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 49,
-      "source_file_count": 16,
+      "total_occurrences": 68,
+      "source_file_count": 15,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 4
         },
         {
-          "path": "E2Core/Context Layer/AFD - First Principles.ormd",
-          "title": "AFD - First Principles",
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Context Layer/CFA.ormd",
-          "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-          "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 15
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 4
         },
         {
           "path": "E2Core/Context Layer/Relational Derivation Chain .ormd",
           "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "E2Core",
-          "occurrences": 5
+          "occurrences": 4
         },
         {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
           "title": "The Essence of Existence",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 1
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -66,16 +60,10 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Semantic Substrate/AFD - First Principles.md",
-          "title": "AFD - First Principles",
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/CFA.md",
-          "title": "CFA",
-          "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 15
         },
         {
           "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
@@ -88,6 +76,12 @@
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 1
         },
         {
           "path": "Synthesized Core/AFD - First Principles_summary.ormd",
@@ -115,7 +109,8 @@
         }
       ],
       "layers": {
-        "E2Core": 36,
+        "E2Core": 54,
+        "Rightness": 1,
         "Synthesized Core": 13
       }
     },
@@ -215,8 +210,8 @@
       "dictionary_notes": [
         "`AOMI Adversarial Occlusion and Mechanism Integrity`; `Adversarial Occlusion and Mechanism Integrity V1`"
       ],
-      "total_occurrences": 168,
-      "source_file_count": 46,
+      "total_occurrences": 169,
+      "source_file_count": 47,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -459,6 +454,12 @@
           "occurrences": 2
         },
         {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
           "path": "Synthesized Core/AOMI_synthesized.ormd",
           "title": "'Summary: Adversarial Occlusion and Mechanism Integrity (AOMI) Framework'",
           "layer": "Synthesized Core",
@@ -497,6 +498,7 @@
       ],
       "layers": {
         "E2Core": 142,
+        "Rightness": 1,
         "Synthesized Core": 26
       }
     },
@@ -536,8 +538,8 @@
       "dictionary_notes": [
         "`Adaptation via Informational Abstraction (AVIA) A`"
       ],
-      "total_occurrences": 149,
-      "source_file_count": 32,
+      "total_occurrences": 148,
+      "source_file_count": 33,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -552,12 +554,6 @@
           "occurrences": 7
         },
         {
-          "path": "E2Core/Context Layer/CFA.ormd",
-          "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
@@ -568,6 +564,12 @@
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
           "occurrences": 7
+        },
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
@@ -612,16 +614,16 @@
           "occurrences": 13
         },
         {
-          "path": "E2Core/Semantic Substrate/CFA.md",
-          "title": "CFA",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
           "occurrences": 13
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/CRS.md",
@@ -664,6 +666,12 @@
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 2
+        },
+        {
+          "path": "Rightness/20260910/Can rightness be derived.md",
+          "title": "Can rightness be derived?",
+          "layer": "Rightness",
+          "occurrences": 1
         },
         {
           "path": "Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
@@ -733,7 +741,8 @@
         }
       ],
       "layers": {
-        "E2Core": 118,
+        "E2Core": 116,
+        "Rightness": 1,
         "Synthesized Core": 31
       }
     },
@@ -821,20 +830,14 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 313,
-      "source_file_count": 34,
+      "total_occurrences": 215,
+      "source_file_count": 36,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 15
-        },
-        {
-          "path": "E2Core/Context Layer/CFA.ormd",
-          "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-          "layer": "E2Core",
-          "occurrences": 58
+          "occurrences": 9
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -849,10 +852,16 @@
           "occurrences": 12
         },
         {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 13
+        },
+        {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 15
+          "occurrences": 9
         },
         {
           "path": "E2Core/Context Layer/Justice Across Scales Practical Applications.ormd",
@@ -897,16 +906,16 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/CFA.md",
-          "title": "CFA",
-          "layer": "E2Core",
-          "occurrences": 59
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 13
         },
         {
           "path": "E2Core/Semantic Substrate/CRS.md",
@@ -966,6 +975,18 @@
           "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
           "title": "Universal Emergence Pattern",
           "layer": "E2Core",
+          "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
           "occurrences": 3
         },
         {
@@ -1030,7 +1051,8 @@
         }
       ],
       "layers": {
-        "E2Core": 289,
+        "E2Core": 186,
+        "Rightness": 5,
         "Synthesized Core": 24
       }
     },
@@ -1042,26 +1064,20 @@
       "dictionary_notes": [
         "`CFAR`"
       ],
-      "total_occurrences": 107,
-      "source_file_count": 24,
+      "total_occurrences": 110,
+      "source_file_count": 25,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 8
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "E2Core",
           "occurrences": 3
-        },
-        {
-          "path": "E2Core/Context Layer/CFAR.ormd",
-          "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
-          "layer": "E2Core",
-          "occurrences": 7
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -1076,10 +1092,16 @@
           "occurrences": 5
         },
         {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 10
+        },
+        {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 8
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Global Closure Operator.ormd",
@@ -1112,14 +1134,14 @@
           "occurrences": 10
         },
         {
-          "path": "E2Core/Semantic Substrate/CFAR.md",
-          "title": "CFAR",
-          "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
+          "layer": "E2Core",
+          "occurrences": 10
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
           "occurrences": 10
         },
@@ -1152,6 +1174,12 @@
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
           "occurrences": 5
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 1
         },
         {
           "path": "Synthesized Core/AOMI_synthesized.ormd",
@@ -1191,7 +1219,8 @@
         }
       ],
       "layers": {
-        "E2Core": 88,
+        "E2Core": 90,
+        "Rightness": 1,
         "Synthesized Core": 19
       }
     },
@@ -1600,32 +1629,32 @@
         "Synthesized Core": 1
       }
     },
-    "DOF": {
-      "acronym": "DOF",
+    "DRAH": {
+      "acronym": "DRAH",
       "stands_for": [
-        "Depth of Focus"
+        "Dynamic Relational Abstraction Hypothesis"
       ],
       "dictionary_notes": [
-        "`CFAR`"
+        "`Dynamic Relational Abstraction Hypothesis How Info`"
       ],
-      "total_occurrences": 2,
+      "total_occurrences": 14,
       "source_file_count": 2,
       "source_files": [
         {
-          "path": "E2Core/Context Layer/CFAR.ormd",
-          "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
-          "layer": "E2Core",
-          "occurrences": 1
+          "path": "Rightness/20260910/Dynamic Relational Abstraction Hypothesis.md",
+          "title": "Dynamic Relational Abstraction Hypothesis: How Information Develops in Complex Systems",
+          "layer": "Rightness",
+          "occurrences": 12
         },
         {
-          "path": "E2Core/Semantic Substrate/CFAR.md",
-          "title": "CFAR",
-          "layer": "E2Core",
-          "occurrences": 1
+          "path": "Rightness/20260910/Principles of Relational Abstraction .md",
+          "title": "Principles of Relational Abstraction",
+          "layer": "Rightness",
+          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 2
+        "Rightness": 14
       }
     },
     "EAP": {
@@ -1998,8 +2027,8 @@
       "dictionary_notes": [
         "`Global Closure Operator`; `GCO logic`; `Signal as Bias Field`"
       ],
-      "total_occurrences": 319,
-      "source_file_count": 58,
+      "total_occurrences": 327,
+      "source_file_count": 63,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -2036,6 +2065,12 @@
           "title": "Consequence Routing",
           "layer": "E2Core",
           "occurrences": 2
+        },
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
@@ -2158,6 +2193,12 @@
           "occurrences": 2
         },
         {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -2260,6 +2301,24 @@
           "occurrences": 21
         },
         {
+          "path": "Rightness/20260910/sub_threshold_persistence .md",
+          "title": "sub_threshold_persistence",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 3
+        },
+        {
           "path": "Synthesized Core/coherenceengine Repo Summary.ormd",
           "title": "CLP ContextBundle Integration",
           "layer": "Synthesized Core",
@@ -2351,7 +2410,8 @@
         }
       ],
       "layers": {
-        "E2Core": 265,
+        "E2Core": 267,
+        "Rightness": 6,
         "Synthesized Core": 54
       }
     },
@@ -2363,9 +2423,15 @@
       "dictionary_notes": [
         "manual clarification"
       ],
-      "total_occurrences": 1,
-      "source_file_count": 1,
+      "total_occurrences": 3,
+      "source_file_count": 2,
       "source_files": [
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
         {
           "path": "Synthesized Core/coherenceengine Repo Summary.ormd",
           "title": "CLP ContextBundle Integration",
@@ -2374,6 +2440,7 @@
         }
       ],
       "layers": {
+        "Rightness": 2,
         "Synthesized Core": 1
       }
     },
@@ -2613,8 +2680,8 @@
       "dictionary_notes": [
         "`Metabolic Meaning Phase Space (MMPS)`"
       ],
-      "total_occurrences": 132,
-      "source_file_count": 37,
+      "total_occurrences": 138,
+      "source_file_count": 40,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -2815,6 +2882,24 @@
           "occurrences": 7
         },
         {
+          "path": "Rightness/20260910/Language and Meaning and stuff .md",
+          "title": "Language and Meaning and stuff",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
+        {
           "path": "Synthesized Core/Collective_Cognitive_Substrate_synthesized.ormd",
           "title": "'Summary: Cognition as Substrate'",
           "layer": "Synthesized Core",
@@ -2841,6 +2926,7 @@
       ],
       "layers": {
         "E2Core": 121,
+        "Rightness": 6,
         "Synthesized Core": 11
       }
     },
@@ -2880,8 +2966,8 @@
       "dictionary_notes": [
         "`Meta-Pattern Decidability Conjecture (MPDC)`; `The Essence of Existence`"
       ],
-      "total_occurrences": 246,
-      "source_file_count": 55,
+      "total_occurrences": 254,
+      "source_file_count": 58,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -3160,6 +3246,24 @@
           "occurrences": 1
         },
         {
+          "path": "Rightness/20260910/Can rightness be derived.md",
+          "title": "Can rightness be derived?",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260910/Language and Meaning and stuff .md",
+          "title": "Language and Meaning and stuff",
+          "layer": "Rightness",
+          "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 4
+        },
+        {
           "path": "Synthesized Core/Collective_Cognitive_Substrate_synthesized.ormd",
           "title": "'Summary: Cognition as Substrate'",
           "layer": "Synthesized Core",
@@ -3216,6 +3320,7 @@
       ],
       "layers": {
         "E2Core": 219,
+        "Rightness": 8,
         "Synthesized Core": 27
       }
     },
@@ -3435,14 +3540,20 @@
       "dictionary_notes": [
         "`Organization plan`; `Ormd Readme`; `Ormd`"
       ],
-      "total_occurrences": 26,
-      "source_file_count": 12,
+      "total_occurrences": 29,
+      "source_file_count": 15,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
           "occurrences": 2
+        },
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
@@ -3463,10 +3574,22 @@
           "occurrences": 1
         },
         {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
           "title": "Essence of Existence Constitution - Draft 2",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 1
         },
         {
           "path": "Synthesized Core/Constitutions_synthesized.ormd",
@@ -3512,7 +3635,8 @@
         }
       ],
       "layers": {
-        "E2Core": 11,
+        "E2Core": 13,
+        "Rightness": 1,
         "Synthesized Core": 15
       }
     },
@@ -3799,8 +3923,8 @@
       "dictionary_notes": [
         "`Resonance Architecture 4 17 25`"
       ],
-      "total_occurrences": 4,
-      "source_file_count": 4,
+      "total_occurrences": 19,
+      "source_file_count": 6,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
@@ -3825,10 +3949,45 @@
           "title": "Resonance Architecture 4.17.25",
           "layer": "E2Core",
           "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260910/Dominance vs Development A Framework for Human Flourishing.md",
+          "title": "Dominance vs. Development: A Framework for Human Flourishing",
+          "layer": "Rightness",
+          "occurrences": 13
+        },
+        {
+          "path": "Rightness/20260910/Principles of Relational Abstraction .md",
+          "title": "Principles of Relational Abstraction",
+          "layer": "Rightness",
+          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 4
+        "E2Core": 4,
+        "Rightness": 15
+      }
+    },
+    "RAH": {
+      "acronym": "RAH",
+      "stands_for": [
+        "Relational Abstraction Hypothesis"
+      ],
+      "dictionary_notes": [
+        "`Principles of Relational Abstraction`"
+      ],
+      "total_occurrences": 1,
+      "source_file_count": 1,
+      "source_files": [
+        {
+          "path": "Rightness/20260910/Principles of Relational Abstraction .md",
+          "title": "Principles of Relational Abstraction",
+          "layer": "Rightness",
+          "occurrences": 1
+        }
+      ],
+      "layers": {
+        "Rightness": 1
       }
     },
     "RAV": {
@@ -3892,8 +4051,8 @@
       "dictionary_notes": [
         "`CRS`; `The Collective Relational Substrate`"
       ],
-      "total_occurrences": 39,
-      "source_file_count": 18,
+      "total_occurrences": 47,
+      "source_file_count": 21,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd",
@@ -3992,6 +4151,24 @@
           "occurrences": 8
         },
         {
+          "path": "Rightness/20260910/Can rightness be derived.md",
+          "title": "Can rightness be derived?",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
+        {
+          "path": "Rightness/20260910/sub_threshold_persistence .md",
+          "title": "sub_threshold_persistence",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 5
+        },
+        {
           "path": "Synthesized Core/Declaration of Interdependence_summary.ormd",
           "title": "Executive Summary: The Declaration of Interdependence",
           "layer": "Synthesized Core",
@@ -4006,6 +4183,7 @@
       ],
       "layers": {
         "E2Core": 37,
+        "Rightness": 8,
         "Synthesized Core": 2
       }
     },
@@ -4017,8 +4195,8 @@
       "dictionary_notes": [
         "`E2 -> RCP -> MPDC -> AFD ->`; `The Essence of Existence`"
       ],
-      "total_occurrences": 30,
-      "source_file_count": 12,
+      "total_occurrences": 33,
+      "source_file_count": 13,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -4081,6 +4259,12 @@
           "occurrences": 1
         },
         {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 3
+        },
+        {
           "path": "Synthesized Core/E2 → RCP → MPDC → AFD →_summary.ormd",
           "title": "Executive Synthesis: The Relational Substrate",
           "layer": "Synthesized Core",
@@ -4095,6 +4279,7 @@
       ],
       "layers": {
         "E2Core": 25,
+        "Rightness": 3,
         "Synthesized Core": 5
       }
     },
@@ -4434,6 +4619,34 @@
         "Synthesized Core": 4
       }
     },
+    "RHAH": {
+      "acronym": "RHAH",
+      "stands_for": [
+        "Relational Homeostatic Adaptation Hypothesis"
+      ],
+      "dictionary_notes": [
+        "`Theory of (almost) Everything`"
+      ],
+      "total_occurrences": 8,
+      "source_file_count": 2,
+      "source_files": [
+        {
+          "path": "Rightness/20260910/Can rightness be derived.md",
+          "title": "Can rightness be derived?",
+          "layer": "Rightness",
+          "occurrences": 3
+        },
+        {
+          "path": "Rightness/20260910/Summary of Core Concepts Isosymbiosis and Relation .md",
+          "title": "Summary of Core Concepts: Isosymbiosis and Relational Homeostatic Adaptation Hypothesis (RHAH)",
+          "layer": "Rightness",
+          "occurrences": 5
+        }
+      ],
+      "layers": {
+        "Rightness": 8
+      }
+    },
     "RIF": {
       "acronym": "RIF",
       "stands_for": [
@@ -4759,8 +4972,8 @@
       "dictionary_notes": [
         "`Relational Primitives`; `CT translation of RPs`"
       ],
-      "total_occurrences": 87,
-      "source_file_count": 26,
+      "total_occurrences": 91,
+      "source_file_count": 27,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -4889,6 +5102,12 @@
           "occurrences": 3
         },
         {
+          "path": "Rightness/20260910/sub_threshold_persistence .md",
+          "title": "sub_threshold_persistence",
+          "layer": "Rightness",
+          "occurrences": 4
+        },
+        {
           "path": "Synthesized Core/hca-main Repo Summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
@@ -4921,6 +5140,7 @@
       ],
       "layers": {
         "E2Core": 75,
+        "Rightness": 4,
         "Synthesized Core": 12
       }
     },
@@ -5003,8 +5223,8 @@
       "dictionary_notes": [
         "`sign_mediated_accountability`"
       ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
+      "total_occurrences": 5,
+      "source_file_count": 3,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Embedded Universality Principle (EUP).ormd",
@@ -5017,10 +5237,17 @@
           "title": "Embedded Universality Principle",
           "layer": "E2Core",
           "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 3
         }
       ],
       "layers": {
-        "E2Core": 2
+        "E2Core": 2,
+        "Rightness": 3
       }
     },
     "RVP": {
@@ -5078,8 +5305,8 @@
       "dictionary_notes": [
         "`CCS`; `The Collective Relational Substrate`"
       ],
-      "total_occurrences": 28,
-      "source_file_count": 14,
+      "total_occurrences": 30,
+      "source_file_count": 15,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd",
@@ -5164,10 +5391,17 @@
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
           "occurrences": 5
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 28
+        "E2Core": 28,
+        "Rightness": 2
       }
     },
     "SCIA": {
@@ -5178,7 +5412,7 @@
       "dictionary_notes": [
         "`Tensional Intelligence A Theoretical Foundation`; `Claude on Resonance Architecture`"
       ],
-      "total_occurrences": 107,
+      "total_occurrences": 109,
       "source_file_count": 27,
       "source_files": [
         {
@@ -5188,14 +5422,14 @@
           "occurrences": 6
         },
         {
-          "path": "E2Core/Context Layer/AFD - First Principles.ormd",
-          "title": "AFD - First Principles",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
+          "layer": "E2Core",
+          "occurrences": 2
+        },
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -5236,10 +5470,10 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/AFD - First Principles.md",
-          "title": "AFD - First Principles",
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 2
         },
         {
           "path": "E2Core/Semantic Substrate/CRS.md",
@@ -5345,7 +5579,7 @@
         }
       ],
       "layers": {
-        "E2Core": 91,
+        "E2Core": 93,
         "Synthesized Core": 16
       }
     },
@@ -5831,8 +6065,8 @@
       "dictionary_notes": [
         "`Organization Plan - Synthesis Project`; `boundary_dynamics`"
       ],
-      "total_occurrences": 129,
-      "source_file_count": 23,
+      "total_occurrences": 142,
+      "source_file_count": 27,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -5961,6 +6195,30 @@
           "occurrences": 1
         },
         {
+          "path": "Rightness/20260910/sub_threshold_persistence .md",
+          "title": "sub_threshold_persistence",
+          "layer": "Rightness",
+          "occurrences": 2
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+          "title": "RaDRCD: mathematical and structural assessment",
+          "layer": "Rightness",
+          "occurrences": 6
+        },
+        {
+          "path": "Rightness/20260911/RaDRCD.md",
+          "title": "RaDRCD",
+          "layer": "Rightness",
+          "occurrences": 1
+        },
+        {
+          "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+          "title": "Rightness: Consolidation",
+          "layer": "Rightness",
+          "occurrences": 4
+        },
+        {
           "path": "Synthesized Core/relational substrate analysis Repo Summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
@@ -5975,6 +6233,7 @@
       ],
       "layers": {
         "E2Core": 114,
+        "Rightness": 13,
         "Synthesized Core": 15
       }
     },

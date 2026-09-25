@@ -1,0 +1,91 @@
+{
+  "schema": "local_observation_snapshot_v1",
+  "created_at_utc": "2026-09-14T22:17:36.089188+00:00",
+  "status": "local content snapshot; not an independent timestamp or immutable registration",
+  "preregistration": {
+    "path": "claude_trust_continuity_preregistration_v0_1.md",
+    "sha256": "3ac18c56ffc373be461dc91fa620f157c1c2fb04e683e63a0d32d39595bf0e7b"
+  },
+  "sources": [
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
+      "sha256": "15c56bb4548fc16469efd851b731f0fbd61ee0a71f0ba8714e35f25d02023d47"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Collective Relational Substrate.ormd",
+      "sha256": "c763b18091b14413abebaf6869c0b48f112337e4c89dd9c21d30934b730c8b69"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Consequence Routing - Core Source.ormd",
+      "sha256": "3c3969d8dfbb2eed73bff9231270fc4c1cbdd80ed96d4b01808b0169c5223515"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Custody - Core Source.ormd",
+      "sha256": "591c8feaaa8eb29d154516e2b98473a2e81c805497fc2a7ab91332292c5dcb51"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd",
+      "sha256": "e1b6115b5ac0aaf0ff36e138e273fddaf9f29099cfcba0687e2d9896b59c805f"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd",
+      "sha256": "05d79a1ef11c391345b3cea9322a26f46041eef982aeff93f5af361accd5bbcd"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Proxy Localization - Core Source.ormd",
+      "sha256": "1ed1068a7965429eba244efa32eba8732bd4731e9e8a9eee13223f022e1ea87f"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Self as Coherence Field.ormd",
+      "sha256": "9e66878a640a0841b7881cab4cc806894444eb21104dda784794f764a0873839"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Slow-Layer Clock Ratio - Core Source.ormd",
+      "sha256": "e2b72823f256317494a979d1e037fba851fe37b46738b0e88f3ea1c5c5573f59"
+    },
+    {
+      "path_from_core_framework": "E2Core/Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd",
+      "sha256": "f640da523942f0321c2e9e6ac6026b0ddcc3ddefaa18845996fbd36308323df7"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
+      "sha256": "8cc54d601190a71b64b36b88b3558e6a3d299ae1d11ef44211847bb3f7685bd8"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Consequence Routing - Core Source.md",
+      "sha256": "0816b139e6f056445cb59114ec75bcb088d1bb5c32cdd2cee3bb7bf82c2133db"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/CRS.md",
+      "sha256": "2f4b20ec3593702557e1cedd5d66f3551c8ec4d4a4d0bcdb7cf0853f240690a4"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Custody - Core Source.md",
+      "sha256": "0fd74562b9af5d16688667c76b7cfd2db2682b69989eaa1cd4334fd8fbdf8b6b"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
+      "sha256": "89c13657e9e1f4947ec5b9f8b6e89f65ef4457e2b1bca745f721bc4943dbf9c9"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md",
+      "sha256": "bfdc3b43d2a79a6b8b71335fb5b42b48b0e674a1443ae0201a0c11742dfea251"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Proxy Localization - Core Source.md",
+      "sha256": "eff7b8fd696f12320799148018cffe15c1547c1c3208557fb712c5a67fe6704d"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Self as Coherence Field.md",
+      "sha256": "9a7800859b0e7602c47c62b12d4fdaf6b0bfbbee06d2dfc82481a77970101644"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md",
+      "sha256": "32dd0bfd30f850b80fe6ba55dbd4139b76e6a8590479f6c3da1d1529b2dd728d"
+    },
+    {
+      "path_from_core_framework": "E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md",
+      "sha256": "65d3622dcf805e04ed4951454ee52858458cf24507af7f4fe19ce3b8f0b9182a"
+    }
+  ]
+}

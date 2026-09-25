@@ -40,7 +40,6 @@ Scope: Formal mappings of E² into established mathematical formalisms, together
 
 Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle
 
-- [AFD - First Principles](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/afd-first-principles.ormd) — frame: science.theory.emergence; confidence: 0.92
 - [CT translation of RPs](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/ct-translation-of-rps.ormd) — frame: formalism.relational-ontology; confidence: 0.95
 - [Derivation Deep Dive: Categorical and Relational Physics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/derivation-deep-dive.ormd) — frame: physics.theoretical.derivation; confidence: 0.85
 - [Embedded Universality Principle (EUP)](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/embedded-universality-principle-eup.ormd) — frame: epistemology.governance.embedded-universality; confidence: 0.9
@@ -52,13 +51,13 @@ Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Patte
 
 ## Cluster C — Dynamics, Emergence & Systems Frameworks
 
-Scope: How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence.
+Scope: How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence.
 
-Entry point: REMF → Universal Emergence Pattern → CFA → CFAR
+Entry point: REMF → Universal Emergence Pattern → reconciled CFAR
 
 - [Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/adaptation-via-informational-abstraction.ormd) — frame: scientific.theory; confidence: 0.85
 - [Boundary Dynamics](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/boundary-dynamics.ormd) — frame: systems.boundary-dynamics; confidence: 0.9
-- [CFAR: Constraint-Fluctuation-Attention-Resolution Framework](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/cfar.ormd) — frame: systems.framework.cfar; confidence: 0.95
+- [Constraint, Fluctuation, Attentional Access, and Resolution](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/constraint-fluctuation-attention-resolution-core-source.ormd) — frame: systems.framework.cfar.reconciled; confidence: 0.86
 - [Emergence Determination Foreclosure](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/emergence-determination-foreclosure.ormd) — frame: dynamics.emergence-determination-foreclosure; confidence: 0.9
 - [Flow Operators: A Provisional Snapshot](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/flow-operators-provisional.ormd) — frame: dynamics.flow-operators; confidence: 0.9
 - [From Essential Relationships to Ontological Transformation](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/from-essential-relationships-to-ontological-transformation.ormd) — frame: systems.ontology; confidence: 0.85
@@ -68,7 +67,6 @@ Entry point: REMF → Universal Emergence Pattern → CFA → CFAR
 - [Resolution: Synthesis Notes](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/resolution-synthesis.ormd) — frame: dynamics.resolution; confidence: 0.9
 - [Synthesis: Tensional Intelligence and the Praxis of Paradox](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tension.ormd) — frame: philosophy.tensional_intelligence; confidence: 0.92
 - [Tensional Intelligence: A Theoretical Foundation](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/tensional-intelligence-a-theoretical-foundation.ormd) — frame: theory.tensional_intelligence; confidence: 0.85
-- [The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/cfa.ormd) — frame: systems.science.cfa; confidence: 0.95
 - [The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/emergence-engine-overview.ormd) — frame: research.simulation.ecology; confidence: 0.95
 - [Universal Emergence Pattern](https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public/ormd/universal-emergence-pattern.ormd) — frame: theory.emergence; confidence: 0.92
 

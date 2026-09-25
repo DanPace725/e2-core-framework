@@ -1,44 +1,53 @@
 {
-  "generated_at": "2026-08-11T20:57:15.504614+00:00",
+  "generated_at": "2026-09-24T16:16:29.813586+00:00",
   "root": ".",
   "counted_extensions": [
     ".md",
     ".ormd"
   ],
-  "document_count": 302,
-  "total_words": 562542,
-  "total_size_bytes": 5030070,
+  "document_count": 319,
+  "total_words": 594704,
+  "total_size_bytes": 5271255,
   "extension_summary": {
-    ".ormd": 188,
-    ".md": 114
+    ".ormd": 189,
+    ".md": 130
   },
   "layer_summary": {
     "E2Core": {
       "file_count": 4,
-      "word_count": 9958,
-      "average_words": 2489.5,
+      "word_count": 9944,
+      "average_words": 2486.0,
       "median_words": 1752,
       "min_words": 1395,
-      "max_words": 5059,
-      "size_bytes": 85962
+      "max_words": 5045,
+      "size_bytes": 86337
     },
     "E2Core/Context Layer": {
-      "file_count": 90,
-      "word_count": 164388,
-      "average_words": 1826.5,
+      "file_count": 88,
+      "word_count": 158732,
+      "average_words": 1803.8,
       "median_words": 1226,
       "min_words": 126,
       "max_words": 10746,
-      "size_bytes": 1546468
+      "size_bytes": 1483552
     },
     "E2Core/Semantic Substrate": {
-      "file_count": 97,
-      "word_count": 207468,
-      "average_words": 2138.8,
+      "file_count": 95,
+      "word_count": 201841,
+      "average_words": 2124.6,
       "median_words": 1287,
       "min_words": 11,
       "max_words": 15731,
-      "size_bytes": 1634727
+      "size_bytes": 1586618
+    },
+    "Rightness": {
+      "file_count": 15,
+      "word_count": 27804,
+      "average_words": 1853.6,
+      "median_words": 1709,
+      "min_words": 174,
+      "max_words": 4193,
+      "size_bytes": 204872
     },
     "Synthesized Core": {
       "file_count": 61,
@@ -50,31 +59,21 @@
       "size_bytes": 431919
     },
     "archive": {
-      "file_count": 50,
-      "word_count": 141802,
-      "average_words": 2836.0,
-      "median_words": 1731,
+      "file_count": 56,
+      "word_count": 157457,
+      "average_words": 2811.7,
+      "median_words": 1764,
       "min_words": 23,
       "max_words": 15712,
-      "size_bytes": 1330994
+      "size_bytes": 1477957
     }
   },
   "pair_health": {
-    "total_raw_stems": 103,
-    "complete_pairs": 84,
+    "total_raw_stems": 101,
+    "complete_pairs": 82,
     "missing_semantic_substrate": 6,
     "missing_context_layer": 13,
     "pairs": [
-      {
-        "stem": "AFD - First Principles",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 3407,
-        "context_words": 3435,
-        "word_delta": 28,
-        "semantic_path": "E2Core/Semantic Substrate/AFD - First Principles.md",
-        "context_path": "E2Core/Context Layer/AFD - First Principles.ormd"
-      },
       {
         "stem": "AOMI AI responses",
         "has_semantic_substrate": true,
@@ -134,26 +133,6 @@
         "word_delta": -5988,
         "semantic_path": "E2Core/Semantic Substrate/CCS.md",
         "context_path": null
-      },
-      {
-        "stem": "CFA",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 3438,
-        "context_words": 3433,
-        "word_delta": -5,
-        "semantic_path": "E2Core/Semantic Substrate/CFA.md",
-        "context_path": "E2Core/Context Layer/CFA.ormd"
-      },
-      {
-        "stem": "CFAR",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 970,
-        "context_words": 972,
-        "word_delta": 2,
-        "semantic_path": "E2Core/Semantic Substrate/CFAR.md",
-        "context_path": "E2Core/Context Layer/CFAR.ormd"
       },
       {
         "stem": "CRS",
@@ -266,12 +245,22 @@
         "context_path": "E2Core/Context Layer/Consequence Routing - Core Source.ormd"
       },
       {
+        "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+        "has_semantic_substrate": true,
+        "has_context_layer": true,
+        "semantic_words": 2188,
+        "context_words": 2188,
+        "word_delta": 0,
+        "semantic_path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+        "context_path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd"
+      },
+      {
         "stem": "Context Layer Index",
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 5059,
-        "word_delta": 5059,
+        "context_words": 5045,
+        "word_delta": 5045,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/Context Layer Index.ormd"
       },
@@ -700,8 +689,8 @@
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 749,
-        "word_delta": 749,
+        "context_words": 754,
+        "word_delta": 754,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/Relational Derivation Chain .ormd"
       },
@@ -990,8 +979,8 @@
         "has_semantic_substrate": true,
         "has_context_layer": true,
         "semantic_words": 15731,
-        "context_words": 814,
-        "word_delta": -14917,
+        "context_words": 819,
+        "word_delta": -14912,
         "semantic_path": "E2Core/Semantic Substrate/The Essence of Existence.md",
         "context_path": "E2Core/Context Layer/The Essence of Existence.ormd"
       },
@@ -1926,15 +1915,81 @@
       "modified": "2026-03-02T18:33:07.669863+00:00"
     },
     {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/AFD - First Principles.ormd",
+      "name": "AFD - First Principles.ormd",
+      "stem": "AFD - First Principles",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "AFD - First Principles",
+      "word_count": 3435,
+      "size_bytes": 33411,
+      "modified": "2026-06-12T14:21:57.155766+00:00"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/CFA.ormd",
+      "name": "CFA.ormd",
+      "stem": "CFA",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
+      "word_count": 3433,
+      "size_bytes": 38841,
+      "modified": "2026-03-02T04:47:14.480362+00:00"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Context Layer/CFAR.ormd",
+      "name": "CFAR.ormd",
+      "stem": "CFAR",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
+      "word_count": 972,
+      "size_bytes": 9667,
+      "modified": "2026-03-02T04:47:49.995067+00:00"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/AFD - First Principles.md",
+      "name": "AFD - First Principles.md",
+      "stem": "AFD - First Principles",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "AFD - First Principles",
+      "word_count": 3407,
+      "size_bytes": 28327,
+      "modified": "2026-02-25T11:23:10+00:00"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFA.md",
+      "name": "CFA.md",
+      "stem": "CFA",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "CFA",
+      "word_count": 3438,
+      "size_bytes": 29000,
+      "modified": "2026-02-25T11:23:10+00:00"
+    },
+    {
+      "path": "archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFAR.md",
+      "name": "CFAR.md",
+      "stem": "CFAR",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "CFAR",
+      "word_count": 970,
+      "size_bytes": 7717,
+      "modified": "2026-02-25T11:23:10+00:00"
+    },
+    {
       "path": "E2Core/context layer index.md",
       "name": "context layer index.md",
       "stem": "context layer index",
       "extension": ".md",
       "layer": "E2Core",
       "title": "Context Layer Master Index",
-      "word_count": 5059,
-      "size_bytes": 49500,
-      "modified": "2026-08-11T19:33:50.491136+00:00"
+      "word_count": 5045,
+      "size_bytes": 49875,
+      "modified": "2026-09-24T16:15:40.862401+00:00"
     },
     {
       "path": "E2Core/Context Layer/Adaptation via Informational Abstraction.ormd",
@@ -1957,17 +2012,6 @@
       "word_count": 2491,
       "size_bytes": 27650,
       "modified": "2026-05-15T16:07:23.900788+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/AFD - First Principles.ormd",
-      "name": "AFD - First Principles.ormd",
-      "stem": "AFD - First Principles",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "AFD - First Principles",
-      "word_count": 3435,
-      "size_bytes": 33411,
-      "modified": "2026-06-12T14:21:57.155766+00:00"
     },
     {
       "path": "E2Core/Context Layer/AOMI AI responses.ormd",
@@ -2023,28 +2067,6 @@
       "word_count": 665,
       "size_bytes": 7131,
       "modified": "2026-03-02T04:41:00.910378+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/CFA.ormd",
-      "name": "CFA.ormd",
-      "stem": "CFA",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-      "word_count": 3433,
-      "size_bytes": 38841,
-      "modified": "2026-03-02T04:47:14.480362+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/CFAR.ormd",
-      "name": "CFAR.ormd",
-      "stem": "CFAR",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
-      "word_count": 972,
-      "size_bytes": 9667,
-      "modified": "2026-03-02T04:47:49.995067+00:00"
     },
     {
       "path": "E2Core/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
@@ -2124,15 +2146,26 @@
       "modified": "2026-08-10T19:43:45.086486+00:00"
     },
     {
+      "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+      "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+      "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+      "extension": ".ormd",
+      "layer": "E2Core/Context Layer",
+      "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+      "word_count": 2188,
+      "size_bytes": 18250,
+      "modified": "2026-09-24T16:14:19.331952+00:00"
+    },
+    {
       "path": "E2Core/Context Layer/Context Layer Index.ormd",
       "name": "Context Layer Index.ormd",
       "stem": "Context Layer Index",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Context Layer Master Index",
-      "word_count": 5059,
-      "size_bytes": 49500,
-      "modified": "2026-08-11T19:33:51.777282+00:00"
+      "word_count": 5045,
+      "size_bytes": 49875,
+      "modified": "2026-09-24T16:15:40.862401+00:00"
     },
     {
       "path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd",
@@ -2559,9 +2592,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
-      "word_count": 749,
-      "size_bytes": 6438,
-      "modified": "2026-06-12T19:38:46.319038+00:00"
+      "word_count": 754,
+      "size_bytes": 6626,
+      "modified": "2026-09-24T16:15:48.722578+00:00"
     },
     {
       "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
@@ -2867,9 +2900,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "The Essence of Existence",
-      "word_count": 814,
-      "size_bytes": 6795,
-      "modified": "2026-06-12T19:48:36.410676+00:00"
+      "word_count": 819,
+      "size_bytes": 6985,
+      "modified": "2026-09-24T16:15:48.722578+00:00"
     },
     {
       "path": "E2Core/Context Layer/The Intelligence Field Framework.ormd",
@@ -2982,17 +3015,6 @@
       "modified": "2026-02-25T11:23:54+00:00"
     },
     {
-      "path": "E2Core/Semantic Substrate/AFD - First Principles.md",
-      "name": "AFD - First Principles.md",
-      "stem": "AFD - First Principles",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "AFD - First Principles",
-      "word_count": 3407,
-      "size_bytes": 28327,
-      "modified": "2026-02-25T11:23:10+00:00"
-    },
-    {
       "path": "E2Core/Semantic Substrate/AOMI AI responses.md",
       "name": "AOMI AI responses.md",
       "stem": "AOMI AI responses",
@@ -3057,28 +3079,6 @@
       "word_count": 5988,
       "size_bytes": 44390,
       "modified": "2026-02-25T04:03:21.419526+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/CFA.md",
-      "name": "CFA.md",
-      "stem": "CFA",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "CFA",
-      "word_count": 3438,
-      "size_bytes": 29000,
-      "modified": "2026-02-25T11:23:10+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/CFAR.md",
-      "name": "CFAR.md",
-      "stem": "CFAR",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "CFAR",
-      "word_count": 970,
-      "size_bytes": 7717,
-      "modified": "2026-02-25T11:23:10+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md",
@@ -3158,6 +3158,17 @@
       "modified": "2026-08-10T19:43:44.280229+00:00"
     },
     {
+      "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+      "extension": ".md",
+      "layer": "E2Core/Semantic Substrate",
+      "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+      "word_count": 2188,
+      "size_bytes": 16939,
+      "modified": "2026-09-24T16:12:23.995686+00:00"
+    },
+    {
       "path": "E2Core/Semantic Substrate/Context Layer Protocol (CLP).md",
       "name": "Context Layer Protocol (CLP).md",
       "stem": "Context Layer Protocol (CLP)",
@@ -3231,8 +3242,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "E^2 Axioms",
       "word_count": 496,
-      "size_bytes": 3943,
-      "modified": "2026-06-12T19:46:33.739276+00:00"
+      "size_bytes": 3939,
+      "modified": "2026-09-10T23:34:31.790409+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
@@ -4027,6 +4038,171 @@
       "modified": "2026-08-11T20:54:31.064287+00:00"
     },
     {
+      "path": "Rightness/20260910/Can rightness be derived.md",
+      "name": "Can rightness be derived.md",
+      "stem": "Can rightness be derived",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Can rightness be derived?",
+      "word_count": 3653,
+      "size_bytes": 24797,
+      "modified": "2026-09-11T00:18:26.072829+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Dominance vs Development A Framework for Human Flourishing.md",
+      "name": "Dominance vs Development A Framework for Human Flourishing.md",
+      "stem": "Dominance vs Development A Framework for Human Flourishing",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Dominance vs. Development: A Framework for Human Flourishing",
+      "word_count": 603,
+      "size_bytes": 4862,
+      "modified": "2026-09-11T00:19:26.757058+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Dynamic Relational Abstraction Hypothesis.md",
+      "name": "Dynamic Relational Abstraction Hypothesis.md",
+      "stem": "Dynamic Relational Abstraction Hypothesis",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Dynamic Relational Abstraction Hypothesis: How Information Develops in Complex Systems",
+      "word_count": 1025,
+      "size_bytes": 8426,
+      "modified": "2026-09-11T00:19:59.063589+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Homeostatic Imperative Theory .md",
+      "name": "Homeostatic Imperative Theory .md",
+      "stem": "Homeostatic Imperative Theory ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Homeostatic Imperative Theory",
+      "word_count": 1709,
+      "size_bytes": 12507,
+      "modified": "2026-09-11T00:19:19.086719+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Isosymbiosis.md",
+      "name": "Isosymbiosis.md",
+      "stem": "Isosymbiosis",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Isosymbiosis",
+      "word_count": 174,
+      "size_bytes": 1455,
+      "modified": "2026-09-11T00:19:37.068630+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Language and Meaning and stuff .md",
+      "name": "Language and Meaning and stuff .md",
+      "stem": "Language and Meaning and stuff ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Language and Meaning and stuff",
+      "word_count": 1459,
+      "size_bytes": 8804,
+      "modified": "2026-09-11T00:20:16.854175+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Modern Scalable Ethics (MSE) Framework .md",
+      "name": "Modern Scalable Ethics (MSE) Framework .md",
+      "stem": "Modern Scalable Ethics (MSE) Framework ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Modern Scalable Ethics (MSE) Framework",
+      "word_count": 597,
+      "size_bytes": 4655,
+      "modified": "2026-09-11T00:19:51.993487+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Principles of Relational Abstraction .md",
+      "name": "Principles of Relational Abstraction .md",
+      "stem": "Principles of Relational Abstraction ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Principles of Relational Abstraction",
+      "word_count": 866,
+      "size_bytes": 7081,
+      "modified": "2026-09-11T00:20:10.063338+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Sol 5 6 on justice cluster .md",
+      "name": "Sol 5 6 on justice cluster .md",
+      "stem": "Sol 5 6 on justice cluster ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Sol 5.6 on justice cluster",
+      "word_count": 1993,
+      "size_bytes": 14082,
+      "modified": "2026-09-11T00:18:26.093183+00:00"
+    },
+    {
+      "path": "Rightness/20260910/sub_threshold_persistence .md",
+      "name": "sub_threshold_persistence .md",
+      "stem": "sub_threshold_persistence ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "sub_threshold_persistence",
+      "word_count": 2314,
+      "size_bytes": 16565,
+      "modified": "2026-09-11T00:20:22.477967+00:00"
+    },
+    {
+      "path": "Rightness/20260910/Summary of Core Concepts Isosymbiosis and Relation .md",
+      "name": "Summary of Core Concepts Isosymbiosis and Relation .md",
+      "stem": "Summary of Core Concepts Isosymbiosis and Relation ",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Summary of Core Concepts: Isosymbiosis and Relational Homeostatic Adaptation Hypothesis (RHAH)",
+      "word_count": 399,
+      "size_bytes": 3250,
+      "modified": "2026-09-11T00:19:45.111173+00:00"
+    },
+    {
+      "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
+      "name": "RaDRCD - Mathematical and Structural Assessment.md",
+      "stem": "RaDRCD - Mathematical and Structural Assessment",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "RaDRCD: mathematical and structural assessment",
+      "word_count": 4193,
+      "size_bytes": 33126,
+      "modified": "2026-09-11T18:42:25.955947+00:00"
+    },
+    {
+      "path": "Rightness/20260911/RaDRCD.md",
+      "name": "RaDRCD.md",
+      "stem": "RaDRCD",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "RaDRCD",
+      "word_count": 2914,
+      "size_bytes": 22141,
+      "modified": "2026-09-11T18:35:53.053389+00:00"
+    },
+    {
+      "path": "Rightness/20260911/response conv.md",
+      "name": "response conv.md",
+      "stem": "response conv",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "response conv",
+      "word_count": 2380,
+      "size_bytes": 16687,
+      "modified": "2026-09-11T19:36:59.470064+00:00"
+    },
+    {
+      "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
+      "name": "rightness_consolidation_v0_1.md",
+      "stem": "rightness_consolidation_v0_1",
+      "extension": ".md",
+      "layer": "Rightness",
+      "title": "Rightness: Consolidation",
+      "word_count": 3525,
+      "size_bytes": 26434,
+      "modified": "2026-09-11T22:54:30.310235+00:00"
+    },
+    {
       "path": "Synthesized Core/Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
       "name": "Adaptation via Informational Abstraction (AVIA) A _summary.ormd",
       "stem": "Adaptation via Informational Abstraction (AVIA) A ",
@@ -4701,16 +4877,16 @@
   "core_manifest_summary": {
     "available": true,
     "synthesized_core_count": 61,
-    "explicit_core_addition_count": 25,
-    "active_semantic_substrate_count": 97,
-    "active_context_layer_count": 90,
-    "active_raw_file_count": 187,
-    "active_file_count": 248,
-    "archived_raw_file_count": 50,
+    "explicit_core_addition_count": 26,
+    "active_semantic_substrate_count": 95,
+    "active_context_layer_count": 88,
+    "active_raw_file_count": 183,
+    "active_file_count": 244,
+    "archived_raw_file_count": 56,
     "unregistered_active_raw_count": 0,
     "missing_registered_path_count": 0,
-    "copied_file_count": 248,
-    "copied_raw_file_count": 187,
+    "copied_file_count": 244,
+    "copied_raw_file_count": 183,
     "skipped_cull_review_count": 14,
     "unresolved_count": 0
   }

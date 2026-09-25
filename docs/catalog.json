@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T20:57:39.202Z",
+  "generatedAt": "2026-09-24T16:19:13.897Z",
   "title": "E² Core Framework",
   "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
   "authority": {
@@ -10,9 +10,9 @@
   },
   "entrySlug": "context-layer-master-index",
   "counts": {
-    "documents": 90,
+    "documents": 88,
     "clusters": 9,
-    "humanWords": 214710
+    "humanWords": 208990
   },
   "clusters": [
     {
@@ -81,7 +81,6 @@
       ],
       "entryPoint": "CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle",
       "docs": [
-        "afd-first-principles",
         "ct-translation-of-rps",
         "derivation-deep-dive",
         "embedded-universality-principle-eup",
@@ -95,7 +94,7 @@
     {
       "id": "C",
       "name": "Dynamics, Emergence & Systems Frameworks",
-      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence.",
+      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence.",
       "triggers": [
         "emergence",
         "boundary dynamics",
@@ -120,11 +119,11 @@
         "mitosis",
         "chi"
       ],
-      "entryPoint": "REMF → Universal Emergence Pattern → CFA → CFAR",
+      "entryPoint": "REMF → Universal Emergence Pattern → reconciled CFAR",
       "docs": [
         "adaptation-via-informational-abstraction",
         "boundary-dynamics",
-        "cfar",
+        "constraint-fluctuation-attention-resolution-core-source",
         "emergence-determination-foreclosure",
         "flow-operators-provisional",
         "from-essential-relationships-to-ontological-transformation",
@@ -134,7 +133,6 @@
         "resolution-synthesis",
         "tension",
         "tensional-intelligence-a-theoretical-foundation",
-        "cfa",
         "emergence-engine-overview",
         "universal-emergence-pattern"
       ]
@@ -390,13 +388,13 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6270,
+      "wordCount": 6236,
       "humanUrl": "/human/context-layer-master-index.md",
       "ormdUrl": "/ormd/context-layer-master-index.ormd",
       "humanSources": [],
       "ormdSource": "Context Layer Index.ormd",
-      "humanSha256": "9309f454ba19a1fc7f140f3d84cf770b0bd6407282b4c3997333603fc3635b7a",
-      "ormdSha256": "9c36fdee6caaf1cc2850e9dec56c85444cd4104887fdc5d2c6e63dc696109e6e"
+      "humanSha256": "0e48edaa48e423c820b76b92c74fc557dcabc35968df869614ceded580abdcfd",
+      "ormdSha256": "22f1ca542cba8182a08b16523e267124c9be4d68bcb45d133766ed905f46b830"
     },
     {
       "slug": "e2-axioms",
@@ -525,24 +523,6 @@
       "ormdSha256": "0fd77ac8d2a818612a37348a04133a28c33575c585f4c6241238c40eff2084bc"
     },
     {
-      "slug": "afd-first-principles",
-      "title": "AFD - First Principles",
-      "clusterId": "B",
-      "frame": "science.theory.emergence",
-      "confidence": 0.92,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 3503,
-      "humanUrl": "/human/afd-first-principles.md",
-      "ormdUrl": "/ormd/afd-first-principles.ormd",
-      "humanSources": [
-        "AFD - First Principles.md"
-      ],
-      "ormdSource": "AFD - First Principles.ormd",
-      "humanSha256": "caf495b3ef3fcd501474469beea9aca7444d851d79784dea7ad6a92d267f125d",
-      "ormdSha256": "072f77d498b11437c9aa8b92ebd40d3a6c289ad89f9577f2964db029920a0112"
-    },
-    {
       "slug": "ct-translation-of-rps",
       "title": "CT translation of RPs",
       "clusterId": "B",
@@ -648,7 +628,7 @@
       ],
       "ormdSource": "Relational Derivation Chain .ormd",
       "humanSha256": "c302b1b49efa74a4f47a6dfc4f41787d58b1109f6b3ede3640d3894c2aba35c3",
-      "ormdSha256": "0326f05f0bdff1a6fc0e46c0c5be8abadbff7865903e73201f41ddaaf09bd9b8"
+      "ormdSha256": "28576d68fa6fa6a95c9219e07fc2c8fb88c6e1a87cee9ee66c11a0388132a237"
     },
     {
       "slug": "relational-field-dynamics-0-1",
@@ -723,22 +703,22 @@
       "ormdSha256": "2e3db317e9dbaa89cd2ba44dd0159086cbf993c42180c836d6d350a672f8b3b3"
     },
     {
-      "slug": "cfar",
-      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
+      "slug": "constraint-fluctuation-attention-resolution-core-source",
+      "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
       "clusterId": "C",
-      "frame": "systems.framework.cfar",
-      "confidence": 0.95,
+      "frame": "systems.framework.cfar.reconciled",
+      "confidence": 0.86,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 993,
-      "humanUrl": "/human/cfar.md",
-      "ormdUrl": "/ormd/cfar.ormd",
+      "wordCount": 2327,
+      "humanUrl": "/human/constraint-fluctuation-attention-resolution-core-source.md",
+      "ormdUrl": "/ormd/constraint-fluctuation-attention-resolution-core-source.ormd",
       "humanSources": [
-        "CFAR.md"
+        "Constraint-Fluctuation-Attention-Resolution - Core Source.md"
       ],
-      "ormdSource": "CFAR.ormd",
-      "humanSha256": "a53bc5f3d65ea5cce90e5b6dc2f4077e7d3edbcf2a6a4aefd81f1dbda19be414",
-      "ormdSha256": "b2d28272a13b25c1bda1641338720213e491fd019929faf471cdd9cc8d735194"
+      "ormdSource": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+      "humanSha256": "feb77ec1ba5f8b9ee260f13a9db6c364b1c09b917bc632d69e70545fc70ac0ec",
+      "ormdSha256": "7004620002334155c33619e2a557e2d82c27b9c3ecd62bda753ab043385b35c3"
     },
     {
       "slug": "emergence-determination-foreclosure",
@@ -901,24 +881,6 @@
       "ormdSource": "Tensional Intelligence A Theoretical Foundation.ormd",
       "humanSha256": "d646637510baae716ac2e18cb8361ecdea7a53eca12a0b25131a7e8ffd3048a0",
       "ormdSha256": "b4eb62b573b6adc4dbb292a71853d62cdb42addc921e010371c0514feeda6f58"
-    },
-    {
-      "slug": "cfa",
-      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-      "clusterId": "C",
-      "frame": "systems.science.cfa",
-      "confidence": 0.95,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 3517,
-      "humanUrl": "/human/cfa.md",
-      "ormdUrl": "/ormd/cfa.ormd",
-      "humanSources": [
-        "CFA.md"
-      ],
-      "ormdSource": "CFA.ormd",
-      "humanSha256": "6525f8d2cfe7affca3ce4f87b6f26a71825c67fd03b539aca6ca01342711695e",
-      "ormdSha256": "99ea209c63dc1f25ae2488fbaed6c63f6cc540217112cbc01e58f6aaad8a2566"
     },
     {
       "slug": "emergence-engine-overview",
@@ -1947,7 +1909,7 @@
       ],
       "ormdSource": "The Essence of Existence.ormd",
       "humanSha256": "43bb41c749088076e30a97cbc157dc1c63c7d8e43fe303976e4fc03dd7c4f175",
-      "ormdSha256": "a8acde4192085ff83edadf503a4db27cfa9fa6ebd8fa295583650117e010bc00"
+      "ormdSha256": "6ad4a2b06f4fb91fa073f0b14d14f5fb3c4cdc9f6c65da8a5d898bb73c50268b"
     },
     {
       "slug": "context-layer-protocol-clp",

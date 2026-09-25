@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T20:57:39.202Z",
+  "generatedAt": "2026-09-24T16:19:13.897Z",
   "title": "E² Core Framework relationship graph",
   "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
   "authority": {
@@ -9,9 +9,9 @@
     "relationships": "Navigation metadata only; consult the linked documents for authority"
   },
   "counts": {
-    "nodes": 90,
-    "edges": 147,
-    "explicitEdges": 77,
+    "nodes": 88,
+    "edges": 145,
+    "explicitEdges": 75,
     "suggestedEdges": 70
   },
   "clusters": [
@@ -28,7 +28,7 @@
     {
       "id": "C",
       "name": "Dynamics, Emergence & Systems Frameworks",
-      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, CFA/CFAR, AVIA, REMF, emergence simulation, and tensional intelligence."
+      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence."
     },
     {
       "id": "D",
@@ -70,7 +70,7 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6270,
+      "wordCount": 6236,
       "readerUrl": "/?doc=context-layer-master-index",
       "ormdUrl": "/ormd/context-layer-master-index.ormd"
     },
@@ -157,18 +157,6 @@
       "wordCount": 916,
       "readerUrl": "/?doc=relational-primitives",
       "ormdUrl": "/ormd/relational-primitives.ormd"
-    },
-    {
-      "id": "afd-first-principles",
-      "title": "AFD - First Principles",
-      "clusterId": "B",
-      "frame": "science.theory.emergence",
-      "confidence": 0.92,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 3503,
-      "readerUrl": "/?doc=afd-first-principles",
-      "ormdUrl": "/ormd/afd-first-principles.ormd"
     },
     {
       "id": "ct-translation-of-rps",
@@ -291,16 +279,16 @@
       "ormdUrl": "/ormd/boundary-dynamics.ormd"
     },
     {
-      "id": "cfar",
-      "title": "CFAR: Constraint-Fluctuation-Attention-Resolution Framework",
+      "id": "constraint-fluctuation-attention-resolution-core-source",
+      "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
       "clusterId": "C",
-      "frame": "systems.framework.cfar",
-      "confidence": 0.95,
+      "frame": "systems.framework.cfar.reconciled",
+      "confidence": 0.86,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 993,
-      "readerUrl": "/?doc=cfar",
-      "ormdUrl": "/ormd/cfar.ormd"
+      "wordCount": 2327,
+      "readerUrl": "/?doc=constraint-fluctuation-attention-resolution-core-source",
+      "ormdUrl": "/ormd/constraint-fluctuation-attention-resolution-core-source.ormd"
     },
     {
       "id": "emergence-determination-foreclosure",
@@ -409,18 +397,6 @@
       "wordCount": 1207,
       "readerUrl": "/?doc=tensional-intelligence-a-theoretical-foundation",
       "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd"
-    },
-    {
-      "id": "cfa",
-      "title": "The CFA Model: Operationalizing Relational Complexity for Systems Analysis and Intervention",
-      "clusterId": "C",
-      "frame": "systems.science.cfa",
-      "confidence": 0.95,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 3517,
-      "readerUrl": "/?doc=cfa",
-      "ormdUrl": "/ormd/cfa.ormd"
     },
     {
       "id": "emergence-engine-overview",
@@ -1235,13 +1211,13 @@
       "note": "The chain explicitly connects E2 to MPDC."
     },
     {
-      "id": "relational-derivation-chain--connects--afd-first-principles",
+      "id": "relational-derivation-chain--connects--constraint-fluctuation-attention-resolution-core-source",
       "source": "relational-derivation-chain",
-      "target": "afd-first-principles",
+      "target": "constraint-fluctuation-attention-resolution-core-source",
       "type": "connects",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "The chain explicitly connects E2 to AFD."
+      "note": "The chain connects E2 to the AFD lineage, now preserved in the reconciled CFAR source."
     },
     {
       "id": "derivation-deep-dive--extends--relational-field-dynamics-0-1",
@@ -1280,13 +1256,22 @@
       "note": "Flow interpretation inherits observer-position dependence."
     },
     {
-      "id": "resolution-synthesis--informs--cfar",
+      "id": "resolution-synthesis--informs--constraint-fluctuation-attention-resolution-core-source",
       "source": "resolution-synthesis",
-      "target": "cfar",
+      "target": "constraint-fluctuation-attention-resolution-core-source",
       "type": "informs",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "Resolution supplies one of CFAR's operative dynamics."
+      "note": "Resolution supplies one of the reconciled CFAR source's operative dynamics."
+    },
+    {
+      "id": "signal-as-bias-field--informs--constraint-fluctuation-attention-resolution-core-source",
+      "source": "signal-as-bias-field",
+      "target": "constraint-fluctuation-attention-resolution-core-source",
+      "type": "informs",
+      "certainty": "explicit",
+      "provenance": "curated-navigation-ledger",
+      "note": "Conditional signal uptake helps distinguish receiver-side access from emitter-side inputs."
     },
     {
       "id": "emergence-determination-foreclosure--constrains--universal-emergence-pattern",
@@ -1323,15 +1308,6 @@
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
       "note": "The synthesis translates the theoretical foundation into praxis."
-    },
-    {
-      "id": "cfa--operationalizes--cfar",
-      "source": "cfa",
-      "target": "cfar",
-      "type": "operationalizes",
-      "certainty": "explicit",
-      "provenance": "curated-navigation-ledger",
-      "note": "CFA operationalizes relational complexity for intervention."
     },
     {
       "id": "the-architecture-of-resonant-systems-4-26-25--extends--resonance-architecture-4-17-25",
@@ -1649,24 +1625,6 @@
       "note": "Entry point for Cluster C."
     },
     {
-      "id": "context-layer-master-index--indexes--cfa",
-      "source": "context-layer-master-index",
-      "target": "cfa",
-      "type": "indexes",
-      "certainty": "explicit",
-      "provenance": "context-layer-master-index",
-      "note": "Entry point for Cluster C."
-    },
-    {
-      "id": "context-layer-master-index--indexes--cfar",
-      "source": "context-layer-master-index",
-      "target": "cfar",
-      "type": "indexes",
-      "certainty": "explicit",
-      "provenance": "context-layer-master-index",
-      "note": "Entry point for Cluster C."
-    },
-    {
       "id": "context-layer-master-index--indexes--metabolic-meaning-phase-space-mmps",
       "source": "context-layer-master-index",
       "target": "metabolic-meaning-phase-space-mmps",
@@ -1964,6 +1922,15 @@
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
+      "id": "constraint-fluctuation-attention-resolution-core-source--references--condition-as-typed-terrain-core-source",
+      "source": "constraint-fluctuation-attention-resolution-core-source",
+      "target": "condition-as-typed-terrain-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
+    },
+    {
       "id": "emergence-determination-foreclosure--references--meta-pattern-decidability-conjecture-mpdc",
       "source": "emergence-determination-foreclosure",
       "target": "meta-pattern-decidability-conjecture-mpdc",
@@ -2003,15 +1970,6 @@
       "id": "remf--references--universal-emergence-pattern",
       "source": "remf",
       "target": "universal-emergence-pattern",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
-    },
-    {
-      "id": "cfa--references--the-essence-of-existence",
-      "source": "cfa",
-      "target": "the-essence-of-existence",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -2441,18 +2399,18 @@
       "note": "Generated from 2 exact title mentions; review before treating as framework structure."
     },
     {
-      "id": "the-essence-of-existence--references--cfa",
+      "id": "the-essence-of-existence--references--from-essential-relationships-to-ontological-transformation",
       "source": "the-essence-of-existence",
-      "target": "cfa",
+      "target": "from-essential-relationships-to-ontological-transformation",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "the-essence-of-existence--references--from-essential-relationships-to-ontological-transformation",
+      "id": "the-essence-of-existence--references--communication-as-coherence",
       "source": "the-essence-of-existence",
-      "target": "from-essential-relationships-to-ontological-transformation",
+      "target": "communication-as-coherence",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
