@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E² development timeline</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101720; --panel:#18222d; --panel2:#1d2a36; --text:#edf3ef; --muted:#a9bab8; --line:#34434d; --accent:#e6d19b; --legacy:#79a8b8; --core:#8bd1bb; --context:#b1a0cd; --stage:#dbaf7e; --synthesis:#9ba6b5; --e2:#8bd1bb; --coding:#e0b77c; --public:#d59aa5; }
+    @media (prefers-color-scheme: light) { :root { color-scheme: light; --bg:#f4f5f0; --panel:#fffefa; --panel2:#f0f2ed; --text:#1f2c32; --muted:#53656a; --line:#ccd5d5; --accent:#735a2e; --legacy:#2d728a; --core:#287d66; --context:#715a99; --stage:#a06a36; --synthesis:#5e6d7a; --e2:#287d66; --coding:#a06a36; --public:#a44e61; } }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 "Segoe UI",Inter,system-ui,sans-serif; }
+    button,input,select { font:inherit; }
+    button { cursor:pointer; }
+    .app { max-width:1600px; margin:auto; padding:24px clamp(14px,2.5vw,38px) 50px; }
+    .eyebrow { letter-spacing:.16em; text-transform:uppercase; color:var(--accent); font-size:11px; font-weight:700; }
+    h1 { font-size:clamp(28px,3.5vw,48px); line-height:1.07; letter-spacing:-.035em; margin:7px 0 10px; font-weight:600; }
+    h2 { font-size:17px; font-weight:600; margin:0; letter-spacing:-.01em; }
+    p { margin:0; }
+    .intro { display:flex; align-items:end; justify-content:space-between; flex-wrap:wrap; gap:16px; margin-bottom:22px; }
+    .intro p { color:var(--muted); max-width:760px; }
+    .statline { color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap; }
+    .statline strong { color:var(--text); font-weight:600; }
+    .toolbar { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:13px; display:flex; align-items:end; gap:12px; flex-wrap:wrap; margin-bottom:15px; }
+    .field { display:flex; flex-direction:column; gap:5px; min-width:0; }
+    .field label,.field .field-label { color:var(--muted); font-size:11px; letter-spacing:.06em; text-transform:uppercase; font-weight:600; }
+    input[type=search], input[type=date],select { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:8px; min-height:36px; padding:6px 10px; }
+    input[type=search] { width:min(320px,75vw); }
+    .segmented { display:flex; align-items:center; flex-wrap:wrap; gap:4px; }
+    .segmented button,.softbtn { background:transparent; border:1px solid var(--line); color:var(--muted); border-radius:7px; padding:7px 10px; min-height:36px; }
+    .segmented button[aria-pressed=true],.softbtn:hover { color:var(--text); background:var(--panel2); border-color:var(--accent); }
+    .toolbar-spacer { flex:1; }
+    .check { display:flex; align-items:center; gap:6px; color:var(--muted); white-space:nowrap; min-height:36px; }
+    .check input { accent-color:var(--accent); width:15px; height:15px; }
+    .panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden; margin-bottom:15px; }
+    .panelhead { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:17px 18px 12px; flex-wrap:wrap; }
+    .panelhead p { color:var(--muted); font-size:12px; }
+    .timeline-row { display:grid; grid-template-columns:240px minmax(0,1fr); min-height:44px; border-top:1px solid var(--line); }
+    .timeline-label { padding:9px 14px 8px 18px; display:flex; align-items:center; gap:8px; min-width:0; }
+    .timeline-label .name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .timeline-label button { background:none; border:0; padding:0; color:var(--text); text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .timeline-label button:hover { text-decoration:underline; }
+    .timeline-track { position:relative; min-width:0; border-left:1px solid var(--line); overflow:hidden; }
+    .timeline-track svg { display:block; width:100%; }
+    .axis-row { border-top:0; min-height:34px; }
+    .axis-row .timeline-label { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+    .legend { display:flex; flex-wrap:wrap; gap:9px 17px; padding:12px 18px 15px; color:var(--muted); font-size:12px; border-top:1px solid var(--line); }
+    .legend span { display:inline-flex; align-items:center; gap:6px; }
+    .swatch { width:9px; height:9px; border-radius:3px; display:inline-block; }
+    .legend .line-key { width:20px; height:4px; border-radius:9px; background:var(--accent); }
+    .project-row,.doc-row { min-height:34px; }
+    .project-row .timeline-label,.doc-row .timeline-label { padding-top:5px; padding-bottom:5px; }
+    .project-row .timeline-track,.doc-row .timeline-track { display:flex; align-items:center; }
+    .groupdot { width:8px; height:8px; border-radius:50%; flex:none; }
+    .empty-note { color:var(--muted); padding:20px; }
+    .explore { display:grid; grid-template-columns:minmax(0,1fr) 280px; gap:15px; align-items:start; }
+    .results { min-width:0; }
+    .resultshead { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:17px 18px 12px; flex-wrap:wrap; }
+    .resultshead span { color:var(--muted); font-size:12px; }
+    .result-list { max-height:530px; overflow:auto; border-top:1px solid var(--line); }
+    .result { display:grid; grid-template-columns:105px minmax(0,1fr) 150px; gap:12px; align-items:center; border-bottom:1px solid var(--line); padding:8px 17px; min-height:42px; }
+    .result:last-child { border-bottom:0; }
+    .result time { font-variant-numeric:tabular-nums; color:var(--muted); white-space:nowrap; }
+    .result a,.result .plain-name { color:var(--text); text-decoration:none; overflow-wrap:anywhere; font-weight:500; }
+    .result a:hover { text-decoration:underline; }
+    .result .meta { color:var(--muted); font-size:11px; text-align:right; }
+    .badge { border:1px solid var(--line); padding:2px 6px; border-radius:5px; color:var(--muted); font-size:11px; display:inline-block; }
+    .more { display:block; width:100%; text-align:center; border:0; background:var(--panel2); color:var(--text); padding:11px; }
+    .more:hover { background:var(--line); }
+    .side { padding:17px 18px; }
+    .side h2 { margin-bottom:9px; }
+    .side p { color:var(--muted); margin-bottom:12px; }
+    .side ul { padding-left:17px; margin:0; color:var(--muted); }
+    .side li { margin:7px 0; }
+    .undated { margin-top:15px; }
+    .undated summary { cursor:pointer; list-style:none; padding:15px 18px; font-weight:600; }
+    .undated summary::before { content:"▸"; display:inline-block; margin-right:10px; color:var(--accent); }
+    .undated[open] summary::before { transform:rotate(90deg); }
+    .undated-list { display:flex; flex-wrap:wrap; gap:7px; border-top:1px solid var(--line); padding:14px 18px; max-height:250px; overflow:auto; }
+    .undated-list a,.undated-list span { color:var(--muted); text-decoration:none; border:1px solid var(--line); border-radius:6px; padding:4px 7px; }
+    .undated-list a:hover { color:var(--text); border-color:var(--accent); }
+    footer { color:var(--muted); font-size:12px; margin-top:21px; border-top:1px solid var(--line); padding-top:15px; }
+    footer a { color:var(--accent); }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+    @media (max-width:850px) { .explore { grid-template-columns:1fr; } .timeline-row { grid-template-columns:175px minmax(0,1fr); } }
+    @media (max-width:540px) { .app { padding:16px 9px 36px; } .timeline-row { grid-template-columns:128px minmax(0,1fr); } .timeline-label { padding-left:9px; padding-right:5px; font-size:12px; } .project-row .timeline-label button,.doc-row .timeline-label button { white-space:normal; overflow:visible; text-overflow:clip; line-height:1.18; } .panelhead,.resultshead { padding-left:12px; padding-right:12px; } .result { grid-template-columns:82px minmax(0,1fr); gap:5px 8px; padding:8px 11px; } .result .meta { grid-column:2; text-align:left; } .toolbar { gap:9px; } }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="intro">
+      <div><div class="eyebrow">E² · chronological index</div><h1>Development timeline</h1><p>Framework documents and project records on one date axis. Marks show the date of the cited record; a first record is not automatically a project's origin.</p></div>
+      <div class="statline" id="totals"></div>
+    </header>
+    <div class="toolbar" role="group" aria-label="Timeline controls">
+      <div class="field"><label for="search">Find a name</label><input id="search" type="search" placeholder="Document or project" autocomplete="off"></div>
+      <div class="field"><span class="field-label">Window</span><div class="segmented" id="years"></div></div>
+      <div class="field"><label for="viewMode">Show</label><select id="viewMode"><option value="all">Documents + projects</option><option value="documents">Documents</option><option value="projects">Projects</option><option value="anchors">Conceptual sources + projects</option></select></div>
+      <div class="toolbar-spacer"></div>
+      <label class="check"><input type="checkbox" id="contexts">Context copies</label>
+      <label class="check"><input type="checkbox" id="staged" checked>Staged work</label>
+    </div>
+    <section class="panel" aria-labelledby="density-title">
+      <div class="panelhead"><div><h2 id="density-title">Documents by date</h2><p>Choose a bar to inspect that month or day. The lanes share the project date axis below.</p></div><span id="windowLabel" class="statline"></span></div>
+      <div class="timeline-row axis-row"><div class="timeline-label">Document collections</div><div class="timeline-track" id="topAxis"></div></div>
+      <div id="documentLanes"></div>
+      <div class="legend"><span><i class="swatch" style="background:var(--legacy)"></i> Legacy source</span><span><i class="swatch" style="background:var(--core)"></i> Active Core source</span><span><i class="swatch" style="background:var(--context)"></i> Context copies</span><span><i class="swatch" style="background:var(--stage)"></i> Staged work</span><span><i class="swatch" style="background:var(--synthesis)"></i> Synthesis / process</span></div>
+    </section>
+    <section class="panel" aria-labelledby="projects-title">
+      <div class="panelhead"><div><h2 id="projects-title">Project records</h2><p>Bars span the first and last dated records found. Gaps between them are not verified continuous activity.</p></div><span id="projectCount" class="statline"></span></div>
+      <div class="timeline-row axis-row"><div class="timeline-label">Project</div><div class="timeline-track" id="projectAxis"></div></div>
+      <div id="projectRows"></div>
+      <div class="legend"><span><i class="swatch" style="background:var(--e2)"></i> E² folder</span><span><i class="swatch" style="background:var(--coding)"></i> Coding folder</span><span><i class="swatch" style="background:var(--public)"></i> Public / writing</span><span><i class="line-key"></i> First ↔ last dated record</span></div>
+    </section>
+    <section class="panel" aria-labelledby="docs-title">
+      <div class="panelhead"><div><h2 id="docs-title">Document names</h2><p>Each row is one dated file. Select a name or mark to focus its month.</p></div><span id="docCount" class="statline"></span></div>
+      <div class="timeline-row axis-row"><div class="timeline-label">File</div><div class="timeline-track" id="docAxis"></div></div>
+      <div id="docRows"></div><button id="moreDocs" class="more" type="button" hidden>Show more documents</button>
+    </section>
+    <div class="explore">
+      <section class="panel results" aria-labelledby="results-title"><div class="resultshead"><h2 id="results-title">Names in focus</h2><span id="resultCount" aria-live="polite"></span></div><div id="resultList" class="result-list"></div><button id="more" class="more" type="button" hidden>Show more</button></section>
+      <aside class="panel side"><h2>Reading the marks</h2><p>A document header, Context lineage timestamp, staging folder, Git commit, and dated research output mean different things. Each listed name shows its date basis; linked names open the source.</p><ul><li>Context copies are hidden initially; some Core and legacy sources also overlap.</li><li>Generated synthesis metadata can predate its source, so unverified summaries use first tracked Git dates or remain unplaced.</li><li>Undated items remain listed below; they were not assigned filesystem dates.</li></ul></aside>
+    </div>
+    <details class="panel undated" id="undatedBox"><summary id="undatedSummary">Undated names</summary><div class="undated-list" id="undatedList"></div></details>
+    <footer>Source set: the 2026-09-10 conceptual-development inventory, current corpus files, and the 2026-09-25 project chronology. This file is self-contained and uses no network resources. <span id="sourceDate"></span></footer>
+  </div>
+  <script type="application/json" id="timeline-data">__TIMELINE_DATA__</script>
+  <script>
+  (() => {
+    const data = JSON.parse(document.getElementById('timeline-data').textContent);
+    const items = data.items;
+    const $ = id => document.getElementById(id);
+    const groups = {
+      'legacy-source': ['Legacy source', 'legacy'],
+      'core-source': ['Active Core source', 'core'],
+      'legacy-context': ['Legacy Context', 'context'],
+      'core-context': ['Core Context', 'context'],
+      'staged': ['Staged work', 'stage'],
+      'synthesis': ['Generated synthesis', 'synthesis'],
+      'process': ['Process / index', 'synthesis'],
+      'project-e2': ['E² project', 'e2'],
+      'project-coding': ['Coding project', 'coding'],
+      'project-public': ['Public / writing', 'public']
+    };
+    const colors = {
+      legacy: 'var(--legacy)', core: 'var(--core)', context: 'var(--context)',
+      stage: 'var(--stage)', synthesis: 'var(--synthesis)', e2: 'var(--e2)',
+      coding: 'var(--coding)', public: 'var(--public)'
+    };
+    const minDate = '2023-01-01', maxDate = '2026-09-30';
+    const state = { from:minDate, to:maxDate, label:'All years', explicit:false, query:'', mode:'all', contexts:false, staged:true, shown:120, docShown:60, selected:null };
+    const ms = s => Date.parse(s + 'T00:00:00Z');
+    const iso = d => new Date(d).toISOString().slice(0,10);
+    const dateFormat = s => s ? new Date(ms(s)).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'}) : 'Date unlocated';
+    const monthLabel = s => new Date(ms(s)).toLocaleDateString(undefined,{year:'numeric',month:'long',timeZone:'UTC'});
+    const escapeHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const intersects = item => item.date && item.date <= state.to && (item.end || item.date) >= state.from;
+    const inRange = item => item.date && item.date >= state.from && item.date <= state.to;
+    const isContext = g => g === 'legacy-context' || g === 'core-context';
+    function allowed(item) {
+      if (state.mode === 'documents' && item.kind !== 'document') return false;
+      if (state.mode === 'projects' && item.kind !== 'project') return false;
+      if (state.mode === 'anchors' && item.kind === 'document' && !item.anchor) return false;
+      if (!state.contexts && isContext(item.group)) return false;
+      if (!state.staged && item.group === 'staged') return false;
+      return !state.query || item.name.toLocaleLowerCase().includes(state.query);
+    }
+    function setRange(from,to,label,explicit=true) {
+      state.from=from; state.to=to; state.label=label; state.explicit=explicit; state.shown=120; state.docShown=60; render();
+    }
+    function timeX(day,width) { return Math.max(0,Math.min(width,(ms(day)-ms(state.from))/(ms(state.to)-ms(state.from)+86400000)*width)); }
+    function xDay(x,width) { return iso(ms(state.from)+x/width*(ms(state.to)-ms(state.from)+86400000)); }
+    function svgEl(tag,attrs={}) {
+      const e=document.createElementNS('http://www.w3.org/2000/svg',tag);
+      Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v))); return e;
+    }
+    function clear(el) { while(el.firstChild) el.removeChild(el.firstChild); }
+    function axis(container) {
+      clear(container);
+      const w=Math.max(120,container.clientWidth), svg=svgEl('svg',{width:w,height:32,role:'img','aria-label':'Date axis'});
+      const days=(ms(state.to)-ms(state.from))/86400000;
+      const ticks=[];
+      if(days>800) for(let y=2023;y<=2026;y++) ticks.push(`${y}-01-01`);
+      else if(days>55) { let d=new Date(ms(state.from)); d.setUTCDate(1); while(iso(d)<=state.to){ ticks.push(iso(d)); d.setUTCMonth(d.getUTCMonth()+1); } }
+      else { let d=new Date(ms(state.from)); while(iso(d)<=state.to){ ticks.push(iso(d)); d.setUTCDate(d.getUTCDate()+7); } }
+      ticks.forEach(t=>{ const x=timeX(t,w); const line=svgEl('line',{x1:x,y1:0,x2:x,y2:9,stroke:'var(--line)'}); svg.appendChild(line);
+        const txt=svgEl('text',{x:Math.min(w-3,Math.max(3,x+3)),y:23,fill:'var(--muted)','font-size':11,'text-anchor':x>w-48?'end':'start'});
+        const d=new Date(ms(t)); txt.textContent=days>800?String(d.getUTCFullYear()):days>55?d.toLocaleDateString(undefined,{month:'short',timeZone:'UTC'}):`${d.getUTCDate()} ${d.toLocaleDateString(undefined,{month:'short',timeZone:'UTC'})}`; svg.appendChild(txt); });
+      container.appendChild(svg);
+    }
+    function bins() {
+      const days=(ms(state.to)-ms(state.from))/86400000;
+      const out=[];
+      if(days<=55) { let d=new Date(ms(state.from)); while(iso(d)<=state.to){ const start=iso(d); out.push({start,end:start,label:dateFormat(start)}); d.setUTCDate(d.getUTCDate()+1); } }
+      else { let d=new Date(ms(state.from)); d.setUTCDate(1); while(iso(d)<=state.to){ const start=iso(d); const n=new Date(d); n.setUTCMonth(n.getUTCMonth()+1); n.setUTCDate(0); out.push({start,end:iso(n),label:monthLabel(start)}); d.setUTCMonth(d.getUTCMonth()+1); } }
+      return out;
+    }
+    function densityLane(group,records,intervals) {
+      const row=document.createElement('div'); row.className='timeline-row';
+      const label=document.createElement('div'); label.className='timeline-label';
+      const count=records.length; label.innerHTML=`<span class="groupdot" style="background:${colors[groups[group][1]]}"></span><span class="name">${escapeHtml(groups[group][0])} <span style="color:var(--muted)">(${count})</span></span>`;
+      const track=document.createElement('div'); track.className='timeline-track'; row.append(label,track);
+      const w=Math.max(120,track.getBoundingClientRect().width || $('topAxis').clientWidth), svg=svgEl('svg',{width:w,height:43,role:'img','aria-label':`${groups[group][0]} document density`});
+      const counts=intervals.map(b=>records.filter(it=>it.date>=b.start&&it.date<=b.end).length);
+      const max=Math.max(1,...counts);
+      const baseline=38; svg.appendChild(svgEl('line',{x1:0,y1:baseline,x2:w,y2:baseline,stroke:'var(--line)'}));
+      intervals.forEach((b,i)=>{ const n=counts[i]; if(!n)return; const x=timeX(b.start,w), x2=timeX(iso(ms(b.end)+86400000),w); const barW=Math.max(2,x2-x-2); const h=Math.max(4,Math.round(31*Math.sqrt(n/max)));
+        const rect=svgEl('rect',{x:x+1,y:baseline-h,width:barW,height:h,rx:2,fill:colors[groups[group][1]],opacity:.83,tabindex:0,role:'button','aria-label':`${b.label}: ${n} ${groups[group][0]} documents`});
+        const title=svgEl('title'); title.textContent=`${b.label} · ${n} ${groups[group][0]} documents`; rect.appendChild(title);
+        const activate=()=>setRange(b.start,b.end,b.label); rect.addEventListener('click',activate); rect.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}}); svg.appendChild(rect); });
+      track.appendChild(svg); return row;
+    }
+    function renderDocuments() {
+      axis($('topAxis')); const laneRoot=$('documentLanes'); clear(laneRoot);
+      const displayGroups=['legacy-source','core-source','legacy-context','core-context','staged','synthesis','process'];
+      const intervals=bins(); const visible=items.filter(it=>it.kind==='document'&&allowed(it)&&inRange(it));
+      for(const group of displayGroups){ if(isContext(group)&&!state.contexts)continue; if(group==='staged'&&!state.staged)continue;
+        const records=visible.filter(it=>it.group===group); if(state.mode==='projects'||state.mode==='anchors'&&!records.length)continue;
+        laneRoot.appendChild(densityLane(group,records,intervals)); }
+      if(!laneRoot.children.length) laneRoot.innerHTML='<div class="empty-note">No document marks in this view.</div>';
+    }
+    function projectRow(item) {
+      const row=document.createElement('div'); row.className='timeline-row project-row';
+      const label=document.createElement('div'); label.className='timeline-label';
+      label.innerHTML=`<span class="groupdot" style="background:${colors[groups[item.group][1]]}"></span>`;
+      const btn=document.createElement('button'); btn.type='button'; btn.className='name'; btn.textContent=item.name; btn.title=item.name; btn.addEventListener('click',()=>focusProject(item)); label.appendChild(btn);
+      const track=document.createElement('div'); track.className='timeline-track'; row.append(label,track);
+      const w=Math.max(120,track.getBoundingClientRect().width || $('projectAxis').clientWidth), svg=svgEl('svg',{width:w,height:33,role:'img','aria-label':`${item.name}: ${item.date} to ${item.end||item.date}`});
+      svg.appendChild(svgEl('line',{x1:0,y1:16.5,x2:w,y2:16.5,stroke:'var(--line)',opacity:.58}));
+      const left=timeX(item.date,w), right=timeX(item.end||item.date,w), c=colors[groups[item.group][1]];
+      if(right-left<5){ const mark=svgEl('circle',{cx:left,cy:16.5,r:6,fill:c,tabindex:0,role:'button','aria-label':`${item.name}, ${dateFormat(item.date)}`}); mark.addEventListener('click',()=>focusProject(item)); mark.addEventListener('keydown',e=>{if(e.key==='Enter'){focusProject(item)}}); svg.appendChild(mark); }
+      else { const rect=svgEl('rect',{x:left,y:12,width:Math.max(5,right-left),height:9,rx:4.5,fill:c,tabindex:0,role:'button','aria-label':`${item.name}, ${dateFormat(item.date)} to ${dateFormat(item.end)}`}); rect.addEventListener('click',()=>focusProject(item)); rect.addEventListener('keydown',e=>{if(e.key==='Enter'){focusProject(item)}}); svg.appendChild(rect); }
+      if(item.bound && item.bound>=state.from && item.bound<=state.to){ const bx=timeX(item.bound,w); const t=svgEl('text',{x:bx,y:12,fill:'var(--accent)','font-size':16,'text-anchor':'middle'}); t.textContent='‹'; const ti=svgEl('title'); ti.textContent='Family use began before this date, by user report'; t.appendChild(ti); svg.appendChild(t); }
+      const title=svgEl('title'); title.textContent=`${item.name} · ${dateFormat(item.date)}${item.end&&item.end!==item.date?' – '+dateFormat(item.end):''} · ${item.basis}`; svg.appendChild(title);
+      track.appendChild(svg); return row;
+    }
+    function focusProject(item){ state.selected=item.id; state.shown=120; const a=item.date, b=item.end||item.date; if(a&&b){
+        if(a===b){ const d=new Date(ms(a)); d.setUTCMonth(d.getUTCMonth()-1); const f=iso(d); d.setUTCMonth(d.getUTCMonth()+2); setRange(f,iso(d),item.name); }
+        else setRange(a,b,item.name); }
+    }
+    function renderProjects(){ axis($('projectAxis')); const root=$('projectRows'); clear(root);
+      const visible=items.filter(it=>it.kind==='project'&&allowed(it)&&intersects(it)).sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name));
+      $('projectCount').textContent=`${visible.length} dated projects in view`;
+      if(state.mode==='documents'){ root.innerHTML='<div class="empty-note">Projects are hidden in this view.</div>'; return; }
+      for(const item of visible) root.appendChild(projectRow(item));
+      if(!visible.length) root.innerHTML='<div class="empty-note">No dated projects in this window. Undated projects remain below.</div>';
+    }
+    function focusDocument(item){ const d=new Date(ms(item.date)); const f=new Date(d.getTime()); f.setUTCDate(1); const t=new Date(f.getTime()); t.setUTCMonth(t.getUTCMonth()+1); t.setUTCDate(0); setRange(iso(f),iso(t),monthLabel(item.date)); }
+    function documentRow(item){
+      const row=document.createElement('div'); row.className='timeline-row doc-row';
+      const label=document.createElement('div'); label.className='timeline-label'; label.innerHTML=`<span class="groupdot" style="background:${colors[groups[item.group][1]]}"></span>`;
+      const btn=document.createElement('button'); btn.type='button'; btn.className='name'; btn.textContent=item.name; btn.title=item.name; btn.addEventListener('click',()=>focusDocument(item)); label.appendChild(btn);
+      const track=document.createElement('div'); track.className='timeline-track'; row.append(label,track);
+      const w=Math.max(120,track.getBoundingClientRect().width || $('docAxis').clientWidth), svg=svgEl('svg',{width:w,height:33,role:'img','aria-label':`${item.name}: ${dateFormat(item.date)}`});
+      svg.appendChild(svgEl('line',{x1:0,y1:16.5,x2:w,y2:16.5,stroke:'var(--line)',opacity:.58}));
+      const mark=svgEl('circle',{cx:timeX(item.date,w),cy:16.5,r:5,fill:colors[groups[item.group][1]],tabindex:0,role:'button','aria-label':`${item.name}, ${dateFormat(item.date)}`});
+      mark.addEventListener('click',()=>focusDocument(item)); mark.addEventListener('keydown',e=>{if(e.key==='Enter'){focusDocument(item)}});
+      const title=svgEl('title'); title.textContent=`${item.name} · ${dateFormat(item.date)} · ${item.basis}`; mark.appendChild(title); svg.appendChild(mark); track.appendChild(svg); return row;
+    }
+    function renderDocRows(){ axis($('docAxis')); const root=$('docRows'); clear(root);
+      const visible=items.filter(it=>it.kind==='document'&&allowed(it)&&inRange(it)).sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name));
+      $('docCount').textContent=`${visible.length} dated files in view`;
+      if(state.mode==='projects'){ root.innerHTML='<div class="empty-note">Documents are hidden in this view.</div>'; $('moreDocs').hidden=true; return; }
+      visible.slice(0,state.docShown).forEach(it=>root.appendChild(documentRow(it)));
+      if(!visible.length) root.innerHTML='<div class="empty-note">No dated documents in this window.</div>';
+      $('moreDocs').hidden=visible.length<=state.docShown; $('moreDocs').textContent=`Show more documents (${Math.min(60,visible.length-state.docShown)} of ${visible.length-state.docShown} remaining)`;
+    }
+    function resultElement(item){ const row=document.createElement('div'); row.className='result';
+      const when=document.createElement('time'); when.dateTime=item.date||''; when.textContent=item.date||'Undated';
+      const name=item.href?document.createElement('a'):document.createElement('span'); name.className=item.href?'':'plain-name'; name.textContent=item.name;
+      if(item.href){ name.href=item.href; name.target='_blank'; name.rel='noopener'; } name.title=item.path||item.href||item.name;
+      const meta=document.createElement('div'); meta.className='meta'; meta.textContent=`${groups[item.group][0]} · ${item.basis}`;
+      row.append(when,name,meta); return row; }
+    function renderResults(){ const root=$('resultList'); clear(root); const list=items.filter(it=>allowed(it)&&(it.kind==='project'?intersects(it):inRange(it))).sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name));
+      const active=state.explicit||Boolean(state.query);
+      $('resultCount').textContent=active?`${list.length} names`:'Select a bar, project, or year';
+      if(!active){ root.innerHTML='<div class="empty-note">Choose a date bar or project span to see the names that line up there. Search works across all years.</div>'; $('more').hidden=true; return; }
+      if(!list.length){ root.innerHTML='<div class="empty-note">No dated names match this window and filter.</div>'; $('more').hidden=true; return; }
+      list.slice(0,state.shown).forEach(it=>root.appendChild(resultElement(it)));
+      $('more').hidden=list.length<=state.shown; $('more').textContent=`Show more (${Math.min(120,list.length-state.shown)} of ${list.length-state.shown} remaining)`;
+    }
+    function renderUndated(){ const list=items.filter(it=>allowed(it)&&!it.date).sort((a,b)=>a.group.localeCompare(b.group)||a.name.localeCompare(b.name));
+      $('undatedSummary').textContent=`Undated names (${list.length})`; const root=$('undatedList'); clear(root);
+      if(!list.length){ root.textContent='All names in this filter have a dated record.'; return; }
+      for(const item of list){ const node=item.href?document.createElement('a'):document.createElement('span'); node.textContent=item.name; node.title=`${groups[item.group][0]} · ${item.basis}${item.path?' · '+item.path:''}`; if(item.href){node.href=item.href;node.target='_blank';node.rel='noopener';}root.appendChild(node); }
+    }
+    function renderYears(){ const root=$('years'); clear(root);
+      for(const [label,from,to] of [['All',minDate,maxDate],['2023','2023-01-01','2023-12-31'],['2024','2024-01-01','2024-12-31'],['2025','2025-01-01','2025-12-31'],['2026','2026-01-01',maxDate]]){
+        const b=document.createElement('button'); b.type='button'; b.textContent=label; b.setAttribute('aria-pressed',state.from===from&&state.to===to?'true':'false'); b.addEventListener('click',()=>setRange(from,to,label,label!=='All')); root.appendChild(b); }
+    }
+    function render(){ $('windowLabel').textContent=state.label; renderYears(); renderDocuments(); renderProjects(); renderDocRows(); renderResults(); renderUndated(); }
+    $('totals').innerHTML=`<strong>${data.counts.documents.toLocaleString()}</strong> documents · <strong>${data.counts.projects}</strong> projects · <strong>${data.counts.dated.toLocaleString()}</strong> dated`;
+    $('sourceDate').textContent=`Built ${data.generated}.`;
+    $('search').addEventListener('input',e=>{state.query=e.target.value.trim().toLocaleLowerCase();state.shown=120;state.docShown=60;render();});
+    $('viewMode').addEventListener('change',e=>{state.mode=e.target.value;render();});
+    $('contexts').addEventListener('change',e=>{state.contexts=e.target.checked;render();});
+    $('staged').addEventListener('change',e=>{state.staged=e.target.checked;render();});
+    $('more').addEventListener('click',()=>{state.shown+=120;renderResults();});
+    $('moreDocs').addEventListener('click',()=>{state.docShown+=60;renderDocRows();});
+    let resizeTimer; window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(render,90);});
+    render();
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "66b099d9bce29276",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea8aea7ec2f0b803",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94a0791632685fd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "staged work/20260925/E2 Projects - Outbound Fit and Readiness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "E2 Projects - Outbound Fit and Readiness"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17994c8f1a6c54ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc1193a26ca4b61c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83781c7950ffd923",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "86e8c54efb048a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2125543af26cd6a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7287f222bae28753",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d5a3f3f49f3c81e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64f93ca85014d138",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d9a722bf86d639e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6d04843f2da91fbc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2cb2ed9c2d2bceea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7ad9a1849cf7fb6a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "94a0791632685fd2",
+  "lastOpenFiles": [
+    "staged work/20260925/Outbound Release Process - Integration Review.md",
+    "staged work/20260925/E2 Projects - Outbound Fit and Readiness.md",
+    "staged work/20260925/Outbound Release Process.md",
+    "staged work/20260914/claude_trust_continuity_preregistration_v0_1.md",
+    "Welcome.md",
+    "staged work/rightness-integration/Rightness and Warranted Commitment - Candidate Synthesis.md",
+    "staged work/rightness-integration/Rightness - Integration Review.md",
+    "staged work/rightness-integration",
+    "staged work/mobile drafts/README.md",
+    "staged work/mobile drafts/persistence_deconstruction_lineage_v0_1.md",
+    "staged work/mobile drafts",
+    "staged work/20260924/The Return Channel - Developmental Review.md",
+    "staged work/20260924/return_channel_synthesis.md",
+    "staged work/20260924/Attentional Access and Formation - Candidate Source.md",
+    "staged work/20260924",
+    "staged work/20260922-framework-resolution/Source Ledger.md",
+    "staged work/20260922-framework-resolution/E2 - A Resolution Through the Relational Primitives.md",
+    "staged work/20260922-framework-resolution/corpus-snapshot.json",
+    "staged work/20260922-framework-resolution",
+    "staged work/20260914/claude_trust_continuity_v0_1_snapshot.json",
+    "staged work/20260914",
+    "staged work/20260910-conceptual-development/what-this-work-is-for.md",
+    "staged work/20260910-conceptual-development/sub_threshold_persistence.md",
+    "staged work/20260910-conceptual-development/sources.md",
+    "staged work/20260910-conceptual-development/inventory.json",
+    "staged work/20260910-conceptual-development/evidence.json",
+    "staged work/20260910-conceptual-development/conceptual-development.md",
+    "staged work/20260910-conceptual-development/build_evidence.py",
+    "staged work/20260910-conceptual-development/Below_Threshold_Persistence_Framework.md",
+    "staged work/20260908/undefined_q_standing_v0_2.md",
+    "staged work/20260908/interest_frustration_synthetic_confound_battery_proposal_v0_1.md",
+    "staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md",
+    "staged work/20260807/tests/README.md",
+    "staged work/20260807/trust_node_feed_capture.md",
+    "staged work/20260807/Trust, Trustworthiness, and Reliance - Candidate Source.md",
+    "staged work/20260807/Trust Node Feed Capture - Integration Review.md"
+  ]
+}
