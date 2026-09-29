@@ -32,10 +32,10 @@ The entire framework is built upon the [Relational Ontology](#Relational_Ontolog
 The [Collective Relational Substrate (CRS)](#CRS_primary_object "ontological:identity") is the central entity of the framework. It represents the total relational field of human and AI cognition. The CRS [synthesizes](#CRS_core_compression "meta:emerges_from") decades of prior thought into a unified model of substrate health and failure modes. Notably, the production of the CRS [caused](#TCL_Three_Constants "geometric:causes") the research questions that led to the TCL formalization.
 
 ## 3. Quantitative Formalization {#quantitative}
-[TCL Three Constants](#TCL_Three_Constants "epistemic:supports") provides the first empirical validation of the framework. By deriving the viability floor, chaos ceiling, and parametric wall, it [limits](#operating-window "symmetric:limits") the parameter space for any layered adaptive system. This work [formalizes](#Adaptation_via_Informational_Abstraction_AVIA "epistemic:formalizes") the intuitive "abstraction stages" proposed in the early AVIA papers.
+[TCL Three Constants](#TCL_Three_Constants "epistemic:supports") studies an operating window in a specified simulated coupled-layer model. Its reported thresholds constrain that model's parameter space; transporting them to other layered systems requires a separately defined mapping and test. The work offers a possible comparison with earlier AVIA ideas, not a general validation of the framework.
 
 ## 4. Transmission & Protocol {#transmission}
-The [Exposure Protocol](#Exposure_Protocol "meta:corresponds_to") defines how complex information is transmitted across cognitive boundaries. It is a [self-demonstrating](#Exposure_Protocol "meta:corresponds_to") document that [instantiates](#Justice_ "ontological:is_instantiated_by") its own triadic morphism (Invitation → Structure → Integration) to ensure coherence preservation.
+The [Exposure Protocol](#Exposure_Protocol "meta:corresponds_to") proposes a method for transmitting complex information across cognitive boundaries. Its Invitation → Structure → Integration sequence is an adaptable teaching scaffold intended to support coherence.
 
 # Relational Mapping of the Corpus
 
@@ -47,10 +47,10 @@ The repository utilizes a specific [Graph Schema](#e2_corpus_schema_v0.1 "ontolo
 
 # Systemic Constants & Constraints {#operating-window}
 
-The research identifies a specific "Operating Window" for stable systems. This window is [constrained by](#TCL_Three_Constants "symmetric:constrains") three universal constants:
+The TCL research identifies an operating window in its specified model. It is [constrained by](#TCL_Three_Constants "symmetric:constrains") three reported thresholds:
 1.  **Viability Floor**: The minimum coupling required for layer interaction.
 2.  **Chaos Ceiling**: The threshold beyond which system dynamics become non-deterministic.
-3.  **Parametric Wall**: A geometric limit (0.289) derived from the bistable cubic potential that [measures](#TCL_Three_Constants "epistemic:measures") the absolute boundary of structural coupling.
+3.  **Parametric Wall**: A geometric limit (~0.289) tied to the specified bistable cubic potential; wider generalization remains open.
 
 # Conclusion: The Active Substrate
 

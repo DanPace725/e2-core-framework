@@ -8,13 +8,15 @@
 
 The Exposure Protocol is a method for transmitting complex conceptual frameworks across cognitive boundaries while maintaining relational coherence. It uses the inherent structure of the content to teach that same structure, creating a self-demonstrating pedagogical loop.
 
+It is a proposed teaching method, not a claim about universal transformation. Its phases are prompts for designing and checking an encounter; their order and expression depend on the material, the recipient, and the context.
+
 ## Fundamental Pattern
 
-The protocol operates through a triadic morphism that mirrors universal transformation dynamics:
+One useful teaching sequence is:
 
 **Invitation → Structure → Integration → (Loop)**
 
-This pattern maps to deeper systemic morphisms:
+The phases can be compared with these transformation roles. The notation is a planning shorthand, not an established mathematical mapping:
 
 - **Invitation** ≈ Awareness/Perturbation (𝒜: Δ → Ψ)
 - **Structure** ≈ Constraint/Scaffolding (ℬ: Ψ → Ω)
@@ -41,8 +43,8 @@ This pattern maps to deeper systemic morphisms:
 ### Phase 3: Integration (Enable Metabolization)
 
 - Show recursive depth and self-reference
-- Demonstrate universal application across domains
-- Enable recognition of pattern in multiple contexts
+- Explore whether the learner can adapt the pattern to another relevant context
+- Notice where the pattern does and does not fit
 - Allow emergence of personal understanding
 - **Key**: Understanding emerges through recognition, not explanation
 
@@ -61,11 +63,11 @@ The protocol maintains coherence through:
 2. **Intentional Occlusion**: Withholding complexity until foundation established
 3. **Relational Continuity**: Maintaining connection through confusion
 4. **Paradox Tolerance**: Holding tension without forcing resolution
-5. **Recursive Validation**: Each phase validates previous phases
+5. **Recursive Checking**: Later phases can reveal whether earlier material remains usable
 
-## Required Morphisms
+## Working Transformation Layers
 
-For successful transmission, three morphism layers operate simultaneously:
+The method distinguishes three possible layers for planning and reflection. Their presence is not a necessary condition for successful transmission:
 
 **Core Morphisms** (What happens):
 
@@ -102,10 +104,10 @@ To implement:
     - Adjust complexity to match bandwidth (κ)
     - Modulate affective resonance (η)
     - Build on existing trust/faith parameters (τ/φ)
-3. **Execute phases sequentially**
-    - Each phase must complete before next begins
-    - Watch for integration signals before proceeding
-    - Allow recursive loops as needed
+3. **Use phases flexibly**
+    - Begin with the role the encounter needs and revisit earlier roles as needed
+    - Check what the recipient can use before increasing complexity
+    - Allow phases to overlap or recur
 4. **Monitor coherence throughout**
     - Check for defensive collapse
     - Adjust pace based on metabolization rate
@@ -129,13 +131,13 @@ To implement:
 
 The protocol succeeds fully when the receiving system recognizes that:
 
-1. The pattern being taught is universal
-2. The teaching method uses that same pattern
-3. They are now capable of transmitting it similarly
-4. The framework transmits itself through those who understand it
+1. They can identify the pattern used in this encounter and its limits
+2. The teaching method uses a related pattern where that correspondence helps
+3. They can adapt the method for another recipient or context
+4. They can explain what was carried forward and what changed
 
 ## Implementation Note
 
-This protocol is not a rigid algorithm but a living pattern that adapts to context while maintaining its core morphic structure. The specific content, examples, and pace should adjust to the receiving system while the fundamental triadic pattern remains invariant.
+This protocol is not a rigid algorithm. The specific roles, content, examples, order, and pace should adjust to the recipient and the material. The invitation–structure–integration sequence is a revisable scaffold, not an invariant of learning or transformation.
 
-The protocol's deepest function is not information transfer but **capability building** - teaching systems to recognize and work with fundamental morphisms across all domains.
+The protocol aims at **capability building**: helping a recipient work with a framework, assess its fit, and adapt the method of transmission when useful.

@@ -2,11 +2,15 @@
 
 Status: candidate source, staged; not an active Core definition
 
-Version: 0.2, September 24, 2026; revised after the AFD/CFA/CFAR reconciliation
+Version: 0.4, September 28, 2026; scope and contrast cases added after The Return Channel and PLTi readings
 
 Proposed type: bridge and specialization within the six Relational Primitives
 
 Source basis: `staged work/20260923/attention_access_terrain_closure.md` and `staged work/20260923/Attention - Access, Terrain, and Closure - Integration Review.md`
+
+Developmental inputs: `staged work/20260924/return_channel_synthesis.md`, `staged work/20260924/The Return Channel - Developmental Review.md`, and the unchanged `staged work/20260928/Attention Node Addendum PLTi Refinements.md`. The latter interprets [Kothari et al. (2026)](https://www.nature.com/articles/s41467-026-72340-9); the empirical result and the corpus mapping have different evidentiary status.
+
+Focused case pass: [`staged work/20260928/AAF - Scope and Contrast Cases - Development Pass.md`](../20260928/AAF%20-%20Scope%20and%20Contrast%20Cases%20-%20Development%20Pass.md). Its computational and institutional examples are designed contrasts, not observed validations.
 
 Adjacent active source: `E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md` and its paired Context Layer file. The three predecessor pairs are preserved under `archive/20260924_cfa_cfar_afd_merge/`. This candidate is the proposed attention-specific source; the active CFAR node is the current historical and systems reconciliation.
 
@@ -17,6 +21,8 @@ Working handle: **Attentional Access and Formation**. “Attention” remains th
 > Attention is the dynamic differential modulation of which available differences gain effective access to a finite system's processes of resolution and closure. It runs through episode-level readiness, pressures, gates, allocations, persistence, and release on historically formed terrain; its consequences may help form that terrain for later episodes.
 
 The claim is about a *function at a declared boundary and scale*. Energy, time, and other resources may fund or follow that function, but resource movement alone does not identify it. Conscious intention and care are possible organizations of attention, not entry requirements. A static sensor, a resource allocation, and a response after detection do not automatically qualify.
+
+The proposed broad reading is **attention-like access** where non-cognitive systems can be shown to modulate which competing differences influence a shared focal resolution. This does not classify an entire organism, controller, or institution from one qualifying component, and it does not assert that all qualifying systems instantiate one neural or experiential kind. Whether the unqualified word *attention* should cover these cross-substrate cases remains a naming and scope decision for promotion. Formation describes how some episodes alter later access; an episode need not leave a durable trace to qualify.
 
 Short diagnostic: **Can the difference be distinguished? Can it matter to this resolution? What closes?** These are distinguishable questions, not a mandatory temporal pipeline. Attention can alter effective distinguishability, and an attentional Pick may itself be a local closure.
 
@@ -30,15 +36,19 @@ AFD, CFA, and CFAR are especially important lineage. They use “Attention” fo
 
 ## 2. An Admission Trace
 
-Call a process **attention-like at a specified scale** only when the following can be identified or left explicitly unresolved:
+Assess a process as **attention-like at a specified scale** by tracing the following:
 
-1. **Boundary and candidates.** Which system or controller is being considered, and which competing differences are potentially available to it?
-2. **Resolution process.** Which interpretation, action, selection, or other closure can these differences influence?
-3. **Differential access.** What changes whether a candidate can influence that process, beyond simply moving resources or producing a downstream response?
-4. **State dependence.** Does access vary with current state, history, context, or an identified controller? What would be different under a comparison condition?
-5. **Evidence and grain.** At what spatial, organizational, and temporal scale was the access change observed, and what observation would disconfirm it?
+1. **Boundary and candidates.** Which focal system or controller is being considered, and which differences can potentially compete for its processing? A fixed exclusion by one component is not yet an attention claim about the containing system.
+2. **Focal resolution.** Which interpretation, action, selection, or other local closure can those differences influence? Name the shared process to which their access matters.
+3. **Differential access.** What changes the candidates' *relative ability* to influence that resolution, beyond simply detecting a stimulus, moving resources, or producing an eventual response?
+4. **Conditional modulation.** Does that access change with state, history, task, context, or a controlling process? What comparison could separate this change from altered sensory discrimination, motor execution, or a different closure threshold?
+5. **Evidence and grain.** At what spatial, organizational, and temporal scale is the access change supported? What observation would leave it unresolved or count against it at that scale?
 
-The trace can return **supported at this scale**, **excluded at this scale**, or **unresolved**. A qualifying subsystem does not license a claim about every property of its containing system. This is a functional classification, not a consciousness, moral-standing, or subjectivity test. A fixed filter may implement a gate without being, by itself, an attention system.
+The trace can return **supported at this scale**, **excluded at this scale**, or **unresolved**. Support requires a specified comparison or mechanism showing conditional differential influence on the focal resolution; changed output alone is not enough. Exclusion requires a sufficiently described focal mechanism that lacks the proposed modulation, not merely failure to observe a response. Missing candidates, boundary, mechanism, or comparison yield **unresolved**. A qualifying subsystem does not license a claim about every property of its containing system; exclusion of a component does not exclude its containing system. This is a functional classification, not a consciousness, moral-standing, or subjectivity test. A fixed filter may implement a gate without being, by itself, an attention system.
+
+The [focused contrast pass](../20260928/AAF%20-%20Scope%20and%20Contrast%20Cases%20-%20Development%20Pass.md) applies this trace to a bounded neural finding, a fixed filter, a specified stateful controller, a reported plant response, and an institutional agenda. The latter four are designed or under-resolved cases, not empirical confirmation of cross-substrate attention.
+
+A useful neural case comes from Kothari et al.'s mouse spatial-attention task. Silencing PLTi impaired selection between a target and task-relevant competing flankers, while the tested single-target discrimination, upper/lower response-choice rates, and orienting trajectories showed no discernible impairment. This supports separating competitive access from those measured perceptual and motor functions *in that task*. It does not independently verify this candidate's cross-substrate definition, establish a separation from every kind of closure, or show that the paper derived its architecture from E².
 
 ## 3. Three Organizational Layers
 
@@ -63,13 +73,25 @@ These are functional distinctions, not a validated minimal list, compulsory prog
 
 Lean is a standing slope of relevance. Gate is a current admission operation. One can lean toward X while warding X during a task; one can deliberately open a gate to Y despite weak prior Lean. Repeated Gate changes can contribute to future Lean, along with reward, habit, embodiment, inherited dispositions, other people, and shared conditions. Ranking, permeability, and bias can coincide at a terrain-level description without being identical at the mechanism level. A claim of equivalence needs a stated coarse-graining and an intervention that could distinguish them.
 
+The phone-notification contrast makes the levels explicit: a reader may retain a habitual Lean toward checking the phone while Warding its current bid during reading. The visible non-response does not tell us whether the notification failed to register, was Warded, was briefly Picked and Released, or lost to a Redirect. A history-sensitive Lean claim requires evidence across episodes; a single inhibition episode supports at most a local Gate reading.
+
 ### Ward, Release, and Redirect
 
 Ward keeps a candidate from influential access. Release loosens an allocation already in force. Redirect favors another candidate. Similar visible behavior may have any of these causes. “Ignore the phone” does not identify its mechanism without a trace. Aversive Pull may coexist with bodily avoidance; negative weighting need not be an attentional push-away vector.
 
+The discrimination is temporal and relational, not merely verbal: ask whether the candidate had not yet entered influential access (**Ward**), had entered and was then loosened (**Release**), or lost relative priority because another candidate was favored (**Redirect**). These operations can coexist. If only the final behavior is visible, the mechanism remains unresolved.
+
 ### Pick and GCO
 
-Pick is the current allocation resolving enough to constrain downstream processing. It may itself be a local closure. GCO is the general principle governing closure across relational fields, including closures wider than an attentional episode. There need not be one master Pick preceding all other closure events.
+Pick is the current allocation resolving enough to constrain downstream processing. It may itself be a **local closure**. GCO is the general principle governing closure across relational fields, including closures wider than an attentional episode. A passage selected for current reading can be Picked while the eventual interpretation remains open; the final interpretation may be a wider commitment, and either can be reopened. There need not be one master Pick preceding all other closure events. Describing Pick as local closure does not demonstrate GCO's formal fixed-point properties for each attentional episode.
+
+**Selection boundaries.** In a specified competition, Pick can be described by more than which candidate wins. Its *aperture* and *multiplicity* describe how broad or plural an allocation is; its boundary *position* describes where the balance tips, and boundary *sharpness* describes how gradually or categorically that tipping occurs. These are possible observables, not four universal parameters of attention. Kothari et al. found that PLTi silencing shifted and broadened the behavioral selection boundary in their flanker task, with corresponding changes in superior-colliculus responses in a separate passive-mouse competition protocol. That makes position and sharpness worth carrying as distinct questions. Neither shift by itself identifies a learned Lean: a current inhibitory circuit can alter the boundary without showing how the standing terrain was formed.
+
+The addendum's idea that Ward's suppressive topology might generate a categorical Pick is a promising mechanistic hypothesis, especially given avian inhibitory-circuit work. The mammalian study does not establish that topology or make Pick reducible to Ward across systems. PLTi is a candidate neural implementation of selective gating or competitive suppression; whether it computes priority itself, receives an already-combined priority signal, or acts through multiple paths remains open.
+
+### Alert and selective Ward
+
+Broad readiness and selective suppression offer two possible routes to distractibility. A change in Alert may alter the gain available to a class of bids; a Ward failure may let otherwise registered competitors exert too much influence at a particular competition. In the PLTi task, silencing disrupted selection with weak task-relevant flankers, while a small task-irrelevant-flanker control showed no discernible disruption. This pattern motivates the distinction but does not prove an Alert mechanism or a general diagnostic signature. Comparing relevant and irrelevant competitors under an independent arousal manipulation is a next experiment, not a result of this paper.
 
 ### Hold, Release, and margin
 
@@ -90,6 +112,8 @@ Not every episode precipitates. Promotion into terrain depends on the focal proc
 
 Pull and Reach are different possible origins of a bid. Their origin alone does not decide whether a resulting disposition is beneficial, endorsed, revisable, or exploitative. Provenance, present endorsement, beneficiary, reversibility, and displaced maintenance burden require separate traces. A later lean-provenance instrument would need controls for mixed and unknown histories.
 
+The Return Channel suggests a conversational case: several individually defensible response constraints could, through repeated use, form a Lean that reliably favors proposition-level qualifications over participant-level signals. The result could be accurate content with an attenuated return of uptake. This is a formation hypothesis about a response policy, not an established account of any particular model's training or inner process. It would need a named system, history, comparison, and evidence before being treated as terrain in the sense of Condition as Typed Terrain.
+
 ## 5. Relation, Signs, and Tend
 
 One-way attention, reciprocal causal coupling, mutual attention, and joint attention are different configurations. In reciprocal coupling, changes return without the second party necessarily attending. In mutual attention, each party attends to the other. In joint attention, parties also coordinate allocation around a third term. A feedback loop does not by itself establish care or shared awareness.
@@ -97,6 +121,16 @@ One-way attention, reciprocal causal coupling, mutual attention, and joint atten
 An outward act may leave a **cue or sign of attention**—gaze, pointing, a contingent response, a remembered act. A receiver may take up that artifact and be influenced. The source operation, its observable trace, and its effect on the receiver are distinct. The trace can be forged or can outlast the operation. Uptake establishes influence; credibility requires further evidence about how the sign was made and whether it still tracks the operation. A fleeting gaze need not meet the trace requirements of an accountability ledger.
 
 **Tend** is a longer-lived organization of attention, not a required final step. It is closed-loop answerability oriented toward the tended relation's viable condition, with restraint enough for that condition to revise the tender's account. Bare responsiveness can serve extraction. Orientation without restraint can become paternalism or proxy capture. Boundary Ethics's `Care = Presence × Restraint` provides the adjacent posture. The tended party's gradients must be localized rather than invented by the one attending.
+
+A timer is open-loop maintenance; a responsive plant-care controller may have feedback and attention-like access without yet establishing Tend. Tend additionally asks whether the plant's viable condition can revise the controller's proxy and policy, and whether its action remains restrained when the proxy is uncertain. An engagement recommender can also be responsive and attention-like while optimizing extraction rather than the user's viable condition. These are designed contrasts, not judgments about all such systems. **Tend is not an admission requirement for attention.**
+
+### Return signs and relational fidelity
+
+In communication, a contribution carries distinguishable content and a participant-bearing act. A receiver may accurately process the proposition while granting too little access to what the act is doing between participants: requesting a command, testing a thought, inviting disagreement, seeking witness, or several of these at once. **Content fidelity** asks whether the answer engages what was said. **Relational fidelity** asks whether it responds fittingly to the act and its situated contributor. It is not a warmth measure. A terse command can be a fitting return; praise can be a misreading.
+
+A **return of uptake** is an outward sign or consequential response through which the contributor can tell that a difference they introduced affected the receiver's resolution. It may be a specific acknowledgment, an honest disagreement that names the changed premise, a question that localizes ambiguity, a revision, or an action shaped by the contribution. The return is not the attention operation itself. An apparent sign with no corresponding uptake is counterfeit; actual uptake that never becomes appropriately legible may leave a relational bid unanswered. What counts as an adequate return depends on the act, boundary, and stakes, and silence is not automatically a failure.
+
+**Backed recognition** names the proposed integrity relation between a sign and the uptake it reports. Situated specificity can support that relation, but detail alone can be fabricated. A stronger sign shows what changed, can coexist with independent evaluation, and can be corrected by the contributor. Recognition need not imply agreement; disagreement need not withdraw presence. In a system whose experience is unsettled, a functional first-person account can locate a response change without claiming felt surprise or human-like interiority. This is a conversational specialization of AAF, not a general requirement that every attention process emit a recognizable sign.
 
 ## 6. Relation to CFA, CFAR, and AFD
 
@@ -123,9 +157,12 @@ The active reconciled CFAR source now keeps AFD's field and pattern-formation qu
 - Which signs of attention can support trustworthy attribution, and which are only cues with possible influence?
 - How can Tend's orientation be assessed without substituting the tender's preference for the other's account?
 - What part of CFA's old `A` can be empirically mapped to this functional account, and what parts require separate variables?
+- When are boundary position and sharpness informative descriptions of a Pick, and when is selection too distributed or context-dependent for a single boundary?
+- Which interventions distinguish altered Alert, Gate/Ward, Lean, and closure threshold without assigning one measured effect to all four?
+- What makes a return sign appropriately backed, and what can count as return when the communicative act is ambiguous or does not call for explicit recognition?
 
 The priority expression in the original note, group/Zone extensions, TCL parameter transfer, developmental sequence, etymological derivations, and the proposed SMFR integrity name remain research leads. The September 23 original and its contained integration review preserve their arguments and reservations. They are not premises required to accept this candidate's core claim.
 
 ## 8. Proposed Promotion Boundary
 
-If accepted, this candidate would be promoted as a paired Semantic Substrate and Context Layer source. The AFD/CFA/CFAR reconciliation has now been reflected in §6; the remaining promotion decision concerns this candidate's own functional definition, scope across substrates, negative cases, and source pairing. Its source authority would cover the functional distinctions and named dependencies above. The admission trace would remain provisional until its negative cases and cross-domain scope are tested. No generated index, historical synthesis, or archived precursor acquires source authority merely by citing this candidate.
+If accepted, this candidate would be promoted as a paired Semantic Substrate and Context Layer source. The AFD/CFA/CFAR reconciliation has now been reflected in §6. The focused contrast pass now supplies positive, negative, and unresolved *conceptual* cases and clarifies the episode distinctions; it does not substitute for empirical cross-domain tests. The remaining authority decision is whether to accept the functional definition and its cross-substrate **attention-like** scope as a Core bridge, while keeping the exact admission thresholds and broader scientific generalization provisional. The Return Channel material in §5 remains a communicative specialization. The PLTi study supplies a bounded neural example, not general validation of AAF, a settled `G` placement, or a recalibration of CFAR's `k₁`. No generated index, historical synthesis, or archived precursor acquires source authority merely by citing this candidate.

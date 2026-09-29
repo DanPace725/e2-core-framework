@@ -52,7 +52,7 @@ Meta-coherence is the ability for systems with divergent coherence logics to:
 
 The future of adaptive communication lies not in forcing convergence to one stack, but in *meta-protocol design*: constructing buffer layers, translation scaffolds, and mutual compression frameworks that honor difference without distortion.
 
-This model applies broadly—to ND/NT dynamics, AI-human interfaces, intercultural dialogue, trauma-informed care, and beyond. It is a universal principle for inter-systemic mutual intelligibility.
+This model may be useful across ND/NT dynamics, AI-human interfaces, intercultural dialogue, trauma-informed care, and other settings. The shared concern is mutual intelligibility; how complexity reduction helps must be assessed in each setting.
 
 **VII. Final Note**
 

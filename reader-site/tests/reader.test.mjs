@@ -3,6 +3,11 @@ import { readFile, readdir } from "node:fs/promises";
 import test from "node:test";
 import YAML from "yaml";
 
+async function activeOrmdCount() {
+  const names = await readdir(new URL("../../E2Core/Context Layer/", import.meta.url));
+  return names.filter((name) => name.endsWith(".ormd")).length;
+}
+
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
@@ -33,20 +38,23 @@ test("server-renders the E2 corpus reader shell", async () => {
 });
 
 test("publishes complete paired human and AI catalogs", async () => {
-  const [catalog, readerComponent] = await Promise.all([
+  const [catalog, readerComponent, activeCount] = await Promise.all([
     readFile(new URL("../public/catalog.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../app/CorpusReader.tsx", import.meta.url), "utf8"),
+    activeOrmdCount(),
   ]);
   assert.equal(catalog.entrySlug, "context-layer-master-index");
-  assert.equal(catalog.counts.documents, 88);
+  assert.equal(catalog.counts.documents, activeCount);
   assert.equal(catalog.counts.clusters, 9);
-  assert.equal(catalog.docs.length, 88);
+  assert.equal(catalog.docs.length, activeCount);
   assert.equal(catalog.clusters.length, 9);
-  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, 88);
-  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, 88);
+  assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, activeCount);
+  assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, activeCount);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
   assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
-  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, 87);
+  assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, activeCount - 1);
+  assert.ok(catalog.docs.every((doc) => !["remf", "universal-emergence-pattern", "relational-emergence-meta-architecture-rema"].includes(doc.slug)));
+  assert.equal(catalog.docs.find((doc) => doc.slug === "attentional-access-and-formation-core-source")?.clusterId, "C");
   assert.equal(catalog.docs.find((doc) => doc.slug === "constraint-fluctuation-attention-resolution-core-source")?.clusterId, "C");
   assert.ok(catalog.docs.every((doc) => !["afd-first-principles", "cfa", "cfar"].includes(doc.slug)));
   assert.deepEqual(catalog.clusters.map((cluster) => cluster.id), ["A", "B", "C", "D", "E", "F", "G", "H", "I"]);
@@ -60,20 +68,21 @@ test("publishes complete paired human and AI catalogs", async () => {
 });
 
 test("publishes a typed E2 relationship graph", async () => {
-  const [graph, docsGraph, relationSource, pagesConfig, graphComponent] = await Promise.all([
+  const [graph, docsGraph, relationSource, pagesConfig, graphComponent, activeCount] = await Promise.all([
     readFile(new URL("../public/graph.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../../docs/graph.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../graph-relations.yml", import.meta.url), "utf8").then(YAML.parse),
     readFile(new URL("../../.pages.yml", import.meta.url), "utf8").then(YAML.parse),
     readFile(new URL("../app/CorpusGraph.tsx", import.meta.url), "utf8"),
+    activeOrmdCount(),
   ]);
   const nodeIds = new Set(graph.nodes.map((node) => node.id));
   assert.equal(graph.schemaVersion, 1);
-  assert.equal(graph.counts.nodes, 88);
-  assert.equal(graph.nodes.length, 88);
-  assert.equal(nodeIds.size, 88);
+  assert.equal(graph.counts.nodes, activeCount);
+  assert.equal(graph.nodes.length, activeCount);
+  assert.equal(nodeIds.size, activeCount);
   assert.equal(graph.clusters.length, 9);
-  assert.ok(graph.counts.explicitEdges >= 75);
+  assert.ok(graph.counts.explicitEdges >= relationSource.relations.length);
   assert.ok(graph.counts.suggestedEdges > 0);
   assert.equal(graph.edges.length, graph.counts.edges);
   assert.ok(graph.edges.every((edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)));
@@ -93,7 +102,7 @@ test("publishes a typed E2 relationship graph", async () => {
 });
 
 test("publishes lightweight and full-corpus AI entry points", async () => {
-  const [llms, rootLlms, corpus, robots, htmlIndex, htmlCorpus, htmlMaster, htmlDocs] = await Promise.all([
+  const [llms, rootLlms, corpus, robots, htmlIndex, htmlCorpus, htmlMaster, htmlDocs, activeCount] = await Promise.all([
     readFile(new URL("../public/llms.txt", import.meta.url), "utf8"),
     readFile(new URL("../../llms.txt", import.meta.url), "utf8"),
     readFile(new URL("../public/ormd-corpus.txt", import.meta.url), "utf8"),
@@ -102,6 +111,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
     readFile(new URL("../../docs/corpus.html", import.meta.url), "utf8"),
     readFile(new URL("../../docs/ormd/context-layer-master-index.html", import.meta.url), "utf8"),
     readdir(new URL("../../docs/ormd/", import.meta.url)),
+    activeOrmdCount(),
   ]);
   assert.match(llms, /Context Layer Master Index \(ORMD\)/);
   assert.match(llms, /## Cluster I/);
@@ -109,7 +119,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(llms, /A–K cluster/);
   assert.doesNotMatch(llms, /## Cluster [JK]/);
   assert.match(llms, /ORMD is the AI-facing authority/);
-  assert.match(llms, /https:\/\/raw\.githubusercontent\.com\/DanPace725\/e2-core-framework\/main\/reader-site\/public\/ormd\/context-layer-master-index\.ormd/);
+  assert.match(llms, /https:\/\/e2-core-framework\.capulusirl\.chatgpt\.site\/ormd\/context-layer-master-index\.ormd/);
   assert.match(llms, /HTML AI mirror: https:\/\/danpace725\.github\.io\/e2-core-framework\//);
   assert.match(llms, /Machine-readable relationship graph/);
   assert.match(llms, /E² as a Translation Architecture for Human Remembrance/);
@@ -127,7 +137,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(htmlIndex, /Cluster [JK]/);
   assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);
   assert.match(htmlMaster, /&lt;!-- ormd:1\.0 --&gt;/);
-  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, 88);
+  assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, activeCount);
 });
 
 test("keeps ORMD metadata out of the human reading surface", async () => {

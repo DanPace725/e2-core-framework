@@ -40,7 +40,7 @@ resolution:
 
 # Summary: Relational Ontology Derived from First Principles {#summary-title}
 
-This document provides a comprehensive synthesis of the formal relational ontology [derived from physical categories](#domain-decomposition "ontological:composes")—Matter, Energy, and Spacetime. The work establishes a [minimal set of first-order relational primitives](#primitives-derivation "ontological:defines") that serve as a universal substrate for describing physical, cognitive, and synthetic systems.
+This document synthesizes a proposed relational ontology [derived from physical categories](#domain-decomposition "ontological:composes")—Matter, Energy, and Spacetime. It develops a [set of first-order relational primitives](#primitives-derivation "ontological:defines") as a candidate general vocabulary for comparing physical, cognitive, and synthetic systems.
 
 ## 1. Core Thesis and Objectives {#summary-thesis}
 
@@ -66,7 +66,7 @@ The derivation follows a rigorous process of [domain decomposition](#domain-deco
 
 ## 4. Interdisciplinary Implications {#summary-implications}
 
-The [six relational primitives](#first-order-primitives "ontological:defines") provide a "universal relational vocabulary" with broad applications:
+The [six relational primitives](#first-order-primitives "ontological:defines") provide a candidate general relational vocabulary for testing across applications:
 
 *   **Physics**: Offers a bridge for [theoretical unification](#unification-phys "meta:corresponds_to") between [general relativity](#gr "geometric:causes") and [quantum field theory](#qft "dynamical:interacts_with").
 *   **Category Theory**: Primitives [correspond to](#interface-cat "meta:corresponds_to") [objects](#cat-objects "ontological:defines"), [morphisms](#cat-morphisms "dynamical:transforms_to"), and [functors](#cat-functors "meta:corresponds_to").

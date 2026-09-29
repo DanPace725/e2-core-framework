@@ -27,7 +27,7 @@ Source lineage:
 - `archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/AFD - First Principles.md` and its Context Layer pair — fluctuation, energy-well, pattern, agency, and ecology arguments.
 - `archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFA.md` and its Context Layer pair — C/F/A abstraction, equations, regimes, intervention and measurement proposals.
 - `archive/20260924_cfa_cfar_afd_merge/Semantic Substrate/CFAR.md` and its Context Layer pair — resolution limit, strategy switching, controller and guardrail proposals.
-- `staged work/20260924/Attentional Access and Formation - Candidate Source.md` — provisional access and formation account used to clarify the A variable, without being promoted by this merge.
+- `staged work/20260924/Attentional Access and Formation - Candidate Source.md` — development precursor to the now-active AAF source; the merge did not itself promote AAF.
 
 ## 1. Claim and Scope {#1-claim-and-scope}
 
@@ -105,7 +105,7 @@ Here `ΔY_min` is proposed minimum resolvable outcome change, `λ_eff` intervent
 | AFD “attention” | Preferential energy flow, field attraction, sometimes sustained intentional organization | Retain as historical language; specify energy flow, selective uptake, or intention separately in a new claim. |
 | CFA `A` | Aggregate focus, energy, resources, and amplification in a model | Preserve only as the old model variable; do not swap in a new access measure without rederivation. |
 | CFAR `uA` / glossary A | Attention input or salience through campaigns, prompts, visibility, and social proof | Treat as an emitter-side control or environmental intervention and test receiver-side effects independently. |
-| Attentional access | State- or history-sensitive differential influence of differences on a finite system's resolution | Candidate definition from `Attentional Access and Formation`; its cross-substrate admission criterion remains staged. |
+| Attentional access | State- or history-sensitive differential influence of differences on a finite system's resolution | Active scoped definition in `Attentional Access and Formation - Core Source`; assess each claimed mechanism at its declared boundary. |
 | Conscious direction / SCIA | Deliberate selection and sustained organization | Potential special cases requiring their own evidence and boundary. |
 
 This table is a source concordance, not a claim that the words were errors when written. The earlier theory was trying to track a real coupling among field gradients, selective uptake, resource cost, and pattern formation. Distinguishing the roles makes that coupling investigable.
@@ -133,9 +133,9 @@ There is no ethical warrant in attention capture alone. A structurally effective
 - The CFA equations, their parameter signs, state bounds, regime thresholds, and predictive accuracy require a specified domain, observations, and calibration.
 - The CFAR Rayleigh expression and controller switch require operational units, error tolerances, and tests against simpler alternatives. The prototype implementation should be audited separately if used as evidence.
 - AFD's proto-intentionality, consciousness, cosmic creativity, clinical illustrations, and universal claims remain historical hypotheses, not consequences of the integrated Core claim.
-- The attention candidate still needs adversarial negative cases in biology, computation, and institutions, plus a way to trace Lean and Gate over time.
+- AAF's conceptual contrast cases are now available; adversarial empirical tests across biology, computation, and institutions, plus a way to trace Lean and Gate over time, remain open.
 - Source references in older synthesized and neighboring documents retain their historical wording. Their concepts should be read through this concordance, while their original text remains preserved in the archive.
 
 ## 8. Archival and Reading Rule {#8-archival-and-reading-rule}
 
-The six archived AFD/CFA/CFAR files preserve the full original arguments, examples, formulas, ORMD metadata, and explicit heading IDs. They are the authority for what those documents historically claimed. This node is the active *reconciliation* and the current entry point for using the cluster. Historical synthesis documents remain evidence of their earlier source families, not independent proof of the revised attention definition. The staged `Attentional Access and Formation` candidate is the place to develop that definition further before deciding its own promotion.
+The six archived AFD/CFA/CFAR files preserve the full original arguments, examples, formulas, ORMD metadata, and explicit heading IDs. They are the authority for what those documents historically claimed. This node is the active *reconciliation* and the current entry point for using the cluster. Historical synthesis documents remain evidence of their earlier source families, not independent proof of the revised attention definition. The paired active `Attentional Access and Formation - Core Source` defines the scoped attention function; its staged candidate and case pass preserve the development history.

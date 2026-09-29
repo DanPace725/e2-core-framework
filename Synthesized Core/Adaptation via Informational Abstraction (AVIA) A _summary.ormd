@@ -38,7 +38,7 @@ resolution:
 
 ## 1. Executive Overview {#introduction}
 
-The Adaptation via Informational Abstraction (AVIA) framework, authored by Daniel Pace, describes a universal mechanism where systems manage complexity through the [manipulation of information](#abstraction-process "dynamical:transforms_to"). By generating increasingly sophisticated abstractions, systems are able to [reduce local entropy](#entropy-reduction "symmetric:preserves") and [maintain homeostasis](#introduction "symmetric:preserves") across various scales of existence.
+The Adaptation via Informational Abstraction (AVIA) framework, authored by Daniel Pace, proposes a general lens for studying how some complex systems manage complexity through the [use of information](#abstraction-process "dynamical:transforms_to") and abstraction. Its proposed links to local order maintenance and homeostasis need domain-specific definitions and tests.
 
 ## 2. Theoretical Foundations {#core-premises}
 
@@ -50,7 +50,7 @@ The framework is built upon several core premises regarding how systems persist 
 
 ## 3. System Dynamics and Principles {#fundamental-principles}
 
-AVIA identifies several universal dynamics that govern complex systems:
+AVIA proposes several recurring dynamics for comparison across complex systems:
 
 *   **Relational Adaptation** {#relational-adaptation}: Systems optimize energy and information flow by refining their internal and external connections.
 *   **Catalytic Imbalance**: Discrepancies in state [drive adaptation](#core-premises "geometric:causes"), forcing the system to innovate.

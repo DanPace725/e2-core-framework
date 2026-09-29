@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:19:13.897Z",
+  "generatedAt": "2026-09-29T00:37:12.426Z",
   "title": "E² Core Framework relationship graph",
   "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
   "authority": {
@@ -9,10 +9,10 @@
     "relationships": "Navigation metadata only; consult the linked documents for authority"
   },
   "counts": {
-    "nodes": 88,
-    "edges": 145,
-    "explicitEdges": 75,
-    "suggestedEdges": 70
+    "nodes": 86,
+    "edges": 147,
+    "explicitEdges": 74,
+    "suggestedEdges": 73
   },
   "clusters": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "C",
       "name": "Dynamics, Emergence & Systems Frameworks",
-      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence."
+      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AAF's scoped attention function, AVIA, emergence simulation, and tensional intelligence. The cross-primitive inquiry note sits in Relational Primitives in Cluster A."
     },
     {
       "id": "D",
@@ -48,7 +48,7 @@
     {
       "id": "G",
       "name": "Consciousness, Cognition & Identity",
-      "scope": "How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems)."
+      "scope": "How the corpus investigates cognition, selfhood, identity, and unresolved questions about consciousness. Treats the self as a six-primitive coherence field with a provisional multidimensional profile, intelligence as field navigation, and cognition as collective substrate. Functional capacities do not settle subjective experience. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems)."
     },
     {
       "id": "H",
@@ -70,7 +70,7 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6236,
+      "wordCount": 6214,
       "readerUrl": "/?doc=context-layer-master-index",
       "ormdUrl": "/ormd/context-layer-master-index.ormd"
     },
@@ -154,7 +154,7 @@
       "confidence": 0.96,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 916,
+      "wordCount": 1086,
       "readerUrl": "/?doc=relational-primitives",
       "ormdUrl": "/ormd/relational-primitives.ormd"
     },
@@ -256,15 +256,27 @@
     },
     {
       "id": "adaptation-via-informational-abstraction",
-      "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+      "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
       "clusterId": "C",
       "frame": "scientific.theory",
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 991,
+      "wordCount": 958,
       "readerUrl": "/?doc=adaptation-via-informational-abstraction",
       "ormdUrl": "/ormd/adaptation-via-informational-abstraction.ormd"
+    },
+    {
+      "id": "attentional-access-and-formation-core-source",
+      "title": "Attentional Access and Formation",
+      "clusterId": "C",
+      "frame": "dynamics.attentional-access-formation",
+      "confidence": 0.86,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3605,
+      "readerUrl": "/?doc=attentional-access-and-formation-core-source",
+      "ormdUrl": "/ormd/attentional-access-and-formation-core-source.ormd"
     },
     {
       "id": "boundary-dynamics",
@@ -274,7 +286,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3752,
+      "wordCount": 3739,
       "readerUrl": "/?doc=boundary-dynamics",
       "ormdUrl": "/ormd/boundary-dynamics.ormd"
     },
@@ -286,7 +298,7 @@
       "confidence": 0.86,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2327,
+      "wordCount": 2339,
       "readerUrl": "/?doc=constraint-fluctuation-attention-resolution-core-source",
       "ormdUrl": "/ormd/constraint-fluctuation-attention-resolution-core-source.ormd"
     },
@@ -310,7 +322,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2202,
+      "wordCount": 2196,
       "readerUrl": "/?doc=flow-operators-provisional",
       "ormdUrl": "/ormd/flow-operators-provisional.ormd"
     },
@@ -351,18 +363,6 @@
       "ormdUrl": "/ormd/persistence-as-accumulated-stance-with-core-source.ormd"
     },
     {
-      "id": "remf",
-      "title": "REMF",
-      "clusterId": "C",
-      "frame": "ontology.meta-framework",
-      "confidence": 0.9,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 1162,
-      "readerUrl": "/?doc=remf",
-      "ormdUrl": "/ormd/remf.ormd"
-    },
-    {
       "id": "resolution-synthesis",
       "title": "Resolution: Synthesis Notes",
       "clusterId": "C",
@@ -394,7 +394,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1207,
+      "wordCount": 1269,
       "readerUrl": "/?doc=tensional-intelligence-a-theoretical-foundation",
       "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd"
     },
@@ -409,18 +409,6 @@
       "wordCount": 2900,
       "readerUrl": "/?doc=emergence-engine-overview",
       "ormdUrl": "/ormd/emergence-engine-overview.ormd"
-    },
-    {
-      "id": "universal-emergence-pattern",
-      "title": "Universal Emergence Pattern",
-      "clusterId": "C",
-      "frame": "theory.emergence",
-      "confidence": 0.92,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 2250,
-      "readerUrl": "/?doc=universal-emergence-pattern",
-      "ormdUrl": "/ormd/universal-emergence-pattern.ormd"
     },
     {
       "id": "metabolic-meaning-phase-space-mmps",
@@ -658,7 +646,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2857,
+      "wordCount": 2888,
       "readerUrl": "/?doc=justice-across-scales",
       "ormdUrl": "/ormd/justice-across-scales.ormd"
     },
@@ -826,7 +814,7 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 675,
+      "wordCount": 762,
       "readerUrl": "/?doc=exposure-protocol",
       "ormdUrl": "/ormd/exposure-protocol.ormd"
     },
@@ -891,18 +879,6 @@
       "ormdUrl": "/ormd/ontological-systems-interface-osi-model.ormd"
     },
     {
-      "id": "relational-emergence-meta-architecture-rema",
-      "title": "Relational Emergence Meta-Architecture (REMA)",
-      "clusterId": "G",
-      "frame": "theory.consciousness.rema",
-      "confidence": 0.88,
-      "status": "paired_composite_or_alias",
-      "relationship": "recovered_synthesis",
-      "wordCount": 3539,
-      "readerUrl": "/?doc=relational-emergence-meta-architecture-rema",
-      "ormdUrl": "/ormd/relational-emergence-meta-architecture-rema.ormd"
-    },
-    {
       "id": "relational-volition",
       "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
       "clusterId": "G",
@@ -934,7 +910,7 @@
       "confidence": 0.93,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3479,
+      "wordCount": 4065,
       "readerUrl": "/?doc=self-as-coherence-field",
       "ormdUrl": "/ormd/self-as-coherence-field.ormd"
     },
@@ -970,7 +946,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1358,
+      "wordCount": 1359,
       "readerUrl": "/?doc=communication-as-coherence",
       "ormdUrl": "/ormd/communication-as-coherence.ormd"
     },
@@ -1274,22 +1250,22 @@
       "note": "Conditional signal uptake helps distinguish receiver-side access from emitter-side inputs."
     },
     {
-      "id": "emergence-determination-foreclosure--constrains--universal-emergence-pattern",
+      "id": "emergence-determination-foreclosure--specializes--relational-primitives",
       "source": "emergence-determination-foreclosure",
-      "target": "universal-emergence-pattern",
-      "type": "constrains",
+      "target": "relational-primitives",
+      "type": "specializes",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "Foreclosure describes a limiting condition on emergence."
+      "note": "Foreclosure addresses a limiting condition within a scoped emergence inquiry."
     },
     {
-      "id": "emergence-engine-overview--operationalizes--universal-emergence-pattern",
+      "id": "emergence-engine-overview--illustrates--relational-primitives",
       "source": "emergence-engine-overview",
-      "target": "universal-emergence-pattern",
-      "type": "operationalizes",
+      "target": "relational-primitives",
+      "type": "illustrates",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "The simulation makes emergence dynamics inspectable."
+      "note": "The simulation offers one computational case for a scoped emergence inquiry."
     },
     {
       "id": "persistence-as-accumulated-stance-with-core-source--extends--pattern-integrity-over-time-under-entropy",
@@ -1454,13 +1430,13 @@
       "note": "Truth ceilings limit what can remain lawfully legible across scale."
     },
     {
-      "id": "self-as-coherence-field--extends--relational-emergence-meta-architecture-rema",
+      "id": "self-as-coherence-field--specializes--relational-primitives",
       "source": "self-as-coherence-field",
-      "target": "relational-emergence-meta-architecture-rema",
-      "type": "extends",
+      "target": "relational-primitives",
+      "type": "specializes",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "The self is treated as a coherence pattern within relational emergence."
+      "note": "The self account decomposes its object through the six primitives and holds the REMA-derived profile provisionally."
     },
     {
       "id": "collective-cognitive-substrate--extends--the-intelligence-field-framework",
@@ -1607,18 +1583,9 @@
       "note": "Entry point for Cluster B."
     },
     {
-      "id": "context-layer-master-index--indexes--remf",
+      "id": "context-layer-master-index--indexes--attentional-access-and-formation-core-source",
       "source": "context-layer-master-index",
-      "target": "remf",
-      "type": "indexes",
-      "certainty": "explicit",
-      "provenance": "context-layer-master-index",
-      "note": "Entry point for Cluster C."
-    },
-    {
-      "id": "context-layer-master-index--indexes--universal-emergence-pattern",
-      "source": "context-layer-master-index",
-      "target": "universal-emergence-pattern",
+      "target": "attentional-access-and-formation-core-source",
       "type": "indexes",
       "certainty": "explicit",
       "provenance": "context-layer-master-index",
@@ -1715,9 +1682,9 @@
       "note": "Entry point for Cluster F."
     },
     {
-      "id": "context-layer-master-index--indexes--relational-emergence-meta-architecture-rema",
+      "id": "context-layer-master-index--indexes--self-as-coherence-field",
       "source": "context-layer-master-index",
-      "target": "relational-emergence-meta-architecture-rema",
+      "target": "self-as-coherence-field",
       "type": "indexes",
       "certainty": "explicit",
       "provenance": "context-layer-master-index",
@@ -1859,18 +1826,18 @@
       "note": "Generated from 2 exact title mentions; review before treating as framework structure."
     },
     {
-      "id": "relational-primitives--references--relational-bill-of-rights-v2",
+      "id": "relational-primitives--references--embedded-universality-principle-eup",
       "source": "relational-primitives",
-      "target": "relational-bill-of-rights-v2",
+      "target": "embedded-universality-principle-eup",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "relational-primitives--references--e2-axioms",
+      "id": "relational-primitives--references--relational-bill-of-rights-v2",
       "source": "relational-primitives",
-      "target": "e2-axioms",
+      "target": "relational-bill-of-rights-v2",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -1904,6 +1871,33 @@
       "note": "Generated from 2 exact title mentions; review before treating as framework structure."
     },
     {
+      "id": "attentional-access-and-formation-core-source--references--condition-as-typed-terrain-core-source",
+      "source": "attentional-access-and-formation-core-source",
+      "target": "condition-as-typed-terrain-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "attentional-access-and-formation-core-source--references--global-closure-operator",
+      "source": "attentional-access-and-formation-core-source",
+      "target": "global-closure-operator",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "attentional-access-and-formation-core-source--references--signal-as-bias-field",
+      "source": "attentional-access-and-formation-core-source",
+      "target": "signal-as-bias-field",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
       "id": "boundary-dynamics--references--signal-as-bias-field",
       "source": "boundary-dynamics",
       "target": "signal-as-bias-field",
@@ -1920,6 +1914,15 @@
       "certainty": "suggested",
       "provenance": "exact-title-mention",
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "constraint-fluctuation-attention-resolution-core-source--references--attentional-access-and-formation-core-source",
+      "source": "constraint-fluctuation-attention-resolution-core-source",
+      "target": "attentional-access-and-formation-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
     },
     {
       "id": "constraint-fluctuation-attention-resolution-core-source--references--condition-as-typed-terrain-core-source",
@@ -1961,15 +1964,6 @@
       "id": "persistence-as-accumulated-stance-with-core-source--references--relational-localization-core-source",
       "source": "persistence-as-accumulated-stance-with-core-source",
       "target": "relational-localization-core-source",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
-    },
-    {
-      "id": "remf--references--universal-emergence-pattern",
-      "source": "remf",
-      "target": "universal-emergence-pattern",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -2318,9 +2312,9 @@
       "note": "Generated from 4 exact title mentions; review before treating as framework structure."
     },
     {
-      "id": "relational-emergence-meta-architecture-rema--references--meta-pattern-decidability-conjecture-mpdc",
-      "source": "relational-emergence-meta-architecture-rema",
-      "target": "meta-pattern-decidability-conjecture-mpdc",
+      "id": "self-as-coherence-field--references--attentional-access-and-formation-core-source",
+      "source": "self-as-coherence-field",
+      "target": "attentional-access-and-formation-core-source",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",

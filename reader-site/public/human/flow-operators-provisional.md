@@ -163,19 +163,19 @@ There is no view-from-nowhere where the flow has a single description. The frame
 
 ## The TCL Convergence
 
-The flow-operator decomposition (bottom-up from etymology) lands on the same architecture TCL provides (top-down from constants):
+The flow-operator decomposition suggests possible parallels with TCL's operating-window architecture. The numerical constants belong to TCL's specified model and do not calibrate these operator readings:
 
-| TCL Constant | Flow Operator Reading |
+| TCL feature | Proposed flow-operator question |
 |---|---|
-| Viability floor (~0.757) | Depletion limit; reservoir cannot fund stance-with rate |
-| Chaos ceiling (~0.930) | Stance-against limit; boundary cannot withstand incoming flow |
-| Parametric wall (~0.289) | Trade-equivalence limit; reciprocal regime cannot rebalance |
+| Viability floor | Can a reservoir fund the work of maintaining a stance? |
+| Chaos ceiling | Can stronger coupling or pressure destabilize response? |
+| Parametric wall | Can rapid structural change make delayed adjustment fragile? |
 
 The slow layer regulating the fast layer = maintaining operator-rates against reservoir capacities. Lamination = the architecture that makes asymmetric coupling sustainable.
 
-REAL implements this. The marriage-field instantiates it. The civilizational substrate exhibits it. Same architecture across scales.
+REAL, relationships, and institutions offer possible settings for testing these analogies. Their variables, mechanisms, and failure criteria must be specified separately.
 
-**Stewardship under asymmetric coupling is a TCL configuration where the steward is the slow layer, the partner is the fast layer running below the viability floor, and sustainability is whether the slow layer's coupling to substrate beyond the dyad can fund the lamination long enough for the fast layer to recover above threshold.**
+**Stewardship under asymmetric coupling may invite a slow-layer/fast-layer analogy. This does not place a partner below TCL's numerical viability floor or establish that its equations describe the relationship.**
 
 ---
 
@@ -221,7 +221,7 @@ This generalizes a meta-observation: where modern language fights the framework,
 
 **The flow document, if written, is short.** It is the membrane-phase between resolution-synthesis and remnant-stewardship. It does not need new claims. It needs to make explicit what the corpus already does implicitly.
 
-**The TCL document gains a new gloss.** TCL is the architecture that emerges when flow-operators must be regulated under asymmetric coupling. The constants are empirical locations of operator-thresholds. Marriage, REAL, civilization are instances.
+**The TCL document gains a possible gloss.** Its operating-window questions may guide study of flow-operators under asymmetric coupling. The constants remain model-specific; marriage, REAL, and civilization are proposed comparison settings, not measured instances of those thresholds.
 
 ---
 

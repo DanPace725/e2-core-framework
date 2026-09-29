@@ -542,7 +542,7 @@ The relational ontology:
 
 The six primitives, together with their countermodes, form a minimal but expressive basis for describing interactions, transformations, constraints, information flow, and cross-domain structure.
 
-They offer not merely a description of physical relationships, but a **universal relational language**.
+They offer not merely a description of physical relationships, but a candidate **general relational vocabulary** for comparing other domains.
 
 # **7. Conclusion**
 
@@ -552,7 +552,7 @@ The resulting primitives—Ontological, Dynamical, Geometric/Causal, Symmetric/C
 
 The implications extend well beyond physics. Because the relational ontology is process-oriented and domain-agnostic, it interfaces naturally with category theory, systems theory, complexity science, cognitive science, and emerging research on artificial intelligence. This suggests that the ontology identified here is not merely a compact description of physical relations but may represent a more general grammar for structure and change—one capable of characterizing the organization of natural, cognitive, and synthetic systems.
 
-In this sense, the six primitives provide a candidate for a “universal relational vocabulary,” suitable for expressing multiscale phenomena ranging from quantum fields and spacetime curvature to neural dynamics, emergent computation, and intelligent artificial agents. Future work may extend the framework by developing categorical formulations, exploring higher-order relational constructs such as patterns and meta-stability, and applying the ontology to emergent systems across biological, computational, and cosmological domains.
+In this sense, the six primitives provide a candidate for a “general relational vocabulary” to test across phenomena ranging from quantum fields and spacetime curvature to neural dynamics, emergent computation, and intelligent artificial agents. Each application must preserve domain-specific distinctions. Future work may extend the framework by developing categorical formulations, exploring higher-order relational constructs such as patterns and meta-stability, and applying the ontology to emergent systems across biological, computational, and cosmological domains.
 
 The present paper offers the foundation: a minimal, rigorous, and generative relational ontology upon which these future developments can be built.
 

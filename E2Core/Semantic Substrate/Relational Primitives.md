@@ -90,6 +90,12 @@ Examples: functorial mappings, analogies, renormalization-style scale mappings, 
 
 Typical link verbs: `corresponds_to`, `emerges_from`, `models`.
 
+## Emergence as a Cross-Primitive Inquiry {#emergence-inquiry}
+
+The primitives can guide an inquiry into a particular emergent configuration: what relations identify it (ontological), what changes it (dynamical), where and through what causal paths it forms (geometric/causal), what enables or limits its persistence (symmetric/constraint), what can be observed or remains hidden (epistemic/informational), and whether a comparison with another scale or domain preserves the relevant relations (meta-relational). Ask what the formation leaves unresolved or displaces as well as what stabilizes.
+
+This is a set of questions, not a necessary sequence, a universal mechanism, or a seventh primitive. An energy differential, selective attention, intentional direction, coherence, and persistence may matter in particular cases, but none is established here as a requirement for all emergence. Cross-domain resemblance needs a specified mapping and evidence at the claimed scope; the Embedded Universality Principle (EUP) forbids treating a broadly usable description as a complete explanation. The earlier *Universal Emergence Pattern* and REMF formulations are retained as historical exploratory syntheses, not as warrants for an invariant five-step law.
+
 ## Formal Typing Framework {#formal-typing-framework}
 
 Let:

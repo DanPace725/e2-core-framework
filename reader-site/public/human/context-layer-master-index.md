@@ -1,12 +1,12 @@
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-09-24 | 88 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-09-28 | 86 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 88 active documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 86 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -44,11 +44,11 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 |----|---------|------|------------|-------------|
 | [A](#cluster-a "ontological:defines") | Foundational Axioms & Core Ontology | 7 | 0.90–1.0 | Relational Primitives |
 | [B](#cluster-b "meta:corresponds_to") | Formal, Mathematical & Epistemic Constraints | 8 | 0.84–0.98 | CT Translation of RPs |
-| [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 14 | 0.84–0.95 | REMF |
+| [C](#cluster-c "dynamical:produces") | Dynamics, Emergence & Systems Frameworks | 13 | 0.84–0.95 | Reconciled CFAR |
 | [D](#cluster-d "dynamical:interacts_with") | Metabolic, Resonance & Temporal Physics | 8 | 0.84–0.96 | Metabolic Meaning Phase Space |
 | [E](#cluster-e "ontological:composes") | Ethics, Stewardship, Accountability & Rights | 22 | 0.84–1.0 | Reverent Stewardship |
 | [F](#cluster-f "symmetric:constrains") | Adversarial, Security & Cognitive Integrity | 7 | 0.85–0.95 | Adversarial Occlusion & Mechanism Integrity V1 |
-| [G](#cluster-g "epistemic:measures") | Consciousness, Cognition & Identity | 6 | 0.85–0.93 | Relational Emergence Meta-Architecture (REMA) |
+| [G](#cluster-g "epistemic:measures") | Consciousness, Cognition & Identity | 5 | 0.85–0.93 | Self as Coherence Field |
 | [H](#cluster-h "dynamical:produces") | Social, Civilizational & Applied | 12 | 0.85–1.0 | Declaration of Interdependence |
 | [I](#cluster-i "meta:corresponds_to") | Protocol, Infrastructure & Meta | 3 | 0.90–1.0 | Context Layer Protocol (CLP) |
 
@@ -101,24 +101,23 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 ## Cluster C — Dynamics, Emergence & Systems Frameworks {#cluster-c}
 
-**Scope:** How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence.
+**Scope:** How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AAF's scoped attention function, AVIA, emergence simulation, and tensional intelligence. The cross-primitive inquiry note sits in Relational Primitives in Cluster A.
 
-**Trigger keywords:** `emergence`, `boundary dynamics`, `flow operators`, `resolution`, `persistence`, `stance-with`, `CFA dynamics`, `CFAR`, `AVIA`, `REMA`, `REMF`, `constraint-fluctuation`, `Rayleigh criterion`, `phase transitions`, `adaptation`, `entropy reduction`, `tensional intelligence`, `foreclosure`, `complex systems`, `ecology simulation`, `mitosis`, `chi`
+**Trigger keywords:** `emergence`, `boundary dynamics`, `flow operators`, `resolution`, `persistence`, `stance-with`, `CFA dynamics`, `CFAR`, `AAF`, `attention`, `attentional access`, `AVIA`, `constraint-fluctuation`, `Rayleigh criterion`, `phase transitions`, `adaptation`, `entropy reduction`, `tensional intelligence`, `foreclosure`, `complex systems`, `ecology simulation`, `mitosis`, `chi`
 
-**Entry point:** [REMF](/?doc=remf "ontological:defines") → [Universal Emergence Pattern](/?doc=universal-emergence-pattern "dynamical:produces") → [reconciled CFAR](#cluster-c "dynamical:interacts_with")
+**Entry point:** [reconciled CFAR](#cluster-c "dynamical:interacts_with") → [Attentional Access and Formation](/?doc=attentional-access-and-formation-core-source "epistemic:measures") → [Resolution Synthesis](/?doc=resolution-synthesis "meta:corresponds_to"); use the [Relational Primitives](/?doc=relational-primitives "meta:corresponds_to") note for cross-primitive emergence questions.
 
 **Cross-cluster links:** Extends [A](#cluster-a "dynamical:derives_from") (primitives become dynamics), supports [D](#cluster-d "dynamical:interacts_with") (metabolic/resonance physics), generates claims tested by [B](#cluster-b "epistemic:supports"), applied in [G](#cluster-g "dynamical:produces") (consciousness) and [H](#cluster-h "dynamical:produces") (civilization).
 
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
-| REMF ★ | `REMF.ormd` | ontology.meta-framework | 0.95 | Relational Emergence Meta-Framework; universal grammar of emergence; REMA + AVIA + CFA |
 | Constraint, Fluctuation, Attentional Access, and Resolution | `Constraint-Fluctuation-Attention-Resolution - Core Source.ormd` | systems.framework.cfar.reconciled | 0.86 | Active AFD/CFA/CFAR reconciliation: field and pattern formation, historical C/F/A model, resolution limits, attention-access distinction, and evidence boundaries |
+| Attentional Access and Formation (AAF) | `Attentional Access and Formation - Core Source.ormd` | dynamics.attentional-access-formation | 0.86 | Scoped functional attention across declared boundaries; episode mechanics, terrain formation, and relational organization |
 | Boundary Dynamics | `boundary_dynamics.ormd` | systems.boundary-dynamics | 0.90 | Boundaries as observer-relative structural operators with typed state, modes, and recursive composition |
 | Flow Operators: A Provisional Snapshot | `flow_operators_provisional.ormd` | dynamics.flow-operators | 0.90 | Working decomposition of stance-with, stance-against, settlement, depletion, conversion, and remainder |
 | Resolution: Synthesis Notes | `resolution_synthesis.ormd` | dynamics.resolution | 0.90 | Working synthesis of resolution as possibility-space narrowing into committed actuality |
 | Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | dynamics.persistence_accumulated_stance_with | 0.84 | Identity criteria, temporal topology, and typed maintenance ledger |
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | scientific.theory | 0.85 | AVIA: universal adaptation via entropy reduction through abstraction |
-| Universal Emergence Pattern | `Universal Emergence Pattern.ormd` | theory.emergence | 0.92 | Universal Emergence Protocol; E² integration and extensions; authenticity axis; needs update/review |
 | Emergence Engine Overview ★ | `Emergence Engine overview.ormd` | research.simulation.ecology | 0.95 | Simulation platform for watching intelligence crystallize; agents, ecology, mitosis |
 | Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Formal semantic triad: emergence, determination, foreclosure |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | theory.relational-physics | 0.85 | Entropy, repetition, complexity saturation, field interference |
@@ -212,22 +211,21 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 ## Cluster G — Consciousness, Cognition & Identity {#cluster-g}
 
-**Scope:** How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
+**Scope:** How the corpus investigates cognition, selfhood, identity, and unresolved questions about consciousness. Treats the self as a six-primitive coherence field with a provisional multidimensional profile, intelligence as field navigation, and cognition as collective substrate. Functional capacities do not settle subjective experience. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
 
 **Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
 
-**Entry point:** [Relational Emergence Meta-Architecture (REMA)](/?doc=relational-emergence-meta-architecture-rema "ontological:defines") → [Collective Cognitive Substrate](/?doc=collective-cognitive-substrate "epistemic:measures") → [Relational Volition](/?doc=relational-volition "dynamical:interacts_with")
+**Entry point:** [Self as Coherence Field](/?doc=self-as-coherence-field "ontological:defines") → [Collective Cognitive Substrate](/?doc=collective-cognitive-substrate "epistemic:measures") → [Relational Volition](/?doc=relational-volition "dynamical:interacts_with")
 
-**Cross-cluster links:** Emerges from [C](#cluster-c "meta:emerges_from") (CFA dynamics produce consciousness structure), constrained by [F](#cluster-f "symmetric:constrains") (cognitive integrity), grounded in [A](#cluster-a "ontological:derives_from") (relational primitives), applied in [H](#cluster-h "dynamical:produces") (collective cognition → civilizational substrate).
+**Cross-cluster links:** Informed by [C](#cluster-c "meta:corresponds_to") (scoped dynamics and attention questions), constrained by [F](#cluster-f "symmetric:constrains") (cognitive integrity), grounded in [A](#cluster-a "ontological:derives_from") (relational primitives), and applied in [H](#cluster-h "dynamical:produces") (collective cognition and civilizational substrate).
 
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
-| Relational Emergence Meta-Architecture (REMA) | `Relational Emergence Meta-Architecture (REMA).ormd` | theory.consciousness.rema | 0.88 | Recovered REMA node; consciousness architecture synthesized with RCF triadic operation |
 | Collective Cognitive Substrate | `Collective Cognitive Substrate.ormd` | cognitive.ecology.synthesis | 0.92 | Merged canonical from CCS + Collective Cognitive Substrate; cognition as substrate; AI alignment |
 | The Intelligence Field Framework | `The Intelligence Field Framework.ormd` | cognitive.theory.framework | 0.85 | Intelligence as navigation of a cognitive field; modulation-performance topology |
 | Relational Volition | `Relational Volition.ormd` | philosophy.relational-physics | 0.90 | Freedom within relational fields; CFA dynamics, coherence, stewardship |
 | Ontological Systems Interface (OSI) Model | `Ontological Systems Interface (OSI) Model.ormd` | relational.ontology | 0.90 | OSI model for relational capacity; SCIA layers, RNT, Empathy Transformer |
-| The Self as Coherence Field | `Self as Coherence Field.ormd` | cognition.self_coherence | 0.93 | Six-primitive composite and interpretive bridge for selfhood, compression, and integration |
+| The Self as Coherence Field | `Self as Coherence Field.ormd` | cognition.self_coherence | 0.93 | Six-primitive composite for selfhood with a provisional REMA-derived capacity profile; experience remains unresolved |
 
 ---
 
@@ -305,7 +303,7 @@ B (Formal/Epistemic: Category Theory, Lambda Calc, MPDC, Lawfulness)
 ├──→ C  [meta:corresponds_to]      formalism scaffolds dynamics frameworks
 └──→ F  [symmetric:constrains]     MPDC sets theoretical limits on adversarial detection
 
-C (Dynamics: reconciled CFAR, AVIA, REMF, Emergence)
+C (Dynamics: reconciled CFAR, AAF, AVIA, Emergence)
 ├──→ D  [dynamical:interacts_with] dynamics shape metabolic/resonance fields
 ├──→ G  [meta:emerges_from]        consciousness emerges from CFA dynamics
 └──→ H  [dynamical:produces]       social systems as emergence output
@@ -350,7 +348,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | **EUP / FISSR** | Embedded Universality Principle — apparent universality establishes invariance within a Frame-Inheritance-Scale-Scope-Resolution projection, not completeness | [Cluster B](#cluster-b) |
 | **CFAR (reconciled)** | Constraint, Fluctuation, Attentional Access, and Resolution — active synthesis of AFD, CFA, and CFAR | [Cluster C](#cluster-c) |
 | **AVIA** | Adaptation via Informational Abstraction — universal adaptation mechanism via entropy reduction | [Cluster C](#cluster-c) |
-| **REMA / REMF** | Relational Emergence Meta-Architecture / Meta-Framework — REMA models consciousness architecture; REMF supplies emergence grammar | [Clusters C/G](#cluster-c) |
+| **SCF** | Self as Coherence Field — six-primitive selfhood composite with a provisional multidimensional capacity profile | [Cluster G](#cluster-g) |
 | **MMPS** | Metabolic Meaning Phase Space — phase-space topology of the meaning metabolism process | [Cluster D](#cluster-d) |
 | **TCL** | Temporal Constraint Lamination — coupling constants governing temporal constraint networks | [Cluster D](#cluster-d) |
 | **AOMI** | Adversarial Occlusion and Mechanism Integrity — framework for detecting and resisting mechanism gaming | [Cluster F](#cluster-f) |
@@ -364,7 +362,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 
 ## Full Registry {#full-registry}
 
-*89 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
+*86 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
 
 | Title | File | Cluster | Conf |
 |-------|------|---------|------|
@@ -375,6 +373,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Boundary Dynamics | `boundary_dynamics.ormd` | C | 0.90 |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | E | 0.90 |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | H | 0.85 |
+| Attentional Access and Formation (AAF) | `Attentional Access and Formation - Core Source.ormd` | C | 0.86 |
 | Constraint, Fluctuation, Attentional Access, and Resolution | `Constraint-Fluctuation-Attention-Resolution - Core Source.ormd` | C | 0.86 |
 | Cognitive Signature Capture: An Unnamed Threat | `Cognitive Signature Capture An Unnamed Threat.ormd` | F | 0.85 |
 | Collective Cognitive Substrate | `Collective Cognitive Substrate.ormd` | G | 0.92 |
@@ -413,7 +412,6 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Power as Relational Field Coherence | `Power as Relational Field Coherence.ormd` | H | 0.85 |
 | Proxy Localization | `Proxy Localization - Core Source.ormd` | E | 0.90 |
 | Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | E | 0.95 |
-| Relational Emergence Meta-Architecture (REMA) | `Relational Emergence Meta-Architecture (REMA).ormd` | G | 0.88 |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | B | 0.85 |
 | Relational Irreducibility Framework (RIF) | `Relational Irreducibility Framework (RIF).ormd` | F | 0.90 |
 | Relational Localization | `Relational Localization - Core Source.ormd` | E | 0.90 |
@@ -422,7 +420,6 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Relational Primitive Engine (RPE) ★ | `Relational Primitive Engine (RPE).ormd` | I | 0.98 |
 | Relational Primitives ★ | `Relational Primitives.ormd` | A | 0.96 |
 | Relational Volition | `Relational Volition.ormd` | G | 0.90 |
-| REMF ★ | `REMF.ormd` | C | 0.95 |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | E | 0.90 |
 | Resolution: Synthesis Notes | `resolution_synthesis.ormd` | C | 0.90 |
 | Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
@@ -443,7 +440,6 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | The Intelligence Field Framework | `The Intelligence Field Framework.ormd` | G | 0.85 |
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | D | 0.85 |
 | Truth Ceiling | `Truth Ceiling.ormd` | F | 0.85 |
-| Universal Emergence Pattern | `Universal Emergence Pattern.ormd` | C | 0.92 |
 | Condition as Typed Terrain | `Condition as Typed Terrain - Core Source.ormd` | E | 0.84 |
 | Consequence Routing | `Consequence Routing - Core Source.ormd` | E | 0.90 |
 | Context Layer Master Index | `Context Layer Index.ormd` | Index | 1.0 |
@@ -458,5 +454,5 @@ These terms appear across clusters. A model unfamiliar with the framework should
 
 ---
 
-*Index reconciled 2026-08-10. Active Context Layer document count: 89. Original cluster architecture: Daniel Pace; current-state reconciliation: OpenAI Codex.*
+*Index reconciled 2026-09-28. Active Context Layer document count: 89. Original cluster architecture: Daniel Pace; current-state reconciliation: OpenAI Codex.*
 *To update this index: re-derive cluster membership from the `frame:` and `semantics.keywords` CLP fields; rebuild cross-cluster links from body-text link annotations; recount confidence from `resolution.confidence` in each document's frontmatter.*

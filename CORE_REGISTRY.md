@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-09-24T16:16:22.951828+00:00`
+Generated: `2026-09-29T00:25:42.988688+00:00`
 
 Authority: `active_filesystem_state`
 
@@ -8,15 +8,15 @@ Authority: `active_filesystem_state`
 
 | Metric | Count |
 | --- | --- |
-| Semantic Substrate files | 95 |
-| Context Layer files | 88 |
-| Active raw files | 183 |
-| Exact-stem pairs | 82 |
-| Composite or alias pairs | 5 |
+| Semantic Substrate files | 92 |
+| Context Layer files | 86 |
+| Active raw files | 178 |
+| Exact-stem pairs | 81 |
+| Composite or alias pairs | 4 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
-| Archived raw files | 56 |
+| Archived raw files | 68 |
 
 ## Active Records
 
@@ -26,6 +26,7 @@ Authority: `active_filesystem_state`
 | Adversarial Occlusion and Mechanism Integrity V1 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md | E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd | no |
 | AOMI AI responses | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/AOMI AI responses.md | E2Core/Context Layer/AOMI AI responses.ormd | no |
 | Asymmetry Maintenance - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md | E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd | yes |
+| Attentional Access and Formation - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md | E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd | yes |
 | Boundary Ethics - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Boundary Ethics - Core Source.md | E2Core/Context Layer/Boundary Ethics - Core Source.ormd | yes |
 | boundary_dynamics | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/boundary_dynamics.md | E2Core/Context Layer/boundary_dynamics.ormd | no |
 | Caregiving as an Ecosystem | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Caregiving as an Ecosystem.md | E2Core/Context Layer/Caregiving as an Ecosystem.ormd | no |
@@ -89,9 +90,7 @@ Authority: `active_filesystem_state`
 | Relational Primitives | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Relational Primitives.md | E2Core/Context Layer/Relational Primitives.ormd | no |
 | Relational Volition | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Relational Volition.md | E2Core/Context Layer/Relational Volition.ormd | no |
 | relational-derivation-chain | paired_composite_or_alias | renamed_conversion | E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md | E2Core/Context Layer/Relational Derivation Chain .ormd | n/a |
-| relational-emergence-meta-architecture | paired_composite_or_alias | recovered_synthesis | E2Core/Semantic Substrate/Rema v2.md<br>E2Core/Semantic Substrate/Relational Consciousness Framework.md | E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd | n/a |
 | relational-perfection-framework | paired_composite_or_alias | renamed_conversion | E2Core/Semantic Substrate/Relational Perfection A Framework for Emergent Int.md | E2Core/Context Layer/Relational Perfection_framework.ormd | n/a |
-| REMF | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/REMF.md | E2Core/Context Layer/REMF.ormd | no |
 | Remnant Stewardship - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Remnant Stewardship - Core Source.md | E2Core/Context Layer/Remnant Stewardship - Core Source.ormd | yes |
 | resolution_synthesis | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/resolution_synthesis.md | E2Core/Context Layer/resolution_synthesis.ormd | no |
 | Resonance Architecture 4 17 25 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md | E2Core/Context Layer/Resonance Architecture 4 17 25.ormd | no |
@@ -114,7 +113,6 @@ Authority: `active_filesystem_state`
 | The Resonance Framework An Ontological Map 4 24 25 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md | E2Core/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd | no |
 | Trust, Trustworthiness, and Reliance - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md | E2Core/Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd | yes |
 | Truth Ceiling | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Truth Ceiling.md | E2Core/Context Layer/Truth Ceiling.ormd | no |
-| Universal Emergence Pattern | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Universal Emergence Pattern.md | E2Core/Context Layer/Universal Emergence Pattern.ormd | no |
 
 ## Reading Rules
 

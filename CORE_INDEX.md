@@ -1,6 +1,6 @@
 # Core Framework Index
 
-Generated: `2026-09-24T16:16:22.976163+00:00`
+Generated: `2026-09-29T00:25:42.989149+00:00`
 
 Active Core root: `E2Core`
 
@@ -10,13 +10,13 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Synthesized Core files | 61 |
-| Semantic Substrate files | 95 |
-| Context Layer files | 88 |
-| Active raw SS/CL files | 183 |
-| Active files total | 244 |
-| Explicit additions | 26 |
-| Archived raw files | 56 |
+| Synthesized Core files | 57 |
+| Semantic Substrate files | 92 |
+| Context Layer files | 86 |
+| Active raw SS/CL files | 178 |
+| Active files total | 235 |
+| Explicit additions | 27 |
+| Archived raw files | 68 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
 | Unresolved synthesized references | 0 |
@@ -25,8 +25,8 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Exact-stem pairs | 82 |
-| Composite or alias pairs | 5 |
+| Exact-stem pairs | 81 |
+| Composite or alias pairs | 4 |
 | Semantic Substrate only | 5 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
@@ -73,7 +73,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Pattern Integrity over Time under Entropy_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Power_Relational_Field_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
 | Relational Bill of Rights v2_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
-| Relational Consciousness Framework_summary.ormd | 1 | 1 | 1 | 0 | 1 | no |
+| Relational Consciousness Framework_summary.ormd | 1 | 1 | 0 | 0 | 1 | no |
 | Relational Field Dynamics 0 1_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Relational Irreducibility Framework (RIF)_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Relational Primitive Engine (RPE)_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
@@ -81,8 +81,8 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Relational Volition_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Relational_Perfection_synthesized.ormd | 2 | 2 | 2 | 2 | 0 | no |
 | Relational_Primitives_synthesized.ormd | 3 | 3 | 2 | 1 | 4 | no |
-| Rema v2_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
-| REMF_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
+| Rema v2_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
+| REMF_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Resonance_Architecture_synthesized.ormd | 3 | 3 | 3 | 3 | 0 | no |
 | RP_Formal_Translations_synthesized.ormd | 2 | 2 | 2 | 2 | 0 | no |
 | rplang Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
@@ -95,12 +95,13 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | The Intelligence Field Framework_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Truth Ceiling_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Unified-AGI-main Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
-| Universal Emergence Pattern E² Integration and Ext_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
+| Universal Emergence Pattern E² Integration and Ext_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 
 ## Explicit Core Additions
 
 | Stem | Status | Active Copies | Archived Copies |
 | --- | --- | --- | --- |
+| Attentional Access and Formation - Core Source | included | Context Layer/Attentional Access and Formation - Core Source.ormd<br>Semantic Substrate/Attentional Access and Formation - Core Source.md | - |
 | Asymmetry Maintenance - Core Source | included | Context Layer/Asymmetry Maintenance - Core Source.ormd<br>Semantic Substrate/Asymmetry Maintenance - Core Source.md | - |
 | Constraint-Fluctuation-Attention-Resolution - Core Source | included | Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd<br>Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md | - |
 | Boundary Ethics - Core Source | included | Context Layer/Boundary Ethics - Core Source.ormd<br>Semantic Substrate/Boundary Ethics - Core Source.md | - |
@@ -141,7 +142,6 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Power | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | Relational Ontology Derived from First Principles | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | relational-derivation-chain | paired_composite_or_alias | renamed_conversion | Titles match; the Context filename is the active shortened filename. |
-| relational-emergence-meta-architecture | paired_composite_or_alias | recovered_synthesis | Context lineage explicitly synthesizes REMA v2 and Relational Consciousness Framework. |
 | relational-perfection-framework | paired_composite_or_alias | renamed_conversion | Document titles match despite different active filenames. |
 
 ## Unresolved Summary References

@@ -1,4 +1,4 @@
-# Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems
+# Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems
 
 ---
 
@@ -6,18 +6,18 @@
 
 ## 1. Introduction
 
-Adaptation via Informational Abstraction (AVIA) is a comprehensive framework that seeks to explain how systems across all scales navigate complexity, adapt to changing environments, and evolve over time. This hypothesis posits that the manipulation of information through increasingly complex abstractions is the fundamental mechanism by which systems reduce local entropy, maintain homeostasis, and achieve higher orders of organization.
+Adaptation via Informational Abstraction (AVIA) is a proposed framework for examining how some complex systems navigate complexity, adapt to changing environments, and evolve over time. It explores whether manipulating information through abstractions can help explain local order maintenance, homeostasis, and higher organization in specified settings.
 
 ## 2. Core Premises
 
 1. Information and Relationships Drive Complexity: The evolution of complexity results from systems forming adaptive relationships between their components, enabling more efficient information processing and energy management.
-2. Entropy Reduction as a Universal Driver: All systems, from the molecular to the cosmic, strive to reduce local entropy to achieve temporary homeostasis and prolong system persistence.
+2. Local Order Maintenance as a Recurring Problem: Many adaptive systems expend energy to maintain organization under changing conditions; the relevant entropy and persistence measures must be specified for each domain.
 3. Abstraction as an Emergent Property: As systems increase in complexity, they create higher-order abstractions—conceptual or physical constructs—that facilitate more efficient navigation of state spaces.
 4. Life, Consciousness, and Civilization as Milestones: These phenomena represent key stages in the evolutionary process, each extending the system's ability to manage energy, information, and entropy.
 
 ## 3. Fundamental Principles
 
-### 3.1 Universal Dynamics
+### 3.1 Proposed General Dynamics
 
 - Information as a Fundamental Resource: Information shapes the structure and behavior of systems at all levels.
 - Relational Adaptation: Systems evolve by forming and refining relationships that optimize energy flow and information processing.
@@ -113,7 +113,7 @@ Abstractions are simplified representations of underlying relationships and proc
 
 ## 7. Philosophical Implications
 
-- Life as a Universal Experiment: Life represents an ongoing exploration of order-creation within entropic systems.
+- Life as an Experiment in Order: Life offers a setting for studying how organisms maintain and reorganize themselves under entropic pressures.
 - Imbalance as Necessity: Challenges and problems are reframed as essential drivers of growth and innovation.
 - Interconnectedness: Emphasizes the fundamental interconnectedness of all systems and phenomena.
 - Purpose and Meaning: Suggests that the creation and refinement of abstractions may be a fundamental "purpose" of complex systems.
@@ -128,6 +128,6 @@ Abstractions are simplified representations of underlying relationships and proc
 
 ## 9. Conclusion
 
-The Adaptation via Informational Abstraction framework offers a unified approach to understanding complex systems across all scales. By focusing on the fundamental processes of information manipulation, abstraction, and adaptation, AVIA provides a powerful lens for analyzing and navigating the complexities of our interconnected world. As we continue to face global challenges that span multiple domains, this framework offers a promising path towards more integrated, adaptive, and resilient solutions.
+The Adaptation via Informational Abstraction framework offers a general lens for comparing information use, abstraction, and adaptation in complex systems. Its reach and explanatory value depend on specifying these processes and testing the proposed correspondences in each domain.
 
 ---

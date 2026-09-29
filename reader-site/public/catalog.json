@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:19:13.897Z",
+  "generatedAt": "2026-09-29T00:37:12.426Z",
   "title": "E² Core Framework",
   "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
   "authority": {
@@ -10,9 +10,9 @@
   },
   "entrySlug": "context-layer-master-index",
   "counts": {
-    "documents": 88,
+    "documents": 86,
     "clusters": 9,
-    "humanWords": 208990
+    "humanWords": 206519
   },
   "clusters": [
     {
@@ -94,7 +94,7 @@
     {
       "id": "C",
       "name": "Dynamics, Emergence & Systems Frameworks",
-      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AVIA, REMF, emergence simulation, and tensional intelligence.",
+      "scope": "How relational systems change, stabilize, route flow, maintain continuity, resolve possibility, and generate emergent structure. Covers boundary dynamics, flow operators, resolution, persistence, the reconciled CFAR node (including AFD and CFA), AAF's scoped attention function, AVIA, emergence simulation, and tensional intelligence. The cross-primitive inquiry note sits in Relational Primitives in Cluster A.",
       "triggers": [
         "emergence",
         "boundary dynamics",
@@ -104,9 +104,10 @@
         "stance-with",
         "CFA dynamics",
         "CFAR",
+        "AAF",
+        "attention",
+        "attentional access",
         "AVIA",
-        "REMA",
-        "REMF",
         "constraint-fluctuation",
         "Rayleigh criterion",
         "phase transitions",
@@ -119,9 +120,10 @@
         "mitosis",
         "chi"
       ],
-      "entryPoint": "REMF → Universal Emergence Pattern → reconciled CFAR",
+      "entryPoint": "reconciled CFAR → Attentional Access and Formation → Resolution Synthesis; use the Relational Primitives note for cross-primitive emergence questions.",
       "docs": [
         "adaptation-via-informational-abstraction",
+        "attentional-access-and-formation-core-source",
         "boundary-dynamics",
         "constraint-fluctuation-attention-resolution-core-source",
         "emergence-determination-foreclosure",
@@ -129,12 +131,10 @@
         "from-essential-relationships-to-ontological-transformation",
         "pattern-integrity-over-time-under-entropy",
         "persistence-as-accumulated-stance-with-core-source",
-        "remf",
         "resolution-synthesis",
         "tension",
         "tensional-intelligence-a-theoretical-foundation",
-        "emergence-engine-overview",
-        "universal-emergence-pattern"
+        "emergence-engine-overview"
       ]
     },
     {
@@ -274,7 +274,7 @@
     {
       "id": "G",
       "name": "Consciousness, Cognition & Identity",
-      "scope": "How relational dynamics give rise to consciousness, cognitive structure, selfhood, and identity. Treats consciousness as triadic relational architecture, the self as a six-primitive coherence field, intelligence as field navigation, and cognition as collective substrate. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems).",
+      "scope": "How the corpus investigates cognition, selfhood, identity, and unresolved questions about consciousness. Treats the self as a six-primitive coherence field with a provisional multidimensional profile, intelligence as field navigation, and cognition as collective substrate. Functional capacities do not settle subjective experience. Distinct from [F](#cluster-f \"symmetric:constrains\") (which addresses threats to cognitive integrity) and from [H](#cluster-h \"dynamical:produces\") (which applies these to social systems).",
       "triggers": [
         "consciousness",
         "self",
@@ -296,11 +296,10 @@
         "substrate",
         "local models"
       ],
-      "entryPoint": "Relational Emergence Meta-Architecture (REMA) → Collective Cognitive Substrate → Relational Volition",
+      "entryPoint": "Self as Coherence Field → Collective Cognitive Substrate → Relational Volition",
       "docs": [
         "collective-cognitive-substrate",
         "ontological-systems-interface-osi-model",
-        "relational-emergence-meta-architecture-rema",
         "relational-volition",
         "the-intelligence-field-framework",
         "self-as-coherence-field"
@@ -388,13 +387,13 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6236,
+      "wordCount": 6214,
       "humanUrl": "/human/context-layer-master-index.md",
       "ormdUrl": "/ormd/context-layer-master-index.ormd",
       "humanSources": [],
       "ormdSource": "Context Layer Index.ormd",
-      "humanSha256": "0e48edaa48e423c820b76b92c74fc557dcabc35968df869614ceded580abdcfd",
-      "ormdSha256": "22f1ca542cba8182a08b16523e267124c9be4d68bcb45d133766ed905f46b830"
+      "humanSha256": "8387711ebeefa58ba0ae50df821c30149bdf83f89e1f54c1fa1a646f552112b2",
+      "ormdSha256": "9081a3c6bc545b5a5b0d16e56055022b8cb783275bb1ddce8631144c6bbb4ecb"
     },
     {
       "slug": "e2-axioms",
@@ -501,8 +500,8 @@
         "Original E^2 work.md"
       ],
       "ormdSource": "Original E^2 work.ormd",
-      "humanSha256": "cca973210336f16d6819f167aa60343df13765a0c99d1bcb775d5097aa522d0b",
-      "ormdSha256": "568c7732edaf998ba388df5f58989d1797fae9084cdc04cb058726e056702dc6"
+      "humanSha256": "3a8e7f4bd0cf6265dc2bfe2d29669f5000df93673f1eabc6bffc0ff17e9c8a4a",
+      "ormdSha256": "224a587ffc2451025dc1c6fb0ff57f5747e9cae97d76f2fdcafaac168eec640a"
     },
     {
       "slug": "relational-primitives",
@@ -512,15 +511,15 @@
       "confidence": 0.96,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 916,
+      "wordCount": 1086,
       "humanUrl": "/human/relational-primitives.md",
       "ormdUrl": "/ormd/relational-primitives.ormd",
       "humanSources": [
         "Relational Primitives.md"
       ],
       "ormdSource": "Relational Primitives.ormd",
-      "humanSha256": "deae491421a25c556a0d0965665949c9bcfdca4251510f1ad84ea77a870467c4",
-      "ormdSha256": "0fd77ac8d2a818612a37348a04133a28c33575c585f4c6241238c40eff2084bc"
+      "humanSha256": "d5e062136dc9b8cfb7b1c8df8fae751344e46d36fcbac54fea4e463a5a3a4638",
+      "ormdSha256": "1cf9291872efbe7e5258d104d961964aef52f345f7c3edf5433bd25dcfbf2c12"
     },
     {
       "slug": "ct-translation-of-rps",
@@ -668,21 +667,39 @@
     },
     {
       "slug": "adaptation-via-informational-abstraction",
-      "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+      "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
       "clusterId": "C",
       "frame": "scientific.theory",
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 991,
+      "wordCount": 958,
       "humanUrl": "/human/adaptation-via-informational-abstraction.md",
       "ormdUrl": "/ormd/adaptation-via-informational-abstraction.ormd",
       "humanSources": [
         "Adaptation via Informational Abstraction.md"
       ],
       "ormdSource": "Adaptation via Informational Abstraction.ormd",
-      "humanSha256": "fa0538ca34e49c9342d4abfeee233588d39c690236c693da6c70f281db139a3c",
-      "ormdSha256": "cb0865704abda0c930075ce8212633982255777a36350294f94feb82e0857218"
+      "humanSha256": "0b2e0a67108aa37941b7b9c6f657032471d9bbe327179cf948fa9386b02e405d",
+      "ormdSha256": "0db78e48e164b7a26e9d1dba4d011f44b912a0ab1010ee29fc698d42360b75fc"
+    },
+    {
+      "slug": "attentional-access-and-formation-core-source",
+      "title": "Attentional Access and Formation",
+      "clusterId": "C",
+      "frame": "dynamics.attentional-access-formation",
+      "confidence": 0.86,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 3605,
+      "humanUrl": "/human/attentional-access-and-formation-core-source.md",
+      "ormdUrl": "/ormd/attentional-access-and-formation-core-source.ormd",
+      "humanSources": [
+        "Attentional Access and Formation - Core Source.md"
+      ],
+      "ormdSource": "Attentional Access and Formation - Core Source.ormd",
+      "humanSha256": "cb027b52422b06affe73caf23e7878521a1907e3458d0176e38add41ff3196e4",
+      "ormdSha256": "61f286c2ecac0365ff1a52353f1314265edb9989bbca2f07d79f1dec1ebc4b84"
     },
     {
       "slug": "boundary-dynamics",
@@ -692,15 +709,15 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3752,
+      "wordCount": 3739,
       "humanUrl": "/human/boundary-dynamics.md",
       "ormdUrl": "/ormd/boundary-dynamics.ormd",
       "humanSources": [
         "boundary_dynamics.md"
       ],
       "ormdSource": "boundary_dynamics.ormd",
-      "humanSha256": "6688448ebd69b39d98b97df8d9dec418ae76b5a5d108d756d58e282d22dd4ad3",
-      "ormdSha256": "2e3db317e9dbaa89cd2ba44dd0159086cbf993c42180c836d6d350a672f8b3b3"
+      "humanSha256": "36e939e7510662863ec493699053e8524e04cf2f24b3c6fc0d4cee5fc722986d",
+      "ormdSha256": "d9f27b5e09b63a133c059f5a1ff08d091b5231cc1a66a6458c456a96193287a0"
     },
     {
       "slug": "constraint-fluctuation-attention-resolution-core-source",
@@ -710,15 +727,15 @@
       "confidence": 0.86,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2327,
+      "wordCount": 2339,
       "humanUrl": "/human/constraint-fluctuation-attention-resolution-core-source.md",
       "ormdUrl": "/ormd/constraint-fluctuation-attention-resolution-core-source.ormd",
       "humanSources": [
         "Constraint-Fluctuation-Attention-Resolution - Core Source.md"
       ],
       "ormdSource": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
-      "humanSha256": "feb77ec1ba5f8b9ee260f13a9db6c364b1c09b917bc632d69e70545fc70ac0ec",
-      "ormdSha256": "7004620002334155c33619e2a557e2d82c27b9c3ecd62bda753ab043385b35c3"
+      "humanSha256": "c4b1cdea637f735b5a5f8356b33d33e9c0e3451fb4ff3afe5f65b859dd86d70b",
+      "ormdSha256": "488075a00769fb6df5015599f7f20432dd47fb41f682ded60ac14eaef360334b"
     },
     {
       "slug": "emergence-determination-foreclosure",
@@ -746,15 +763,15 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2202,
+      "wordCount": 2196,
       "humanUrl": "/human/flow-operators-provisional.md",
       "ormdUrl": "/ormd/flow-operators-provisional.ormd",
       "humanSources": [
         "flow_operators_provisional.md"
       ],
       "ormdSource": "flow_operators_provisional.ormd",
-      "humanSha256": "0e98bde6d18f38938bb5217072340a3e15c92568b0ac4203f9b4a6de913e8519",
-      "ormdSha256": "3643437878e7fec8857af4394f2d73e9d67ddddf6ce8822cda7c4d6401ec743d"
+      "humanSha256": "07b49c3f8e1878d1c792d04030a22437d96c04a08cc7cff447060f80209d2c0d",
+      "ormdSha256": "35ea5ce1f0e832225387a1bf5da1ccfbf9623e08358510dd1e1b2d67bd75e2de"
     },
     {
       "slug": "from-essential-relationships-to-ontological-transformation",
@@ -811,24 +828,6 @@
       "ormdSha256": "05d79a1ef11c391345b3cea9322a26f46041eef982aeff93f5af361accd5bbcd"
     },
     {
-      "slug": "remf",
-      "title": "REMF",
-      "clusterId": "C",
-      "frame": "ontology.meta-framework",
-      "confidence": 0.9,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 1162,
-      "humanUrl": "/human/remf.md",
-      "ormdUrl": "/ormd/remf.ormd",
-      "humanSources": [
-        "REMF.md"
-      ],
-      "ormdSource": "REMF.ormd",
-      "humanSha256": "91f6870b0c2cfd5aac945bf52ee3b19b46603b57f19ff298728722f1247df4b0",
-      "ormdSha256": "b102431319dc65e89f99e2481c2dd67a0df0968cf9c2fa14a6e24184edb95874"
-    },
-    {
       "slug": "resolution-synthesis",
       "title": "Resolution: Synthesis Notes",
       "clusterId": "C",
@@ -872,15 +871,15 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1207,
+      "wordCount": 1269,
       "humanUrl": "/human/tensional-intelligence-a-theoretical-foundation.md",
       "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd",
       "humanSources": [
         "Tensional Intelligence A Theoretical Foundation.md"
       ],
       "ormdSource": "Tensional Intelligence A Theoretical Foundation.ormd",
-      "humanSha256": "d646637510baae716ac2e18cb8361ecdea7a53eca12a0b25131a7e8ffd3048a0",
-      "ormdSha256": "b4eb62b573b6adc4dbb292a71853d62cdb42addc921e010371c0514feeda6f58"
+      "humanSha256": "afa9ea20c10d14a13878f237722b6ed1e9e5730611928ca46cb8d3d88aa0b611",
+      "ormdSha256": "2d4be17c36641bd8d0d14fd441f0a02934bddb30a889aff04c750987bf7f9562"
     },
     {
       "slug": "emergence-engine-overview",
@@ -899,24 +898,6 @@
       "ormdSource": "Emergence Engine overview.ormd",
       "humanSha256": "c301f52b1ff43498ad7d7dddffe9fadc550615019348b224e8895e42c181efe8",
       "ormdSha256": "fc411d1bc058eab1a2d76830e1235485e2decb42df51613aaa03d677cac13a41"
-    },
-    {
-      "slug": "universal-emergence-pattern",
-      "title": "Universal Emergence Pattern",
-      "clusterId": "C",
-      "frame": "theory.emergence",
-      "confidence": 0.92,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 2250,
-      "humanUrl": "/human/universal-emergence-pattern.md",
-      "ormdUrl": "/ormd/universal-emergence-pattern.ormd",
-      "humanSources": [
-        "Universal Emergence Pattern.md"
-      ],
-      "ormdSource": "Universal Emergence Pattern.ormd",
-      "humanSha256": "f75f0c2ff7465443bc6934f451c80a64a3646c956484bc612a990d213bb09000",
-      "ormdSha256": "e938acaddbbec32a70c69fe86d06b2561de2bf7c00ddab4b8f1e247db7e74062"
     },
     {
       "slug": "metabolic-meaning-phase-space-mmps",
@@ -1268,15 +1249,15 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2857,
+      "wordCount": 2888,
       "humanUrl": "/human/justice-across-scales.md",
       "ormdUrl": "/ormd/justice-across-scales.ormd",
       "humanSources": [
         "Justice Across Scales.md"
       ],
       "ormdSource": "Justice Across Scales.ormd",
-      "humanSha256": "1b7d70d4ede66aa4ce62f3592e20cfd387e843a47be9f94e12539b2406575980",
-      "ormdSha256": "ef9c33dcf87b63807f3c7d5207d3585465ff7d2bc37fbdfae4d73a52e7bbf44a"
+      "humanSha256": "7ebbcd0705fd8801c322d2c0c841000a5eef2683211c4a7725892fa72d1b3886",
+      "ormdSha256": "97659373c49039aaff3b9a3990b377cde278c128dc79b809c29428d22f44b8fe"
     },
     {
       "slug": "justice-across-scales-practical-applications",
@@ -1520,15 +1501,15 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 675,
+      "wordCount": 762,
       "humanUrl": "/human/exposure-protocol.md",
       "ormdUrl": "/ormd/exposure-protocol.ormd",
       "humanSources": [
         "Exposure Protocol.md"
       ],
       "ormdSource": "Exposure Protocol.ormd",
-      "humanSha256": "68a1455a206b34bb7134d7a63c4a10103ae637c410bfc68e8ad8e916978e4c6e",
-      "ormdSha256": "a7d1b948c282eb3889fb253519c64e352e72041d1208bbcf1241521e555d8e70"
+      "humanSha256": "4b577f3c032ca839005c95a782499217e82a96bc511382f897324035bed95b06",
+      "ormdSha256": "dc26d5352864204b5b9f357273a79277b197c557462f60004b3d48fde2dcf0b8"
     },
     {
       "slug": "mrie-unified-synthesis",
@@ -1622,25 +1603,6 @@
       "ormdSha256": "c60c626a02e6951fe24a1df3bd0e0b0013467dc75a7b610c6321d64cb1acf783"
     },
     {
-      "slug": "relational-emergence-meta-architecture-rema",
-      "title": "Relational Emergence Meta-Architecture (REMA)",
-      "clusterId": "G",
-      "frame": "theory.consciousness.rema",
-      "confidence": 0.88,
-      "status": "paired_composite_or_alias",
-      "relationship": "recovered_synthesis",
-      "wordCount": 3539,
-      "humanUrl": "/human/relational-emergence-meta-architecture-rema.md",
-      "ormdUrl": "/ormd/relational-emergence-meta-architecture-rema.ormd",
-      "humanSources": [
-        "Rema v2.md",
-        "Relational Consciousness Framework.md"
-      ],
-      "ormdSource": "Relational Emergence Meta-Architecture (REMA).ormd",
-      "humanSha256": "65bb9695251eac4e929f2cb76a9d2d6cf958cd46f9277e9688bf7cf6219db2e9",
-      "ormdSha256": "25fdd0eb4bbad305c086c1bf3e168275e3f5f13a2c4bc0a255f7ec0a29747e8b"
-    },
-    {
       "slug": "relational-volition",
       "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
       "clusterId": "G",
@@ -1684,15 +1646,15 @@
       "confidence": 0.93,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3479,
+      "wordCount": 4065,
       "humanUrl": "/human/self-as-coherence-field.md",
       "ormdUrl": "/ormd/self-as-coherence-field.ormd",
       "humanSources": [
         "Self as Coherence Field.md"
       ],
       "ormdSource": "Self as Coherence Field.ormd",
-      "humanSha256": "9a7800859b0e7602c47c62b12d4fdaf6b0bfbbee06d2dfc82481a77970101644",
-      "ormdSha256": "9e66878a640a0841b7881cab4cc806894444eb21104dda784794f764a0873839"
+      "humanSha256": "bd6620975b77c98016679e1aba0d786219c2c568d2d365a729b081399c9fc2e1",
+      "ormdSha256": "54080db44385c5e2c2dfbcca205a20966f0c1b5664e6792f54146f54d0fd14f6"
     },
     {
       "slug": "caregiving-as-an-ecosystem",
@@ -1739,15 +1701,15 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1358,
+      "wordCount": 1359,
       "humanUrl": "/human/communication-as-coherence.md",
       "ormdUrl": "/ormd/communication-as-coherence.ormd",
       "humanSources": [
         "Communication as Coherence.md"
       ],
       "ormdSource": "Communication as Coherence.ormd",
-      "humanSha256": "a4b97695b19afa5c96bf7d20956e164fefba93c7f24d1faf929cd6e1dcbc3568",
-      "ormdSha256": "9fb938f02a41c3eb43f29fab711c1bcb21a48f9e6c5075e6098262fd6ed81c0b"
+      "humanSha256": "14daeddbc2d384238ebdbe6c59bd6533afeaa368b220b7b86ba7c7fa8244e12e",
+      "ormdSha256": "e0aa6889c079c1c8d547aa7b091ca60632fe6d11a9a6c3b58fe3312369ad6467"
     },
     {
       "slug": "declaration-of-interdependence",

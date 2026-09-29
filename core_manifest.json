@@ -1,21 +1,21 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-09-24T16:16:22.976163+00:00",
+  "generated_at": "2026-09-29T00:25:42.989149+00:00",
   "root": "legacy://phase1",
   "output_root": ".",
   "active_core_root": "E2Core",
   "authority": "active_filesystem_state_with_preserved_synthesis_provenance",
   "registry": "core_registry.json",
-  "synthesized_core_count": 61,
-  "explicit_core_addition_count": 26,
-  "active_semantic_substrate_count": 95,
-  "active_context_layer_count": 88,
-  "active_raw_file_count": 183,
-  "active_file_count": 244,
-  "archived_raw_file_count": 56,
-  "copied_file_count": 244,
-  "copied_raw_file_count": 183,
-  "registered_active_raw_file_count": 182,
+  "synthesized_core_count": 57,
+  "explicit_core_addition_count": 27,
+  "active_semantic_substrate_count": 92,
+  "active_context_layer_count": 86,
+  "active_raw_file_count": 178,
+  "active_file_count": 235,
+  "archived_raw_file_count": 68,
+  "copied_file_count": 235,
+  "copied_raw_file_count": 178,
+  "registered_active_raw_file_count": 177,
   "meta_file_count": 1,
   "meta_files": [
     "Context Layer/Context Layer Index.ormd"
@@ -884,9 +884,7 @@
       "source_record_ids": [
         "phase1:relational-consciousness-framework:3ec3d40a2ae2"
       ],
-      "raw_copies": [
-        "Semantic Substrate/Relational Consciousness Framework.md"
-      ],
+      "raw_copies": [],
       "unresolved_summary_refs": [],
       "archived_raw_copies": [
         "archive/20260612_pass_1_promotion_recovery/Context Layer/Relational Consciousness Framework.ormd"
@@ -1057,10 +1055,7 @@
       "source_record_ids": [
         "phase1:rema-version-2:b3274c622c36"
       ],
-      "raw_copies": [
-        "Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-        "Semantic Substrate/Rema v2.md"
-      ],
+      "raw_copies": [],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
     },
@@ -1076,10 +1071,7 @@
       "source_record_ids": [
         "phase1:remf:b2f69a7085d3"
       ],
-      "raw_copies": [
-        "Context Layer/REMF.ormd",
-        "Semantic Substrate/REMF.md"
-      ],
+      "raw_copies": [],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
     },
@@ -1384,15 +1376,22 @@
       "source_record_ids": [
         "phase1:universal-emergence-pattern-e2-integration-and-e:f8135cbe8581"
       ],
-      "raw_copies": [
-        "Context Layer/Universal Emergence Pattern.ormd",
-        "Semantic Substrate/Universal Emergence Pattern.md"
-      ],
+      "raw_copies": [],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
     }
   ],
   "explicit_core_additions": [
+    {
+      "stem": "Attentional Access and Formation - Core Source",
+      "source_record_id": "phase1:attentional-access-and-formation-core-source:168319add76e",
+      "raw_copies": [
+        "Context Layer/Attentional Access and Formation - Core Source.ormd",
+        "Semantic Substrate/Attentional Access and Formation - Core Source.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included"
+    },
     {
       "stem": "Asymmetry Maintenance - Core Source",
       "source_record_id": "phase1:asymmetry-maintenance-core-source:20260612",

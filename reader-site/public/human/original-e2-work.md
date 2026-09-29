@@ -58,7 +58,7 @@
 
 [**Universal Emergence Pattern: E² Integration and Extensions**](Original%20E%5E2%20work/Universal%20Emergence%20Pattern%20E%C2%B2%20Integration%20and%20Ext%20241115883320804292b0caf44b76a765.md)
 
-[REMF](/?doc=remf)
+[REMF](Original%20E%5E2%20work/REMF%2024511588332080048b32fd558d4c320d.md)
 
 [Relational Volition ](/?doc=relational-volition)
 

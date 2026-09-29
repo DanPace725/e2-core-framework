@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-09-24T16:16:42.585793+00:00",
+  "generated_at": "2026-09-29T00:26:02.523764+00:00",
   "scope": ".",
   "dictionary": "legacy://phase1/Acronym Dictionary.md",
-  "seed_count": 97,
-  "present_count": 74,
-  "files_scanned": 263,
+  "seed_count": 98,
+  "present_count": 66,
+  "files_scanned": 255,
   "acronyms": {
+    "AAF": {
+      "acronym": "AAF",
+      "stands_for": [
+        "Attentional Access and Formation"
+      ],
+      "dictionary_notes": [
+        "`Core Framework/E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md`"
+      ],
+      "total_occurrences": 36,
+      "source_file_count": 6,
+      "source_files": [
+        {
+          "path": "E2Core/context layer index.md",
+          "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 5
+        },
+        {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 10
+        },
+        {
+          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 3
+        },
+        {
+          "path": "E2Core/Context Layer/Context Layer Index.ormd",
+          "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 5
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 10
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+          "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+          "layer": "E2Core",
+          "occurrences": 3
+        }
+      ],
+      "layers": {
+        "E2Core": 36
+      }
+    },
     "AFD": {
       "acronym": "AFD",
       "stands_for": [
@@ -14,14 +66,20 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 68,
-      "source_file_count": 15,
+      "total_occurrences": 78,
+      "source_file_count": 17,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
           "occurrences": 4
+        },
+        {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 5
         },
         {
           "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
@@ -58,6 +116,12 @@
           "title": "E2Core Cleanup Notes",
           "layer": "E2Core",
           "occurrences": 2
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 5
         },
         {
           "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
@@ -109,7 +173,7 @@
         }
       ],
       "layers": {
-        "E2Core": 54,
+        "E2Core": 64,
         "Rightness": 1,
         "Synthesized Core": 13
       }
@@ -210,8 +274,8 @@
       "dictionary_notes": [
         "`AOMI Adversarial Occlusion and Mechanism Integrity`; `Adversarial Occlusion and Mechanism Integrity V1`"
       ],
-      "total_occurrences": 169,
-      "source_file_count": 47,
+      "total_occurrences": 167,
+      "source_file_count": 45,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -412,12 +476,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
           "title": "Relational Field Dynamics 0.1",
           "layer": "E2Core",
@@ -484,12 +542,6 @@
           "occurrences": 1
         },
         {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/Relational Field Dynamics 0 1_summary.ormd",
           "title": "Summary: Relational Field Dynamics 0.1",
           "layer": "Synthesized Core",
@@ -497,9 +549,9 @@
         }
       ],
       "layers": {
-        "E2Core": 142,
+        "E2Core": 141,
         "Rightness": 1,
-        "Synthesized Core": 26
+        "Synthesized Core": 25
       }
     },
     "ART": {
@@ -538,20 +590,20 @@
       "dictionary_notes": [
         "`Adaptation via Informational Abstraction (AVIA) A`"
       ],
-      "total_occurrences": 148,
-      "source_file_count": 33,
+      "total_occurrences": 122,
+      "source_file_count": 24,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 8
+          "occurrences": 7
         },
         {
           "path": "E2Core/Context Layer/Adaptation via Informational Abstraction.ormd",
-          "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+          "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
           "layer": "E2Core",
-          "occurrences": 7
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -575,25 +627,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 8
-        },
-        {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 5
-        },
-        {
-          "path": "E2Core/Context Layer/Universal Emergence Pattern.ormd",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 7
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -603,9 +637,9 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Adaptation via Informational Abstraction.md",
-          "title": "Adaptation via Informational Abstraction (AVIA): A Universal Framework for Complex Systems",
+          "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
           "layer": "E2Core",
-          "occurrences": 7
+          "occurrences": 6
         },
         {
           "path": "E2Core/Semantic Substrate/CCS.md",
@@ -632,26 +666,8 @@
           "occurrences": 7
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
           "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
-          "layer": "E2Core",
-          "occurrences": 5
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
           "layer": "E2Core",
           "occurrences": 5
         },
@@ -716,34 +732,16 @@
           "occurrences": 3
         },
         {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/relational substrate analysis Repo Summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
-          "occurrences": 7
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 3
+          "occurrences": 6
         }
       ],
       "layers": {
-        "E2Core": 116,
+        "E2Core": 96,
         "Rightness": 1,
-        "Synthesized Core": 31
+        "Synthesized Core": 25
       }
     },
     "CB": {
@@ -830,14 +828,20 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 215,
-      "source_file_count": 36,
+      "total_occurrences": 197,
+      "source_file_count": 29,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 9
+          "occurrences": 7
+        },
+        {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -861,7 +865,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 9
+          "occurrences": 7
         },
         {
           "path": "E2Core/Context Layer/Justice Across Scales Practical Applications.ormd",
@@ -876,28 +880,16 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Context Layer/Relational Volition.ormd",
           "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
           "layer": "E2Core",
           "occurrences": 3
         },
         {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
           "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Context Layer/Universal Emergence Pattern.ormd",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 6
         },
         {
           "path": "E2Core/Semantic Substrate/CCS.md",
@@ -948,18 +940,6 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 9
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -970,12 +950,6 @@
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 57
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 3
         },
         {
           "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
@@ -1026,34 +1000,16 @@
           "occurrences": 3
         },
         {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 2
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 2
-        },
-        {
           "path": "Synthesized Core/The Intelligence Field Framework_summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
-          "title": "Executive Summary: The Universal Emergence Pattern",
-          "layer": "Synthesized Core",
-          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 186,
+        "E2Core": 174,
         "Rightness": 5,
-        "Synthesized Core": 24
+        "Synthesized Core": 18
       }
     },
     "CFAR": {
@@ -1064,20 +1020,26 @@
       "dictionary_notes": [
         "`CFAR`"
       ],
-      "total_occurrences": 110,
-      "source_file_count": 25,
+      "total_occurrences": 125,
+      "source_file_count": 24,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 7
         },
         {
           "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 9
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -1101,17 +1063,11 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 7
         },
         {
           "path": "E2Core/Context Layer/Global Closure Operator.ormd",
           "title": "Global Closure Operator",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -1126,6 +1082,12 @@
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 9
         },
         {
           "path": "E2Core/Semantic Substrate/CCS.md",
@@ -1156,12 +1118,6 @@
           "title": "Global Closure Operator",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 2
         },
         {
           "path": "E2Core/Semantic Substrate/resolution_synthesis.md",
@@ -1210,18 +1166,12 @@
           "title": "'Summary: Metabolic Meaning Phase Space (MMPS)'",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 90,
+        "E2Core": 107,
         "Rightness": 1,
-        "Synthesized Core": 19
+        "Synthesized Core": 17
       }
     },
     "CLP": {
@@ -1232,8 +1182,8 @@
       "dictionary_notes": [
         "`Context Layer Protocol (CLP)`"
       ],
-      "total_occurrences": 134,
-      "source_file_count": 46,
+      "total_occurrences": 131,
+      "source_file_count": 43,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -1332,12 +1282,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
@@ -1410,12 +1354,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Relational Primitives.md",
           "title": "Relational Primitives",
           "layer": "E2Core",
@@ -1482,12 +1420,6 @@
           "occurrences": 1
         },
         {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/relational substrate analysis Repo Summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
@@ -1513,8 +1445,8 @@
         }
       ],
       "layers": {
-        "E2Core": 112,
-        "Synthesized Core": 22
+        "E2Core": 110,
+        "Synthesized Core": 21
       }
     },
     "CRS": {
@@ -1588,47 +1520,6 @@
         "Synthesized Core": 25
       }
     },
-    "DAG": {
-      "acronym": "DAG",
-      "stands_for": [
-        "Desire-Driven Attention Gradient"
-      ],
-      "dictionary_notes": [
-        "`Rema v2`; `REMF`"
-      ],
-      "total_occurrences": 5,
-      "source_file_count": 4,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 4,
-        "Synthesized Core": 1
-      }
-    },
     "DRAH": {
       "acronym": "DRAH",
       "stands_for": [
@@ -1657,34 +1548,6 @@
         "Rightness": 14
       }
     },
-    "EAP": {
-      "acronym": "EAP",
-      "stands_for": [
-        "Emergent Authenticity Principle"
-      ],
-      "dictionary_notes": [
-        "`REMF`"
-      ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 2
-      }
-    },
     "ECN": {
       "acronym": "ECN",
       "stands_for": [
@@ -1693,8 +1556,8 @@
       "dictionary_notes": [
         "`ECN Translation Key`; `E^2 Primer Compression`"
       ],
-      "total_occurrences": 32,
-      "source_file_count": 9,
+      "total_occurrences": 30,
+      "source_file_count": 7,
       "source_files": [
         {
           "path": "E2Core/Context Layer/E^2 Entry Point.ormd",
@@ -1721,12 +1584,6 @@
           "occurrences": 6
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/Constitutions_synthesized.ormd",
           "title": "'Summary: Essence of Existence Constitution - Draft 2'",
           "layer": "Synthesized Core",
@@ -1743,51 +1600,11 @@
           "title": "Summary: Layer 2 RVP + VME Developments",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
         }
       ],
       "layers": {
-        "E2Core": 20,
-        "Synthesized Core": 12
-      }
-    },
-    "EIP": {
-      "acronym": "EIP",
-      "stands_for": [
-        "Emergence Invariance Principle"
-      ],
-      "dictionary_notes": [
-        "`REMF`; `Universal Emergence Pattern E² Integration and Ext`"
-      ],
-      "total_occurrences": 3,
-      "source_file_count": 3,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 3
+        "E2Core": 19,
+        "Synthesized Core": 11
       }
     },
     "ER": {
@@ -1798,8 +1615,8 @@
       "dictionary_notes": [
         "`The Essence of Existence`; `Universal Emergence Pattern E² Integration and Ext`"
       ],
-      "total_occurrences": 23,
-      "source_file_count": 10,
+      "total_occurrences": 17,
+      "source_file_count": 6,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Family as a Relational Field.ormd",
@@ -1820,22 +1637,10 @@
           "occurrences": 5
         },
         {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 4
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
@@ -1848,23 +1653,11 @@
           "title": "Summary: Family as a Relational Field",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
-          "title": "Executive Summary: The Universal Emergence Pattern",
-          "layer": "Synthesized Core",
-          "occurrences": 1
         }
       ],
       "layers": {
-        "E2Core": 19,
-        "Synthesized Core": 4
+        "E2Core": 15,
+        "Synthesized Core": 2
       }
     },
     "EST": {
@@ -1875,8 +1668,8 @@
       "dictionary_notes": [
         "`Eidosemantic Systems Theory`; `Claude 4 On EST`; `TACITRA`"
       ],
-      "total_occurrences": 15,
-      "source_file_count": 10,
+      "total_occurrences": 14,
+      "source_file_count": 9,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -1931,17 +1724,11 @@
           "title": "'Synthesis: Power as Relational Field Coherence and Pattern Integrity'",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 1
         }
       ],
       "layers": {
         "E2Core": 8,
-        "Synthesized Core": 7
+        "Synthesized Core": 6
       }
     },
     "FCIL": {
@@ -2027,8 +1814,8 @@
       "dictionary_notes": [
         "`Global Closure Operator`; `GCO logic`; `Signal as Bias Field`"
       ],
-      "total_occurrences": 327,
-      "source_file_count": 63,
+      "total_occurrences": 335,
+      "source_file_count": 65,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -2041,6 +1828,12 @@
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
           "occurrences": 10
+        },
+        {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 4
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -2167,6 +1960,12 @@
           "title": "Asymmetry Maintenance",
           "layer": "E2Core",
           "occurrences": 9
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/CCS.md",
@@ -2410,7 +2209,7 @@
         }
       ],
       "layers": {
-        "E2Core": 267,
+        "E2Core": 275,
         "Rightness": 6,
         "Synthesized Core": 54
       }
@@ -2561,35 +2360,6 @@
         "Synthesized Core": 1
       }
     },
-    "HI": {
-      "acronym": "HI",
-      "stands_for": [
-        "Homeostatic Imperative"
-      ],
-      "dictionary_notes": [
-        "`Rema v2`; `REMF`"
-      ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
-      "source_files": [
-        {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 1,
-        "Synthesized Core": 1
-      }
-    },
     "ICC": {
       "acronym": "ICC",
       "stands_for": [
@@ -2680,8 +2450,8 @@
       "dictionary_notes": [
         "`Metabolic Meaning Phase Space (MMPS)`"
       ],
-      "total_occurrences": 138,
-      "source_file_count": 40,
+      "total_occurrences": 137,
+      "source_file_count": 39,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -2770,12 +2540,6 @@
         {
           "path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Context Layer/Universal Emergence Pattern.ormd",
-          "title": "Universal Emergence Pattern",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -2925,7 +2689,7 @@
         }
       ],
       "layers": {
-        "E2Core": 121,
+        "E2Core": 120,
         "Rightness": 6,
         "Synthesized Core": 11
       }
@@ -2966,8 +2730,8 @@
       "dictionary_notes": [
         "`Meta-Pattern Decidability Conjecture (MPDC)`; `The Essence of Existence`"
       ],
-      "total_occurrences": 254,
-      "source_file_count": 58,
+      "total_occurrences": 247,
+      "source_file_count": 54,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -3048,12 +2812,6 @@
           "occurrences": 5
         },
         {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Context Layer/Relational Field Dynamics 0 1.ormd",
           "title": "Relational Field Dynamics 0.1",
           "layer": "E2Core",
@@ -3062,12 +2820,6 @@
         {
           "path": "E2Core/Context Layer/Relational Irreducibility Framework (RIF).ormd",
           "title": "Relational Irreducibility Framework (RIF)",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3090,16 +2842,16 @@
           "occurrences": 1
         },
         {
+          "path": "E2Core/Context Layer/Tensional Intelligence A Theoretical Foundation.ormd",
+          "title": "Tensional Intelligence: A Theoretical Foundation",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 2
-        },
-        {
-          "path": "E2Core/Context Layer/Universal Emergence Pattern.ormd",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -3198,18 +2950,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/resolution_synthesis.md",
           "title": "Resolution: Synthesis Notes",
           "layer": "E2Core",
@@ -3228,6 +2968,12 @@
           "occurrences": 1
         },
         {
+          "path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
+          "title": "Tensional Intelligence: A Theoretical Foundation",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -3238,12 +2984,6 @@
           "title": "The Essence of Existence",
           "layer": "E2Core",
           "occurrences": 7
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "Rightness/20260910/Can rightness be derived.md",
@@ -3300,16 +3040,16 @@
           "occurrences": 11
         },
         {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 2
-        },
-        {
           "path": "Synthesized Core/Signal as Bias Field_summary.ormd",
           "title": "Executive Summary: Signal as Bias Field",
           "layer": "Synthesized Core",
           "occurrences": 2
+        },
+        {
+          "path": "Synthesized Core/Tensional_Intelligence_synthesized.ormd",
+          "title": "'Summary: Tensional Intelligence and the Praxis of Paradox'",
+          "layer": "Synthesized Core",
+          "occurrences": 1
         },
         {
           "path": "Synthesized Core/Truth Ceiling_summary.ormd",
@@ -3319,9 +3059,9 @@
         }
       ],
       "layers": {
-        "E2Core": 219,
+        "E2Core": 213,
         "Rightness": 8,
-        "Synthesized Core": 27
+        "Synthesized Core": 26
       }
     },
     "MRIE": {
@@ -3540,8 +3280,8 @@
       "dictionary_notes": [
         "`Organization plan`; `Ormd Readme`; `Ormd`"
       ],
-      "total_occurrences": 29,
-      "source_file_count": 15,
+      "total_occurrences": 28,
+      "source_file_count": 14,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -3616,12 +3356,6 @@
           "occurrences": 1
         },
         {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/rplang Repo Summary.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "Synthesized Core",
@@ -3637,7 +3371,7 @@
       "layers": {
         "E2Core": 13,
         "Rightness": 1,
-        "Synthesized Core": 15
+        "Synthesized Core": 14
       }
     },
     "OSI": {
@@ -4356,14 +4090,14 @@
       "dictionary_notes": [
         "`Rema v2`; `REMF`"
       ],
-      "total_occurrences": 87,
-      "source_file_count": 15,
+      "total_occurrences": 27,
+      "source_file_count": 11,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 1
         },
         {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -4375,19 +4109,13 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 1
         },
         {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
+          "path": "E2Core/Context Layer/Self as Coherence Field.ormd",
+          "title": "The Self as Coherence Field",
           "layer": "E2Core",
-          "occurrences": 20
-        },
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 5
+          "occurrences": 3
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -4414,16 +4142,10 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
+          "path": "E2Core/Semantic Substrate/Self as Coherence Field.md",
+          "title": "The Self as Coherence Field",
           "layer": "E2Core",
-          "occurrences": 6
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 5
+          "occurrences": 3
         },
         {
           "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
@@ -4436,23 +4158,11 @@
           "title": "'Synthesis: Power as Relational Field Coherence and Pattern Integrity'",
           "layer": "Synthesized Core",
           "occurrences": 2
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 8
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 2
         }
       ],
       "layers": {
-        "E2Core": 75,
-        "Synthesized Core": 12
+        "E2Core": 25,
+        "Synthesized Core": 2
       }
     },
     "REMF": {
@@ -4463,21 +4173,9 @@
       "dictionary_notes": [
         "`REMF`"
       ],
-      "total_occurrences": 54,
-      "source_file_count": 12,
+      "total_occurrences": 10,
+      "source_file_count": 7,
       "source_files": [
-        {
-          "path": "E2Core/context layer index.md",
-          "title": "Context Layer Master Index",
-          "layer": "E2Core",
-          "occurrences": 11
-        },
-        {
-          "path": "E2Core/Context Layer/Context Layer Index.ormd",
-          "title": "Context Layer Master Index",
-          "layer": "E2Core",
-          "occurrences": 11
-        },
         {
           "path": "E2Core/Context Layer/Original E^2 work.ormd",
           "title": "Original E^2 Work",
@@ -4485,20 +4183,8 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Context Layer/Relational Emergence Meta-Architecture (REMA).ormd",
-          "title": "Relational Emergence Meta-Architecture (REMA)",
-          "layer": "E2Core",
-          "occurrences": 8
-        },
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 4
-        },
-        {
-          "path": "E2Core/Context Layer/Universal Emergence Pattern.ormd",
-          "title": "Universal Emergence Pattern",
+          "path": "E2Core/Context Layer/Relational Primitives.ormd",
+          "title": "Relational Primitives",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -4521,8 +4207,8 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
+          "path": "E2Core/Semantic Substrate/Relational Primitives.md",
+          "title": "Relational Primitives",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -4531,45 +4217,11 @@
           "title": "Synthesis of the NexEs Manifesto and Relational Complexity Framework",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 10
         }
       ],
       "layers": {
-        "E2Core": 43,
-        "Synthesized Core": 11
-      }
-    },
-    "REP": {
-      "acronym": "REP",
-      "stands_for": [
-        "Recursive Echo Principle"
-      ],
-      "dictionary_notes": [
-        "`REMF`"
-      ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 2
+        "E2Core": 9,
+        "Synthesized Core": 1
       }
     },
     "RFD": {
@@ -4794,28 +4446,6 @@
         "Synthesized Core": 1
       }
     },
-    "RMP": {
-      "acronym": "RMP",
-      "stands_for": [
-        "Relational Meaning Principle"
-      ],
-      "dictionary_notes": [
-        "`Universal Emergence Pattern E² Integration and Ext`"
-      ],
-      "total_occurrences": 1,
-      "source_file_count": 1,
-      "source_files": [
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 1
-      }
-    },
     "RNT": {
       "acronym": "RNT",
       "stands_for": [
@@ -4824,8 +4454,8 @@
       "dictionary_notes": [
         "`Ontological Systems Interface (OSI) Model`; `CRS`"
       ],
-      "total_occurrences": 54,
-      "source_file_count": 13,
+      "total_occurrences": 52,
+      "source_file_count": 11,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -4876,12 +4506,6 @@
           "occurrences": 18
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -4898,70 +4522,11 @@
           "title": "Synthesis of the Ontological Systems Interface (OSI) Model",
           "layer": "Synthesized Core",
           "occurrences": 5
-        },
-        {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
         }
       ],
       "layers": {
-        "E2Core": 47,
-        "Synthesized Core": 7
-      }
-    },
-    "ROP": {
-      "acronym": "ROP",
-      "stands_for": [
-        "Recursive Occlusion Principle"
-      ],
-      "dictionary_notes": [
-        "`Rema v2`"
-      ],
-      "total_occurrences": 8,
-      "source_file_count": 6,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Rema v2.md",
-          "title": "Rema v2",
-          "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Relational Consciousness Framework_summary.ormd",
-          "title": "Executive Summary: The Relational Consciousness Framework",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Rema v2_summary.ormd",
-          "title": "Executive Synthesis: REMA v2",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 6,
-        "Synthesized Core": 2
+        "E2Core": 46,
+        "Synthesized Core": 6
       }
     },
     "RP": {
@@ -5591,8 +5156,8 @@
       "dictionary_notes": [
         "`E^2 Primer Compression`; `REMF`"
       ],
-      "total_occurrences": 39,
-      "source_file_count": 21,
+      "total_occurrences": 30,
+      "source_file_count": 16,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -5631,12 +5196,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -5667,28 +5226,10 @@
           "occurrences": 6
         },
         {
-          "path": "E2Core/Semantic Substrate/Relational Consciousness Framework.md",
-          "title": "Relational Consciousness Framework",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
           "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 5
         },
         {
           "path": "Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
@@ -5713,17 +5254,11 @@
           "title": "'Synthesis: Power as Relational Field Coherence and Pattern Integrity'",
           "layer": "Synthesized Core",
           "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
-          "title": "Executive Summary: The Universal Emergence Pattern",
-          "layer": "Synthesized Core",
-          "occurrences": 1
         }
       ],
       "layers": {
-        "E2Core": 33,
-        "Synthesized Core": 6
+        "E2Core": 25,
+        "Synthesized Core": 5
       }
     },
     "SCRIPTA": {
@@ -6065,8 +5600,8 @@
       "dictionary_notes": [
         "`Organization Plan - Synthesis Project`; `boundary_dynamics`"
       ],
-      "total_occurrences": 142,
-      "source_file_count": 27,
+      "total_occurrences": 150,
+      "source_file_count": 29,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -6081,10 +5616,16 @@
           "occurrences": 8
         },
         {
+          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Context Layer/boundary_dynamics.ormd",
           "title": "Boundary Dynamics",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 9
         },
         {
           "path": "E2Core/Context Layer/Complex Causality - Core Source.ormd",
@@ -6147,10 +5688,16 @@
           "occurrences": 8
         },
         {
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+          "title": "Attentional Access and Formation",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Semantic Substrate/boundary_dynamics.md",
           "title": "Boundary Dynamics",
           "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 9
         },
         {
           "path": "E2Core/Semantic Substrate/Complex Causality - Core Source.md",
@@ -6232,7 +5779,7 @@
         }
       ],
       "layers": {
-        "E2Core": 114,
+        "E2Core": 122,
         "Rightness": 13,
         "Synthesized Core": 15
       }
@@ -6309,96 +5856,6 @@
       ],
       "layers": {
         "E2Core": 2
-      }
-    },
-    "UCP": {
-      "acronym": "UCP",
-      "stands_for": [
-        "Universal Conversion Principle"
-      ],
-      "dictionary_notes": [
-        "`REMF`"
-      ],
-      "total_occurrences": 4,
-      "source_file_count": 4,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
-          "title": "Executive Summary: The Universal Emergence Pattern",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 3,
-        "Synthesized Core": 1
-      }
-    },
-    "UEP": {
-      "acronym": "UEP",
-      "stands_for": [
-        "Universal Emergence Pattern",
-        "Universal Emergence Protocol"
-      ],
-      "dictionary_notes": [
-        "`REMF`",
-        "`Universal Emergence Pattern E² Integration and Ext`"
-      ],
-      "total_occurrences": 20,
-      "source_file_count": 5,
-      "source_files": [
-        {
-          "path": "E2Core/Context Layer/REMF.ormd",
-          "title": "--- Context Layer Protocol (CLP) ---",
-          "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
-          "path": "E2Core/Semantic Substrate/REMF.md",
-          "title": "REMF",
-          "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Universal Emergence Pattern.md",
-          "title": "Universal Emergence Pattern",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "Synthesized Core/REMF_summary.ormd",
-          "title": "Executive Summary: REMF",
-          "layer": "Synthesized Core",
-          "occurrences": 4
-        },
-        {
-          "path": "Synthesized Core/Universal Emergence Pattern E² Integration and Ext_summary.ormd",
-          "title": "Executive Summary: The Universal Emergence Pattern",
-          "layer": "Synthesized Core",
-          "occurrences": 1
-        }
-      ],
-      "layers": {
-        "E2Core": 15,
-        "Synthesized Core": 5
       }
     },
     "VME": {

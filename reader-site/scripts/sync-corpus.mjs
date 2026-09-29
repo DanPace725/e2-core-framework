@@ -572,7 +572,7 @@ const llmsLines = [
   "",
   "> Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.",
   "",
-  `Canonical AI mirror: ${githubRawBase}/llms.txt`,
+  `Current AI entry point: ${publicSiteBase}/llms.txt`,
   `HTML AI mirror: ${githubPagesBase}/`,
   `Whole-corpus HTML mirror: ${githubPagesBase}/corpus.html`,
   `Source repository: https://github.com/DanPace725/e2-core-framework`,
@@ -584,10 +584,10 @@ const llmsLines = [
   "3. Preserve each document's frame, confidence, lineage, and policy metadata.",
   "4. Do not treat the index, generated catalog, or human Markdown as a substitute for the paired ORMD authority.",
   "",
-  `- [Context Layer Master Index (ORMD)](${githubRawBase}/ormd/context-layer-master-index.ormd)`,
-  `- [Machine-readable catalog](${githubRawBase}/catalog.json)`,
-  `- [Machine-readable relationship graph](${githubRawBase}/graph.json)`,
-  `- [Combined ORMD corpus](${githubRawBase}/ormd-corpus.txt)`,
+  `- [Context Layer Master Index (ORMD)](${publicSiteBase}/ormd/context-layer-master-index.ormd)`,
+  `- [Machine-readable catalog](${publicSiteBase}/catalog.json)`,
+  `- [Machine-readable relationship graph](${publicSiteBase}/graph.json)`,
+  `- [Combined ORMD corpus](${publicSiteBase}/ormd-corpus.txt)`,
   `- [Human mobile reader](${publicSiteBase}/)`,
   "",
 ];
@@ -597,7 +597,7 @@ for (const cluster of catalogClusters) {
   if (cluster.entryPoint) llmsLines.push(`Entry point: ${cluster.entryPoint}`, "");
   for (const slug of cluster.docs) {
     const doc = docs.find((candidate) => candidate.slug === slug);
-    llmsLines.push(`- [${doc.title}](${githubRawBase}${doc.ormdUrl}) — frame: ${doc.frame ?? "unclassified"}; confidence: ${doc.confidence ?? "unrecorded"}`);
+    llmsLines.push(`- [${doc.title}](${publicSiteBase}${doc.ormdUrl}) — frame: ${doc.frame ?? "unclassified"}; confidence: ${doc.confidence ?? "unrecorded"}`);
   }
   llmsLines.push("");
 }

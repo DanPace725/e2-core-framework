@@ -72,13 +72,13 @@ relations:
     type: informs
     note: Conditional signal uptake helps distinguish receiver-side access from emitter-side inputs.
   - source: emergence-determination-foreclosure
-    target: universal-emergence-pattern
-    type: constrains
-    note: Foreclosure describes a limiting condition on emergence.
+    target: relational-primitives
+    type: specializes
+    note: Foreclosure addresses a limiting condition within a scoped emergence inquiry.
   - source: emergence-engine-overview
-    target: universal-emergence-pattern
-    type: operationalizes
-    note: The simulation makes emergence dynamics inspectable.
+    target: relational-primitives
+    type: illustrates
+    note: The simulation offers one computational case for a scoped emergence inquiry.
   - source: persistence-as-accumulated-stance-with-core-source
     target: pattern-integrity-over-time-under-entropy
     type: extends
@@ -152,9 +152,9 @@ relations:
     type: constrains
     note: Truth ceilings limit what can remain lawfully legible across scale.
   - source: self-as-coherence-field
-    target: relational-emergence-meta-architecture-rema
-    type: extends
-    note: The self is treated as a coherence pattern within relational emergence.
+    target: relational-primitives
+    type: specializes
+    note: The self account decomposes its object through the six primitives and holds the REMA-derived profile provisionally.
   - source: collective-cognitive-substrate
     target: the-intelligence-field-framework
     type: extends

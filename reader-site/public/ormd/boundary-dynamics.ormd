@@ -32,7 +32,7 @@ This document gives standalone treatment to a concept that has been operative ac
 
 This document treats boundaries as the primary object. Boundaries are not edges; they are structural operators with typed state, multiple operational modes, recursive composition, and observer-relative properties. The catalog of boundary modes (six operators) is one specific decomposition; the framework of boundary dynamics is the more general theory.
 
-The goal is to surface the invariant patterns and principles that govern how energy and information move between systems across all substrate-domains. Cell membranes, organizational walls, cognitive frames, legal-domain edges, conceptual category-boundaries, and political borders all instantiate the same structural object with domain-specific parameters. The invariance is what makes the framework portable; the parameters are what make it useful in any specific case.
+The goal is to develop general patterns and principles for examining how energy and information move between systems. Cell membranes, organizational walls, cognitive frames, legal-domain edges, conceptual category-boundaries, and political borders are candidate applications of the boundary model. Portability depends on showing that the proposed roles can be identified in each domain; their mechanisms and parameters may differ.
 
 Two structural commitments are operative throughout: observer-position dependence of all measurements (inherited from Signal as Bias Field and Flow Operators), and resolution-dependent appearance of boundaries themselves (inherited from MMPS).
 
@@ -231,21 +231,21 @@ This is the formal expression at the boundary-level of what Sign-Mediated Flow R
 
 ---
 
-## 8. TCL Constants as Universal Boundary Thresholds {#8-tcl-constants-as-universal-boundary-thresholds}
+## 8. TCL Operating-Window Principles as Boundary Hypotheses {#8-tcl-constants-as-universal-boundary-thresholds}
 
-The three constants from Temporal Constraint Lamination correspond to specific mode-thresholds at the boundary-level.
+Temporal Constraint Lamination (TCL) studies a specified coupled-layer model. Its operating window suggests questions for boundary dynamics about minimum sustaining capacity, destabilizing overcoupling, and sensitivity to delayed structural change. These are proposed correspondences, not derived boundary thresholds.
 
-| TCL Constant | Approximate Value | Boundary Mode Threshold |
+| TCL feature | Possible boundary question | What must be specified |
 |---|---|---|
-| Viability floor | ~0.757 | Depletion mode: reservoir cannot fund stance-with rate. Boundary can no longer sustain self-maintenance from current resources. |
-| Chaos ceiling | ~0.930 | Stance-against mode: boundary cannot refuse incoming pressure. The structural capacity to discriminate has been overwhelmed. |
-| Parametric wall | ~0.289 | Trade mode: reciprocal regime cannot rebalance. Symmetric exchange has become structurally impossible. |
+| Viability floor | Can the boundary sustain the work of maintaining its organization? | Resource, maintenance demand, and failure criterion |
+| Chaos ceiling | Can stronger coupling or pressure destabilize the boundary's response? | Coupling mechanism, delay, and instability criterion |
+| Parametric wall | Can rapid reshaping of the boundary's operating conditions make delayed adjustment fragile? | State landscape, modulation, delay, and comparable units |
 
-These bound what is achievable at any boundary regardless of design quality. A boundary whose depletion has fallen below the viability floor will collapse, even if its mode-profile and selectivity are otherwise sound. A boundary whose stance-against has crossed the chaos ceiling will fail to discriminate, even if its other modes are robust. A boundary whose trade has crossed the parametric wall will exhibit structural reciprocity-collapse, even if its parties are willing.
+In TCL's cubic bistable model, the reported values are approximately 0.757, 0.930, and 0.289. The first two depend on model parameters; the third is tied to the specified landscape shape. None is a calibrated threshold for a cell membrane, organization, cognitive frame, or political border. A boundary application would need its own variables, units, dynamics, and evidence before assigning a value or predicting failure.
 
-These thresholds appear universal across substrate-domains because they are constraints on the underlying mode-operations, not on the substrate carrying them. Cell membranes, organizational walls, cognitive frames, and political borders all exhibit threshold behavior at the same approximate dimensionless locations because they are all instances of the same boundary-mode operations.
+The transferable proposal is the *shape of the inquiry*: sustaining capacity may have a lower bound, stronger coupling may cease to help, and delayed feedback may make structural adjustment fragile. Whether these features occur together, and whether TCL's mathematics applies, must be established separately in each domain. A qualitative resemblance alone does not transport the equations or numbers.
 
-The slow-layer/fast-layer lamination architecture from TCL is the structural pattern by which boundaries sustain operation across these thresholds. A boundary that operates without lamination cannot route flow asymmetrically across capacity-mismatched modes; with lamination, a slow-layer can stabilize fast-layer mode-fluctuations, extending viability under what would otherwise be threshold-violation conditions.
+Where a boundary has identifiable slow and fast processes, TCL's lamination architecture offers a possible model of buffering and delayed adjustment. Its use requires showing which processes play those roles and testing whether the model predicts their behavior.
 
 ---
 
@@ -272,7 +272,7 @@ Each failure mode has cross-domain signatures. The pattern is invariant; the sub
 
 ## 10. Cross-Domain Instances {#10-cross-domain-instances}
 
-The framework predicts that boundary dynamics operate identically across substrate-domains, with domain-specific parameters but invariant structural form.
+The framework proposes a shared set of questions across substrate-domains, with domain-specific mechanisms and parameters.
 
 | Domain | Boundary Instance | Characteristic Modes | Substrate-Specific Failure |
 |---|---|---|---|
@@ -287,9 +287,9 @@ The framework predicts that boundary dynamics operate identically across substra
 | Ecological | Watersheds, habitat boundaries | All six with material substrate | Habitat fragmentation, pollution, collapse |
 | Linguistic | Word-meaning boundaries, register-edges | Stance-against, settlement, trade | Polysemy collapse, register failure |
 
-The list is illustrative, not exhaustive. The framework predicts that any sustained inter-regional engagement instantiates boundary dynamics with the same invariant structural form.
+The list is illustrative, not exhaustive. Similar labels across rows do not establish identical mechanisms or thresholds.
 
-This cross-domain invariance is what justifies the framework's portability. A diagnostician trained on the boundary mode catalog can examine an organizational dysfunction, an autoimmune disorder, a political crisis, and a cognitive breakdown using the same diagnostic apparatus, because the underlying structural object is the same. What differs is the substrate, the parameter values, and the specific instance of each failure mode.
+The catalog can guide comparison across these domains. Each application still needs a domain-specific account of what counts as a boundary, a mode, a failure, and relevant evidence. Similar patterns may support a general model without proving one identical structural object in every case.
 
 ---
 
@@ -299,7 +299,7 @@ Boundary dynamics is upstream of several framework components and downstream of 
 
 **Upstream**: Sign-Mediated Flow Routing uses boundaries as the surface where signs form and routing-closures fire. The sign-interface concept in that document is a specialization of the boundary concept here. Consequence Routing is a further specialization to the agentic substrate. Justice as triple-product integrity is the integrity-property of agentic boundaries; market integrity, truth integrity, etc. are integrity-properties of other substrate-domain boundaries.
 
-**Downstream**: MMPS contains the seed treatment in the "Boundary as Recursive Morphism" section, in service of meaning-metabolism. This document develops the seed into a standalone framework. Signal as Bias Field provides the substrate vocabulary (S = ⟨E, R, C, X, Σ⟩) within which boundaries are typed objects in R. TCL provides the substrate-side quantitative anchoring through the three threshold constants. Flow Operators provided the catalog of modes, which this document recontextualizes as modes of boundary operation rather than types of flow.
+**Downstream**: MMPS contains the seed treatment in the "Boundary as Recursive Morphism" section, in service of meaning-metabolism. This document develops the seed into a standalone framework. Signal as Bias Field provides the substrate vocabulary (S = ⟨E, R, C, X, Σ⟩) within which boundaries are typed objects in R. TCL provides a model-specific quantitative example and possible operating-window pattern, not numerical calibration for boundary domains. Flow Operators provided the catalog of modes, which this document recontextualizes as modes of boundary operation rather than types of flow.
 
 **Adjacent**: Power as Relational Field Coherence describes how boundaries get curved by power-gradients (Section 10 of Sign-Mediated Flow Routing). AOMI describes adversarial attacks on boundary-selectivity (capture, gaming, exploitation of low-σ pockets). Relational Bill of Rights specifies minimum boundary-integrity conditions for substrate health.
 
@@ -315,11 +315,11 @@ The integration is not a flat union but a layered architecture. Boundary dynamic
 
 3. **Recursive depth in real boundaries terminates at observer-resolution.** The framework allows arbitrary recursive nesting, but real boundaries observable to real observers have finite recursive depth. The recursion-floor is domain-specific.
 
-4. **Cross-domain invariance is a strong claim.** The framework asserts that boundary dynamics operates identically across substrate-domains with invariant structural form. This is a testable prediction. Cases where the structural form genuinely fails to translate would refine or refute the claim.
+4. **Cross-domain transfer remains to be tested.** The framework proposes recurring roles and questions, not identical dynamics in every substrate. Cases where a role fails to translate should refine or limit the model.
 
 5. **Observer-position must be made explicit in any application.** Per Section 2.3, the catalog and the boundary's appearance depend on observer resolution and scale. Applications must declare observer-position rather than assume a view-from-nowhere.
 
-6. **The TCL threshold values are approximate.** The viability floor (~0.757), chaos ceiling (~0.930), and parametric wall (~0.289) are empirically anchored from REAL substrate dynamics but their precise values may shift with refinement of the underlying measurements. The framework's claim is that universal thresholds exist at approximately these locations, not that the specific decimal values are exact.
+6. **TCL values stay within their model.** The reported values (~0.757, ~0.930, ~0.289) come from a specified simulated cubic bistable landscape. The viability floor and chaos ceiling depend on its parameters; the parametric wall depends on its landscape class. None has been established as a numerical boundary threshold across substrates. Section 8 transfers questions about operating-window structure, subject to domain-specific modeling and tests.
 
 7. **Failure mode classification is open at the edges.** The ten failure modes in Section 9 cover the main patterns but may not exhaust the typology. Novel failure modes may emerge from cross-domain study.
 
@@ -329,16 +329,16 @@ The integration is not a flat union but a layered architecture. Boundary dynamic
 
 Boundary dynamics is the formal theory of how regions engage across their interfaces. A boundary is a structural operator with typed state, multiple operational modes, recursive composition, and observer-relative properties. The framework treats boundaries as primary objects rather than as edges or absences between primary objects.
 
-The invariant claims:
+The proposed general claims:
 
 1. **Boundaries are operators, not edges.** They actively transduce, refuse, host, draw, exchange, and receive. The operation is constitutive of the boundary.
 2. **Boundaries are observer-relative.** Appearance depends on resolution, scale, and temporal frame, with thingness emerging only at intermediate coherence windows.
 3. **Boundaries have a catalog of operational modes.** Six modes (stance-with, stance-against, settlement, depletion, trade, consequence-receipt) decompose the operation at the intermediate-resolution coherence window. Other resolutions yield other decompositions.
 4. **Boundaries are recursive.** They contain sub-boundaries, can be layered, and couple with adjacent boundaries.
 5. **Conservation holds component-wise and mode-wise.** Quantities transferred across a boundary are typed-conserved with no interconversion across types.
-6. **Universal thresholds exist.** The three TCL constants bound what is possible at any boundary regardless of substrate.
-7. **Failure modes are cross-domain invariant.** The same patterns recur in cell membranes, institutions, cognitive frames, and political borders.
+6. **Operating-window questions transfer provisionally.** TCL suggests possible capacity, overcoupling, and delay-sensitive failure questions; its numbers do not transfer without a validated model.
+7. **Failure modes may be comparable across domains.** Similar signatures can guide inquiry, while mechanisms and criteria remain domain-specific.
 
-This framework is the structural layer upstream of sign-mediation, flow routing, and consequence routing. It is the answer to "what are signs forming on, what is flow routing through, what is consequence landing in." The answer is: boundaries operating in their characteristic modes, governed by typed conservation, bounded by universal thresholds, recursive across nesting depth, and observer-relative in their appearance.
+This framework is the structural layer upstream of sign-mediation, flow routing, and consequence routing. It asks what signs form on, what flow routes through, and where consequence lands. Its proposed answer is boundaries operating in characteristic modes, with typed accounting, possible operating-window constraints, recursive structure, and observer-relative appearance.
 
 Energy and information moving between systems is what we observe; boundary dynamics is the structural account of how that movement is constituted, gated, transformed, and conserved.
