@@ -29,11 +29,8 @@ const exists = async (target) => {
 };
 
 if (!(await exists(registryPath))) {
-  if (await exists(path.join(publicRoot, "catalog.json"))) {
-    console.log("Core source is not adjacent; using the committed public corpus snapshot.");
-    process.exit(0);
-  }
-  throw new Error(`Core registry not found at ${registryPath}`);
+  console.log("Core source is not adjacent; the hosted reader will use the published Core repository.");
+  process.exit(0);
 }
 
 const registry = JSON.parse(await readFile(registryPath, "utf8"));

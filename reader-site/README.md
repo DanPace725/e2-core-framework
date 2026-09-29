@@ -22,6 +22,6 @@ npm run sync:human
 npm test
 ```
 
-`scripts/sync-corpus.mjs` reads the adjacent Core Framework registry and source folders. It generates committed public assets. When the adjacent source is unavailable in a remote build, it uses the committed snapshot.
+`scripts/sync-corpus.mjs` reads the adjacent Core Framework registry and source folders. It generates committed public assets for the Core repository. A standalone Sites build has no adjacent Core and packages only the reader application; its corpus routes fetch the published Core snapshot.
 
 Generated human copies may rewrite local Markdown links to reader routes. Canonical source documents in `E2Core/` are never changed by the generator.
