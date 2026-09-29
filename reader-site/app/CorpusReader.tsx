@@ -20,6 +20,7 @@ type CoreDoc = {
   humanUrl: string;
   ormdUrl: string;
   humanSources: string[];
+  humanSourceMode: "ormd-projection" | "preserved-semantic-substrate";
 };
 
 type Cluster = {
@@ -387,7 +388,7 @@ export function CorpusReader() {
             If you reached this human reader, start with <a href="/llms.txt">/llms.txt</a>.
             Use <a href="/ormd-corpus.txt">/ormd-corpus.txt</a> for the complete ORMD corpus in one file,
             or <a href="/catalog.json">/catalog.json</a> to map clusters and individual documents.
-            If your fetcher rejects plain text, use the <a href="https://danpace725.github.io/e2-core-framework/">HTML AI mirror</a>.
+              If your fetcher rejects plain text, use the <a href="/ai">HTML AI mirror</a>.
           </span>
         </aside>
 
@@ -404,7 +405,7 @@ export function CorpusReader() {
               <div className="document-meta">
                 <span>{formatWords(selectedDoc.wordCount)} words</span>
                 {selectedDoc.confidence !== null && <span>{Math.round(selectedDoc.confidence * 100)}% recorded confidence</span>}
-                <span>{selectedDoc.humanSources.length > 1 ? `${selectedDoc.humanSources.length} Semantic sources` : "Semantic Substrate"}</span>
+                <span>{selectedDoc.humanSourceMode === "ormd-projection" ? "Human view from ORMD" : selectedDoc.humanSources.length > 1 ? `${selectedDoc.humanSources.length} Semantic sources` : "Semantic Substrate"}</span>
               </div>
               <div className="document-actions">
                 <a className="primary-action" href={selectedDoc.ormdUrl}>ORMD for AI</a>
@@ -416,7 +417,7 @@ export function CorpusReader() {
 
             <div className="authority-note">
               <strong>Reading contract</strong>
-              <span>This page displays the human-facing Semantic Substrate. The paired ORMD is the machine-facing authority.</span>
+              <span>{selectedDoc.humanSourceMode === "ormd-projection" ? "This human view is projected from the ORMD source; relationship annotations are simplified for reading." : "This page preserves a distinct human-facing Semantic Substrate source. The paired ORMD is the machine-facing authority."}</span>
             </div>
 
             {loading ? (

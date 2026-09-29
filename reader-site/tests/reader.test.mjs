@@ -51,6 +51,8 @@ test("publishes complete paired human and AI catalogs", async () => {
   assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, activeCount);
   assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, activeCount);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
+  assert.equal(catalog.docs.filter((doc) => doc.humanSourceMode === "ormd-projection").length, 19);
+  assert.equal(catalog.docs.find((doc) => doc.slug === "relational-primitives")?.humanSourceMode, "preserved-semantic-substrate");
   assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
   assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, activeCount - 1);
   assert.ok(catalog.docs.every((doc) => !["remf", "universal-emergence-pattern", "relational-emergence-meta-architecture-rema"].includes(doc.slug)));
@@ -120,7 +122,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(llms, /## Cluster [JK]/);
   assert.match(llms, /ORMD is the AI-facing authority/);
   assert.match(llms, /https:\/\/e2-core-framework\.capulusirl\.chatgpt\.site\/ormd\/context-layer-master-index\.ormd/);
-  assert.match(llms, /HTML AI mirror: https:\/\/danpace725\.github\.io\/e2-core-framework\//);
+  assert.match(llms, /HTML AI mirror: https:\/\/e2-core-framework\.capulusirl\.chatgpt\.site\/ai/);
   assert.match(llms, /Machine-readable relationship graph/);
   assert.match(llms, /E² as a Translation Architecture for Human Remembrance/);
   assert.doesNotMatch(llms, /\]\(\/ormd\//);

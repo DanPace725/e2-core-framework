@@ -96,7 +96,7 @@ test("master-index document names open documents while cluster navigation stays 
 
   assert.match(markdown, /\[Relational Primitives\]\(\/?\?doc=relational-primitives/);
   assert.match(markdown, /\[E\^2 Equation\]\(\/?\?doc=e2-equation/);
-  assert.match(markdown, /\[REMF\]\(\/?\?doc=remf/);
+  assert.match(markdown, /\[Attentional Access and Formation\]\(\/?\?doc=attentional-access-and-formation-core-source/);
   assert.match(markdown, /\[Adversarial Occlusion & Mechanism Integrity V1\]\(\/?\?doc=adversarial-occlusion-and-mechanism-integrity-v1/);
   assert.match(markdown, /\[Context Layer Protocol \(CLP\)\]\(\/?\?doc=context-layer-protocol-clp/);
   assert.match(markdown, /\| \[A\]\(#cluster-a/);

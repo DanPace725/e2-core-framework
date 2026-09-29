@@ -1,0 +1,55 @@
+name: Publish reader corpus
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "E2Core/**"
+      - "core_registry.json"
+      - "reader-site/scripts/**"
+      - "reader-site/tests/**"
+      - "reader-site/graph-relations.yml"
+      - "reader-site/package.json"
+      - "reader-site/package-lock.json"
+      - ".github/workflows/publish-reader-corpus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-reader-corpus
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: reader-site/package-lock.json
+      - run: npm ci --prefix reader-site
+      - name: Synchronize ORMD-primary human documents
+        run: npm run sync:human --prefix reader-site
+      - name: Validate source and build every public surface
+        run: |
+          python tools/validate_repository.py
+          npm test --prefix reader-site
+          npm run lint --prefix reader-site
+      - name: Commit the generated corpus snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "E2Core/Semantic Substrate" "reader-site/scripts/human-sync-state.json" "reader-site/public" "docs" "llms.txt"
+          if ! git diff --cached --quiet; then
+            git commit -m "Build reader corpus from Core sources"
+            git push origin HEAD:main
+          fi

@@ -3,6 +3,7 @@ import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { projectOrmdToHuman } from "./ormd-human.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const coreRoot = path.resolve(siteRoot, "..");
@@ -13,6 +14,7 @@ const contextRoot = path.join(coreRoot, "E2Core", "Context Layer");
 const semanticIndexPath = path.join(coreRoot, "E2Core", "context layer index.md");
 const contextIndexPath = path.join(contextRoot, "Context Layer Index.ormd");
 const graphRelationsPath = path.join(siteRoot, "graph-relations.yml");
+const ormdPrimaryPath = path.join(siteRoot, "scripts", "ormd-primary.json");
 const publicSiteBase = "https://e2-core-framework.capulusirl.chatgpt.site";
 const githubRawBase = "https://raw.githubusercontent.com/DanPace725/e2-core-framework/main/reader-site/public";
 const githubPagesBase = "https://danpace725.github.io/e2-core-framework";
@@ -35,6 +37,7 @@ if (!(await exists(registryPath))) {
 }
 
 const registry = JSON.parse(await readFile(registryPath, "utf8"));
+const ormdPrimary = new Set(JSON.parse(await readFile(ormdPrimaryPath, "utf8")));
 const indexText = await readFile(contextIndexPath, "utf8");
 
 const slugify = (value) => value
@@ -335,7 +338,10 @@ for (const item of items) {
   const semanticSources = item.record.semantic_substrate ?? [];
   let humanText;
 
-  if (item.slug === "context-layer-master-index") {
+  if (ormdPrimary.has(item.context.name)) {
+    if (semanticSources.length !== 1) throw new Error(`ORMD-primary document requires one human counterpart: ${item.context.name}`);
+    humanText = projectOrmdToHuman(ormdText);
+  } else if (item.slug === "context-layer-master-index") {
     humanText = await readFile(semanticIndexPath, "utf8");
   } else if (semanticSources.length === 1) {
     humanText = await readFile(path.join(coreRoot, ...semanticSources[0].path.split("/")), "utf8");
@@ -386,6 +392,7 @@ for (const item of items) {
     humanUrl: `/human/${item.slug}.md`,
     ormdUrl: `/ormd/${item.slug}.ormd`,
     humanSources: semanticSources.map((source) => source.name),
+    humanSourceMode: ormdPrimary.has(item.context.name) ? "ormd-projection" : "preserved-semantic-substrate",
     ormdSource: item.context.name,
     humanSha256: sha256(Buffer.from(humanText, "utf8")),
     ormdSha256: sha256(ormdBytes),
@@ -419,9 +426,9 @@ const catalog = {
   schemaVersion: 1,
   generatedAt: new Date().toISOString(),
   title: "E² Core Framework",
-  description: "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
+  description: "Human-readable views with paired AI-facing ORMD authority.",
   authority: {
-    human: "Semantic Substrate Markdown",
+    human: "ORMD projection for reviewed pairs; preserved Semantic Substrate Markdown for other pairs",
     ai: "Context Layer ORMD",
     navigation: "Context Layer Master Index",
   },
@@ -573,8 +580,7 @@ const llmsLines = [
   "> Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.",
   "",
   `Current AI entry point: ${publicSiteBase}/llms.txt`,
-  `HTML AI mirror: ${githubPagesBase}/`,
-  `Whole-corpus HTML mirror: ${githubPagesBase}/corpus.html`,
+  `HTML AI mirror: ${publicSiteBase}/ai`,
   `Source repository: https://github.com/DanPace725/e2-core-framework`,
   "",
   "## How to read this corpus",
@@ -589,6 +595,7 @@ const llmsLines = [
   `- [Machine-readable relationship graph](${publicSiteBase}/graph.json)`,
   `- [Combined ORMD corpus](${publicSiteBase}/ormd-corpus.txt)`,
   `- [Human mobile reader](${publicSiteBase}/)`,
+  `- [HTML AI mirror](${publicSiteBase}/ai)`,
   "",
 ];
 
