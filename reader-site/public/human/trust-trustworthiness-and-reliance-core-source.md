@@ -368,4 +368,3 @@ Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
 ## Final Compression
 
 Trustworthiness is an indexed estimate about expected conduct. Trust is willingness to accept specified vulnerability under uncertainty. Reliance is the coupling through which exposure becomes actual. Assurance changes the exposure field without becoming Trust, and Custody owns answerable holding when a stable referent enters standing responsibility. The distinctions remain usable only while domain, evidence, constraint, and freshness stay visible.
-

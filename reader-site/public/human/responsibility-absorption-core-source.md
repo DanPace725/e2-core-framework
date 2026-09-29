@@ -156,4 +156,3 @@ Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
 ## Final Compression
 
 Responsibility absorption consolidates a repair route without consolidating reality. It is coherent only when the absorber is reachable and capable, the causal and consequence ledgers stay open, affected parties retain contest power, and unrepaired remainder is not pushed outside the boundary.
-

@@ -188,4 +188,3 @@ Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
 ## Final Compression
 
 Persistence claims need a criterion, a topology, a layer, and a use. Accumulated stance-with records the expenditure supporting actively maintained continuity at that layer. It does not tell us by itself what persisted, who experienced the interval, what was lost, who remains accountable, or what the persistence is worth.
-

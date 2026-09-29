@@ -187,4 +187,3 @@ Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
 ## Final Compression
 
 Lawfulness is not regular-looking behavior. It is a defeasible license for probabilistic assertion. The license exists only at an indexed observer position, scale, window, model class, perturbation range, and tolerance, and only while observability, predictive adequacy, temporal stability, and perturbation stability remain defensible.
-

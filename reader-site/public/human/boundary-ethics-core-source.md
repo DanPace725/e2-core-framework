@@ -242,4 +242,3 @@ Before migration into the active Semantic Substrate, confirm cross-links to:
 - `Remnant Stewardship - Core Source.md`
 - `Intervention Stewardship` once its source status settles
 - RBoR, EDF, SBF, AOMI, TC/EO, and sign-mediated routing
-

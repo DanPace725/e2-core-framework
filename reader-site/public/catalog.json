@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T00:37:12.426Z",
+  "generatedAt": "2026-09-29T16:25:14.062Z",
   "title": "E² Core Framework",
-  "description": "Human-readable Semantic Substrate with paired AI-facing ORMD authority.",
+  "description": "Human-readable views with paired AI-facing ORMD authority.",
   "authority": {
-    "human": "Semantic Substrate Markdown",
+    "human": "ORMD projection for reviewed pairs; preserved Semantic Substrate Markdown for other pairs",
     "ai": "Context Layer ORMD",
     "navigation": "Context Layer Master Index"
   },
@@ -391,6 +391,7 @@
       "humanUrl": "/human/context-layer-master-index.md",
       "ormdUrl": "/ormd/context-layer-master-index.ormd",
       "humanSources": [],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Context Layer Index.ormd",
       "humanSha256": "8387711ebeefa58ba0ae50df821c30149bdf83f89e1f54c1fa1a646f552112b2",
       "ormdSha256": "9081a3c6bc545b5a5b0d16e56055022b8cb783275bb1ddce8631144c6bbb4ecb"
@@ -409,6 +410,7 @@
       "humanSources": [
         "E^2 Axioms.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "E^2 Axioms.ormd",
       "humanSha256": "98b79254cb0223326d4dff47decbdc9a2b9392373d1aca080dbe5676b7ec8b9f",
       "ormdSha256": "a4baeb8c13c9313ad0d2fecef0d6cb91ed3969956a187396426ed059f74328db"
@@ -427,6 +429,7 @@
       "humanSources": [
         "E^2 Entry Point.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "E^2 Entry Point.ormd",
       "humanSha256": "80e1881b9dc8aeb93723b9c7dcad4e32d5282668b6b8005d73b6265bb0082431",
       "ormdSha256": "3091e0abb681388873cafb095fcd544031c5f0702845646ee866bd0bd519fd59"
@@ -445,6 +448,7 @@
       "humanSources": [
         "E^2 Equation.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "E^2 Equation.ormd",
       "humanSha256": "a8bd633c5f99ac0ad3e34fd9e94b102a7c4be4289ed985f059867e8c4d3501b3",
       "ormdSha256": "f5a52f933b53e4b9df2b22adbd67c3be1cb02d307c29d922526aae5993cf4967"
@@ -463,6 +467,7 @@
       "humanSources": [
         "E² as a Translation Architecture for Human Remembrance.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "E² as a Translation Architecture for Human Remembrance.ormd",
       "humanSha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821",
       "ormdSha256": "9251d42d27a7dcab874ff710e64a966a2acebce931aa7658359530e4d36122f9"
@@ -481,6 +486,7 @@
       "humanSources": [
         "Global Closure Operator.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Global Closure Operator.ormd",
       "humanSha256": "a005796511987b935bdb2d6ffb287aed738ccccbfbe098bda6c1d7fe492de956",
       "ormdSha256": "6bc201079e894cbf39a3dbb88c53371814a70415d99e58b2431cafa2cf3ae4ab"
@@ -499,6 +505,7 @@
       "humanSources": [
         "Original E^2 work.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Original E^2 work.ormd",
       "humanSha256": "3a8e7f4bd0cf6265dc2bfe2d29669f5000df93673f1eabc6bffc0ff17e9c8a4a",
       "ormdSha256": "224a587ffc2451025dc1c6fb0ff57f5747e9cae97d76f2fdcafaac168eec640a"
@@ -517,6 +524,7 @@
       "humanSources": [
         "Relational Primitives.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Primitives.ormd",
       "humanSha256": "d5e062136dc9b8cfb7b1c8df8fae751344e46d36fcbac54fea4e463a5a3a4638",
       "ormdSha256": "1cf9291872efbe7e5258d104d961964aef52f345f7c3edf5433bd25dcfbf2c12"
@@ -535,9 +543,10 @@
       "humanSources": [
         "CT translation of RPs.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "CT translation of RPs.ormd",
       "humanSha256": "d58f4f7142c1043046aafa3f42ffdde4a01137874d77bbba7c04a4f3c4a02add",
-      "ormdSha256": "2d44227ad262895b94ac0ebdd0f70905b5f1aedbff496ed9d8a3a834793f987d"
+      "ormdSha256": "bf347b3221cf0fa08d8cb35999f27de07193a78152f7167d46a79284b3a052c1"
     },
     {
       "slug": "derivation-deep-dive",
@@ -553,9 +562,10 @@
       "humanSources": [
         "Derivation deep dive.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Derivation deep dive.ormd",
       "humanSha256": "afe36ae1b83daf8831311499316ca6050f171f82daefdce08cae5afacda7516d",
-      "ormdSha256": "1d90ed505a1f73c0e8d2ed607ef004a3db51fa3a0024ff663ab422173135335b"
+      "ormdSha256": "dd94dbadfb7cdf02c608a16cd5f765030b5be2ec32e87ada9b190a33ad590d43"
     },
     {
       "slug": "embedded-universality-principle-eup",
@@ -571,9 +581,10 @@
       "humanSources": [
         "Embedded Universality Principle (EUP).md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Embedded Universality Principle (EUP).ormd",
       "humanSha256": "60df656d1cecdc0346c8d4d119be9d8374fd4df84126118f934f7707f19e007c",
-      "ormdSha256": "364682d5220b89711c1e942a08f98763c7b18bd33da40bba8a99ae6a572ad500"
+      "ormdSha256": "2cccfd5c5c4361627290f8b7d839cfb2c83b9c2ecce66d134ae3f2d47a173bd1"
     },
     {
       "slug": "lawfulness-core-source",
@@ -589,8 +600,9 @@
       "humanSources": [
         "Lawfulness - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Lawfulness - Core Source.ormd",
-      "humanSha256": "11c39af4c76328d990868723a446f1a23629c2432026f211fcc698dfab39c802",
+      "humanSha256": "3492b10cb2ee7cab8aafe0485a3d6ac9db8180abc203f23c0dea549848c99ef7",
       "ormdSha256": "34f45d05b05cc421a5b9944ca1081eae6f241aa7ae8209a68004201b57475608"
     },
     {
@@ -607,9 +619,10 @@
       "humanSources": [
         "Meta-Pattern Decidability Conjecture (MPDC).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Meta-Pattern Decidability Conjecture (MPDC).ormd",
       "humanSha256": "b025614627f92d49edf9b6174f0133f0661decee2d430245c0419b5de48f093a",
-      "ormdSha256": "eefa02ed499a85c437e0a9523740dc6517caa7719d2a4c34823022923930f741"
+      "ormdSha256": "9e4607bf5196bcc6fcb25fb6880ab12d5fe9f464001ebeadcc359a9ef11ca5a1"
     },
     {
       "slug": "relational-derivation-chain",
@@ -625,9 +638,10 @@
       "humanSources": [
         "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Derivation Chain .ormd",
       "humanSha256": "c302b1b49efa74a4f47a6dfc4f41787d58b1109f6b3ede3640d3894c2aba35c3",
-      "ormdSha256": "28576d68fa6fa6a95c9219e07fc2c8fb88c6e1a87cee9ee66c11a0388132a237"
+      "ormdSha256": "eff97d19b569f036e46e79ae4ced7a059581565ba89846394877bab1da68bce7"
     },
     {
       "slug": "relational-field-dynamics-0-1",
@@ -643,9 +657,10 @@
       "humanSources": [
         "Relational Field Dynamics 0 1.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Field Dynamics 0 1.ormd",
       "humanSha256": "6844f081877c85d87b7f6c7a1b2ad0ede8ea2b31058619a11fcc98ba1531df33",
-      "ormdSha256": "81d1bf66b70365a019c9bc33c2ca82a954f24f62ee815b53ddd54365e96b9d2b"
+      "ormdSha256": "77187f887a0c5a3dadb1086bc60b2e24ea60d5868bbcbea8b3a30c1cf3475f06"
     },
     {
       "slug": "rp-lambda-calc-translation",
@@ -661,9 +676,10 @@
       "humanSources": [
         "RP Lambda Calc Translation.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "RP Lambda Calc Translation.ormd",
       "humanSha256": "3793edca294f66e1915f1e12ec1625857a6b4c59af5f2645c7db3595175637fd",
-      "ormdSha256": "fee85fa07c6431e90a55a0e8f68e957528b887f493eb3bdaddf802fe2ddc5bfa"
+      "ormdSha256": "aed3d9ebd118f6056c381ede232845e16a71bcb4861af9055cbccfc4b2d97116"
     },
     {
       "slug": "adaptation-via-informational-abstraction",
@@ -679,6 +695,7 @@
       "humanSources": [
         "Adaptation via Informational Abstraction.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Adaptation via Informational Abstraction.ormd",
       "humanSha256": "0b2e0a67108aa37941b7b9c6f657032471d9bbe327179cf948fa9386b02e405d",
       "ormdSha256": "0db78e48e164b7a26e9d1dba4d011f44b912a0ab1010ee29fc698d42360b75fc"
@@ -697,6 +714,7 @@
       "humanSources": [
         "Attentional Access and Formation - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Attentional Access and Formation - Core Source.ormd",
       "humanSha256": "cb027b52422b06affe73caf23e7878521a1907e3458d0176e38add41ff3196e4",
       "ormdSha256": "61f286c2ecac0365ff1a52353f1314265edb9989bbca2f07d79f1dec1ebc4b84"
@@ -715,9 +733,10 @@
       "humanSources": [
         "boundary_dynamics.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "boundary_dynamics.ormd",
       "humanSha256": "36e939e7510662863ec493699053e8524e04cf2f24b3c6fc0d4cee5fc722986d",
-      "ormdSha256": "d9f27b5e09b63a133c059f5a1ff08d091b5231cc1a66a6458c456a96193287a0"
+      "ormdSha256": "2a858c458e722b45ae46b450bae881c6ffe618d42abfbf5c2f16d0c3e55c035d"
     },
     {
       "slug": "constraint-fluctuation-attention-resolution-core-source",
@@ -733,6 +752,7 @@
       "humanSources": [
         "Constraint-Fluctuation-Attention-Resolution - Core Source.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
       "humanSha256": "c4b1cdea637f735b5a5f8356b33d33e9c0e3451fb4ff3afe5f65b859dd86d70b",
       "ormdSha256": "488075a00769fb6df5015599f7f20432dd47fb41f682ded60ac14eaef360334b"
@@ -751,9 +771,10 @@
       "humanSources": [
         "Emergence_Determination_Foreclosure.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Emergence_Determination_Foreclosure.ormd",
       "humanSha256": "f1b302164854e899b487f088e79333d91ef95e012457125d0c5c52c76fbe4996",
-      "ormdSha256": "12f877a3f487fd9e5185d0436a640294d884b1d360c0af7fc56c93064401c65b"
+      "ormdSha256": "2dc2d3e86f57ed1d78a22a09dd4cc80f8a40681c0617da212cc9577683848605"
     },
     {
       "slug": "flow-operators-provisional",
@@ -769,9 +790,10 @@
       "humanSources": [
         "flow_operators_provisional.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "flow_operators_provisional.ormd",
       "humanSha256": "07b49c3f8e1878d1c792d04030a22437d96c04a08cc7cff447060f80209d2c0d",
-      "ormdSha256": "35ea5ce1f0e832225387a1bf5da1ccfbf9623e08358510dd1e1b2d67bd75e2de"
+      "ormdSha256": "f0712382eb58bca5c42b0b8d9a103c8bcadb8aba6c1e2ec1b6bba3a95cf24d6c"
     },
     {
       "slug": "from-essential-relationships-to-ontological-transformation",
@@ -787,9 +809,10 @@
       "humanSources": [
         "From Essential Relationships to Ontological Transformation.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "From Essential Relationships to Ontological Transformation.ormd",
       "humanSha256": "022ca874635ec632aaab15de6b0d2065ee52f913e0b4a085e6b8d75d0d03d7af",
-      "ormdSha256": "8761d81a9940dd5d176c70bbbd1bc6179508de2bae366367eee4b11ec813038b"
+      "ormdSha256": "c1f849614384dd6acb2efa6003394810a1a866e7192dbd85763c0f9df54f1321"
     },
     {
       "slug": "pattern-integrity-over-time-under-entropy",
@@ -805,9 +828,10 @@
       "humanSources": [
         "Pattern Integrity over Time under Entropy.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Pattern Integrity over Time under Entropy.ormd",
       "humanSha256": "75e4c8fa95b8a5b72d272bd41ceac8ffff3626514fe5fa7e8e06c1c80c6a6c82",
-      "ormdSha256": "d396d0b3d544a4539bc0b86f3d6eb4ce072f11f6f99e6d256eeb36b68cefe9c7"
+      "ormdSha256": "5e4dec907cf434ae31ad57c8eed7d3d9b263c61abf826bfacab25b403382569e"
     },
     {
       "slug": "persistence-as-accumulated-stance-with-core-source",
@@ -823,8 +847,9 @@
       "humanSources": [
         "Persistence as Accumulated Stance-With - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Persistence as Accumulated Stance-With - Core Source.ormd",
-      "humanSha256": "bfdc3b43d2a79a6b8b71335fb5b42b48b0e674a1443ae0201a0c11742dfea251",
+      "humanSha256": "012e1a02b17af7c5a368bc9cb4540c04e4b928bc5850b118b709da132d5720d6",
       "ormdSha256": "05d79a1ef11c391345b3cea9322a26f46041eef982aeff93f5af361accd5bbcd"
     },
     {
@@ -841,9 +866,10 @@
       "humanSources": [
         "resolution_synthesis.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "resolution_synthesis.ormd",
       "humanSha256": "fc7f32d69a164d4477f6b816676b4401a6bcd5981426c0a61e0bb199779a6c3c",
-      "ormdSha256": "8d587ca509b464eb22d8befaf2dbde73a9a2072eaf8fa20b1595d2301b902822"
+      "ormdSha256": "be0c853fd86b664039e8e0736ee419175f9c617778a67bfefd2f6b9c93c10251"
     },
     {
       "slug": "tension",
@@ -859,9 +885,10 @@
       "humanSources": [
         "Tension.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Tension.ormd",
       "humanSha256": "5f958ff892945adf6cb3dd7239a308b89edbb7b25b852ecef301cb607e766a8d",
-      "ormdSha256": "e2e43c037abde86a53cebc8dc1b8a532181832b16cce31d59bb3c867939c2143"
+      "ormdSha256": "fee123fb2fcc9e669f6e04aa8b0e0c37ac66dd8e259388d2791818c68da1777b"
     },
     {
       "slug": "tensional-intelligence-a-theoretical-foundation",
@@ -877,9 +904,10 @@
       "humanSources": [
         "Tensional Intelligence A Theoretical Foundation.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Tensional Intelligence A Theoretical Foundation.ormd",
       "humanSha256": "afa9ea20c10d14a13878f237722b6ed1e9e5730611928ca46cb8d3d88aa0b611",
-      "ormdSha256": "2d4be17c36641bd8d0d14fd441f0a02934bddb30a889aff04c750987bf7f9562"
+      "ormdSha256": "8f755824defd8f4b4ead71f091b0c684e9160fc46b961e2bbef934c37a119d18"
     },
     {
       "slug": "emergence-engine-overview",
@@ -895,9 +923,10 @@
       "humanSources": [
         "Emergence Engine overview.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Emergence Engine overview.ormd",
       "humanSha256": "c301f52b1ff43498ad7d7dddffe9fadc550615019348b224e8895e42c181efe8",
-      "ormdSha256": "fc411d1bc058eab1a2d76830e1235485e2decb42df51613aaa03d677cac13a41"
+      "ormdSha256": "512a2e29f0425b655ab8e3f30bfa93c3137725625e216aef3926b7ea9629ddc1"
     },
     {
       "slug": "metabolic-meaning-phase-space-mmps",
@@ -913,6 +942,7 @@
       "humanSources": [
         "Metabolic Meaning Phase Space (MMPS).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Metabolic Meaning Phase Space (MMPS).ormd",
       "humanSha256": "3a0dafa57457a68e21468d24d524d27a1819e69b5f0c5ac177e5d6e7d5707d49",
       "ormdSha256": "ebb8d0e6004e2a37fa60e0922b607ff940d836f89ab18a4d4a6eeca4ab36a4ce"
@@ -931,9 +961,10 @@
       "humanSources": [
         "Resonance Architecture 4 17 25.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Resonance Architecture 4 17 25.ormd",
       "humanSha256": "33f595f6d87ccc016d25f8d48419ea6e6cfe0a9a67476064ee1028fb094103b1",
-      "ormdSha256": "4f8ab167445a7686041c26c139b94268d07aece571364faab219b5e69a7c5738"
+      "ormdSha256": "3eddfcc293182ff7f2e1c4cc8348192d096952ac158c2c07848f2ffa273728ef"
     },
     {
       "slug": "signal-as-bias-field",
@@ -949,9 +980,10 @@
       "humanSources": [
         "Signal as Bias Field.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Signal as Bias Field.ormd",
       "humanSha256": "357253646056c2138cea3467240f44554254394632247eb007ac833369fb4ce0",
-      "ormdSha256": "8e66a56adf45e1c02b6f225c8b75f44992f5109a83bad31973a6878ce5ee7d14"
+      "ormdSha256": "d9f5f8df11718719b675d884791e00a8eee9244138add8faf52832b612875c8f"
     },
     {
       "slug": "slow-layer-clock-ratio-core-source",
@@ -967,8 +999,9 @@
       "humanSources": [
         "Slow-Layer Clock Ratio - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Slow-Layer Clock Ratio - Core Source.ormd",
-      "humanSha256": "32dd0bfd30f850b80fe6ba55dbd4139b76e6a8590479f6c3da1d1529b2dd728d",
+      "humanSha256": "ef3076eeb4b076637ce1877a594e94f66aa3c31a0b56c0585d31eb9d4b010559",
       "ormdSha256": "e2b72823f256317494a979d1e037fba851fe37b46738b0e88f3ea1c5c5573f59"
     },
     {
@@ -985,9 +1018,10 @@
       "humanSources": [
         "TCL_Plain_English_Summary.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "TCL_Plain_English_Summary.ormd",
       "humanSha256": "9ae5d775fa8952645d3ec3cc70491ce0252f04bfe113ca6d269f697eefa8572b",
-      "ormdSha256": "3b1a35a32f3b98898758adb804e994583ae6dd8be7ca47f7593e847f18d6924e"
+      "ormdSha256": "64d3f1e6db57218602dfcc0741129b043ab5a96616d1226e895f8fed13874060"
     },
     {
       "slug": "the-architecture-of-resonant-systems-4-26-25",
@@ -1003,9 +1037,10 @@
       "humanSources": [
         "The Architecture of Resonant Systems 4 26 25.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "The Architecture of Resonant Systems 4 26 25.ormd",
       "humanSha256": "a2e02c702a267073653539475e715b3d5f81c93c43896c40bd079f3ec0bd5400",
-      "ormdSha256": "b7fe5d76e4711b1d0a11e16f6881cfee1aef617d85403400e5eb8b1c28158ce4"
+      "ormdSha256": "a94a94b728178801efa59264bfd7377727cbe989e9792104d97c6ddc85631e63"
     },
     {
       "slug": "tcl-three-constants",
@@ -1021,9 +1056,10 @@
       "humanSources": [
         "TCL_Three_Constants.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "TCL_Three_Constants.ormd",
       "humanSha256": "63d1cf0f0b77b9ee26476464db793d0391a7b98e77f701d786fb3d1aa29f9e53",
-      "ormdSha256": "571ab95a3829b14af99f2d734d44b326fc0656538f9c9c77099543ac72f45ee2"
+      "ormdSha256": "e3407bbd56da91dc843c2fda47d8d30c1a70597d28c46e64fd846b008adeb0f9"
     },
     {
       "slug": "the-resonance-framework-an-ontological-map-4-24-25",
@@ -1039,9 +1075,10 @@
       "humanSources": [
         "The Resonance Framework An Ontological Map 4 24 25.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "The Resonance Framework An Ontological Map 4 24 25.ormd",
       "humanSha256": "12fa6b43eb11bcea059351f4aa9228ded952f7ada32ea870853037f53a3efb4c",
-      "ormdSha256": "b5eac7678eeec9d15af7bb13d22f5f6284db767f248e2ce52a4a559e5e60e9f9"
+      "ormdSha256": "5ad0901b374276ffd3412c1368b94a5cf251140e20849917ab3351477988dda3"
     },
     {
       "slug": "asymmetry-maintenance-core-source",
@@ -1057,9 +1094,10 @@
       "humanSources": [
         "Asymmetry Maintenance - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Asymmetry Maintenance - Core Source.ormd",
-      "humanSha256": "45a507b51f7d54b5da2a63d1460ba4c015350574162e4ac7f9d732c7a11065b6",
-      "ormdSha256": "770776bc27d4ccdc90b784f6fade3215b7b5ddec5a2969ff8295d77fa866eabf"
+      "humanSha256": "2385eada5b5cc622d987b2aeba8bca8a48eb4e3d66f8d82e96773077880892a7",
+      "ormdSha256": "eca87def13da8aff371f10772b24f9546b4d882a92b273ef88b00fe15b1f50a7"
     },
     {
       "slug": "boundary-ethics-core-source",
@@ -1075,9 +1113,10 @@
       "humanSources": [
         "Boundary Ethics - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Boundary Ethics - Core Source.ormd",
-      "humanSha256": "3c57e82c83f546fa1ed2fb16909978791c270a422f3886c21a4bea252421881a",
-      "ormdSha256": "3f99371da19f1c2559db65b70431ed180a85067c16aae3c8c765aba1e7d994ba"
+      "humanSha256": "6a09b5f0dad632f94f039eff136d0f3a218f90f626889eb0e7f829a84b5bbde8",
+      "ormdSha256": "fb7c59af79621e4fc0e70b08f4ec8aaf1bbc71f14297c7475532cf1853fe6024"
     },
     {
       "slug": "complex-causality-core-source",
@@ -1093,9 +1132,10 @@
       "humanSources": [
         "Complex Causality - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Complex Causality - Core Source.ormd",
-      "humanSha256": "a3f642bf49df86d1f012ba388089f44c3674f6d396e13a487a3bb3cb3609a138",
-      "ormdSha256": "bc5ca751ee123d33a2e9954aad56253da6a032bd6a0b3524e09205a4740b029c"
+      "humanSha256": "aefdfb4aa232a338b4cf0972d4570aadafd1ad201b44b77a2d958e251bdedd4c",
+      "ormdSha256": "961b7dd82f22bef19a6e07665a48d499e6cb60fb4eb4260e5d65c7b7744c16f0"
     },
     {
       "slug": "condition-as-typed-terrain-core-source",
@@ -1111,6 +1151,7 @@
       "humanSources": [
         "Condition as Typed Terrain - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Condition as Typed Terrain - Core Source.ormd",
       "humanSha256": "3a4598ed8e26b3d988b7ea667f0da57c6f4aff9c046f33eb3e3af6ad1a7ffe98",
       "ormdSha256": "d5ae43822b1eca36bd5b9ad1aa1e214aa0e4b3e50bcff405489e2fef8fbaebf3"
@@ -1129,6 +1170,7 @@
       "humanSources": [
         "Consequence Routing - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Consequence Routing - Core Source.ormd",
       "humanSha256": "0816b139e6f056445cb59114ec75bcb088d1bb5c32cdd2cee3bb7bf82c2133db",
       "ormdSha256": "3c3969d8dfbb2eed73bff9231270fc4c1cbdd80ed96d4b01808b0169c5223515"
@@ -1147,6 +1189,7 @@
       "humanSources": [
         "Custody - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Custody - Core Source.ormd",
       "humanSha256": "0fd74562b9af5d16688667c76b7cfd2db2682b69989eaa1cd4334fd8fbdf8b6b",
       "ormdSha256": "591c8feaaa8eb29d154516e2b98473a2e81c805497fc2a7ab91332292c5dcb51"
@@ -1165,6 +1208,7 @@
       "humanSources": [
         "Ethical Occlusion via Temporal Compression (EOTC).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Ethical Occlusion via Temporal Compression (EOTC).ormd",
       "humanSha256": "ad2cec03c6430f6f57c6f1411e4e2c57ba781142153f7dc0b27f66cf3b425e3d",
       "ormdSha256": "e1b6115b5ac0aaf0ff36e138e273fddaf9f29099cfcba0687e2d9896b59c805f"
@@ -1183,9 +1227,10 @@
       "humanSources": [
         "Ethical Principles for Human-AI Interaction.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Ethical Principles for Human-AI Interaction.ormd",
       "humanSha256": "88d3324f1a3a14cc2c24bf9324da141ff6caa27f6a274c7a760b6ebfe261623f",
-      "ormdSha256": "6b79442e711ddc047a2a062aa6b8b82fdf6329b85ab8fda77ac196b4979b96e8"
+      "ormdSha256": "bb445077bea9fe7ef2435c7bfba68ac53c9c02f5c806ac48c9b447788182303d"
     },
     {
       "slug": "human-ai-creative-collaboration-framework-haic",
@@ -1201,9 +1246,10 @@
       "humanSources": [
         "Human-AI Creative Collaboration Framework (HAIC).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Human-AI Creative Collaboration Framework (HAIC).ormd",
       "humanSha256": "9f8745889e0796f7b69347fa4016ca0b6853cf01e614e197103d8093b5137757",
-      "ormdSha256": "a8b6311137bc3f1456cc2cf213e2552a8cb41acc240f1d272e443e419e86205f"
+      "ormdSha256": "b61a334f012d12437380a74d7535911ded50e5611760df08c932611e669b80df"
     },
     {
       "slug": "interlocked-stewardship-v2",
@@ -1219,6 +1265,7 @@
       "humanSources": [
         "Interlocked Stewardship V2.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Interlocked Stewardship V2.ormd",
       "humanSha256": "d97c07040bb514f5b98d2f56704d5c3d72757f6fa1d7794c79f2fe5c64a3af46",
       "ormdSha256": "7d2f1f0a9ba61355caff0714e761df78be293e7da768033e611831abce2bdc9c"
@@ -1237,6 +1284,7 @@
       "humanSources": [
         "Intervention Stewardship - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Intervention Stewardship - Core Source.ormd",
       "humanSha256": "cd46c4ffe82a05c5289674ccdfa8b9cea332e51b26feab2ad66a0fdbd885e3eb",
       "ormdSha256": "cbaaba161e0ab4c1114bf236999f48d24ddae278cce74d8a26fdc5480b7e47cf"
@@ -1255,9 +1303,10 @@
       "humanSources": [
         "Justice Across Scales.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Justice Across Scales.ormd",
-      "humanSha256": "7ebbcd0705fd8801c322d2c0c841000a5eef2683211c4a7725892fa72d1b3886",
-      "ormdSha256": "97659373c49039aaff3b9a3990b377cde278c128dc79b809c29428d22f44b8fe"
+      "humanSha256": "ecddecff138a84007a3747c476558c0e313fe035db6ad3c0796bd8ccd1089392",
+      "ormdSha256": "e0eaebbb87123deb151eb5f9025bc1eedf4cbffeab0da660487980ceca6de3e5"
     },
     {
       "slug": "justice-across-scales-practical-applications",
@@ -1273,9 +1322,10 @@
       "humanSources": [
         "Justice Across Scales Practical Applications.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Justice Across Scales Practical Applications.ormd",
       "humanSha256": "38c541967cbc558e19f1efd72fe65087693dcca24fc4ef8367d67b40561a6078",
-      "ormdSha256": "a7296305c81ce0ab5b43240f86d01e6b3d63874dea6a5c6f2f971538f60120a8"
+      "ormdSha256": "207c8c862fd3be3bc7567d404fc36fdcdf84fb8a638957cb942b8c59a1546ee1"
     },
     {
       "slug": "proxy-localization-core-source",
@@ -1291,6 +1341,7 @@
       "humanSources": [
         "Proxy Localization - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Proxy Localization - Core Source.ormd",
       "humanSha256": "eff7b8fd696f12320799148018cffe15c1547c1c3208557fb712c5a67fe6704d",
       "ormdSha256": "1ed1068a7965429eba244efa32eba8732bd4731e9e8a9eee13223f022e1ea87f"
@@ -1309,9 +1360,10 @@
       "humanSources": [
         "Relational Bill of Rights v2.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Bill of Rights v2.ormd",
       "humanSha256": "690c16ba66b6c60fb95a95b3f13a75a90d322e845c074f4faff74f7f60e5e4e8",
-      "ormdSha256": "c95b029efceb52103378225d524f5cfd788afb48297a9defb0e797e31138f54e"
+      "ormdSha256": "4c518ab033f18264797b2974a3f86fe8f365f1f729f60d45cf8a4fdc2f4f2381"
     },
     {
       "slug": "relational-localization-core-source",
@@ -1327,6 +1379,7 @@
       "humanSources": [
         "Relational Localization - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Relational Localization - Core Source.ormd",
       "humanSha256": "4322eea661729efc70c4687e9eaaa55618008b0abd49f1e2c2019d6540cf8305",
       "ormdSha256": "b92308531a8ce6f78e39e9532e628ac6ac3c207f678e76f2ab7bb1b9753729e6"
@@ -1345,9 +1398,10 @@
       "humanSources": [
         "Remnant Stewardship - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Remnant Stewardship - Core Source.ormd",
       "humanSha256": "d102d0863937875e87a7db79eeffc23f845f753499bfcb29d0e81e5da30d03d2",
-      "ormdSha256": "ce044f966a160fc9215e72d4b6d5c4d5987c760749fbd5c77c81a97cdf006483"
+      "ormdSha256": "fe539b96bedf70db989c63d7db4f85ed9b75f8b8abc4cc682cbfe409957ea884"
     },
     {
       "slug": "responsibility-absorption-core-source",
@@ -1363,8 +1417,9 @@
       "humanSources": [
         "Responsibility Absorption - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Responsibility Absorption - Core Source.ormd",
-      "humanSha256": "fc2528b3e5a0cd1a8a2cfb330cdfd2cd9a99558193f14da18ca84aeffcf9545f",
+      "humanSha256": "856ec561664f1fe99e7f8153f943cd6b201b7fb102290f00391f6d1077765ce4",
       "ormdSha256": "93f0e4ed34917da64bc7b7a231311e19f9aea4a6de93072b0ec759f12e680a07"
     },
     {
@@ -1381,9 +1436,10 @@
       "humanSources": [
         "Reverent Stewardship.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Reverent Stewardship.ormd",
       "humanSha256": "cf52581c2eb64932db0799b074adfcb4f677a495cf081b8ba5e72b4b69453291",
-      "ormdSha256": "018cb775e7e1646b8b635cd7065fe9d4db07f84c3bc692d7fbc9af2cd1cb2e7f"
+      "ormdSha256": "9905f713dfcf19b16e7c6b1a277623a1c9d84df674443ed3154031461f24f8ef"
     },
     {
       "slug": "sign-mediated-flow-routing",
@@ -1399,6 +1455,7 @@
       "humanSources": [
         "sign_mediated_flow_routing.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "sign_mediated_flow_routing.ormd",
       "humanSha256": "e88c51230ab8f893f202349e2048221680c05f6e1040ff5d943eb2b0f2e722cf",
       "ormdSha256": "54474867a5b2d9efb9a64031334aba15f0e9358c4a3504d65e12dee7dbb698e6"
@@ -1417,9 +1474,10 @@
       "humanSources": [
         "Steward’s Creed.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Steward’s Creed.ormd",
       "humanSha256": "8abd64810cfa378c83e1570e250fd59596bdc0ecd14b58c3a9570984f6e36fcc",
-      "ormdSha256": "e13f358e926203999218255b5f05ed8c5b194f3ee9ab51b87f08aeb12e9cb49b"
+      "ormdSha256": "973d1a9ba81a1e1cb5d56eadf1f53775af7ca8adb3d3d27b36c4fbece6b55842"
     },
     {
       "slug": "trust-trustworthiness-and-reliance-core-source",
@@ -1435,8 +1493,9 @@
       "humanSources": [
         "Trust, Trustworthiness, and Reliance - Core Source.md"
       ],
+      "humanSourceMode": "ormd-projection",
       "ormdSource": "Trust, Trustworthiness, and Reliance - Core Source.ormd",
-      "humanSha256": "65d3622dcf805e04ed4951454ee52858458cf24507af7f4fe19ce3b8f0b9182a",
+      "humanSha256": "956a419302a05c04ee5085004fac39620b3c99f2e60e9b4868b99a6e76541341",
       "ormdSha256": "f640da523942f0321c2e9e6ac6026b0ddcc3ddefaa18845996fbd36308323df7"
     },
     {
@@ -1453,6 +1512,7 @@
       "humanSources": [
         "Adversarial Occlusion and Mechanism Integrity V1.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Adversarial Occlusion and Mechanism Integrity V1.ormd",
       "humanSha256": "8cc54d601190a71b64b36b88b3558e6a3d299ae1d11ef44211847bb3f7685bd8",
       "ormdSha256": "15c56bb4548fc16469efd851b731f0fbd61ee0a71f0ba8714e35f25d02023d47"
@@ -1471,6 +1531,7 @@
       "humanSources": [
         "AOMI AI responses.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "AOMI AI responses.ormd",
       "humanSha256": "5b21dfd5a920ddeb0aa845cf35561adc3e597c7ad533c83cc065fb6921de6f72",
       "ormdSha256": "a104dfc664097881fc60c05b895b1651c8a0087049024d20f919e82e77bfe344"
@@ -1489,9 +1550,10 @@
       "humanSources": [
         "Cognitive Signature Capture An Unnamed Threat.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Cognitive Signature Capture An Unnamed Threat.ormd",
       "humanSha256": "7e1456a60769bf86868a40194e969a2f9d46aaaab466508fe92c154cd4a75896",
-      "ormdSha256": "40f8823db170bd0a86a82ab674dcf5f52cef63c6032f33177e15eafe0b7286e3"
+      "ormdSha256": "fe1600581ff2ae18bce8f344fd67a47f8a491fbc1937a592e5245024ef89b9f5"
     },
     {
       "slug": "exposure-protocol",
@@ -1507,9 +1569,10 @@
       "humanSources": [
         "Exposure Protocol.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Exposure Protocol.ormd",
       "humanSha256": "4b577f3c032ca839005c95a782499217e82a96bc511382f897324035bed95b06",
-      "ormdSha256": "dc26d5352864204b5b9f357273a79277b197c557462f60004b3d48fde2dcf0b8"
+      "ormdSha256": "80b684d8786e0a386d82738e27bfc56cb944c168aa60e20da16399a3dda89342"
     },
     {
       "slug": "mrie-unified-synthesis",
@@ -1526,9 +1589,10 @@
         "Meta-Relational Identity Exposure (MRIE).md",
         "Meta-relational Identity exposure (MRIE) Synthesis.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "MRIE - Unified Synthesis.ormd",
       "humanSha256": "fb4c26d379c69acc7f4e6bd568975e8ff79b2ab42b97d58f32190227a8dfcb15",
-      "ormdSha256": "b01bdd976bea071c76f62ad129ebdd83a04b4c11b46ae6e44daac27b5f7e36be"
+      "ormdSha256": "74fe51dd3a26c0cb62822d9c907a0249486a6b39ebc956a1ab848061d7e166fc"
     },
     {
       "slug": "relational-irreducibility-framework-rif",
@@ -1544,9 +1608,10 @@
       "humanSources": [
         "Relational Irreducibility Framework (RIF).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Irreducibility Framework (RIF).ormd",
       "humanSha256": "63062f6cfa3dc4a128ea22c5e6bf16196473b3a34139e97e9204cd73440a1b19",
-      "ormdSha256": "a62fd9e5cdda9a9028050db3ff0bb93df51750e8b17610d517b2f4a69b0f8a26"
+      "ormdSha256": "f59cd6edc3eb16dcb15ff1b6712f5ab89c21b9cd2f9879a06929cc5d57335165"
     },
     {
       "slug": "truth-ceiling",
@@ -1562,9 +1627,10 @@
       "humanSources": [
         "Truth Ceiling.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Truth Ceiling.ormd",
       "humanSha256": "b2dd0931a1010f9f299b7cf9a7b3b80b9f2ec8b75569c47a4172dda04829b3ce",
-      "ormdSha256": "435e23c552dc00b622b0af95f6edadc97dae8f8c6db4f5d3cd978b31479d79f9"
+      "ormdSha256": "10e31b9c4a2eababba636f19bbf25cee963437fe201add210183b992c02d5591"
     },
     {
       "slug": "collective-cognitive-substrate",
@@ -1580,9 +1646,10 @@
       "humanSources": [
         "Collective Cognitive Substrate.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Collective Cognitive Substrate.ormd",
       "humanSha256": "0cc250069b120bb33084f0ee1c32098b4a51b2aa69d66cf428b9a9500c9c5df0",
-      "ormdSha256": "2951df31e74c34fd700d0012d28c3868a791b5230a5f74ca39c9604a7ee5530e"
+      "ormdSha256": "fb810715ca832e2ff7aeb04151f9118b35e350853b73fd402f84f7489ea9a4ab"
     },
     {
       "slug": "ontological-systems-interface-osi-model",
@@ -1598,9 +1665,10 @@
       "humanSources": [
         "Ontological Systems Interface (OSI) Model.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Ontological Systems Interface (OSI) Model.ormd",
       "humanSha256": "6bdb2fa4b5e72cca0d783701edf1bece7dacfe5e5bb1739ee05ed65bba2108ee",
-      "ormdSha256": "c60c626a02e6951fe24a1df3bd0e0b0013467dc75a7b610c6321d64cb1acf783"
+      "ormdSha256": "a1942092e781cf6cc39fa9fec62b9ea043b53e02f286d5a4b5aaa2d9a6d7c1a4"
     },
     {
       "slug": "relational-volition",
@@ -1616,9 +1684,10 @@
       "humanSources": [
         "Relational Volition.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Volition.ormd",
       "humanSha256": "8bcf95066f436c689159f8ca6b064f873a9c80a239b6cd4229e27917b51834c4",
-      "ormdSha256": "777b63e92d416061eaba4da40eb6a21df06860329c904af899aac77db71d6c9a"
+      "ormdSha256": "a36c94fc9f577b14fb495ca5b3343ce56e65874ebfdf01d001f814a47ae54b14"
     },
     {
       "slug": "the-intelligence-field-framework",
@@ -1634,9 +1703,10 @@
       "humanSources": [
         "The Intelligence Field Framework.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "The Intelligence Field Framework.ormd",
       "humanSha256": "80046110acce52b78ba487defb03cd494b7a2e95ecd3c83090c42c33469ac186",
-      "ormdSha256": "fbdb30ba7bde6b0b0238f59238ea2fd3a54c37569ef9fac47b24bf891997e07a"
+      "ormdSha256": "3b36b97961da953e4751051a22c5572d90dff9ea226d0b0fae4830e221358039"
     },
     {
       "slug": "self-as-coherence-field",
@@ -1652,6 +1722,7 @@
       "humanSources": [
         "Self as Coherence Field.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Self as Coherence Field.ormd",
       "humanSha256": "bd6620975b77c98016679e1aba0d786219c2c568d2d365a729b081399c9fc2e1",
       "ormdSha256": "54080db44385c5e2c2dfbcca205a20966f0c1b5664e6792f54146f54d0fd14f6"
@@ -1670,9 +1741,10 @@
       "humanSources": [
         "Caregiving as an Ecosystem.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Caregiving as an Ecosystem.ormd",
       "humanSha256": "079dbad86cae036b4297c1a6c1e3d3cdb792008e9e2f391608e0295470416309",
-      "ormdSha256": "92a758af9a75eb39a2254f74fff2cdf933a022a96b15a738c7542d56d7f17dbc"
+      "ormdSha256": "9bff3fdb738047d5cc5be6373a31bf7ee40e899cf4ce416ae5c3b5f44f9ef327"
     },
     {
       "slug": "collective-relational-substrate",
@@ -1689,9 +1761,10 @@
         "CRS.md",
         "The Collective Relational Substrate.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Collective Relational Substrate.ormd",
       "humanSha256": "d0442c3a8481db2e91bb06ee7ad13325dc7250f4f5b3b60ab852462b75532787",
-      "ormdSha256": "c763b18091b14413abebaf6869c0b48f112337e4c89dd9c21d30934b730c8b69"
+      "ormdSha256": "f3622a082c06b2a5261acf92c508eb9dda6b8fb121e30bc24fb2c106c8537194"
     },
     {
       "slug": "communication-as-coherence",
@@ -1707,9 +1780,10 @@
       "humanSources": [
         "Communication as Coherence.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Communication as Coherence.ormd",
       "humanSha256": "14daeddbc2d384238ebdbe6c59bd6533afeaa368b220b7b86ba7c7fa8244e12e",
-      "ormdSha256": "e0aa6889c079c1c8d547aa7b091ca60632fe6d11a9a6c3b58fe3312369ad6467"
+      "ormdSha256": "bb41a31da9d43027dcee6e2b87b993776d3380e5fcfadd563351b248a985f52d"
     },
     {
       "slug": "declaration-of-interdependence",
@@ -1725,9 +1799,10 @@
       "humanSources": [
         "Declaration of Interdependence.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Declaration of Interdependence.ormd",
       "humanSha256": "e7c6e8b7b793b380adfdee1706081f67341f1c2bc3192b4c11e06a409feea32e",
-      "ormdSha256": "98e326701f71804d7069c18ac818be8f430de4a25a76d003c67e8ed771db73aa"
+      "ormdSha256": "a5019e6612f46e4e104ac806e69076ad1f3cfa689d760f8f5ee3516eddb02fcd"
     },
     {
       "slug": "essence-of-existence-constitution-draft-2",
@@ -1743,9 +1818,10 @@
       "humanSources": [
         "Essence of Existence Constitution - Draft 2.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Essence of Existence Constitution - Draft 2.ormd",
       "humanSha256": "205f001b180c0baaf1cab1f43144a002d7128ffcfe143f1a1710b7fadc382845",
-      "ormdSha256": "a7682179859cfca5458d6dd15081069ae43c0f046448c0ca976e4bdf2ea0b4c5"
+      "ormdSha256": "5092529b3073d009ca3af2029e4f9f3d3b658993e03d04c29691347c7a42b974"
     },
     {
       "slug": "family-as-a-relational-field",
@@ -1761,9 +1837,10 @@
       "humanSources": [
         "Family as a Relational Field.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Family as a Relational Field.ormd",
       "humanSha256": "6014456f2d4aad01b8ab682a1f8c3aa382197667a97c965d8b2898a0a1340b28",
-      "ormdSha256": "a0fe16f248c4f7f263d451d45643774343a01548932b268f844ba3ff5dd9cbd1"
+      "ormdSha256": "3e88b7e7c15e9281da66fae958ca55ebb19271ec27c38ea19a15caf3afade9d8"
     },
     {
       "slug": "layer-2-draft-rvp-and-vme-developments",
@@ -1779,9 +1856,10 @@
       "humanSources": [
         "layer_2_draft_rvp_and_vme_developments.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "layer_2_draft_rvp_and_vme_developments.ormd",
       "humanSha256": "8bf58319407e5607c6d93a8e52eeb3c25c50694aa9548ffb74cbe1858e864816",
-      "ormdSha256": "57c7da07b98080a34ac078863bc96eb6c2bf2c2f6f4908825c02c25965d21cab"
+      "ormdSha256": "5cb5e2d627637ca313b56dccb484b6f360d1dd3e227b47f7b07b008da4fa80ce"
     },
     {
       "slug": "power-as-relational-field-coherence",
@@ -1797,9 +1875,10 @@
       "humanSources": [
         "Power as Relational Field Coherence.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Power as Relational Field Coherence.ormd",
       "humanSha256": "7dc2ada1516f48e153091833125d6f744c15684344ad5869d5e3bf1416df43ed",
-      "ormdSha256": "ff220f195a2d9edfd457c6403e44f9c08410dd26acb4587e8beaae8e2afff7f1"
+      "ormdSha256": "771945c0d6b49780c372dbe3553403ddd40f1657af73bd74bc66319979bff5d2"
     },
     {
       "slug": "relational-perfection-framework",
@@ -1815,9 +1894,10 @@
       "humanSources": [
         "Relational Perfection A Framework for Emergent Int.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Perfection_framework.ormd",
       "humanSha256": "3a0996c5755e72ae87687cca38081324647e6fedf9e3487db500b0fd7115fdac",
-      "ormdSha256": "d526b09b98fa59dd5f466de4301250f9a035d90798f52b29adf73d8ef97cb0de"
+      "ormdSha256": "5f86d38ded4699775ced3c8cdc979216a84de3e53e706b423a3744f7dcfec747"
     },
     {
       "slug": "relational-perfection-a-manifesto",
@@ -1833,9 +1913,10 @@
       "humanSources": [
         "Relational Perfection A Manifesto.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Perfection A Manifesto.ormd",
       "humanSha256": "e319fadde2de117ef412642e4fc303b40265b5b8739e5d944551eb8a1c200a4f",
-      "ormdSha256": "df6eb2369e6519854bd92e3f3ddd9d2b06014c29416224b73cd02e312761d225"
+      "ormdSha256": "abf2eae31c163ea781b0ea8aacbab7b745df1a3cd2fb44816ee2b8dd4a3ffaa5"
     },
     {
       "slug": "the-cyclical-integrity-framework",
@@ -1851,9 +1932,10 @@
       "humanSources": [
         "The Cyclical Integrity framework.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "The Cyclical Integrity framework.ormd",
       "humanSha256": "c3eb7bf615863a504d0890841fc45195f988cb674f02430c26804f12fd65f1aa",
-      "ormdSha256": "ade4a8c66d38868ce15cbb48049d5b5b918cb07b5f673429b49b73821df74acd"
+      "ormdSha256": "92891bbe3552ca5029966528757627d93eec4087f7016efa48a1842bbc1a8930"
     },
     {
       "slug": "the-essence-of-existence",
@@ -1869,9 +1951,10 @@
       "humanSources": [
         "The Essence of Existence.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "The Essence of Existence.ormd",
       "humanSha256": "43bb41c749088076e30a97cbc157dc1c63c7d8e43fe303976e4fc03dd7c4f175",
-      "ormdSha256": "6ad4a2b06f4fb91fa073f0b14d14f5fb3c4cdc9f6c65da8a5d898bb73c50268b"
+      "ormdSha256": "43806d2351cd8486007eba8e7fca9a02814b5ad3a6e8fd18509b242b85ed2279"
     },
     {
       "slug": "context-layer-protocol-clp",
@@ -1887,9 +1970,10 @@
       "humanSources": [
         "Context Layer Protocol (CLP).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Context Layer Protocol (CLP).ormd",
       "humanSha256": "0397bd74215a4b3401d44fbd0e9592147b865ecded0684023189855bba61d533",
-      "ormdSha256": "737f5380460158d872e2a5bf705178956d36f6173895ff737a7421659ce8d247"
+      "ormdSha256": "0e161964231ee87861cf0c2da6931b691d930f987bf6dcb66b9cab6111aab5c9"
     },
     {
       "slug": "implementations",
@@ -1905,6 +1989,7 @@
       "humanSources": [
         "Implementations.md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Implementations.ormd",
       "humanSha256": "6f86b5f611d5fc1e1a372c82a14aea18a2b45477f2c16212d2ea95b6d1ccd636",
       "ormdSha256": "849d8dbe5670cd615d3b20b9d793b7e2c1f08ca5038d6adcb85afc779cb72208"
@@ -1923,9 +2008,10 @@
       "humanSources": [
         "Relational Primitive Engine (RPE).md"
       ],
+      "humanSourceMode": "preserved-semantic-substrate",
       "ormdSource": "Relational Primitive Engine (RPE).ormd",
       "humanSha256": "52ab1b37dbc06e12c62373463965a71984622860d990ea5f3e25d0b0092332f4",
-      "ormdSha256": "9c66d6579864727d7e640484dcb22362f1742ca75aca7fa654dec3ef6cd8849e"
+      "ormdSha256": "ae60d440b4a9876d800bd4a6c7561d0e0c993b575db41577e1269f7c48d96b5d"
     }
   ]
 }

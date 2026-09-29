@@ -244,4 +244,3 @@ Before migration into the active Semantic Substrate, confirm cross-links to:
 - `Remnant Stewardship - Core Source.md`
 - `Relational Localization - Core Source.md`
 - Signal as Bias Field, TCL, TC/EO, AOMI, MMPS, and Justice Across Scales
-

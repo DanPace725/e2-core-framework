@@ -142,4 +142,3 @@ Results: `../../staged work/20260807/tests/results/CANDIDATE_TEST_REPORT.md`
 ## Final Compression
 
 A slow layer is a measured relation between clocks and constraints, not a kind of institution. It must remain stable across multiple fast cycles and still adapt before harmful drift outruns it. Clock separation without stationarity is delay; stationarity without timely adaptation is rigidity.
-

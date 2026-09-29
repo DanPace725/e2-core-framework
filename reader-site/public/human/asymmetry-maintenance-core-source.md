@@ -230,4 +230,3 @@ Before migration into the active Semantic Substrate, confirm cross-links to:
 - `Remnant Stewardship - Core Source.md`
 - `Maintenance Window - Validation Checklist.md` once created
 - GCO, SBF, TCL, RBoR, TC/EO, and MMPS in the existing corpus
-

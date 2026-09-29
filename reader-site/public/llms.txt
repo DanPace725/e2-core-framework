@@ -3,8 +3,7 @@
 > Public navigation index for the E² Core Framework. ORMD is the AI-facing authority; Semantic Substrate Markdown is the human reading surface.
 
 Current AI entry point: https://e2-core-framework.capulusirl.chatgpt.site/llms.txt
-HTML AI mirror: https://danpace725.github.io/e2-core-framework/
-Whole-corpus HTML mirror: https://danpace725.github.io/e2-core-framework/corpus.html
+HTML AI mirror: https://e2-core-framework.capulusirl.chatgpt.site/ai
 Source repository: https://github.com/DanPace725/e2-core-framework
 
 ## How to read this corpus
@@ -19,6 +18,7 @@ Source repository: https://github.com/DanPace725/e2-core-framework
 - [Machine-readable relationship graph](https://e2-core-framework.capulusirl.chatgpt.site/graph.json)
 - [Combined ORMD corpus](https://e2-core-framework.capulusirl.chatgpt.site/ormd-corpus.txt)
 - [Human mobile reader](https://e2-core-framework.capulusirl.chatgpt.site/)
+- [HTML AI mirror](https://e2-core-framework.capulusirl.chatgpt.site/ai)
 
 ## Cluster A — Foundational Axioms & Core Ontology
 
