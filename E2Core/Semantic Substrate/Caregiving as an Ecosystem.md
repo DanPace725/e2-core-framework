@@ -1,96 +1,94 @@
-# Caregiving as an Ecosystem
+# Caregiving as an Ecosystem {#title}
 
 4/29/25
 
-[Interlocked Stewardship ](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%2024911588332080b59a16c92fbb34fc18.md)
+[Interlocked Stewardship](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%2024911588332080b59a16c92fbb34fc18.md)
 
 [Interlocked Stewardship V2](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%20V2%2024911588332080e39e79eec18d7eaaae.md)
 
-[Family as a Relational Field ](Caregiving%20as%20an%20Ecosystem/Family%20as%20a%20Relational%20Field%202b8115883320806c9518d5dfc4fc2197.md)
+[Family as a Relational Field](Caregiving%20as%20an%20Ecosystem/Family%20as%20a%20Relational%20Field%202b8115883320806c9518d5dfc4fc2197.md)
 
-## ∞ Core Insight
+## ∞ Core Insight {#core-insight}
 
-> Caregiving is not a static role.
-> 
-> 
-> It is a dynamic choreography of attentional patterns within a living field of relationship.
-> 
+> [Caregiving](#core-insight) is not a static role.
+>
+> It is a [dynamic choreography](#core-insight) of attentional patterns within a living field of relationship.
 
-Presence cannot be measured through proximity, tasks completed, or assigned titles.
+[Presence](#presence-manifestation) cannot be measured through proximity, tasks completed, or assigned titles.
 
 It manifests through attunement to the evolving needs of the entire ecosystem—
 
 both the child and the environment that sustains them.
 
-### Key Principle: Resonant Attention
+### Key Principle: Resonant Attention {#resonant-attention}
 
 *Attention that matches the frequency of what is needed rather than what is expected.*
 
 ---
 
-## ∞ Beyond Hierarchy: The Ecology of Care
+## ∞ Beyond Hierarchy: The Ecology of Care {#ecology-of-care}
 
 There are no true "primary" or "secondary" caregivers in a healthy ecosystem.
 
 There are only different modes of attention, each vital in its season:
 
-- **Direct Attunement**: Close co-regulation, the dance of mutual presence
-- **Peripheral Presence**: The witnessed freedom to explore within a held field
-- **Environmental Stewardship**: Cultivating the systems that nourish development
+- **Direct Attunement**: [Close co-regulation](#direct-attunement), the dance of mutual presence
+- **Peripheral Presence**: The witnessed freedom to explore within a [held field](#peripheral-presence)
+- **Environmental Stewardship**: Cultivating the [systems](#environmental-stewardship) that nourish development
 - **Responsive Engagement**: The quiet readiness that activates when needed
 
 No mode claims superiority.
 
 Each serves the coherence of the field in its time.
 
-### Key Principle: Attentional Fluidity
+### Key Principle: Attentional Fluidity {#attentional-fluidity}
 
 *The capacity to shift between modes of care without attachment to any single identity.*
 
 ---
 
-## ∞ When Fields Become Rigid
+## ∞ When Fields Become Rigid {#rigid-fields}
 
 > When caregiving modes calcify, the entire ecology suffers.
-> 
-- **Over-Attunement → Boundary Collapse**
-    
+
+- **Over-Attunement → [Boundary Collapse](#boundary-collapse)** {#boundary-collapse}
+
     The soil becomes waterlogged, roots cannot breathe
-    
+
 - **Over-Distance → Emotional Drought**
-    
+
     The field dries, connection withers
-    
+
 - **Over-Structuring → Constrained Growth**
-    
+
     Too many trellises, not enough space to reach for light
-    
+
 - **Over-Neglect → Nutrient Depletion**
-    
+
     The relational soil becomes barren, unable to sustain growth
-    
+
 
 Healthy ecosystems require movement.
 
 Healthy care flows between states.
 
-### Key Principle: Oscillatory Balance
+### Key Principle: Oscillatory Balance {#oscillatory-balance}
 
 *Health emerges not from fixed states but from the rhythm between them.*
 
 ---
 
-## ∞ The Garden as Teacher
+## ∞ The Garden as Teacher {#garden-teacher}
 
 A child is not clay to be molded.
 
-A child is a living system within a living ecology.
+A child is a [living system](#garden-teacher) within a living ecology.
 
 Caregiving is not manufacturing—
 
 it is attending, stewarding, nourishing.
 
-### Relational Modes as Ecological Practices:
+### Relational Modes as Ecological Practices: {#relational-modes}
 
 | Mode | Ecological Practice | Purpose |
 | --- | --- | --- |
@@ -99,19 +97,17 @@ it is attending, stewarding, nourishing.
 | Environmental Stewardship | Soil Cultivation | Building the unseen foundation that supports all growth |
 | Responsive Engagement | Adaptive Pruning | Intervening selectively, only when needed for health |
 
-### Key Principle: Field-Aware Action
+### Key Principle: Field-Aware Action {#field-aware-action}
 
 *Intervention that responds to the whole system, not just isolated behaviors.*
 
 ---
 
-## ∞ The Gardener's Wisdom
+## ∞ The Gardener's Wisdom {#gardener-wisdom}
 
 > The gardener does not pull on the seedling to make it grow.
-> 
-> 
-> The gardener shapes the field so that growth becomes inevitable.
-> 
+>
+> The gardener [shapes the field](#gardener-wisdom) so that growth becomes inevitable.
 
 Similarly:
 
@@ -127,13 +123,13 @@ action, aligned with the field,
 
 love, attending to the invisible roots as much as the visible leaves.
 
-### Key Principle: Emergent Development
+### Key Principle: Emergent Development {#emergent-development}
 
-*Growth happens through relationship with conditions, not through direct manipulation.*
+*[Growth](#emergent-development) happens through [relationship](#relational-modes) with conditions, not through direct manipulation.*
 
 ---
 
-## ∞ When Gardens Fail to Flourish
+## ∞ When Gardens Fail to Flourish {#failed-flourishing}
 
 Growth falters when:
 
@@ -147,13 +143,13 @@ A field flourishes not because we orchestrate every moment,
 
 but because we listen to the patterns already alive within it.
 
-### Key Principle: Relational Patience
+### Key Principle: Relational Patience {#relational-patience}
 
 *The willingness to wait for growth at its own pace while maintaining active presence.*
 
 ---
 
-## ∞ The Paradox of Parental Presence
+## ∞ The Paradox of Parental Presence {#parental-paradox}
 
 The highest form of care includes:
 
@@ -165,21 +161,19 @@ The highest form of care includes:
 
 These paradoxes aren't contradictions to resolve.
 
-They are dynamic tensions that create the field where growth happens.
+They are [dynamic tensions](#parental-paradox) that create the field where growth happens.
 
-### Key Principle: Paradox Fidelity
+### Key Principle: Paradox Fidelity {#paradox-fidelity}
 
 *Holding opposing truths as complementary rather than contradictory.*
 
 ---
 
-## ∞ Final Pulse
+## ∞ Final Pulse {#final-pulse}
 
 > Good caregiving is not measured in hours logged or tasks completed.
-> 
-> 
-> It is measured in how well the field breathes under your care.
-> 
+>
+> It is measured in how well the [field breathes](#final-pulse) under your care.
 
 Presence remains real, even when peripheral.
 
@@ -190,15 +184,13 @@ Freedom flourishes, even while held in the readiness to respond.
 In the end:
 
 > We are not raising children.
-> 
-> 
-> We are growing ecosystems.
-> 
+>
+> We are [growing ecosystems](#final-pulse).
+>
 > We are tending worlds.
-> 
+>
 > We are participating in emergence.
-> 
 
-### Key Principle: Resonant Stewardship
+### Key Principle: Resonant Stewardship {#resonant-stewardship}
 
-*Care that creates conditions for coherence across the entire field of relationship.*
+*Care that creates conditions for [coherence](#final-pulse) across the entire field of relationship.*

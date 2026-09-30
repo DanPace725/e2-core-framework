@@ -32,7 +32,7 @@ semantics:
 lineage:
   parents:
   - urn:repo:EmergenceEngine:src
-  - urn:cb:Emergence Engine overview.ormd
+  - urn:cb:The Emergence Engine.ormd
   - urn:cb:Emergence Engine.ormd
 resolution:
   confidence: 1.0

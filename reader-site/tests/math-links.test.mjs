@@ -9,7 +9,7 @@ marked.use(markedKatex({ throwOnError: false, strict: false, nonStandard: true }
 function renderCorpusMarkdown(markdown) {
   const withHeadingIds = markdown.replace(
     /^(#{1,6})\s+(.+?)\s*\{#([A-Za-z0-9_-]+)\}[ \t]*$/gm,
-    (_whole, marks, heading, id) => `<h${marks.length} id="${id}">${marked.parseInline(heading, { async: false })}</h${marks.length}>`,
+    (_whole, marks, heading, id) => `<h${marks.length} id="${id}">${marked.parseInline(heading, { async: false })}</h${marks.length}>\n\n`,
   );
   return marked.parse(withHeadingIds, { async: false });
 }
@@ -62,14 +62,14 @@ test("renders formulas and keeps corpus cross-links resolvable", async () => {
 
 test("renders compact corpus math and preserves Markdown blocks after explicit headings", async () => {
   const [mathDocument, masterIndex] = await Promise.all([
-    readFile(new URL("../public/human/ct-translation-of-rps.md", import.meta.url), "utf8"),
+    readFile(new URL("../public/human/relational-primitive-translations.md", import.meta.url), "utf8"),
     readFile(new URL("../public/human/context-layer-master-index.md", import.meta.url), "utf8"),
   ]);
   const mathHtml = renderCorpusMarkdown(mathDocument);
   const indexHtml = renderCorpusMarkdown(masterIndex);
   assert.match(mathHtml, /class="katex-display"/);
-  assert.doesNotMatch(mathHtml, /\$\$\s*\\mathcal\{T\}/);
-  assert.doesNotMatch(mathHtml, /\$\\text\{Ob\}/);
+  assert.doesNotMatch(mathHtml, /\$\$\s*C\s*P/);
+  assert.doesNotMatch(mathHtml, /\$C\s*P\$/);
   assert.match(indexHtml, /<h2 id="cluster-map">Cluster Map<\/h2>\s*<table>/);
   assert.match(indexHtml, /<h2 id="cluster-a">[^<]*Foundational Axioms &amp; Core Ontology<\/h2>\s*<p><strong>Scope:<\/strong>/);
 });
@@ -97,7 +97,7 @@ test("master-index document names open documents while cluster navigation stays 
   assert.match(markdown, /\[Relational Primitives\]\(\/?\?doc=relational-primitives/);
   assert.match(markdown, /\[E\^2 Equation\]\(\/?\?doc=e2-equation/);
   assert.match(markdown, /\[Attentional Access and Formation\]\(\/?\?doc=attentional-access-and-formation-core-source/);
-  assert.match(markdown, /\[Adversarial Occlusion & Mechanism Integrity V1\]\(\/?\?doc=adversarial-occlusion-and-mechanism-integrity-v1/);
+  assert.match(markdown, /\[Adversarial Occlusion and Mechanism Integrity\]\(\/?\?doc=adversarial-occlusion-and-mechanism-integrity-v1/);
   assert.match(markdown, /\[Context Layer Protocol \(CLP\)\]\(\/?\?doc=context-layer-protocol-clp/);
   assert.match(markdown, /\| \[A\]\(#cluster-a/);
   assert.match(markdown, /\[Cluster A\]\(#cluster-a\)/);

@@ -9,7 +9,7 @@ lineage:
     uri: internal://summary/2025-11-17
     ts: '2025-11-17T12:00:00Z'
   parents:
-  - urn:cb:Derivation deep dive.ormd
+  - urn:cb:Derivation Deep Dive - Categorical and Relational Physics.ormd
 policy:
   read:
   - roles:

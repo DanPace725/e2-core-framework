@@ -1,21 +1,21 @@
-# Human-AI Creative Collaboration Framework (HAIC)
+# Human-AI Creative Collaboration Framework (HAIC) {#haic-framework}
 
 11/21/24
 
-## Purpose
+## Purpose {#purpose}
 
-This framework provides a structured approach for documenting and attributing collaborative work between humans and AI systems. It establishes clear terminology and guidelines while promoting transparency and ethical collaboration.
+This framework [provides](#haic-framework) a structured approach for documenting and attributing collaborative work between humans and AI systems. It establishes [clear terminology](#transparent-attribution) and guidelines while promoting transparency and ethical collaboration.
 
-## Core Principles
+## Core Principles {#core-principles}
 
-### 1. Iterative Refinement
+### 1. Iterative Refinement {#iterative-refinement}
 
 - Multiple rounds of feedback and improvement
 - Progressive building on shared insights
-- Quality enhancement through systematic review
+- Quality enhancement through [systematic review](#best-practices)
 - Continuous adaptation and learning
 
-### 2. Complementary Strengths
+### 2. Complementary Strengths {#complementary-strengths}
 
 - **Human Contributions:**
     - Creativity and original concepts
@@ -28,106 +28,106 @@ This framework provides a structured approach for documenting and attributing co
     - Structured analysis
     - Scalable processing
 
-### 3. Transparent Attribution
+### 3. Transparent Attribution {#transparent-attribution}
 
 - Clear disclosure of contributions
-- Standardized terminology
+- [Standardized terminology](#collaboration-models)
 - Traceable creative process
 - Accountability measures
 
-## Collaboration Models
+## Collaboration Models {#collaboration-models}
+
+The following models [are constrained by](#core-principles) the core principles of the framework.
 
 ### Primary Categories
 
-### 1. Human-Directed AI Creation (HDAC)
+### 1. Human-Directed AI Creation (HDAC) {#hdac}
 
 - Human provides concept and direction
 - AI generates content under guidance
 - Human maintains editorial control
-- **Attribution:** "Created via HDAC process - human concept with AI generation"
+- **Attribution:** "Created via [HDAC process](#hdac) - human concept with AI generation"
 
-### 2. Iterative Creative Cycle (ICC)
+### 2. Iterative Creative Cycle (ICC) {#icc}
 
 - Dynamic idea exchange
 - Multiple feedback cycles
 - Equal creative input
 - Balanced decision-making
-- **Attribution:** "Developed through ICC methodology - cyclic human-AI collaboration"
+- **Attribution:** "Developed through [ICC methodology](#icc) - cyclic human-AI collaboration"
 
-### 3. AI-Generated with Human Review (AGHR)
+### 3. AI-Generated with Human Review (AGHR) {#aghr}
 
 - AI leads content creation
 - Human provides light editing
 - Limited human creative direction
-- **Attribution:** "Generated via AGHR process - AI primary creator with human review"
+- **Attribution:** "Generated via [AGHR process](#aghr) - AI primary creator with human review"
 
 ### Specialized Variants
 
-### 4. Rapid Iterative Feedback Loop (RIFL)
+### 4. Rapid Iterative Feedback Loop (RIFL) {#rifl}
 
 - Fast-paced alternation
 - Quick experimentation
 - Rapid refinement cycles
-- **Attribution:** "Developed using RIFL methodology - rapid human-AI iteration"
+- **Attribution:** "Developed using [RIFL methodology](#rifl) - rapid human-AI iteration"
 
-### 5. Structured Knowledge Synthesis (SKS)
+### 5. Structured Knowledge Synthesis (SKS) {#sks}
 
 - AI-driven information organization
 - Human expertise validation
 - Comprehensive analysis
-- **Attribution:** "Created through SKS process - AI synthesis with expert validation"
+- **Attribution:** "Created through [SKS process](#sks) - AI synthesis with expert validation"
 
-## Implementation Guidelines
+## Implementation Guidelines {#implementation-guidelines}
 
-### Standard Attribution Format
+### Standard Attribution Format {#attribution-format}
 
 ```
 [Content Type] developed through [Process Type]
 Primary Contributors: [Human Role] + [AI Role]
 Iterations: [Number of major revisions]
-
 ```
 
-### Process Documentation (Optional)
+### Process Documentation (Optional) {#process-documentation}
 
 1. Initial concept source
 2. Iteration milestones
 3. Key decisions
 4. Review notes
 
-## Example Applications
+## Example Applications {#example-applications}
 
-### Academic Research
+These examples [measure the efficacy](#haic-framework) of the HAIC framework in real-world scenarios.
+
+### Academic Research {#example-academic}
 
 ```
 Research methodology developed through ICC process
 Contributors: Human researcher (concept, validation) + AI (analysis, structure)
 Iterations: 4 major revisions
-
 ```
 
-### Creative Writing
+### Creative Writing {#example-writing}
 
 ```
 Story created via HDAC process
 Contributors: Human author (plot, characters) + AI (draft generation, expansion)
 Iterations: 7 major revisions
-
 ```
 
-### Technical Documentation
+### Technical Documentation {#example-technical}
 
 ```
 Documentation generated through SKS process
 Contributors: Human expert (validation, examples) + AI (content generation, organization)
 Iterations: 3 major revisions
-
 ```
 
-## Best Practices
+## Best Practices {#best-practices}
 
 1. **Consistent Attribution**
-    - Use standard format
+    - Use [standard format](#attribution-format)
     - Include all required elements
     - Be specific about roles
 2. **Process Transparency**
@@ -139,6 +139,6 @@ Iterations: 3 major revisions
     - Specify contribution areas
     - Update as roles evolve
 
-## Framework Evolution
+## Framework Evolution {#framework-evolution}
 
-The HAIC framework is designed to evolve with advancing technology and emerging collaboration patterns. Organizations are encouraged to adapt the framework while maintaining its core principles of transparency and ethical collaboration.
+The HAIC framework [is designed to evolve](#haic-framework) with advancing technology and emerging collaboration patterns. Organizations are encouraged to adapt the framework while maintaining its [core principles](#core-principles) of transparency and ethical collaboration.

@@ -30,8 +30,8 @@ semantics:
   - derived_framework
 lineage:
   parents:
-  - urn:cb:TCL_Plain_English_Summary.ormd
-  - urn:cb:TCL_Three_Constants.ormd
+  - urn:cb:Temporal Constraint Lamination - What We Found.ormd
+  - urn:cb:The Operating Window - Three Constants from One Landscape.ormd
 resolution:
   confidence: 0.98
 ---

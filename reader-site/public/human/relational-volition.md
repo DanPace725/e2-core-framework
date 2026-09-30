@@ -1,85 +1,82 @@
-# Relational Volition
+# Relational Volition {#title}
 
 10/11/25
 
-# Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields
+# Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields {#header}
 
-## Abstract
+## Abstract {#abstract}
 
-This paper reframes the classical problem of free will versus determinism through the relational and systemic frameworks of E² (Essence of Existence), CFA (Constraint-Fluctuation-Attention), and Reverent Stewardship. Rather than asking whether human will is free from natural law, it proposes that will and freedom emerge as relational functions within lawful, dynamic fields. The result is a measurable construct—**Relational Volition (Vᵣ)**—that captures an agent’s capacity to modulate its relational state without degrading field coherence.
+This paper reframes the classical problem of free will versus determinism through the relational and systemic frameworks of [E² (Essence of Existence)](#abstract), [CFA (Constraint-Fluctuation-Attention)](#cfa-dynamics), and [Reverent Stewardship](#ethics). Rather than asking whether human will is free from natural law, it proposes that [will and freedom](#definition-vr) emerge as relational functions within lawful, dynamic fields. The result is a measurable construct—[Relational Volition (Vᵣ)](#definition-vr)—that captures an agent’s capacity to modulate its relational state without degrading field coherence.
 
 ---
 
-## 1. Deconstructing "Free Will"
+## 1. Deconstructing "Free Will" {#deconstruction}
 
 The term *free will* traditionally combines three distinct claims:
 
-- **Freedom**: autonomy from external determination
-- **Will**: capacity for directed choice or intention
-- **Moral agency**: accountability for that choice
+- [Freedom](#components): autonomy from external determination
+- [Will](#components): capacity for directed choice or intention
+- [Moral agency](#components): accountability for that choice
 
 Each collapses under relational analysis. In a relational ontology, there are no isolated agents, only nested systems within dynamic fields. Autonomy, intention, and responsibility must therefore be redefined as *functions of coherence and relational energy flow*, not as metaphysical exceptions to causality.
 
 ---
 
-## 2. Relational Components
+## 2. Relational Components {#components}
 
 | Classical Term | Relational Equivalent | Description |
 | --- | --- | --- |
-| Freedom | Constraint Gradient (\u2207C) | The degree of mobility within field boundaries; contextual, not absolute. |
-| Will | Attentional Vector (Â) | The directional bias of attention that amplifies or dampens fluctuations. |
-| Moral Agency | Coherence Responsibility (\u03a6_res) | The extent to which a system’s modulation preserves or degrades field integrity. |
+| Freedom | [Constraint Gradient (∇C)](#components) | The degree of mobility within field boundaries; contextual, not absolute. |
+| Will | [Attentional Vector (Â)](#components) | The directional bias of attention that amplifies or dampens fluctuations. |
+| Moral Agency | [Coherence Responsibility (Φ_res)](#components) | The extent to which a system’s modulation preserves or degrades field integrity. |
 
 These relational quantities interact continuously. The field provides boundaries (Constraint), emergent novelty (Fluctuation), and focused agency (Attention). The human experience of freedom arises from the relative elasticity and responsiveness of these parameters.
 
 ---
 
-## 3. Definition: Relational Volition
+## 3. Definition: Relational Volition {#definition-vr}
 
-> Relational Volition (Vᵣ): The capacity of a coherent subsystem to modulate its local constraint–fluctuation balance through sustained, self-referential attention without violating the coherence of its containing field.
-> 
+> [Relational Volition (Vᵣ)](#definition-vr): The capacity of a coherent subsystem to modulate its local constraint–fluctuation balance through sustained, self-referential attention without violating the coherence of its containing field.
+>
 
 Mathematically:
 
 ```latex
-
 V_r = A \cdot (1 - C_{local}/C_{field}) \cdot \Phi_{preserve}
-
 ```
 
 Where:
+- $A$ = attentional energy available
+- $C$ = relative constraint ratio (mobility)
+- $\Phi$ = coherence preservation coefficient (ethical integrity)
 
-- = attentional energy available
-- = relative constraint ratio (mobility)
-- = coherence preservation coefficient (ethical integrity)
-
-High  indicates meaningful autonomy—the ability to steer within a lawful field. Low  implies entrainment by external constraint or internal fragmentation.
+High $V_r$ indicates meaningful autonomy—the ability to steer within a lawful field. Low $V_r$ implies entrainment by external constraint or internal fragmentation.
 
 ---
 
-## 4. Relation to CFA Dynamics
+## 4. Relation to CFA Dynamics {#cfa-dynamics}
 
-In the CFA model, systems evolve through interdependent variables:
+In the [CFA model](#cfa-dynamics), systems evolve through interdependent variables:
 
 - **Constraint (C):** structural and institutional boundaries
 - **Fluctuation (F):** energetic or informational variance
 - **Attention (A):** directed coherence energy
 
-Free will, recast as *relational volition*, describes **attention’s selective amplification of fluctuation** within lawful constraint. It does not override the field’s laws; it operates *through* them, redirecting available energy toward coherence-preserving outcomes.
+Free will, recast as *relational volition*, describes [attention’s selective amplification of fluctuation](#cfa-dynamics) within lawful constraint. It does not override the field’s laws; it operates *through* them, redirecting available energy toward coherence-preserving outcomes.
 
 Thus, determinism and freedom are not opposites but orthogonal phenomena:
 
-- Determinism defines field geometry.
-- Volition defines local navigation within that geometry.
+- [Determinism](#summary) defines [field geometry](#summary).
+- [Volition](#summary) defines [local navigation](#summary) within that geometry.
 
 ---
 
-## 5. Ethical and Phenomenological Layer
+## 5. Ethical and Phenomenological Layer {#ethics}
 
-From *Reverent Stewardship*:
+From [Reverent Stewardship](#ethics):
 
 > Care = Presence × Restraint.
-> 
+>
 
 Freedom becomes the art of participation without domination—acting in ways that sustain emergence rather than collapsing it.
 
@@ -87,24 +84,24 @@ Volition, therefore, is not measured by how much one can alter reality, but by h
 
 ---
 
-## 6. Conceptual Summary
+## 6. Conceptual Summary {#summary}
 
 | Domain | Classical View | Relational Interpretation |
 | --- | --- | --- |
-| Determinism | Causal necessity | Boundary geometry of the relational field |
-| Randomness | Quantum indeterminacy | Micro-level fluctuation potential |
-| Will | Intentional cause | Attention as field modulation |
-| Freedom | Autonomy from cause | Capacity for coherence-preserving navigation |
-| Responsibility | Moral burden | Maintenance of field integrity |
+| Determinism | Causal necessity | [Boundary geometry](#summary) of the relational field |
+| Randomness | Quantum indeterminacy | [Micro-level fluctuation potential](#summary) |
+| Will | Intentional cause | [Attention as field modulation](#summary) |
+| Freedom | Autonomy from cause | [Capacity for coherence-preserving navigation](#summary) |
+| Responsibility | Moral burden | [Maintenance of field integrity](#summary) |
 
 ---
 
-## 7. Conclusion
+## 7. Conclusion {#conclusion}
 
 Relational Volition reframes the metaphysical problem of free will as a *systems property* measurable through coherence, constraint, and attention dynamics. It situates agency not outside causality but *within the participatory logic of relational emergence.*
 
-To act freely is to act coherently.
+To act freely is to [act coherently](#conclusion).
 
-To will is to sustain pattern integrity under change.
+To will is to [sustain pattern integrity](#conclusion) under change.
 
-To be moral is to preserve the generative capacity of the fields we inhabit.
+To be moral is to [preserve the generative capacity](#conclusion) of the fields we inhabit.

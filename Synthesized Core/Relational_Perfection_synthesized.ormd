@@ -20,7 +20,7 @@ semantics:
   - derived_framework
 lineage:
   parents:
-  - urn:cb:Relational Perfection A Manifesto.ormd
+  - urn:cb:Relational Perfection - A Manifesto.ormd
   - urn:cb:Relational Perfection A Framework for Emergent Int.ormd
 resolution:
   confidence: 0.98

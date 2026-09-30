@@ -54,7 +54,7 @@ For a first pass:
 3. Read `E^2 Axioms.ormd` for the ten core axioms.
 4. Read `Relational Primitives.ormd` for the six relation categories.
 5. Read `Global Closure Operator.ormd` for stability and closure.
-6. Read `E^2 Equation.ormd` for the compact recursive formula.
+6. Read `E^2 Equation.ormd` for provisional composition and recurrence notation.
 
 For applied work, follow the cluster index rather than treating this entry point as a substitute for the source documents.
 
@@ -82,7 +82,7 @@ This entry point does not attempt to specify ECN. It only preserves the orientat
 - `E² as a Translation Architecture for Human Remembrance.ormd`: human-purpose orientation and translation-fidelity posture.
 - `E^2 Axioms.ormd`: foundational axioms and corollaries.
 - `Relational Primitives.ormd`: six primitive relation categories and formal/categorical mappings.
-- `E^2 Equation.ormd`: recursive composition formula.
+- `E^2 Equation.ormd`: provisional composition and recurrence notation.
 - `Context Layer Protocol (CLP).ormd`: provenance, policy, and resolution handling.
 - `Metabolic Meaning Phase Space (MMPS).ormd`: meaning as metabolic process.
 

@@ -1,38 +1,38 @@
-# Context Layer Protocol (CLP)
+# Context Layer Protocol (CLP) {#clp-main}
 
 9/18/25
 
 Here’s a single, self-contained doc you can hand to other AIs (and humans) to understand and iterate on the vision. It’s concise, normative where helpful, and includes concrete data shapes.
 
-# Context Layer Protocol (CLP) — Overview & Starter Spec v0.2
+# Context Layer Protocol (CLP) — Overview & Starter Spec v0.2 {#clp-overview}
 
-## 0) Purpose
+## 0) Purpose {#purpose}
 
-Build a **context-aware data layer** that returns answers **with their limits and causes attached**. CLP treats context, provenance, resolution limits, and policy as first-class. It is **format-agnostic** (works with PDFs, DOCX, Markdown) and **database-agnostic** (works with SQLite/Postgres + vector/graph indices).
+Build a **context-aware data layer** that returns answers **with their limits and causes attached**. CLP treats [context](#core-object), [provenance](#lineage-event), [resolution limits](#resolution-floors), and [policy](#policy-membranes) as first-class. It is **format-agnostic** (works with PDFs, DOCX, Markdown) and **database-agnostic** (works with SQLite/Postgres + vector/graph indices).
 
-## 1) Problem (why this exists)
+## 1) Problem (why this exists) {#problem}
 
 - **Context loss**: data travels; meaning doesn’t.
 - **Over-precision**: systems claim distinctions beyond evidence (no resolution guardrails).
 - **Opaque power**: policies/roles curve outputs invisibly.
 - **Human bandwidth**: explanations must fit attention budgets.
 
-## 2) Four-Axis Design Lens
+## 2) Four-Axis Design Lens {#design-lens}
 
 - **Resources** (constraint): compute, storage, time.
 - **Cognition** (constraint): human/model attention & verification capacity.
 - **Context** (field condition): frames, lineage, semantics that create coherence.
 - **Power** (curvature/gradient): policies/roles/incentives that bend outcomes.
 
-CLP encodes all four across data, queries, planning, and governance.
+CLP [encodes all four](#core-object) across data, queries, planning, and governance.
 
 ---
 
-## 3) Core Object: ContextBundle (CB)
+## 3) Core Object: ContextBundle (CB) {#core-object}
 
-Portable unit coupling **content** with **frame**, **lineage**, **policy**, **semantics**, **resolution limits**, and **explain**.
+Portable unit [coupling content](#minimal-json) with **frame**, **lineage**, **policy**, **semantics**, **resolution limits**, and **explain**.
 
-**Minimal JSON (canonical form)**
+**Minimal JSON (canonical form)** {#minimal-json}
 
 ```json
 {
@@ -62,7 +62,7 @@ Portable unit coupling **content** with **frame**, **lineage**, **policy**, **se
 
 ```
 
-**Frames (namespacing & validation)**
+**Frames (namespacing & validation)** {#frames}
 
 ```yaml
 # Frame Registry unit
@@ -81,26 +81,26 @@ defaults:
 
 ---
 
-## 4) Storage Model (where things “live”)
+## 4) Storage Model (where things “live”) {#storage-model}
 
-### A) With/Near the File (portable)
+### A) With/Near the File (portable) {#portable-storage}
 
-- **Sidecar** (recommended): `mydoc.ormd.json` next to any payload (PDF/DOCX/MD).
+- **Sidecar** (recommended): `mydoc.ormd.json` [next to any payload](#sidecar-format) (PDF/DOCX/MD).
 - Holds the CB subset needed to open/understand offline: `id`, `frame`, `refs.content_hash`, short `lineage.origin`, `semantics.keywords`, optional `embedding.handle`.
 
-### B) Registries (shared receipts; auditable)
+### B) Registries (shared receipts; auditable) {#registries}
 
 Small **append-only** stores for slow-moving, verifiable metadata:
 
-1. **Lineage Ledger** — signed events about bundles (created, transformed, derivedFrom, linkedTo, attestedBy, redacted).
+1. **Lineage Ledger** {#lineage-ledger} — [signed events](#lineage-event) about bundles (created, transformed, derivedFrom, linkedTo, attestedBy, redacted).
 2. **Frame Registry** — versioned frame definitions & validators.
 3. **Policy/Trust Registry** — public keys, grants/roles, revocations.
 4. **Resolver** — maps bundle IDs/hashes → candidate URIs.
 
 > Registries are not data lakes. They hold hashes, pointers, events, and signatures. Content stays in files/stores you control. Registries can be local, team-scoped, or mirrored publicly; they federate by syncing events (no blockchain, no consensus).
-> 
+>
 
-**Lineage Event (JSONL schema)**
+**Lineage Event (JSONL schema)** {#lineage-event}
 
 ```json
 {
@@ -116,21 +116,21 @@ Small **append-only** stores for slow-moving, verifiable metadata:
 
 ```
 
-### C) Index Fabric (fast but disposable)
+### C) Index Fabric (fast but disposable) {#index-fabric}
 
 - **Relational** (SQLite/Postgres) for CB projections.
 - **Vector** index for semantic recall (Annoy/FAISS/pgvector).
-- **Graph** edges for lineage & `supports|refutes|derives`.
+- **Graph** edges for [lineage](#lineage-ledger) & `supports|refutes|derives`.
 
 Indexes rebuild from files + registry when needed.
 
 ---
 
-## 5) Query Model (Intention-Aware)
+## 5) Query Model (Intention-Aware) {#query-model}
 
-Requests declare **intent**, **frame scope**, **resolution limits**, and **attention budget**. Response returns **rows + EXPLAIN + telemetry**.
+Requests declare **intent**, **frame scope**, **resolution limits**, and **attention budget**. Response returns [rows + EXPLAIN + telemetry](#response-json).
 
-**Request**
+**Request** {#request-json}
 
 ```json
 {
@@ -145,7 +145,7 @@ Requests declare **intent**, **frame scope**, **resolution limits**, and **atten
 
 ```
 
-**Response**
+**Response** {#response-json}
 
 ```json
 {
@@ -175,30 +175,30 @@ Requests declare **intent**, **frame scope**, **resolution limits**, and **atten
 
 ---
 
-## 6) Broker Behavior (normative)
+## 6) Broker Behavior (normative) {#broker-behavior}
 
-The **Context Broker** composes sub-plans across SQL + vector + graph and enforces guardrails:
+The **Context Broker** composes sub-plans across SQL + vector + graph and [enforces guardrails](#resolution-floors):
 
-1. **Resolution floors** (Rayleigh/CFAR):
-    
+1. **Resolution floors** (Rayleigh/CFAR): {#resolution-floors}
+
     If `min_support`/`min_separation` unmet → **do not guess**. Return **unresolved** clusters or degrade to coarser bins; annotate `resolution_status`.
-    
-2. **Policy membranes** (least-privilege):
-    
+
+2. **Policy membranes** (least-privilege): {#policy-membranes}
+
     Apply row/field redaction. Emit **explainable denial** entries without leaking protected content.
-    
+
 3. **Exploration floor** (resilience):
-    
+
     Maintain 5–10% exploratory recall to avoid brittle certainty; tag exploratory steps in `explain.why`.
-    
+
 4. **Attention budget**:
-    
+
     Bound EXPLAIN verbosity and trace depth (“low” ≤ 2–3 lines per row).
-    
+
 5. **Coherence scoring (operational, not truth)**:
-    
+
     Combine agreement across evidence channels; expose score and inputs.
-    
+
 
 **Deployment modes**
 
@@ -208,7 +208,7 @@ The **Context Broker** composes sub-plans across SQL + vector + graph and enforc
 
 ---
 
-## 7) Sidecar Format (portable, editor-friendly)
+## 7) Sidecar Format (portable, editor-friendly) {#sidecar-format}
 
 - **`.ormd.json`** (recommended alongside any payload)
 
@@ -223,11 +223,9 @@ The **Context Broker** composes sub-plans across SQL + vector + graph and enforc
 
 ```
 
-Editors update the payload; a CLI or watcher updates the sidecar and writes **events** to the Lineage Ledger.
+Editors update the payload; a CLI or watcher updates the sidecar and writes **events** to the [Lineage Ledger](#lineage-ledger).
 
----
-
-## 8) Registries (APIs & layout)
+## 8) Registries (APIs & layout) {#registries}
 
 **File layout (local project)**
 
@@ -241,9 +239,11 @@ my-workspace/
 
 ```
 
+The `lineage.log.jsonl` file [composes](#glossary-registry) the local project registry.
+
 **Tiny Registry APIs (FastAPI/Flask)**
 
-- `POST /events` (append; verify signature)
+- `POST /events` (append; [interacts with](#registries) the registry state)
 - `GET /events?object=urn:cb:...`
 - `GET /events?since=ulid` (sync/mirror)
 - `GET /frames` / `GET /frames/{name}@{ver}`
@@ -255,11 +255,11 @@ my-workspace/
 
 ---
 
-## 9) UI/UX Primitives (beyond terminal)
+## 9) UI/UX Primitives (beyond terminal) {#ui-ux}
 
-- **Bundle Cards**: frame pill, key fields, **2-line EXPLAIN**; expand to full trace.
-- **Unresolved Tray**: items below resolution floors with reasons (e.g., `support<3`).
-- **Query Composer**: intent, frames, filters; sliders for resolution & attention.
+- **Bundle Cards**: frame pill, key fields, **2-line EXPLAIN**; expand to full trace. These cards [measure](#glossary-cb) the state of a ContextBundle.
+- **Unresolved Tray**: items below resolution floors with reasons (e.g., `support<3`). This tray [limits](#glossary-unresolved) visibility based on resolution thresholds.
+- **Query Composer**: intent, frames, filters; sliders for resolution & attention. Inputs here [transform to](#glossary-broker) broker requests.
 - **Bundle Inspector**: sidecar & payload preview, lineage graph, relations, signatures.
 - **Telemetry Panel**: coherence trend, unresolved %, redaction rate, power-curvature.
 
@@ -267,22 +267,26 @@ my-workspace/
 
 ---
 
-## 10) Implementation Path (no-Docker, staged)
+## 10) Implementation Path (no-Docker, staged) {#implementation}
 
-### Milestone A — CLP-Mini (1–2 weeks)
+### Milestone A — CLP-Mini (1–2 weeks) {#milestone-a}
 
-- **SQLite** for CB tables; **Annoy/FAISS** for vectors; simple graph via tables.
+- **SQLite** [composes](#milestone-a) the storage for CB tables; **Annoy/FAISS** for vectors; simple graph via tables.
 - **CLI**: `record`, `attest`, `link`, `query`.
 - **Examples**: 6 bundles (1 claim, 3 supports, 1 refute, 1 thin).
 - **Broker**: frame-scoped search, min_support check, EXPLAIN, unresolved.
 
-### Milestone B — Registries (1–2 weeks)
+[Milestone A](#milestone-a) precedes the development of networked registries.
+
+### Milestone B — Registries (1–2 weeks) {#milestone-b}
 
 - `.clp/lineage.log.jsonl` + signing (ed25519).
 - Tiny Registry API (append/get/since/frames/resolve).
 - Broker includes event ids & frame version in EXPLAIN.
 
-### Milestone C — Policy & Review (2–3 weeks)
+[Milestone B](#milestone-b) precedes the integration of advanced policy controls.
+
+### Milestone C — Policy & Review (2–3 weeks) {#milestone-c}
 
 - Field redaction for one frame (e.g., PII mask). EXPLAINable denial.
 - “Unresolved Review” queue; decisions update thresholds.
@@ -291,9 +295,11 @@ my-workspace/
 
 ---
 
-## 11) Acceptance Tests (copyable)
+## 11) Acceptance Tests (copyable) {#acceptance-tests}
 
-1. **Frame scoping**: queries never return objects outside requested frames.
+These tests [supports](#implementation) the validation of the implementation path.
+
+1. **Frame scoping**: queries never return objects outside requested [frames](#glossary-frame).
 2. **Resolution enforcement**: `min_support` unmet → item appears in `unresolved_clusters`, not `rows`.
 3. **Explain determinism**: same data/query → same ordered `why` steps.
 4. **Attention budget**: `"low"` → ≤ 3 explain lines per row.
@@ -302,7 +308,9 @@ my-workspace/
 
 ---
 
-## 12) Non-Goals
+## 12) Non-Goals {#non-goals}
+
+These boundaries [limits](#registries) the scope of the registry and broker logic.
 
 - No blockchain/consensus/tokens.
 - No universal truth adjudication.
@@ -311,20 +319,20 @@ my-workspace/
 
 ---
 
-## 13) Glossary
+## 13) Glossary {#glossary}
 
-- **Frame**: named domain lens that defines what “context” means (schema + defaults).
-- **ContextBundle (CB)**: content + context (lineage, policy, semantics, resolution, explain).
-- **Registry**: signed, append-only receipts for lineage/frames/policies; small and auditable.
-- **Index Fabric**: SQL + vector + graph built from files/registries for fast query.
-- **Broker**: planner that enforces resolution/policy and returns EXPLAIN + telemetry.
-- **Unresolved**: an honest “we don’t know yet” result state (feature, not bug).
+- **Frame** {#glossary-frame}: named domain lens that [defines](#glossary-frame) what “context” means (schema + defaults).
+- **ContextBundle (CB)** {#glossary-cb}: [is composed of](#glossary-cb) content + context (lineage, policy, semantics, resolution, explain).
+- **Registry** {#glossary-registry}: signed, append-only receipts for lineage/frames/policies; small and auditable.
+- **Index Fabric** {#glossary-index-fabric}: SQL + vector + graph [is composed of](#glossary-index-fabric) data built from files/registries for fast query.
+- **Broker** {#glossary-broker}: planner that [constrains](#glossary-broker) results by enforcing resolution/policy and returns EXPLAIN + telemetry.
+- **Unresolved** {#glossary-unresolved}: an honest “we don’t know yet” result state that [defines](#glossary-unresolved) a feature of the system, not a bug.
 
 ---
 
-## 14) Two Ready-to-Run Examples
+## 14) Two Ready-to-Run Examples {#examples}
 
-**A) Verify an event claim**
+**A) Verify an event claim** {#example-a}
 
 ```json
 {
@@ -338,9 +346,9 @@ my-workspace/
 
 ```
 
-*Expected*: one claim row with ≥3 independent supports; casualty detail flagged in `unresolved_clusters` if support<3.
+*Expected*: one claim row with ≥3 independent supports; casualty detail flagged in `unresolved_clusters` if support<3. This example [supports](#glossary-cb) the claim verification process.
 
-**B) Reconcile shipments ↔ invoices (toy)**
+**B) Reconcile shipments ↔ invoices (toy)** {#example-b}
 
 ```json
 {
@@ -353,13 +361,13 @@ my-workspace/
 
 ```
 
-*Expected*: matched pairs with EXPLAIN (symbolic join + vector similarity + lineage hop), and unresolved pairs under support/CI thresholds.
+*Expected*: matched pairs with EXPLAIN (symbolic join + vector similarity + lineage hop), and unresolved pairs under support/CI thresholds. This logic [corresponds to](#glossary-broker) the broker's reconciliation mapping.
 
 ---
 
-### Hand-off
+### Hand-off {#hand-off}
 
-This document is sufficient for another AI to:
+This document [supports](#implementation) the ability for another AI to:
 
 - implement a minimal broker & registries,
 - define 1–2 frames,

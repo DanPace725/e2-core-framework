@@ -28,26 +28,25 @@ Entry point: Relational Primitives → E^2 Equation → Global Closure Operator
 
 - [E^2 Axioms](https://e2-core-framework.capulusirl.chatgpt.site/ormd/e2-axioms.ormd) — frame: philosophy.relational-ontology.axioms; confidence: 0.92
 - [E^2 Entry Point](https://e2-core-framework.capulusirl.chatgpt.site/ormd/e2-entry-point.ormd) — frame: ontology.relational.e2; confidence: 0.92
-- [E^2 Equation: Recursive Composition and the Global Closure Operator](https://e2-core-framework.capulusirl.chatgpt.site/ormd/e2-equation.ormd) — frame: ontology.relational-physics; confidence: 0.98
+- [E^2 Equation](https://e2-core-framework.capulusirl.chatgpt.site/ormd/e2-equation.ormd) — frame: ontology.relational-physics; confidence: 0.5
 - [E² as a Translation Architecture for Human Remembrance](https://e2-core-framework.capulusirl.chatgpt.site/ormd/e2-as-a-translation-architecture-for-human-remembrance.ormd) — frame: philosophy.orientation.translation-remembrance; confidence: 0.9
+- [E² Corpus Lineage Index](https://e2-core-framework.capulusirl.chatgpt.site/ormd/original-e2-work.ormd) — frame: research.index; confidence: 1
 - [Global Closure Operator](https://e2-core-framework.capulusirl.chatgpt.site/ormd/global-closure-operator.ormd) — frame: theoretical.ontology.relational; confidence: 0.95
-- [Original E^2 Work](https://e2-core-framework.capulusirl.chatgpt.site/ormd/original-e2-work.ormd) — frame: research.index; confidence: 1
 - [Relational Primitives](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-primitives.ormd) — frame: formal.ontology.relational; confidence: 0.96
 
 ## Cluster B — Formal, Mathematical & Epistemic Constraints
 
 Scope: Formal mappings of E² into established mathematical formalisms, together with the epistemic conditions and limits governing what the framework may defensibly claim. Covers category theory, lambda calculus, relational physics, computability, embedded universality, and predictive lawfulness.
 
-Entry point: CT Translation of RPs → RP Lambda Calc Translation → Meta-Pattern Decidability Conjecture → Embedded Universality Principle
+Entry point: Relational Primitive Translations → Meta-Pattern Decidability Conjecture → Embedded Universality Principle
 
-- [CT translation of RPs](https://e2-core-framework.capulusirl.chatgpt.site/ormd/ct-translation-of-rps.ormd) — frame: formalism.relational-ontology; confidence: 0.95
 - [Derivation Deep Dive: Categorical and Relational Physics](https://e2-core-framework.capulusirl.chatgpt.site/ormd/derivation-deep-dive.ormd) — frame: physics.theoretical.derivation; confidence: 0.85
 - [Embedded Universality Principle (EUP)](https://e2-core-framework.capulusirl.chatgpt.site/ormd/embedded-universality-principle-eup.ormd) — frame: epistemology.governance.embedded-universality; confidence: 0.9
 - [Lawfulness](https://e2-core-framework.capulusirl.chatgpt.site/ormd/lawfulness-core-source.ormd) — frame: epistemics.predictive_lawfulness; confidence: 0.84
 - [Meta-Pattern Decidability Conjecture (MPDC)](https://e2-core-framework.capulusirl.chatgpt.site/ormd/meta-pattern-decidability-conjecture-mpdc.ormd) — frame: epistemology.conjecture; confidence: 0.85
 - [Relational Derivation Chain - E2 to RCP, MPDC, and AFD](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-derivation-chain.ormd) — frame: philosophy.relational.computability; confidence: 0.85
 - [Relational Field Dynamics 0.1](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-field-dynamics-0-1.ormd) — frame: research.formalism; confidence: 0.85
-- [RP Lambda Calc Translation](https://e2-core-framework.capulusirl.chatgpt.site/ormd/rp-lambda-calc-translation.ormd) — frame: formal.logic.translation; confidence: 0.98
+- [Relational Primitive Translations](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-primitive-translations.ormd) — frame: research.formal-translation; confidence: 0.5
 
 ## Cluster C — Dynamics, Emergence & Systems Frameworks
 
@@ -70,24 +69,22 @@ Entry point: reconciled CFAR → Attentional Access and Formation → Resolution
 
 ## Cluster D — Metabolic, Resonance & Temporal Physics
 
-Scope: The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants.
+Scope: Conceptual meaning models, resonance as relational translation, and temporal dynamics. Metabolic Meaning proposes a phase-space model; the resonance source offers bounded interaction prompts; TCL documents propose temporal coupling measures.
 
-Entry point: Metabolic Meaning Phase Space → The Resonance Framework → Signal as Bias Field
+Entry point: Metabolic Meaning Phase Space → Resonance and Relational Translation → Signal as Bias Field
 
 - [Metabolic Meaning Phase Space (MMPS)](https://e2-core-framework.capulusirl.chatgpt.site/ormd/metabolic-meaning-phase-space-mmps.ormd) — frame: theory.metabolic-meaning; confidence: 0.95
-- [Resonance Architecture](https://e2-core-framework.capulusirl.chatgpt.site/ormd/resonance-architecture-4-17-25.ormd) — frame: epistemology.resonance; confidence: 0.9
+- [Resonance and Relational Translation](https://e2-core-framework.capulusirl.chatgpt.site/ormd/resonance-and-relational-translation.ormd) — frame: research.relational-translation; confidence: 0.5
 - [Signal as Bias Field](https://e2-core-framework.capulusirl.chatgpt.site/ormd/signal-as-bias-field.ormd) — frame: relational.physics.signal-theory; confidence: 0.9
 - [Slow-Layer Clock Ratio](https://e2-core-framework.capulusirl.chatgpt.site/ormd/slow-layer-clock-ratio-core-source.ormd) — frame: dynamics.slow_layer_clock_ratio; confidence: 0.84
 - [Temporal Constraint Lamination: What We Found](https://e2-core-framework.capulusirl.chatgpt.site/ormd/tcl-plain-english-summary.ormd) — frame: research.report; confidence: 0.92
-- [The Architecture of Resonant Systems](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-architecture-of-resonant-systems-4-26-25.ormd) — frame: relational.systems.theory; confidence: 0.92
 - [The Operating Window: Three Constants from One Landscape](https://e2-core-framework.capulusirl.chatgpt.site/ormd/tcl-three-constants.ormd) — frame: systems.analysis.tcl; confidence: 0.96
-- [The Resonance Framework: An Ontological Map](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd) — frame: ontology.map; confidence: 0.85
 
 ## Cluster E — Ethics, Stewardship, Accountability & Rights
 
 Scope: The normative and answerability layer of E². Grounds rights, stewardship, trust, custody, accountability, consequence routing, and repair in relational structure. Localization and typed-condition work make assignment inspectable within complex causal chains. Includes temporal ethics and AI interaction ethics.
 
-Entry point: Reverent Stewardship → Relational Bill of Rights v2 → Justice Across Scales
+Entry point: Reverent Stewardship → The Relational Bill of Rights → Justice Across Scales
 
 - [Asymmetry Maintenance](https://e2-core-framework.capulusirl.chatgpt.site/ormd/asymmetry-maintenance-core-source.ormd) — frame: mechanics.persistence.asymmetry; confidence: 0.9
 - [Boundary Ethics](https://e2-core-framework.capulusirl.chatgpt.site/ormd/boundary-ethics-core-source.ormd) — frame: ethics.boundary.posture; confidence: 0.9
@@ -106,7 +103,7 @@ Entry point: Reverent Stewardship → Relational Bill of Rights v2 → Justice A
 - [Relational Localization](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-localization-core-source.ormd) — frame: ethics.assignment.localization; confidence: 0.9
 - [Remnant Stewardship](https://e2-core-framework.capulusirl.chatgpt.site/ormd/remnant-stewardship-core-source.ormd) — frame: ethics.stewardship.remnant; confidence: 0.9
 - [Responsibility Absorption](https://e2-core-framework.capulusirl.chatgpt.site/ormd/responsibility-absorption-core-source.ormd) — frame: governance.responsibility_absorption; confidence: 0.84
-- [Reverent Stewardship: A Recursion of Principles & Practical Guide](https://e2-core-framework.capulusirl.chatgpt.site/ormd/reverent-stewardship.ormd) — frame: ethics.stewardship.guide; confidence: 0.95
+- [Reverent Stewardship](https://e2-core-framework.capulusirl.chatgpt.site/ormd/reverent-stewardship.ormd) — frame: ethics.stewardship.guide; confidence: 0.95
 - [Sign-Mediated Accountability and Flow Routing](https://e2-core-framework.capulusirl.chatgpt.site/ormd/sign-mediated-flow-routing.ormd) — frame: accountability.sign-mediated-routing; confidence: 0.9
 - [Steward’s Creed](https://e2-core-framework.capulusirl.chatgpt.site/ormd/steward-s-creed.ormd) — frame: philosophical.creed; confidence: 1
 - [The Relational Bill of Rights](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-bill-of-rights-v2.ormd) — frame: ethics.relational; confidence: 0.95
@@ -116,10 +113,10 @@ Entry point: Reverent Stewardship → Relational Bill of Rights v2 → Justice A
 
 Scope: How relational systems resist, detect, and recover from adversarial manipulation. AOMI formalizes mechanism gaming and Goodhart dynamics; MRIE addresses identity-pattern exposure through relational signatures; the Exposure Protocol preserves coherence during transmission.
 
-Entry point: Adversarial Occlusion & Mechanism Integrity V1 → MRIE, including Cognitive Signature Capture
+Entry point: Adversarial Occlusion and Mechanism Integrity V1 → MRIE, including Cognitive Signature Capture
 
 - [Adversarial Occlusion and Mechanism Integrity V1](https://e2-core-framework.capulusirl.chatgpt.site/ormd/adversarial-occlusion-and-mechanism-integrity-v1.ormd) — frame: security.governance.framework; confidence: 0.95
-- [Exposure Protocol: A Coherence-Preserving Transmission Framework](https://e2-core-framework.capulusirl.chatgpt.site/ormd/exposure-protocol.ormd) — frame: pedagogy.framework; confidence: 0.95
+- [Exposure Protocol](https://e2-core-framework.capulusirl.chatgpt.site/ormd/exposure-protocol.ormd) — frame: pedagogy.framework; confidence: 0.95
 - [MRIE - Unified Synthesis](https://e2-core-framework.capulusirl.chatgpt.site/ormd/mrie-unified-synthesis.ormd) — frame: research.identity-security; confidence: 0.9
 - [Relational Irreducibility Framework (RIF)](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-irreducibility-framework-rif.ormd) — frame: philosophy.systems-theory; confidence: 0.9
 - [The Truth-Ceiling: A Categorical Formulation for Scalable Truth](https://e2-core-framework.capulusirl.chatgpt.site/ormd/truth-ceiling.ormd) — frame: epistemics.governance; confidence: 0.85
@@ -132,8 +129,8 @@ Entry point: Self as Coherence Field → Collective Cognitive Substrate → Rela
 
 - [Collective Cognitive Substrate](https://e2-core-framework.capulusirl.chatgpt.site/ormd/collective-cognitive-substrate.ormd) — frame: cognitive.ecology.synthesis; confidence: 0.9
 - [Ontological Systems Interface (OSI) Model](https://e2-core-framework.capulusirl.chatgpt.site/ormd/ontological-systems-interface-osi-model.ormd) — frame: relational.ontology; confidence: 0.9
-- [Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-volition.ormd) — frame: philosophy.relational-physics; confidence: 0.9
-- [The 'Intelligence Field' Framework](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-intelligence-field-framework.ormd) — frame: cognitive.theory.framework; confidence: 0.85
+- [Relational Volition](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-volition.ormd) — frame: philosophy.relational-physics; confidence: 0.9
+- [The "Intelligence Field" Framework](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-intelligence-field-framework.ormd) — frame: cognitive.theory.framework; confidence: 0.85
 - [The Self as Coherence Field](https://e2-core-framework.capulusirl.chatgpt.site/ormd/self-as-coherence-field.ormd) — frame: cognition.self_coherence; confidence: 0.93
 
 ## Cluster H — Social, Civilizational & Applied
@@ -153,7 +150,7 @@ Entry point: Declaration of Interdependence → The Collective Relational Substr
 - [Power as Relational Field Coherence](https://e2-core-framework.capulusirl.chatgpt.site/ormd/power-as-relational-field-coherence.ormd) — frame: theoretical.sociophysics.power; confidence: 0.9
 - [Relational Perfection: A Framework for Emergent Integrity](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-perfection-framework.ormd) — frame: philosophy.ontology; confidence: 0.95
 - [Relational Perfection: A Manifesto](https://e2-core-framework.capulusirl.chatgpt.site/ormd/relational-perfection-a-manifesto.ormd) — frame: philosophy.manifesto; confidence: 1
-- [The Cyclical Integrity framework](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-cyclical-integrity-framework.ormd) — frame: philosophy.systems; confidence: 0.9
+- [The Cyclical Integrity Framework](https://e2-core-framework.capulusirl.chatgpt.site/ormd/the-cyclical-integrity-framework.ormd) — frame: philosophy.systems; confidence: 0.9
 
 ## Cluster I — Protocol, Infrastructure & Meta
 

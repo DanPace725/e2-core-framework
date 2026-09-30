@@ -1,6 +1,6 @@
 <!-- ormd:1.0 -->
 ---
-title: "Original E^2 Work"
+title: "E² Corpus Lineage Index"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -9,6 +9,7 @@ lineage:
   origin: { uri: "urn:ormd:e2-original-work", ts: "2025-06-03T00:00:00Z" }
   parents:
     - { uri: "local://archive/20260612_step_2_3_outliers/Context%20Layer/Original%20E%5E2%20work.ormd", relation: "expands_index" }
+    - { uri: "local://archive/20260930_original_e2_work/Semantic%20Substrate/Original%20E%5E2%20work.md", relation: "replaces_notion_export_link_hub" }
 policy:
   read: [{ roles: ["public"] }]
 semantics:
@@ -16,18 +17,17 @@ semantics:
 resolution: { confidence: 1.0 }
 ---
 
-# Original E^2 Work {#original-e2-work}
+# E² Corpus Lineage Index {#original-e2-work}
 
-This registry replaces the archived link-hub with a compact lineage map for the original E^2 corpus. It is index material, not a theory document. Use it to locate historical anchors and then route claims to the current canonical Context Layer.
+This registry replaces the archived Notion-export link hub with a compact lineage map for the original E^2 corpus. It is index material, not a theory document. Use it to locate historical anchors and then route claims to the current canonical Context Layer.
 
 ## Foundational Ontology {#foundational-ontology}
 
 - `E^2 Entry Point.ormd`: human-readable entry point for the relational ontology.
-- `E^2 Equation.ormd`: compact equation-level statement.
+- `E^2 Equation.ormd`: provisional composition and recurrence notation.
 - `E^2 Axioms.ormd`: canonical axiomatic foundation; parents include Initial Axioms.
 - `Relational Primitives.ormd`: canonical merged primitive vocabulary; parents include Relational Primitives V3.
-- `The Resonance Framework: An Ontological Map 4.24.25.ormd`: historical resonance-map anchor.
-- `Resonance Architecture 4.17.25.ormd` and `The Architecture of Resonant Systems 4.26.25.ormd`: early architecture lineage.
+- `Resonance and Relational Translation.ormd`: scoped successor to the April 17, April 24, and April 26 resonance works; the dated originals remain in archive lineage.
 
 ## Constitutional and Ethical Anchors {#constitutional-ethical-anchors}
 
@@ -66,4 +66,4 @@ This registry replaces the archived link-hub with a compact lineage map for the 
 
 ## Use Guidance {#use-guidance}
 
-When a reader needs history, start here. When a reader needs a claim, prefer the current canonical document named in the relevant cluster. The archived parent preserves the original Notion-style link order.
+When a reader needs history, start here. When a reader needs a claim, prefer the current canonical document named in the relevant cluster. The archived human export preserves the original Notion link labels, IDs, and order.

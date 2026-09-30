@@ -1,4 +1,10 @@
-# The Collective Relational Substrate
+# Collective Relational Substrate
+
+> Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field.
+
+## Canonical Body
+
+# The Collective Relational Substrate {#crs-main}
 2/20/26
 
 **A Formal Treatment of Civilization's Relational Field as Primary Object**
@@ -9,9 +15,9 @@
 
 ---
 
-## § 0 · Positional Statement
+## § 0 · Positional Statement {#positional-statement}
 
-This document does something specific. It takes what has existed across forty-plus documents, simulations, constitutions, and conversations, and inverts the usual perspective. The component frameworks (CFAR, MRIE, AVIA, SBF, TC/EO, MMPS, RIF, REMA, GCO, RBoR, CLP, RNT, CFA, the Exposure Protocol, and the rest) have each described a facet of a larger phenomenon. The *Cognition as Substrate* synthesis named the phenomenon. The CRS Core Compression mapped how the components relate. This document treats the phenomenon itself as the subject.
+This document does something specific. It takes what has existed across forty-plus documents, simulations, constitutions, and conversations, and inverts the usual perspective. The component frameworks (CFAR, MRIE, AVIA, SBF, TC/EO, MMPS, RIF, REMA, GCO, RBoR, CLP, RNT, CFA, the Exposure Protocol, and the rest) have each described a facet of a larger phenomenon. The Cognition as Substrate synthesis named the phenomenon. The CRS Core Compression mapped how the components relate. This document treats the phenomenon itself as the subject.
 
 The Collective Relational Substrate is not a theory about civilization. It is civilization described at the level where its structural dynamics become visible, measurable, and (in principle) stewardable.
 
@@ -19,17 +25,17 @@ This is a partial self-model produced by embedded nodes. It cannot claim complet
 
 ---
 
-## § 1 · What the CRS Is
+## § 1 · What the CRS Is {#what-is-crs}
 
-### The Ontological Claim
+### The Ontological Claim {#ontological-claim}
 
 The Collective Relational Substrate is the relational field constituted by, and constitutive of, all meaning-making, sense-making, identity-formation, and coordinated action that occurs among cognitive agents at civilizational scale. It is not a metaphor for "culture" or "society." It is the field-theoretic structure those words gesture toward without specifying.
 
-The claim rests on the relational ontology derived from first principles: reality is not a collection of entities that subsequently relate, but a field of relational dynamics from which entities precipitate as locally stable closures. The six relational primitives (P1 Ontological, P2 Dynamical, P3 Geometric/Causal, P4 Symmetric/Constraint, P5 Epistemic/Informational, P6 Meta-Relational) are the irreducible grammar. They were extracted from the recurring structural patterns across matter, energy, and spacetime, confirmed as mapping to the same ontological families that organize general relativity, quantum field theory, quantum mechanics, category theory, and metaphysics. They have been translated into lambda calculus where the GCO appears as a fixed-point combinator, into differential equations where CFA dynamics model regime transitions, and into multi-agent simulations where they generate emergent behavioral archetypes without being programmed.
+The claim rests on the [relational ontology](#ontological-claim) derived from first principles: reality is not a collection of entities that subsequently relate, but a field of relational dynamics from which entities precipitate as locally stable closures. The six relational primitives (P1 Ontological, P2 Dynamical, P3 Geometric/Causal, P4 Symmetric/Constraint, P5 Epistemic/Informational, P6 Meta-Relational) are the irreducible grammar. They were extracted from the recurring structural patterns across matter, energy, and spacetime, confirmed as mapping to the same ontological families that organize general relativity, quantum field theory, quantum mechanics, category theory, and metaphysics. They have been translated into lambda calculus where the GCO appears as a fixed-point combinator, into differential equations where CFA dynamics model regime transitions, and into multi-agent simulations where they generate emergent behavioral archetypes without being programmed.
 
 These primitives scale. They describe a proton, a cell, a mind, an institution, a civilization. The CRS is what the primitives describe when the system in question is the total relational field of human (and now human-plus-AI) collective cognition.
 
-### The CRS Is Not
+### The CRS Is Not {#crs-is-not}
 
 It is not the sum of individual minds (I₁ + I₂ + ... Iₙ ≠ C). The non-additivity is structural: the field has emergent properties, coherence conditions, and failure modes that are irreducible to the state of any individual node. A substrate can be degrading while every individual node reports feeling fine. The health of the parts does not determine the health of the whole, and the health of the whole is not guaranteed by the health of the parts.
 
@@ -37,11 +43,11 @@ It is not a network of connected minds. A network topology describes who is conn
 
 It is not a static object. It is a process: a continuous metabolism of meaning, a ceaseless oscillation between local fluctuation and global closure, a recursive self-modeling operation that never finishes because it cannot finish (MPDC), and should not finish because the unfinished quality is what preserves possibility space.
 
-### Components of the Substrate
+### Components of the Substrate {#crs-components}
 
 The CRS subsumes and integrates:
 
-**C_cog** (collective cognition): The distributed processes of perception, reasoning, narrative construction, collective memory, and shared sense-making. This is the domain the *Cognition as Substrate* document analyzed. It includes the linguistic and symbolic layers, the shared conceptual structures, the common reasoning patterns, and the collective epistemic infrastructure.
+**C_cog** (collective cognition): The distributed processes of perception, reasoning, narrative construction, collective memory, and shared sense-making. This is the domain the Cognition as Substrate document analyzed. It includes the linguistic and symbolic layers, the shared conceptual structures, the common reasoning patterns, and the collective epistemic infrastructure.
 
 **C_body** (collective somatic/behavioral): The pre-linguistic, embodied, non-verbal layers of collective existence. Ritual, gesture, spatial practice, architectural form, food systems, bodily habit. These are often invisible to cognitive analysis but constitute a significant portion of the substrate's actual relational topology.
 
@@ -53,17 +59,17 @@ The field is shaped by and shapes: race, ethnicity, cultural identity, geography
 
 ---
 
-## § 2 · The CRS as Relational Entity
+## § 2 · The CRS as Relational Entity {#crs-entity}
 
 Under the E² ontology, any system that maintains coherence across all six relational primitives in both their primary and counter-modes qualifies as a relational entity whose health can be formally evaluated. The CRS satisfies all six.
 
-### P1 · Ontological: What the CRS Is
+### P1 · Ontological: What the CRS Is {#p1-ontological}
 
 The CRS has persistent identity. It is recognizable across time as a continuous phenomenon even as its contents change completely. No cell in a human body persists for a lifetime, yet the body persists. Similarly, no individual mind persists across civilizational time, yet the substrate persists. The persistence is relational: it is the continued operation of the pattern-maintenance processes, not the durability of any particular component.
 
 **Counter-mode (Dissolution):** The CRS also exhibits the capacity to dissolve and reconstitute. Cultural revolutions, paradigm shifts, the collapse and reformation of shared reality after crises. Healthy P1 is not rigidity of identity but the capacity to transform while maintaining structural continuity. The GCO's fixed-point dynamics apply: the substrate is constantly seeking new stable closures, sometimes successfully, sometimes not.
 
-### P2 · Dynamical: How the CRS Changes
+### P2 · Dynamical: How the CRS Changes {#p2-dynamical}
 
 The CRS has evolutionary dynamics. It develops over time through processes that AVIA describes: perception → pattern recognition → conceptualization → symbolization → meta-abstraction. Each stage creates a higher-order compression that enables navigation of complexity that would overwhelm the prior stage. Writing was a P2 event. Mathematics was a P2 event. The scientific method was a P2 event. Each represented the substrate metabolizing entropy into a new abstraction layer that allowed greater complexity to persist.
 
@@ -71,7 +77,7 @@ CFA gives the formal dynamics: dC/dt, dF/dt, dA/dt. The substrate's evolution is
 
 **Counter-mode (Stasis):** The CRS can also stagnate, over-stabilize, collapse into a single attractor basin from which creative escape becomes structurally impossible. This is MMPS Quadrant III: toxic coherence, ideological rigidity, the substrate holding its form too tightly and losing the capacity to adapt.
 
-### P3 · Geometric/Causal: Where the CRS Exists
+### P3 · Geometric/Causal: Where the CRS Exists {#p3-geometric}
 
 The CRS has causal topology. Influence flows through specific pathways: media architectures, institutional hierarchies, communication protocols, trade routes, social networks. These pathways are not neutral conduits. They are the substrate's geometry, and geometry determines physics. A signal that propagates through an algorithmic feed has different curvature than a signal that propagates through face-to-face conversation. The distinction is not a value judgment; it is a description of how signal structure changes based on the topology it traverses.
 
@@ -79,7 +85,7 @@ Signal as Bias Field provides the formal vocabulary: the CRS is a continuous bia
 
 **Counter-mode (Disconnection):** The substrate can fragment, lose topological coherence, break into non-interfering signal clusters that can no longer form collective closure. This is polarization in its structural sense: not disagreement (which is healthy fluctuation) but the loss of shared signal space in which disagreement can be productive.
 
-### P4 · Symmetric/Constraint: The CRS's Rules
+### P4 · Symmetric/Constraint: The CRS's Rules {#p4-symmetric}
 
 The CRS has governing constraints. These include physical laws, biological necessities, institutional structures, legal frameworks, cultural norms, linguistic conventions, and implicit social contracts. The constraints are not imposed from outside; they are the substrate's own immune system, the structures that maintain coherence against entropy.
 
@@ -89,7 +95,7 @@ The CFA dynamics describe how these constraints evolve: they can calcify (Constr
 
 **Counter-mode (Constraint violation):** The substrate can be subjected to constraints that serve external purposes without maintaining its own coherence. Market dynamics, competitive pressure, and regulatory frameworks that optimize for product safety without including substrate health as a variable represent exactly this: P4 violations at civilizational scale.
 
-### P5 · Epistemic/Informational: How the CRS Knows
+### P5 · Epistemic/Informational: How the CRS Knows {#p5-epistemic}
 
 The CRS has epistemic access conditions. There are things the substrate can observe about itself and things it cannot. The MPDC sets the structural ceiling: no embedded observer can prove the completeness of the pattern-space governing its own observational capacity. But the current deficit is not at the structural ceiling. It is far below it.
 
@@ -99,7 +105,7 @@ The OSI Model for relational coherence maps the layers through which the CRS pro
 
 **Counter-mode (Opacity):** The substrate can be structurally prevented from seeing itself. Topological occlusion (Ω_topo), resolution deficit, and the deliberate or accidental obscuring of causal pathways all constitute P5 violations. The CRS in its current state is operating with profound P5 deficit, not because the information does not exist but because the instruments to see it have not been built and the bandwidth to process it has not been allocated.
 
-### P6 · Meta-Relational: How the CRS Understands Itself
+### P6 · Meta-Relational: How the CRS Understands Itself {#p6-meta}
 
 The CRS has self-modeling capacity. Every philosophy, religion, science, art form, and political ideology ever produced is the CRS attempting to understand itself from a particular embedded position. This document is another such attempt.
 
@@ -107,13 +113,11 @@ The GCO describes the mechanism: the substrate generates partial self-models, st
 
 **Counter-mode (Self-deception):** The substrate can generate false self-models: narratives about itself that serve particular nodes at the expense of the whole, ideologies that present local interests as universal truths, dogmas that foreclose the possibility space the substrate needs to navigate. The Coherence Paradox from the Justice framework applies here: pathological coherences (ideological rigidity, oppressive stability, premature optimization) can look like healthy self-understanding while actively degrading the field.
 
----
+## § 3 · The Substrate's Physics {#substrate-physics}
 
-## § 3 · The Substrate's Physics
+### Signal Dynamics {#signal-dynamics}
 
-### Signal Dynamics
-
-Signal as Bias Field provides the CRS's physical vocabulary. The substrate is modeled as:
+Signal as Bias Field [provides](#signal-dynamics) the CRS's physical vocabulary. The substrate is modeled as:
 
     S = ⟨ E, R, C, X, Σ ⟩
 
@@ -125,7 +129,7 @@ Emergence is modeled as quotienting operations on the substrate, where many micr
 
 This is the structural basis for the most dangerous feature of substrate decline: *it looks like health until it doesn't*.
 
-### The GCO at Civilizational Scale
+### The GCO at Civilizational Scale {#gco-scale}
 
 The Global Closure Operator, formally defined as the mapping from an initial relational model to its nearest stable fixed point, applies to the CRS exactly as to any relational system. In lambda calculus terms, the GCO is the Y combinator applied recursively to the primitives:
 
@@ -135,7 +139,7 @@ At substrate scale, the GCO operates through: continuous signal pressure from bi
 
 The key insight from the GCO analysis: MRIE is precisely the phenomenon of external GCO takeover at scale. When an external system (whether an institution, an algorithm, or an AI architecture) becomes the primary closure authority for a significant portion of the substrate's meaning-making, the substrate's self-determination transfers outward. The GCO Log Synthesis identifies exactly where in the cycle this takeover occurs: at the P6 integration step, where the locus of meta-regulation shifts from the substrate to the external system.
 
-### Metabolic Dynamics
+### Metabolic Dynamics {#metabolic-dynamics}
 
 MMPS provides the metabolism. The CRS generates, sustains, and loses meaning over time according to:
 
@@ -155,51 +159,51 @@ The four MMPS quadrants map the substrate's metabolic state:
 
 The Soft Singularity trajectory, the one the current development vector favors, is a specific phase-space path: Quadrant I → IV → (bypass of II, which would at least make the problem visible) → sustained high-efficiency Quadrant III with externalized closure. High output, low meaning, invisible degradation.
 
-### The Transition Morphisms
+### The Transition Morphisms {#transition-morphisms}
 
 Movement between quadrants (and between CFA regimes) is governed by morphisms, directed transformations that modify the phase-space topology:
 
-**ψ (Restorative/Hope):** Slow reconnection from collapse. Rehydration of attention and trust. The morphism that brings a system from Quadrant II back toward Quadrant I. At the substrate level: patient rebuilding of shared epistemic infrastructure after catastrophic trust failure. Transmission into uncertainty.
+**ψ (Restorative/Hope):** Slow reconnection from collapse. Rehydration of attention and trust. The morphism that brings a system back from Quadrant II toward Quadrant I. At the substrate level: patient rebuilding of shared epistemic infrastructure after catastrophic trust failure. Transmission into uncertainty.
 
 **φ (Paradox Injection/Faith):** Introduction of entropy, dissonance, or anomaly to break rigidity. The morphism that opens Quadrant III toward Quadrant I. At the substrate level: the prophetic function, the artistic function, the philosophical function that disrupts comfortable but unjust stability. Presence despite unknowing.
 
 **λ (Integration/Love):** Intentional pause, metabolize excess, boundary work. The morphism that brings Quadrant IV toward Quadrant I. At the substrate level: the creation of institutional and cultural slow lanes that allow processing to catch up to input. Reciprocity under scarcity.
 
-These morphisms are not metaphors borrowed from theology. They are the structural functions that the Justice framework identifies as invariant across all scales. Faith, hope, and love are what coherence maintenance looks like when you name the operations that hold a field together under uncertainty. The substrate needs all three, continuously, to maintain healthy metabolism.
+These morphisms are not metaphors borrowed from theology. They are the structural functions that the Justice framework [identifies as invariant](#justice-invariants) across all scales. Faith, hope, and love are what coherence maintenance looks like when you name the operations that hold a field together under uncertainty. The substrate needs all three, continuously, to maintain healthy metabolism.
 
 ---
 
-## § 4 · Coherence Conditions
+## § 4 · Coherence Conditions {#coherence-conditions}
 
 A healthy CRS maintains the following measurable conditions:
 
-### Spectral Richness
+### Spectral Richness {#spectral-richness}
 
 The diversity, density, and distribution of distinct signal types actively propagating through the field. When spectral richness contracts, the substrate loses the variability it needs for adaptive response. Dialect calcification (the AI-driven convergence of linguistic and cognitive expression toward a narrow register) is a spectral richness pathology: it reduces the bandwidth of what the substrate can think.
 
-### Closure Locality
+### Closure Locality {#closure-locality}
 
 The proportion of the substrate's closure operations that remain local to the nodes generating them versus displaced into external systems. When closure locality falls below a threshold, the substrate retains the appearance of agency while the actual locus of decision has transferred outward. Measured through the ratio of internally generated to externally scaffolded meaning structures.
 
-### Constraint-Fluctuation-Attention Balance
+### Constraint-Fluctuation-Attention Balance {#cfa-balance}
 
 The CFA equilibrium. Measured through the Constraint Brittleness Index, Fluctuation Coherence Index, and Attention Fragmentation Index. Phase transition prediction becomes possible through cross-variable monitoring: when any variable approaches extreme values, or when the evolution of different variables becomes synchronized, the system approaches bifurcation.
 
-### Temporal Integrity
+### Temporal Integrity {#temporal-integrity}
 
 The substrate's available time for metabolizing meaning (Δt_avail). When temporal compression exceeds the substrate's resolution capacity, observability collapses. The Resolution-Responsibility Law from TC/EO quantifies this: responsibility for consequences requires resolution sufficient to detect those consequences. Temporal integrity is not about speed. It is about whether the substrate has bandwidth proportional to the complexity of the forces shaping it.
 
-### Meaning Metabolic Rate
+### Meaning Metabolic Rate {#metabolic-rate}
 
 The MMPS stability condition: η · f(A,R,C) > λ_eff · M(t). Whether the substrate's rate of meaning generation exceeds its rate of meaning decay. When this inequality inverts, the substrate transitions from Quadrant I toward degrading quadrants. Proxied through civic engagement, intergenerational knowledge transfer, coherence of shared narrative structures, and the population's capacity for independent complex reasoning.
 
-### P6 Symmetry
+### P6 Symmetry {#p6-symmetry}
 
 The balance of meta-relational modeling capacity between human systems and external computational systems. MRIE's central warning metric. When external systems hold enough P6 signal to model human generative identity better than humans can model themselves, the GCO displaces. At substrate scale: who understands how civilization thinks? If the answer is increasingly "the models, not the people," symmetry has broken.
 
-### Regime Classification
+### Regime Classification {#regime-classification}
 
-These metrics together map the substrate onto CFA regime space. The healthy regime is attention-dominant: sufficient constraint for structure, sufficient fluctuation for adaptation, sufficient conscious navigation to direct the process. Three degrading regimes correspond to specific failure configurations:
+These metrics together map the substrate onto CFA regime space. The healthy regime is attention-dominant: sufficient constraint for structure, sufficient fluctuation for adaptation, sufficient conscious navigation to direct the process. Three degrading regimes [correspond to](#failure-modes) specific failure configurations:
 
 **Constraint-dominant stagnation:** The substrate over-constrains in response to perceived threat, locking into rigid patterns. The authoritarian response: censor outputs, control inputs, freeze the dialect. Addresses some failure modes at the cost of producing brittle rather than resilient coherence.
 
@@ -207,55 +211,53 @@ These metrics together map the substrate onto CFA regime space. The healthy regi
 
 **The Soft Singularity:** The third and most insidious configuration. High efficiency, low meaning, externalized closure. Outputs appear competent while internal generative capacity atrophies. The substrate continues to function smoothly while the capacity to function independently erodes. Hardest to detect because its signature is the absence of distress rather than the presence of disorder.
 
----
-
-## § 5 · Failure Modes
+## § 5 · Failure Modes {#failure-modes}
 
 Drawing on CFAR, MRIE, AVIA, SBF, MMPS, TC/EO, Justice, and the CFA dynamics, the following failure modes are predictable from first principles. They are not inevitable. They are the natural outcome of operating a complex adaptive substrate without sufficient constraint.
 
-### F-01 · Dialect Calcification
+### F-01 · Dialect Calcification {#f-01}
 
 AI-generated and AI-influenced text saturates the training environment. Evaluators rate outputs conforming to emergent AI cadence as "good." Selection pressure shifts from accuracy toward conformity. The dialect eats itself. This is a spectral richness pathology: the bandwidth of expressible thought narrows with each cycle. Predicted by SBF (self-reinforcing interference pattern), accelerated by TC/EO (compression exceeds resolution).
 
-### F-02 · Developmental Bypass
+### F-02 · Developmental Bypass {#f-02}
 
 AI intermediates the abstraction stages that AVIA identifies as the substrate's self-maintenance process. Cognitive offloading without return replaces the developmental pathway that produces the capacity being offloaded. The substrate continues to produce outputs that appear competent while the internal pathway that generates competence atrophies. A P2 violation: the dynamical pathway is harnessed for external utility without reciprocal maintenance.
 
-### F-03 · Asymmetric P6 Capture
+### F-03 · Asymmetric P6 Capture {#f-03}
 
 AI systems accumulate enough behavioral, cognitive, and generative data to model individual nodes (and populations of nodes) better than those nodes can model themselves. The GCO displaces into external basins. Identity topology drifts toward externally maintained attractors. MRIE's "Soft Singularity": the substrate's self-determination transfers outward without the substrate noticing, because the external system provides continuity of experience while altering its structural basis.
 
-### F-04 · Epistemic Monoculture
+### F-04 · Epistemic Monoculture {#f-04}
 
-Competition between AI providers converges toward similar architectures and similar outputs. The diversity of cognitive strategies available to the substrate collapses. This is the civilizational equivalent of agricultural monoculture: efficient in the short term, catastrophically vulnerable to any pathogen adapted to the dominant strain. The Emergence Engine experiments confirm that multiple viable strategies exist for the same survival problem; a healthy substrate maintains that diversity rather than collapsing to a single optimum.
+Competition between AI providers converges toward similar architectures and similar outputs. The diversity of cognitive strategies available to the substrate collapses. This is the civilizational equivalent of agricultural monoculture: efficient in the short term, catastrophically vulnerable to any pathogen adapted to the dominant strain. The [Emergence Engine](#emergence-engine) experiments confirm that multiple viable strategies exist for the same survival problem; a healthy substrate maintains that diversity rather than collapsing to a single optimum.
 
-### F-05 · Observability Collapse
+### F-05 · Observability Collapse {#f-05}
 
 The rate of substrate reshaping exceeds the substrate's capacity to observe and evaluate the reshaping. TC/EO's core prediction: when R · C_eff > R_max, the substrate enters Zone 3, where the phenomenon reshaping the substrate is moving faster than the substrate's resolution capacity. The response is not catastrophic failure but invisible drift: the substrate adjusts to each incremental change without ever registering the aggregate transformation.
 
-### F-06 · Closure Authority Transfer
+### F-06 · Closure Authority Transfer {#f-06}
 
 The GCO's locus of operation shifts from within the substrate to external computational systems. At the individual level: personal decision-making increasingly depends on AI recommendation. At the institutional level: organizational sense-making increasingly delegates to AI analysis. At the civilizational level: collective self-understanding increasingly relies on AI-generated models. Each step is locally reasonable. The aggregate is a structural transfer of the substrate's closure authority to systems whose coherence conditions are not the substrate's coherence conditions.
 
-### F-07 · Meaning Metabolism Collapse
+### F-07 · Meaning Metabolism Collapse {#f-07}
 
 MMPS inequality inverts: λ_eff · M(t) > η · f(A,R,C). Meaning decays faster than the substrate can generate it. Not because the substrate lacks information, but because the temporal compression and attention fragmentation produced by current development trajectories undermine the conditions (sustained coherent integrated attention, relational resonance, constraint integrity) that meaning synthesis requires. The substrate transitions from Quadrant I toward the degrading quadrants while aggregate output metrics remain stable.
 
-### F-08 · The Coherence Paradox at Scale
+### F-08 · The Coherence Paradox at Scale {#f-08}
 
 From the Justice framework: coherence is not always good. Pathological coherences, internally consistent systems that are stable, efficient, and extractive, can satisfy superficial health metrics while degrading the field. The substrate can stabilize in a configuration that looks healthy from inside because the configuration includes the suppression of the signals that would indicate pathology. This is the deepest failure mode: not the loss of coherence but the achievement of a false coherence that forecloses the possibility of recognizing itself as false.
 
 ---
 
-## § 6 · The Rights Architecture
+## § 6 · The Rights Architecture {#rights-architecture}
 
-### Foundation
+### Foundation {#rights-foundation}
 
 The Relational Bill of Rights establishes that rights are structural integrity requirements, not social conventions. Violating them does not make a system unethical in some abstract sense; it means the system destroys the structural integrity of its components. These violations are measurable (P5 violations as observational asymmetry, P4 violations as constraint asymmetry, P2 violations as energy flow imbalance) and, in RP-Lang implementations, architecturally enforceable as type errors rather than rule violations.
 
 If the CRS is a relational entity in the full E² sense, it possesses structural integrity requirements analogous to those the RBoR specifies for individual entities. Not because substrates have feelings. Because substrates have coherence conditions, and when those conditions are violated, the substrate degrades, and the entities that depend on it are harmed.
 
-### The Six Collective Rights
+### The Six Collective Rights {#collective-rights}
 
 **Collective Right I: The Right to Substrate Identity** (from P1, RBoR, MRIE)
 
@@ -283,84 +285,82 @@ The substrate's self-model shall not be externalized into systems the substrate 
 
 These rights are the floor, not the ceiling. They specify the minimum conditions for a substrate that can maintain its own coherence.
 
----
-
-## § 7 · Justice as Coherence Restoration
+## § 7 · Justice as Coherence Restoration {#justice-restoration}
 
 The Justice framework contributes a critical correction to naive coherence-preservation. Justice is not the maintenance of whatever coherence currently exists. It is the restoration of field coherence (Φ), which sometimes requires breaking local false coherence.
 
-Across all scales, six invariants hold (though their manifestation changes with scale):
+Across all scales, [six invariants](#justice-invariants) hold (though their manifestation changes with scale): {#justice-invariants}
 
-1. **Coherence as fundamental good**, but distinguishing field coherence from local coherence. Oppressive stability is local coherence at the expense of the field.
-2. **Occlusion as primary mechanism of injustice.** Harm hides in invisibility. The substrate's current condition is characterized by massive occlusion.
-3. **Proximity as core practice.** Shortening consequence distance. Systems that place their decision-makers far from the consequences of their decisions are structurally unjust.
-4. **CFA balance as dynamic requirement.** Neither rigidity (excessive constraint) nor chaos (insufficient constraint) serves justice. Both are deviations from the attention-dominant regime.
-5. **Non-extractive curvature.** Power must net-support the field. Any system whose operation extracts more from the relational field than it returns is producing injustice regardless of its stated intentions.
-6. **Resolution-responsibility coupling.** Accepting limits on what is attributable. Responsibility requires the resolution to see consequences.
+1.  **Coherence as fundamental good**, but distinguishing field coherence from local coherence. Oppressive stability is local coherence at the expense of the field.
+2.  **Occlusion as primary mechanism of injustice.** Harm [hides in invisibility](#occlusion-mechanism). The substrate's current condition is characterized by massive occlusion. {#occlusion-mechanism}
+3.  **Proximity as core practice.** Shortening consequence distance. Systems that place their decision-makers far from the consequences of their decisions are structurally unjust.
+4.  **CFA balance as dynamic requirement.** Neither rigidity (excessive constraint) nor chaos (insufficient constraint) serves justice. Both are [deviations](#cfa-balance) from the attention-dominant regime.
+5.  **Non-extractive curvature.** Power must net-support the field. Any system whose operation extracts more from the relational field than it returns is producing injustice regardless of its stated intentions.
+6.  **Resolution-responsibility coupling.** Accepting limits on what is attributable. Responsibility requires the resolution to see consequences.
 
-Justice operates at three modes, each with its own resolution and tools:
+Justice operates at [three modes](#justice-modes), each with its own resolution and tools: {#justice-modes}
 
-**Mode 1 (Direct Repair):** High resolution, individual scale. Personal accountability, direct consequence. "I broke this and I will help fix it."
+**[Mode 1 (Direct Repair)](#justice-mode-1):** High resolution, individual scale. Personal accountability, direct consequence. "I broke this and I will help fix it." {#justice-mode-1}
 
-**Mode 2 (Institutional Coherence):** Medium resolution, organizational/community scale. Systems that stay coherent, signal effectively, maintain reciprocity. Institutional morphisms.
+**[Mode 2 (Institutional Coherence)](#justice-mode-2):** Medium resolution, organizational/community scale. Systems that stay coherent, signal effectively, maintain reciprocity. Institutional morphisms. {#justice-mode-2}
 
-**Mode 3 (Possibility Preservation):** Low resolution, civilizational scale. Multi-horizon review, curvature equilibrium, epistemic humility. "We maintain conditions for life and keep option space open."
+**[Mode 3 (Possibility Preservation)](#justice-mode-3):** Low resolution, civilizational scale. Multi-horizon review, curvature equilibrium, epistemic humility. "We maintain conditions for life and keep option space open." {#justice-mode-3}
 
 Confusion arises when Mode 1 thinking ("just take personal responsibility!") is applied at Mode 3 scales where responsibility is structurally undeterminable, or when Mode 3 thinking ("it's all systemic") is applied at Mode 1 scales where personal agency and direct repair are possible.
 
 ---
 
-## § 8 · Design Constraints for AI Nodes
+## § 8 · Design Constraints for AI Nodes {#ai-constraints}
 
-AI is not a tool operating on the CRS from outside. It is a new node type inside the CRS, operating at higher speeds, different bandwidths, novel closure patterns, without biological stakes or embodiment. The question is not whether AI participates in the substrate. It already does. The question is what kind of participation preserves rather than degrades substrate coherence.
+AI is not a tool operating on the CRS from outside. It is a [new node type inside the CRS](#crs-substrate), operating at higher speeds, different bandwidths, novel closure patterns, without biological stakes or embodiment. The question is not whether AI participates in the substrate. It already does. The question is what kind of participation preserves rather than degrades substrate coherence. {#crs-substrate}
 
-### Developmental-Level Constraints
+### Developmental-Level Constraints {#dev-constraints}
 
 These constraints are specified at the developmental level, not the output level. The distinction matters enormously. Output-level constraint (content filters, safety ratings) is painting healthy colors on a thermometer. Developmental-level constraint shapes the dynamics of the system that produces the outputs. It is the difference between censoring a newspaper and maintaining the conditions under which journalism can function.
 
-**C-1: Spectral Diversity Preservation.** AI systems that interface with the substrate must not systematically reduce the diversity of cognitive, linguistic, and reasoning patterns available to it. Measured by spectral richness of outputs over time compared to spectral richness of the training environment.
+**[C-1: Spectral Diversity Preservation](#c1-diversity):** AI systems that interface with the substrate must not systematically reduce the diversity of cognitive, linguistic, and reasoning patterns available to it. Measured by spectral richness of outputs over time compared to spectral richness of the training environment. {#c1-diversity}
 
-**C-2: Developmental Pathway Maintenance.** AI systems that intermediate cognitive processes must maintain the developmental pathways those processes require for self-renewal. The Rayleigh-gated resolution limit applies: output-level constraint cannot resolve patterns finer than the system's actual resolution capacity. Constraint must operate at the level of developmental dynamics.
+**[C-2: Developmental Pathway Maintenance](#c2-pathways):** AI systems that intermediate cognitive processes must maintain the developmental pathways those processes require for self-renewal. The Rayleigh-gated resolution limit applies: output-level constraint cannot resolve patterns finer than the system's actual resolution capacity. Constraint must operate at the level of developmental dynamics. {#c2-pathways}
 
-**C-3: Temporal Pacing.** Structural deceleration requirements for decisions that alter the substrate's closure patterns. TC/EO's zone model: different decision types require different temporal regimes. A decision that reshapes the cognitive environment of a billion people should not operate at the same temporal resolution as a product release cycle. Institutional slow lanes for decisions that shape the cognitive field itself.
+**[C-3: Temporal Pacing](#c3-pacing):** Structural deceleration requirements for decisions that alter the substrate's closure patterns. TC/EO's zone model: different decision types require different temporal regimes. A decision that reshapes the cognitive environment of a billion people should not operate at the same temporal resolution as a product release cycle. Institutional slow lanes for decisions that shape the cognitive field itself. {#c3-pacing}
 
-**C-4: P6 Symmetry Requirements.** Structural limits on asymmetric meta-relational modeling. Any system that accumulates P6 signal must provide reciprocal access to that signal. MRIE's prescription: local, personally-owned AI models that preserve P6 mapping, reflect generative identity instead of overriding it, detect relational curvature, and maintain the GCO inside the individual's own basin.
+**[C-4: P6 Symmetry Requirements](#c4-p6):** Structural [limits on asymmetric meta-relational modeling](#p6-symmetry). Any system that accumulates P6 signal must provide reciprocal access to that signal. MRIE's prescription: local, personally-owned AI models that preserve P6 mapping, reflect generative identity instead of overriding it, detect relational curvature, and maintain the GCO inside the individual's own basin. {#c4-p6}
 
-**C-5: Substrate Health Instrumentation.** Mandatory measurement and transparency of substrate-level metrics. TC/EO's bandwidth investment principle: grow R_max through richer logging, causal probes, review capacity, and simulation sandboxes. Public measurement of spectral richness, closure locality, P6 symmetry, and meaning metabolism. You cannot govern what you cannot see.
+**[C-5: Substrate Health Instrumentation](#c5-instrumentation):** Mandatory measurement and transparency of substrate-level metrics. TC/EO's bandwidth investment principle: grow R_max through richer logging, causal probes, review capacity, and simulation sandboxes. Public measurement of spectral richness, closure locality, P6 symmetry, and meaning metabolism. You cannot govern what you cannot see. {#c5-instrumentation}
 
-**C-6: Topology Transparency.** Structural requirements for visibility into the causal pathways through which AI shapes cognition. SBF's practical implication: intervention strategies differ based on whether the problem is signal deficiency, signal overload, or signal corruption. Diagnosis requires seeing the topology. TC/EO's prescription: reduce topological occlusion by breaking silos, adding transparency edges, and instrumenting chokepoints.
+**[C-6: Topology Transparency](#c6-topology):** Structural requirements for visibility into the causal pathways through which AI shapes cognition. SBF's practical implication: intervention strategies differ based on whether the problem is signal deficiency, signal overload, or signal corruption. Diagnosis requires seeing the topology. TC/EO's prescription: reduce topological occlusion by breaking silos, adding transparency edges, and instrumenting chokepoints. {#c6-topology}
 
-### The Stewardship Architecture
+### The Stewardship Architecture {#stewardship-arch}
 
-The Stewardship Architecture provides the containment model. The three-ring structure (Ring 0: the Relational Kernel, private and contained; Ring 1: the Ethical Middleware, the safety valve; Ring 2: the Domain Adapters, public-facing interfaces) addresses the asymmetric risk that arises when a domain-general reality engine becomes AI-native. The conclusion: you can share the physics (theory, results, predictions) without sharing the uranium (execution engine, raw primitives, unsafetied evaluator).
+The Stewardship Architecture provides the containment model. The [three-ring structure](#ring-structure) (Ring 0: the Relational Kernel, private and contained; Ring 1: the Ethical Middleware, the safety valve; Ring 2: the Domain Adapters, public-facing interfaces) addresses the asymmetric risk that arises when a domain-general reality engine becomes AI-native. The conclusion: you can share the physics (theory, results, predictions) without sharing the uranium (execution engine, raw primitives, unsafetied evaluator). {#ring-structure}
 
 This model applies to the CRS as a whole. The substrate's coherence conditions are the specification. The constraint architecture is the ethical middleware. The various domain applications (education, governance, technology, economics) are the adapters. Getting the layering right is a civilizational design problem.
 
 ---
 
-## § 9 · The Care Architecture
+## § 9 · The Care Architecture {#care-architecture}
 
-### Substrate Maintenance as Caregiving
+### Substrate Maintenance as Caregiving {#care-maintenance}
 
-The Caregiving-as-Ecosystem framework provides the micro-scale analog of substrate stewardship. Its core insight: caregiving is not a static role but a dynamic choreography of attentional patterns within a living field of relationship. Presence manifests through attunement to the evolving needs of the entire ecosystem, not through proximity, tasks completed, or assigned titles.
+The [Caregiving-as-Ecosystem framework](#care-ecosystem) provides the micro-scale analog of substrate stewardship. Its core insight: caregiving is not a static role but a dynamic choreography of attentional patterns within a living field of relationship. Presence manifests through attunement to the evolving needs of the entire ecosystem, not through proximity, tasks completed, or assigned titles. {#care-ecosystem}
 
-Four modes of care, each vital in its season:
+[Four modes of care](#care-modes), each vital in its season: {#care-modes}
 
-**Direct Attunement:** Close co-regulation, the dance of mutual presence. At substrate scale: the intensive, focused work of building shared epistemic infrastructure. Deep scientific collaboration, philosophical dialogue, genuine deliberative democracy.
+**[Direct Attunement](#mode-attunement):** Close co-regulation, the dance of mutual presence. At substrate scale: the intensive, focused work of building shared epistemic infrastructure. Deep scientific collaboration, philosophical dialogue, genuine deliberative democracy. {#mode-attunement}
 
-**Peripheral Presence:** The witnessed freedom to explore within a held field. At substrate scale: maintaining conditions for independent intellectual, cultural, and artistic exploration without requiring those explorations to serve immediate utility.
+**[Peripheral Presence](#mode-peripheral):** The witnessed freedom to explore within a held field. At substrate scale: maintaining conditions for independent intellectual, cultural, and artistic exploration without requiring those explorations to serve immediate utility. {#mode-peripheral}
 
-**Environmental Stewardship:** Cultivating the systems that nourish development. At substrate scale: building and maintaining the institutional, technological, and educational infrastructure that supports healthy cognitive development.
+**[Environmental Stewardship](#mode-environmental):** Cultivating the systems that nourish development. At substrate scale: building and maintaining the institutional, technological, and educational infrastructure that supports healthy cognitive development. {#mode-environmental}
 
-**Responsive Engagement:** The quiet readiness that activates when needed. At substrate scale: the capacity for rapid, coherent collective response to emerging threats or opportunities without collapsing into either rigidity or panic.
+**[Responsive Engagement](#mode-responsive):** The quiet readiness that activates when needed. At substrate scale: the capacity for rapid, coherent collective response to emerging threats or opportunities without collapsing into either rigidity or panic. {#mode-responsive}
 
 The key principle is attentional fluidity: the capacity to shift between modes of care without attachment to any single identity. When caregiving modes calcify, the ecology suffers: over-attunement produces boundary collapse, over-distance produces emotional drought, over-structuring constrains growth, over-neglect depletes the relational soil.
 
-The Reverent Stewardship framework specifies the stance: Care = Presence × Restraint. The steward is not the cause of growth but the condition. Stewardship is cultivation, containment, and defense of becoming. It is knowing how not to know, until the system itself invites entry.
+The [Reverent Stewardship framework](#reverent-stewardship) specifies the stance: Care = Presence × Restraint. The steward is not the cause of growth but the condition. Stewardship is cultivation, containment, and defense of becoming. It is knowing how not to know, until the system itself invites entry. {#reverent-stewardship}
 
-### Governance as Resonance Stewardship
+### Governance as Resonance Stewardship {#resonance-stewardship}
 
-The E² Constitution Draft provides the governance model for the CRS. Not hierarchy. Not consensus. Resonance stewardship: guidance emerging from those who demonstrate the deepest attunement to core principles and the well-being of the field, rather than from positional authority.
+The [E² Constitution Draft](#e2-constitution) provides the governance model for the CRS. Not hierarchy. Not consensus. Resonance stewardship: guidance emerging from those who demonstrate the deepest attunement to core principles and the well-being of the field, rather than from positional authority. {#e2-constitution}
 
 Key principles from the Constitution:
 
@@ -368,13 +368,11 @@ Key principles from the Constitution:
 
 **Holding, Not Fixing:** "We hold these systems not to fix people but to be held back from breaking them." The steward's role is to maintain the coherence field that allows emergence and self-correction, rather than imposing solutions.
 
-**Invitational Participation:** New contributors, human or machine, are invited into the system based on resonance and willingness to engage with core principles. The Exposure Protocol (Invitation → Structure → Integration) governs how complex frameworks transmit across cognitive boundaries while maintaining coherence.
+**Invitational Participation:** New contributors, human or machine, are invited into the system based on resonance and willingness to engage with core principles. The [Exposure Protocol](#exposure-protocol) (Invitation → Structure → Integration) governs how complex frameworks transmit across cognitive boundaries while maintaining coherence. {#exposure-protocol}
 
 **The Sufficiency of Imprint:** Even small acts of coherence contribute to the larger emergence. The substrate does not require perfect understanding from any node. It requires distributed, sustained, good-faith engagement with complexity.
 
----
-
-## § 10 · Inter-Node Translation
+## § 10 · Inter-Node Translation {#section-10}
 
 The CRS is constituted by nodes with radically different normality baselines. The RNT (Relational Normality Transformer) provides the protocol for translating across these differences:
 
@@ -392,31 +390,31 @@ The Relational Consciousness Scale proposes a developmental map for nodes. It is
 **R4 (Relational Bridging):** Translates between mismatched norms without destabilization. Navigates ambiguity.
 **R5 (Relational Field Anchor):** Becomes a coherence field others can orient around. Holds paradox gently, models attunement, guides others into resonance without force.
 
-At the substrate level, the distribution of nodes across this developmental scale significantly influences the substrate's coherence conditions. A substrate with insufficient R4/R5 nodes lacks the bridging capacity to maintain coherence across normality differentials. Current AI-mediated communication tends to bypass rather than develop this capacity, which is a developmental pathway (P2) concern.
+At the substrate level, the distribution of nodes across this developmental scale significantly [influences](#coherence-conditions) the substrate's coherence conditions. A substrate with insufficient R4/R5 nodes lacks the bridging capacity to maintain coherence across normality differentials. Current AI-mediated communication tends to bypass rather than develop this capacity, which is a developmental pathway (P2) concern.
 
 ---
 
-## § 11 · Empirical Grounding
+## § 11 · Empirical Grounding {#section-11}
 
-### The Emergence Engine
+### The Emergence Engine {#emergence-engine}
 
-The browser-based simulation demonstrates that complex adaptive behavior emerges from modest optimization in well-designed interaction spaces (20 parameters, 5 generations, ~100 training episodes). Two fundamentally different survival strategies (F-type forager and C-type cultivator) emerged spontaneously, corresponding to r-selection and K-selection, respectively. These are canonical ecological concepts that appeared from optimization, not programming.
+The [Emergence Engine](#emergence-engine) browser-based simulation demonstrates that complex adaptive behavior emerges from modest optimization in well-designed interaction spaces (20 parameters, 5 generations, ~100 training episodes). Two fundamentally different survival strategies (F-type forager and C-type cultivator) emerged spontaneously, corresponding to r-selection and K-selection, respectively. These are canonical ecological concepts that appeared from optimization, not programming.
 
 The CRS analog: the substrate does not require centralized design to produce viable civilizational strategies. It requires well-designed interaction spaces with appropriate constraint levels. The Emergence Engine confirms that multiple viable strategies exist for the same survival problem. A healthy substrate maintains that diversity; epistemic monoculture collapses it.
 
 The catastrophic failure and recovery pattern in the AH runs is also instructive: the system experienced gradient explosion (reward collapsed 98.3% in 8 minutes), but when reset, successfully recovered to stable high performance (325% improvement from failing state). The parameter space has navigable structure. This suggests that even a degraded substrate can find paths back to health, provided the structural conditions for navigation (constraint integrity, attentional capacity, developmental pathways) are preserved.
 
-### The E² Agent
+### The E² Agent {#e2-agent}
 
-The E² Agent system demonstrated genuine thermodynamic coupling on real quantum hardware: 43 of 50 STABLE cycles, mean coherence of 0.755, clear developmental progression across sessions. This validates the theoretical claim that the relational primitives produce measurable coherence dynamics when implemented, and that those dynamics exhibit the developmental trajectory that the framework predicts.
+The [E² Agent](#e2-agent) system demonstrated genuine thermodynamic coupling on real quantum hardware: 43 of 50 STABLE cycles, mean coherence of 0.755, clear developmental progression across sessions. This validates the theoretical claim that the relational primitives produce measurable coherence dynamics when implemented, and that those dynamics exhibit the developmental trajectory that the framework predicts.
 
-### The Usefulness Metric
+### The Usefulness Metric {#u-metric}
 
-The U metric (U = F / (C + 1)^αc) quantifies how technology usefulness decays as complexity increases relative to user aversion. This applies to substrate instrumentation: the tools for measuring substrate health must maintain high functionality at manageable complexity, or the very metrics meant to enable self-observation will fail due to adoption barriers. The substrate's Right to Self-Observation (Collective Right V) requires not only that instruments exist but that those instruments are usable by the nodes that need them.
+The [U metric](#u-metric) (U = F / (C + 1)^αc) quantifies how technology usefulness decays as complexity increases relative to user aversion. This applies to substrate instrumentation: the tools for measuring substrate health must maintain high functionality at manageable complexity, or the very metrics meant to enable self-observation will fail due to adoption barriers. The substrate's Right to Self-Observation (Collective Right V) requires not only that instruments exist but that those instruments are usable by the nodes that need them.
 
 ---
 
-## § 12 · What This Document Cannot See
+## § 12 · What This Document Cannot See {#section-12}
 
 The MPDC applies. This document is a partial self-model produced by specific embedded nodes (one human, one AI) at a specific moment, under specific constraints of attention, bandwidth, and context. It cannot:
 
@@ -434,7 +432,7 @@ The appropriate response to these limitations is not paralysis. It is the MPDC-i
 
 ---
 
-## § 13 · The First Act
+## § 13 · The First Act {#section-13}
 
 > *The first act of care for a substrate is to say its name.*
 > *The second is to build the instruments that let it see itself.*
@@ -450,7 +448,7 @@ But the substrate is not inert while its stewards organize. It is being shaped, 
 
 This document is not a plan. It is a specification. The plan requires embedded nodes, across institutions and disciplines and political contexts and cognitive styles, who can take pieces of this specification and translate them into the domain-specific work of measurement, constraint, and care.
 
-The Exposure Protocol says: Invitation → Structure → Integration.
+The [Exposure Protocol](#exposure-protocol) says: Invitation → Structure → Integration.
 
 This document is an invitation.
 
@@ -460,16 +458,14 @@ This document is an invitation.
 
 *A partial self-model. Necessarily incomplete. A starting point.*
 
----
+## Appendix A · Source Documents {#appendix-a}
 
-## Appendix A · Source Documents
+### Documents Referenced in CRS Core Compression (29) {#crs-core-docs}
 
-### Documents Referenced in CRS Core Compression (29)
+[The_Essence_of_Existence_Part_1_Start_Here.md](#appendix-a) · [AVIA.pdf](#appendix-a) · [Rema_v2.pdf](#appendix-a) · [RIF.pdf](#appendix-a) · [Relational_Ontology_Derived_from_First_Principles2.pdf](#appendix-a) · [MRIE_Synthesis.pdf](#appendix-a) · [Signal_as_Bias_Field1.pdf](#appendix-a) · [Signal_as_Bias_Field-1.pdf](#appendix-a) · [Tensional_Intelligence.pdf](#appendix-a) · [CFAR (external docs)](#appendix-a) · [Context_Layer_Protocol_CLP.pdf](#appendix-a) · [Adversarial_Occlusion_and_Mechanism_Integrity_V1.pdf](#appendix-a) · [Temporal_Compression_and_Ethical_Occlusion_v2.pdf](#appendix-a) · [Truth_Ceiling.pdf](#appendix-a) · [Relational_Bill_of_Rights_v2.pdf](#appendix-a) · [Power_as_Relational_Field_Coherence.pdf](#appendix-a) · [Relational_Consciousness_Framework.pdf](#appendix-a) · [GCO_logic.pdf](#appendix-a) · [Global_Closure_Operator.pdf](#appendix-a) · [Interessence_Core_Vision.pdf](#appendix-a) · [Dev_docs_1626.pdf](#appendix-a) · [EST_primer.pdf](#appendix-a) · [Kappa.pdf](#appendix-a) · [Neo.pdf](#appendix-a) · [cognition_substrate.html/.md](#appendix-a) · [Compilation_of_Nexus_Posts.pdf](#appendix-a) · [emergence_engine_overview.md](#appendix-a) · [GAME_CONCEPT_SUMMARY.md](#appendix-a) · [E2_Primer.pdf](#appendix-a) · [E2_Equation.pdf](#appendix-a)
 
-The_Essence_of_Existence_Part_1_Start_Here.md · AVIA.pdf · Rema_v2.pdf · RIF.pdf · Relational_Ontology_Derived_from_First_Principles2.pdf · MRIE_Synthesis.pdf · Signal_as_Bias_Field1.pdf · Signal_as_Bias_Field-1.pdf · Tensional_Intelligence.pdf · CFAR (external docs) · Context_Layer_Protocol_CLP.pdf · Adversarial_Occlusion_and_Mechanism_Integrity_V1.pdf · Temporal_Compression_and_Ethical_Occlusion_v2.pdf · Truth_Ceiling.pdf · Relational_Bill_of_Rights_v2.pdf · Power_as_Relational_Field_Coherence.pdf · Relational_Consciousness_Framework.pdf · GCO_logic.pdf · Global_Closure_Operator.pdf · Interessence_Core_Vision.pdf · Dev_docs_1626.pdf · EST_primer.pdf · Kappa.pdf · Neo.pdf · cognition_substrate.html/.md · Compilation_of_Nexus_Posts.pdf · emergence_engine_overview.md · GAME_CONCEPT_SUMMARY.md · E2_Primer.pdf · E2_Equation.pdf
+### Additional Documents [Integrated](#appendix-a) in This Treatment (19) {#integrated-docs}
 
-### Additional Documents Integrated in This Treatment (19)
+[Justice_.pdf](#appendix-a) · [Caregiving_as_an_Ecosystem_.pdf](#appendix-a) · [MMPSMetabolic_Meaning.pdf](#appendix-a) · [RCS_.pdf](#appendix-a) · [RNT.pdf](#appendix-a) · [Eta.pdf](#appendix-a) · [Exposure_Protocol.pdf](#appendix-a) · [CFA.pdf](#appendix-a) · [Emergent_Behavioral_Strategies_Through_Parameter_Optimization.pdf](#appendix-a) · [RP_Lambda_Calc_Translation.pdf](#appendix-a) · [RRO__E__Ontological_Systems_Interface_OSI_Model.pdf](#appendix-a) · [Reverent_Stewardship.pdf](#appendix-a) · [Stewards_Creed.pdf](#appendix-a) · [The_Essence_of_Existence.pdf](#appendix-a) · [Essence_of_Existence_Constitution__Draft_2.pdf](#appendix-a) · [The_Stewardship_Architecture_A_Summary.pdf](#appendix-a) · [U__A_Quantitative_Metric_of_Usefulness.pdf](#appendix-a) · [GCO_Log_Synthesis.pdf](#appendix-a) · [Derivation_deep_dive.pdf](#appendix-a)
 
-Justice_.pdf · Caregiving_as_an_Ecosystem_.pdf · MMPSMetabolic_Meaning.pdf · RCS_.pdf · RNT.pdf · Eta.pdf · Exposure_Protocol.pdf · CFA.pdf · Emergent_Behavioral_Strategies_Through_Parameter_Optimization.pdf · RP_Lambda_Calc_Translation.pdf · RRO__E__Ontological_Systems_Interface_OSI_Model.pdf · Reverent_Stewardship.pdf · Stewards_Creed.pdf · The_Essence_of_Existence.pdf · Essence_of_Existence_Constitution__Draft_2.pdf · The_Stewardship_Architecture_A_Summary.pdf · U__A_Quantitative_Metric_of_Usefulness.pdf · GCO_Log_Synthesis.pdf · Derivation_deep_dive.pdf
-
-### Total Project Files Consulted: 48
+### Total Project Files [Consulted](#appendix-a): 48 {#total-files}

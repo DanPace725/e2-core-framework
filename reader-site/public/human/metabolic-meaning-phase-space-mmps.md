@@ -103,4 +103,3 @@ Ask:
 ## Summary {#summary}
 
 MMPS treats meaning as a living metabolism: synthesized through attention and relationship, stabilized by constraint, damaged by compression, and renewed through rhythm. Meaning is not found once. It is continuously metabolized.
-

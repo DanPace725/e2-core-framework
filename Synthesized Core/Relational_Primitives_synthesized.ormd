@@ -136,7 +136,7 @@ The system is built upon a [Relational Primitive Engine (RPE)](#relational-primi
 The framework's validity is reinforced by several supporting documents and translations:
 - A [Derivation deep dive](#derivation-deep-dive "epistemic:supports") and [GCO logic](#gco-logic "epistemic:supports") provide theoretical backing.
 - The [Conav readme](#conav-readme "epistemic:supports") offers implementation support.
-- The system [corresponds to](#rplang "meta:corresponds_to") [Rplang](#rplang "meta:corresponds_to"), [CT translation of RPs](#ct-translation-of-rps "meta:corresponds_to"), and the [RP Lambda Calc Translation](#rp-lambda-calc-translation "meta:corresponds_to").
+- RPLang is a separate modeling proposal. `Relational Primitive Translations.ormd` now records the scoped categorical and lambda-calculus analogies; their archived predecessors do not establish formal equivalence.
 
 ## 2. Formal Logic and The Six Primitives {#formal-logic}
 

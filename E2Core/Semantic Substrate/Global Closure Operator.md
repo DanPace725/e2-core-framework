@@ -1,17 +1,3 @@
-﻿Context Layer Protocol (CLP) ---
-frame: "theoretical.ontology.relational"
-lineage:
-  origin: { uri: "urn:ormd:gco:pass-3b", ts: "2026-06-12T00:00:00Z" }
-  parents:
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/Global%20Closure%20Operator.ormd", relation: "canonicalizes" }
-    - { uri: "local://archive/20260612_pass_3b_3c_mechanism_ethics/Context%20Layer/GCO%20logic.ormd", relation: "integrates" }
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["Global Closure Operator", "GCO", "Relational Primitives", "homeostasis", "fixed points", "stability", "Rayleigh Limit", "production loop", "hysteresis"]
-resolution: { confidence: 0.95 }
----
-
 # Global Closure Operator {#gco-main}
 
 The Global Closure Operator (GCO) is the system-level closure principle that emerges when the six relational primitives operate jointly. It is not a seventh primitive. It is the operator that maps an underdetermined relational field toward a sufficiently stable, self-consistent configuration.
@@ -126,4 +112,3 @@ Use GCO when asking:
 ## Summary {#summary}
 
 The Global Closure Operator maps relational fields toward stable, self-consistent basins. It is the framework's closure condition: not a primitive, but the operator that determines when primitive expansion has become sufficient for homeostasis, production, accountability, or transformation.
-

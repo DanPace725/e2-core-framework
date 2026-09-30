@@ -1,15 +1,39 @@
-# Implementations
+# Implementations {#implementations-header}
 
-6/3/25
+This registry replaces the archived implementation link-hub with a usable map of applied E^2 work. It is intentionally an index layer: it should point to implementation artifacts, not restate the full theory.
 
-[Ormd](Implementations/Ormd%202081158833208084ac04f88e277756e4.md)
+## Infrastructure and Protocol {#infrastructure-protocol}
 
-[Project Atlas — High-Level Plan](Implementations/Project%20Atlas%20%E2%80%94%20High-Level%20Plan%201f4115883320808b8ad8ef8b88f434e9.md)
+- `Context Layer Protocol (CLP).ormd`: corpus data model, provenance, policy membrane, and resolution conventions.
+- `ORMD` artifacts: source format for context-layer documents and promotion lineage.
+- `Relational Primitive Engine (RPE).ormd`: deterministic simulation engine for relational primitive dynamics.
+- `Project Atlas - High-Level Plan` lineage: project-level planning anchor for applied knowledge organization.
 
-[Custom GPTs](Implementations/Custom%20GPTs%201de1158833208085a6faf0bbbca055a1.md)
+## AI and Interface Implementations {#ai-interface-implementations}
 
-[Context Layer Protocol (CLP)](Implementations/Context%20Layer%20Protocol%20(CLP)%2027311588332080ccb950e631d6f82bb6.md)
+- `Custom GPTs`: applied conversational interfaces using the framework as context.
+- Human-AI interaction materials: ethics, collaboration, boundary, and protocol documents that govern AI-mediated work.
+- CLP-enabled agents: implementations should preserve source lineage, uncertainty, and policy context rather than flattening documents into untraceable summaries.
 
-[Cognitive Profiles from Chess play](Implementations/Cognitive%20Profiles%20from%20Chess%20play%202f51158833208031bc60c91f73587308.md)
+## Measurement and Profile Implementations {#measurement-profile-implementations}
 
-[Narrative Self Coaching Guide V1](Implementations/Narrative%20Self%20Coaching%20Guide%20V1%203121158833208010b123d7f779670cb3.md)
+- `Cognitive Profiles from Chess play`: profile inference through observed play patterns.
+- OSI/RPE-style mappings: use relational structure and dynamic traces rather than isolated traits where possible.
+- Any profile implementation should carry boundary notes, consent expectations, and epistemic confidence.
+
+## Coaching and Practice Implementations {#coaching-practice-implementations}
+
+- `Narrative Self Coaching Guide V1`: coaching use case for narrative repair and self-understanding.
+- Relational practice documents: communication, family, caregiving, power, and stewardship applications.
+- Practical implementations should demonstrate coherence, not merely explain it.
+
+## Registry Rules {#registry-rules}
+
+- Keep implementation entries lightweight and point to the artifact of record.
+- Record lineage when a prototype becomes a canonical context-layer document.
+- Distinguish demonstration documents from theory proposals.
+- Do not treat an application domain as introducing new ontology unless the document explicitly makes a new conceptual claim.
+
+## Current Note {#current-note}
+
+`Family as a Relational Field.ormd` is treated as an implementation/demonstration document: a comprehensive view of family through the existing framework lens. It is not being consolidated as a new-idea source in step 2.3.

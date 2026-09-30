@@ -123,7 +123,7 @@ Use GCO when asking:
 ## Canonical Pointers {#canonical-pointers}
 
 - `Relational Primitives.ormd` for the six primitives GCO closes over.
-- `E^2 Equation.ormd` for recursive composition.
+- `E2 Equation.ormd` for recursive composition.
 - `CFAR.ormd` for resolution and control architecture.
 - `Ethical Occlusion via Temporal Compression (EOTC).ormd` for closure failure under speed/resolution stress.
 - `Sign-Mediated Flow Routing.ormd` for attribution closure and accountability signs.

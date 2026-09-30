@@ -1,4 +1,4 @@
-# Embedded Universality Principle
+# Embedded Universality Principle (EUP) {#embedded-universality-principle}
 
 ## A Cumulative Formal Synthesis
 

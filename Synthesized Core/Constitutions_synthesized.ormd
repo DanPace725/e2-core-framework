@@ -25,7 +25,7 @@ semantics:
   - specification
 lineage:
   parents:
-  - urn:cb:Essence of Existence Constitution - Draft 2.ormd
+  - urn:cb:Essence of Existence Constitution.ormd
   - urn:cb:Constitutions.ormd
 resolution:
   confidence: 1.0

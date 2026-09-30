@@ -156,24 +156,23 @@ The V3 source mapped the primitives naturally into categorical language:
 | Epistemic / Informational | Kleisli categories / monadic structure |
 | Meta-Relational | Functors and adjunctions |
 
-This mapping is not the primitive definition. It is a formal translation that supports cross-domain reasoning and connects to `CT translation of RPs.ormd`.
+This mapping is not the primitive definition or a proof of categorical equivalence. It is an optional analogy; `Relational Primitive Translations.ormd` records its assumptions and limits alongside the separate lambda-calculus attempt.
 
 ## Relationship to GCO and E2 {#relationship-to-gco-e2}
 
-The primitives describe relation categories. The Global Closure Operator describes how relational systems stabilize, maintain fixed points, and preserve coherence across change. The E^2 Equation expresses recursive composition across operators. Together:
+The primitives describe relation categories. The Global Closure Operator proposes a model-level account of stabilization and fixed points. The E^2 Equation proposes a compact composition and recurrence notation whose operators and convergence conditions remain to be specified. Together, these sources have distinct roles:
 
 - primitives name relation types;
-- GCO constrains and stabilizes relational fields;
-- the E^2 equation composes relational dynamics into a recursive ontology.
+- GCO describes proposed closure constraints on relational models;
+- the E^2 Equation sketches a possible recursive representation of relational development.
 
 ## Canonical Pointers {#canonical-pointers}
 
 - `E^2 Axioms.ormd` for the axiom layer.
 - `Global Closure Operator.ormd` for closure and stability.
-- `CT translation of RPs.ormd` for category-theoretic translation.
-- `RP Lambda Calc Translation.ormd` for lambda calculus translation.
+- `Relational Primitive Translations.ormd` for scoped categorical and lambda-calculus translation attempts.
 - `Relational Bill of Rights v2.ormd` for ethical consequences.
-- `E^2 Equation.ormd` for recursive composition.
+- `E^2 Equation.ormd` for provisional composition and recurrence notation.
 
 ## Summary {#summary}
 

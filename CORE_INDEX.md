@@ -1,8 +1,8 @@
 # Core Framework Index
 
-Generated: `2026-09-29T23:46:33.368095+00:00`
+Generated: `2026-09-30T17:23:54.846027+00:00`
 
-Active Core root: `E2Core`
+Active Core root: `C:\Users\nscha\Coding\E2\Phase 1\Core Framework\E2Core`
 
 Authority: active filesystem state reconciled with preserved synthesis provenance.
 
@@ -10,13 +10,13 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Synthesized Core files | 57 |
-| Semantic Substrate files | 84 |
-| Context Layer files | 83 |
-| Active raw SS/CL files | 167 |
-| Active files total | 224 |
-| Explicit additions | 28 |
-| Archived raw files | 82 |
+| Synthesized Core files | 55 |
+| Semantic Substrate files | 79 |
+| Context Layer files | 80 |
+| Active raw SS/CL files | 159 |
+| Active files total | 214 |
+| Explicit additions | 30 |
+| Archived raw files | 181 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
 | Unresolved synthesized references | 0 |
@@ -26,8 +26,8 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Metric | Count |
 | --- | --- |
 | Exact-stem pairs | 79 |
-| Composite or alias pairs | 3 |
-| Semantic Substrate only | 2 |
+| Composite or alias pairs | 0 |
+| Semantic Substrate only | 0 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
 
@@ -68,7 +68,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Neo Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Ontological Systems Interface (OSI) Model_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | ormd Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
-| Our essence exists in the space between us_summary.ormd | 1 | 1 | 1 | 0 | 0 | no |
+| Our essence exists in the space between us_summary.ormd | 1 | 1 | 0 | 0 | 1 | no |
 | Pattern Emergence - Essential Relationship_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Pattern Integrity over Time under Entropy_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Power_Relational_Field_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
@@ -80,11 +80,11 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | relational substrate analysis Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Relational Volition_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Relational_Perfection_synthesized.ormd | 2 | 2 | 2 | 2 | 0 | no |
-| Relational_Primitives_synthesized.ormd | 3 | 3 | 2 | 1 | 4 | no |
+| Relational_Primitives_synthesized.ormd | 3 | 3 | 1 | 1 | 4 | no |
 | Rema v2_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | REMF_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
-| Resonance_Architecture_synthesized.ormd | 3 | 3 | 3 | 3 | 0 | no |
-| RP_Formal_Translations_synthesized.ormd | 2 | 2 | 2 | 2 | 0 | no |
+| Resonance_Architecture_synthesized.ormd | 3 | 3 | 0 | 0 | 0 | no |
+| RP_Formal_Translations_synthesized.ormd | 2 | 2 | 0 | 0 | 0 | no |
 | rplang Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Signal as Bias Field_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Stewardship_synthesized.ormd | 3 | 3 | 3 | 3 | 0 | no |
@@ -101,45 +101,42 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Stem | Status | Active Copies | Archived Copies |
 | --- | --- | --- | --- |
-| Attentional Access and Formation - Core Source | included | Context Layer/Attentional Access and Formation - Core Source.ormd<br>Semantic Substrate/Attentional Access and Formation - Core Source.md | - |
-| Asymmetry Maintenance - Core Source | included | Context Layer/Asymmetry Maintenance - Core Source.ormd<br>Semantic Substrate/Asymmetry Maintenance - Core Source.md | - |
-| Constraint-Fluctuation-Attention-Resolution - Core Source | included | Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd<br>Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md | - |
-| Boundary Ethics - Core Source | included | Context Layer/Boundary Ethics - Core Source.ormd<br>Semantic Substrate/Boundary Ethics - Core Source.md | - |
-| boundary_dynamics | included | Context Layer/boundary_dynamics.ormd<br>Semantic Substrate/boundary_dynamics.md | - |
-| Complex Causality - Core Source | included | Context Layer/Complex Causality - Core Source.ormd<br>Semantic Substrate/Complex Causality - Core Source.md | - |
-| Consequence Routing - Core Source | included | Context Layer/Consequence Routing - Core Source.ormd<br>Semantic Substrate/Consequence Routing - Core Source.md | - |
-| Emergence_Determination_Foreclosure | included | Context Layer/Emergence_Determination_Foreclosure.ormd<br>Semantic Substrate/Emergence_Determination_Foreclosure.md | - |
-| flow_operators_provisional | included | Context Layer/flow_operators_provisional.ormd<br>Semantic Substrate/flow_operators_provisional.md | - |
-| Proxy Localization - Core Source | included | Context Layer/Proxy Localization - Core Source.ormd<br>Semantic Substrate/Proxy Localization - Core Source.md | - |
-| Relational Localization - Core Source | included | Context Layer/Relational Localization - Core Source.ormd<br>Semantic Substrate/Relational Localization - Core Source.md | - |
-| Intervention Stewardship - Core Source | included | Context Layer/Intervention Stewardship - Core Source.ormd<br>Semantic Substrate/Intervention Stewardship - Core Source.md | - |
-| Remnant Stewardship - Core Source | included | Context Layer/Remnant Stewardship - Core Source.ormd<br>Semantic Substrate/Remnant Stewardship - Core Source.md | - |
-| resolution_synthesis | included | Context Layer/resolution_synthesis.ormd<br>Semantic Substrate/resolution_synthesis.md | - |
+| Attentional Access and Formation | included | Context Layer/Attentional Access and Formation.ormd<br>Semantic Substrate/Attentional Access and Formation.md | - |
+| Asymmetry Maintenance | included | Context Layer/Asymmetry Maintenance.ormd<br>Semantic Substrate/Asymmetry Maintenance.md | - |
+| Constraint, Fluctuation, Attentional Access, and Resolution | included | Context Layer/Constraint, Fluctuation, Attentional Access, and Resolution.ormd<br>Semantic Substrate/Constraint, Fluctuation, Attentional Access, and Resolution.md | - |
+| Boundary Ethics | included | Context Layer/Boundary Ethics.ormd<br>Semantic Substrate/Boundary Ethics.md | - |
+| Boundary Dynamics | included | Context Layer/Boundary Dynamics.ormd<br>Semantic Substrate/Boundary Dynamics.md | - |
+| Complex Causality | included | Context Layer/Complex Causality.ormd<br>Semantic Substrate/Complex Causality.md | - |
+| Consequence Routing | included | Context Layer/Consequence Routing.ormd<br>Semantic Substrate/Consequence Routing.md | - |
+| Emergence Determination Foreclosure | included | Context Layer/Emergence Determination Foreclosure.ormd<br>Semantic Substrate/Emergence Determination Foreclosure.md | - |
+| Flow Operators | included | Context Layer/Flow Operators.ormd<br>Semantic Substrate/Flow Operators.md | - |
+| Proxy Localization | included | Context Layer/Proxy Localization.ormd<br>Semantic Substrate/Proxy Localization.md | - |
+| Relational Localization | included | Context Layer/Relational Localization.ormd<br>Semantic Substrate/Relational Localization.md | - |
+| Intervention Stewardship | included | Context Layer/Intervention Stewardship.ormd<br>Semantic Substrate/Intervention Stewardship.md | - |
+| Remnant Stewardship | included | Context Layer/Remnant Stewardship.ormd<br>Semantic Substrate/Remnant Stewardship.md | - |
+| Resolution - Synthesis Notes | included | Context Layer/Resolution - Synthesis Notes.ormd<br>Semantic Substrate/Resolution - Synthesis Notes.md | - |
 | Justice Across Scales | included | Context Layer/Justice Across Scales.ormd<br>Semantic Substrate/Justice Across Scales.md | - |
 | Self as Coherence Field | included | Context Layer/Self as Coherence Field.ormd<br>Semantic Substrate/Self as Coherence Field.md | - |
-| Condition as Typed Terrain - Core Source | included | Context Layer/Condition as Typed Terrain - Core Source.ormd<br>Semantic Substrate/Condition as Typed Terrain - Core Source.md | - |
-| Lawfulness - Core Source | included | Context Layer/Lawfulness - Core Source.ormd<br>Semantic Substrate/Lawfulness - Core Source.md | - |
-| Persistence as Accumulated Stance-With - Core Source | included | Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd<br>Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md | - |
-| Responsibility Absorption - Core Source | included | Context Layer/Responsibility Absorption - Core Source.ormd<br>Semantic Substrate/Responsibility Absorption - Core Source.md | - |
-| Slow-Layer Clock Ratio - Core Source | included_provisional_metric | Context Layer/Slow-Layer Clock Ratio - Core Source.ormd<br>Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md | - |
-| Custody - Core Source | included_provisional_machinery | Context Layer/Custody - Core Source.ormd<br>Semantic Substrate/Custody - Core Source.md | - |
-| Trust, Trustworthiness, and Reliance - Core Source | included | Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd<br>Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md | - |
+| Condition as Typed Terrain | included | Context Layer/Condition as Typed Terrain.ormd<br>Semantic Substrate/Condition as Typed Terrain.md | - |
+| Lawfulness | included | Context Layer/Lawfulness.ormd<br>Semantic Substrate/Lawfulness.md | - |
+| Persistence as Accumulated Stance-With | included | Context Layer/Persistence as Accumulated Stance-With.ormd<br>Semantic Substrate/Persistence as Accumulated Stance-With.md | - |
+| Responsibility Absorption | included | Context Layer/Responsibility Absorption.ormd<br>Semantic Substrate/Responsibility Absorption.md | - |
+| Slow-Layer Clock Ratio | included_provisional_metric | Context Layer/Slow-Layer Clock Ratio.ormd<br>Semantic Substrate/Slow-Layer Clock Ratio.md | - |
+| Custody | included_provisional_machinery | Context Layer/Custody.ormd<br>Semantic Substrate/Custody.md | - |
+| Trust, Trustworthiness, and Reliance | included | Context Layer/Trust, Trustworthiness, and Reliance.ormd<br>Semantic Substrate/Trust, Trustworthiness, and Reliance.md | - |
 | Embedded Universality Principle (EUP) | included_unindexed_addition | Context Layer/Embedded Universality Principle (EUP).ormd<br>Semantic Substrate/Embedded Universality Principle (EUP).md | - |
-| E² as a Translation Architecture for Human Remembrance | included_orientation | Context Layer/E² as a Translation Architecture for Human Remembrance.ormd<br>Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md | - |
+| E2 as a Translation Architecture for Human Remembrance | included_orientation | Context Layer/E2 as a Translation Architecture for Human Remembrance.ormd<br>Semantic Substrate/E2 as a Translation Architecture for Human Remembrance.md | - |
 | MRIE - Unified Synthesis | included_consolidation | Context Layer/MRIE - Unified Synthesis.ormd<br>Semantic Substrate/MRIE - Unified Synthesis.md | - |
+| Relational Primitive Translations | included_scoped_translation_consolidation | Context Layer/Relational Primitive Translations.ormd<br>Semantic Substrate/Relational Primitive Translations.md | - |
+| Resonance and Relational Translation | included_resonance_consolidation | Context Layer/Resonance and Relational Translation.ormd<br>Semantic Substrate/Resonance and Relational Translation.md | - |
 | sign_mediated_accountability | archived_into_sign_mediated_flow_routing | - | archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/sign_mediated_accountability.ormd<br>archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/sign_mediated_accountability.md |
-| sign_mediated_flow_routing | included | Context Layer/sign_mediated_flow_routing.ormd<br>Semantic Substrate/sign_mediated_flow_routing.md | - |
+| Sign-Mediated Accountability and Flow Routing | included | Context Layer/Sign-Mediated Accountability and Flow Routing.ormd<br>Semantic Substrate/Sign-Mediated Accountability and Flow Routing.md | - |
 
 ## Pairing Exceptions And Composite Relations
 
 | Key | Status | Relationship | Note |
 | --- | --- | --- | --- |
-| collective-relational-substrate | paired_composite_or_alias | lineage_preserving_merge | Context document declares both archived source lineages as parents. |
-| Context Layer Index | context_meta_index | meta_index | Context Layer self-index; no Semantic Substrate counterpart expected. |
-| Our essence exists in the space between us | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
-| Relational Ontology Derived from First Principles | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
-| relational-derivation-chain | paired_composite_or_alias | renamed_conversion | Titles match; the Context filename is the active shortened filename. |
-| relational-perfection-framework | paired_composite_or_alias | renamed_conversion | Document titles match despite different active filenames. |
+| Context Layer Master Index | context_meta_index | meta_index | Context Layer self-index; no Semantic Substrate counterpart expected. |
 
 ## Unresolved Summary References
 

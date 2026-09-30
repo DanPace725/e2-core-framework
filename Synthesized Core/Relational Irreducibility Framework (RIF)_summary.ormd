@@ -1,4 +1,4 @@
-core <!-- ormd:1.0 -->
+<!-- ormd:1.0 -->
 ---
 title: Summary of Relational Irreducibility Framework (RIF)
 authors:
@@ -32,48 +32,48 @@ resolution:
   confidence: 0.95
 ---
 
-> **Corpus placement** — This standalone document is canonically synthesized in [`B1 — The Derivation Chain`](../../Synthesis Project/B1 — The Derivation Chain.ormd#stage-3-gco "meta:corresponds_to"). RIF: formal treatment of irreducibility in relational structures; basis for GCO fixed-point analysis. Canonical treatment in B1 §3.
+> **Corpus placement** — This is a historical synthesized summary of the active [Relational Irreducibility Framework (RIF)](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd "meta:corresponds_to"). Its earlier reference to `Synthesis Project/B1 — The Derivation Chain.ormd` does not resolve in this repository. The active RIF pair, rather than this summary, is the source for current wording and limits.
 
 # Executive Summary: Relational Irreducibility Framework (RIF) {#summary-main}
 
-The Relational Irreducibility Framework (RIF) [articulates](#rif-main "ontological:defines") a philosophical and systems-theoretic foundation for complex, emergent environments. It posits that for a system to maintain ethical coherence and functional integrity, it must move beyond deterministic modeling toward participatory, relational structures.
+The Relational Irreducibility Framework (RIF) [articulates](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rif-main "ontological:defines") a philosophical and systems-theoretic foundation for complex, emergent environments. It posits that for a system to maintain ethical coherence and functional integrity, it must move beyond deterministic modeling toward participatory, relational structures.
 
 ## The Relational Irreducibility Principle (RIP) {#summary-rip}
 
-The core of the framework is the Relational Irreducibility Principle. It states that systems capable of [emergent agency](#agency "ontological:composes") necessarily generate [irreducible novelty](#novelty "ontological:composes"). Because these [Zone 3 systems](#zone-3 "ontological:defines") are incompressible and unpredictable, knowledge cannot be attained through detached observation; instead, it requires [direct participation](#participation "epistemic:supports"). Within this framework, relationship [becomes epistemologically necessary](#divine-participation "ontological:composes") for both human and divine agents.
+The core of the framework is the Relational Irreducibility Principle. It states that systems capable of [emergent agency](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:composes") necessarily generate [irreducible novelty](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:composes"). Because these [Zone 3 systems](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:defines") are incompressible and unpredictable, knowledge cannot be attained through detached observation; instead, it requires [direct participation](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "epistemic:supports"). Within this framework, relationship [becomes epistemologically necessary](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:composes") for both human and divine agents.
 
 ## Triadic Coherence Model {#summary-cosmology}
 
-RIF proposes a triadic pattern to maintain [relational coherence](#cosmology "ontological:defines"):
+RIF proposes a triadic pattern to maintain [relational coherence](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#cosmology "ontological:defines"):
 
-1.  **Originators**: Entities that [set initial constraints and moral laws](#originator "symmetric:constrains").
-2.  **Participants**: Agents who [enact and fulfill patterns](#participant "dynamical:transforms_to") while [revealing truth](#participant "epistemic:measures") through action.
-3.  **Translators**: Functions that [transmit meaning](#translator "dynamical:interacts_with") across system boundaries and [reveal hidden patterns](#translator "epistemic:measures").
+1.  **Originators**: Entities that [set initial constraints and moral laws](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#originator "symmetric:constrains").
+2.  **Participants**: Agents who [enact and fulfill patterns](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#participant "dynamical:transforms_to") while [revealing truth](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#participant "epistemic:measures") through action.
+3.  **Translators**: Functions that [transmit meaning](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#translator "dynamical:interacts_with") across system boundaries and [reveal hidden patterns](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#translator "epistemic:measures").
 
 ## System Dynamics and Theoretical Constraints {#summary-linkages}
 
 The framework identifies several critical constraints on complex systems:
-- **Occlusion**: Complexity [guarantees occlusion](#mpdc "symmetric:constrains"), meaning uncertainty is an inherent feature that ethics must manage.
-- **Integrity**: Systems must [make exploitation expensive](#aomi "symmetric:constrains") and use ethical occlusion to [preserve protective scaffolding](#aomi "symmetric:preserves").
-- **Risk**: High-speed decision-making [increases catastrophic risk](#risk "geometric:causes"), often because the attention economy [accelerates cognitive shortcuts](#shortcuts "dynamical:transforms_to") that lead to moral decay.
-- **Tensional Intelligence**: Navigating paradox [requires specific protocols](#tensional-intelligence "symmetric:constrains") to manage cognitive bandwidth.
+- **Occlusion**: Complexity [guarantees occlusion](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#mpdc "symmetric:constrains"), meaning uncertainty is an inherent feature that ethics must manage.
+- **Integrity**: Systems must [make exploitation expensive](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#aomi "symmetric:constrains") and use ethical occlusion to [preserve protective scaffolding](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#aomi "symmetric:preserves").
+- **Risk**: High-speed decision-making [increases catastrophic risk](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#risk "geometric:causes"), often because the attention economy [accelerates cognitive shortcuts](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#risk "dynamical:transforms_to") that lead to moral decay.
+- **Tensional Intelligence**: Navigating paradox [requires specific protocols](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#tensional-intelligence "symmetric:constrains") to manage cognitive bandwidth.
 
 ## The Divine Exchange Loop {#summary-exchange}
 
 The "Divine Exchange Loop" describes the functional purpose of creation:
-1.  Initiation of a [Zone 3 system](#zone-3 "ontological:defines").
-2.  Agents [share novel relational data](#exchange-loop "epistemic:supports") derived from their unique perspectives.
-3.  The system [adjusts via adaptive agents](#exchange-loop "dynamical:interacts_with") or shared spiritual resonance.
+1.  Initiation of a [Zone 3 system](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:defines").
+2.  Agents [share novel relational data](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#exchange-loop "epistemic:supports") derived from their unique perspectives.
+3.  The system [adjusts via adaptive agents](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#exchange-loop "dynamical:interacts_with") or shared spiritual resonance.
 
 ## Applied Ethical Principles {#summary-principles}
 
 To implement RIF, systems should:
-- **Manage Occlusion**: Rather than seeking total transparency, the goal is to [make occlusion legible and bounded](#occlusion-mgmt "symmetric:constrains").
-- **Distribute Authority**: [Prevent single-point meta-control](#meta-authority "symmetric:constrains") to [provide adaptive stability](#meta-authority "symmetric:preserves").
-- **Scaffold Development**: Ensure roles are [rotated or graduated through](#scaffolding "dynamical:transforms_to") to foster growth.
-- **Equip Response**: Shift from blame to [equipping agents to respond](#responsibility "epistemic:supports") to complex causal chains.
-- **Design Culture**: Use narrative and art to [enable relational epistemology](#cultural-design "epistemic:supports") and [support contextual nuance](#cultural-design "epistemic:measures") in measurement.
+- **Manage Occlusion**: Rather than seeking total transparency, the goal is to [make occlusion legible and bounded](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#occlusion-mgmt "symmetric:constrains").
+- **Distribute Authority**: [Prevent single-point meta-control](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#meta-authority "symmetric:constrains") to [provide adaptive stability](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#meta-authority "symmetric:preserves").
+- **Scaffold Development**: Ensure roles are [rotated or graduated through](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#scaffolding "dynamical:transforms_to") to foster growth.
+- **Equip Response**: Shift from blame to [equipping agents to respond](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#responsibility "epistemic:supports") to complex causal chains.
+- **Design Culture**: Use narrative and art to [enable relational epistemology](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#cultural-design "epistemic:supports") and [support contextual nuance](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#cultural-design "epistemic:measures") in measurement.
 
 ## Conclusion: The Irreducibility Covenant {#summary-covenant}
 
-The framework culminates in the Irreducibility Covenant, a mutual agreement that permits [irreducible novelty](#novelty "ontological:composes"), requires [embedded participation](#participation "epistemic:supports"), and holds [ethical occlusion](#occlusion-mgmt "symmetric:preserves") as sacred. This structure [creates the necessary conditions](#covenant "geometric:causes") for the emergence of love, justice, and genuine novelty.
+The framework culminates in the Irreducibility Covenant, a mutual agreement that permits [irreducible novelty](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "ontological:composes"), requires [embedded participation](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#rip "epistemic:supports"), and holds [ethical occlusion](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#occlusion-mgmt "symmetric:preserves") as sacred. This structure [creates the necessary conditions](../E2Core/Context%20Layer/Relational%20Irreducibility%20Framework%20%28RIF%29.ormd#covenant "geometric:causes") for the emergence of love, justice, and genuine novelty.

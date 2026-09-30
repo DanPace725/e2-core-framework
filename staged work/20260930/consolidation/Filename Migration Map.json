@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "scope": "active Core ORMD/human pairs and master index",
+  "entries": [
+    {
+      "old_ormd": "Adversarial Occlusion and Mechanism Integrity V1.ormd",
+      "new_ormd": "Adversarial Occlusion and Mechanism Integrity.ormd",
+      "old_human": "Adversarial Occlusion and Mechanism Integrity V1.md",
+      "new_human": "Adversarial Occlusion and Mechanism Integrity.md",
+      "old_slug": "adversarial-occlusion-and-mechanism-integrity-v1"
+    },
+    {
+      "old_ormd": "Asymmetry Maintenance - Core Source.ormd",
+      "new_ormd": "Asymmetry Maintenance.ormd",
+      "old_human": "Asymmetry Maintenance - Core Source.md",
+      "new_human": "Asymmetry Maintenance.md",
+      "old_slug": "asymmetry-maintenance-core-source"
+    },
+    {
+      "old_ormd": "Attentional Access and Formation - Core Source.ormd",
+      "new_ormd": "Attentional Access and Formation.ormd",
+      "old_human": "Attentional Access and Formation - Core Source.md",
+      "new_human": "Attentional Access and Formation.md",
+      "old_slug": "attentional-access-and-formation-core-source"
+    },
+    {
+      "old_ormd": "Boundary Ethics - Core Source.ormd",
+      "new_ormd": "Boundary Ethics.ormd",
+      "old_human": "Boundary Ethics - Core Source.md",
+      "new_human": "Boundary Ethics.md",
+      "old_slug": "boundary-ethics-core-source"
+    },
+    {
+      "old_ormd": "boundary_dynamics.ormd",
+      "new_ormd": "Boundary Dynamics.ormd",
+      "old_human": "boundary_dynamics.md",
+      "new_human": "Boundary Dynamics.md",
+      "old_slug": "boundary-dynamics"
+    },
+    {
+      "old_ormd": "Collective Relational Substrate.ormd",
+      "new_ormd": "Collective Relational Substrate.ormd",
+      "old_human": "CRS.md",
+      "new_human": "Collective Relational Substrate.md",
+      "old_slug": "collective-relational-substrate"
+    },
+    {
+      "old_ormd": "Complex Causality - Core Source.ormd",
+      "new_ormd": "Complex Causality.ormd",
+      "old_human": "Complex Causality - Core Source.md",
+      "new_human": "Complex Causality.md",
+      "old_slug": "complex-causality-core-source"
+    },
+    {
+      "old_ormd": "Condition as Typed Terrain - Core Source.ormd",
+      "new_ormd": "Condition as Typed Terrain.ormd",
+      "old_human": "Condition as Typed Terrain - Core Source.md",
+      "new_human": "Condition as Typed Terrain.md",
+      "old_slug": "condition-as-typed-terrain-core-source"
+    },
+    {
+      "old_ormd": "Consequence Routing - Core Source.ormd",
+      "new_ormd": "Consequence Routing.ormd",
+      "old_human": "Consequence Routing - Core Source.md",
+      "new_human": "Consequence Routing.md",
+      "old_slug": "consequence-routing-core-source"
+    },
+    {
+      "old_ormd": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
+      "new_ormd": "Constraint, Fluctuation, Attentional Access, and Resolution.ormd",
+      "old_human": "Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "new_human": "Constraint, Fluctuation, Attentional Access, and Resolution.md",
+      "old_slug": "constraint-fluctuation-attention-resolution-core-source"
+    },
+    {
+      "old_ormd": "Context Layer Index.ormd",
+      "new_ormd": "Context Layer Master Index.ormd",
+      "old_human": "E2Core/context layer index.md",
+      "new_human": "E2Core/Context Layer Master Index.md",
+      "old_slug": "context-layer-master-index"
+    },
+    {
+      "old_ormd": "Custody - Core Source.ormd",
+      "new_ormd": "Custody.ormd",
+      "old_human": "Custody - Core Source.md",
+      "new_human": "Custody.md",
+      "old_slug": "custody-core-source"
+    },
+    {
+      "old_ormd": "Derivation deep dive.ormd",
+      "new_ormd": "Derivation Deep Dive - Categorical and Relational Physics.ormd",
+      "old_human": "Derivation deep dive.md",
+      "new_human": "Derivation Deep Dive - Categorical and Relational Physics.md",
+      "old_slug": "derivation-deep-dive"
+    },
+    {
+      "old_ormd": "E^2 Axioms.ormd",
+      "new_ormd": "E2 Axioms.ormd",
+      "old_human": "E^2 Axioms.md",
+      "new_human": "E2 Axioms.md",
+      "old_slug": "e2-axioms"
+    },
+    {
+      "old_ormd": "E^2 Entry Point.ormd",
+      "new_ormd": "E2 Entry Point.ormd",
+      "old_human": "E^2 Entry Point.md",
+      "new_human": "E2 Entry Point.md",
+      "old_slug": "e2-entry-point"
+    },
+    {
+      "old_ormd": "E^2 Equation.ormd",
+      "new_ormd": "E2 Equation.ormd",
+      "old_human": "E^2 Equation.md",
+      "new_human": "E2 Equation.md",
+      "old_slug": "e2-equation"
+    },
+    {
+      "old_ormd": "Emergence Engine overview.ormd",
+      "new_ormd": "The Emergence Engine.ormd",
+      "old_human": "Emergence Engine overview.md",
+      "new_human": "The Emergence Engine.md",
+      "old_slug": "emergence-engine-overview"
+    },
+    {
+      "old_ormd": "Emergence_Determination_Foreclosure.ormd",
+      "new_ormd": "Emergence Determination Foreclosure.ormd",
+      "old_human": "Emergence_Determination_Foreclosure.md",
+      "new_human": "Emergence Determination Foreclosure.md",
+      "old_slug": "emergence-determination-foreclosure"
+    },
+    {
+      "old_ormd": "Essence of Existence Constitution - Draft 2.ormd",
+      "new_ormd": "Essence of Existence Constitution.ormd",
+      "old_human": "Essence of Existence Constitution - Draft 2.md",
+      "new_human": "Essence of Existence Constitution.md",
+      "old_slug": "essence-of-existence-constitution-draft-2"
+    },
+    {
+      "old_ormd": "E² as a Translation Architecture for Human Remembrance.ormd",
+      "new_ormd": "E2 as a Translation Architecture for Human Remembrance.ormd",
+      "old_human": "E² as a Translation Architecture for Human Remembrance.md",
+      "new_human": "E2 as a Translation Architecture for Human Remembrance.md",
+      "old_slug": "e2-as-a-translation-architecture-for-human-remembrance"
+    },
+    {
+      "old_ormd": "flow_operators_provisional.ormd",
+      "new_ormd": "Flow Operators.ormd",
+      "old_human": "flow_operators_provisional.md",
+      "new_human": "Flow Operators.md",
+      "old_slug": "flow-operators-provisional"
+    },
+    {
+      "old_ormd": "Interlocked Stewardship V2.ormd",
+      "new_ormd": "Interlocked Stewardship.ormd",
+      "old_human": "Interlocked Stewardship V2.md",
+      "new_human": "Interlocked Stewardship.md",
+      "old_slug": "interlocked-stewardship-v2"
+    },
+    {
+      "old_ormd": "Intervention Stewardship - Core Source.ormd",
+      "new_ormd": "Intervention Stewardship.ormd",
+      "old_human": "Intervention Stewardship - Core Source.md",
+      "new_human": "Intervention Stewardship.md",
+      "old_slug": "intervention-stewardship-core-source"
+    },
+    {
+      "old_ormd": "Justice Across Scales Practical Applications.ormd",
+      "new_ormd": "Justice Across Scales - Practical Applications.ormd",
+      "old_human": "Justice Across Scales Practical Applications.md",
+      "new_human": "Justice Across Scales - Practical Applications.md",
+      "old_slug": "justice-across-scales-practical-applications"
+    },
+    {
+      "old_ormd": "Lawfulness - Core Source.ormd",
+      "new_ormd": "Lawfulness.ormd",
+      "old_human": "Lawfulness - Core Source.md",
+      "new_human": "Lawfulness.md",
+      "old_slug": "lawfulness-core-source"
+    },
+    {
+      "old_ormd": "layer_2_draft_rvp_and_vme_developments.ormd",
+      "new_ormd": "Layer 2 - RVP and VME Developments.ormd",
+      "old_human": "layer_2_draft_rvp_and_vme_developments.md",
+      "new_human": "Layer 2 - RVP and VME Developments.md",
+      "old_slug": "layer-2-draft-rvp-and-vme-developments"
+    },
+    {
+      "old_ormd": "Original E^2 work.ormd",
+      "new_ormd": "E2 Corpus Lineage Index.ormd",
+      "old_human": "Original E^2 work.md",
+      "new_human": "E2 Corpus Lineage Index.md",
+      "old_slug": "original-e2-work"
+    },
+    {
+      "old_ormd": "Persistence as Accumulated Stance-With - Core Source.ormd",
+      "new_ormd": "Persistence as Accumulated Stance-With.ormd",
+      "old_human": "Persistence as Accumulated Stance-With - Core Source.md",
+      "new_human": "Persistence as Accumulated Stance-With.md",
+      "old_slug": "persistence-as-accumulated-stance-with-core-source"
+    },
+    {
+      "old_ormd": "Proxy Localization - Core Source.ormd",
+      "new_ormd": "Proxy Localization.ormd",
+      "old_human": "Proxy Localization - Core Source.md",
+      "new_human": "Proxy Localization.md",
+      "old_slug": "proxy-localization-core-source"
+    },
+    {
+      "old_ormd": "Relational Bill of Rights v2.ormd",
+      "new_ormd": "The Relational Bill of Rights.ormd",
+      "old_human": "Relational Bill of Rights v2.md",
+      "new_human": "The Relational Bill of Rights.md",
+      "old_slug": "relational-bill-of-rights-v2"
+    },
+    {
+      "old_ormd": "Relational Field Dynamics 0 1.ormd",
+      "new_ormd": "Relational Field Dynamics.ormd",
+      "old_human": "Relational Field Dynamics 0 1.md",
+      "new_human": "Relational Field Dynamics.md",
+      "old_slug": "relational-field-dynamics-0-1"
+    },
+    {
+      "old_ormd": "Relational Localization - Core Source.ormd",
+      "new_ormd": "Relational Localization.ormd",
+      "old_human": "Relational Localization - Core Source.md",
+      "new_human": "Relational Localization.md",
+      "old_slug": "relational-localization-core-source"
+    },
+    {
+      "old_ormd": "Relational Perfection A Manifesto.ormd",
+      "new_ormd": "Relational Perfection - A Manifesto.ormd",
+      "old_human": "Relational Perfection A Manifesto.md",
+      "new_human": "Relational Perfection - A Manifesto.md",
+      "old_slug": "relational-perfection-a-manifesto"
+    },
+    {
+      "old_ormd": "Relational Derivation Chain .ormd",
+      "new_ormd": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.ormd",
+      "old_human": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "new_human": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "old_slug": "relational-derivation-chain"
+    },
+    {
+      "old_ormd": "Relational Perfection_framework.ormd",
+      "new_ormd": "Relational Perfection - A Framework for Emergent Integrity.ormd",
+      "old_human": "Relational Perfection A Framework for Emergent Int.md",
+      "new_human": "Relational Perfection - A Framework for Emergent Integrity.md",
+      "old_slug": "relational-perfection-framework"
+    },
+    {
+      "old_ormd": "Remnant Stewardship - Core Source.ormd",
+      "new_ormd": "Remnant Stewardship.ormd",
+      "old_human": "Remnant Stewardship - Core Source.md",
+      "new_human": "Remnant Stewardship.md",
+      "old_slug": "remnant-stewardship-core-source"
+    },
+    {
+      "old_ormd": "resolution_synthesis.ormd",
+      "new_ormd": "Resolution - Synthesis Notes.ormd",
+      "old_human": "resolution_synthesis.md",
+      "new_human": "Resolution - Synthesis Notes.md",
+      "old_slug": "resolution-synthesis"
+    },
+    {
+      "old_ormd": "Responsibility Absorption - Core Source.ormd",
+      "new_ormd": "Responsibility Absorption.ormd",
+      "old_human": "Responsibility Absorption - Core Source.md",
+      "new_human": "Responsibility Absorption.md",
+      "old_slug": "responsibility-absorption-core-source"
+    },
+    {
+      "old_ormd": "sign_mediated_flow_routing.ormd",
+      "new_ormd": "Sign-Mediated Accountability and Flow Routing.ormd",
+      "old_human": "sign_mediated_flow_routing.md",
+      "new_human": "Sign-Mediated Accountability and Flow Routing.md",
+      "old_slug": "sign-mediated-flow-routing"
+    },
+    {
+      "old_ormd": "Slow-Layer Clock Ratio - Core Source.ormd",
+      "new_ormd": "Slow-Layer Clock Ratio.ormd",
+      "old_human": "Slow-Layer Clock Ratio - Core Source.md",
+      "new_human": "Slow-Layer Clock Ratio.md",
+      "old_slug": "slow-layer-clock-ratio-core-source"
+    },
+    {
+      "old_ormd": "Steward’s Creed.ormd",
+      "new_ormd": "Steward's Creed.ormd",
+      "old_human": "Steward’s Creed.md",
+      "new_human": "Steward's Creed.md",
+      "old_slug": "steward-s-creed"
+    },
+    {
+      "old_ormd": "TCL_Plain_English_Summary.ormd",
+      "new_ormd": "Temporal Constraint Lamination - What We Found.ormd",
+      "old_human": "TCL_Plain_English_Summary.md",
+      "new_human": "Temporal Constraint Lamination - What We Found.md",
+      "old_slug": "tcl-plain-english-summary"
+    },
+    {
+      "old_ormd": "TCL_Three_Constants.ormd",
+      "new_ormd": "The Operating Window - Three Constants from One Landscape.ormd",
+      "old_human": "TCL_Three_Constants.md",
+      "new_human": "The Operating Window - Three Constants from One Landscape.md",
+      "old_slug": "tcl-three-constants"
+    },
+    {
+      "old_ormd": "Tensional Intelligence A Theoretical Foundation.ormd",
+      "new_ormd": "Tensional Intelligence - A Theoretical Foundation.ormd",
+      "old_human": "Tensional Intelligence A Theoretical Foundation.md",
+      "new_human": "Tensional Intelligence - A Theoretical Foundation.md",
+      "old_slug": "tensional-intelligence-a-theoretical-foundation"
+    },
+    {
+      "old_ormd": "The Cyclical Integrity framework.ormd",
+      "new_ormd": "The Cyclical Integrity Framework.ormd",
+      "old_human": "The Cyclical Integrity framework.md",
+      "new_human": "The Cyclical Integrity Framework.md",
+      "old_slug": "the-cyclical-integrity-framework"
+    },
+    {
+      "old_ormd": "The Essence of Existence.ormd",
+      "new_ormd": "Care, Attention, and Coherence - A Relational Manifesto.ormd",
+      "old_human": "The Essence of Existence.md",
+      "new_human": "Care, Attention, and Coherence - A Relational Manifesto.md",
+      "old_slug": "the-essence-of-existence"
+    },
+    {
+      "old_ormd": "Trust, Trustworthiness, and Reliance - Core Source.ormd",
+      "new_ormd": "Trust, Trustworthiness, and Reliance.ormd",
+      "old_human": "Trust, Trustworthiness, and Reliance - Core Source.md",
+      "new_human": "Trust, Trustworthiness, and Reliance.md",
+      "old_slug": "trust-trustworthiness-and-reliance-core-source"
+    }
+  ]
+}

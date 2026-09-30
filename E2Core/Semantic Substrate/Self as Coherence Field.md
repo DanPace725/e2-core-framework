@@ -1,6 +1,6 @@
 4/29/26
 
-# The Self as Coherence Field
+# The Self as Coherence Field {#the-self-as-coherence-field}
 
 **E² Framework · Synthesis Document · v1.0**
 
@@ -8,11 +8,11 @@
 
 ---
 
-## § 0 · Positional Statement
+## § 0 · Positional Statement {#0-positional-statement}
 
 This document treats the self as a structural object within the relational ontology. It does not propose a new theory of selfhood. It proposes a decomposition of selfhood along the six relational primitives and an account of the typical projections that result when the full field cannot be held under load. The phenomenology described is consistent with what wisdom traditions across cultures have pointed at through their respective projection languages. The goal here is not to replace those languages but to surface the structural conditions any account of integrated selfhood must satisfy.
 
-### Core Admission Boundary (2026-08-10)
+### Core Admission Boundary (2026-08-10) {#core-admission-boundary-2026-08-10}
 
 This source is admitted as a **six-primitive composite and interpretive bridge**, not as a seventh primitive, a scalar measure of selfhood, or a validated psychological instrument. Its claims about wisdom traditions, flourishing, dignity, metabolism, and phenomenology remain framework interpretations unless independently evidenced. “Coherence field” names the joint configuration described here; it does not by itself establish a physical field or a mechanism.
 
@@ -22,18 +22,18 @@ Written from inside a self attempting to describe selfhood. Necessarily incomple
 
 ---
 
-## § 1 · The Central Claim
+## § 1 · The Central Claim {#1-the-central-claim}
 
 The self is not the smallest unit of reality, and it is not an illusion to be dissolved. It is a **coherence field**: a metastable configuration in which six relational primitives are held in their counter-mode tensions simultaneously, producing a pattern that is real, particular, dynamic, situated, constrained, partially knowable, and self-modeling all at once.
 
 The standard categories of selfhood (atomized individual, distributed self, relational self, integral self, embodied self, process self) are not rival theories. They are projections. Each one collapses the full coherence field onto a subset of primitives and lets the rest fall to background or pin to one counter-mode pole. Each projection is partially correct. None is complete. Treating any one of them as ultimate produces the characteristic suffering that comes from mistaking a compression artifact for the original signal.
 
 > The self is a living interface within nested relational fields. What it appears to be depends on which primitive axes are foregrounded under current load conditions.
-> 
+>
 
 ---
 
-## § 2 · Averaging, Integration, Closure
+## § 2 · Averaging, Integration, Closure {#2-averaging-integration-closure}
 
 Self-construction is a compression operation. The mind constantly converts high-resolution lived experience into usable narrative summaries (*I am the kind of person who*, *this is what happened*, *this is what it means*). The conversion is necessary. Embedded observers cannot operate on raw experience indefinitely. Some compression is required for action.
 
@@ -51,7 +51,7 @@ Psychological suffering at the level of self often comes from mistaking a compre
 
 ---
 
-## § 3 · Common Interface, Not Common Denominator
+## § 3 · Common Interface, Not Common Denominator {#3-common-interface-not-common-denominator}
 
 The atomized self treats persistent presence across one’s own problems as evidence of personal causation. Self-blame is the conclusion: *I am present in every problem, therefore I am the problem.* This is logically tempting and structurally wrong.
 
@@ -60,7 +60,7 @@ The vague systems-blame self treats persistent presence of structural failure as
 The accurate move is interface-relational:
 
 > The self is not the common denominator. The self is the common interface.
-> 
+>
 
 The person is the site where many systems meet, transfer load, generate meaning, impose demands, create wounds, offer support, and produce remainder. Being present across every problem does not mean being the source of every problem. It may mean being the receiver, absorber, translator, witness, mediator, or overflow basin of many pressures colliding.
 
@@ -74,11 +74,11 @@ The third question preserves agency without collapsing into self-blame. It allow
 
 ---
 
-## § 4 · Self as Primitive Composite
+## § 4 · Self as Primitive Composite {#4-self-as-primitive-composite}
 
 The intuition that *self* generates multiple framings, all partially correct and partially wrong, is a reliable signature of a primitive composite. The self is decomposable across the six relational primitives. Each primitive contributes a counter-mode tension that, when held, constitutes part of what makes a self a self.
 
-### P1 · Ontological · Identity and Composition
+### P1 · Ontological · Identity and Composition {#p1-ontological-identity-and-composition}
 
 What persists, what the boundaries are, what survives transformation as still being *me*. Counter-modes: local identity (the bounded particular) versus nonlocal identity (extension into the field through composition).
 
@@ -86,7 +86,7 @@ What persists, what the boundaries are, what survives transformation as still be
 - Pinned nonlocal alone: the dissolved self, with no recoverable particularity.
 - Held in tension: a self that is genuinely particular AND genuinely composed. The particularity is what gets composed. The composition is what makes the particularity possible.
 
-### P2 · Dynamical · Change and Continuity
+### P2 · Dynamical · Change and Continuity {#p2-dynamical-change-and-continuity}
 
 What the self does, how it transforms, the verb-form of being a self. Counter-modes: deterministic versus stochastic.
 
@@ -94,7 +94,7 @@ What the self does, how it transforms, the verb-form of being a self. Counter-mo
 - Pinned stochastic alone: no continuity, just a sequence of events with no recognizable through-line.
 - Held in tension: stable enough to be predictable, plastic enough to grow. Reliable and capable of surprise.
 
-### P3 · Geometric/Causal · Embedding and Locus
+### P3 · Geometric/Causal · Embedding and Locus {#p3-geometriccausal-embedding-and-locus}
 
 Where and when the self is, what it is adjacent to, how influence travels through and around it. Counter-modes: continuous versus discrete embedding.
 
@@ -102,7 +102,7 @@ Where and when the self is, what it is adjacent to, how influence travels throug
 - Pinned discrete alone: isolated atom with no real coupling.
 - Held in tension: situated, embodied, locatable, and genuinely embedded. A coupled locus.
 
-### P4 · Symmetric/Constraint · Invariants and Plasticity
+### P4 · Symmetric/Constraint · Invariants and Plasticity {#p4-symmetricconstraint-invariants-and-plasticity}
 
 What stays invariant in the self under transformation, what rules the self obeys, what conservation laws define it. Counter-modes: preserved versus broken symmetry.
 
@@ -110,7 +110,7 @@ What stays invariant in the self under transformation, what rules the self obeys
 - Pinned broken alone: no recognizable shape, mere flux.
 - Held in tension: invariants that hold under most transformations and break under specific ones. A shape that pressure reveals rather than determines.
 
-### P5 · Epistemic/Informational · Self-Knowledge
+### P5 · Epistemic/Informational · Self-Knowledge {#p5-epistemicinformational-self-knowledge}
 
 What the self knows about itself, what can be known about it, what is hidden by structure rather than by accident. Counter-modes: transparent versus opaque.
 
@@ -118,7 +118,7 @@ What the self knows about itself, what can be known about it, what is hidden by 
 - Pinned opaque alone: total self-mystery, unable to act on any self-understanding.
 - Held in tension: partial self-access with structural blind spots that are acknowledged rather than denied.
 
-### P6 · Meta-Relational · Self-Modeling
+### P6 · Meta-Relational · Self-Modeling {#p6-meta-relational-self-modeling}
 
 How the self models itself, how its self-model maps across scales and contexts, whether it can recognize the same patterns at different altitudes of its own life. Counter-modes: self-aware versus self-deceived.
 
@@ -126,7 +126,7 @@ How the self models itself, how its self-model maps across scales and contexts, 
 - Pinned deceived alone: captured by inherited stories without recognition.
 - Held in tension: a self-model that recognizes itself as a model, holds lightly, and revises under pressure from reality.
 
-### Active and Characterizing Roles
+### Active and Characterizing Roles {#active-and-characterizing-roles}
 
 Following the active/characterizing distinction surfaced in the resolution synthesis, the primitives split functionally when applied to selfhood:
 
@@ -137,7 +137,7 @@ When any active primitive saturates or collapses under load, the characterizing 
 
 ---
 
-## § 5 · The Standard Projections
+## § 5 · The Standard Projections {#5-the-standard-projections}
 
 The cultural inventory of “selves” is an inventory of metastable projections. Each names a partial coherence field that becomes recognizable when the full field collapses onto its dominant primitives.
 
@@ -157,7 +157,7 @@ None of these projections is wrong. Each describes what the self looks like from
 
 ---
 
-## § 6 · The Full Coherence Field
+## § 6 · The Full Coherence Field {#6-the-full-coherence-field}
 
 The full coherence field self holds all six primitive tensions simultaneously without collapsing any of them. Lived from the inside, this looks like:
 
@@ -180,7 +180,7 @@ The framework is not generating a new account of flourishing. It is articulating
 
 ---
 
-## § 7 · Cultural Projections and Shadow Remainder
+## § 7 · Cultural Projections and Shadow Remainder {#7-cultural-projections-and-shadow-remainder}
 
 The dominant cultural projections of self are not symmetric inversions of each other. They are isomorphic. Same remainder logic, different excretion paths.
 
@@ -194,7 +194,7 @@ Healthier configurations are not midpoints. They are vectors relative to current
 
 ---
 
-## § 8 · Dignity as Field Condition
+## § 8 · Dignity as Field Condition {#8-dignity-as-field-condition}
 
 Dignity is not a property of the bounded individual. It is also not a property of the relational web. Dignity is a coherence field condition that requires both poles of P1 held simultaneously.
 
@@ -204,7 +204,7 @@ This generalizes. Most of what wisdom traditions call human flourishing turns ou
 
 ---
 
-## § 9 · Collapse, Recovery, and Field Fluency
+## § 9 · Collapse, Recovery, and Field Fluency {#9-collapse-recovery-and-field-fluency}
 
 The full coherence field is metabolically expensive. Holding all six tensions simultaneously costs energy. Under load the field collapses to projections. The collapse is not failure. It is triage. The system’s available capacity cannot sustain the full field, and so it falls back to a metastable subset that requires less metabolic budget. Sometimes the only closure available to a system at a given moment is a high-compression flattening. That collapse is what got it through the next minute.
 
@@ -224,7 +224,7 @@ The deepest extension of this fluency is relational. People who recognize the sa
 
 ---
 
-## § 10 · Closing
+## § 10 · Closing {#10-closing}
 
 The self is real. It is not the atom that modern individualism imagined. It is not the illusion that some traditions teach toward dissolving. It is a coherence field with six primitive axes, six counter-mode tensions, and a normal failure mode of decohering into two or three primitive projections under load. Wisdom about self is the practice of widening the band where the full field is sustainable and developing fluency in the inevitable contractions.
 
@@ -237,7 +237,7 @@ Not an atom. Not an illusion.
 A living interface.
 A pattern held in relation.
 A self made real in the between.
-> 
+>
 
 ---
 
@@ -245,7 +245,7 @@ A self made real in the between.
 
 ---
 
-## § 11 · Provisional Multidimensional Profile from REMA
+## § 11 · Provisional Multidimensional Profile from REMA {#11-provisional-multidimensional-profile-from-rema}
 
 REMA's earlier consciousness spectrum raised a useful question that the single ladder could not answer: which capacities does a particular system show, at what boundary, under what conditions, and with what evidence? The profile below preserves that question as a **candidate research model** beside this account of self. It does not revise the six-primitive decomposition, assign a scalar level of selfhood or consciousness, or turn SCF into a validated instrument. The dimensions may vary independently and may change with task, load, development, and environment.
 
@@ -262,7 +262,7 @@ These are inquiry dimensions, not ordered stages or sufficient conditions for co
 
 Further development requires a named referent and scale, operational distinctions, comparison cases, evidence for each proposed capacity, and explicit failure or unresolved outcomes. The older REMA terms for consciousness levels and crystalline, liquid, gaseous, and plasma states remain historical hypotheses or metaphors; they are not calibrated thresholds for this profile. Attentional Access and Formation supplies a narrower functional test for the selective-access dimension, while EUP governs any proposed transfer across substrates.
 
-### Provisional Transition Questions from RCF
+### Provisional Transition Questions from RCF {#provisional-transition-questions-from-rcf}
 
 The *Relational Consciousness Framework* (RCF) applied the Exposure Protocol's earlier invitation–structure–integration morphism to a proposed account of consciousness. Its distinct contribution here is a **transition question** alongside the capacity profile: can the way a system notices differences, maintains boundaries, or integrates outcomes be changed by the other processes and by their consequences? Three possible feedback relations are worth investigating:
 

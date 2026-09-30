@@ -1,5 +1,7 @@
 # Relational Perfection and Cyclical Integrity — Consolidation Review
 
+Link follow-up (2026-09-29): the five Cyclical Integrity child names were found in the older `Phase 1/Semantic Substrate/` and `Phase 1/Context Layer/` folders. The active Core keeps the four outside-Core companions as named historical pointers without broken reader links and points the fifth to its active Relational Perfection framework counterpart. The framework's manifesto link and the Original E² work's Cyclical Integrity link now target active Core files. No companion was promoted or merged; the source-status and composite-lineage questions below remain open.
+
 **Review date:** 2026-09-29  
 **Status:** staged review only; no source, archive, catalog, or generated-output changes made.  
 **Scope:** the active Relational Perfection manifesto and framework, the Cyclical Integrity family, their active ORMD counterparts, and discoverable archived predecessors. The consolidation plan §3.B calls for comparing these genres while preserving claim-strength distinctions and merging only where the argument supports it.

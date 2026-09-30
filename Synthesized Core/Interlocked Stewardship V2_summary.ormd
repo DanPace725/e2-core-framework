@@ -9,7 +9,7 @@ lineage:
     uri: internal://summaries/interlocked-stewardship-v2
     ts: '2024-05-22T14:30:00Z'
   parents:
-  - urn:cb:Interlocked Stewardship V2.ormd
+  - urn:cb:Interlocked Stewardship.ormd
 policy:
   read:
   - roles:

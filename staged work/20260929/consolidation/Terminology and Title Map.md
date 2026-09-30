@@ -18,6 +18,22 @@ Status: staged inventory captured before the visible-title pass. The entries bel
 
 The earlier Essence title decision was applied separately as *Care, Attention, and Coherence: A Relational Manifesto*. AOMI V1, CLP's internal v0.2 section, Flow Operators' provisional status, Layer 2 draft status, Relational Field Dynamics 0.1, and the Constitution's Draft 2 remain visible where a version or status may distinguish the work. No claim about their final naming is inferred from this editorial pass.
 
+## Visible-title continuation applied 2026-09-30
+
+| Active source | Reader-facing title decision | Preserved distinction |
+|---|---|---|
+| Embedded Universality Principle (EUP) | Added the established acronym to the ORMD H1 to match metadata and navigation; retained the prior heading fragment as an explicit ID. | The provisional synthesis status remains in the body. |
+| Exposure Protocol | Aligned ORMD `title:` with its first H1 and index label. | The longer transmission-framework heading and its anchor remain in the body. |
+| Relational Volition | Aligned ORMD `title:` with its first H1 and index label. | The longer freedom-in-relational-fields heading and its anchor remain in the body. |
+| Reverent Stewardship | Aligned ORMD `title:` with its first H1 and index label. | The recursion/practical-guide sections remain separately titled. |
+| The Cyclical Integrity Framework | Capitalized *Framework* consistently in ORMD metadata and H1; retained the heading ID. | Its relationship to the distinct Relational Perfection work is unchanged. |
+| Trust, Trustworthiness, and Reliance | Corrected H1 conjunction capitalization to match metadata and index. | Source status and scope remain in the body. |
+| The Truth-Ceiling: A Categorical Formulation for Scalable Truth | Added a document H1 matching ORMD metadata before the numbered sections. | Numbered section titles and IDs remain intact; index uses the shorter navigation label *Truth Ceiling*. |
+
+The authored Context Layer index now uses the current Relational Bill of Rights title in its entry path, spells out AOMI consistently, and retains the original quotation marks around “Intelligence Field.” Some index labels remain deliberately shorter than document titles (AVIA, Emergence Engine, TCL, Relational Perfection, and Layer 2 Draft); they are navigation labels, not alternate source titles. The active EOTC title is already consistent. `TC` also denotes Transformative Complexity, so no corpus-wide acronym replacement was made.
+
+The visible markers `V1`, `0.1`, `Draft 2`, and *Provisional* remain where they express the active source's status or iteration. Filename, heading-ID, and link migration is still a separate audit.
+
 ## Scope and method
 
 Inventory covers top-level active files in `E2Core/Semantic Substrate/` and `E2Core/Context Layer/`, excluding archives, staged work, generated reports, and plugin files. For each active ORMD file below, the table records its frontmatter `title:` and first substantive H1 after frontmatter; matching human Markdown is linked by shared basename where present. The inventory is a review surface, not a rename list. Filename/link migration remains deferred under the consolidation plan.

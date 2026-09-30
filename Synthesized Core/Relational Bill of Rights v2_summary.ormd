@@ -9,7 +9,7 @@ lineage:
     uri: urn:ormd:summary-relational-bill-of-rights-v2
     ts: '2024-05-22T14:30:00Z'
   parents:
-  - urn:cb:Relational Bill of Rights v2.ormd
+  - urn:cb:The Relational Bill of Rights.ormd
 policy:
   read:
   - roles:

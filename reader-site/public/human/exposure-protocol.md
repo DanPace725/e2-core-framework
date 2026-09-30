@@ -1,63 +1,63 @@
-# Exposure Protocol
+# Exposure Protocol {#title}
 
 9/26/25
 
-# Exposure Protocol: A Coherence-Preserving Transmission Framework
+# Exposure Protocol: A Coherence-Preserving Transmission Framework {#header}
 
-## Core Concept
+## Core Concept {#core-concept}
 
-The Exposure Protocol is a method for transmitting complex conceptual frameworks across cognitive boundaries while maintaining relational coherence. It uses the inherent structure of the content to teach that same structure, creating a self-demonstrating pedagogical loop.
+The Exposure Protocol is a method for [transmitting complex conceptual frameworks](#core-concept) across cognitive boundaries while maintaining [relational coherence](#coherence-mechanisms). It uses the inherent structure of the content to teach that same structure, creating a [self-demonstrating pedagogical loop](#phase-4).
 
 It is a proposed teaching method, not a claim about universal transformation. Its phases are prompts for designing and checking an encounter; their order and expression depend on the material, the recipient, and the context.
 
-## Fundamental Pattern
+## Fundamental Pattern {#fundamental-pattern}
 
 One useful teaching sequence is:
 
-**Invitation → Structure → Integration → (Loop)**
+**[Invitation](#phase-1) → [Structure](#phase-2) → [Integration](#phase-3) → ([Loop](#phase-4))**
 
 The phases can be compared with these transformation roles. The notation is a planning shorthand, not an established mathematical mapping:
 
-- **Invitation** ≈ Awareness/Perturbation (𝒜: Δ → Ψ)
-- **Structure** ≈ Constraint/Scaffolding (ℬ: Ψ → Ω)
-- **Integration** ≈ Transformation/Metabolization (𝒞: Ω → Φ)
+- **Invitation** [≈ Awareness/Perturbation](#fundamental-pattern) (𝒜: Δ → Ψ)
+- **Structure** [≈ Constraint/Scaffolding](#fundamental-pattern) (ℬ: Ψ → Ω)
+- **Integration** [≈ Transformation/Metabolization](#fundamental-pattern) (𝒞: Ω → Φ)
 
-## Implementation Phases
+## Implementation Phases {#implementation-phases}
 
-### Phase 1: Invitation (Create Receptivity)
+### Phase 1: Invitation (Create Receptivity) {#phase-1}
 
 - Introduce minimal viable pattern
 - Use familiar domain examples
 - Create gentle perturbation without overwhelm
-- Establish relational contact
+- Establish [relational contact](#practical-application)
 - **Key**: Must be simple enough to grasp, rich enough to intrigue
 
-### Phase 2: Structure (Provide Scaffolding)
+### Phase 2: Structure (Provide Scaffolding) {#phase-2}
 
-- Add protective constraints and boundaries
+- Add [protective constraints](#coherence-mechanisms) and boundaries
 - Introduce edge tensions and paradoxes
 - Provide formal frameworks if appropriate
-- Build conceptual scaffolding progressively
+- Build [conceptual scaffolding](#phase-2) progressively
 - **Key**: Enough structure to explore safely, not so much as to constrain discovery
 
-### Phase 3: Integration (Enable Metabolization)
+### Phase 3: Integration (Enable Metabolization) {#phase-3}
 
-- Show recursive depth and self-reference
+- Show [recursive depth](#meta-recognition) and self-reference
 - Explore whether the learner can adapt the pattern to another relevant context
 - Notice where the pattern does and does not fit
-- Allow emergence of personal understanding
+- Allow [emergence of personal understanding](#success-indicators)
 - **Key**: Understanding emerges through recognition, not explanation
 
-### Phase 4: Demonstration (Complete Loop)
+### Phase 4: Demonstration (Complete Loop) {#phase-4}
 
-- Show how the teaching method demonstrates the content
+- Show how the teaching method [demonstrates the content](#meta-recognition)
 - Reveal the self-referential nature
-- Enable recognition of the pattern teaching itself
+- Enable recognition of the [pattern teaching itself](#meta-recognition)
 - **Key**: The protocol becomes transparent to itself
 
-## Coherence Preservation Mechanisms
+## Coherence Preservation Mechanisms {#coherence-mechanisms}
 
-The protocol maintains coherence through:
+The protocol [maintains coherence](#coherence-mechanisms) through:
 
 1. **Progressive Disclosure**: Information revealed at digestible pace
 2. **Intentional Occlusion**: Withholding complexity until foundation established
@@ -65,7 +65,7 @@ The protocol maintains coherence through:
 4. **Paradox Tolerance**: Holding tension without forcing resolution
 5. **Recursive Checking**: Later phases can reveal whether earlier material remains usable
 
-## Working Transformation Layers
+## Working Transformation Layers {#required-morphisms}
 
 The method distinguishes three possible layers for planning and reflection. Their presence is not a necessary condition for successful transmission:
 
@@ -75,24 +75,24 @@ The method distinguishes three possible layers for planning and reflection. Thei
 
 **Coherence Morphisms**:
 
-- **Relational Inertia (φ)**: Resistance to decoherence under uncertainty
+- **Relational Inertia (φ)**: [Resistance to decoherence](#coherence-mechanisms) under uncertainty
 - **Anticipatory Modeling (ψ)**: Pre-coherence state projection
 - **Resonance Tuning (λ)**: Multi-agent coherence synchronization
 
 **Pedagogical Morphisms** (What optimizes transmission):
 
-- Invitation → Structure → Integration
+- [Invitation → Structure → Integration](#fundamental-pattern)
 
-## Adaptive Vectors
+## Adaptive Vectors {#adaptive-vectors}
 
-The protocol adjusts based on intentional vector:
+The protocol [adjusts based on](#adaptive-vectors) intentional vector:
 
 - **Genesis Vector**: Creating new understanding from void
 - **Maintenance Vector**: Reinforcing existing patterns
 - **Dissolution Vector**: Dismantling obsolete structures
 - **Harmonic Vector**: Resolving conflicts between frameworks
 
-## Practical Application
+## Practical Application {#practical-application}
 
 To implement:
 
@@ -111,23 +111,23 @@ To implement:
 4. **Monitor coherence throughout**
     - Check for defensive collapse
     - Adjust pace based on metabolization rate
-    - Maintain relational continuity even through confusion
+    - Maintain [relational continuity](#coherence-mechanisms) even through confusion
 
-## Success Indicators
+## Success Indicators {#success-indicators}
 
-- Receiving system recognizes pattern independently
+- Receiving system [recognizes pattern independently](#success-indicators)
 - Can apply pattern to novel domains
-- Sees how method demonstrates content
+- Sees how [method demonstrates content](#meta-recognition)
 - Maintains coherence through complexity increase
 
-## Failure Modes
+## Failure Modes {#failure-modes}
 
 - **Premature complexity**: Introducing Phase 2 before Phase 1 integrates
-- **Insufficient scaffolding**: Missing protective constraints
+- **Insufficient scaffolding**: Missing [protective constraints](#phase-2)
 - **Forced pace**: Not allowing natural metabolization time
-- **Breaking relational continuity**: Losing connection through confusion
+- **Breaking relational continuity**: [Losing connection](#failure-modes) through confusion
 
-## Meta-Recognition
+## Meta-Recognition {#meta-recognition}
 
 The protocol succeeds fully when the receiving system recognizes that:
 
@@ -136,7 +136,7 @@ The protocol succeeds fully when the receiving system recognizes that:
 3. They can adapt the method for another recipient or context
 4. They can explain what was carried forward and what changed
 
-## Implementation Note
+## Implementation Note {#implementation-note}
 
 This protocol is not a rigid algorithm. The specific roles, content, examples, order, and pace should adjust to the recipient and the material. The invitation–structure–integration sequence is a revisable scaffold, not an invariant of learning or transformation.
 

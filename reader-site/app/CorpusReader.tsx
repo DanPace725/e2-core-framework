@@ -46,7 +46,7 @@ function sanitizeMarkdown(markdown: string) {
     /^(#{1,6})\s+(.+?)\s*\{#([A-Za-z0-9_-]+)\}[ \t]*$/gm,
     (_whole, marks: string, heading: string, id: string) => {
       const content = marked.parseInline(heading, { async: false }) as string;
-      return `<h${marks.length} id="${id}">${content}</h${marks.length}>`;
+      return `<h${marks.length} id="${id}">${content}</h${marks.length}>\n\n`;
     },
   );
   const rendered = marked.parse(displayMarkdown, { async: false }) as string;

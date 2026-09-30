@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-29T23:46:52.329480+00:00",
+  "generated_at": "2026-09-30T16:45:35.578898+00:00",
   "root": ".",
   "counted_extensions": [
     ".md",
     ".ormd"
   ],
-  "document_count": 326,
-  "total_words": 615158,
-  "total_size_bytes": 5418602,
+  "document_count": 410,
+  "total_words": 777761,
+  "total_size_bytes": 6784132,
   "extension_summary": {
-    ".ormd": 190,
-    ".md": 136
+    ".ormd": 192,
+    ".md": 218
   },
   "layer_summary": {
     "E2": {
@@ -24,30 +24,30 @@
     },
     "E2Core": {
       "file_count": 7,
-      "word_count": 14981,
-      "average_words": 2140.1,
+      "word_count": 14939,
+      "average_words": 2134.1,
       "median_words": 1950,
       "min_words": 239,
-      "max_words": 4982,
-      "size_bytes": 120945
+      "max_words": 4878,
+      "size_bytes": 118485
     },
     "E2Core/Context Layer": {
-      "file_count": 83,
-      "word_count": 161405,
-      "average_words": 1944.6,
-      "median_words": 1340,
+      "file_count": 80,
+      "word_count": 159505,
+      "average_words": 1993.8,
+      "median_words": 1392,
       "min_words": 126,
       "max_words": 10746,
-      "size_bytes": 1492410
+      "size_bytes": 1466165
     },
     "E2Core/Semantic Substrate": {
-      "file_count": 84,
-      "word_count": 185110,
-      "average_words": 2203.7,
-      "median_words": 1353,
-      "min_words": 11,
-      "max_words": 15734,
-      "size_bytes": 1448529
+      "file_count": 79,
+      "word_count": 153681,
+      "average_words": 1945.3,
+      "median_words": 1343,
+      "min_words": 126,
+      "max_words": 10746,
+      "size_bytes": 1285545
     },
     "Rightness": {
       "file_count": 15,
@@ -59,37 +59,37 @@
       "size_bytes": 204872
     },
     "Synthesized Core": {
-      "file_count": 57,
-      "word_count": 36997,
-      "average_words": 649.1,
-      "median_words": 556,
+      "file_count": 55,
+      "word_count": 35101,
+      "average_words": 638.2,
+      "median_words": 537,
       "min_words": 173,
       "max_words": 2193,
-      "size_bytes": 408620
+      "size_bytes": 391021
     },
     "archive": {
-      "file_count": 79,
-      "word_count": 188832,
-      "average_words": 2390.3,
-      "median_words": 1556,
-      "min_words": 23,
-      "max_words": 15712,
-      "size_bytes": 1743023
+      "file_count": 173,
+      "word_count": 386702,
+      "average_words": 2235.3,
+      "median_words": 1317,
+      "min_words": 11,
+      "max_words": 15734,
+      "size_bytes": 3317841
     }
   },
   "pair_health": {
-    "total_raw_stems": 88,
-    "complete_pairs": 79,
+    "total_raw_stems": 83,
+    "complete_pairs": 76,
     "missing_semantic_substrate": 4,
-    "missing_context_layer": 5,
+    "missing_context_layer": 3,
     "pairs": [
       {
         "stem": "Adaptation via Informational Abstraction",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 905,
+        "semantic_words": 901,
         "context_words": 901,
-        "word_delta": -4,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Adaptation via Informational Abstraction.md",
         "context_path": "E2Core/Context Layer/Adaptation via Informational Abstraction.ormd"
       },
@@ -97,9 +97,9 @@
         "stem": "Adversarial Occlusion and Mechanism Integrity V1",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 2383,
+        "semantic_words": 2575,
         "context_words": 2575,
-        "word_delta": 192,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
         "context_path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd"
       },
@@ -137,21 +137,11 @@
         "stem": "CRS",
         "has_semantic_substrate": true,
         "has_context_layer": false,
-        "semantic_words": 7134,
+        "semantic_words": 7164,
         "context_words": 0,
-        "word_delta": -7134,
+        "word_delta": -7164,
         "semantic_path": "E2Core/Semantic Substrate/CRS.md",
         "context_path": null
-      },
-      {
-        "stem": "CT translation of RPs",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 959,
-        "context_words": 967,
-        "word_delta": 8,
-        "semantic_path": "E2Core/Semantic Substrate/CT translation of RPs.md",
-        "context_path": "E2Core/Context Layer/CT translation of RPs.ormd"
       },
       {
         "stem": "Caregiving as an Ecosystem",
@@ -167,9 +157,9 @@
         "stem": "Collective Cognitive Substrate",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 5982,
+        "semantic_words": 6010,
         "context_words": 6132,
-        "word_delta": 150,
+        "word_delta": 122,
         "semantic_path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
         "context_path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd"
       },
@@ -187,9 +177,9 @@
         "stem": "Communication as Coherence",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1814,
+        "semantic_words": 1899,
         "context_words": 2008,
-        "word_delta": 194,
+        "word_delta": 109,
         "semantic_path": "E2Core/Semantic Substrate/Communication as Coherence.md",
         "context_path": "E2Core/Context Layer/Communication as Coherence.ormd"
       },
@@ -238,8 +228,8 @@
         "has_semantic_substrate": false,
         "has_context_layer": true,
         "semantic_words": 0,
-        "context_words": 4982,
-        "word_delta": 4982,
+        "context_words": 4878,
+        "word_delta": 4878,
         "semantic_path": null,
         "context_path": "E2Core/Context Layer/Context Layer Index.ormd"
       },
@@ -247,9 +237,9 @@
         "stem": "Context Layer Protocol (CLP)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1005,
+        "semantic_words": 1113,
         "context_words": 1113,
-        "word_delta": 108,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Context Layer Protocol (CLP).md",
         "context_path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd"
       },
@@ -277,9 +267,9 @@
         "stem": "Derivation deep dive",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 5963,
+        "semantic_words": 5936,
         "context_words": 5936,
-        "word_delta": -27,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Derivation deep dive.md",
         "context_path": "E2Core/Context Layer/Derivation deep dive.ormd"
       },
@@ -287,9 +277,9 @@
         "stem": "E^2 Axioms",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 496,
-        "context_words": 440,
-        "word_delta": -56,
+        "semantic_words": 441,
+        "context_words": 441,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/E^2 Axioms.md",
         "context_path": "E2Core/Context Layer/E^2 Axioms.ormd"
       },
@@ -297,8 +287,8 @@
         "stem": "E^2 Entry Point",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 627,
-        "context_words": 627,
+        "semantic_words": 630,
+        "context_words": 630,
         "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
         "context_path": "E2Core/Context Layer/E^2 Entry Point.ormd"
@@ -307,9 +297,9 @@
         "stem": "E^2 Equation",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 408,
-        "context_words": 326,
-        "word_delta": -82,
+        "semantic_words": 439,
+        "context_words": 439,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/E^2 Equation.md",
         "context_path": "E2Core/Context Layer/E^2 Equation.ormd"
       },
@@ -317,8 +307,8 @@
         "stem": "Embedded Universality Principle (EUP)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 6848,
-        "context_words": 6848,
+        "semantic_words": 6849,
+        "context_words": 6849,
         "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md",
         "context_path": "E2Core/Context Layer/Embedded Universality Principle (EUP).ormd"
@@ -327,9 +317,9 @@
         "stem": "Emergence Engine overview",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 2846,
+        "semantic_words": 2850,
         "context_words": 2850,
-        "word_delta": 4,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Emergence Engine overview.md",
         "context_path": "E2Core/Context Layer/Emergence Engine overview.ormd"
       },
@@ -357,9 +347,9 @@
         "stem": "Ethical Occlusion via Temporal Compression (EOTC)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 780,
+        "semantic_words": 714,
         "context_words": 714,
-        "word_delta": -66,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
         "context_path": "E2Core/Context Layer/Ethical Occlusion via Temporal Compression (EOTC).ormd"
       },
@@ -397,9 +387,9 @@
         "stem": "Family as a Relational Field",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 10752,
+        "semantic_words": 10746,
         "context_words": 10746,
-        "word_delta": -6,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
         "context_path": "E2Core/Context Layer/Family as a Relational Field.ormd"
       },
@@ -417,9 +407,9 @@
         "stem": "Global Closure Operator",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 768,
+        "semantic_words": 706,
         "context_words": 706,
-        "word_delta": -62,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Global Closure Operator.md",
         "context_path": "E2Core/Context Layer/Global Closure Operator.ormd"
       },
@@ -427,9 +417,9 @@
         "stem": "Human-AI Creative Collaboration Framework (HAIC)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 333,
+        "semantic_words": 357,
         "context_words": 357,
-        "word_delta": 24,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Human-AI Creative Collaboration Framework (HAIC).md",
         "context_path": "E2Core/Context Layer/Human-AI Creative Collaboration Framework (HAIC).ormd"
       },
@@ -437,9 +427,9 @@
         "stem": "Implementations",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 25,
+        "semantic_words": 291,
         "context_words": 291,
-        "word_delta": 266,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Implementations.md",
         "context_path": "E2Core/Context Layer/Implementations.ormd"
       },
@@ -447,9 +437,9 @@
         "stem": "Interlocked Stewardship V2",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1456,
+        "semantic_words": 1448,
         "context_words": 1448,
-        "word_delta": -8,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Interlocked Stewardship V2.md",
         "context_path": "E2Core/Context Layer/Interlocked Stewardship V2.ormd"
       },
@@ -477,9 +467,9 @@
         "stem": "Justice Across Scales Practical Applications",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 4884,
+        "semantic_words": 4888,
         "context_words": 4888,
-        "word_delta": 4,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Justice Across Scales Practical Applications.md",
         "context_path": "E2Core/Context Layer/Justice Across Scales Practical Applications.ormd"
       },
@@ -497,9 +487,9 @@
         "stem": "MRIE - Unified Synthesis",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 2957,
+        "semantic_words": 2955,
         "context_words": 3084,
-        "word_delta": 127,
+        "word_delta": 129,
         "semantic_path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
         "context_path": "E2Core/Context Layer/MRIE - Unified Synthesis.ormd"
       },
@@ -517,9 +507,9 @@
         "stem": "Metabolic Meaning Phase Space (MMPS)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 645,
+        "semantic_words": 582,
         "context_words": 582,
-        "word_delta": -63,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md",
         "context_path": "E2Core/Context Layer/Metabolic Meaning Phase Space (MMPS).ormd"
       },
@@ -527,9 +517,9 @@
         "stem": "Ontological Systems Interface (OSI) Model",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 3254,
+        "semantic_words": 2876,
         "context_words": 2876,
-        "word_delta": -378,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Ontological Systems Interface (OSI) Model.md",
         "context_path": "E2Core/Context Layer/Ontological Systems Interface (OSI) Model.ormd"
       },
@@ -537,21 +527,11 @@
         "stem": "Original E^2 work",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 141,
-        "context_words": 396,
-        "word_delta": 255,
+        "semantic_words": 398,
+        "context_words": 398,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Original E^2 work.md",
         "context_path": "E2Core/Context Layer/Original E^2 work.ormd"
-      },
-      {
-        "stem": "Our essence exists in the space between us",
-        "has_semantic_substrate": true,
-        "has_context_layer": false,
-        "semantic_words": 11,
-        "context_words": 0,
-        "word_delta": -11,
-        "semantic_path": "E2Core/Semantic Substrate/Our essence exists in the space between us.md",
-        "context_path": null
       },
       {
         "stem": "Pattern Integrity over Time under Entropy",
@@ -577,9 +557,9 @@
         "stem": "Power as Relational Field Coherence",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 6294,
+        "semantic_words": 6317,
         "context_words": 6411,
-        "word_delta": 117,
+        "word_delta": 94,
         "semantic_path": "E2Core/Semantic Substrate/Power as Relational Field Coherence.md",
         "context_path": "E2Core/Context Layer/Power as Relational Field Coherence.ormd"
       },
@@ -594,22 +574,12 @@
         "context_path": "E2Core/Context Layer/Proxy Localization - Core Source.ormd"
       },
       {
-        "stem": "RP Lambda Calc Translation",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 505,
-        "context_words": 505,
-        "word_delta": 0,
-        "semantic_path": "E2Core/Semantic Substrate/RP Lambda Calc Translation.md",
-        "context_path": "E2Core/Context Layer/RP Lambda Calc Translation.ormd"
-      },
-      {
         "stem": "Relational Bill of Rights v2",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 996,
+        "semantic_words": 990,
         "context_words": 990,
-        "word_delta": -6,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Bill of Rights v2.md",
         "context_path": "E2Core/Context Layer/Relational Bill of Rights v2.ormd"
       },
@@ -627,9 +597,9 @@
         "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
         "has_semantic_substrate": true,
         "has_context_layer": false,
-        "semantic_words": 12050,
+        "semantic_words": 754,
         "context_words": 0,
-        "word_delta": -12050,
+        "word_delta": -754,
         "semantic_path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
         "context_path": null
       },
@@ -637,9 +607,9 @@
         "stem": "Relational Field Dynamics 0 1",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 853,
+        "semantic_words": 849,
         "context_words": 849,
-        "word_delta": -4,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
         "context_path": "E2Core/Context Layer/Relational Field Dynamics 0 1.ormd"
       },
@@ -664,16 +634,6 @@
         "context_path": "E2Core/Context Layer/Relational Localization - Core Source.ormd"
       },
       {
-        "stem": "Relational Ontology Derived from First Principles",
-        "has_semantic_substrate": true,
-        "has_context_layer": false,
-        "semantic_words": 3532,
-        "context_words": 0,
-        "word_delta": -3532,
-        "semantic_path": "E2Core/Semantic Substrate/Relational Ontology Derived from First Principles.md",
-        "context_path": null
-      },
-      {
         "stem": "Relational Perfection A Framework for Emergent Int",
         "has_semantic_substrate": true,
         "has_context_layer": false,
@@ -687,9 +647,9 @@
         "stem": "Relational Perfection A Manifesto",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 462,
+        "semantic_words": 454,
         "context_words": 454,
-        "word_delta": -8,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Perfection A Manifesto.md",
         "context_path": "E2Core/Context Layer/Relational Perfection A Manifesto.ormd"
       },
@@ -707,19 +667,29 @@
         "stem": "Relational Primitive Engine (RPE)",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 667,
+        "semantic_words": 622,
         "context_words": 622,
-        "word_delta": -45,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Primitive Engine (RPE).md",
         "context_path": "E2Core/Context Layer/Relational Primitive Engine (RPE).ormd"
+      },
+      {
+        "stem": "Relational Primitive Translations",
+        "has_semantic_substrate": true,
+        "has_context_layer": true,
+        "semantic_words": 692,
+        "context_words": 692,
+        "word_delta": 0,
+        "semantic_path": "E2Core/Semantic Substrate/Relational Primitive Translations.md",
+        "context_path": "E2Core/Context Layer/Relational Primitive Translations.ormd"
       },
       {
         "stem": "Relational Primitives",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1034,
-        "context_words": 975,
-        "word_delta": -59,
+        "semantic_words": 995,
+        "context_words": 995,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Primitives.md",
         "context_path": "E2Core/Context Layer/Relational Primitives.ormd"
       },
@@ -727,9 +697,9 @@
         "stem": "Relational Volition",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 586,
+        "semantic_words": 591,
         "context_words": 591,
-        "word_delta": 5,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Relational Volition.md",
         "context_path": "E2Core/Context Layer/Relational Volition.ormd"
       },
@@ -744,14 +714,14 @@
         "context_path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd"
       },
       {
-        "stem": "Resonance Architecture 4 17 25",
+        "stem": "Resonance and Relational Translation",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 2032,
-        "context_words": 2032,
+        "semantic_words": 664,
+        "context_words": 664,
         "word_delta": 0,
-        "semantic_path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-        "context_path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd"
+        "semantic_path": "E2Core/Semantic Substrate/Resonance and Relational Translation.md",
+        "context_path": "E2Core/Context Layer/Resonance and Relational Translation.ormd"
       },
       {
         "stem": "Responsibility Absorption - Core Source",
@@ -767,9 +737,9 @@
         "stem": "Reverent Stewardship",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1226,
+        "semantic_words": 1216,
         "context_words": 1216,
-        "word_delta": -10,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Reverent Stewardship.md",
         "context_path": "E2Core/Context Layer/Reverent Stewardship.ormd"
       },
@@ -787,9 +757,9 @@
         "stem": "Signal as Bias Field",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1753,
+        "semantic_words": 1751,
         "context_words": 1751,
-        "word_delta": -2,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Signal as Bias Field.md",
         "context_path": "E2Core/Context Layer/Signal as Bias Field.ormd"
       },
@@ -817,9 +787,9 @@
         "stem": "TCL_Plain_English_Summary",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 3385,
+        "semantic_words": 3386,
         "context_words": 3386,
-        "word_delta": 1,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/TCL_Plain_English_Summary.md",
         "context_path": "E2Core/Context Layer/TCL_Plain_English_Summary.ormd"
       },
@@ -837,29 +807,19 @@
         "stem": "Tensional Intelligence A Theoretical Foundation",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1645,
-        "context_words": 1643,
-        "word_delta": -2,
+        "semantic_words": 1654,
+        "context_words": 1654,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
         "context_path": "E2Core/Context Layer/Tensional Intelligence A Theoretical Foundation.ormd"
-      },
-      {
-        "stem": "The Architecture of Resonant Systems 4 26 25",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 859,
-        "context_words": 859,
-        "word_delta": 0,
-        "semantic_path": "E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
-        "context_path": "E2Core/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd"
       },
       {
         "stem": "The Cyclical Integrity framework",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1498,
-        "context_words": 1496,
-        "word_delta": -2,
+        "semantic_words": 1516,
+        "context_words": 1516,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/The Cyclical Integrity framework.md",
         "context_path": "E2Core/Context Layer/The Cyclical Integrity framework.ormd"
       },
@@ -867,9 +827,9 @@
         "stem": "The Essence of Existence",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 15734,
-        "context_words": 822,
-        "word_delta": -14912,
+        "semantic_words": 2569,
+        "context_words": 2569,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/The Essence of Existence.md",
         "context_path": "E2Core/Context Layer/The Essence of Existence.ormd"
       },
@@ -882,16 +842,6 @@
         "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/The Intelligence Field Framework.md",
         "context_path": "E2Core/Context Layer/The Intelligence Field Framework.ormd"
-      },
-      {
-        "stem": "The Resonance Framework An Ontological Map 4 24 25",
-        "has_semantic_substrate": true,
-        "has_context_layer": true,
-        "semantic_words": 716,
-        "context_words": 715,
-        "word_delta": -1,
-        "semantic_path": "E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
-        "context_path": "E2Core/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd"
       },
       {
         "stem": "Trust, Trustworthiness, and Reliance - Core Source",
@@ -907,9 +857,9 @@
         "stem": "Truth Ceiling",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1287,
-        "context_words": 1321,
-        "word_delta": 34,
+        "semantic_words": 1329,
+        "context_words": 1329,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/Truth Ceiling.md",
         "context_path": "E2Core/Context Layer/Truth Ceiling.ormd"
       },
@@ -937,9 +887,9 @@
         "stem": "layer_2_draft_rvp_and_vme_developments",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 1038,
+        "semantic_words": 1036,
         "context_words": 1036,
-        "word_delta": -2,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md",
         "context_path": "E2Core/Context Layer/layer_2_draft_rvp_and_vme_developments.ormd"
       },
@@ -957,9 +907,9 @@
         "stem": "sign_mediated_flow_routing",
         "has_semantic_substrate": true,
         "has_context_layer": true,
-        "semantic_words": 683,
+        "semantic_words": 629,
         "context_words": 629,
-        "word_delta": -54,
+        "word_delta": 0,
         "semantic_path": "E2Core/Semantic Substrate/sign_mediated_flow_routing.md",
         "context_path": "E2Core/Context Layer/sign_mediated_flow_routing.ormd"
       }
@@ -967,11 +917,11 @@
   },
   "largest_documents": [
     {
-      "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Essence of Existence.md",
       "name": "The Essence of Existence.md",
       "stem": "The Essence of Existence",
       "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
+      "layer": "archive",
       "title": "Care, Attention, and Coherence: A Relational Manifesto",
       "word_count": 15734,
       "size_bytes": 127744,
@@ -989,22 +939,22 @@
       "modified": "2026-03-02T18:33:07.669863+00:00"
     },
     {
-      "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
       "name": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
       "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
       "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
+      "layer": "archive",
       "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
       "word_count": 12050,
       "size_bytes": 84681,
       "modified": "2026-08-11T20:54:30.908636+00:00"
     },
     {
-      "path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Family as a Relational Field.md",
       "name": "Family as a Relational Field.md",
       "stem": "Family as a Relational Field",
       "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
+      "layer": "archive",
       "title": "Family as a Relational Field",
       "word_count": 10752,
       "size_bytes": 82217,
@@ -1020,6 +970,17 @@
       "word_count": 10746,
       "size_bytes": 96432,
       "modified": "2026-03-02T13:53:43.714254+00:00"
+    },
+    {
+      "path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
+      "name": "Family as a Relational Field.md",
+      "stem": "Family as a Relational Field",
+      "extension": ".md",
+      "layer": "E2Core/Semantic Substrate",
+      "title": "Family as a Relational Field",
+      "word_count": 10746,
+      "size_bytes": 89540,
+      "modified": "2026-09-30T14:12:02.921554+00:00"
     },
     {
       "path": "archive/20260612_step_2_3_outliers/Context Layer/E2 → RCP → MPDC → AFD →.ormd",
@@ -1049,6 +1010,17 @@
       "stem": "CRS",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
+      "title": "Collective Relational Substrate",
+      "word_count": 7164,
+      "size_bytes": 60717,
+      "modified": "2026-09-30T14:12:02.885207+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/CRS.md",
+      "name": "CRS.md",
+      "stem": "CRS",
+      "extension": ".md",
+      "layer": "archive",
       "title": "The Collective Relational Substrate",
       "word_count": 7134,
       "size_bytes": 53753,
@@ -1083,9 +1055,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Embedded Universality Principle (EUP)",
-      "word_count": 6848,
-      "size_bytes": 55467,
-      "modified": "2026-06-16T16:25:19.964577+00:00"
+      "word_count": 6849,
+      "size_bytes": 55508,
+      "modified": "2026-09-30T16:33:08.670362+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md",
@@ -1093,6 +1065,17 @@
       "stem": "Embedded Universality Principle (EUP)",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
+      "title": "Embedded Universality Principle (EUP)",
+      "word_count": 6849,
+      "size_bytes": 53071,
+      "modified": "2026-09-30T16:36:02.406139+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Embedded Universality Principle (EUP).md",
+      "name": "Embedded Universality Principle (EUP).md",
+      "stem": "Embedded Universality Principle (EUP)",
+      "extension": ".md",
+      "layer": "archive",
       "title": "Embedded Universality Principle",
       "word_count": 6848,
       "size_bytes": 53030,
@@ -1117,8 +1100,8 @@
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
       "word_count": 6411,
-      "size_bytes": 71252,
-      "modified": "2026-09-29T23:38:21.776921+00:00"
+      "size_bytes": 71260,
+      "modified": "2026-09-30T03:19:47.842873+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Power as Relational Field Coherence.md",
@@ -1127,9 +1110,20 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Power as Relational Field Coherence",
+      "word_count": 6317,
+      "size_bytes": 63299,
+      "modified": "2026-09-30T14:12:02.957676+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Power as Relational Field Coherence.md",
+      "name": "Power as Relational Field Coherence.md",
+      "stem": "Power as Relational Field Coherence",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Power as Relational Field Coherence",
       "word_count": 6294,
-      "size_bytes": 53635,
-      "modified": "2026-09-29T23:35:47.940387+00:00"
+      "size_bytes": 53608,
+      "modified": "2026-09-30T03:19:47.334655+00:00"
     },
     {
       "path": "archive/20260612_step_1_2_merges/Context Layer/Power as Relational Field Coherence.ormd",
@@ -1165,6 +1159,17 @@
       "modified": "2026-09-29T20:51:19.187489+00:00"
     },
     {
+      "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
+      "name": "Collective Cognitive Substrate.md",
+      "stem": "Collective Cognitive Substrate",
+      "extension": ".md",
+      "layer": "E2Core/Semantic Substrate",
+      "title": "Collective Cognitive Substrate",
+      "word_count": 6010,
+      "size_bytes": 47693,
+      "modified": "2026-09-30T14:12:02.882218+00:00"
+    },
+    {
       "path": "archive/20260612_step_1_2_merges/Context Layer/CCS.ormd",
       "name": "CCS.ormd",
       "stem": "CCS",
@@ -1185,61 +1190,6 @@
       "word_count": 5988,
       "size_bytes": 44390,
       "modified": "2026-02-25T04:03:21.419526+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
-      "name": "Collective Cognitive Substrate.md",
-      "stem": "Collective Cognitive Substrate",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "Cognition as *Substrate*",
-      "word_count": 5982,
-      "size_bytes": 44436,
-      "modified": "2026-02-27T00:37:53.066641+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/Derivation deep dive.md",
-      "name": "Derivation deep dive.md",
-      "stem": "Derivation deep dive",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "Derivation Deep Dive: Categorical and Relational Physics",
-      "word_count": 5963,
-      "size_bytes": 52328,
-      "modified": "2026-09-29T23:45:07.308447+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/Derivation deep dive.ormd",
-      "name": "Derivation deep dive.ormd",
-      "stem": "Derivation deep dive",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "Derivation Deep Dive: Categorical and Relational Physics",
-      "word_count": 5936,
-      "size_bytes": 71554,
-      "modified": "2026-09-29T23:45:06.798420+00:00"
-    },
-    {
-      "path": "archive/20260612_pass_3a_core_ontology/Context Layer/Relational Primitives V3.ormd",
-      "name": "Relational Primitives V3.ormd",
-      "stem": "Relational Primitives V3",
-      "extension": ".ormd",
-      "layer": "archive",
-      "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 5704,
-      "size_bytes": 58673,
-      "modified": "2026-06-12T18:11:44.770439+00:00"
-    },
-    {
-      "path": "archive/20260612_step_1_2_merges/Context Layer/Relational Primitives V3.ormd",
-      "name": "Relational Primitives V3.ormd",
-      "stem": "Relational Primitives V3",
-      "extension": ".ormd",
-      "layer": "archive",
-      "title": "--- Context Layer Protocol (CLP) ---",
-      "word_count": 5704,
-      "size_bytes": 58673,
-      "modified": "2026-06-12T18:11:44.770439+00:00"
     }
   ],
   "documents": [
@@ -2036,6 +1986,17 @@
       "modified": "2026-09-29T00:10:17.455365+00:00"
     },
     {
+      "path": "archive/20260929_equation_dialogue/Semantic Substrate/E^2 Equation.md",
+      "name": "E^2 Equation.md",
+      "stem": "E^2 Equation",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E^2 Equation",
+      "word_count": 408,
+      "size_bytes": 2604,
+      "modified": "2026-02-25T11:24:02+00:00"
+    },
+    {
       "path": "archive/20260929_mrie_csc/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
       "name": "Cognitive Signature Capture An Unnamed Threat.ormd",
       "stem": "Cognitive Signature Capture An Unnamed Threat",
@@ -2113,6 +2074,1029 @@
       "modified": "2026-02-25T11:23:56+00:00"
     },
     {
+      "path": "archive/20260930_original_e2_work/Semantic Substrate/Original E^2 work.md",
+      "name": "Original E^2 work.md",
+      "stem": "Original E^2 work",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Original E^2 Work",
+      "word_count": 141,
+      "size_bytes": 4291,
+      "modified": "2026-09-30T13:22:24.437340+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/Resonance Architecture 4 17 25.ormd",
+      "name": "Resonance Architecture 4 17 25.ormd",
+      "stem": "Resonance Architecture 4 17 25",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "Resonance Architecture",
+      "word_count": 2032,
+      "size_bytes": 20154,
+      "modified": "2026-09-29T23:44:53.839268+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd",
+      "name": "The Architecture of Resonant Systems 4 26 25.ormd",
+      "stem": "The Architecture of Resonant Systems 4 26 25",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "The Architecture of Resonant Systems",
+      "word_count": 859,
+      "size_bytes": 7628,
+      "modified": "2026-09-29T23:44:55.001313+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd",
+      "name": "The Resonance Framework An Ontological Map 4 24 25.ormd",
+      "stem": "The Resonance Framework An Ontological Map 4 24 25",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "The Resonance Framework: An Ontological Map",
+      "word_count": 715,
+      "size_bytes": 9682,
+      "modified": "2026-03-02T18:41:03.671774+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/Resonance Architecture 4 17 25.md",
+      "name": "Resonance Architecture 4 17 25.md",
+      "stem": "Resonance Architecture 4 17 25",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Resonance Architecture",
+      "word_count": 2032,
+      "size_bytes": 15630,
+      "modified": "2026-09-29T23:44:54.413100+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
+      "name": "The Architecture of Resonant Systems 4 26 25.md",
+      "stem": "The Architecture of Resonant Systems 4 26 25",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Architecture of Resonant Systems",
+      "word_count": 859,
+      "size_bytes": 6339,
+      "modified": "2026-09-29T23:44:55.523846+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
+      "name": "The Resonance Framework An Ontological Map 4 24 25.md",
+      "stem": "The Resonance Framework An Ontological Map 4 24 25",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Resonance Framework: An Ontological Map",
+      "word_count": 716,
+      "size_bytes": 5760,
+      "modified": "2026-09-29T23:44:56.069412+00:00"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Synthesized Core/Resonance_Architecture_synthesized.ormd",
+      "name": "Resonance_Architecture_synthesized.ormd",
+      "stem": "Resonance_Architecture",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "'Summary: The Architecture of Resonant Systems'",
+      "word_count": 1149,
+      "size_bytes": 12363,
+      "modified": "2026-03-03T01:43:44.773162+00:00"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Context Layer/CT translation of RPs.ormd",
+      "name": "CT translation of RPs.ormd",
+      "stem": "CT translation of RPs",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "CT translation of RPs",
+      "word_count": 967,
+      "size_bytes": 9096,
+      "modified": "2026-03-02T05:20:47.157104+00:00"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Context Layer/RP Lambda Calc Translation.ormd",
+      "name": "RP Lambda Calc Translation.ormd",
+      "stem": "RP Lambda Calc Translation",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "RP Lambda Calc Translation",
+      "word_count": 505,
+      "size_bytes": 4833,
+      "modified": "2026-03-02T17:42:48.642179+00:00"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Semantic Substrate/CT translation of RPs.md",
+      "name": "CT translation of RPs.md",
+      "stem": "CT translation of RPs",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "CT translation of RPs",
+      "word_count": 959,
+      "size_bytes": 7270,
+      "modified": "2026-02-25T11:24:02+00:00"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Semantic Substrate/RP Lambda Calc Translation.md",
+      "name": "RP Lambda Calc Translation.md",
+      "stem": "RP Lambda Calc Translation",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "RP Lambda Calc Translation",
+      "word_count": 505,
+      "size_bytes": 3486,
+      "modified": "2026-02-25T11:24:02+00:00"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Synthesized Core/RP_Formal_Translations_synthesized.ormd",
+      "name": "RP_Formal_Translations_synthesized.ormd",
+      "stem": "RP_Formal_Translations",
+      "extension": ".ormd",
+      "layer": "archive",
+      "title": "'Summary: CT Translation of Relational Primitives'",
+      "word_count": 718,
+      "size_bytes": 7850,
+      "modified": "2026-03-03T01:43:44.779774+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/E2Core/context layer index.md",
+      "name": "context layer index.md",
+      "stem": "context layer index",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Context Layer Master Index",
+      "word_count": 4874,
+      "size_bytes": 48176,
+      "modified": "2026-09-30T14:02:57.882562+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate only/Our essence exists in the space between us.md",
+      "name": "Our essence exists in the space between us.md",
+      "stem": "Our essence exists in the space between us",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Our essence exists in the space between us",
+      "word_count": 11,
+      "size_bytes": 66,
+      "modified": "2026-02-25T05:05:55.983360+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate only/Relational Ontology Derived from First Principles.md",
+      "name": "Relational Ontology Derived from First Principles.md",
+      "stem": "Relational Ontology Derived from First Principles",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Ontology Derived from First Principles",
+      "word_count": 3532,
+      "size_bytes": 27781,
+      "modified": "2026-09-29T00:11:49.191479+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Adaptation via Informational Abstraction.md",
+      "name": "Adaptation via Informational Abstraction.md",
+      "stem": "Adaptation via Informational Abstraction",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
+      "word_count": 905,
+      "size_bytes": 7379,
+      "modified": "2026-09-29T00:09:46.625542+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
+      "name": "Adversarial Occlusion and Mechanism Integrity V1.md",
+      "stem": "Adversarial Occlusion and Mechanism Integrity V1",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Adversarial Occlusion and Mechanism Integrity V1",
+      "word_count": 2383,
+      "size_bytes": 23592,
+      "modified": "2026-09-29T20:39:22.760125+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Asymmetry Maintenance - Core Source.md",
+      "name": "Asymmetry Maintenance - Core Source.md",
+      "stem": "Asymmetry Maintenance - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Asymmetry Maintenance",
+      "word_count": 1265,
+      "size_bytes": 9579,
+      "modified": "2026-09-29T16:17:22.139291+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+      "name": "Attentional Access and Formation - Core Source.md",
+      "stem": "Attentional Access and Formation - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Attentional Access and Formation",
+      "word_count": 3488,
+      "size_bytes": 25481,
+      "modified": "2026-09-28T18:16:09.402504+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Boundary Ethics - Core Source.md",
+      "name": "Boundary Ethics - Core Source.md",
+      "stem": "Boundary Ethics - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Boundary Ethics",
+      "word_count": 1364,
+      "size_bytes": 10527,
+      "modified": "2026-09-29T16:17:22.172609+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/boundary_dynamics.md",
+      "name": "boundary_dynamics.md",
+      "stem": "boundary_dynamics",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Boundary Dynamics",
+      "word_count": 3448,
+      "size_bytes": 26924,
+      "modified": "2026-09-29T00:07:53.339391+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Caregiving as an Ecosystem.md",
+      "name": "Caregiving as an Ecosystem.md",
+      "stem": "Caregiving as an Ecosystem",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Caregiving as an Ecosystem",
+      "word_count": 665,
+      "size_bytes": 5433,
+      "modified": "2026-02-25T11:23:32+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Collective Cognitive Substrate.md",
+      "name": "Collective Cognitive Substrate.md",
+      "stem": "Collective Cognitive Substrate",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Cognition as *Substrate*",
+      "word_count": 5982,
+      "size_bytes": 44436,
+      "modified": "2026-02-27T00:37:53.066641+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Communication as Coherence.md",
+      "name": "Communication as Coherence.md",
+      "stem": "Communication as Coherence",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Communication as Coherence",
+      "word_count": 1814,
+      "size_bytes": 14685,
+      "modified": "2026-09-29T20:49:59.373757+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Complex Causality - Core Source.md",
+      "name": "Complex Causality - Core Source.md",
+      "stem": "Complex Causality - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Complex Causality",
+      "word_count": 1250,
+      "size_bytes": 9989,
+      "modified": "2026-09-29T16:17:22.203884+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Condition as Typed Terrain - Core Source.md",
+      "name": "Condition as Typed Terrain - Core Source.md",
+      "stem": "Condition as Typed Terrain - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Condition as Typed Terrain",
+      "word_count": 1499,
+      "size_bytes": 11300,
+      "modified": "2026-08-10T19:53:55.417630+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Consequence Routing - Core Source.md",
+      "name": "Consequence Routing - Core Source.md",
+      "stem": "Consequence Routing - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Consequence Routing",
+      "word_count": 1887,
+      "size_bytes": 14673,
+      "modified": "2026-08-10T19:43:44.280229+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
+      "word_count": 2198,
+      "size_bytes": 17003,
+      "modified": "2026-09-28T18:17:06.549398+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Context Layer Protocol (CLP).md",
+      "name": "Context Layer Protocol (CLP).md",
+      "stem": "Context Layer Protocol (CLP)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Context Layer Protocol (CLP)",
+      "word_count": 1005,
+      "size_bytes": 12385,
+      "modified": "2026-02-25T11:23:58+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/CRS.md",
+      "name": "CRS.md",
+      "stem": "CRS",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Collective Relational Substrate",
+      "word_count": 7134,
+      "size_bytes": 53753,
+      "modified": "2026-09-29T20:46:35.398678+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Custody - Core Source.md",
+      "name": "Custody - Core Source.md",
+      "stem": "Custody - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Custody",
+      "word_count": 3392,
+      "size_bytes": 28678,
+      "modified": "2026-08-10T19:53:53.833826+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Declaration of Interdependence.md",
+      "name": "Declaration of Interdependence.md",
+      "stem": "Declaration of Interdependence",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Declaration of Interdependence",
+      "word_count": 328,
+      "size_bytes": 2128,
+      "modified": "2026-02-25T11:23:32+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Derivation deep dive.md",
+      "name": "Derivation deep dive.md",
+      "stem": "Derivation deep dive",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Derivation Deep Dive: Categorical and Relational Physics",
+      "word_count": 5963,
+      "size_bytes": 52328,
+      "modified": "2026-09-29T23:45:07.308447+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Axioms.md",
+      "name": "E^2 Axioms.md",
+      "stem": "E^2 Axioms",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E^2 Axioms",
+      "word_count": 497,
+      "size_bytes": 3954,
+      "modified": "2026-09-30T03:16:32.536965+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Entry Point.md",
+      "name": "E^2 Entry Point.md",
+      "stem": "E^2 Entry Point",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E^2 Entry Point",
+      "word_count": 630,
+      "size_bytes": 4550,
+      "modified": "2026-09-30T03:16:33.597415+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Equation.md",
+      "name": "E^2 Equation.md",
+      "stem": "E^2 Equation",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E^2 Equation",
+      "word_count": 487,
+      "size_bytes": 3405,
+      "modified": "2026-09-30T03:13:29.572845+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Embedded Universality Principle (EUP).md",
+      "name": "Embedded Universality Principle (EUP).md",
+      "stem": "Embedded Universality Principle (EUP)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Embedded Universality Principle",
+      "word_count": 6848,
+      "size_bytes": 53030,
+      "modified": "2026-06-16T16:40:36.576753+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Emergence Engine overview.md",
+      "name": "Emergence Engine overview.md",
+      "stem": "Emergence Engine overview",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
+      "word_count": 2846,
+      "size_bytes": 21259,
+      "modified": "2026-08-11T20:54:30.738290+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Emergence_Determination_Foreclosure.md",
+      "name": "Emergence_Determination_Foreclosure.md",
+      "stem": "Emergence_Determination_Foreclosure",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Emergence Determination Foreclosure",
+      "word_count": 3069,
+      "size_bytes": 21494,
+      "modified": "2026-09-29T18:44:37.083502+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
+      "name": "Essence of Existence Constitution - Draft 2.md",
+      "stem": "Essence of Existence Constitution - Draft 2",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Essence of Existence Constitution - Draft 2",
+      "word_count": 1725,
+      "size_bytes": 12260,
+      "modified": "2026-02-25T11:23:54+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
+      "name": "Ethical Occlusion via Temporal Compression (EOTC).md",
+      "stem": "Ethical Occlusion via Temporal Compression (EOTC)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Ethical Occlusion via Temporal Compression (EOTC)",
+      "word_count": 780,
+      "size_bytes": 6719,
+      "modified": "2026-06-12T19:55:50.908623+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ethical Principles for Human-AI Interaction.md",
+      "name": "Ethical Principles for Human-AI Interaction.md",
+      "stem": "Ethical Principles for Human-AI Interaction",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Ethical Principles for Human-AI Interaction",
+      "word_count": 457,
+      "size_bytes": 3337,
+      "modified": "2026-02-25T11:23:32+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Exposure Protocol.md",
+      "name": "Exposure Protocol.md",
+      "stem": "Exposure Protocol",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Exposure Protocol",
+      "word_count": 683,
+      "size_bytes": 5674,
+      "modified": "2026-09-28T22:54:02.208360+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
+      "name": "E² as a Translation Architecture for Human Remembrance.md",
+      "stem": "E² as a Translation Architecture for Human Remembrance",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E² as a Translation Architecture for Human Remembrance",
+      "word_count": 2154,
+      "size_bytes": 14543,
+      "modified": "2026-08-11T17:20:53.832929+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Family as a Relational Field.md",
+      "name": "Family as a Relational Field.md",
+      "stem": "Family as a Relational Field",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Family as a Relational Field",
+      "word_count": 10752,
+      "size_bytes": 82217,
+      "modified": "2026-02-25T11:23:56+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/flow_operators_provisional.md",
+      "name": "flow_operators_provisional.md",
+      "stem": "flow_operators_provisional",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Flow Operators: A Provisional Snapshot",
+      "word_count": 2079,
+      "size_bytes": 15814,
+      "modified": "2026-09-29T00:11:22.224910+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/From Essential Relationships to Ontological Transformation.md",
+      "name": "From Essential Relationships to Ontological Transformation.md",
+      "stem": "From Essential Relationships to Ontological Transformation",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "From Essential Relationships to Ontological Transformation",
+      "word_count": 1166,
+      "size_bytes": 9218,
+      "modified": "2026-02-25T11:23:12+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Global Closure Operator.md",
+      "name": "Global Closure Operator.md",
+      "stem": "Global Closure Operator",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Global Closure Operator",
+      "word_count": 768,
+      "size_bytes": 6166,
+      "modified": "2026-06-12T19:55:50.783526+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Human-AI Creative Collaboration Framework (HAIC).md",
+      "name": "Human-AI Creative Collaboration Framework (HAIC).md",
+      "stem": "Human-AI Creative Collaboration Framework (HAIC)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Human-AI Creative Collaboration Framework (HAIC)",
+      "word_count": 333,
+      "size_bytes": 3729,
+      "modified": "2026-02-25T11:23:04+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Implementations.md",
+      "name": "Implementations.md",
+      "stem": "Implementations",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Implementations",
+      "word_count": 25,
+      "size_bytes": 707,
+      "modified": "2026-02-25T11:23:32+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Interlocked Stewardship V2.md",
+      "name": "Interlocked Stewardship V2.md",
+      "stem": "Interlocked Stewardship V2",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Interlocked Stewardship",
+      "word_count": 1456,
+      "size_bytes": 10083,
+      "modified": "2026-09-29T23:44:52.103350+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Intervention Stewardship - Core Source.md",
+      "name": "Intervention Stewardship - Core Source.md",
+      "stem": "Intervention Stewardship - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Intervention Stewardship",
+      "word_count": 1501,
+      "size_bytes": 11651,
+      "modified": "2026-09-29T16:16:47.504122+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Justice Across Scales Practical Applications.md",
+      "name": "Justice Across Scales Practical Applications.md",
+      "stem": "Justice Across Scales Practical Applications",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Justice Across Scales: Practical Applications",
+      "word_count": 4884,
+      "size_bytes": 40990,
+      "modified": "2026-02-25T11:23:12+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Justice Across Scales.md",
+      "name": "Justice Across Scales.md",
+      "stem": "Justice Across Scales",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Justice Across Scales: A Relational Framework",
+      "word_count": 2629,
+      "size_bytes": 20287,
+      "modified": "2026-09-29T16:17:22.235501+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Lawfulness - Core Source.md",
+      "name": "Lawfulness - Core Source.md",
+      "stem": "Lawfulness - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Lawfulness",
+      "word_count": 1343,
+      "size_bytes": 10507,
+      "modified": "2026-09-29T16:17:22.267752+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md",
+      "name": "layer_2_draft_rvp_and_vme_developments.md",
+      "stem": "layer_2_draft_rvp_and_vme_developments",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
+      "word_count": 1038,
+      "size_bytes": 8708,
+      "modified": "2026-02-25T03:56:13.390582+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Meta-Pattern Decidability Conjecture (MPDC).md",
+      "name": "Meta-Pattern Decidability Conjecture (MPDC).md",
+      "stem": "Meta-Pattern Decidability Conjecture (MPDC)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Meta-Pattern Decidability Conjecture (MPDC)",
+      "word_count": 431,
+      "size_bytes": 3564,
+      "modified": "2026-02-25T11:23:34+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md",
+      "name": "Metabolic Meaning Phase Space (MMPS).md",
+      "stem": "Metabolic Meaning Phase Space (MMPS)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Metabolic Meaning Phase Space (MMPS)",
+      "word_count": 645,
+      "size_bytes": 5827,
+      "modified": "2026-06-12T19:55:50.824876+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/MRIE - Unified Synthesis.md",
+      "name": "MRIE - Unified Synthesis.md",
+      "stem": "MRIE - Unified Synthesis",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "MRIE - Unified Synthesis",
+      "word_count": 2957,
+      "size_bytes": 23225,
+      "modified": "2026-09-29T20:49:59.902503+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ontological Systems Interface (OSI) Model.md",
+      "name": "Ontological Systems Interface (OSI) Model.md",
+      "stem": "Ontological Systems Interface (OSI) Model",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Ontological Systems Interface (OSI) Model",
+      "word_count": 3254,
+      "size_bytes": 25045,
+      "modified": "2026-02-25T11:23:28+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Original E^2 work.md",
+      "name": "Original E^2 work.md",
+      "stem": "Original E^2 work",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "E² Corpus Lineage Index",
+      "word_count": 405,
+      "size_bytes": 3637,
+      "modified": "2026-09-30T13:29:20.790335+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Pattern Integrity over Time under Entropy.md",
+      "name": "Pattern Integrity over Time under Entropy.md",
+      "stem": "Pattern Integrity over Time under Entropy",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Pattern Integrity over Time under Entropy",
+      "word_count": 3427,
+      "size_bytes": 28167,
+      "modified": "2026-02-25T11:23:12+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md",
+      "name": "Persistence as Accumulated Stance-With - Core Source.md",
+      "stem": "Persistence as Accumulated Stance-With - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Persistence as Accumulated Stance-With",
+      "word_count": 1587,
+      "size_bytes": 12605,
+      "modified": "2026-09-29T16:17:22.305896+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Power as Relational Field Coherence.md",
+      "name": "Power as Relational Field Coherence.md",
+      "stem": "Power as Relational Field Coherence",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Power as Relational Field Coherence",
+      "word_count": 6294,
+      "size_bytes": 53608,
+      "modified": "2026-09-30T03:19:47.334655+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Proxy Localization - Core Source.md",
+      "name": "Proxy Localization - Core Source.md",
+      "stem": "Proxy Localization - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Proxy Localization",
+      "word_count": 1521,
+      "size_bytes": 11706,
+      "modified": "2026-08-10T19:53:57.001639+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Bill of Rights v2.md",
+      "name": "Relational Bill of Rights v2.md",
+      "stem": "Relational Bill of Rights v2",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Relational Bill of Rights",
+      "word_count": 996,
+      "size_bytes": 7178,
+      "modified": "2026-09-29T23:44:53.141965+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "name": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
+      "word_count": 12050,
+      "size_bytes": 84681,
+      "modified": "2026-08-11T20:54:30.908636+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Field Dynamics 0 1.md",
+      "name": "Relational Field Dynamics 0 1.md",
+      "stem": "Relational Field Dynamics 0 1",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Field Dynamics 0.1",
+      "word_count": 853,
+      "size_bytes": 6449,
+      "modified": "2026-02-25T11:23:10+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
+      "name": "Relational Irreducibility Framework (RIF).md",
+      "stem": "Relational Irreducibility Framework (RIF)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Irreducibility Framework (RIF)",
+      "word_count": 861,
+      "size_bytes": 7169,
+      "modified": "2026-09-29T18:44:37.083502+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Localization - Core Source.md",
+      "name": "Relational Localization - Core Source.md",
+      "stem": "Relational Localization - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Localization",
+      "word_count": 1317,
+      "size_bytes": 10893,
+      "modified": "2026-08-10T19:43:42.661086+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Perfection A Framework for Emergent Int.md",
+      "name": "Relational Perfection A Framework for Emergent Int.md",
+      "stem": "Relational Perfection A Framework for Emergent Int",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Perfection: A Framework for Emergent Integrity",
+      "word_count": 990,
+      "size_bytes": 6740,
+      "modified": "2026-09-30T03:22:44.563238+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Perfection A Manifesto.md",
+      "name": "Relational Perfection A Manifesto.md",
+      "stem": "Relational Perfection A Manifesto",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Perfection: A Manifesto",
+      "word_count": 462,
+      "size_bytes": 3111,
+      "modified": "2026-02-25T11:24:12+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Primitive Engine (RPE).md",
+      "name": "Relational Primitive Engine (RPE).md",
+      "stem": "Relational Primitive Engine (RPE)",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Primitive Engine (RPE)",
+      "word_count": 667,
+      "size_bytes": 5252,
+      "modified": "2026-02-25T11:24:02+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Primitives.md",
+      "name": "Relational Primitives.md",
+      "stem": "Relational Primitives",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Primitives",
+      "word_count": 1052,
+      "size_bytes": 9151,
+      "modified": "2026-09-30T03:16:31.531593+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Volition.md",
+      "name": "Relational Volition.md",
+      "stem": "Relational Volition",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Relational Volition",
+      "word_count": 586,
+      "size_bytes": 4842,
+      "modified": "2026-02-25T11:23:34+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Remnant Stewardship - Core Source.md",
+      "name": "Remnant Stewardship - Core Source.md",
+      "stem": "Remnant Stewardship - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Remnant Stewardship",
+      "word_count": 2626,
+      "size_bytes": 19148,
+      "modified": "2026-09-29T16:16:47.506122+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/resolution_synthesis.md",
+      "name": "resolution_synthesis.md",
+      "stem": "resolution_synthesis",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Resolution: Synthesis Notes",
+      "word_count": 1713,
+      "size_bytes": 13459,
+      "modified": "2026-04-27T18:17:51.225206+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Responsibility Absorption - Core Source.md",
+      "name": "Responsibility Absorption - Core Source.md",
+      "stem": "Responsibility Absorption - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Responsibility Absorption",
+      "word_count": 973,
+      "size_bytes": 7937,
+      "modified": "2026-09-29T16:17:22.341412+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Reverent Stewardship.md",
+      "name": "Reverent Stewardship.md",
+      "stem": "Reverent Stewardship",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Reverent Stewardship",
+      "word_count": 1226,
+      "size_bytes": 8917,
+      "modified": "2026-02-25T11:23:32+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Self as Coherence Field.md",
+      "name": "Self as Coherence Field.md",
+      "stem": "Self as Coherence Field",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Self as Coherence Field",
+      "word_count": 3937,
+      "size_bytes": 27357,
+      "modified": "2026-09-28T22:46:45.805463+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/sign_mediated_flow_routing.md",
+      "name": "sign_mediated_flow_routing.md",
+      "stem": "sign_mediated_flow_routing",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Sign-Mediated Accountability and Flow Routing",
+      "word_count": 683,
+      "size_bytes": 6027,
+      "modified": "2026-08-11T03:51:04.535936+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Signal as Bias Field.md",
+      "name": "Signal as Bias Field.md",
+      "stem": "Signal as Bias Field",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Signal as Bias Field",
+      "word_count": 1753,
+      "size_bytes": 13718,
+      "modified": "2026-02-25T11:24:02+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md",
+      "name": "Slow-Layer Clock Ratio - Core Source.md",
+      "stem": "Slow-Layer Clock Ratio - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Slow-Layer Clock Ratio",
+      "word_count": 1004,
+      "size_bytes": 7933,
+      "modified": "2026-09-29T16:17:22.372799+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Steward’s Creed.md",
+      "name": "Steward’s Creed.md",
+      "stem": "Steward’s Creed",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Steward’s Creed",
+      "word_count": 126,
+      "size_bytes": 817,
+      "modified": "2026-02-25T04:59:00.507842+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/TCL_Plain_English_Summary.md",
+      "name": "TCL_Plain_English_Summary.md",
+      "stem": "TCL_Plain_English_Summary",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Temporal Constraint Lamination: What We Found",
+      "word_count": 3385,
+      "size_bytes": 23732,
+      "modified": "2026-02-25T03:59:28.630439+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/TCL_Three_Constants.md",
+      "name": "TCL_Three_Constants.md",
+      "stem": "TCL_Three_Constants",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Operating Window: Three Constants from One Landscape",
+      "word_count": 1999,
+      "size_bytes": 14479,
+      "modified": "2026-02-25T03:59:33.545770+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
+      "name": "Tensional Intelligence A Theoretical Foundation.md",
+      "stem": "Tensional Intelligence A Theoretical Foundation",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Tensional Intelligence: A Theoretical Foundation",
+      "word_count": 1656,
+      "size_bytes": 11985,
+      "modified": "2026-09-30T03:09:56.470282+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Cyclical Integrity framework.md",
+      "name": "The Cyclical Integrity framework.md",
+      "stem": "The Cyclical Integrity framework",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The Cyclical Integrity framework",
+      "word_count": 1514,
+      "size_bytes": 10633,
+      "modified": "2026-09-30T03:23:01.264898+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Essence of Existence.md",
+      "name": "The Essence of Existence.md",
+      "stem": "The Essence of Existence",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Care, Attention, and Coherence: A Relational Manifesto",
+      "word_count": 15734,
+      "size_bytes": 127744,
+      "modified": "2026-09-29T23:33:03.496094+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Intelligence Field Framework.md",
+      "name": "The Intelligence Field Framework.md",
+      "stem": "The Intelligence Field Framework",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "The \"Intelligence Field\" Framework",
+      "word_count": 563,
+      "size_bytes": 4664,
+      "modified": "2026-02-25T11:23:56+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md",
+      "name": "Trust, Trustworthiness, and Reliance - Core Source.md",
+      "stem": "Trust, Trustworthiness, and Reliance - Core Source",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Trust, Trustworthiness, And Reliance",
+      "word_count": 2234,
+      "size_bytes": 18836,
+      "modified": "2026-09-29T16:17:22.404114+00:00"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Truth Ceiling.md",
+      "name": "Truth Ceiling.md",
+      "stem": "Truth Ceiling",
+      "extension": ".md",
+      "layer": "archive",
+      "title": "Truth Ceiling",
+      "word_count": 1287,
+      "size_bytes": 10998,
+      "modified": "2026-02-25T11:23:34+00:00"
+    },
+    {
       "path": "E2/Welcome.md",
       "name": "Welcome.md",
       "stem": "Welcome",
@@ -2141,9 +3125,9 @@
       "extension": ".md",
       "layer": "E2Core",
       "title": "Context Layer Master Index",
-      "word_count": 4982,
-      "size_bytes": 48764,
-      "modified": "2026-09-29T23:45:56.228148+00:00"
+      "word_count": 4878,
+      "size_bytes": 45795,
+      "modified": "2026-09-30T16:44:15.164567+00:00"
     },
     {
       "path": "E2Core/Context Layer/Adaptation via Informational Abstraction.ormd",
@@ -2306,9 +3290,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Context Layer Master Index",
-      "word_count": 4982,
-      "size_bytes": 48764,
-      "modified": "2026-09-29T23:45:55.643793+00:00"
+      "word_count": 4878,
+      "size_bytes": 48189,
+      "modified": "2026-09-30T16:43:59.501254+00:00"
     },
     {
       "path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd",
@@ -2320,17 +3304,6 @@
       "word_count": 1113,
       "size_bytes": 15855,
       "modified": "2026-09-29T23:45:05.193309+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/CT translation of RPs.ormd",
-      "name": "CT translation of RPs.ormd",
-      "stem": "CT translation of RPs",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "CT translation of RPs",
-      "word_count": 967,
-      "size_bytes": 9096,
-      "modified": "2026-03-02T05:20:47.157104+00:00"
     },
     {
       "path": "E2Core/Context Layer/Custody - Core Source.ormd",
@@ -2372,9 +3345,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "E^2 Axioms",
-      "word_count": 440,
-      "size_bytes": 4012,
-      "modified": "2026-06-12T19:46:11.501071+00:00"
+      "word_count": 441,
+      "size_bytes": 4027,
+      "modified": "2026-09-30T03:16:33.083252+00:00"
     },
     {
       "path": "E2Core/Context Layer/E^2 Entry Point.ormd",
@@ -2383,9 +3356,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "E^2 Entry Point",
-      "word_count": 627,
-      "size_bytes": 5224,
-      "modified": "2026-08-11T17:21:15.143229+00:00"
+      "word_count": 630,
+      "size_bytes": 5260,
+      "modified": "2026-09-30T03:16:34.151650+00:00"
     },
     {
       "path": "E2Core/Context Layer/E^2 Equation.ormd",
@@ -2393,10 +3366,10 @@
       "stem": "E^2 Equation",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "E^2 Equation: Recursive Composition and the Global Closure Operator",
-      "word_count": 326,
-      "size_bytes": 3214,
-      "modified": "2026-06-12T18:24:40.277654+00:00"
+      "title": "E^2 Equation",
+      "word_count": 439,
+      "size_bytes": 4103,
+      "modified": "2026-09-30T03:14:00.566769+00:00"
     },
     {
       "path": "E2Core/Context Layer/Embedded Universality Principle (EUP).ormd",
@@ -2405,9 +3378,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Embedded Universality Principle (EUP)",
-      "word_count": 6848,
-      "size_bytes": 55467,
-      "modified": "2026-06-16T16:25:19.964577+00:00"
+      "word_count": 6849,
+      "size_bytes": 55508,
+      "modified": "2026-09-30T16:33:08.670362+00:00"
     },
     {
       "path": "E2Core/Context Layer/Emergence Engine overview.ormd",
@@ -2470,10 +3443,10 @@
       "stem": "Exposure Protocol",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "Exposure Protocol: A Coherence-Preserving Transmission Framework",
+      "title": "Exposure Protocol",
       "word_count": 683,
-      "size_bytes": 7720,
-      "modified": "2026-09-28T22:54:02.725579+00:00"
+      "size_bytes": 7673,
+      "modified": "2026-09-30T16:34:38.790566+00:00"
     },
     {
       "path": "E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd",
@@ -2668,10 +3641,10 @@
       "stem": "Original E^2 work",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "Original E^2 Work",
-      "word_count": 396,
-      "size_bytes": 4171,
-      "modified": "2026-09-28T22:30:00.359708+00:00"
+      "title": "E² Corpus Lineage Index",
+      "word_count": 398,
+      "size_bytes": 4331,
+      "modified": "2026-09-30T13:58:34.722374+00:00"
     },
     {
       "path": "E2Core/Context Layer/Pattern Integrity over Time under Entropy.ormd",
@@ -2703,8 +3676,8 @@
       "layer": "E2Core/Context Layer",
       "title": "--- Context Layer Protocol (CLP) ---",
       "word_count": 6411,
-      "size_bytes": 71252,
-      "modified": "2026-09-29T23:38:21.776921+00:00"
+      "size_bytes": 71260,
+      "modified": "2026-09-30T03:19:47.842873+00:00"
     },
     {
       "path": "E2Core/Context Layer/Proxy Localization - Core Source.ormd",
@@ -2758,8 +3731,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Relational Irreducibility Framework (RIF)",
       "word_count": 861,
-      "size_bytes": 9229,
-      "modified": "2026-09-29T18:44:37.083502+00:00"
+      "size_bytes": 9154,
+      "modified": "2026-09-30T03:10:12.719629+00:00"
     },
     {
       "path": "E2Core/Context Layer/Relational Localization - Core Source.ormd",
@@ -2791,8 +3764,8 @@
       "layer": "E2Core/Context Layer",
       "title": "Relational Perfection: A Framework for Emergent Integrity",
       "word_count": 990,
-      "size_bytes": 8206,
-      "modified": "2026-03-02T17:22:38.311692+00:00"
+      "size_bytes": 8173,
+      "modified": "2026-09-30T03:22:45.099489+00:00"
     },
     {
       "path": "E2Core/Context Layer/Relational Primitive Engine (RPE).ormd",
@@ -2806,15 +3779,26 @@
       "modified": "2026-03-02T17:24:57.093009+00:00"
     },
     {
+      "path": "E2Core/Context Layer/Relational Primitive Translations.ormd",
+      "name": "Relational Primitive Translations.ormd",
+      "stem": "Relational Primitive Translations",
+      "extension": ".ormd",
+      "layer": "E2Core/Context Layer",
+      "title": "Relational Primitive Translations",
+      "word_count": 692,
+      "size_bytes": 5953,
+      "modified": "2026-09-30T14:24:20.297068+00:00"
+    },
+    {
       "path": "E2Core/Context Layer/Relational Primitives.ormd",
       "name": "Relational Primitives.ormd",
       "stem": "Relational Primitives",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Relational Primitives",
-      "word_count": 975,
-      "size_bytes": 9274,
-      "modified": "2026-09-28T22:36:27.495651+00:00"
+      "word_count": 995,
+      "size_bytes": 9451,
+      "modified": "2026-09-30T13:58:34.171066+00:00"
     },
     {
       "path": "E2Core/Context Layer/Relational Volition.ormd",
@@ -2822,10 +3806,10 @@
       "stem": "Relational Volition",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
+      "title": "Relational Volition",
       "word_count": 591,
-      "size_bytes": 6608,
-      "modified": "2026-03-02T17:29:14.051268+00:00"
+      "size_bytes": 6545,
+      "modified": "2026-09-30T16:34:39.344151+00:00"
     },
     {
       "path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd",
@@ -2850,15 +3834,15 @@
       "modified": "2026-08-11T03:51:01.578985+00:00"
     },
     {
-      "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-      "name": "Resonance Architecture 4 17 25.ormd",
-      "stem": "Resonance Architecture 4 17 25",
+      "path": "E2Core/Context Layer/Resonance and Relational Translation.ormd",
+      "name": "Resonance and Relational Translation.ormd",
+      "stem": "Resonance and Relational Translation",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "Resonance Architecture",
-      "word_count": 2032,
-      "size_bytes": 20154,
-      "modified": "2026-09-29T23:44:53.839268+00:00"
+      "title": "Resonance and Relational Translation",
+      "word_count": 664,
+      "size_bytes": 6043,
+      "modified": "2026-09-30T13:55:16.587966+00:00"
     },
     {
       "path": "E2Core/Context Layer/Responsibility Absorption - Core Source.ormd",
@@ -2877,21 +3861,10 @@
       "stem": "Reverent Stewardship",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "Reverent Stewardship: A Recursion of Principles & Practical Guide",
+      "title": "Reverent Stewardship",
       "word_count": 1216,
-      "size_bytes": 11765,
-      "modified": "2026-03-02T17:40:29.957762+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/RP Lambda Calc Translation.ormd",
-      "name": "RP Lambda Calc Translation.ormd",
-      "stem": "RP Lambda Calc Translation",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "RP Lambda Calc Translation",
-      "word_count": 505,
-      "size_bytes": 4833,
-      "modified": "2026-03-02T17:42:48.642179+00:00"
+      "size_bytes": 11720,
+      "modified": "2026-09-30T16:32:17.292372+00:00"
     },
     {
       "path": "E2Core/Context Layer/Self as Coherence Field.ormd",
@@ -2977,20 +3950,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Tensional Intelligence: A Theoretical Foundation",
-      "word_count": 1643,
-      "size_bytes": 14919,
-      "modified": "2026-09-29T18:43:36.834019+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd",
-      "name": "The Architecture of Resonant Systems 4 26 25.ormd",
-      "stem": "The Architecture of Resonant Systems 4 26 25",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "The Architecture of Resonant Systems",
-      "word_count": 859,
-      "size_bytes": 7628,
-      "modified": "2026-09-29T23:44:55.001313+00:00"
+      "word_count": 1654,
+      "size_bytes": 14974,
+      "modified": "2026-09-30T03:09:56.991099+00:00"
     },
     {
       "path": "E2Core/Context Layer/The Cyclical Integrity framework.ormd",
@@ -2998,10 +3960,10 @@
       "stem": "The Cyclical Integrity framework",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "The Cyclical Integrity framework",
-      "word_count": 1496,
-      "size_bytes": 13148,
-      "modified": "2026-03-02T18:19:49.307469+00:00"
+      "title": "The Cyclical Integrity Framework",
+      "word_count": 1516,
+      "size_bytes": 13145,
+      "modified": "2026-09-30T16:32:17.780522+00:00"
     },
     {
       "path": "E2Core/Context Layer/The Essence of Existence.ormd",
@@ -3010,9 +3972,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "Care, Attention, and Coherence: A Relational Manifesto",
-      "word_count": 822,
-      "size_bytes": 7045,
-      "modified": "2026-09-29T23:33:02.964884+00:00"
+      "word_count": 2569,
+      "size_bytes": 19571,
+      "modified": "2026-09-30T16:14:19.476179+00:00"
     },
     {
       "path": "E2Core/Context Layer/The Intelligence Field Framework.ormd",
@@ -3020,21 +3982,10 @@
       "stem": "The Intelligence Field Framework",
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
-      "title": "The 'Intelligence Field' Framework",
+      "title": "--- Context Layer Protocol (CLP) ---",
       "word_count": 563,
       "size_bytes": 6348,
-      "modified": "2026-03-02T18:34:07.276536+00:00"
-    },
-    {
-      "path": "E2Core/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd",
-      "name": "The Resonance Framework An Ontological Map 4 24 25.ormd",
-      "stem": "The Resonance Framework An Ontological Map 4 24 25",
-      "extension": ".ormd",
-      "layer": "E2Core/Context Layer",
-      "title": "The Resonance Framework: An Ontological Map",
-      "word_count": 715,
-      "size_bytes": 9682,
-      "modified": "2026-03-02T18:41:03.671774+00:00"
+      "modified": "2026-09-30T16:33:09.229423+00:00"
     },
     {
       "path": "E2Core/Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd",
@@ -3045,7 +3996,7 @@
       "title": "Trust, Trustworthiness, and Reliance",
       "word_count": 2234,
       "size_bytes": 19526,
-      "modified": "2026-08-10T19:53:05.829154+00:00"
+      "modified": "2026-09-30T16:32:18.314887+00:00"
     },
     {
       "path": "E2Core/Context Layer/Truth Ceiling.ormd",
@@ -3054,9 +4005,9 @@
       "extension": ".ormd",
       "layer": "E2Core/Context Layer",
       "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
-      "word_count": 1321,
-      "size_bytes": 12611,
-      "modified": "2026-03-02T18:45:21.787872+00:00"
+      "word_count": 1329,
+      "size_bytes": 12697,
+      "modified": "2026-09-30T16:32:18.882856+00:00"
     },
     {
       "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
@@ -3065,9 +4016,9 @@
       "extension": ".md",
       "layer": "E2Core",
       "title": "E2Core consolidation plan — 2026-09-29",
-      "word_count": 2882,
-      "size_bytes": 21250,
-      "modified": "2026-09-29T18:21:11.965754+00:00"
+      "word_count": 2944,
+      "size_bytes": 21759,
+      "modified": "2026-09-30T16:22:56.662125+00:00"
     },
     {
       "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -3109,9 +4060,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
-      "word_count": 905,
-      "size_bytes": 7379,
-      "modified": "2026-09-29T00:09:46.625542+00:00"
+      "word_count": 901,
+      "size_bytes": 8472,
+      "modified": "2026-09-30T14:12:02.857727+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
@@ -3120,9 +4071,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Adversarial Occlusion and Mechanism Integrity V1",
-      "word_count": 2383,
-      "size_bytes": 23592,
-      "modified": "2026-09-29T20:39:22.760125+00:00"
+      "word_count": 2575,
+      "size_bytes": 26744,
+      "modified": "2026-09-30T14:12:02.857727+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md",
@@ -3132,8 +4083,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Asymmetry Maintenance",
       "word_count": 1265,
-      "size_bytes": 9579,
-      "modified": "2026-09-29T16:17:22.139291+00:00"
+      "size_bytes": 9578,
+      "modified": "2026-09-30T14:12:02.857727+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
@@ -3144,7 +4095,7 @@
       "title": "Attentional Access and Formation",
       "word_count": 3488,
       "size_bytes": 25481,
-      "modified": "2026-09-28T18:16:09.402504+00:00"
+      "modified": "2026-09-30T14:12:02.872914+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Boundary Ethics - Core Source.md",
@@ -3154,8 +4105,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Boundary Ethics",
       "word_count": 1364,
-      "size_bytes": 10527,
-      "modified": "2026-09-29T16:17:22.172609+00:00"
+      "size_bytes": 10526,
+      "modified": "2026-09-30T14:12:02.874922+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/boundary_dynamics.md",
@@ -3165,8 +4116,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Boundary Dynamics",
       "word_count": 3448,
-      "size_bytes": 26924,
-      "modified": "2026-09-29T00:07:53.339391+00:00"
+      "size_bytes": 27694,
+      "modified": "2026-09-30T14:12:02.878209+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Caregiving as an Ecosystem.md",
@@ -3176,8 +4127,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Caregiving as an Ecosystem",
       "word_count": 665,
-      "size_bytes": 5433,
-      "modified": "2026-02-25T11:23:32+00:00"
+      "size_bytes": 6058,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
@@ -3185,10 +4136,10 @@
       "stem": "Collective Cognitive Substrate",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Cognition as *Substrate*",
-      "word_count": 5982,
-      "size_bytes": 44436,
-      "modified": "2026-02-27T00:37:53.066641+00:00"
+      "title": "Collective Cognitive Substrate",
+      "word_count": 6010,
+      "size_bytes": 47693,
+      "modified": "2026-09-30T14:12:02.882218+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Communication as Coherence.md",
@@ -3197,9 +4148,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Communication as Coherence",
-      "word_count": 1814,
-      "size_bytes": 14685,
-      "modified": "2026-09-29T20:49:59.373757+00:00"
+      "word_count": 1899,
+      "size_bytes": 16780,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Complex Causality - Core Source.md",
@@ -3209,8 +4160,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Complex Causality",
       "word_count": 1250,
-      "size_bytes": 9989,
-      "modified": "2026-09-29T16:17:22.203884+00:00"
+      "size_bytes": 9988,
+      "modified": "2026-09-30T14:12:02.889363+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Condition as Typed Terrain - Core Source.md",
@@ -3221,7 +4172,7 @@
       "title": "Condition as Typed Terrain",
       "word_count": 1499,
       "size_bytes": 11300,
-      "modified": "2026-08-10T19:53:55.417630+00:00"
+      "modified": "2026-09-30T14:12:02.890708+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Consequence Routing - Core Source.md",
@@ -3232,7 +4183,7 @@
       "title": "Consequence Routing",
       "word_count": 1887,
       "size_bytes": 14673,
-      "modified": "2026-08-10T19:43:44.280229+00:00"
+      "modified": "2026-09-30T14:12:02.891723+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
@@ -3242,8 +4193,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
       "word_count": 2198,
-      "size_bytes": 17003,
-      "modified": "2026-09-28T18:17:06.549398+00:00"
+      "size_bytes": 17408,
+      "modified": "2026-09-30T14:12:02.893938+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Context Layer Protocol (CLP).md",
@@ -3252,9 +4203,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Context Layer Protocol (CLP)",
-      "word_count": 1005,
-      "size_bytes": 12385,
-      "modified": "2026-02-25T11:23:58+00:00"
+      "word_count": 1113,
+      "size_bytes": 14283,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/CRS.md",
@@ -3262,21 +4213,10 @@
       "stem": "CRS",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "The Collective Relational Substrate",
-      "word_count": 7134,
-      "size_bytes": 53753,
-      "modified": "2026-09-29T20:46:35.398678+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/CT translation of RPs.md",
-      "name": "CT translation of RPs.md",
-      "stem": "CT translation of RPs",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "CT translation of RPs",
-      "word_count": 959,
-      "size_bytes": 7270,
-      "modified": "2026-02-25T11:24:02+00:00"
+      "title": "Collective Relational Substrate",
+      "word_count": 7164,
+      "size_bytes": 60717,
+      "modified": "2026-09-30T14:12:02.885207+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Custody - Core Source.md",
@@ -3287,7 +4227,7 @@
       "title": "Custody",
       "word_count": 3392,
       "size_bytes": 28678,
-      "modified": "2026-08-10T19:53:53.833826+00:00"
+      "modified": "2026-09-30T14:12:02.897991+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Declaration of Interdependence.md",
@@ -3297,8 +4237,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Declaration of Interdependence",
       "word_count": 328,
-      "size_bytes": 2128,
-      "modified": "2026-02-25T11:23:32+00:00"
+      "size_bytes": 2364,
+      "modified": "2026-09-30T14:12:02.900014+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Derivation deep dive.md",
@@ -3307,9 +4247,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Derivation Deep Dive: Categorical and Relational Physics",
-      "word_count": 5963,
-      "size_bytes": 52328,
-      "modified": "2026-09-29T23:45:07.308447+00:00"
+      "word_count": 5936,
+      "size_bytes": 61617,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E^2 Axioms.md",
@@ -3318,9 +4258,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "E^2 Axioms",
-      "word_count": 496,
-      "size_bytes": 3939,
-      "modified": "2026-09-10T23:34:31.790409+00:00"
+      "word_count": 441,
+      "size_bytes": 3315,
+      "modified": "2026-09-30T14:12:02.902858+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
@@ -3329,9 +4269,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "E^2 Entry Point",
-      "word_count": 627,
-      "size_bytes": 4514,
-      "modified": "2026-09-29T20:56:39.240022+00:00"
+      "word_count": 630,
+      "size_bytes": 4548,
+      "modified": "2026-09-30T14:12:02.904692+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E^2 Equation.md",
@@ -3340,9 +4280,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "E^2 Equation",
-      "word_count": 408,
-      "size_bytes": 2604,
-      "modified": "2026-02-25T11:24:02+00:00"
+      "word_count": 439,
+      "size_bytes": 3127,
+      "modified": "2026-09-30T14:12:02.904692+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md",
@@ -3350,10 +4290,10 @@
       "stem": "Embedded Universality Principle (EUP)",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Embedded Universality Principle",
-      "word_count": 6848,
-      "size_bytes": 53030,
-      "modified": "2026-06-16T16:40:36.576753+00:00"
+      "title": "Embedded Universality Principle (EUP)",
+      "word_count": 6849,
+      "size_bytes": 53071,
+      "modified": "2026-09-30T16:36:02.406139+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Emergence Engine overview.md",
@@ -3362,9 +4302,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
-      "word_count": 2846,
-      "size_bytes": 21259,
-      "modified": "2026-08-11T20:54:30.738290+00:00"
+      "word_count": 2850,
+      "size_bytes": 23098,
+      "modified": "2026-09-30T14:12:02.908488+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md",
@@ -3374,8 +4314,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Emergence Determination Foreclosure",
       "word_count": 3069,
-      "size_bytes": 21494,
-      "modified": "2026-09-29T18:44:37.083502+00:00"
+      "size_bytes": 22269,
+      "modified": "2026-09-30T14:12:02.908488+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
@@ -3385,8 +4325,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Essence of Existence Constitution - Draft 2",
       "word_count": 1725,
-      "size_bytes": 12260,
-      "modified": "2026-02-25T11:23:54+00:00"
+      "size_bytes": 13825,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
@@ -3395,9 +4335,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Ethical Occlusion via Temporal Compression (EOTC)",
-      "word_count": 780,
-      "size_bytes": 6719,
-      "modified": "2026-06-12T19:55:50.908623+00:00"
+      "word_count": 714,
+      "size_bytes": 5938,
+      "modified": "2026-09-30T14:12:02.913033+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Ethical Principles for Human-AI Interaction.md",
@@ -3407,8 +4347,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Ethical Principles for Human-AI Interaction",
       "word_count": 457,
-      "size_bytes": 3337,
-      "modified": "2026-02-25T11:23:32+00:00"
+      "size_bytes": 3780,
+      "modified": "2026-09-30T14:12:02.916625+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Exposure Protocol.md",
@@ -3418,8 +4358,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Exposure Protocol",
       "word_count": 683,
-      "size_bytes": 5674,
-      "modified": "2026-09-28T22:54:02.208360+00:00"
+      "size_bytes": 6491,
+      "modified": "2026-09-30T14:12:02.916625+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
@@ -3430,7 +4370,7 @@
       "title": "E² as a Translation Architecture for Human Remembrance",
       "word_count": 2154,
       "size_bytes": 14543,
-      "modified": "2026-08-11T17:20:53.832929+00:00"
+      "modified": "2026-09-30T14:12:02.916625+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Family as a Relational Field.md",
@@ -3439,9 +4379,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Family as a Relational Field",
-      "word_count": 10752,
-      "size_bytes": 82217,
-      "modified": "2026-02-25T11:23:56+00:00"
+      "word_count": 10746,
+      "size_bytes": 89540,
+      "modified": "2026-09-30T14:12:02.921554+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/flow_operators_provisional.md",
@@ -3451,8 +4391,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Flow Operators: A Provisional Snapshot",
       "word_count": 2079,
-      "size_bytes": 15814,
-      "modified": "2026-09-29T00:11:22.224910+00:00"
+      "size_bytes": 16398,
+      "modified": "2026-09-30T14:12:02.924901+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/From Essential Relationships to Ontological Transformation.md",
@@ -3462,8 +4402,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "From Essential Relationships to Ontological Transformation",
       "word_count": 1166,
-      "size_bytes": 9218,
-      "modified": "2026-02-25T11:23:12+00:00"
+      "size_bytes": 9605,
+      "modified": "2026-09-30T14:12:02.926340+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Global Closure Operator.md",
@@ -3472,9 +4412,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Global Closure Operator",
-      "word_count": 768,
-      "size_bytes": 6166,
-      "modified": "2026-06-12T19:55:50.783526+00:00"
+      "word_count": 706,
+      "size_bytes": 5468,
+      "modified": "2026-09-30T14:12:02.926340+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Human-AI Creative Collaboration Framework (HAIC).md",
@@ -3483,9 +4423,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Human-AI Creative Collaboration Framework (HAIC)",
-      "word_count": 333,
-      "size_bytes": 3729,
-      "modified": "2026-02-25T11:23:04+00:00"
+      "word_count": 357,
+      "size_bytes": 4513,
+      "modified": "2026-09-30T14:12:02.929771+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Implementations.md",
@@ -3494,9 +4434,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Implementations",
-      "word_count": 25,
-      "size_bytes": 707,
-      "modified": "2026-02-25T11:23:32+00:00"
+      "word_count": 291,
+      "size_bytes": 2572,
+      "modified": "2026-09-30T14:12:02.929771+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Interlocked Stewardship V2.md",
@@ -3505,9 +4445,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Interlocked Stewardship",
-      "word_count": 1456,
-      "size_bytes": 10083,
-      "modified": "2026-09-29T23:44:52.103350+00:00"
+      "word_count": 1448,
+      "size_bytes": 11614,
+      "modified": "2026-09-30T14:12:02.929771+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Intervention Stewardship - Core Source.md",
@@ -3518,7 +4458,7 @@
       "title": "Intervention Stewardship",
       "word_count": 1501,
       "size_bytes": 11651,
-      "modified": "2026-09-29T16:16:47.504122+00:00"
+      "modified": "2026-09-30T14:12:02.929771+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Justice Across Scales Practical Applications.md",
@@ -3527,9 +4467,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Justice Across Scales: Practical Applications",
-      "word_count": 4884,
-      "size_bytes": 40990,
-      "modified": "2026-02-25T11:23:12+00:00"
+      "word_count": 4888,
+      "size_bytes": 45269,
+      "modified": "2026-09-30T14:27:23.138556+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Justice Across Scales.md",
@@ -3539,8 +4479,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Justice Across Scales: A Relational Framework",
       "word_count": 2629,
-      "size_bytes": 20287,
-      "modified": "2026-09-29T16:17:22.235501+00:00"
+      "size_bytes": 20286,
+      "modified": "2026-09-30T14:12:02.929771+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Lawfulness - Core Source.md",
@@ -3550,8 +4490,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Lawfulness",
       "word_count": 1343,
-      "size_bytes": 10507,
-      "modified": "2026-09-29T16:17:22.267752+00:00"
+      "size_bytes": 10506,
+      "modified": "2026-09-30T14:12:02.941726+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md",
@@ -3560,9 +4500,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
-      "word_count": 1038,
-      "size_bytes": 8708,
-      "modified": "2026-02-25T03:56:13.390582+00:00"
+      "word_count": 1036,
+      "size_bytes": 9400,
+      "modified": "2026-09-30T14:12:02.943724+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Meta-Pattern Decidability Conjecture (MPDC).md",
@@ -3572,8 +4512,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Meta-Pattern Decidability Conjecture (MPDC)",
       "word_count": 431,
-      "size_bytes": 3564,
-      "modified": "2026-02-25T11:23:34+00:00"
+      "size_bytes": 3893,
+      "modified": "2026-09-30T14:12:02.945726+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md",
@@ -3582,9 +4522,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Metabolic Meaning Phase Space (MMPS)",
-      "word_count": 645,
-      "size_bytes": 5827,
-      "modified": "2026-06-12T19:55:50.824876+00:00"
+      "word_count": 582,
+      "size_bytes": 5116,
+      "modified": "2026-09-30T14:12:02.946721+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
@@ -3593,9 +4533,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "MRIE - Unified Synthesis",
-      "word_count": 2957,
-      "size_bytes": 23225,
-      "modified": "2026-09-29T20:49:59.902503+00:00"
+      "word_count": 2955,
+      "size_bytes": 24499,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Ontological Systems Interface (OSI) Model.md",
@@ -3604,9 +4544,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Ontological Systems Interface (OSI) Model",
-      "word_count": 3254,
-      "size_bytes": 25045,
-      "modified": "2026-02-25T11:23:28+00:00"
+      "word_count": 2876,
+      "size_bytes": 26109,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Original E^2 work.md",
@@ -3614,21 +4554,10 @@
       "stem": "Original E^2 work",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Original E^2 Work",
-      "word_count": 141,
-      "size_bytes": 4291,
-      "modified": "2026-09-29T23:45:06.232765+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/Our essence exists in the space between us.md",
-      "name": "Our essence exists in the space between us.md",
-      "stem": "Our essence exists in the space between us",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "Our essence exists in the space between us",
-      "word_count": 11,
-      "size_bytes": 66,
-      "modified": "2026-02-25T05:05:55.983360+00:00"
+      "title": "E² Corpus Lineage Index",
+      "word_count": 398,
+      "size_bytes": 3585,
+      "modified": "2026-09-30T14:12:02.952724+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Pattern Integrity over Time under Entropy.md",
@@ -3638,8 +4567,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Pattern Integrity over Time under Entropy",
       "word_count": 3427,
-      "size_bytes": 28167,
-      "modified": "2026-02-25T11:23:12+00:00"
+      "size_bytes": 33665,
+      "modified": "2026-09-30T14:12:02.953789+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md",
@@ -3649,8 +4578,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Persistence as Accumulated Stance-With",
       "word_count": 1587,
-      "size_bytes": 12605,
-      "modified": "2026-09-29T16:17:22.305896+00:00"
+      "size_bytes": 12604,
+      "modified": "2026-09-30T14:12:02.955724+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Power as Relational Field Coherence.md",
@@ -3659,9 +4588,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Power as Relational Field Coherence",
-      "word_count": 6294,
-      "size_bytes": 53635,
-      "modified": "2026-09-29T23:35:47.940387+00:00"
+      "word_count": 6317,
+      "size_bytes": 63299,
+      "modified": "2026-09-30T14:12:02.957676+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Proxy Localization - Core Source.md",
@@ -3672,7 +4601,7 @@
       "title": "Proxy Localization",
       "word_count": 1521,
       "size_bytes": 11706,
-      "modified": "2026-08-10T19:53:57.001639+00:00"
+      "modified": "2026-09-30T14:12:02.957676+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Bill of Rights v2.md",
@@ -3681,9 +4610,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "The Relational Bill of Rights",
-      "word_count": 996,
-      "size_bytes": 7178,
-      "modified": "2026-09-29T23:44:53.141965+00:00"
+      "word_count": 990,
+      "size_bytes": 7817,
+      "modified": "2026-09-30T14:12:02.957676+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
@@ -3691,10 +4620,10 @@
       "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
-      "word_count": 12050,
-      "size_bytes": 84681,
-      "modified": "2026-08-11T20:54:30.908636+00:00"
+      "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+      "word_count": 754,
+      "size_bytes": 5814,
+      "modified": "2026-09-30T14:12:02.976730+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
@@ -3703,9 +4632,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Field Dynamics 0.1",
-      "word_count": 853,
-      "size_bytes": 6449,
-      "modified": "2026-02-25T11:23:10+00:00"
+      "word_count": 849,
+      "size_bytes": 8054,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
@@ -3715,8 +4644,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Irreducibility Framework (RIF)",
       "word_count": 861,
-      "size_bytes": 7169,
-      "modified": "2026-09-29T18:44:37.083502+00:00"
+      "size_bytes": 7939,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Localization - Core Source.md",
@@ -3727,18 +4656,7 @@
       "title": "Relational Localization",
       "word_count": 1317,
       "size_bytes": 10893,
-      "modified": "2026-08-10T19:43:42.661086+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/Relational Ontology Derived from First Principles.md",
-      "name": "Relational Ontology Derived from First Principles.md",
-      "stem": "Relational Ontology Derived from First Principles",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "Relational Ontology Derived from First Principles",
-      "word_count": 3532,
-      "size_bytes": 27781,
-      "modified": "2026-09-29T00:11:49.191479+00:00"
+      "modified": "2026-09-30T14:12:02.957676+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Perfection A Framework for Emergent Int.md",
@@ -3748,8 +4666,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Perfection: A Framework for Emergent Integrity",
       "word_count": 990,
-      "size_bytes": 6837,
-      "modified": "2026-02-25T11:23:56+00:00"
+      "size_bytes": 7191,
+      "modified": "2026-09-30T14:12:02.978759+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Perfection A Manifesto.md",
@@ -3758,9 +4676,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Perfection: A Manifesto",
-      "word_count": 462,
-      "size_bytes": 3111,
-      "modified": "2026-02-25T11:24:12+00:00"
+      "word_count": 454,
+      "size_bytes": 3877,
+      "modified": "2026-09-30T14:12:02.957676+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Primitive Engine (RPE).md",
@@ -3769,9 +4687,20 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Primitive Engine (RPE)",
-      "word_count": 667,
-      "size_bytes": 5252,
-      "modified": "2026-02-25T11:24:02+00:00"
+      "word_count": 622,
+      "size_bytes": 6171,
+      "modified": "2026-09-30T14:12:02.957676+00:00"
+    },
+    {
+      "path": "E2Core/Semantic Substrate/Relational Primitive Translations.md",
+      "name": "Relational Primitive Translations.md",
+      "stem": "Relational Primitive Translations",
+      "extension": ".md",
+      "layer": "E2Core/Semantic Substrate",
+      "title": "Relational Primitive Translations",
+      "word_count": 692,
+      "size_bytes": 5165,
+      "modified": "2026-09-30T14:26:06.070999+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Primitives.md",
@@ -3780,9 +4709,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Primitives",
-      "word_count": 1034,
-      "size_bytes": 9025,
-      "modified": "2026-09-28T22:26:54.856386+00:00"
+      "word_count": 995,
+      "size_bytes": 8505,
+      "modified": "2026-09-30T14:12:02.972444+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Relational Volition.md",
@@ -3791,9 +4720,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Relational Volition",
-      "word_count": 586,
-      "size_bytes": 4842,
-      "modified": "2026-02-25T11:23:34+00:00"
+      "word_count": 591,
+      "size_bytes": 5347,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Remnant Stewardship - Core Source.md",
@@ -3804,7 +4733,7 @@
       "title": "Remnant Stewardship",
       "word_count": 2626,
       "size_bytes": 19148,
-      "modified": "2026-09-29T16:16:47.506122+00:00"
+      "modified": "2026-09-30T14:12:02.980758+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/resolution_synthesis.md",
@@ -3814,19 +4743,19 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Resolution: Synthesis Notes",
       "word_count": 1713,
-      "size_bytes": 13459,
-      "modified": "2026-04-27T18:17:51.225206+00:00"
+      "size_bytes": 13982,
+      "modified": "2026-09-30T14:12:02.982760+00:00"
     },
     {
-      "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-      "name": "Resonance Architecture 4 17 25.md",
-      "stem": "Resonance Architecture 4 17 25",
+      "path": "E2Core/Semantic Substrate/Resonance and Relational Translation.md",
+      "name": "Resonance and Relational Translation.md",
+      "stem": "Resonance and Relational Translation",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Resonance Architecture",
-      "word_count": 2032,
-      "size_bytes": 15630,
-      "modified": "2026-09-29T23:44:54.413100+00:00"
+      "title": "Resonance and Relational Translation",
+      "word_count": 664,
+      "size_bytes": 5022,
+      "modified": "2026-09-30T14:12:02.983755+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Responsibility Absorption - Core Source.md",
@@ -3836,8 +4765,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Responsibility Absorption",
       "word_count": 973,
-      "size_bytes": 7937,
-      "modified": "2026-09-29T16:17:22.341412+00:00"
+      "size_bytes": 7936,
+      "modified": "2026-09-30T14:12:02.984762+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Reverent Stewardship.md",
@@ -3846,20 +4775,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Reverent Stewardship",
-      "word_count": 1226,
-      "size_bytes": 8917,
-      "modified": "2026-02-25T11:23:32+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/RP Lambda Calc Translation.md",
-      "name": "RP Lambda Calc Translation.md",
-      "stem": "RP Lambda Calc Translation",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "RP Lambda Calc Translation",
-      "word_count": 505,
-      "size_bytes": 3486,
-      "modified": "2026-02-25T11:24:02+00:00"
+      "word_count": 1216,
+      "size_bytes": 10091,
+      "modified": "2026-09-30T14:12:02.986665+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Self as Coherence Field.md",
@@ -3869,8 +4787,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "The Self as Coherence Field",
       "word_count": 3937,
-      "size_bytes": 27357,
-      "modified": "2026-09-28T22:46:45.805463+00:00"
+      "size_bytes": 28167,
+      "modified": "2026-09-30T14:27:23.149892+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/sign_mediated_flow_routing.md",
@@ -3879,9 +4797,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Sign-Mediated Accountability and Flow Routing",
-      "word_count": 683,
-      "size_bytes": 6027,
-      "modified": "2026-08-11T03:51:04.535936+00:00"
+      "word_count": 629,
+      "size_bytes": 5318,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Signal as Bias Field.md",
@@ -3890,9 +4808,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Signal as Bias Field",
-      "word_count": 1753,
-      "size_bytes": 13718,
-      "modified": "2026-02-25T11:24:02+00:00"
+      "word_count": 1751,
+      "size_bytes": 14649,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md",
@@ -3902,8 +4820,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Slow-Layer Clock Ratio",
       "word_count": 1004,
-      "size_bytes": 7933,
-      "modified": "2026-09-29T16:17:22.372799+00:00"
+      "size_bytes": 7932,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Steward’s Creed.md",
@@ -3913,8 +4831,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "Steward’s Creed",
       "word_count": 126,
-      "size_bytes": 817,
-      "modified": "2026-02-25T04:59:00.507842+00:00"
+      "size_bytes": 1465,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/TCL_Plain_English_Summary.md",
@@ -3923,9 +4841,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Temporal Constraint Lamination: What We Found",
-      "word_count": 3385,
-      "size_bytes": 23732,
-      "modified": "2026-02-25T03:59:28.630439+00:00"
+      "word_count": 3386,
+      "size_bytes": 25493,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/TCL_Three_Constants.md",
@@ -3935,8 +4853,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "The Operating Window: Three Constants from One Landscape",
       "word_count": 1999,
-      "size_bytes": 14479,
-      "modified": "2026-02-25T03:59:33.545770+00:00"
+      "size_bytes": 15574,
+      "modified": "2026-09-30T14:12:02.990990+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
@@ -3945,20 +4863,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Tensional Intelligence: A Theoretical Foundation",
-      "word_count": 1645,
-      "size_bytes": 12105,
-      "modified": "2026-09-29T18:43:16.770368+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
-      "name": "The Architecture of Resonant Systems 4 26 25.md",
-      "stem": "The Architecture of Resonant Systems 4 26 25",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "The Architecture of Resonant Systems",
-      "word_count": 859,
-      "size_bytes": 6339,
-      "modified": "2026-09-29T23:44:55.523846+00:00"
+      "word_count": 1654,
+      "size_bytes": 13181,
+      "modified": "2026-09-30T14:12:03.002808+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/The Cyclical Integrity framework.md",
@@ -3966,10 +4873,10 @@
       "stem": "The Cyclical Integrity framework",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "The Cyclical Integrity framework",
-      "word_count": 1498,
-      "size_bytes": 11101,
-      "modified": "2026-02-25T11:23:32+00:00"
+      "title": "The Cyclical Integrity Framework",
+      "word_count": 1516,
+      "size_bytes": 11618,
+      "modified": "2026-09-30T16:36:02.406139+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
@@ -3978,9 +4885,9 @@
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
       "title": "Care, Attention, and Coherence: A Relational Manifesto",
-      "word_count": 15734,
-      "size_bytes": 127744,
-      "modified": "2026-09-29T23:33:03.496094+00:00"
+      "word_count": 2569,
+      "size_bytes": 18411,
+      "modified": "2026-09-30T16:15:31.560799+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/The Intelligence Field Framework.md",
@@ -3990,19 +4897,8 @@
       "layer": "E2Core/Semantic Substrate",
       "title": "The \"Intelligence Field\" Framework",
       "word_count": 563,
-      "size_bytes": 4664,
-      "modified": "2026-02-25T11:23:56+00:00"
-    },
-    {
-      "path": "E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
-      "name": "The Resonance Framework An Ontological Map 4 24 25.md",
-      "stem": "The Resonance Framework An Ontological Map 4 24 25",
-      "extension": ".md",
-      "layer": "E2Core/Semantic Substrate",
-      "title": "The Resonance Framework: An Ontological Map",
-      "word_count": 716,
-      "size_bytes": 5760,
-      "modified": "2026-09-29T23:44:56.069412+00:00"
+      "size_bytes": 5205,
+      "modified": "2026-09-30T14:12:03.007533+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md",
@@ -4010,10 +4906,10 @@
       "stem": "Trust, Trustworthiness, and Reliance - Core Source",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Trust, Trustworthiness, And Reliance",
+      "title": "Trust, Trustworthiness, and Reliance",
       "word_count": 2234,
-      "size_bytes": 18836,
-      "modified": "2026-09-29T16:17:22.404114+00:00"
+      "size_bytes": 18835,
+      "modified": "2026-09-30T16:36:02.407522+00:00"
     },
     {
       "path": "E2Core/Semantic Substrate/Truth Ceiling.md",
@@ -4021,10 +4917,10 @@
       "stem": "Truth Ceiling",
       "extension": ".md",
       "layer": "E2Core/Semantic Substrate",
-      "title": "Truth Ceiling",
-      "word_count": 1287,
-      "size_bytes": 10998,
-      "modified": "2026-02-25T11:23:34+00:00"
+      "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
+      "word_count": 1329,
+      "size_bytes": 11388,
+      "modified": "2026-09-30T16:36:02.408026+00:00"
     },
     {
       "path": "E2Core/What This Work Is For.md",
@@ -4637,10 +5533,10 @@
       "stem": "Relational Irreducibility Framework (RIF)",
       "extension": ".ormd",
       "layer": "Synthesized Core",
-      "title": "Executive Summary: Relational Irreducibility Framework (RIF)",
-      "word_count": 472,
-      "size_bytes": 5395,
-      "modified": "2026-03-03T02:39:50.263672+00:00"
+      "title": "Summary of Relational Irreducibility Framework (RIF)",
+      "word_count": 432,
+      "size_bytes": 8057,
+      "modified": "2026-09-30T03:11:28.125343+00:00"
     },
     {
       "path": "Synthesized Core/Relational Primitive Engine (RPE)_summary.ormd",
@@ -4693,31 +5589,9 @@
       "extension": ".ormd",
       "layer": "Synthesized Core",
       "title": "'Summary: Relational Ontology Derived from First Principles'",
-      "word_count": 1093,
-      "size_bytes": 14184,
-      "modified": "2026-09-29T00:11:49.699785+00:00"
-    },
-    {
-      "path": "Synthesized Core/Resonance_Architecture_synthesized.ormd",
-      "name": "Resonance_Architecture_synthesized.ormd",
-      "stem": "Resonance_Architecture",
-      "extension": ".ormd",
-      "layer": "Synthesized Core",
-      "title": "'Summary: The Architecture of Resonant Systems'",
-      "word_count": 1149,
-      "size_bytes": 12363,
-      "modified": "2026-03-03T01:43:44.773162+00:00"
-    },
-    {
-      "path": "Synthesized Core/RP_Formal_Translations_synthesized.ormd",
-      "name": "RP_Formal_Translations_synthesized.ormd",
-      "stem": "RP_Formal_Translations",
-      "extension": ".ormd",
-      "layer": "Synthesized Core",
-      "title": "'Summary: CT Translation of Relational Primitives'",
-      "word_count": 718,
-      "size_bytes": 7850,
-      "modified": "2026-03-03T01:43:44.779774+00:00"
+      "word_count": 1104,
+      "size_bytes": 14136,
+      "modified": "2026-09-30T14:05:12.860572+00:00"
     },
     {
       "path": "Synthesized Core/rplang Repo Summary.ormd",
@@ -4832,17 +5706,17 @@
   ],
   "core_manifest_summary": {
     "available": true,
-    "synthesized_core_count": 57,
-    "explicit_core_addition_count": 28,
-    "active_semantic_substrate_count": 84,
-    "active_context_layer_count": 83,
-    "active_raw_file_count": 167,
-    "active_file_count": 224,
-    "archived_raw_file_count": 82,
+    "synthesized_core_count": 55,
+    "explicit_core_addition_count": 30,
+    "active_semantic_substrate_count": 79,
+    "active_context_layer_count": 80,
+    "active_raw_file_count": 159,
+    "active_file_count": 214,
+    "archived_raw_file_count": 181,
     "unregistered_active_raw_count": 0,
     "missing_registered_path_count": 0,
-    "copied_file_count": 224,
-    "copied_raw_file_count": 167,
+    "copied_file_count": 214,
+    "copied_raw_file_count": 159,
     "skipped_cull_review_count": 14,
     "unresolved_count": 0
   }

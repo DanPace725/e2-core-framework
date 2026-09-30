@@ -23,14 +23,10 @@ relations:
     target: e2-entry-point
     type: contextualizes
     note: The human-remembrance orientation states the framework's translation purpose and scope.
-  - source: ct-translation-of-rps
+  - source: relational-primitive-translations
     target: relational-primitives
     type: translates
-    note: Category-theoretic translation of the relational primitives.
-  - source: rp-lambda-calc-translation
-    target: relational-primitives
-    type: translates
-    note: Lambda-calculus translation of the relational primitives.
+    note: Scoped categorical and lambda-calculus analogies to the relational primitives.
   - source: relational-field-dynamics-0-1
     target: relational-primitives
     type: formalizes
@@ -83,14 +79,10 @@ relations:
     target: pattern-integrity-over-time-under-entropy
     type: extends
     note: Persistence develops how pattern integrity accumulates over time.
-  - source: the-architecture-of-resonant-systems-4-26-25
-    target: resonance-architecture-4-17-25
-    type: extends
-    note: The later architecture develops the earlier resonance account.
-  - source: the-resonance-framework-an-ontological-map-4-24-25
-    target: resonance-architecture-4-17-25
-    type: maps
-    note: The ontological map orients the resonance framework.
+  - source: resonance-and-relational-translation
+    target: communication-as-coherence
+    type: contextualizes
+    note: The resonance source offers bounded interaction prompts for translation across contexts.
   - source: tcl-plain-english-summary
     target: tcl-three-constants
     type: explains

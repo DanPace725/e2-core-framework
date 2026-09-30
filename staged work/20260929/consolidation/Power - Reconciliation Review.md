@@ -2,6 +2,8 @@
 
 Status: reviewed; the `Power.md` historical disposition was applied on 2026-09-29. The earlier recommendation about the PRFC human file was **not** applied: its human/ORMD pair remains active and reader-published.
 
+Navigation follow-up (2026-09-29): the human file's missing `Summary PRFC` export target was replaced with its existing `#executive-summary` section. The ORMD already used that anchor.
+
 Sources compared:
 
 - `E2Core/Semantic Substrate/Power.md` (7/31/25; 208 lines)

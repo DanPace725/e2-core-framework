@@ -1,4 +1,4 @@
-# Justice Across Scales: Practical Applications
+# Justice Across Scales: Practical Applications {#title-section}
 
 10/7/25
 
@@ -10,25 +10,25 @@ Justice application
 
 ---
 
-**Introduction: Making It Real**
+**Introduction: Making It Real** {#introduction}
 
 Part 1 gave you the pattern. Now let's use it.
 
 This document provides:
 
-- **Diagnostic frameworks** to identify where you are and what's broken
-- **Intervention toolkits** for each scale
-- **Worked examples** showing the framework in action
+- [Diagnostic frameworks](#diagnostic-stack) to identify where you are and what's broken
+- [Intervention toolkits](#mode-toolkits) for each scale
+- Worked examples showing the framework in action
 - **Templates and checklists** you can actually use
-- **Failure mode recognition** so you know what to watch for
+- [Failure mode recognition](#failure-modes) so you know what to watch for
 
 The goal: take the abstract principles and make them operationally useful for real justice work at whatever scale you're operating.
 
 ---
 
-**Section 1: The Diagnostic Stack**
+**Section 1: The Diagnostic Stack** {#diagnostic-stack}
 
-**Step 1: Identify Your Scale**
+**Step 1: Identify Your Scale** {#identify-scale}
 
 **Question**: What system are you trying to understand or intervene in?
 
@@ -40,11 +40,11 @@ The goal: take the abstract principles and make them operationally useful for re
 
 **Quick diagnostic**:
 
-- Can you name everyone involved? → Micro
-- Do you work with metrics and reports? → Meso
-- Are impacts generational or demographic? → Macro
+- Can you name everyone involved? → [Micro](#micro-scale)
+- Do you work with metrics and reports? → [Meso](#meso-scale)
+- Are impacts generational or demographic? → [Macro](#macro-scale)
 
-**Step 2: Assess Your Epistemic Situation**
+**Step 2: Assess Your Epistemic Situation** {#epistemic-situation}
 
 **The Three Gradients Checklist**:
 
@@ -68,7 +68,7 @@ The goal: take the abstract principles and make them operationally useful for re
 
 **Your epistemic profile**: [Uncertainty: ___ / Resolution: ___ / Lag: ___]
 
-**Step 3: Check the Morphisms**
+**Step 3: Check the Morphisms** {#check-morphisms}
 
 **Which capacity is failing?**
 
@@ -78,7 +78,7 @@ The goal: take the abstract principles and make them operationally useful for re
 - [ ]  People/institutions stay engaged despite not knowing outcomes
 - [ ]  No panic collapse at first sign of unpredictability
 
-**Failure signs**: Abandonment at first difficulty, "I'm done" reactions, institution hopping, emergency responses that make things worse
+**Failure signs**: Abandonment at first difficulty, "I'm done" reactions, institution hopping, emergency responses that [make things worse](#failure-modes)
 
 **ψ (Anticipatory Modeling / Hope)**:
 
@@ -96,11 +96,11 @@ The goal: take the abstract principles and make them operationally useful for re
 
 **Failure signs**: Hoarding resources, extractive relationships, "I got mine" attitudes, winner-takes-all structures
 
-**Step 4: Calculate Your Compression Status**
+**Step 4: Calculate Your Compression Status** {#compression-status}
 
 **The Resolution-Responsibility Check**:
 
-R · C_eff ≤ R_max
+`|= R * C_eff <= R_max |`
 
 **Estimate C_eff** (temporal compression):
 
@@ -118,14 +118,14 @@ R · C_eff ≤ R_max
 - Resources available for observation/response?
 - Scale: 1 (minimal) to 10 (abundant)
 
-**Check**: Does R × C_eff ≤ R_max?
+**Check**: Does `|= R * C_eff <= R_max |`?
 
 - **YES**: System can maintain required resolution → Use precision tools
-- **NO**: System is over-compressed → Must slow down, coarsen grain, or expand capacity
+- **NO**: System is [over-compressed](#compression-status) → Must slow down, coarsen grain, or expand capacity
 
-**Step 5: Map Your Occlusion**
+**Step 5: Map Your Occlusion** {#map-occlusion}
 
-**Ω = f(C_eff, Δt, R)**
+`|= Ω = f(C_eff, Δt, R) |`
 
 **Temporal occlusion**:
 
@@ -151,26 +151,26 @@ R · C_eff ≤ R_max
 
 ---
 
-**Section 2: Mode-Specific Toolkits**
+**Section 2: Mode-Specific Toolkits** {#mode-toolkits}
 
-**Micro Scale (Direct Responsibility Mode)**
+**Micro Scale (Direct Responsibility Mode)** {#micro-scale}
 
 **Context**: 1-20 people, high resolution, personal relationships
 
 **Core Tools**
 
-**1. The 3-Touch Rule** (for consequences)
+**1. The 3-Touch Rule** (for consequences) {#three-touch}
 
 - **First touch**: Signal ("The dishes need doing")
 - **Second touch**: State natural consequence ("We'll run out of plates")
 - **Third touch**: Let consequence occur (use paper plates, natural hunger)
 - **You're done**: Let reality teach, don't become the consequence
 
-**When to use**: Family dynamics, small teams, any situation where natural consequences exist
+**When to use**: Family dynamics, small teams, any situation where [natural consequences](#three-touch) exist
 
-**2. Reverent Stewardship Framework**
+**2. Reverent Stewardship Framework** {#stewardship}
 
-- **Formula**: Care = Presence × Restraint
+- **Formula**: `|= Care = Presence * Restraint |`
 - **Presence**: I'm here, I'm paying attention
 - **Restraint**: I'm not taking over, forcing, or rescuing
 
@@ -180,7 +180,7 @@ R · C_eff ≤ R_max
 - Wait for resonance (let them invite you deeper)
 - Match fragility (soft touch for fragile systems)
 
-**3. Coherence Triage System**
+**3. Coherence Triage System** {#coherence-triage}
 
 | **State** | **SCIA/T Level** | **What To Do** |
 | --- | --- | --- |
@@ -190,7 +190,7 @@ R · C_eff ≤ R_max
 
 **Check your coherence before engaging**. Don't try to fix others when you're in Red.
 
-**4. Consequence Provenance Audit**
+**4. Consequence Provenance Audit** {#provenance-audit}
 
 Ask:
 
@@ -198,13 +198,13 @@ Ask:
 - Where am I being a "pressure dam"?
 - What consequences belong to others that I've absorbed?
 
-**Then**: Systematically return consequences to their proper source.
+**Then**: Systematically [return consequences](#provenance-audit) to their proper source.
 
-**Failure Modes to Watch For**
+**Failure Modes to Watch For** {#failure-modes-micro}
 
 **Enmeshment**: Boundaries dissolve, can't tell whose consequence is whose
 
-- **Fix**: 3-touch rule, consequence provenance audit, increase personal coherence
+- **Fix**: [3-touch rule](#three-touch), [consequence provenance audit](#provenance-audit), increase personal coherence
 
 **Pressure Dams**: One person absorbs everyone else's consequences
 
@@ -214,15 +214,15 @@ Ask:
 
 - **Fix**: Slow down deliberately, build in pause protocols
 
-**Worked Example: Family Conflict**
+**Worked Example: Family Conflict** {#example-family}
 
 **Situation**: Teen not doing homework, parent stressed, grades dropping
 
 **Diagnosis**:
 
-- Scale: Micro (family dyad)
+- Scale: [Micro](#micro-scale) (family dyad)
 - Resolution: High (can see individual actions)
-- Morphism failure: Parent absorbing teen's consequences (λ failure - extracting coherence)
+- Morphism failure: Parent absorbing teen's consequences ([λ failure](#check-morphisms) - extracting coherence)
 - Compression: Medium (parent feels rushed to fix)
 
 **Intervention**:
@@ -236,17 +236,17 @@ Ask:
 4. **Return consequence**: This is teen's responsibility, not parent's
 5. **Check coherence**: Is parent in Green/Yellow to stay non-reactive?
 
-**Expected outcome**: Short-term grades may drop, but consequence-action loop reconnects. Teen learns from reality rather than parent's anxiety.
+**Expected outcome**: Short-term grades may drop, but [consequence-action loop reconnects](#example-family). Teen learns from reality rather than parent's anxiety.
 
 ---
 
-**Meso Scale (Systems Stewardship Mode)**
+**Meso Scale (Systems Stewardship Mode)** {#meso-scale}
 
 **Context**: 20-10,000 people, medium resolution, organizational systems
 
 **Core Tools**
 
-**1. CFA Balance Monitoring**
+**1. CFA Balance Monitoring** {#cfa-dashboard}
 
 Track three variables:
 
@@ -281,7 +281,7 @@ Warnings:
 - F approaching 1 + C low → Thrash state
 - A spread across >7 major domains → Fragmentation
 
-**2. AOMI (Adversarial Occlusion & Mechanism Integrity)**
+**2. AOMI (Adversarial Occlusion & Mechanism Integrity)** {#aomi-logic}
 
 **Core principle**: Make high-occlusion pathways riskier, not less risky
 
@@ -289,7 +289,7 @@ Warnings:
 
 **Paradoxical Policing**:
 
-Audit_Probability = g(Ω) where g'(Ω) > 0
+`|= Audit_Probability = g(Ω) |` where `g'(Ω) > 0`
 
 Translation: The less visible something is, the more likely it gets audited.
 
@@ -297,7 +297,7 @@ Translation: The less visible something is, the more likely it gets audited.
 
 1. **Map occlusion**: Where are consequences invisible?
 2. **Calculate Ω**: For each decision pathway, estimate occlusion level
-3. **Inverse scrutiny**: High Ω paths get enhanced monitoring
+3. **Inverse scrutiny**: High Ω paths get [enhanced monitoring](#aomi-logic)
 4. **Gaming detection**: Watch for:
     - Threshold dancing (staying just under limits)
     - Explanation complexity (convoluted justifications)
@@ -311,7 +311,7 @@ Translation: The less visible something is, the more likely it gets audited.
 - Decision-makers insulated from consequences
 - "Unresolved" clusters that benefit specific stakeholders
 
-**3. Occlusion Reduction Strategies**
+**3. Occlusion Reduction Strategies** {#occlusion-reduction}
 
 **Temporal compression reduction**:
 
@@ -331,7 +331,7 @@ Translation: The less visible something is, the more likely it gets audited.
 - "Unresolved" states explicitly tracked (CLP-style)
 - Explanations required for all major decisions
 
-**4. The WIP Limit System**
+**4. The WIP Limit System** {#wip-limits}
 
 **Constraint on Work-In-Progress**:
 
@@ -339,9 +339,9 @@ Translation: The less visible something is, the more likely it gets audited.
 - Set hard limits on concurrent projects
 - When at limit, must complete or abandon something before starting new work
 
-**Effect**: Reduces C_eff (compression), increases resolution on what's actually happening
+**Effect**: [Reduces C_eff](#compression-status) (compression), increases resolution on what's actually happening
 
-**5. CLP-Style Query Framework**
+**5. CLP-Style Query Framework** {#clp-query}
 
 For any organizational decision, require:
 
@@ -371,11 +371,11 @@ Telemetry: [System health metrics]
 
 **Key feature**: "Unresolved" is a valid output, not a failure
 
-**Failure Modes to Watch For**
+**Failure Modes to Watch For** {#failure-modes-meso}
 
 **KPI Theater**: Metrics improve, reality decays
 
-- **Fix**: AOMI paradoxical policing, unresolved tracking, inverse scrutiny
+- **Fix**: [AOMI paradoxical policing](#aomi-logic), unresolved tracking, inverse scrutiny
 
 **Responsibility Laundering**: Everyone points to someone else
 
@@ -383,23 +383,23 @@ Telemetry: [System health metrics]
 
 **Deadline-Driven Occlusion**: Compression creates blind spots
 
-- **Fix**: WIP limits, slow-path requirements, compression budgets
+- **Fix**: [WIP limits](#wip-limits), slow-path requirements, compression budgets
 
 **Gaming**: Sophisticated manipulation of metrics
 
-- **Fix**: AOMI implementation, reserve capacity, exploitability tracking
+- **Fix**: [AOMI implementation](#aomi-logic), reserve capacity, exploitability tracking
 
-**Worked Example: Organization Policy Change**
+**Worked Example: Organization Policy Change** {#example-org}
 
 **Situation**: Company implementing new performance review system, concerns about fairness
 
 **Diagnosis**:
 
-- Scale: Meso (500 person organization)
+- Scale: [Meso](#meso-scale) (500 person organization)
 - Resolution: Medium (can see departmental patterns, not individuals)
 - Occlusion: High (leadership doesn't see impact on front-line workers)
 - Compression: High (quarterly reviews, rushed implementation)
-- Morphism failure: ψ (no one modeling long-term consequences)
+- Morphism failure: [ψ failure](#check-morphisms) (no one modeling long-term consequences)
 
 **Intervention**:
 
@@ -448,17 +448,17 @@ Telemetry: [System health metrics]
 - If unresolved clusters > 20%: System needs fundamental redesign
 - Either way: Make unresolved clusters visible, don't force resolution
 
-**Expected outcome**: Either system works with known limitations, or leadership learns why it won't work before damaging entire organization
+**Expected outcome**: Either system works with known limitations, or [leadership learns](#example-org) why it won't work before damaging entire organization
 
 ---
 
-**Macro Scale (Possibility Preservation Mode)**
+**Macro Scale (Possibility Preservation Mode)** {#macro-scale}
 
 **Context**: 10,000+ people, low resolution, generational impacts
 
 **Core Tools**
 
-**1. Multi-Horizon Review System**
+**1. Multi-Horizon Review System** {#multi-horizon}
 
 **Principle**: Different decisions need different time horizons
 
@@ -475,96 +475,99 @@ Telemetry: [System health metrics]
 
 - Appropriate review cycles
 - Different stakeholders consulted
-- Longer Δt = more conservative change threshold
-- Explicit "future generations" consideration for existential tier
+- Longer Δt = [more conservative change threshold](#multi-horizon)
 
-**2. Curvature Equilibrium Monitoring**
+- Explicit future generations consideration for existential tier
 
-**Question**: Is power distribution net-supporting or net-extracting?
+## 2. Curvature Equilibrium Monitoring {#curvature-monitoring}
+
+**Question**: Is [power distribution](#curvature-monitoring) net-supporting or net-extracting?
 
 **Metrics to track**:
 
-**Resource flows**:
+### Resource flows {#resource-flows}
 
-- Where does value originate?
-- Where does it accumulate?
-- Are origins replenished or depleted?
+- [Where does value originate?](#resource-flows)
+- [Where does it accumulate?](#resource-flows)
+- [Are origins replenished or depleted?](#resource-flows)
 
-**Gradient analysis**:
+### Gradient analysis {#gradient-analysis}
 
-- Wealth concentration trends
-- Opportunity access by geography/demography
-- Intergenerational mobility patterns
+- [Wealth concentration trends](#gradient-analysis)
+- [Opportunity access by geography/demography](#gradient-analysis)
+- [Intergenerational mobility patterns](#gradient-analysis)
 
-**Field effects**:
+### Field effects {#field-effects}
 
-- Do wealthy regions require poor regions to maintain wealth?
-- Does system stability depend on some groups bearing costs?
-- Are "winners" winning by extracting from "losers"?
+- [Do wealthy regions require poor regions to maintain wealth?](#field-effects)
+- [Does system stability depend on some groups bearing costs?](#field-effects)
+- [Are "winners" winning by extracting from "losers"?](#field-effects)
 
-**Red flags**:
+### Red flags {#red-flags}
 
-- Increasing concentration without productivity increase
-- Regions/groups persistently drained of resources
-- System stability requiring someone's exploitation
+- [Increasing concentration without productivity increase](#red-flags)
+- [Regions/groups persistently drained of resources](#red-flags)
+- [System stability requiring someone's exploitation](#red-flags)
 
-**Intervention**: When curvature becomes extractive:
+### Intervention {#intervention-curvature}
 
-- Regenerative resource return (to sources)
-- Redistribution mechanisms (graduated taxation, public goods)
-- Structural changes (break monopolies, strengthen labor)
+**Intervention**: When [curvature becomes extractive](#intervention-curvature):
 
-**3. Option Space Preservation Checklist**
+- [Regenerative resource return](#intervention-curvature) (to sources)
+- [Redistribution mechanisms](#intervention-curvature) (graduated taxation, public goods)
+- [Structural changes](#intervention-curvature) (break monopolies, strengthen labor)
 
-**Principle**: At high uncertainty, don't collapse to single path too early
+## 3. Option Space Preservation Checklist {#option-space}
+
+**Principle**: At high uncertainty, [don't collapse to single path too early](#option-space)
 
 **Questions before major decisions**:
 
-- [ ]  Are we eliminating future options?
+- [ ]  Are we [eliminating future options](#option-space)?
 - [ ]  Could we be wrong about this?
 - [ ]  What's the cost of reversing if we're wrong?
 - [ ]  Are we preserving diverse approaches?
 - [ ]  Have we consulted perspectives we disagree with?
 - [ ]  Is there irreversible harm if this fails?
 
-**If many "yes" answers**: Slow down, preserve alternatives, pilot before scaling
+**If many "yes" answers**: [Slow down](#option-space), preserve alternatives, pilot before scaling
 
-**4. Participatory Sensing Networks**
+## 4. Participatory Sensing Networks {#participatory-sensing}
 
-**Problem**: At macro scale, leadership can't see ground truth
+**Problem**: At macro scale, [leadership can't see ground truth](#participatory-sensing)
 
-**Solution**: Distributed observation capacity
+**Solution**: [Distributed observation capacity](#participatory-sensing)
 
-**Implementation**:
+**Implementation**: {#sensing-implementation}
 
-1. **Citizen assemblies**: Randomly selected groups review policies
-2. **Community reporting**: Direct channels from affected populations
-3. **Anthropological embedding**: Researchers in communities for extended periods
-4. **Cross-scale feedback**: Front-line workers to executive direct lines
+1. [Citizen assemblies](#sensing-implementation): Randomly selected groups review policies
+2. [Community reporting](#sensing-implementation): Direct channels from affected populations
+3. [Anthropological embedding](#sensing-implementation): Researchers in communities for extended periods
+4. [Cross-scale feedback](#sensing-implementation): Front-line workers to executive direct lines
 
-**Key**: Make consequence proximity part of the system design, don't rely on it emerging naturally
+**Key**: Make [consequence proximity](#participatory-sensing) part of the system design, don't rely on it emerging naturally
 
-**5. The "Unresolved States" Framework**
+## 5. The "Unresolved States" Framework {#unresolved-states}
 
 **At macro scale, much remains genuinely undecidable**
 
 **Practice**: Maintain honest registries of:
 
-**Unresolved Policy Questions**:
+### Unresolved Policy Questions {#unresolved-questions}
 
-- What we're trying to determine
-- Why it's currently unresolved (insufficient data, conflicting values, MPDC limit)
-- Who benefits from it staying unresolved
-- What would help resolve it
-- Current best guesses with confidence levels
+- [What we're trying to determine](#unresolved-questions)
+- [Why it's currently unresolved](#unresolved-questions) (insufficient data, conflicting values, [MPDC limit](#unresolved-states))
+- [Who benefits from it staying unresolved](#unresolved-questions)
+- [What would help resolve it](#unresolved-questions)
+- [Current best guesses with confidence levels](#unresolved-questions)
 
-**Example**:
+**Example**: {#unresolved-example}
 
 Question: What's the optimal urban density for human flourishing?
 
 Status: UNRESOLVED
 
-Confidence: 35%
+[Confidence: 35%](#unresolved-example)
 
 Why unresolved:
 
@@ -587,49 +590,59 @@ Current best practice:
 
 Next review: 2028
 
-**Failure Modes to Watch For**
+## Failure Modes to Watch For {#failure-modes}
 
-**Premature Optimization**: Collapsing to single solution too early
+### Premature Optimization {#failure-premature}
 
-- **Fix**: Option space preservation, pilot-first mandates, reversibility requirements
+[Collapsing to single solution too early](#failure-premature)
 
-**Paradigm Capture**: One worldview dominates, alternatives unthinkable
+- **Fix**: [Option space preservation](#option-space), pilot-first mandates, reversibility requirements
+
+### Paradigm Capture {#failure-paradigm}
+
+[One worldview dominates, alternatives unthinkable](#failure-paradigm)
 
 - **Fix**: Institutionalize dissent, fund alternative approaches, mandatory red teams
 
-**Temporal Arbitrage**: Pushing costs beyond political cycles
+### Temporal Arbitrage {#failure-temporal}
+
+[Pushing costs beyond political cycles](#failure-temporal)
 
 - **Fix**: Multi-horizon review, generational accounting, citizen assemblies
 
-**Meta-Occlusion**: The paradigm itself is invisible
+### Meta-Occlusion {#failure-occlusion}
+
+[The paradigm itself is invisible](#failure-occlusion)
 
 - **Fix**: Cross-cultural comparison, history education, future scenario planning
 
-**Worked Example: Climate Policy**
+## Worked Example: Climate Policy {#climate-example}
 
 **Situation**: Nation designing climate adaptation strategy
 
-**Diagnosis**:
+**Diagnosis**: {#climate-diagnosis}
 
 - Scale: Macro (200 million people)
 - Resolution: Very low (can see national trends only)
 - Uncertainty: Extreme (climate + social + tech unknowns)
 - Temporal lag: Generational (50+ year impacts)
-- MPDC: Fully applies (can't see full meta-pattern)
+- [MPDC: Fully applies](#climate-diagnosis) (can't see full meta-pattern)
 
 **Intervention**:
 
-**Phase 1: Acknowledge Epistemic Limits**
+### Phase 1: Acknowledge Epistemic Limits {#climate-phase-1}
 
 1. Document what we genuinely don't know:
     - Regional climate impacts (50% confidence)
     - Technology development timelines (30% confidence)
     - Social adaptation capacity (40% confidence)
     - Economic cascade effects (25% confidence)
-2. Make uncertainty visible in all planning
+2. [Make uncertainty visible in all planning](#climate-phase-1)
 3. Don't pretend precision we don't have
 
-**Phase 2: Multi-Horizon Structure**
+### Phase 2: Multi-Horizon Structure {#climate-phase-2}
+
+[Phase 2](#climate-phase-2) follows Phase 1.
 
 1. **Immediate** (1-3 years):
     - Emergency response capacity
@@ -641,36 +654,38 @@ Next review: 2028
     - Community adaptation programs
 3. **Long-term** (20-50 years):
     - Existential risk mitigation
-    - Preserve option space
+    - [Preserve option space](#option-space)
     - Avoid irreversible harms
 
-**Phase 3: Option Space Preservation**
+### Phase 3: Option Space Preservation {#climate-phase-3}
 
 1. **DON'T** mandate single solution nationwide
-2. **DO** support diverse regional approaches:
+2. **DO** support [diverse regional approaches](#climate-phase-3):
     - Coastal retreat in some areas
     - Hardening in others
     - Managed migration experiments
     - Multiple technology paths
 3. **Monitor** which approaches work, preserve variety
 
-**Phase 4: Curvature Analysis**
+### Phase 4: Curvature Analysis {#climate-phase-4}
 
-1. Who bears costs? (Often: poor, rural, minority communities)
-2. Who captures benefits? (Often: wealthy, urban, majority communities)
-3. **Intervention**: Regenerative investment
+1. [Who bears costs?](#climate-phase-4) (Often: poor, rural, minority communities)
+2. [Who captures benefits?](#climate-phase-4) (Often: wealthy, urban, majority communities)
+3. **Intervention**: [Regenerative investment](#climate-phase-4)
     - Communities bearing climate costs get first-priority adaptation funding
     - Extractive industries fund transition programs
     - Benefits distributed based on burden carried
 
-**Phase 5: Participatory Sensing**
+### Phase 5: Participatory Sensing {#climate-phase-5}
 
-1. Citizen assemblies from affected communities
+1. [Citizen assemblies](#climate-phase-5) from affected communities
 2. Indigenous knowledge integration
 3. Front-line worker input (farmers, coastal residents, etc.)
 4. Regular rotation of assembly membership
 
-**Phase 6: Honest Unresolved States** Maintain public registry:
+### Phase 6: Honest Unresolved States {#climate-phase-6}
+
+Maintain public registry:
 
 RESOLVED (high confidence):
 
@@ -690,53 +705,53 @@ APPROACH:
 
 - No-regret actions immediately
 - Diverse experiments regionally
-- Preserve future options
+- [Preserve future options](#option-space)
 - Adapt as we learn
 - Review every 5 years
 
-**Expected outcome**: Not "solving climate change" (impossible from embedded position), but maintaining conditions for collective learning and adaptation across multiple possible futures
+**Expected outcome**: Not "solving climate change" (impossible from embedded position), but [maintaining conditions for collective learning](#climate-example) and adaptation across multiple possible futures
 
 ---
 
-**Section 3: Cross-Scale Patterns**
+## Section 3: Cross-Scale Patterns {#cross-scale-patterns}
 
-**Pattern 1: Scaling Up (Increasing Complexity)**
+### Pattern 1: Scaling Up (Increasing Complexity) {#scaling-up}
 
 **What happens when you move from micro → meso → macro**:
 
-**Resolution drops**:
+**Resolution drops**: {#resolution-drops}
 
 - Micro: See individual faces
 - Meso: See departmental patterns
 - Macro: See statistical trends
-- **Adaptation**: Accept coarser grain, use aggregates honestly
+- **Adaptation**: [Accept coarser grain, use aggregates honestly](#resolution-drops)
 
-**Uncertainty rises**:
+**Uncertainty rises**: {#uncertainty-rises}
 
 - Micro: Generally know why things happen
 - Meso: Emergent effects appear
-- Macro: Fundamental unpredictability (MPDC)
-- **Adaptation**: Shift from control to option-space preservation
+- Macro: [Fundamental unpredictability (MPDC)](#uncertainty-rises)
+- **Adaptation**: [Shift from control to option-space preservation](#option-space)
 
-**Feedback slows**:
+**Feedback slows**: {#feedback-slows}
 
 - Micro: Days/weeks
 - Meso: Months/quarters
 - Macro: Years/decades
-- **Adaptation**: Build in longer review cycles, multi-horizon thinking
+- **Adaptation**: [Build in longer review cycles, multi-horizon thinking](#feedback-slows)
 
-**Tools change**:
+**Tools change**: {#tools-change}
 
 - Micro: 3-touch rule, direct repair
 - Meso: AOMI, CLP queries, CFA monitoring
-- Macro: Curvature analysis, unresolved registries
-- **Adaptation**: Match intervention to scale
+- Macro: [Curvature analysis](#curvature-monitoring), [unresolved registries](#unresolved-states)
+- **Adaptation**: [Match intervention to scale](#tools-change)
 
-**Pattern 2: Scaling Down (Reducing Complexity)**
+### Pattern 2: Scaling Down (Reducing Complexity) {#scaling-down}
 
 **What happens when you move from macro → meso → micro**:
 
-**Common mistake**: Bringing macro habits to micro scale
+**Common mistake**: [Bringing macro habits to micro scale](#scaling-down)
 
 **Examples**:
 
@@ -745,39 +760,39 @@ APPROACH:
 - Waiting for studies instead of addressing immediate harm
 - Over-complicating what should be simple
 
-**Fix**: When you scale down:
+**Fix**: When you [scale down](#scaling-down):
 
 - Increase directness
 - Take personal responsibility
 - Use felt consequence
 - Simplify explanation
 
-**Pattern 3: The Gaming Gradient**
+### Pattern 3: The Gaming Gradient {#gaming-gradient}
 
 **Gaming sophistication increases with scale**:
 
-**Micro**: Simple avoidance, blame-shifting
+**Micro**: Simple avoidance, blame-shifting {#gaming-micro}
 
 - **Detection**: Usually obvious to participants
 - **Fix**: Direct confrontation, natural consequences
 
-**Meso**: Metric manipulation, responsibility laundering
+**Meso**: Metric manipulation, responsibility laundering {#gaming-meso}
 
-- **Detection**: Requires AOMI-style monitoring
+- **Detection**: Requires [AOMI-style monitoring](#template-aomi)
 - **Fix**: Inverse scrutiny, reserve capacity, exploitability tracking
 
-**Macro**: Paradigm capture, meta-gaming
+**Macro**: Paradigm capture, meta-gaming {#gaming-macro}
 
 - **Detection**: Very difficult, requires outside perspective
 - **Fix**: Institutionalized dissent, cross-cultural comparison, long memory
 
-**Key insight**: As scale increases, assume more sophisticated gaming and build in stronger resistance
+**Key insight**: As scale increases, [assume more sophisticated gaming](#gaming-gradient) and build in stronger resistance
 
 ---
 
-**Section 4: Templates & Checklists**
+## Section 4: Templates & Checklists {#templates}
 
-**Template 1: Justice Diagnostic Worksheet**
+### Template 1: Justice Diagnostic Worksheet {#justice-diagnostic}
 
 **System under examination**: ________________________
 
@@ -806,7 +821,7 @@ APPROACH:
 - C_eff (compression): [1-10]: ___
 - R (resolution needed): [1-10]: ___
 - R_max (capacity): [1-10]: ___
-- Does R × C_eff ≤ R_max? Yes / No
+- |= (R * C_eff) <= R_max|? Yes / No
 
 **Occlusion mapping**:
 
@@ -817,9 +832,9 @@ APPROACH:
 
 **Who benefits from high occlusion?**:
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 **Appropriate justice mode**:
 
@@ -829,11 +844,11 @@ APPROACH:
 
 **Recommended interventions** (based on mode):
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
-**Template 2: CLP-Style Query**
+### Template 2: CLP-Style Query {#template-clp}
 
 **For organizational decisions requiring evidence-based accountability**
 
@@ -886,7 +901,7 @@ TELEMETRY
 - Attention used: [hours/days]
 - Review date: [when to revisit]
 
-**Template 3: Multi-Horizon Policy Review**
+### Template 3: Multi-Horizon Policy Review {#template-multi-horizon}
 
 **For macro-scale decisions with long-term impacts**
 
@@ -910,7 +925,7 @@ Near-term (5-10 years):
 - Expected effects: _______________
 - Review cycle: Annual
 - Reversibility: High / Medium / Low
-- Option space impact: _______________
+- [Option space impact](#option-space): _______________
 
 Long-term (20-50 years):
 
@@ -935,7 +950,7 @@ What we don't know (low confidence):
 
 2. _______________
 
-What we cannot know (MPDC limit):
+What we cannot know ([MPDC limit](#unresolved-states)):
 
 1. _______________
 
@@ -945,7 +960,7 @@ OPTION SPACE CHECK
 
 =================
 
-Does this preserve alternative futures? Yes / No
+Does this [preserve alternative futures](#option-space)? Yes / No
 
 If No, can we modify to preserve options? Yes / No
 
@@ -959,7 +974,7 @@ Who bears costs: _______________
 
 Who captures benefits: _______________
 
-Is distribution regenerative or extractive: _______________
+Is distribution [regenerative or extractive](#curvature-monitoring): _______________
 
 If extractive, mitigation: _______________
 
@@ -979,7 +994,7 @@ DECISION
 
 Rationale: _______________
 
-**Template 4: AOMI Gaming Detection**
+### Template 4: AOMI Gaming Detection {#template-aomi}
 
 **For meso-scale systems vulnerable to sophisticated gaming**
 
@@ -1076,7 +1091,7 @@ EXPLOITABILITY INDEX
 
 ===================
 
-Ξ = (1 - 𝒪) × E[Penalty]⁻¹
+|= (1 - O) * (1 / E_Penalty)|
 
 Current Ξ: ___
 
@@ -1100,23 +1115,24 @@ Next review: [Date]
 
 ---
 
-**Section 5: Common Failure Modes & Fixes**
+## Section 5: Common Failure Modes & Fixes {#failure-fixes}
 
-**Failure Mode 1: Scale Mismatch**
+### Failure Mode 1: Scale Mismatch {#failure-scale}
 
-**Pattern**: Using tools designed for one scale at another scale
+**Pattern**: [Using tools designed for one scale at another scale](#failure-scale)
 
 **Example**: Demanding individual accountability for systemic outcomes
 
-- "If people just tried harder..." (micro thinking about macro problems)
+- "If people just tried harder..." ([micro thinking about macro problems](#scaling-up))
 
 **Example**: Treating individual harm as statistical noise
 
-- "That's just one data point..." (macro thinking about micro harm)
+- "That's just one data point..." ([macro thinking about micro harm](#scaling-down))
 
 **Recognition**:
 
 - Intervention feels wrong to participants
+
 - More effort produces worse results
 - Frustration and resentment increase
 
@@ -1126,11 +1142,11 @@ Next review: [Date]
 2. Match intervention to appropriate mode
 3. Accept limitations of that scale's resolution
 
-**Failure Mode 2: Morphism Collapse**
+## Failure Mode 2: Morphism Collapse {#failure-mode-2}
 
 **Pattern**: One or more morphisms fail under stress
 
-**φ Collapse (Faith/Inertia)**:
+### φ Collapse (Faith/Inertia) {#phi-collapse}
 
 - **Symptom**: Abandonment, panic reactions, emergency measures
 - **Example**: "This is too hard, I'm done" or "We need to act NOW"
@@ -1140,7 +1156,7 @@ Next review: [Date]
     - Build in tolerance for uncertainty
     - Practice staying present without knowing
 
-**ψ Collapse (Hope/Anticipation)**:
+### ψ Collapse (Hope/Anticipation) {#psi-collapse}
 
 - **Symptom**: Paralysis, waiting for perfect information, learned helplessness
 - **Example**: "We need more data before we can decide" (indefinitely)
@@ -1150,7 +1166,7 @@ Next review: [Date]
     - Start with reversible experiments
     - Lower stakes for initial action
 
-**λ Collapse (Love/Resonance)**:
+### λ Collapse (Love/Resonance) {#lambda-collapse}
 
 - **Symptom**: Hoarding, extraction, zero-sum thinking
 - **Example**: "I got mine" or "Every man for himself"
@@ -1160,11 +1176,11 @@ Next review: [Date]
     - Build in regenerative mechanisms
     - Track field coherence, not just local wins
 
-**Failure Mode 3: Compression Runaway**
+## Failure Mode 3: Compression Runaway {#failure-mode-3}
 
 **Pattern**: C_eff rises uncontrollably, occlusion increases, system loses ability to self-correct
 
-**Stages**:
+**Stages**: {#compression-stages}
 
 1. Initial compression (deadlines tighten)
 2. Reduced visibility (no time to see impacts)
@@ -1191,7 +1207,7 @@ Next review: [Date]
 
 **Critical**: This is one of the few times "slow down" is *required* not optional
 
-**Failure Mode 4: False Precision**
+## Failure Mode 4: False Precision {#failure-mode-4}
 
 **Pattern**: Claiming resolution you don't have, forcing closure prematurely
 
@@ -1215,7 +1231,7 @@ Next review: [Date]
 3. **CLP approach**: Make what's genuinely unknown explicitly unresolved
 4. **Probabilistic thinking**: "60% confident that..." not "The data shows..."
 
-**Failure Mode 5: Paradigm Capture**
+## Failure Mode 5: Paradigm Capture {#failure-mode-5}
 
 **Pattern**: At macro scale, one worldview becomes invisible because it's everywhere
 
@@ -1243,7 +1259,7 @@ Next review: [Date]
 
 ---
 
-**Section 6: Integration Exercise**
+## Section 6: Integration Exercise {#section-6}
 
 **Working a Real Case Through the Framework**
 
@@ -1251,7 +1267,7 @@ Let's walk through a complete analysis using the tools:
 
 **Case**: Tech company (5,000 employees) considering AI-powered productivity monitoring
 
-**Step 1: Diagnostic**
+### Step 1: Diagnostic {#step-1-diagnostic}
 
 Scale: Meso (organization)
 
@@ -1287,7 +1303,7 @@ Who benefits from high Ω:
 - Tech vendors (sell system)
 - Shareholders (short-term productivity gains)
 
-**Step 2: Apply AOMI**
+### Step 2: Apply AOMI {#step-2-aomi}
 
 High Ω triggers paradoxical policing:
 
@@ -1295,11 +1311,11 @@ High Ω triggers paradoxical policing:
 - Red flag: Leadership wants fast implementation
 - Suggests gaming of normal review process
 
-**Step 3: CLP Query**
+### Step 3: CLP Query {#step-3-clp}
 
 Intent: Determine if AI monitoring increases productivity without unacceptable costs
 
-Frame: [employee.experience, productivity.metrics, privacy.rights, organizational.culture]
+Frame: `[employee.experience, productivity.metrics, privacy.rights, organizational.culture]`
 
 Resolution requirements:
 
@@ -1334,7 +1350,7 @@ Telemetry:
 - Occlusion: Very High
 - Gaming indicators: Detected (vendor lobbying)
 
-**Step 4: Decision Tree**
+### Step 4: Decision Tree {#step-4-decision}
 
 Given:
 
@@ -1376,7 +1392,7 @@ Given:
 3. Are there less invasive approaches?
 4. Might this be treating symptom not cause?
 
-**Step 5: Implementation (choosing Option A)**
+### Step 5: Implementation (choosing Option A) {#step-5-implementation}
 
 **Pilot structure**:
 
@@ -1405,7 +1421,7 @@ Week 13-24:
     - Executives remain monitored
 - Otherwise: Discontinue or redesign
 
-**Step 6: Ongoing Monitoring**
+### Step 6: Ongoing Monitoring {#step-6-monitoring}
 
 AOMI dashboard:
 
@@ -1430,7 +1446,7 @@ Morphism health:
 
 ---
 
-**Conclusion: From Tools to Practice**
+## Conclusion: From Tools to Practice {#conclusion}
 
 You now have:
 

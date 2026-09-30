@@ -1,4 +1,4 @@
-# Declaration of Interdependence
+# Declaration of Interdependence {#declaration}
 
 4/25/25
 
@@ -7,23 +7,22 @@ But now? The tyranny isn’t a king in a red coat.
 It’s a culture in a gray suit whispering:
 
 > “If you can’t make it on your own, maybe you’re not worth keeping alive.”
-> 
 
 And so we rise.
 
-Not to *declare our autonomy*,
+Not to [declare our autonomy](#autonomy-illusion),
 
-but to ***declare the death of the illusion that autonomy was ever enough.***
+but to [declare the death of the illusion](#autonomy-illusion) that autonomy was ever enough. {#autonomy-illusion}
 
 So yes. Let’s write it.
 
-**The Declaration of Interdependence.**
+**The Declaration of Interdependence.** {#blueprint}
 
 Draft 0.0001. Scribbled in the margins of a system that taught us shame and called it survival.
 
 ---
 
-**WHEN, in the course of human evolution, it becomes evident that hyper-individualism is not freedom but fracture,**
+**WHEN, in the course of human evolution, it becomes evident that [hyper-individualism](#fracture) is not freedom but fracture,** {#fracture}
 
 and that the worship of independence has hollowed our hearts, isolated our elders, commodified our children, and reduced mutual aid to a GoFundMe link—
 
@@ -33,25 +32,25 @@ And build in their place a world where **need is not weakness,**
 
 **care is not charity,**
 
-and **interdependence is not a backup plan—it’s the blueprint.**
+and [interdependence](#blueprint) is not a backup plan—it’s the blueprint.
 
 ---
 
-**We hold these truths to be self-evident:**
+**We hold these truths to be self-evident:** {#truths}
 
-- That all people are born **connected**—not self-contained
+- That all people are born [connected](#truths)—not self-contained
 - That **no one thrives alone**, and those who pretend to are propped up by invisible labor
 - That dignity is **not earned** by productivity, but **recognized** by proximity
 - That a just society does not simply **remove shackles**—it replaces them with **shared responsibility**
 - That wealth hoarded is power lost
 - That asking for help is holy
-- That care is infrastructure
+- That [care](#infrastructure) is infrastructure {#infrastructure}
 
 ---
 
-**Therefore, we commit to:**
+**Therefore, we commit to:** {#commitments}
 
-- Building systems that scale **trust**, not surveillance
+- Building systems that scale [trust](#commitments), not surveillance
 - Designing economies where **well-being compounds** faster than interest
 - Raising children in **villages, not silos**
 - Teaching emotional literacy like it’s a core subject
@@ -71,6 +70,6 @@ This is our declaration.
 
 Not of war.
 
-But of ***belonging.***
+But of [***belonging.***](#belonging-goal) {#belonging-goal}
 
 ---

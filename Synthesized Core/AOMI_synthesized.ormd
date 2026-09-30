@@ -28,7 +28,7 @@ semantics:
 lineage:
   parents:
   - urn:cb:AOMI AI responses.ormd
-  - urn:cb:Adversarial Occlusion and Mechanism Integrity V1.ormd
+  - urn:cb:Adversarial Occlusion and Mechanism Integrity.ormd
   - urn:cb:AOMI Adversarial Occlusion and Mechanism Integrity.ormd
 resolution:
   confidence: 0.95

@@ -11,8 +11,7 @@ const publicRoot = path.join(siteRoot, "public");
 const docsRoot = path.join(coreRoot, "docs");
 const registryPath = path.join(coreRoot, "core_registry.json");
 const contextRoot = path.join(coreRoot, "E2Core", "Context Layer");
-const semanticIndexPath = path.join(coreRoot, "E2Core", "context layer index.md");
-const contextIndexPath = path.join(contextRoot, "Context Layer Index.ormd");
+const contextIndexPath = path.join(contextRoot, "Context Layer Master Index.ormd");
 const graphRelationsPath = path.join(siteRoot, "graph-relations.yml");
 const ormdPrimaryPath = path.join(siteRoot, "scripts", "ormd-primary.json");
 const publicSiteBase = "https://e2-core-framework.capulusirl.chatgpt.site";
@@ -35,6 +34,7 @@ if (!(await exists(registryPath))) {
 
 const registry = JSON.parse(await readFile(registryPath, "utf8"));
 const ormdPrimary = new Set(JSON.parse(await readFile(ormdPrimaryPath, "utf8")));
+const stableSlugs = JSON.parse(await readFile(path.join(siteRoot, "scripts", "stable-slugs.json"), "utf8"));
 const indexText = await readFile(contextIndexPath, "utf8");
 
 const slugify = (value) => value
@@ -114,10 +114,10 @@ const allContextItems = contextRecords.flatMap((record) =>
 
 const slugCounts = new Map();
 const items = allContextItems.map(({ record, context }) => {
-  const isMasterIndex = context.name.toLowerCase() === "context layer index.ormd";
+  const isMasterIndex = context.name.toLowerCase() === "context layer master index.ormd";
   const baseSlug = isMasterIndex
     ? "context-layer-master-index"
-    : slugify(context.stem || context.name.replace(/\.ormd$/i, ""));
+    : (stableSlugs[context.name] ?? slugify(context.stem || context.name.replace(/\.ormd$/i, "")));
   const count = (slugCounts.get(baseSlug) ?? 0) + 1;
   slugCounts.set(baseSlug, count);
   const slug = count === 1 ? baseSlug : `${baseSlug}-${count}`;
@@ -164,8 +164,11 @@ for (const item of items) {
   registerCorpusName(item.slug, item.slug);
 }
 registerCorpusName("context layer index.md", "context-layer-master-index");
+registerCorpusName("Context Layer Master Index.md", "context-layer-master-index");
 
 function resolveCorpusLabel(label) {
+  const exact = corpusNameToSlug.get(label.trim().toLowerCase());
+  if (exact) return exact;
   const normalized = normalizedCorpusName(label);
   if (!normalized || normalized.length < 3) return null;
 
@@ -274,6 +277,25 @@ function stripHumanEnvelope(markdown) {
   return withoutBom;
 }
 
+const unresolvedLocalAnchors = new Map();
+function neutralizeDanglingLocalLinks(markdown, slug) {
+  const anchors = new Set([...markdown.matchAll(/\{#([A-Za-z0-9_-]+)\}/g)].map((match) => match[1]));
+  let fenced = false;
+  return markdown.split("\n").map((line) => {
+    if (/^\s*(```|~~~)/.test(line)) {
+      fenced = !fenced;
+      return line;
+    }
+    if (fenced) return line;
+    return line.replace(/\[([^\]]+)\]\(#([A-Za-z0-9_-]+)(?:\s+"[^"]*")?\)/g, (whole, label, fragment) => {
+      if (anchors.has(fragment) || (slug === "context-layer-master-index" && fragment === "anchor")) return whole;
+      const key = `${slug}#${fragment}`;
+      unresolvedLocalAnchors.set(key, (unresolvedLocalAnchors.get(key) ?? 0) + 1);
+      return label;
+    });
+  }).join("\n");
+}
+
 function escapeHtml(value = "") {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -339,7 +361,7 @@ for (const item of items) {
     if (semanticSources.length !== 1) throw new Error(`ORMD-primary document requires one human counterpart: ${item.context.name}`);
     humanText = projectOrmdToHuman(ormdText);
   } else if (item.slug === "context-layer-master-index") {
-    humanText = await readFile(semanticIndexPath, "utf8");
+    humanText = projectOrmdToHuman(ormdText);
   } else if (semanticSources.length === 1) {
     humanText = await readFile(path.join(coreRoot, ...semanticSources[0].path.split("/")), "utf8");
   } else if (semanticSources.length > 1) {
@@ -356,7 +378,7 @@ for (const item of items) {
   const title = frontmatter.title || item.context.title || item.record.key;
   humanText = stripHumanEnvelope(humanText);
   if (item.slug === "context-layer-master-index") humanText = rewriteIndexDocumentLinks(humanText);
-  humanText = rewriteHumanLinks(humanText).replace(/\r\n/g, "\n");
+  humanText = neutralizeDanglingLocalLinks(rewriteHumanLinks(humanText).replace(/\r\n/g, "\n"), item.slug);
   humanTextBySlug.set(item.slug, humanText);
   await writeFile(path.join(publicRoot, "ormd", `${item.slug}.ormd`), ormdBytes);
   await writeFile(path.join(publicRoot, "human", `${item.slug}.md`), humanText, "utf8");
@@ -389,7 +411,7 @@ for (const item of items) {
     humanUrl: `/human/${item.slug}.md`,
     ormdUrl: `/ormd/${item.slug}.ormd`,
     humanSources: semanticSources.map((source) => source.name),
-    humanSourceMode: ormdPrimary.has(item.context.name) ? "ormd-projection" : "preserved-semantic-substrate",
+    humanSourceMode: ormdPrimary.has(item.context.name) || item.slug === "context-layer-master-index" ? "ormd-projection" : "preserved-semantic-substrate",
     ormdSource: item.context.name,
     humanSha256: sha256(Buffer.from(humanText, "utf8")),
     ormdSha256: sha256(ormdBytes),
@@ -649,6 +671,7 @@ await writeFile(path.join(coreRoot, "llms.txt"), llmsText, "utf8");
 await writeFile(path.join(publicRoot, "catalog.json"), catalogText, "utf8");
 await writeFile(path.join(publicRoot, "graph.json"), graphText, "utf8");
 await writeFile(path.join(publicRoot, "ormd-corpus.txt"), corpusText, "utf8");
+await writeFile(path.join(siteRoot, "ORMD_LOCAL_ANCHOR_REVIEW.json"), `${JSON.stringify(Object.fromEntries(unresolvedLocalAnchors), null, 2)}\n`, "utf8");
 await writeFile(path.join(docsRoot, "index.html"), htmlIndex, "utf8");
 await writeFile(path.join(docsRoot, "corpus.html"), htmlCorpus, "utf8");
 await writeFile(path.join(docsRoot, "catalog.json"), catalogText, "utf8");

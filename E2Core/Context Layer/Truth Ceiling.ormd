@@ -19,6 +19,8 @@ pageSetup:
   template: academic
 ---
 
+# The Truth-Ceiling: A Categorical Formulation for Scalable Truth {#truth-ceiling}
+
 > **Meta-Frame.** This note is a first-pass [categorical abstraction](#categorical-formulation "meta:corresponds_to") of the [Truth-Ceiling hypothesis](#intuition "ontological:defines"). We preserve [operational semantics](#operational-core "meta:corresponds_to") (buffers, guardrails, instrumentation, attribution) while elevating structure via enriched categories, lax classifiers, Galois connections, factorization systems, and reflective subcategories.
 
 # 1) Intuition (for non-category folks) {#intuition}

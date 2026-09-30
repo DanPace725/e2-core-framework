@@ -50,9 +50,9 @@ semantics:
   - specification
 lineage:
   parents:
-  - urn:cb:E^2 Entry Point.ormd
-  - urn:cb:The Essence of Existence.ormd
-  - urn:cb:Original E^2 work.ormd
+  - urn:cb:E2 Entry Point.ormd
+  - urn:cb:Care, Attention, and Coherence - A Relational Manifesto.ormd
+  - urn:cb:E2 Corpus Lineage Index.ormd
   - urn:cb:E^2 Primer Compression.ormd
   - urn:cb:E^2_Equation.ormd
   - urn:cb:Essence of Existence E^2.ormd

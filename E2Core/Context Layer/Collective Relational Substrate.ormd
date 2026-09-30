@@ -24,7 +24,7 @@ conversion:
   method: "lineage_preserving_merge"
   preserves: "primary body plus archived source lineage; secondary body appended where needed"
   note: "Created for E2Core Consolidation Plan step 1.2. Original source files archived after merge."
-  fold_note: "2026-09-29 Stage 1: archived duplicate 2026-02-19 human predecessor; active CRS.md retains the 2026-02-20 body. The cognitive subtype fold remains under review."
+  fold_note: "2026-09-29 Stage 1: archived duplicate 2026-02-19 human predecessor; active Collective Relational Substrate.md retains the 2026-02-20 body. The cognitive subtype fold remains under review."
 ---
 # Collective Relational Substrate
 

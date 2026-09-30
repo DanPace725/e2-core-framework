@@ -1,6 +1,7 @@
 # E² Equation - Reframe Review
 
-**Status:** staged source review; no active source or archive has been changed.
+**Status:** review applied on 2026-09-29. The original human dialogue was preserved at `archive/20260929_equation_dialogue/`, and the active human/ORMD pair was reframed in place. The review below records the source comparison that led to the change.
+**Reference follow-up:** the Axioms, Entry Point, and Relational Primitives pairs now describe the Equation as provisional notation; both authored Context Layer indexes state its limited scope and reading-route role.
 **Plan package:** `E2Core/E2Core Consolidation Plan - 2026-09-29.md` §3 C and §4 step 4.
 **Reviewed:** active human/ORMD pair, June dialogue archive and tracking note, active Global Closure Operator, and nearby Entry Point and Relational Primitives references. The September 22 staged resolution review was consulted for its explicit counterexample, not treated as canonical source.
 

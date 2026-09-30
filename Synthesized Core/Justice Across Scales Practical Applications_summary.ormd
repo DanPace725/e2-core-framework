@@ -9,7 +9,7 @@ lineage:
     uri: internal://summary/justice-praxis-summary
     ts: '2023-10-27T12:00:00Z'
   parents:
-  - urn:cb:Justice Across Scales Practical Applications.ormd
+  - urn:cb:Justice Across Scales - Practical Applications.ormd
 policy:
   read:
   - roles:

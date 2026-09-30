@@ -1,0 +1,38 @@
+# Relational Primitive Translations {#relational-primitive-translations}
+
+## Purpose and status {#purpose-and-status}
+
+This document holds two exploratory translations of the six Relational Primitives into mathematical languages. The primitive definitions and typing rules remain in `Relational Primitives.ormd`. Neither translation establishes a one-to-one equivalence, completeness theorem, new physical law, or fixed point of E². The earlier categorical and lambda-calculus drafts are preserved in the archive with their original wording and dates (2025-11-18 and 2025-11-25). The confidence value above is an editorial signal of provisional status, not a measured probability.
+
+## Categorical analogies {#categorical-analogies}
+
+A chosen category may encode some relations in a particular domain, provided its objects, arrows, composition, and additional structure are specified. The earlier draft proposed the following candidate correspondences. Each row is an option for modeling, not a definition of its primitive.
+
+| Primitive | Candidate categorical device | Required choice or limit |
+| --- | --- | --- |
+| Ontological | Objects and, where composition is needed, a monoidal product | Choose what counts as an object and what the tensor represents; an identity arrow alone does not establish physical persistence. |
+| Dynamical | Morphisms and their composition | Choose the domain, state/transition interpretation, and time representation. Not every arrow is a physical event. |
+| Geometric / Causal | Monoidal structure, diagrams, and a separately defined causal order | Tensor wiring alone does not determine spacetime geometry or causal no-signaling. |
+| Symmetric / Constraint | Isomorphisms, groupoids, and selected limits such as equalizers | Specify the transformations and equations before treating an equalizer as an allowed-state space. |
+| Epistemic / Informational | Stochastic channels or a suitable Kleisli category | Choose the probability structure and observation model; neither entropy nor measurement follows from the word “monad.” |
+| Meta-Relational | Functors, natural transformations, or adjunctions between specified categories | Supply the source/target categories and preservation properties; a proposed cross-theory analogy is not automatically a functor or adjunction. |
+
+The historical draft wrote a theory-shaped tuple $\mathcal{T}=(\mathcal{C},\otimes,\mathrm{Hom},\mathcal{G},\mathcal{K}_T,\mathcal{F})$. It is a list of proposed ingredients rather than an axiomatized physical theory: the components are not defined together, and their interpretation depends on a selected application. Its proposed condition $\top_B\circ f=\top_A$ does not by itself prove no-signaling when $\top$ merely denotes the unique maps to a terminal object. Likewise, naming monoidal products, equalizers, probability monads, and functors does not prove that the six primitives span all categorical structure. The original six-row formal examples remain available in the archived draft for future domain-specific work.
+
+## Lambda-calculus attempt {#lambda-calculus-attempt}
+
+The other draft used $P=\lambda x.x$ as a “primitive” seed and $C=\lambda f.\lambda x.f(fx)$ as a closure operator, then displayed $L_0=P$, $L_1=CP$, $L_2=C(CP)$ and $E^2=YCP$, where $Y$ is an untyped fixed-point combinator. These expressions are retained as the exact *kind* of encoding attempted, not as an established translation of the primitive sequence.
+
+With these definitions, the first application reduces to the seed:
+
+$$
+CP=\lambda x.P(Px)=\lambda x.x=P.
+$$
+
+Repeated applications of $C$ to $P$ therefore do not create distinct levels. Church numerals count applications of a selected function, but that does not identify relational patterns, principles, or paradigms with the numerals. The draft's nested terms such as $\lambda m.(\lambda g.(\lambda k.(\lambda t.P)))$ bind names without applying the named processes. A typed representation would need actual operations and types for the proposed stages.
+
+A fixed-point combinator supplies a fixed-point expression under particular calculus rules. It does not show that iterating a physical or ethical process converges, stabilizes, or reaches a preferred state. The earlier $E^2=YCP$ is therefore a historical notation experiment, not a result of the active `E^2 Equation.ormd`. A future translation would need explicit syntax, reduction rules, semantics for each primitive, and checked examples that preserve the distinctions it claims to encode.
+
+## Relationship to the canonical source {#relationship-to-canonical-source}
+
+Use `Relational Primitives.ormd` for the six-part working grammar. Use this document to inspect optional representational analogies and the reasons their stronger historical conclusions do not follow. `Derivation deep dive.ormd` is a separate exploratory physics/categorical survey; it is not folded into these two translations. The CT source's parent identifier `urn:cb:relational-ontology-paper` and the lambda source's `urn:cb:relational-physics-core` remain unresolved historical identifiers and are preserved in their archived envelopes without an invented mapping.

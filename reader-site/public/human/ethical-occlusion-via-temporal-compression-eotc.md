@@ -125,4 +125,3 @@ EOTC does not claim that all ethical failure is caused by speed. It claims that 
 ## Summary {#summary}
 
 Ethical occlusion via temporal compression names the point at which speed outruns responsibility. The remedy is not simply more virtue. It is better temporal design: slower critical paths, clearer resolution floors, stronger observability, honest remainder tracking, and accountability mechanisms matched to scale.
-

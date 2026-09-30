@@ -1,21 +1,21 @@
-# The Operating Window: Three Constants from One Landscape
+# The Operating Window: Three Constants from One Landscape {#title}
 2/23/2026
 
 ## A plain-language account of the TCL analytical results
 
 ---
 
-## What This Document Covers
+## What This Document Covers {#summary}
 
-After weeks of computational exploration (thousands of simulations across multiple model variants), the investigation converged on three precise mathematical constants that together define where robust adaptive lamination can exist. All three derive from the same geometric feature of the underlying potential landscape. This document explains what those constants are, where they come from, how they were found, and what they mean.
+After weeks of computational exploration (thousands of simulations across multiple model variants), the investigation converged on [three precise mathematical constants](#constants) that together define where robust adaptive lamination can exist. All three derive from the same [geometric feature](#fold-point) of the underlying potential landscape. This document explains what those constants are, where they come from, how they were found, and what they mean.
 
 This is a companion to the earlier summary ("Temporal Constraint Lamination: What We Found"), which covers the full research process. This document focuses specifically on the final analytical result.
 
 ---
 
-## The Setup
+## The Setup {#setup}
 
-The model studies a system with two coupled layers operating at different speeds. The fast layer (the "state layer") sits in a landscape with two valleys separated by a hill. It prefers to be in one valley or the other. The slow layer (the "modulation layer") influences the fast layer, encouraging it to switch between valleys. When this works, the system oscillates: cycling between states in a coordinated rhythm. That oscillation is "lamination."
+The model studies a system with two coupled layers operating at different speeds. The fast layer (the "state layer") sits in a landscape with two valleys separated by a hill. It prefers to be in one valley or the other. The slow layer (the "modulation layer") influences the fast layer, encouraging it to switch between valleys. When this works, the system [oscillates](#oscillation): cycling between states in a coordinated rhythm. That oscillation {#oscillation} is "lamination."
 
 The coupling between layers has two flavors:
 
@@ -29,53 +29,53 @@ The investigation discovered that these two types of coupling have fundamentally
 
 ---
 
-## The Three Constants
+## The Three Constants {#constants}
 
-### Constant 1: The Viability Floor
+### Constant 1: The Viability Floor {#constant-1}
 
 $$\sigma_a > \sqrt{2 \cdot z_{\text{eff}} / 3}$$
 
 **What it means:** The slow layer's tilt must be strong enough to push the fast layer over the hill between valleys. If the tilt can't reach past the critical point of the hill (the "fold point"), the fast layer stays stuck in one valley forever. No oscillation. No lamination. Just stasis.
 
-**Where it comes from:** The hill in the landscape has a specific geometric feature: the fold point, located at $x_f = 1/\sqrt{3} \approx 0.577$. This is where the hill is steepest, the tipping point beyond which the valley on one side ceases to exist. The slow layer's influence must reach this point. The math of that requirement gives the formula above.
+**Where it comes from:** The hill in the landscape has a specific geometric feature: the [fold point](#fold-point) {#fold-point}, located at $x_f = 1/\sqrt{3} \approx 0.577$. This is where the hill is steepest, the tipping point beyond which the valley on one side ceases to exist. The slow layer's influence must reach this point. The math of that requirement gives the formula above.
 
 **With our parameters:** The floor is at σ_a ≈ 0.757. Below this, the system is dead.
 
 **Plain terms:** There is a minimum strength of structural coupling required for adaptive cycling to exist at all. It's set by the geometry of the landscape's tipping point.
 
-### Constant 2: The Chaos Ceiling
+### Constant 2: The Chaos Ceiling {#constant-2}
 
 $$\sigma_a < \sqrt{z_{\text{eff}} + \varepsilon}$$
 
-**What it means:** If the slow layer pushes too hard, and there's any communication delay between the layers, the system goes chaotic. Not dead, chaotic. It oscillates, but incoherently, with no regularity or structure. The coupling is so strong that mistimed pushes (inevitable with any delay) destabilize the entire rhythm.
+**What it means:** If the slow layer pushes too hard, and there's any [communication delay](#delay) {#delay} between the layers, the system goes chaotic. Not dead, chaotic. It oscillates, but incoherently, with no regularity or structure. The coupling is so strong that mistimed pushes (inevitable with any delay) destabilize the entire rhythm.
 
 **Where it comes from:** The system has a natural buffering mechanism. The nonlinear shape of the valleys absorbs small timing errors: if a push arrives a little early or late, the valley walls redirect the system back on track. But this buffering has a capacity. When the coupling strength exceeds the well depth plus the timescale gap ($z_{\text{eff}} + \varepsilon$), the pushes are too strong for the valley walls to absorb. Every timing error amplifies rather than damps. The system enters a regime where the oscillation is real but incoherent.
 
 **With our parameters:** The ceiling is at σ_a ≈ 0.930. Above this, delay converts oscillation to chaos.
 
-**Numerical verification:** Predicted 0.9301, measured 0.9306. A 0.05% match.
+**[Numerical verification](#verification-1):** {#verification-1} Predicted 0.9301, measured 0.9306. A 0.05% match.
 
 **Plain terms:** There is a maximum strength of structural coupling beyond which communication delay makes the system chaotic. Too much authority, combined with inevitable delays in how that authority propagates, produces incoherence rather than coordination.
 
-### Constant 3: The Parametric Wall
+### Constant 3: The Parametric Wall {#constant-3}
 
 $$\sigma_p < \frac{1}{2\sqrt{3}} \approx 0.289$$
 
 **What it means:** There is a hard limit on how much landscape-reshaping coupling the system can carry before it becomes fatally sensitive to communication delay. This limit is a pure geometric constant. It doesn't depend on the energy level, the timescale separation, or the additive coupling strength. It depends only on the shape of the landscape.
 
-**Where it comes from:** The reshaping term modulates the curvature of the valleys at the oscillation frequency. At the fold point (the top of the hill), the unperturbed curvature is exactly zero, that's what makes it a fold. When the reshaping reaches half the fold position ($x_f/2 = 1/(2\sqrt{3})$), the periodic curvature modulation is large enough to create parametric resonance with the communication delay. The valleys are softening and hardening in sync with the delayed feedback, amplifying phase errors until the system can't maintain coherent oscillation. This is a resonance condition: it doesn't care about the absolute coupling strength, only about the relationship between the reshaping amplitude and the landscape geometry.
+**Where it comes from:** The reshaping term modulates the curvature of the valleys at the oscillation frequency. At the fold point (the top of the hill), the unperturbed curvature is exactly zero, that's what makes it a fold. When the reshaping reaches half the fold position ($x_f/2 = 1/(2\sqrt{3})$), the periodic curvature modulation is large enough to create [parametric resonance](#resonance) {#resonance} with the communication delay. The valleys are softening and hardening in sync with the delayed feedback, amplifying phase errors until the system can't maintain coherent oscillation. This is a resonance condition: it doesn't care about the absolute coupling strength, only about the relationship between the reshaping amplitude and the landscape geometry.
 
 **With our parameters:** The wall is at σ_p ≈ 0.289. Beyond this, delay becomes lethal regardless of σ_a.
 
-**Numerical verification:** Predicted 0.2887, measured 0.299 and 0.301. A ~4% match.
+**[Numerical verification](#verification-2):** {#verification-2} Predicted 0.2887, measured 0.299 and 0.301. A ~4% match.
 
 **Plain terms:** There is an absolute ceiling on how much informational/structural coupling a system can carry. It doesn't matter how robust your structural coupling is. If the system reshapes its own landscape too aggressively through inter-layer communication, any latency in that communication becomes catastrophic. This ceiling is set entirely by the shape of the potential and nothing else.
 
 ---
 
-## The Box
+## The Box {#the-box}
 
-These three constants define a rectangular operating window in coupling space:
+These three constants define a rectangular [operating window](#the-box) in coupling space:
 
 ```
 σ_p
@@ -106,64 +106,64 @@ The box is narrow. The viable additive coupling range spans only about 23% of th
 
 ---
 
-## What Lies Outside the Box
+## What Lies Outside the Box {#outside-the-box}
 
-Each boundary of the box corresponds to a different failure mode:
+Each boundary of the box [corresponds to](#summary-table) a different failure mode:
 
-**Left of the box (σ_a too low):** The system can't oscillate. The slow layer's influence is too weak to force transitions between states. The fast layer picks a valley and stays there. In organizational terms: not enough management authority to prevent the organization from settling into a rut.
+**Left of the box (σ_a too low):** {#viability-floor-failure} The system can't oscillate. The slow layer's influence is too weak to force transitions between states. The fast layer picks a valley and stays there. In organizational terms: not enough management authority to prevent the organization from settling into a rut.
 
-**Right of the box (σ_a too high):** The system oscillates but goes chaotic under any communication delay. The slow layer pushes so hard that timing errors amplify rather than damp. In organizational terms: micromanagement combined with communication lag produces erratic, unpredictable behavior rather than coordinated cycling.
+**Right of the box (σ_a too high):** {#chaos-ceiling-failure} The system oscillates but goes chaotic under any communication delay. The slow layer pushes so hard that timing errors amplify rather than damp. In organizational terms: micromanagement combined with communication lag produces erratic, unpredictable behavior rather than coordinated cycling.
 
-**Above the box (σ_p too high):** The system becomes fatally sensitive to delay because the landscape itself is being reshaped faster than communication can track. The fast layer navigates using an outdated map of its own decision space. In organizational terms: restructuring the organization so frequently that by the time people adapt to the new structure, it's already changed again.
+**Above the box (σ_p too high):** {#parametric-wall-failure} The system becomes fatally sensitive to delay because the landscape itself is being reshaped faster than communication can track. The fast layer navigates using an outdated map of its own decision space. In organizational terms: restructuring the organization so frequently that by the time people adapt to the new structure, it's already changed again.
 
-**Below the box (σ_p = 0):** The system is robust but rigid. Pure additive coupling. The slow layer can only tilt, never reshape. Oscillation is nearly indestructible, but the system can't adaptively modify its own landscape. In organizational terms: a rigid bureaucracy that survives anything but can't restructure in response to changing conditions.
+**Below the box (σ_p = 0):** {#rigidity-failure} The system is robust but rigid. Pure additive coupling. The slow layer can only tilt, never reshape. Oscillation is nearly indestructible, but the system can't adaptively modify its own landscape. In organizational terms: a rigid bureaucracy that survives anything but can't restructure in response to changing conditions.
 
 ---
 
-## Why This Matters
+## Why This Matters {#why-it-matters}
 
-### The three constants answer the original question
+### The three constants answer the original question {#three-constants-answer}
 
-The research began by asking: is there a necessary ratio or constraint that determines when layered adaptive systems can exist? The answer is: there are three constraints, not one, and they bound a rectangular operating window. The system must be strong enough to oscillate, gentle enough not to go chaotic, and restrained enough in its landscape-reshaping to tolerate real-world communication delays.
+The research began by asking: is there a necessary ratio or constraint that determines when layered adaptive systems can exist? The answer is: there are [three constraints](#summary-table), not one, and they bound a rectangular operating window. The system must be strong enough to oscillate, gentle enough not to go chaotic, and restrained enough in its landscape-reshaping to tolerate real-world communication delays.
 
-### All three derive from one geometric feature
+### All three derive from one geometric feature {#geometric-origin}
 
-The fold point $x_f = 1/\sqrt{3}$ of the bistable potential landscape. The viability floor requires reaching past the fold. The chaos ceiling limits coupling to the well depth (set by the fold geometry). The parametric wall sits at exactly half the fold position. One landscape feature, three operational consequences.
+The fold point $x_f = 1/\sqrt{3}$ of the bistable potential landscape. The viability floor requires reaching past the fold. The chaos ceiling limits coupling to the well depth (set by the fold geometry). The parametric wall sits at exactly half the fold position. One landscape feature, [three operational consequences](#outside-the-box).
 
-### The parametric wall is universal (within this landscape class)
+### The parametric wall is universal (within this landscape class) {#universal-wall}
 
 The viability floor and chaos ceiling depend on system-specific parameters: energy level ($z_{\text{eff}}$) and timescale separation ($\varepsilon$). Different systems with different energy budgets and speed ratios will have different floors and ceilings. But the parametric wall $\sigma_p^* = 1/(2\sqrt{3})$ depends on nothing but the landscape shape. For any system with this cubic bistable potential, regardless of energy or timescale, the maximum tolerable informational coupling is the same number.
 
 If this result generalizes beyond the cubic (if other bistable potentials also produce a parametric wall at half their fold position), then the relationship "maximum informational coupling = fold position / 2" would be a universal structural law for bistable laminated systems.
 
-### The box predicts real-system behavior
+### The box predicts real-system behavior {#predictive-box}
 
-Systems operating near the left wall (just enough structural coupling) should be rigid but survivable. Systems operating near the right wall (lots of structural coupling) should be dynamic but chaotic-prone when communication degrades. Systems operating near the top wall (high informational coupling) should be adaptive but fragile to delay. Systems in the center of the box should be the most resilient, at the cost of not optimizing for any single performance dimension.
+Systems operating near the left wall (just enough structural coupling) should be [rigid but survivable](#rigidity-failure). Systems operating near the right wall (lots of structural coupling) should be [dynamic but chaotic-prone](#chaos-ceiling-failure) when communication degrades. Systems operating near the top wall (high informational coupling) should be [adaptive but fragile to delay](#parametric-wall-failure). Systems in the center of the box should be the most resilient, at the cost of not optimizing for any single performance dimension.
 
 These predictions are testable against real systems: neural circuits, organizational structures, ecosystems, or any other domain where layered architecture with different-speed components can be observed and where coupling type and communication quality can be measured or inferred.
 
 ---
 
-## What Remains Open
+## What Remains Open {#open-questions}
 
-**Generalization beyond the cubic.** The three constants are derived for $V(x) = -x^2/2 + x^4/4$. Different bistable potentials (asymmetric, quintic, piecewise) have different fold geometries and would produce different constants. The question of whether the *relationships* between the constants (parametric wall = fold/2, chaos ceiling = $\sqrt{\text{well depth}}$) hold across potential shapes is the natural next theoretical question.
+**Generalization beyond the cubic.** {#generalization} The three constants are derived for $V(x) = -x^2/2 + x^4/4$. Different bistable potentials (asymmetric, quintic, piecewise) have different fold geometries and would produce different constants. The question of whether the *relationships* between the constants (parametric wall = fold/2, chaos ceiling = $\sqrt{\text{well depth}}$) hold across potential shapes is the natural next theoretical question.
 
-**The snap-onset question.** The cubic potential produces smooth (supercritical) onset of oscillation, which prevents intermittent bursting. Systems with snap (subcritical) onset would have different dynamics, potentially including the burst/silence cycles observed in seizures, manic episodes, and boom/bust economic patterns. The operating window for subcritical potentials has not been characterized.
+**The snap-onset question.** {#snap-onset} The cubic potential produces smooth (supercritical) onset of oscillation, which prevents intermittent bursting. Systems with snap (subcritical) onset would have different dynamics, potentially including the burst/silence cycles observed in seizures, manic episodes, and boom/bust economic patterns. The operating window for subcritical potentials has not been characterized.
 
-**Metabolic interaction.** The energy reservoir from Stage 2B interacts with the operating window: energy depletion effectively reduces $z_{\text{eff}}$, which shifts the viability floor and chaos ceiling. Under breathing dynamics (where $z_{\text{eff}}$ oscillates), the system periodically approaches the walls of the box. The interaction between metabolic breathing and the operating window boundaries has not been fully characterized.
+**Metabolic interaction.** {#metabolic} The energy reservoir from Stage 2B interacts with the operating window: energy depletion effectively reduces $z_{\text{eff}}$, which [shifts the viability floor](#viability-floor-failure) and chaos ceiling. Under breathing dynamics (where $z_{\text{eff}}$ oscillates), the system periodically approaches the walls of the box. The interaction between metabolic breathing and the operating window boundaries has not been fully characterized.
 
-**Multi-layer systems.** The current model has two layers. Real systems often have three or more (fast/medium/slow, or multiple fast layers coupled to a shared slow layer). The operating window for multi-layer lamination is unexplored.
+**Multi-layer systems.** {#multi-layer} The current model has two layers. Real systems often have three or more (fast/medium/slow, or multiple fast layers coupled to a shared slow layer). The operating window for multi-layer lamination is unexplored.
 
-**The information dimension.** The current model captures information implicitly through channel bandwidth and delay. Explicit information content (what the signal says, not just how well it's transmitted) represents a potential additional constraint dimension that has not been formalized.
+**The information dimension.** {#info-dim} The current model captures information implicitly through channel bandwidth and delay. Explicit information content (what the signal says, not just how well it's transmitted) represents a potential additional constraint dimension that has not been formalized.
 
 ---
 
-## Summary of Numbers
+## Summary of Numbers {#summary-table}
 
 | Constant | Formula | Value | Depends On | Verified |
 |---|---|---|---|---|
-| Viability floor | $\sqrt{2z_{\text{eff}}/3}$ | 0.757 | Energy, landscape | ~1% match |
-| Chaos ceiling | $\sqrt{z_{\text{eff}} + \varepsilon}$ | 0.930 | Energy, timescale, landscape | 0.05% match |
-| Parametric wall | $1/(2\sqrt{3})$ | 0.289 | Landscape only | ~4% match |
-| Operating window width | ceiling - floor | 0.173 | Energy, timescale | — |
-| Operating window height | parametric wall | 0.289 | Landscape only | — |
+| Viability floor | |=\sqrt{2z_{\text{eff}}/3}| | 0.757 | Energy, landscape | ~1% match |
+| Chaos ceiling | |=\sqrt{z_{\text{eff}} + \varepsilon}| | 0.930 | Energy, timescale, landscape | 0.05% match |
+| Parametric wall | |=1/(2\sqrt{3})| | 0.289 | Landscape only | ~4% match |
+| Operating window width | |=ceiling - floor| | 0.173 | Energy, timescale | — |
+| Operating window height | |=parametric wall| | 0.289 | Landscape only | — |

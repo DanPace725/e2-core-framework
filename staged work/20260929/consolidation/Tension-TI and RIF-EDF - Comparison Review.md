@@ -1,6 +1,8 @@
 # Tension/TI and RIF/EDF — Comparison Review
 
-Status: staged comparison review (review-only; no active file was edited, moved, or archived)
+Status: source comparison captured here; the Tension fold and later navigation fixes were applied. The original review below remains historical context.
+
+Navigation follow-up (2026-09-29): the active TI pair now points to its active Intelligence Field counterpart and labels the TI Guide as outside the Core reader. RIF's ORMD links now target existing section anchors; the unsupported inline `divine-participation` marker was removed. The historical RIF synthesized summary now identifies itself as a summary, points its references to active RIF anchors, and records its missing B1 predecessor link.
 
 Plan: `E2Core/E2Core Consolidation Plan - 2026-09-29.md`, §3 B rows "`Tension` + `Tensional Intelligence`" and "RIF + EDF"
 

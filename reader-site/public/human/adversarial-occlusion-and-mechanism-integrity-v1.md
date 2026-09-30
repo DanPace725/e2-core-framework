@@ -1,71 +1,71 @@
-# Adversarial Occlusion and Mechanism Integrity V1
+# Adversarial Occlusion and Mechanism Integrity V1 {#aomi-v1}
 
 9/22/25
 
-# AOMI Framework v1.0
+# AOMI Framework v1.0 {#aomi-framework}
 
-## Adversarial Occlusion & Mechanism Integrity
+## Adversarial Occlusion & Mechanism Integrity {#aomi-definition}
 
 *A comprehensive framework for designing systems resistant to adversarial exploitation of accountability mechanisms*
 
 ---
 
-## Executive Summary
+## Executive Summary {#summary}
 
-The AOMI Framework addresses a critical gap in mechanism design: how to prevent sophisticated actors from deliberately exploiting the blind spots, uncertainty mechanisms, and resolution limits that necessarily exist in any complex accountability system.
+The AOMI Framework addresses a critical gap in mechanism design: how to prevent sophisticated actors from deliberately exploiting the [blind spots](#threat-model), uncertainty mechanisms, and resolution limits that necessarily exist in any complex accountability system.
 
-AOMI operates on the principle that **ethical occlusion is geometric, not malicious** - it emerges from the structure of complex systems rather than individual bad actors. However, once these occlusion pockets exist, they become natural targets for strategic exploitation.
+AOMI operates on the principle that **ethical occlusion is geometric, not malicious** - it [emerges from](#foundations) the structure of complex systems rather than individual bad actors. However, once these occlusion pockets exist, they become natural targets for strategic exploitation.
 
-The framework provides both theoretical foundations and practical implementation patterns for building anti-fragile systems that become stronger when attacked, rather than weaker.
+The framework provides both [theoretical foundations](#foundations) and practical implementation patterns for building [anti-fragile systems](#defense-architecture) that become stronger when attacked, rather than weaker.
 
-## Source lineage and evidence limits
+## Source lineage and evidence limits {#source-lineage}
 
 The earlier *AOMI: AI responses* dialogue and its later doctrine note are preserved under `archive/20260612_step_2_1_dialogues/` and `archive/20260929_aomi_responses/`, respectively. They record the problem framing and proposals that this specification develops. Their suggestions about ethical incompleteness, computationally irreducible pockets, and exploiters becoming trapped by their own manufactured complexity remain conjectures in that lineage; they are not established theorems or demonstrated safeguards. Numerical targets and efficacy claims in this specification are proposed design targets unless accompanied by a measurement method and results.
 
 ---
 
-## I. Theoretical Foundations
+## I. Theoretical Foundations {#foundations}
 
-### Core Insight: The Gaming Inevitability Principle
+### Core Insight: The Gaming Inevitability Principle {#gaming-principle}
 
-**Any sufficiently sophisticated accountability mechanism will be gamed by actors who understand its structure.**
+**Any sufficiently sophisticated accountability mechanism will be [gamed](#threat-model) by actors who understand its structure.**
 
-This gaming follows predictable patterns:
+This gaming follows [predictable patterns](#gaming-principle):
 
 - **First-order gaming**: Exploiting known rules (regulatory arbitrage, tax loopholes)
 - **Second-order gaming**: Exploiting measurement systems (teaching to the test, p-hacking)
 - **Third-order gaming**: Exploiting occlusion itself (steering decisions into undecidable zones)
 
-### The Meta-Gaming Escalation
+### The Meta-Gaming Escalation {#escalation}
 
-In the age of AI, gaming capabilities escalate exponentially:
+In the age of AI, gaming capabilities [escalate exponentially](#threat-model):
 
 1. AI can ingest complete framework documentation
-2. AI can systematically probe for vulnerabilities
+2. AI can [systematically probe](#threat-model) for vulnerabilities
 3. AI can coordinate sophisticated multi-vector attacks
 4. AI can adapt gaming strategies in real-time
 
-**AOMI Response**: Use AI to design AI-resistant mechanisms through adversarial co-evolution.
+**AOMI Response**: Use AI to design [AI-resistant mechanisms](#defense-architecture) through adversarial co-evolution.
 
-### Relational Field Power Dynamics
+### Relational Field Power Dynamics {#power-dynamics}
 
-Drawing from power field coherence theory, AOMI recognizes that gaming attempts create **field curvature distortions** that can be detected and countered:
+Drawing from power field coherence theory, AOMI recognizes that gaming attempts create [field curvature distortions](#layer-5) that can be detected and countered:
 
-- **Gaming creates exposure**: Sophisticated gaming requires more coordination, documentation, and complexity than honest behavior
-- **Uncertainty has beneficiaries**: Someone always benefits from keeping decisions unresolved
+- **Gaming creates exposure**: Sophisticated gaming [requires more coordination](#layer-4), documentation, and complexity than honest behavior
+- **Uncertainty has beneficiaries**: Someone always [benefits](#layer-5) from keeping decisions unresolved
 - **Observer relativity matters**: Gaming looks different from different embedding levels
 
 ---
 
-## II. AOMI Threat Model
+## II. AOMI Threat Model {#threat-model}
 
-### Primary Attack Vectors
+### Primary Attack Vectors {#attack-vectors}
 
 **Occlusion-Seeking Behavior**
 
 - Route high-impact decisions through high-Ω zones
 - Exploit fast lanes, siloed pathways, low-telemetry workflows
-- Deliberately increase temporal compression to create computational irreducibility
+- Deliberately increase temporal compression to [create computational irreducibility](#foundations)
 
 **Responsibility Laundering**
 
@@ -106,26 +106,25 @@ Drawing from power field coherence theory, AOMI recognizes that gaming attempts 
 
 ---
 
-## III. AOMI Defense Architecture
+## III. AOMI Defense Architecture {#defense-architecture}
 
-### Layer 1: Paradoxical Policing
+### Layer 1: Paradoxical Policing {#layer-1}
 
 **Core Principle**: Make high-occlusion pathways more risky, not less risky.
 
 ```
 Audit Probability = g(Ω) where g'(Ω) > 0
-
 ```
 
 **Implementation Patterns**:
 
 - **Occlusion Tax**: Extra approvals, stake requirements, delays scale with Ω
-- **Inverse Scrutiny**: Foggy paths trigger enhanced monitoring
+- **Inverse Scrutiny**: Foggy paths [trigger enhanced monitoring](#layer-4)
 - **Complexity Penalty**: More complex justifications require higher evidence standards
 
-### Layer 2: Adversarial Reserve Capacity
+### Layer 2: Adversarial Reserve Capacity {#layer-2}
 
-**Core Principle**: Build excess capacity specifically to absorb gaming without system failure.
+**Core Principle**: Build excess capacity specifically to [absorb gaming](#gaming-principle) without system failure.
 
 **Reserve Allocation Strategy**:
 
@@ -136,7 +135,6 @@ reserves = {
     'response_cycles': base_capacity * 0.30,
     'measurement_redundancy': base_capacity * 0.20
 }
-
 ```
 
 **Graceful Degradation Protocol**:
@@ -145,9 +143,9 @@ reserves = {
 - Activate backup systems when gaming pressure exceeds thresholds
 - Degrade gracefully rather than failing catastrophically
 
-### Layer 3: Exploitation-as-Signal Intelligence
+### Layer 3: Exploitation-as-Signal Intelligence {#layer-3}
 
-**Core Principle**: Treat gaming attempts as valuable intelligence about system vulnerabilities.
+**Core Principle**: Treat gaming attempts as [valuable intelligence](#layer-4) about system vulnerabilities.
 
 **Intelligence Collection**:
 
@@ -161,9 +159,9 @@ reserves = {
 - Deploy countermeasures in batches to prevent gaming adaptation
 - Use gaming intelligence to proactively harden untargeted vulnerabilities
 
-### Layer 4: Self-Exposure Amplification
+### Layer 4: Self-Exposure Amplification {#layer-4}
 
-**Core Principle**: Gaming behavior naturally creates more signals than honest behavior.
+**Core Principle**: Gaming behavior naturally [creates more signals](#power-dynamics) than honest behavior.
 
 **Detection Mechanisms**:
 
@@ -177,12 +175,11 @@ reserves = {
 ```
 Exposure Factor = Gaming Complexity / Honest Behavior Baseline
 Detection Probability = f(Exposure Factor)
-
 ```
 
-### Layer 5: Power Field Beneficiary Analysis
+### Layer 5: Power Field Beneficiary Analysis {#layer-5}
 
-**Core Principle**: Surface who benefits from uncertainty and occlusion.
+**Core Principle**: Surface who [benefits from uncertainty](#power-dynamics) and occlusion.
 
 **Beneficiary Detection**:
 
@@ -197,7 +194,7 @@ Detection Probability = f(Exposure Factor)
 - Show opportunity gradients around occlusion pockets
 - Reveal gaming incentives through field analysis
 
-### Layer 6: Superposition Integrity Protection
+### Layer 6: Superposition Integrity Protection {#layer-6}
 
 **Core Principle**: Prevent forced collapse into single "unresolved" states.
 
@@ -210,9 +207,9 @@ Detection Probability = f(Exposure Factor)
 
 ---
 
-## IV. Integration with Existing Frameworks
+## IV. Integration with Existing Frameworks {#integration}
 
-### CFAR Integration
+### CFAR Integration {#cfar-integration}
 
 **Enhanced State Dynamics**:
 
@@ -232,7 +229,6 @@ def aomi_cfar_step(state, controls, gaming_indicators):
         new_state.A += new_state.G * 0.1  # Gaming increases visibility
 
     return new_state
-
 ```
 
 **Gaming-Aware Control**:
@@ -241,7 +237,7 @@ def aomi_cfar_step(state, controls, gaming_indicators):
 - Modify bandit exploration when reward engineering suspected
 - Activate fluctuation control when precision gaming identified
 
-### CLP Integration
+### CLP Integration {#clp-integration}
 
 **Power-Aware Context Queries**:
 
@@ -260,7 +256,6 @@ class PowerAwareCLPBroker:
             clp_results['aomi_analysis'] = aomi_analysis
 
         return clp_results
-
 ```
 
 **Enhanced Resolution Enforcement**:
@@ -269,56 +264,54 @@ class PowerAwareCLPBroker:
 - Cross-frame coherence requirements when frame shopping detected
 - Temporal buffers when deadline manipulation suspected
 
----
+## V. Implementation Playbook {#implementation-playbook}
 
-## V. Implementation Playbook
-
-### Phase 1: Gaming Detection (Weeks 1-4)
+### Phase 1: Gaming Detection (Weeks 1-4) {#phase-1}
 
 **Core Capabilities**:
 
-- Implement basic gaming signature detection
+- Implement basic [gaming signature detection](#gaming-metrics)
 - Deploy coordination overhead monitoring
 - Create explanation complexity analysis
 - Build pattern inconsistency detection
 
-**Success Metrics**:
+**Success Metrics** {#phase-1-metrics}:
 
 - Can detect known gaming patterns with 80% accuracy
 - False positive rate below 10%
 - Detection latency under 24 hours
 
-### Phase 2: Adaptive Defenses (Weeks 5-8)
+### Phase 2: Adaptive Defenses (Weeks 5-8) {#phase-2}
 
 **Core Capabilities**:
 
-- Deploy paradoxical policing mechanisms
+- Deploy [paradoxical policing mechanisms](#paradoxical-policing-eq)
 - Implement dynamic threshold adjustment
 - Create adversarial reserve management
 - Build exploitation intelligence system
 
-**Success Metrics**:
+**Success Metrics** {#phase-2-metrics}:
 
-- Gaming attempts cost 2x more than honest behavior
+- Gaming attempts cost 2x more than honest behavior [relative to baseline](#gaming-metrics)
 - System maintains performance under 50% gaming load
 - Intelligence system identifies new attack vectors
 
-### Phase 3: Power Field Integration (Weeks 9-12)
+### Phase 3: Power Field Integration (Weeks 9-12) {#phase-3}
 
 **Core Capabilities**:
 
 - Implement beneficiary analysis
-- Deploy superposition integrity protection
+- Deploy [superposition integrity protection](#ethical-considerations)
 - Create field curvature visualization
 - Build regenerative/extractive classification
 
-**Success Metrics**:
+**Success Metrics** {#phase-3-metrics}:
 
 - Can identify uncertainty beneficiaries with 90% accuracy
 - Prevents forced superposition collapse
 - Maintains coherence under complex gaming attacks
 
-### Phase 4: Anti-Fragile Evolution (Weeks 13-16)
+### Phase 4: Anti-Fragile Evolution (Weeks 13-16) {#phase-4}
 
 **Core Capabilities**:
 
@@ -327,21 +320,21 @@ class PowerAwareCLPBroker:
 - Create proactive vulnerability hardening
 - Build gaming strategy prediction
 
-**Success Metrics**:
+**Success Metrics** {#phase-4-metrics}:
 
-- System becomes measurably stronger after gaming attempts
+- System becomes measurably stronger after gaming attempts [via evolution](#phase-4)
 - Proactive countermeasures prevent 60% of predicted attacks
 - Parameter evolution maintains gaming resistance over time
 
 ---
 
-## VI. Measurement and Evaluation
+## VI. Measurement and Evaluation {#measurement-evaluation}
 
-### Gaming Resistance Metrics
+### Gaming Resistance Metrics {#gaming-metrics}
 
 **Primary Indicators**:
 
-- **Ξ (Exploitability Index)**: `(1-𝒪) × E[Penalty]⁻¹`
+- **Ξ (Exploitability Index)** {#exploitability-index}: `(1-𝒪) × E[Penalty]⁻¹`
 - **Gaming Cost Ratio**: `Cost(Gaming) / Cost(Honest Behavior)`
 - **System Coherence Under Attack**: Coherence preservation during gaming attempts
 - **Adaptation Rate**: Speed of defensive evolution relative to gaming evolution
@@ -351,9 +344,9 @@ class PowerAwareCLPBroker:
 - Detection accuracy and false positive rates
 - Reserve capacity utilization patterns
 - Intelligence system discovery rates
-- User satisfaction with transparency measures
+- User satisfaction with [transparency measures](#transparency-principles)
 
-### Continuous Monitoring
+### Continuous Monitoring {#continuous-monitoring}
 
 **Real-Time Dashboards**:
 
@@ -370,9 +363,9 @@ class PowerAwareCLPBroker:
 
 ---
 
-## VII. Ethical Considerations
+## VII. Ethical Considerations {#ethical-considerations}
 
-### Transparency Principles
+### Transparency Principles {#transparency-principles}
 
 **What to Make Transparent**:
 
@@ -383,12 +376,12 @@ class PowerAwareCLPBroker:
 
 **What to Keep Private**:
 
-- Specific detection algorithms and thresholds
+- Specific detection algorithms and thresholds [to prevent exploitation](#gaming-metrics)
 - Gaming pattern signatures and triggers
 - Real-time monitoring data and feeds
 - Individual actor gaming risk scores
 
-### Fairness and Accountability
+### Fairness and Accountability {#fairness-accountability}
 
 **Avoiding Discrimination**:
 
@@ -406,9 +399,9 @@ class PowerAwareCLPBroker:
 
 ---
 
-## VIII. Future Directions
+## VIII. Future Directions {#future-directions}
 
-### Research Priorities
+### Research Priorities {#research-priorities}
 
 **Theoretical Development**:
 
@@ -424,7 +417,7 @@ class PowerAwareCLPBroker:
 - Integration with blockchain and decentralized systems
 - Real-time adaptation to novel gaming techniques
 
-### Technology Evolution
+### Technology Evolution {#technology-evolution}
 
 **AI Integration**:
 
@@ -442,11 +435,11 @@ class PowerAwareCLPBroker:
 
 ---
 
-## IX. Conclusion
+## IX. Conclusion {#conclusion}
 
-The AOMI Framework represents a paradigm shift from reactive security to proactive anti-fragility in mechanism design. By assuming sophisticated gaming as inevitable rather than exceptional, AOMI enables the creation of systems that become stronger through adversarial pressure rather than weaker.
+The [AOMI Framework](#implementation-playbook) represents a paradigm shift from reactive security to proactive anti-fragility in mechanism design. By assuming sophisticated gaming as inevitable rather than exceptional, AOMI enables the creation of systems that [become stronger](#phase-4) through adversarial pressure rather than weaker.
 
-The integration with existing frameworks like CFAR and CLP demonstrates that AOMI can enhance rather than replace current approaches, providing a meta-layer of gaming resistance that preserves the benefits of sophisticated control theory while protecting against its exploitation.
+The integration with existing frameworks like [CFAR and CLP](#implementation-companion) demonstrates that AOMI can enhance rather than replace current approaches, providing a meta-layer of gaming resistance that preserves the benefits of sophisticated control theory while protecting against its exploitation.
 
 Most importantly, AOMI recognizes that the future of accountability lies not in eliminating gaming, but in designing systems where gaming becomes transparent, expensive, and ultimately self-defeating. In this way, AOMI transforms the adversarial dynamic from a zero-sum competition into a positive-sum evolution toward more robust and trustworthy institutions.
 
@@ -456,9 +449,9 @@ As AI capabilities continue to advance, frameworks like AOMI become not just use
 
 ---
 
-*This framework constitutes a living document that evolves through application of its own principles - using adversarial pressure to strengthen theoretical foundations and practical implementations.*
+*This framework constitutes a living document that [evolves through application](#phase-4) of its own principles - using adversarial pressure to strengthen theoretical foundations and practical implementations.*
 
-# TC/EO + AOMI — Implementation Companion (v1)
+# TC/EO + AOMI — Implementation Companion (v1) {#implementation-companion}
 
 *A practical, math‑backed guide for deploying Temporal Compression & Ethical Occlusion (TC/EO) with Adversarial Occlusion & Mechanism Integrity (AOMI) and CLP proofs.*
 
@@ -469,64 +462,64 @@ As AI capabilities continue to advance, frameworks like AOMI become not just use
 
 ---
 
-## 1) Scope & Outcomes
+## 1) Scope & Outcomes {#scope-outcomes}
 
 **Goal:** Ship a measurable accountability mechanism that (i) controls temporal compression, (ii) keeps attribution probability above a floor, and (iii) remains incentive‑compatible under adversarial gaming.
 
-**Primary SLOs:**
+**Primary SLOs**:
 
-- (attribution probability) ≥ for each critical decision class.
-- Exploitability index .
-- Resolution–Responsibility law holds live: or an automatic mode switch fires.
+- (attribution probability) $P_a \geq P_{floor}$ for each critical decision class.
+- [Exploitability index](#exploitability-index) $\Xi \leq \Xi_{max}$.
+- Resolution–Responsibility law holds live: $Res \propto Resp$ or an automatic mode switch fires.
 - Reserve SLOs (attention, review cycles) stay above thresholds.
 
 ---
 
-## 2) Core Equations (deployment subset)
+## 2) Core Equations (deployment subset) {#core-equations}
 
-**Layer compression:** ,  = compressed.
+**Layer compression**: $C_L = \Delta T_{in} / \Delta T_{out}$, $C_L > 1$ = compressed.
 
-**Effective compression:**
+**Effective compression**:
 
-- Risk‑weighted mean:
-- Bottleneck max:
+- Risk‑weighted mean: $\bar{C}_E = \sum (w_i C_i)$
+- Bottleneck max: $C_{max} = \max(C_i)$
 
-**Occlusion (channels + combo):**
+**Occlusion (channels + combo)**:
 
-- Tempo:
-- Topology: (measured; see §4)
-- Cognition: (measured; see §4)
-- Combined:
+- Tempo: $O_{tempo} = 1 - (f_{obs} / f_{event})$
+- Topology: $O_{topo}$ (measured; see §4)
+- Cognition: $O_{cog}$ (measured; see §4)
+- Combined: $O_{total} = 1 - \prod (1 - O_i)$
 
-**Observability (graded):**
+**Observability (graded)**: $\mathcal{O} = f(O_{total}, \text{Resolution})$
 
-**Resolution–Responsibility law (Design Axiom):** .
+**Resolution–Responsibility law (Design Axiom)**: $Res \geq k \cdot Resp$.
 
-**Compression dynamics:** .
+**Compression dynamics**: $dC/dt = \alpha(G) - \beta(R)$.
 
-**Exploitability index:** .
+**Exploitability index** {#exploitability-index-eq}: $\Xi = (1-\mathcal{O}) \times E[Penalty]^{-1}$.
 
-**Paradoxical policing:** , with fairness constraints.
+**Paradoxical policing** {#paradoxical-policing-eq}: $P(audit) \propto \Xi$, with fairness constraints.
 
-**Incentive‑compatibility (No‑gaming condition):**
+**Incentive‑compatibility (No‑gaming condition)**:
 
-with , .
+$V(Honest) > V(Gaming) - \text{Cost}(Gaming) + E[Penalty]$
 
----
+with $\text{Cost}(Gaming) = f(\text{Complexity}, \text{Detection})$.
 
-## 3) Data Model & Instrumentation
+## 3) Data Model & Instrumentation {#data-model}
 
 **3.1 Tables (logical)**
 
-- **decisions**: id, class, actor_id, start_ts, end_ts, , path_id, impact_estimate
+- **decisions**: id, class, actor_id, start_ts, end_ts, path_id, impact_estimate
 - **events**: id, decision_id, ts, type, payload_hash, source
 - **actors**: id, org_unit, role, privileges
-- **handoffs**: from_actor, to_actor, ts, intent_hash, evidence_hash *(CLP witness tokens)*
+- **handoffs**: from_actor, to_actor, ts, intent_hash, evidence_hash [CLP witness tokens](#clp-sketch)
 - **topology**: node_id, edges, degree, clustering, chokepoint_score
 - **telemetry**: logs, spans, trace_id, error_rate, latency
 - **reviews**: reviewer_id, ts, findings, actions, appeal
 
-**3.2 CLP Witness Token (JSON sketch)**
+**3.2 CLP Witness Token (JSON sketch)** {#clp-sketch}
 
 ```json
 {
@@ -538,39 +531,38 @@ with , .
   "frame": "policy|risk|ethics",
   "sig": "ed25519..."
 }
-
 ```
 
-**3.3 Features for Ω & Exposure**
+**3.3 Features for Ω & Exposure** {#exposure-features}
 
-- *Tempo:* from ; compute .
-- *Topology:* mean degree , clustering , betweenness, chokepoint score.
+- *Tempo:* $\Delta t_{decision}$ from `start_ts`, `end_ts`; compute $\dot{\Delta t}$.
+- *Topology:* mean degree $\langle k \rangle$, clustering $C$, betweenness, chokepoint score.
 - *Cognition:* reviewer load (#open reviews/reviewer), queue age, off‑hour flag, UI dwell time.
-- *Exposure (Gaming) features:* coordination edge‑lift (emails/CC/slack motifs), justification perplexity vs. baseline, path oddity (distance from shortest accountable path), end‑of‑period clustering.
+- *Exposure (Gaming) features:* [coordination edge‑lift](#ges-def) (emails/CC/slack motifs), justification perplexity vs. baseline, path oddity (distance from shortest accountable path), end‑of‑period clustering.
 
 ---
 
-## 4) Estimation Pipelines
+## 4) Estimation Pipelines {#pipelines}
 
-**4.1 Live estimators**
+**4.1 Live estimators** {#estimators}
 
-- : recompute per decision from clocks.
-- : monotone map of (clustering, chokepoints) → [0,1].
-- : monotone map of (reviewer load, off‑hours, queue age) → [0,1].
-- : combined formula.
-- : chosen definition (mutual info or Fisher); start with proxy: trace/metric richness score.
-- : logistic .
-- Gaming Exposure Score (GES): normalized blend of exposure features.
+- $\Omega_{tempo}$: recompute per decision from clocks.
+- $\Omega_{topo}$: monotone map of (clustering, chokepoints) → [0,1].
+- $\Omega_{cog}$: monotone map of (reviewer load, off‑hours, queue age) → [0,1].
+- $\Omega_{hat}$: combined formula.
+- $R$: chosen definition (mutual info or Fisher); start with proxy: trace/metric richness score.
+- $O$: logistic $f(R, \Omega)$.
+- Gaming Exposure Score (GES): [normalized blend](#exposure-features) of exposure features. {#ges-def}
 
-**4.2 Calibration**
+**4.2 Calibration** {#calibration}
 
-- Fit from historical attribution successes/failures.
-- Fit using vs. incident rates.
-- Choose thresholds () by risk appetite.
+- Fit [historical attribution](#data-model) successes/failures.
+- Fit $O$ vs. incident rates.
+- Choose thresholds ($R_{max}, \Omega_{budget}$) by risk appetite.
 
 ---
 
-## 5) Control Logic (online)
+## 5) Control Logic (online) {#control-logic}
 
 ```python
 if R*C_eff > R_max:
@@ -588,19 +580,18 @@ if Omega_budget_exceeded(decision_class):
     enforce_slow_path()
 
 stake = t0 + t1*(Omega_hat**m)
-
 ```
 
-**Reserve SLOs:** If attention or review‑cycle reserves < SLO, freeze non‑critical changes and expand  on critical paths.
+**Reserve SLOs:** If attention or review‑cycle reserves < SLO, freeze non‑critical changes and expand [slow-path](#control-logic) on critical paths.
 
 ---
 
-## 6) Dashboards & Budgets
+## 6) Dashboards & Budgets {#dashboards}
 
 **Per decision class:**
 
-- Live: , components, , , GES,
-- Budgets/Floors: Ω budget, , reserve SLO, audit rate band, stake band
+- Live: $\Omega_{hat}$, components, $R$, $O$, [GES](#ges-def), $C_{eff}$
+- Budgets/Floors: $\Omega$ budget, $O_{min}$, reserve SLO, audit rate band, stake band
 - Outcomes: incidents, near‑misses, attribution latency, appeals
 
 **Mermaid (signal→control→proof):**
@@ -612,19 +603,19 @@ B --> C[Control Logic \n p_audit, stake, mode]
 C --> D[Actuators \n slow-path, quorum, guardrails]
 D --> E[Proofs & Logs \n CLP process proofs]
 E --> A
-
 ```
+*The flow [signal→control→proof](#dashboards) ensures closed-loop integrity.*
 
 ---
 
-## 7) Policy Templates (copy/paste)
+## 7) Policy Templates (copy/paste) {#policies}
 
-**Invariants:**
+**Invariants:** {#invariants}
 
 1. Visibility floor for critical actions (min trace density).
-2. Quorum to enter high‑Ω paths; record CLP proofs.
+2. Quorum to enter high‑$\Omega$ paths; record [CLP proofs](#clp-sketch).
 3. Auto‑rollback available in Zone‑3.
-4. Mode switch when or .
+4. Mode switch when $R \cdot C_{eff} > R_{max}$ or $O < O_{min}$.
 
 **Fairness rules:**
 
@@ -633,30 +624,30 @@ E --> A
 
 ---
 
-## 8) Calibration & Tuning Playbook
+## 8) Calibration & Tuning Playbook {#tuning}
 
-1. **Historical fit:** label past decisions with attribution success; fit , .
-2. **A/B policy tests:** compare (fast+high audit) vs (slow+low audit) for at fixed throughput.
+1. **Historical fit:** label past decisions with attribution success; fit $s_1, s_2$.
+2. **A/B policy tests:** compare (fast+high audit) vs (slow+low audit) for $O$ at fixed throughput.
 3. **Set Ω budgets:** per class, align with harm profile.
-4. **Tune penalties & taxes:** choose to satisfy the no‑gaming inequality.
+4. **Tune penalties & taxes:** choose $\tau$ to satisfy the no‑gaming inequality.
 5. **Red‑team sprints:** quarterly; convert successes into metrics/guardrails/tests.
 
 ---
 
-## 9) Worked Mini‑Examples
+## 9) Worked Mini‑Examples {#examples}
 
-**Highway analogue:** speed↑ → ↑ → ↑ → ↓; raise  (sensors), add guardrails (rate limiters), or slow.
+**Highway analogue:** [speed↑](#estimators) → $C_{eff} \uparrow$ → $O \downarrow$; raise $R$ (sensors), add guardrails (rate limiters), or slow. {#highway-example}
 
-**Deployment pipeline:** batch risky changes → ↑; enforce canaries (raise ), Ω budgets trigger slow‑path when exceeded; rollback auto if  dips.
+**Deployment pipeline:** batch risky changes → $\Omega \uparrow$; enforce canaries (raise $R$), $\Omega$ budgets trigger slow‑path when exceeded; rollback auto if $O$ dips.
 
 ---
 
-## 10) Simulation Appendix (sketch)
+## 10) Simulation Appendix (sketch) {#simulation}
 
-- Graph with mean degree , clustering .
+- Graph with mean degree $\langle k \rangle$, clustering $C$.
 - Events propagate; decisions sample paths.
-- Control knobs: change ; p_audit, stake; Ω budgets.
-- Metrics: , components, , .
+- Control knobs: change $\Delta t$; p_audit, stake; $\Omega$ budgets.
+- Metrics: $\Omega_{hat}$, components, $R$, $O$.
 
 Pseudo:
 
@@ -666,63 +657,61 @@ for t in timeline:
   compute_Omega_components(); O = combine()
   choose_controls(); apply_mode_switches()
   realize_attacks(); update_metrics()
-
 ```
 
 ---
 
-## 11) Governance & Transparency
+## 11) Governance & Transparency {#governance}
 
 - Publish principles, budgets, floors; keep thresholds/weights private.
-- Community oversight for invariants and appeals.
-- Log *process proofs* (CLP tokens) for all exceptions.
+- Community oversight for [invariants](#invariants) and appeals.
+- Log *process proofs* ([CLP tokens](#clp-sketch)) for all exceptions.
 
 ---
 
-## 12) Acceptance Criteria
+## 12) Acceptance Criteria {#acceptance}
 
-- ≥ target for ≥95% of critical decisions.
-- below threshold for 8 consecutive weeks.
+- $O \geq target$ for $\geq 95\%$ of critical decisions.
+- $\Xi$ below threshold for 8 consecutive weeks.
 - No‑gaming inequality holds in post‑hoc audits across top 3 decision classes.
-- Reserve SLOs violated <2% of hours; grace mode engaged as designed.
+- Reserve SLOs violated $< 2\%$ of hours; grace mode engaged as designed.
 
 ---
 
-## 13) Parameter Defaults (tune in calibration)
+## 13) Parameter Defaults (tune in calibration) {#parameters}
 
-- (observability curve)
-- (tempo‑occlusion sensitivity)
-- (audit gradient)
-- , (occlusion tax)
-- ,
+- $\alpha$ (observability curve)
+- $\beta$ (tempo‑occlusion sensitivity)
+- $\gamma$ (audit gradient)
+- $\delta_1, \delta_2$ (occlusion tax)
+- $n_1, n_2$
 
-> Note: values are placeholders; calibrate empirically.
-> 
+> Note: values are placeholders; [calibrate empirically](#calibration).
 
 ---
 
-## 14) Roadmap (4 phases)
+## 14) Roadmap (4 phases) {#roadmap}
 
-**P1 (Weeks 1–4):** Telemetry, CLP tokens, estimators for , basic dashboard.
+**P1 (Weeks 1–4):** Telemetry, [CLP tokens](#clp-sketch), [estimators](#estimators) for $R$, basic dashboard.
 
-**P2 (Weeks 5–8):** Paradoxical policing, Ω budgets + slow‑path, reserve SLOs.
+**P2 (Weeks 5–8):** Paradoxical policing, $\Omega$ budgets + slow‑path, reserve SLOs.
 
 **P3 (Weeks 9–12):** Exposure features, fairness guards, batch countermeasures.
 
-**P4 (Weeks 13–16):** Red‑team automation, A/B policy optimizer on .
+**P4 (Weeks 13–16):** Red‑team automation, A/B policy optimizer on $O$.
 
 ---
 
-## 15) Quick Glossary (operational)
+## 15) Quick Glossary (operational) {#glossary}
 
-- **C_eff**: effective compression (speed pressure).
-- **Ω**: undecidability share (fog); components: tempo/topo/cog.
-- **R, R_max**: resolution & ethical bandwidth.
-- **𝒪**: attribution probability.
-- **Ξ**: exploitability index (lower is better).
+- **C_eff**: [effective compression](#estimators) (speed pressure).
+- **Ω**: [undecidability share](#exposure-features) (fog); components: tempo/topo/cog.
+- **R, R_max**: [resolution & ethical bandwidth](#estimators).
+- **𝒪**: [attribution probability](#estimators).
+- **Ξ**: [exploitability index](#ges-def) (lower is better).
 - **B, G**: buffers & guardrails.
-- **GES**: gaming exposure score.
-- **CLP token**: signed proof of accountable path.
+- **GES**: [gaming exposure score](#ges-def).
+- **CLP token**: [signed proof](#clp-sketch) of accountable path.
 
 ---
 

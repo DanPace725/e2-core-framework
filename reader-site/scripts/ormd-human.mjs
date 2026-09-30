@@ -22,7 +22,7 @@ export function projectOrmdToHuman(raw) {
     if (fenced) return line;
     return simplifyRelationshipLinks(resolveLinkIds(line, links));
   }).join("\n");
-  return projected.replace(/^\n+/, "").replace(/\n*$/, "\n");
+  return projected.replace(/[ \t]+$/gm, "").replace(/^\n+/, "").replace(/\n*$/, "\n");
 }
 
 function resolveLinkIds(line, links) {

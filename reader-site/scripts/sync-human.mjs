@@ -46,6 +46,27 @@ for (const name of primary) {
   updates.push({ name, sourcePath, next, nextHash: changed ? nextHash : currentHash, changed });
 }
 
+// The authored master index lives outside Semantic Substrate, but its human
+// companion follows the same ORMD-authoritative projection rule.
+const indexName = "Context Layer Master Index.ormd";
+const indexSourcePath = path.join(coreRoot, "E2Core", "Context Layer Master Index.md");
+const indexContextPath = path.join(coreRoot, "E2Core", "Context Layer", indexName);
+const indexCurrent = await readFile(indexSourcePath);
+const indexCurrentHash = sha256(indexCurrent);
+if (process.argv.includes("--init")) {
+  state[indexName] = indexCurrentHash;
+} else {
+  const indexNext = Buffer.from(projectOrmdToHuman(await readFile(indexContextPath, "utf8")), "utf8");
+  const indexNextHash = sha256(indexNext);
+  if (indexCurrentHash !== state[indexName] && indexCurrentHash !== indexNextHash) {
+    throw new Error(`Human index changed independently of ORMD; review before overwriting: ${indexSourcePath}`);
+  }
+  const indexSameBody = indexCurrent.toString("utf8").replace(/\r\n/g, "\n").replace(/\n+$/, "")
+    === indexNext.toString("utf8").replace(/\n+$/, "");
+  updates.push({ name: indexName, sourcePath: indexSourcePath, next: indexNext,
+    nextHash: indexSameBody ? indexCurrentHash : indexNextHash, changed: !indexSameBody });
+}
+
 if (!process.argv.includes("--init")) {
   for (const { name, sourcePath, next, nextHash, changed } of updates) {
     if (changed) await writeFile(sourcePath, next);
@@ -53,4 +74,4 @@ if (!process.argv.includes("--init")) {
   }
 }
 await writeFile(statePath, `${JSON.stringify(state, null, 2)}\n`, "utf8");
-console.log(`${process.argv.includes("--init") ? "Initialized" : "Synchronized"} ${primary.length} ORMD-primary human documents.`);
+console.log(`${process.argv.includes("--init") ? "Initialized" : "Synchronized"} ${primary.length} ORMD-primary human documents and the master index.`);

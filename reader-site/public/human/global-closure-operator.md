@@ -112,4 +112,3 @@ Use GCO when asking:
 ## Summary {#summary}
 
 The Global Closure Operator maps relational fields toward stable, self-consistent basins. It is the framework's closure condition: not a primitive, but the operator that determines when primitive expansion has become sufficient for homeostasis, production, accountability, or transformation.
-

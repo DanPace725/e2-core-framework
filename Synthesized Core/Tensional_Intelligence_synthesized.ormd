@@ -22,7 +22,7 @@ semantics:
   - derived_framework
 lineage:
   parents:
-  - urn:cb:Tensional Intelligence A Theoretical Foundation.ormd
+  - urn:cb:Tensional Intelligence - A Theoretical Foundation.ormd
   - urn:cb:Tension.ormd
 resolution:
   confidence: 0.95

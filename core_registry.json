@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-29T23:46:33.346193+00:00",
-  "scope": "E2Core",
+  "generated_at": "2026-09-30T17:23:54.844791+00:00",
+  "scope": "C:\\Users\\nscha\\Coding\\E2\\Phase 1\\Core Framework\\E2Core",
   "authority": "active_filesystem_state",
   "counts": {
-    "semantic_substrate_files": 84,
-    "context_layer_files": 83,
-    "active_raw_files": 167,
-    "registry_records": 85,
+    "semantic_substrate_files": 79,
+    "context_layer_files": 80,
+    "active_raw_files": 159,
+    "registry_records": 80,
     "exact_stem_pairs": 79,
-    "composite_or_alias_pairs": 3,
-    "semantic_substrate_only": 2,
+    "composite_or_alias_pairs": 0,
+    "semantic_substrate_only": 0,
     "context_layer_only": 0,
     "context_meta_indexes": 1,
-    "archived_raw_files": 82
+    "archived_raw_files": 181
   },
   "records": [
     {
@@ -27,8 +27,8 @@
           "stem": "Adaptation via Informational Abstraction",
           "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
           "layer": "semantic_substrate",
-          "size_bytes": 7379,
-          "sha256": "0b2e0a67108aa37941b7b9c6f657032471d9bbe327179cf948fa9386b02e405d",
+          "size_bytes": 8472,
+          "sha256": "d77cb64ec48b9ce07429a3a80a603d381668cafd4841b38bde61762e687ceb13",
           "frame": null,
           "confidence": null
         }
@@ -50,31 +50,31 @@
       "note": null
     },
     {
-      "key": "Adversarial Occlusion and Mechanism Integrity V1",
+      "key": "Adversarial Occlusion and Mechanism Integrity",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
-          "name": "Adversarial Occlusion and Mechanism Integrity V1.md",
-          "stem": "Adversarial Occlusion and Mechanism Integrity V1",
+          "path": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity.md",
+          "name": "Adversarial Occlusion and Mechanism Integrity.md",
+          "stem": "Adversarial Occlusion and Mechanism Integrity",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "semantic_substrate",
-          "size_bytes": 23592,
-          "sha256": "5edc597c039aa878a5fa866dde9cfbac9f6f0c89501e5a71382bbca64ef6a733",
+          "size_bytes": 26744,
+          "sha256": "8377fb07872550e2451f712b24e655e1cc8873b9dc2cbee0ba09509266894411",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
-          "name": "Adversarial Occlusion and Mechanism Integrity V1.ormd",
-          "stem": "Adversarial Occlusion and Mechanism Integrity V1",
-          "title": "Adversarial Occlusion and Mechanism Integrity V1",
+          "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity.ormd",
+          "name": "Adversarial Occlusion and Mechanism Integrity.ormd",
+          "stem": "Adversarial Occlusion and Mechanism Integrity",
+          "title": "Adversarial Occlusion and Mechanism Integrity",
           "layer": "context_layer",
-          "size_bytes": 28367,
-          "sha256": "786b8f5cb818131d5e7dbc1b69e385044fc4b9a777ecd2a91f61fe17836dcf7a",
+          "size_bytes": 28456,
+          "sha256": "95002b4662b51e26ff42e966351858503093cd466743c38f138566eb719daf75",
           "frame": "security.governance.framework",
           "confidence": 0.95
         }
@@ -83,47 +83,47 @@
       "note": null
     },
     {
-      "key": "Asymmetry Maintenance - Core Source",
+      "key": "Asymmetry Maintenance",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md",
-          "name": "Asymmetry Maintenance - Core Source.md",
-          "stem": "Asymmetry Maintenance - Core Source",
+          "path": "E2Core/Semantic Substrate/Asymmetry Maintenance.md",
+          "name": "Asymmetry Maintenance.md",
+          "stem": "Asymmetry Maintenance",
           "title": "Asymmetry Maintenance",
           "layer": "semantic_substrate",
-          "size_bytes": 9579,
-          "sha256": "45a507b51f7d54b5da2a63d1460ba4c015350574162e4ac7f9d732c7a11065b6",
+          "size_bytes": 9578,
+          "sha256": "2385eada5b5cc622d987b2aeba8bca8a48eb4e3d66f8d82e96773077880892a7",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd",
-          "name": "Asymmetry Maintenance - Core Source.ormd",
-          "stem": "Asymmetry Maintenance - Core Source",
+          "path": "E2Core/Context Layer/Asymmetry Maintenance.ormd",
+          "name": "Asymmetry Maintenance.ormd",
+          "stem": "Asymmetry Maintenance",
           "title": "Asymmetry Maintenance",
           "layer": "context_layer",
-          "size_bytes": 10392,
-          "sha256": "770776bc27d4ccdc90b784f6fade3215b7b5ddec5a2969ff8295d77fa866eabf",
+          "size_bytes": 10364,
+          "sha256": "e2c3c7e54e4c40925f26e895b470bf14dddd64cdd74ff83ded43d5df92881917",
           "frame": "mechanics.persistence.asymmetry",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Attentional Access and Formation - Core Source",
+      "key": "Attentional Access and Formation",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md",
-          "name": "Attentional Access and Formation - Core Source.md",
-          "stem": "Attentional Access and Formation - Core Source",
+          "path": "E2Core/Semantic Substrate/Attentional Access and Formation.md",
+          "name": "Attentional Access and Formation.md",
+          "stem": "Attentional Access and Formation",
           "title": "Attentional Access and Formation",
           "layer": "semantic_substrate",
           "size_bytes": 25481,
@@ -134,47 +134,47 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd",
-          "name": "Attentional Access and Formation - Core Source.ormd",
-          "stem": "Attentional Access and Formation - Core Source",
+          "path": "E2Core/Context Layer/Attentional Access and Formation.ormd",
+          "name": "Attentional Access and Formation.ormd",
+          "stem": "Attentional Access and Formation",
           "title": "Attentional Access and Formation",
           "layer": "context_layer",
-          "size_bytes": 26145,
-          "sha256": "61f286c2ecac0365ff1a52353f1314265edb9989bbca2f07d79f1dec1ebc4b84",
+          "size_bytes": 26147,
+          "sha256": "ad44f1629cc286af06f9dadab035e629df04e15a647a17f8ab063b9d71f458fc",
           "frame": "dynamics.attentional-access-formation",
           "confidence": 0.86
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Boundary Ethics - Core Source",
+      "key": "Boundary Dynamics",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Boundary Ethics - Core Source.md",
-          "name": "Boundary Ethics - Core Source.md",
-          "stem": "Boundary Ethics - Core Source",
-          "title": "Boundary Ethics",
+          "path": "E2Core/Semantic Substrate/Boundary Dynamics.md",
+          "name": "Boundary Dynamics.md",
+          "stem": "Boundary Dynamics",
+          "title": "Boundary Dynamics",
           "layer": "semantic_substrate",
-          "size_bytes": 10527,
-          "sha256": "3c57e82c83f546fa1ed2fb16909978791c270a422f3886c21a4bea252421881a",
+          "size_bytes": 27694,
+          "sha256": "28b5c9fb30719b9619a5ed1ad667a7e85ee901220d3b2ceaa4abe818386e8d02",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Boundary Ethics - Core Source.ormd",
-          "name": "Boundary Ethics - Core Source.ormd",
-          "stem": "Boundary Ethics - Core Source",
-          "title": "Boundary Ethics",
+          "path": "E2Core/Context Layer/Boundary Dynamics.ormd",
+          "name": "Boundary Dynamics.ormd",
+          "stem": "Boundary Dynamics",
+          "title": "Boundary Dynamics",
           "layer": "context_layer",
-          "size_bytes": 11339,
-          "sha256": "3f99371da19f1c2559db65b70431ed180a85067c16aae3c8c765aba1e7d994ba",
-          "frame": "ethics.boundary.posture",
+          "size_bytes": 28449,
+          "sha256": "2a858c458e722b45ae46b450bae881c6ffe618d42abfbf5c2f16d0c3e55c035d",
+          "frame": "systems.boundary-dynamics",
           "confidence": 0.9
         }
       ],
@@ -182,32 +182,65 @@
       "note": null
     },
     {
-      "key": "boundary_dynamics",
+      "key": "Boundary Ethics",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/boundary_dynamics.md",
-          "name": "boundary_dynamics.md",
-          "stem": "boundary_dynamics",
-          "title": "Boundary Dynamics",
+          "path": "E2Core/Semantic Substrate/Boundary Ethics.md",
+          "name": "Boundary Ethics.md",
+          "stem": "Boundary Ethics",
+          "title": "Boundary Ethics",
           "layer": "semantic_substrate",
-          "size_bytes": 26924,
-          "sha256": "36e939e7510662863ec493699053e8524e04cf2f24b3c6fc0d4cee5fc722986d",
+          "size_bytes": 10526,
+          "sha256": "6a09b5f0dad632f94f039eff136d0f3a218f90f626889eb0e7f829a84b5bbde8",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/boundary_dynamics.ormd",
-          "name": "boundary_dynamics.ormd",
-          "stem": "boundary_dynamics",
-          "title": "Boundary Dynamics",
+          "path": "E2Core/Context Layer/Boundary Ethics.ormd",
+          "name": "Boundary Ethics.ormd",
+          "stem": "Boundary Ethics",
+          "title": "Boundary Ethics",
           "layer": "context_layer",
-          "size_bytes": 28792,
-          "sha256": "d9f27b5e09b63a133c059f5a1ff08d091b5231cc1a66a6458c456a96193287a0",
-          "frame": "systems.boundary-dynamics",
+          "size_bytes": 11297,
+          "sha256": "cb3b78f138c123aa7c35f728b7a32abbd209c8b295457b38eceffc4475f9c846",
+          "frame": "ethics.boundary.posture",
+          "confidence": 0.9
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "Care, Attention, and Coherence - A Relational Manifesto",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Care, Attention, and Coherence - A Relational Manifesto.md",
+          "name": "Care, Attention, and Coherence - A Relational Manifesto.md",
+          "stem": "Care, Attention, and Coherence - A Relational Manifesto",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "layer": "semantic_substrate",
+          "size_bytes": 18411,
+          "sha256": "337aa92067fb72a95fe3e31d7e0a94faf47caaf163a6e2b2d08aa1c14b5b4347",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Care, Attention, and Coherence - A Relational Manifesto.ormd",
+          "name": "Care, Attention, and Coherence - A Relational Manifesto.ormd",
+          "stem": "Care, Attention, and Coherence - A Relational Manifesto",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "layer": "context_layer",
+          "size_bytes": 19572,
+          "sha256": "2785a4cfbcc79d3dcaa7294f1572fe14f5aadd3112add6700b3d6e6ce45ffe7c",
+          "frame": "manifesto.relational",
           "confidence": 0.9
         }
       ],
@@ -225,8 +258,8 @@
           "stem": "Caregiving as an Ecosystem",
           "title": "Caregiving as an Ecosystem",
           "layer": "semantic_substrate",
-          "size_bytes": 5433,
-          "sha256": "28869ba3c2680bb1afabf2edaf2365ef020a459ac3ac6bdd1fc5713e2442cb7b",
+          "size_bytes": 6058,
+          "sha256": "bffbcba68ab276bae9db70367bf11ca40f456e1a1a34841513b1395049dd1f99",
           "frame": null,
           "confidence": null
         }
@@ -256,10 +289,10 @@
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "name": "Collective Cognitive Substrate.md",
           "stem": "Collective Cognitive Substrate",
-          "title": "Cognition as *Substrate*",
+          "title": "Collective Cognitive Substrate",
           "layer": "semantic_substrate",
-          "size_bytes": 44436,
-          "sha256": "23287bd05b1574000b7e40969a37bc03bdbbcd6562b45d93e966b41c72656b7f",
+          "size_bytes": 47693,
+          "sha256": "96994ac004750f69d32d36a17b47da99812fd9b62764a0a4a79ee22b5137c81c",
           "frame": null,
           "confidence": null
         }
@@ -281,18 +314,18 @@
       "note": null
     },
     {
-      "key": "collective-relational-substrate",
-      "status": "paired_composite_or_alias",
-      "relationship": "lineage_preserving_merge",
+      "key": "Collective Relational Substrate",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/CRS.md",
-          "name": "CRS.md",
-          "stem": "CRS",
-          "title": "The Collective Relational Substrate",
+          "path": "E2Core/Semantic Substrate/Collective Relational Substrate.md",
+          "name": "Collective Relational Substrate.md",
+          "stem": "Collective Relational Substrate",
+          "title": "Collective Relational Substrate",
           "layer": "semantic_substrate",
-          "size_bytes": 53753,
-          "sha256": "13aa3a86679c654c719615f13eedffc2bb69bafbc909cb9be74605f2f0de1327",
+          "size_bytes": 60717,
+          "sha256": "cd3414f554e7ba4ae832a547be29b00de2aaf6398ec986dffabbc0ff9c56fc86",
           "frame": null,
           "confidence": null
         }
@@ -304,14 +337,14 @@
           "stem": "Collective Relational Substrate",
           "title": "Collective Relational Substrate",
           "layer": "context_layer",
-          "size_bytes": 69913,
-          "sha256": "b33ba8f4270784bafdea6c3cf3ae754897d9bb41b0d0d77057e1df9411a7645e",
+          "size_bytes": 69941,
+          "sha256": "6ecf0ab4d5101b6dd0d3e72a13df123d274024255ae9dec1a387bfc711aa50d0",
           "frame": "civilization.relational_substrate",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": null,
-      "note": "Context document declares both archived source lineages as parents."
+      "body_equivalent_after_frontmatter": false,
+      "note": null
     },
     {
       "key": "Communication as Coherence",
@@ -324,8 +357,8 @@
           "stem": "Communication as Coherence",
           "title": "Communication as Coherence",
           "layer": "semantic_substrate",
-          "size_bytes": 14685,
-          "sha256": "12b49722cd68d00a223b33d84b58bb3b0b01b5232ad58db1ce900a22442893d9",
+          "size_bytes": 16780,
+          "sha256": "75dd082f66e0eea7a022483a3bbc0d0cd2fa600b1b627566f2dc0695c4f0f943",
           "frame": null,
           "confidence": null
         }
@@ -347,47 +380,47 @@
       "note": null
     },
     {
-      "key": "Complex Causality - Core Source",
+      "key": "Complex Causality",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Complex Causality - Core Source.md",
-          "name": "Complex Causality - Core Source.md",
-          "stem": "Complex Causality - Core Source",
+          "path": "E2Core/Semantic Substrate/Complex Causality.md",
+          "name": "Complex Causality.md",
+          "stem": "Complex Causality",
           "title": "Complex Causality",
           "layer": "semantic_substrate",
-          "size_bytes": 9989,
-          "sha256": "a3f642bf49df86d1f012ba388089f44c3674f6d396e13a487a3bb3cb3609a138",
+          "size_bytes": 9988,
+          "sha256": "aefdfb4aa232a338b4cf0972d4570aadafd1ad201b44b77a2d958e251bdedd4c",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Complex Causality - Core Source.ormd",
-          "name": "Complex Causality - Core Source.ormd",
-          "stem": "Complex Causality - Core Source",
+          "path": "E2Core/Context Layer/Complex Causality.ormd",
+          "name": "Complex Causality.ormd",
+          "stem": "Complex Causality",
           "title": "Complex Causality",
           "layer": "context_layer",
-          "size_bytes": 10812,
-          "sha256": "bc5ca751ee123d33a2e9954aad56253da6a032bd6a0b3524e09205a4740b029c",
+          "size_bytes": 10770,
+          "sha256": "51eeb9466d447c9e09ae1a8c375c9a9d949320884a1e4ec54ac82bd612b3badf",
           "frame": "mechanics.causality.consequence",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Condition as Typed Terrain - Core Source",
+      "key": "Condition as Typed Terrain",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Condition as Typed Terrain - Core Source.md",
-          "name": "Condition as Typed Terrain - Core Source.md",
-          "stem": "Condition as Typed Terrain - Core Source",
+          "path": "E2Core/Semantic Substrate/Condition as Typed Terrain.md",
+          "name": "Condition as Typed Terrain.md",
+          "stem": "Condition as Typed Terrain",
           "title": "Condition as Typed Terrain",
           "layer": "semantic_substrate",
           "size_bytes": 11300,
@@ -398,29 +431,29 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Condition as Typed Terrain - Core Source.ormd",
-          "name": "Condition as Typed Terrain - Core Source.ormd",
-          "stem": "Condition as Typed Terrain - Core Source",
+          "path": "E2Core/Context Layer/Condition as Typed Terrain.ormd",
+          "name": "Condition as Typed Terrain.ormd",
+          "stem": "Condition as Typed Terrain",
           "title": "Condition as Typed Terrain",
           "layer": "context_layer",
-          "size_bytes": 11866,
-          "sha256": "d5ae43822b1eca36bd5b9ad1aa1e214aa0e4b3e50bcff405489e2fef8fbaebf3",
+          "size_bytes": 11796,
+          "sha256": "fc45921619d637edb6393ec05f0d584199e7d4a2f28a1fb2e9f030fbd9da7973",
           "frame": "causality.condition_typed_terrain",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Consequence Routing - Core Source",
+      "key": "Consequence Routing",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Consequence Routing - Core Source.md",
-          "name": "Consequence Routing - Core Source.md",
-          "stem": "Consequence Routing - Core Source",
+          "path": "E2Core/Semantic Substrate/Consequence Routing.md",
+          "name": "Consequence Routing.md",
+          "stem": "Consequence Routing",
           "title": "Consequence Routing",
           "layer": "semantic_substrate",
           "size_bytes": 14673,
@@ -431,42 +464,42 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Consequence Routing - Core Source.ormd",
-          "name": "Consequence Routing - Core Source.ormd",
-          "stem": "Consequence Routing - Core Source",
+          "path": "E2Core/Context Layer/Consequence Routing.ormd",
+          "name": "Consequence Routing.ormd",
+          "stem": "Consequence Routing",
           "title": "Consequence Routing",
           "layer": "context_layer",
-          "size_bytes": 15777,
-          "sha256": "3c3969d8dfbb2eed73bff9231270fc4c1cbdd80ed96d4b01808b0169c5223515",
+          "size_bytes": 15768,
+          "sha256": "71796adb62335330a5a6622619e2a9593142c7c0368842d8b1139a005e653c3a",
           "frame": "accountability.consequence-routing",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+      "key": "Constraint, Fluctuation, Attentional Access, and Resolution",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
-          "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.md",
-          "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+          "path": "E2Core/Semantic Substrate/Constraint, Fluctuation, Attentional Access, and Resolution.md",
+          "name": "Constraint, Fluctuation, Attentional Access, and Resolution.md",
+          "stem": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "semantic_substrate",
-          "size_bytes": 17003,
-          "sha256": "c4b1cdea637f735b5a5f8356b33d33e9c0e3451fb4ff3afe5f65b859dd86d70b",
+          "size_bytes": 17408,
+          "sha256": "ea23dc5ea1978cfcbec3c051b042bd566acb7dfeaf8942bb80ae248731dc4d4c",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
-          "name": "Constraint-Fluctuation-Attention-Resolution - Core Source.ormd",
-          "stem": "Constraint-Fluctuation-Attention-Resolution - Core Source",
+          "path": "E2Core/Context Layer/Constraint, Fluctuation, Attentional Access, and Resolution.ormd",
+          "name": "Constraint, Fluctuation, Attentional Access, and Resolution.ormd",
+          "stem": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "context_layer",
           "size_bytes": 18173,
@@ -475,23 +508,23 @@
           "confidence": 0.86
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
-      "key": "Context Layer Index",
+      "key": "Context Layer Master Index",
       "status": "context_meta_index",
       "relationship": "meta_index",
       "semantic_substrate": [],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Context Layer Index.ormd",
-          "name": "Context Layer Index.ormd",
-          "stem": "Context Layer Index",
+          "path": "E2Core/Context Layer/Context Layer Master Index.ormd",
+          "name": "Context Layer Master Index.ormd",
+          "stem": "Context Layer Master Index",
           "title": "Context Layer Master Index",
           "layer": "context_layer",
-          "size_bytes": 48764,
-          "sha256": "6f16701155bcf25b73c6a0e89105f919279ecb7c3b518e223db9943d15d57bb2",
+          "size_bytes": 48017,
+          "sha256": "dfb018ab10263ffc534c1a7435a7e2a3567b4d0e50c3e7cb12d6234945f86ec1",
           "frame": "meta.index.context-layer",
           "confidence": 1.0
         }
@@ -510,8 +543,8 @@
           "stem": "Context Layer Protocol (CLP)",
           "title": "Context Layer Protocol (CLP)",
           "layer": "semantic_substrate",
-          "size_bytes": 12385,
-          "sha256": "0397bd74215a4b3401d44fbd0e9592147b865ecded0684023189855bba61d533",
+          "size_bytes": 14283,
+          "sha256": "0d6263b36f6199a258d88c6794c8f0576cb0859a87981ce1f49a77195688a2e9",
           "frame": null,
           "confidence": null
         }
@@ -533,47 +566,14 @@
       "note": null
     },
     {
-      "key": "CT translation of RPs",
+      "key": "Custody",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/CT translation of RPs.md",
-          "name": "CT translation of RPs.md",
-          "stem": "CT translation of RPs",
-          "title": "CT translation of RPs",
-          "layer": "semantic_substrate",
-          "size_bytes": 7270,
-          "sha256": "d58f4f7142c1043046aafa3f42ffdde4a01137874d77bbba7c04a4f3c4a02add",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/CT translation of RPs.ormd",
-          "name": "CT translation of RPs.ormd",
-          "stem": "CT translation of RPs",
-          "title": "CT translation of RPs",
-          "layer": "context_layer",
-          "size_bytes": 9096,
-          "sha256": "2d44227ad262895b94ac0ebdd0f70905b5f1aedbff496ed9d8a3a834793f987d",
-          "frame": "formalism.relational-ontology",
-          "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "Custody - Core Source",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Custody - Core Source.md",
-          "name": "Custody - Core Source.md",
-          "stem": "Custody - Core Source",
+          "path": "E2Core/Semantic Substrate/Custody.md",
+          "name": "Custody.md",
+          "stem": "Custody",
           "title": "Custody",
           "layer": "semantic_substrate",
           "size_bytes": 28678,
@@ -584,18 +584,18 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Custody - Core Source.ormd",
-          "name": "Custody - Core Source.ormd",
-          "stem": "Custody - Core Source",
+          "path": "E2Core/Context Layer/Custody.ormd",
+          "name": "Custody.ormd",
+          "stem": "Custody",
           "title": "Custody",
           "layer": "context_layer",
-          "size_bytes": 29283,
-          "sha256": "591c8feaaa8eb29d154516e2b98473a2e81c805497fc2a7ab91332292c5dcb51",
+          "size_bytes": 29269,
+          "sha256": "8c724d976a4de78133e450e557f06493939ddbe76f6430b4cc99b45ee4118011",
           "frame": "ethics.custody",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
@@ -609,8 +609,8 @@
           "stem": "Declaration of Interdependence",
           "title": "Declaration of Interdependence",
           "layer": "semantic_substrate",
-          "size_bytes": 2128,
-          "sha256": "e7c6e8b7b793b380adfdee1706081f67341f1c2bc3192b4c11e06a409feea32e",
+          "size_bytes": 2364,
+          "sha256": "2a4c541f44abe97713bbc70e01f9e7cf10cb13e05564638428333da5a2e89b26",
           "frame": null,
           "confidence": null
         }
@@ -632,27 +632,27 @@
       "note": null
     },
     {
-      "key": "Derivation deep dive",
+      "key": "Derivation Deep Dive - Categorical and Relational Physics",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Derivation deep dive.md",
-          "name": "Derivation deep dive.md",
-          "stem": "Derivation deep dive",
+          "path": "E2Core/Semantic Substrate/Derivation Deep Dive - Categorical and Relational Physics.md",
+          "name": "Derivation Deep Dive - Categorical and Relational Physics.md",
+          "stem": "Derivation Deep Dive - Categorical and Relational Physics",
           "title": "Derivation Deep Dive: Categorical and Relational Physics",
           "layer": "semantic_substrate",
-          "size_bytes": 52328,
-          "sha256": "a7f90c3ba6a532f1f4f234dcbbaf946de84ffaaf6fdf7544ab04c4764c661468",
+          "size_bytes": 61617,
+          "sha256": "ca05a43531933af4cbab9adb38a6ec3912364db0bebb0520f80ee447835b2c59",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Derivation deep dive.ormd",
-          "name": "Derivation deep dive.ormd",
-          "stem": "Derivation deep dive",
+          "path": "E2Core/Context Layer/Derivation Deep Dive - Categorical and Relational Physics.ormd",
+          "name": "Derivation Deep Dive - Categorical and Relational Physics.ormd",
+          "stem": "Derivation Deep Dive - Categorical and Relational Physics",
           "title": "Derivation Deep Dive: Categorical and Relational Physics",
           "layer": "context_layer",
           "size_bytes": 71554,
@@ -665,31 +665,64 @@
       "note": null
     },
     {
-      "key": "E^2 Axioms",
+      "key": "E2 as a Translation Architecture for Human Remembrance",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/E^2 Axioms.md",
-          "name": "E^2 Axioms.md",
-          "stem": "E^2 Axioms",
-          "title": "E^2 Axioms",
+          "path": "E2Core/Semantic Substrate/E2 as a Translation Architecture for Human Remembrance.md",
+          "name": "E2 as a Translation Architecture for Human Remembrance.md",
+          "stem": "E2 as a Translation Architecture for Human Remembrance",
+          "title": "E² as a Translation Architecture for Human Remembrance",
           "layer": "semantic_substrate",
-          "size_bytes": 3939,
-          "sha256": "6f8274c5630f63f2792be7406e1eebf0e8d69ffb9efe70483c58ca7350595bee",
+          "size_bytes": 14543,
+          "sha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/E^2 Axioms.ormd",
-          "name": "E^2 Axioms.ormd",
-          "stem": "E^2 Axioms",
+          "path": "E2Core/Context Layer/E2 as a Translation Architecture for Human Remembrance.ormd",
+          "name": "E2 as a Translation Architecture for Human Remembrance.ormd",
+          "stem": "E2 as a Translation Architecture for Human Remembrance",
+          "title": "E² as a Translation Architecture for Human Remembrance",
+          "layer": "context_layer",
+          "size_bytes": 15855,
+          "sha256": "07f354f04369a2e994b0158af8875d2b5e16c2cc1fe62d1df5409393b67c21ec",
+          "frame": "philosophy.orientation.translation-remembrance",
+          "confidence": 0.9
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "E2 Axioms",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/E2 Axioms.md",
+          "name": "E2 Axioms.md",
+          "stem": "E2 Axioms",
+          "title": "E^2 Axioms",
+          "layer": "semantic_substrate",
+          "size_bytes": 3315,
+          "sha256": "9f58e729665ca63939293a36b1ce0774f14ee134587efbd9f907a9f9bc517515",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/E2 Axioms.ormd",
+          "name": "E2 Axioms.ormd",
+          "stem": "E2 Axioms",
           "title": "E^2 Axioms",
           "layer": "context_layer",
-          "size_bytes": 4012,
-          "sha256": "a4baeb8c13c9313ad0d2fecef0d6cb91ed3969956a187396426ed059f74328db",
+          "size_bytes": 4025,
+          "sha256": "30b3320835faaafc563badbdec29f0e45583fee7e3255330d340d0bb8b135700",
           "frame": "philosophy.relational-ontology.axioms",
           "confidence": 0.92
         }
@@ -698,69 +731,102 @@
       "note": null
     },
     {
-      "key": "E^2 Entry Point",
+      "key": "E2 Corpus Lineage Index",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
-          "name": "E^2 Entry Point.md",
-          "stem": "E^2 Entry Point",
-          "title": "E^2 Entry Point",
+          "path": "E2Core/Semantic Substrate/E2 Corpus Lineage Index.md",
+          "name": "E2 Corpus Lineage Index.md",
+          "stem": "E2 Corpus Lineage Index",
+          "title": "E² Corpus Lineage Index",
           "layer": "semantic_substrate",
-          "size_bytes": 4514,
-          "sha256": "6099f24f2a8f5f7c7d7104907f5c25570733be871b4cb39942af277895a5c841",
+          "size_bytes": 3585,
+          "sha256": "ef683f741223b56c07398b336c63b7eb06be9f5c70213e746b51304eab7c41e9",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/E^2 Entry Point.ormd",
-          "name": "E^2 Entry Point.ormd",
-          "stem": "E^2 Entry Point",
+          "path": "E2Core/Context Layer/E2 Corpus Lineage Index.ormd",
+          "name": "E2 Corpus Lineage Index.ormd",
+          "stem": "E2 Corpus Lineage Index",
+          "title": "E² Corpus Lineage Index",
+          "layer": "context_layer",
+          "size_bytes": 4318,
+          "sha256": "712f5d648fffc30ce7f04de8e988cf924a6dea1d776f1dcd581f110dea7c7716",
+          "frame": "research.index",
+          "confidence": 1.0
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "E2 Entry Point",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/E2 Entry Point.md",
+          "name": "E2 Entry Point.md",
+          "stem": "E2 Entry Point",
+          "title": "E^2 Entry Point",
+          "layer": "semantic_substrate",
+          "size_bytes": 4548,
+          "sha256": "af4d1510458fa139ab03ff7140a29d29a5dc262105f03dff56cd0f849797a968",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/E2 Entry Point.ormd",
+          "name": "E2 Entry Point.ormd",
+          "stem": "E2 Entry Point",
           "title": "E^2 Entry Point",
           "layer": "context_layer",
-          "size_bytes": 5224,
-          "sha256": "3091e0abb681388873cafb095fcd544031c5f0702845646ee866bd0bd519fd59",
+          "size_bytes": 5254,
+          "sha256": "3a76f0c1ec46dd6884c436cd5f5ea46a16bbb3508b4be79e8bf21becfeb8380b",
           "frame": "ontology.relational.e2",
           "confidence": 0.92
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "E^2 Equation",
+      "key": "E2 Equation",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/E^2 Equation.md",
-          "name": "E^2 Equation.md",
-          "stem": "E^2 Equation",
+          "path": "E2Core/Semantic Substrate/E2 Equation.md",
+          "name": "E2 Equation.md",
+          "stem": "E2 Equation",
           "title": "E^2 Equation",
           "layer": "semantic_substrate",
-          "size_bytes": 2604,
-          "sha256": "a8bd633c5f99ac0ad3e34fd9e94b102a7c4be4289ed985f059867e8c4d3501b3",
+          "size_bytes": 3127,
+          "sha256": "954134b4a0fa1f43279b71cbc269b84f4e546024483430c9ad0e6829e3010cb3",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/E^2 Equation.ormd",
-          "name": "E^2 Equation.ormd",
-          "stem": "E^2 Equation",
-          "title": "E^2 Equation: Recursive Composition and the Global Closure Operator",
+          "path": "E2Core/Context Layer/E2 Equation.ormd",
+          "name": "E2 Equation.ormd",
+          "stem": "E2 Equation",
+          "title": "E^2 Equation",
           "layer": "context_layer",
-          "size_bytes": 3214,
-          "sha256": "f5a52f933b53e4b9df2b22adbd67c3be1cb02d307c29d922526aae5993cf4967",
+          "size_bytes": 4103,
+          "sha256": "685aecbe55e5749bda6620071f080bb7ebad497efe38b8478acfc52bba9528c7",
           "frame": "ontology.relational-physics",
-          "confidence": 0.98
+          "confidence": 0.5
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
@@ -772,10 +838,10 @@
           "path": "E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md",
           "name": "Embedded Universality Principle (EUP).md",
           "stem": "Embedded Universality Principle (EUP)",
-          "title": "Embedded Universality Principle",
+          "title": "Embedded Universality Principle (EUP)",
           "layer": "semantic_substrate",
-          "size_bytes": 53030,
-          "sha256": "60df656d1cecdc0346c8d4d119be9d8374fd4df84126118f934f7707f19e007c",
+          "size_bytes": 53071,
+          "sha256": "f4fec08a085eaadebb4c7e1aa83ecff65149f3dc3ca886961c57aefbcf769277",
           "frame": null,
           "confidence": null
         }
@@ -787,8 +853,8 @@
           "stem": "Embedded Universality Principle (EUP)",
           "title": "Embedded Universality Principle (EUP)",
           "layer": "context_layer",
-          "size_bytes": 55467,
-          "sha256": "364682d5220b89711c1e942a08f98763c7b18bd33da40bba8a99ae6a572ad500",
+          "size_bytes": 55516,
+          "sha256": "884cb84b668000685f002d14ea9c4a0f18cea14fcc39d184d34ff495c43554cc",
           "frame": "epistemology.governance.embedded-universality",
           "confidence": 0.9
         }
@@ -797,60 +863,27 @@
       "note": null
     },
     {
-      "key": "Emergence Engine overview",
+      "key": "Emergence Determination Foreclosure",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Emergence Engine overview.md",
-          "name": "Emergence Engine overview.md",
-          "stem": "Emergence Engine overview",
-          "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
-          "layer": "semantic_substrate",
-          "size_bytes": 21259,
-          "sha256": "084ac434d27a6cab7a2aeabc5ad667949b54939b5117a7c82bdfbb9db5d3f543",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Emergence Engine overview.ormd",
-          "name": "Emergence Engine overview.ormd",
-          "stem": "Emergence Engine overview",
-          "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
-          "layer": "context_layer",
-          "size_bytes": 25518,
-          "sha256": "fc411d1bc058eab1a2d76830e1235485e2decb42df51613aaa03d677cac13a41",
-          "frame": "research.simulation.ecology",
-          "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "Emergence_Determination_Foreclosure",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md",
-          "name": "Emergence_Determination_Foreclosure.md",
-          "stem": "Emergence_Determination_Foreclosure",
+          "path": "E2Core/Semantic Substrate/Emergence Determination Foreclosure.md",
+          "name": "Emergence Determination Foreclosure.md",
+          "stem": "Emergence Determination Foreclosure",
           "title": "Emergence Determination Foreclosure",
           "layer": "semantic_substrate",
-          "size_bytes": 21494,
-          "sha256": "5a7763fb264b644fb53f1b241d45562e5c9a1907ba8867f2085c590cd99aa1de",
+          "size_bytes": 22269,
+          "sha256": "61af4812f10a6cc4a6a4e5e81bc02d9bdd014344df7ad0444bbc083c4e7380a4",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd",
-          "name": "Emergence_Determination_Foreclosure.ormd",
-          "stem": "Emergence_Determination_Foreclosure",
+          "path": "E2Core/Context Layer/Emergence Determination Foreclosure.ormd",
+          "name": "Emergence Determination Foreclosure.ormd",
+          "stem": "Emergence Determination Foreclosure",
           "title": "Emergence Determination Foreclosure",
           "layer": "context_layer",
           "size_bytes": 23118,
@@ -859,35 +892,35 @@
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
-      "key": "Essence of Existence Constitution - Draft 2",
+      "key": "Essence of Existence Constitution",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
-          "name": "Essence of Existence Constitution - Draft 2.md",
-          "stem": "Essence of Existence Constitution - Draft 2",
+          "path": "E2Core/Semantic Substrate/Essence of Existence Constitution.md",
+          "name": "Essence of Existence Constitution.md",
+          "stem": "Essence of Existence Constitution",
           "title": "Essence of Existence Constitution - Draft 2",
           "layer": "semantic_substrate",
-          "size_bytes": 12260,
-          "sha256": "205f001b180c0baaf1cab1f43144a002d7128ffcfe143f1a1710b7fadc382845",
+          "size_bytes": 13825,
+          "sha256": "74292fa0b78e13de774cae462087b8b70ea66d22c2f0bc1cda5bba8a53f95260",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
-          "name": "Essence of Existence Constitution - Draft 2.ormd",
-          "stem": "Essence of Existence Constitution - Draft 2",
-          "title": "Essence of Existence Constitution - Draft 2",
+          "path": "E2Core/Context Layer/Essence of Existence Constitution.ormd",
+          "name": "Essence of Existence Constitution.ormd",
+          "stem": "Essence of Existence Constitution",
+          "title": "Essence of Existence Constitution",
           "layer": "context_layer",
-          "size_bytes": 15395,
-          "sha256": "a7682179859cfca5458d6dd15081069ae43c0f046448c0ca976e4bdf2ea0b4c5",
+          "size_bytes": 15507,
+          "sha256": "899ab96cadca1320b4ee94fa4bdab5d2c58f3215d5e694346961cf42adbc52fc",
           "frame": "ontology.constitution",
           "confidence": 0.9
         }
@@ -906,8 +939,8 @@
           "stem": "Ethical Occlusion via Temporal Compression (EOTC)",
           "title": "Ethical Occlusion via Temporal Compression (EOTC)",
           "layer": "semantic_substrate",
-          "size_bytes": 6719,
-          "sha256": "89c13657e9e1f4947ec5b9f8b6e89f65ef4457e2b1bca745f721bc4943dbf9c9",
+          "size_bytes": 5938,
+          "sha256": "c822629086ea18ed476b2fead6facb93251e2fb6bff14b1dbe3456bfe1b6b595",
           "frame": null,
           "confidence": null
         }
@@ -925,7 +958,7 @@
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
@@ -939,8 +972,8 @@
           "stem": "Ethical Principles for Human-AI Interaction",
           "title": "Ethical Principles for Human-AI Interaction",
           "layer": "semantic_substrate",
-          "size_bytes": 3337,
-          "sha256": "88d3324f1a3a14cc2c24bf9324da141ff6caa27f6a274c7a760b6ebfe261623f",
+          "size_bytes": 3780,
+          "sha256": "b62260fc0341068211fa8605473c1882ecdee30a97e3929ee6ab8a99f5afde70",
           "frame": null,
           "confidence": null
         }
@@ -972,8 +1005,8 @@
           "stem": "Exposure Protocol",
           "title": "Exposure Protocol",
           "layer": "semantic_substrate",
-          "size_bytes": 5674,
-          "sha256": "4b577f3c032ca839005c95a782499217e82a96bc511382f897324035bed95b06",
+          "size_bytes": 6491,
+          "sha256": "3098ec24c4065c03f9c4b231c32213cd36f4f6c38d1255208a98d909e37c25a5",
           "frame": null,
           "confidence": null
         }
@@ -983,48 +1016,15 @@
           "path": "E2Core/Context Layer/Exposure Protocol.ormd",
           "name": "Exposure Protocol.ormd",
           "stem": "Exposure Protocol",
-          "title": "Exposure Protocol: A Coherence-Preserving Transmission Framework",
+          "title": "Exposure Protocol",
           "layer": "context_layer",
-          "size_bytes": 7720,
-          "sha256": "dc26d5352864204b5b9f357273a79277b197c557462f60004b3d48fde2dcf0b8",
+          "size_bytes": 7673,
+          "sha256": "e32d079a067cb44c00f85ed54e461620e08c1025c4224b4ecd8e0d2efa7fc482",
           "frame": "pedagogy.framework",
           "confidence": 0.95
         }
       ],
       "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "E² as a Translation Architecture for Human Remembrance",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
-          "name": "E² as a Translation Architecture for Human Remembrance.md",
-          "stem": "E² as a Translation Architecture for Human Remembrance",
-          "title": "E² as a Translation Architecture for Human Remembrance",
-          "layer": "semantic_substrate",
-          "size_bytes": 14543,
-          "sha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/E² as a Translation Architecture for Human Remembrance.ormd",
-          "name": "E² as a Translation Architecture for Human Remembrance.ormd",
-          "stem": "E² as a Translation Architecture for Human Remembrance",
-          "title": "E² as a Translation Architecture for Human Remembrance",
-          "layer": "context_layer",
-          "size_bytes": 15856,
-          "sha256": "9251d42d27a7dcab874ff710e64a966a2acebce931aa7658359530e4d36122f9",
-          "frame": "philosophy.orientation.translation-remembrance",
-          "confidence": 0.9
-        }
-      ],
-      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
@@ -1038,8 +1038,8 @@
           "stem": "Family as a Relational Field",
           "title": "Family as a Relational Field",
           "layer": "semantic_substrate",
-          "size_bytes": 82217,
-          "sha256": "6014456f2d4aad01b8ab682a1f8c3aa382197667a97c965d8b2898a0a1340b28",
+          "size_bytes": 89540,
+          "sha256": "c15e016108370d83e7817f726c8e7ee044e9a692bb09f8ff5ecf43bf64a2b291",
           "frame": null,
           "confidence": null
         }
@@ -1061,31 +1061,31 @@
       "note": null
     },
     {
-      "key": "flow_operators_provisional",
+      "key": "Flow Operators",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/flow_operators_provisional.md",
-          "name": "flow_operators_provisional.md",
-          "stem": "flow_operators_provisional",
+          "path": "E2Core/Semantic Substrate/Flow Operators.md",
+          "name": "Flow Operators.md",
+          "stem": "Flow Operators",
           "title": "Flow Operators: A Provisional Snapshot",
           "layer": "semantic_substrate",
-          "size_bytes": 15814,
-          "sha256": "07b49c3f8e1878d1c792d04030a22437d96c04a08cc7cff447060f80209d2c0d",
+          "size_bytes": 16398,
+          "sha256": "68b4863fc22934630968ed025f9de18f8f5b7f99c9aa86ab15449e73943cf4b0",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/flow_operators_provisional.ormd",
-          "name": "flow_operators_provisional.ormd",
-          "stem": "flow_operators_provisional",
-          "title": "Flow Operators: A Provisional Snapshot",
+          "path": "E2Core/Context Layer/Flow Operators.ormd",
+          "name": "Flow Operators.ormd",
+          "stem": "Flow Operators",
+          "title": "Flow Operators",
           "layer": "context_layer",
-          "size_bytes": 17555,
-          "sha256": "35ea5ce1f0e832225387a1bf5da1ccfbf9623e08358510dd1e1b2d67bd75e2de",
+          "size_bytes": 17564,
+          "sha256": "8a8489392e3538150e32a4275edb1b12894a9af9d5f4ca0372340ffb71a28887",
           "frame": "dynamics.flow-operators",
           "confidence": 0.9
         }
@@ -1104,8 +1104,8 @@
           "stem": "From Essential Relationships to Ontological Transformation",
           "title": "From Essential Relationships to Ontological Transformation",
           "layer": "semantic_substrate",
-          "size_bytes": 9218,
-          "sha256": "022ca874635ec632aaab15de6b0d2065ee52f913e0b4a085e6b8d75d0d03d7af",
+          "size_bytes": 9605,
+          "sha256": "cd0d5e4b3e9d930c85e7339895c37fcc202e97875ec00ae5860480f0526d57ba",
           "frame": null,
           "confidence": null
         }
@@ -1137,8 +1137,8 @@
           "stem": "Global Closure Operator",
           "title": "Global Closure Operator",
           "layer": "semantic_substrate",
-          "size_bytes": 6166,
-          "sha256": "4ee6e4f15674bf5344fd2f0daddbef622ca137775f33190ee7150da30f6c0a83",
+          "size_bytes": 5468,
+          "sha256": "7c53156b597f99da90e355a7264bc9351d9d1c5b3f111fb71f63aefa5ace0291",
           "frame": null,
           "confidence": null
         }
@@ -1150,8 +1150,8 @@
           "stem": "Global Closure Operator",
           "title": "Global Closure Operator",
           "layer": "context_layer",
-          "size_bytes": 6248,
-          "sha256": "6bc201079e894cbf39a3dbb88c53371814a70415d99e58b2431cafa2cf3ae4ab",
+          "size_bytes": 6247,
+          "sha256": "2e411e4efd5ff85318a3959ff6babbef34bac8fb70a4d3a3b8376ae93c364160",
           "frame": "theoretical.ontology.relational",
           "confidence": 0.95
         }
@@ -1170,8 +1170,8 @@
           "stem": "Human-AI Creative Collaboration Framework (HAIC)",
           "title": "Human-AI Creative Collaboration Framework (HAIC)",
           "layer": "semantic_substrate",
-          "size_bytes": 3729,
-          "sha256": "9f8745889e0796f7b69347fa4016ca0b6853cf01e614e197103d8093b5137757",
+          "size_bytes": 4513,
+          "sha256": "18d535e934bca162e78ea94498ed1ed6374eac5ed6a9ba423d08550f9bd3118f",
           "frame": null,
           "confidence": null
         }
@@ -1203,8 +1203,8 @@
           "stem": "Implementations",
           "title": "Implementations",
           "layer": "semantic_substrate",
-          "size_bytes": 707,
-          "sha256": "1852118c1589d308bc4117d48ee5456cff3ccbfb53f18fbb8307382225e8e4be",
+          "size_bytes": 2572,
+          "sha256": "9a0ed8c44240b3daca32fa7d7fe9b3f1952275abcf1a85c86285c726bdf7bfce",
           "frame": null,
           "confidence": null
         }
@@ -1222,31 +1222,31 @@
           "confidence": 1.0
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
-      "key": "Interlocked Stewardship V2",
+      "key": "Interlocked Stewardship",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Interlocked Stewardship V2.md",
-          "name": "Interlocked Stewardship V2.md",
-          "stem": "Interlocked Stewardship V2",
+          "path": "E2Core/Semantic Substrate/Interlocked Stewardship.md",
+          "name": "Interlocked Stewardship.md",
+          "stem": "Interlocked Stewardship",
           "title": "Interlocked Stewardship",
           "layer": "semantic_substrate",
-          "size_bytes": 10083,
-          "sha256": "df98befb8cd2c0002fe1463d08397dcad77a3db4d1e698431b61d73e32f927c8",
+          "size_bytes": 11614,
+          "sha256": "3f3247b51badf86c7863535f5b514123d2c35e94d06f8937c95e1fee4ff3362d",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Interlocked Stewardship V2.ormd",
-          "name": "Interlocked Stewardship V2.ormd",
-          "stem": "Interlocked Stewardship V2",
+          "path": "E2Core/Context Layer/Interlocked Stewardship.ormd",
+          "name": "Interlocked Stewardship.ormd",
+          "stem": "Interlocked Stewardship",
           "title": "Interlocked Stewardship",
           "layer": "context_layer",
           "size_bytes": 12815,
@@ -1259,14 +1259,14 @@
       "note": null
     },
     {
-      "key": "Intervention Stewardship - Core Source",
+      "key": "Intervention Stewardship",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Intervention Stewardship - Core Source.md",
-          "name": "Intervention Stewardship - Core Source.md",
-          "stem": "Intervention Stewardship - Core Source",
+          "path": "E2Core/Semantic Substrate/Intervention Stewardship.md",
+          "name": "Intervention Stewardship.md",
+          "stem": "Intervention Stewardship",
           "title": "Intervention Stewardship",
           "layer": "semantic_substrate",
           "size_bytes": 11651,
@@ -1277,18 +1277,18 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Intervention Stewardship - Core Source.ormd",
-          "name": "Intervention Stewardship - Core Source.ormd",
-          "stem": "Intervention Stewardship - Core Source",
+          "path": "E2Core/Context Layer/Intervention Stewardship.ormd",
+          "name": "Intervention Stewardship.ormd",
+          "stem": "Intervention Stewardship",
           "title": "Intervention Stewardship",
           "layer": "context_layer",
-          "size_bytes": 12704,
-          "sha256": "cbaaba161e0ab4c1114bf236999f48d24ddae278cce74d8a26fdc5480b7e47cf",
+          "size_bytes": 12669,
+          "sha256": "a4fe90452d62e507ad34902eac361cc3fbbeeab2eb24ad1723bf5b49e0aca5b1",
           "frame": "ethics.stewardship.intervention",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
@@ -1302,8 +1302,8 @@
           "stem": "Justice Across Scales",
           "title": "Justice Across Scales: A Relational Framework",
           "layer": "semantic_substrate",
-          "size_bytes": 20287,
-          "sha256": "7ebbcd0705fd8801c322d2c0c841000a5eef2683211c4a7725892fa72d1b3886",
+          "size_bytes": 20286,
+          "sha256": "ecddecff138a84007a3747c476558c0e313fe035db6ad3c0796bd8ccd1089392",
           "frame": null,
           "confidence": null
         }
@@ -1325,27 +1325,27 @@
       "note": null
     },
     {
-      "key": "Justice Across Scales Practical Applications",
+      "key": "Justice Across Scales - Practical Applications",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Justice Across Scales Practical Applications.md",
-          "name": "Justice Across Scales Practical Applications.md",
-          "stem": "Justice Across Scales Practical Applications",
+          "path": "E2Core/Semantic Substrate/Justice Across Scales - Practical Applications.md",
+          "name": "Justice Across Scales - Practical Applications.md",
+          "stem": "Justice Across Scales - Practical Applications",
           "title": "Justice Across Scales: Practical Applications",
           "layer": "semantic_substrate",
-          "size_bytes": 40990,
-          "sha256": "38c541967cbc558e19f1efd72fe65087693dcca24fc4ef8367d67b40561a6078",
+          "size_bytes": 45269,
+          "sha256": "69c47058357104921bdc9e4ba5bbcb61d1051c4e431ccc7833cb45fc1b4c62d5",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Justice Across Scales Practical Applications.ormd",
-          "name": "Justice Across Scales Practical Applications.ormd",
-          "stem": "Justice Across Scales Practical Applications",
+          "path": "E2Core/Context Layer/Justice Across Scales - Practical Applications.ormd",
+          "name": "Justice Across Scales - Practical Applications.ormd",
+          "stem": "Justice Across Scales - Practical Applications",
           "title": "Justice Across Scales: Practical Applications",
           "layer": "context_layer",
           "size_bytes": 50366,
@@ -1358,64 +1358,64 @@
       "note": null
     },
     {
-      "key": "Lawfulness - Core Source",
+      "key": "Lawfulness",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Lawfulness - Core Source.md",
-          "name": "Lawfulness - Core Source.md",
-          "stem": "Lawfulness - Core Source",
+          "path": "E2Core/Semantic Substrate/Lawfulness.md",
+          "name": "Lawfulness.md",
+          "stem": "Lawfulness",
           "title": "Lawfulness",
           "layer": "semantic_substrate",
-          "size_bytes": 10507,
-          "sha256": "11c39af4c76328d990868723a446f1a23629c2432026f211fcc698dfab39c802",
+          "size_bytes": 10506,
+          "sha256": "3492b10cb2ee7cab8aafe0485a3d6ac9db8180abc203f23c0dea549848c99ef7",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Lawfulness - Core Source.ormd",
-          "name": "Lawfulness - Core Source.ormd",
-          "stem": "Lawfulness - Core Source",
+          "path": "E2Core/Context Layer/Lawfulness.ormd",
+          "name": "Lawfulness.ormd",
+          "stem": "Lawfulness",
           "title": "Lawfulness",
           "layer": "context_layer",
-          "size_bytes": 11078,
-          "sha256": "34f45d05b05cc421a5b9944ca1081eae6f241aa7ae8209a68004201b57475608",
+          "size_bytes": 11102,
+          "sha256": "d1a0c8d1a709a7894633964e4111dd73969cdbdce985cbc3d1ced693fb57c5d7",
           "frame": "epistemics.predictive_lawfulness",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "layer_2_draft_rvp_and_vme_developments",
+      "key": "Layer 2 - RVP and VME Developments",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md",
-          "name": "layer_2_draft_rvp_and_vme_developments.md",
-          "stem": "layer_2_draft_rvp_and_vme_developments",
+          "path": "E2Core/Semantic Substrate/Layer 2 - RVP and VME Developments.md",
+          "name": "Layer 2 - RVP and VME Developments.md",
+          "stem": "Layer 2 - RVP and VME Developments",
           "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
           "layer": "semantic_substrate",
-          "size_bytes": 8708,
-          "sha256": "8bf58319407e5607c6d93a8e52eeb3c25c50694aa9548ffb74cbe1858e864816",
+          "size_bytes": 9400,
+          "sha256": "9a0d0f2482a88af58080e64cbccb2d2438ffa28b0014a3e13b33c89ae6d5a8c3",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/layer_2_draft_rvp_and_vme_developments.ormd",
-          "name": "layer_2_draft_rvp_and_vme_developments.ormd",
-          "stem": "layer_2_draft_rvp_and_vme_developments",
-          "title": "Layer 2 Draft: RVP + VME (Developments So Far)",
+          "path": "E2Core/Context Layer/Layer 2 - RVP and VME Developments.ormd",
+          "name": "Layer 2 - RVP and VME Developments.ormd",
+          "stem": "Layer 2 - RVP and VME Developments",
+          "title": "Layer 2 - RVP and VME Developments",
           "layer": "context_layer",
-          "size_bytes": 10644,
-          "sha256": "57c7da07b98080a34ac078863bc96eb6c2bf2c2f6f4908825c02c25965d21cab",
+          "size_bytes": 10687,
+          "sha256": "cf161e976de58798e2e377dc7fab6392351ccd9ae8af2843d9279a7f07135abe",
           "frame": "economics.relational.specification",
           "confidence": 0.85
         }
@@ -1434,8 +1434,8 @@
           "stem": "Meta-Pattern Decidability Conjecture (MPDC)",
           "title": "Meta-Pattern Decidability Conjecture (MPDC)",
           "layer": "semantic_substrate",
-          "size_bytes": 3564,
-          "sha256": "b025614627f92d49edf9b6174f0133f0661decee2d430245c0419b5de48f093a",
+          "size_bytes": 3893,
+          "sha256": "0cf804ae32bdda9a8f498b3733bebbbb8d720e15686eacf30d3ae045e132806a",
           "frame": null,
           "confidence": null
         }
@@ -1467,8 +1467,8 @@
           "stem": "Metabolic Meaning Phase Space (MMPS)",
           "title": "Metabolic Meaning Phase Space (MMPS)",
           "layer": "semantic_substrate",
-          "size_bytes": 5827,
-          "sha256": "f6f22e988e839ff94f931b04098271d543dd2754e3a66c727a58d5db8a29399d",
+          "size_bytes": 5116,
+          "sha256": "83d72da342679b4dece3e81c3510dc768863edf7e9a4fcb13762b88530d70572",
           "frame": null,
           "confidence": null
         }
@@ -1486,7 +1486,7 @@
           "confidence": 0.95
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
@@ -1500,8 +1500,8 @@
           "stem": "MRIE - Unified Synthesis",
           "title": "MRIE - Unified Synthesis",
           "layer": "semantic_substrate",
-          "size_bytes": 23225,
-          "sha256": "109e4183ab5e549ecba7f5b59cb1001a8c74ae012278d9bd2ec35a9b349fe7f3",
+          "size_bytes": 24499,
+          "sha256": "ff3533717f48a207e9da9c9991552275a75356800615dd24a2c542c229ba1e9b",
           "frame": null,
           "confidence": null
         }
@@ -1533,8 +1533,8 @@
           "stem": "Ontological Systems Interface (OSI) Model",
           "title": "Ontological Systems Interface (OSI) Model",
           "layer": "semantic_substrate",
-          "size_bytes": 25045,
-          "sha256": "6bdb2fa4b5e72cca0d783701edf1bece7dacfe5e5bb1739ee05ed65bba2108ee",
+          "size_bytes": 26109,
+          "sha256": "9ec379989929b9652cc089f0b08add52c2f29858726cef07555fa02332cf4d56",
           "frame": null,
           "confidence": null
         }
@@ -1556,60 +1556,6 @@
       "note": null
     },
     {
-      "key": "Original E^2 work",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Original E^2 work.md",
-          "name": "Original E^2 work.md",
-          "stem": "Original E^2 work",
-          "title": "Original E^2 Work",
-          "layer": "semantic_substrate",
-          "size_bytes": 4291,
-          "sha256": "77eb66bb182550f98b0a7465f53257898572e92e3885b7661157d9455f5629fb",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Original E^2 work.ormd",
-          "name": "Original E^2 work.ormd",
-          "stem": "Original E^2 work",
-          "title": "Original E^2 Work",
-          "layer": "context_layer",
-          "size_bytes": 4171,
-          "sha256": "224a587ffc2451025dc1c6fb0ff57f5747e9cae97d76f2fdcafaac168eec640a",
-          "frame": "research.index",
-          "confidence": 1.0
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "Our essence exists in the space between us",
-      "status": "semantic_substrate_only",
-      "relationship": "unpaired_active_source",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Our essence exists in the space between us.md",
-          "name": "Our essence exists in the space between us.md",
-          "stem": "Our essence exists in the space between us",
-          "title": "Our essence exists in the space between us",
-          "layer": "semantic_substrate",
-          "size_bytes": 66,
-          "sha256": "a26a85bd2297fa3b1c58206d6eba91df0da01a3b2132cfd21cd2fa80e0c9d3e2",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [],
-      "body_equivalent_after_frontmatter": null,
-      "note": "No active Context Layer counterpart is registered."
-    },
-    {
       "key": "Pattern Integrity over Time under Entropy",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
@@ -1620,8 +1566,8 @@
           "stem": "Pattern Integrity over Time under Entropy",
           "title": "Pattern Integrity over Time under Entropy",
           "layer": "semantic_substrate",
-          "size_bytes": 28167,
-          "sha256": "75e4c8fa95b8a5b72d272bd41ceac8ffff3626514fe5fa7e8e06c1c80c6a6c82",
+          "size_bytes": 33665,
+          "sha256": "d88f0c103b357f334a226ab04ee8291a792a2ed00df5797505c31a265d82291b",
           "frame": null,
           "confidence": null
         }
@@ -1643,36 +1589,36 @@
       "note": null
     },
     {
-      "key": "Persistence as Accumulated Stance-With - Core Source",
+      "key": "Persistence as Accumulated Stance-With",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md",
-          "name": "Persistence as Accumulated Stance-With - Core Source.md",
-          "stem": "Persistence as Accumulated Stance-With - Core Source",
+          "path": "E2Core/Semantic Substrate/Persistence as Accumulated Stance-With.md",
+          "name": "Persistence as Accumulated Stance-With.md",
+          "stem": "Persistence as Accumulated Stance-With",
           "title": "Persistence as Accumulated Stance-With",
           "layer": "semantic_substrate",
-          "size_bytes": 12605,
-          "sha256": "bfdc3b43d2a79a6b8b71335fb5b42b48b0e674a1443ae0201a0c11742dfea251",
+          "size_bytes": 12604,
+          "sha256": "012e1a02b17af7c5a368bc9cb4540c04e4b928bc5850b118b709da132d5720d6",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd",
-          "name": "Persistence as Accumulated Stance-With - Core Source.ormd",
-          "stem": "Persistence as Accumulated Stance-With - Core Source",
+          "path": "E2Core/Context Layer/Persistence as Accumulated Stance-With.ormd",
+          "name": "Persistence as Accumulated Stance-With.ormd",
+          "stem": "Persistence as Accumulated Stance-With",
           "title": "Persistence as Accumulated Stance-With",
           "layer": "context_layer",
-          "size_bytes": 13234,
-          "sha256": "05d79a1ef11c391345b3cea9322a26f46041eef982aeff93f5af361accd5bbcd",
+          "size_bytes": 13180,
+          "sha256": "a0152868a7d39161123fdb0f931676704b3a419418ad85318ac44d7850fad9ca",
           "frame": "dynamics.persistence_accumulated_stance_with",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
@@ -1686,8 +1632,8 @@
           "stem": "Power as Relational Field Coherence",
           "title": "Power as Relational Field Coherence",
           "layer": "semantic_substrate",
-          "size_bytes": 53635,
-          "sha256": "5c2818858a6d907cb6b587cd67984e6e27c3d944f80fa0823663185aeba4a5e2",
+          "size_bytes": 63299,
+          "sha256": "d4285b0a9faccf35929b3b293b88d528e1079a59d9ae0bd2353a3ad2d41753b2",
           "frame": null,
           "confidence": null
         }
@@ -1699,8 +1645,8 @@
           "stem": "Power as Relational Field Coherence",
           "title": "Power as Relational Field Coherence",
           "layer": "context_layer",
-          "size_bytes": 71252,
-          "sha256": "8eba8d69784814529083413b7449548447220fd9a0fedcf21cf4865ce9070c45",
+          "size_bytes": 71260,
+          "sha256": "8f85c9d6dde087b395f58eca78d6e8be16946d2880c6e33f3d5d98c21a24cef2",
           "frame": "theoretical.sociophysics.power",
           "confidence": 0.9
         }
@@ -1709,14 +1655,14 @@
       "note": null
     },
     {
-      "key": "Proxy Localization - Core Source",
+      "key": "Proxy Localization",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Proxy Localization - Core Source.md",
-          "name": "Proxy Localization - Core Source.md",
-          "stem": "Proxy Localization - Core Source",
+          "path": "E2Core/Semantic Substrate/Proxy Localization.md",
+          "name": "Proxy Localization.md",
+          "stem": "Proxy Localization",
           "title": "Proxy Localization",
           "layer": "semantic_substrate",
           "size_bytes": 11706,
@@ -1727,79 +1673,79 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Proxy Localization - Core Source.ormd",
-          "name": "Proxy Localization - Core Source.ormd",
-          "stem": "Proxy Localization - Core Source",
+          "path": "E2Core/Context Layer/Proxy Localization.ormd",
+          "name": "Proxy Localization.ormd",
+          "stem": "Proxy Localization",
           "title": "Proxy Localization",
           "layer": "context_layer",
-          "size_bytes": 12513,
-          "sha256": "1ed1068a7965429eba244efa32eba8732bd4731e9e8a9eee13223f022e1ea87f",
+          "size_bytes": 12457,
+          "sha256": "db6ee174caac77f36b96df4f16ae2a15a73f93110329cf22f065b416245010ea",
           "frame": "ethics.assignment.proxy",
           "confidence": 0.9
-        }
-      ],
-      "body_equivalent_after_frontmatter": true,
-      "note": null
-    },
-    {
-      "key": "Relational Bill of Rights v2",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Relational Bill of Rights v2.md",
-          "name": "Relational Bill of Rights v2.md",
-          "stem": "Relational Bill of Rights v2",
-          "title": "The Relational Bill of Rights",
-          "layer": "semantic_substrate",
-          "size_bytes": 7178,
-          "sha256": "3e4ca7cb533ef2d5e91376d25d1af57fe3a37dd22d489cb869cbaa15cc33903b",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Relational Bill of Rights v2.ormd",
-          "name": "Relational Bill of Rights v2.ormd",
-          "stem": "Relational Bill of Rights v2",
-          "title": "The Relational Bill of Rights",
-          "layer": "context_layer",
-          "size_bytes": 9112,
-          "sha256": "5a4171ca71c09fc601f366615485de98714f9d70694c6e5e0438ec8a50bcd2b5",
-          "frame": "ethics.relational",
-          "confidence": 0.95
         }
       ],
       "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Relational Field Dynamics 0 1",
+      "key": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
-          "name": "Relational Field Dynamics 0 1.md",
-          "stem": "Relational Field Dynamics 0 1",
-          "title": "Relational Field Dynamics 0.1",
+          "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+          "name": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+          "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+          "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "semantic_substrate",
-          "size_bytes": 6449,
-          "sha256": "6844f081877c85d87b7f6c7a1b2ad0ede8ea2b31058619a11fcc98ba1531df33",
+          "size_bytes": 5814,
+          "sha256": "5067473122596b2213f718d334527f49701d029fc4ca69d682a74ad7ea5d692b",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Relational Field Dynamics 0 1.ormd",
-          "name": "Relational Field Dynamics 0 1.ormd",
-          "stem": "Relational Field Dynamics 0 1",
-          "title": "Relational Field Dynamics 0.1",
+          "path": "E2Core/Context Layer/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.ormd",
+          "name": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.ormd",
+          "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
+          "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "context_layer",
-          "size_bytes": 9596,
-          "sha256": "81d1bf66b70365a019c9bc33c2ca82a954f24f62ee815b53ddd54365e96b9d2b",
+          "size_bytes": 6627,
+          "sha256": "f928d055a772f37ed80cceee51c605303ad9925f11700580265066810446652c",
+          "frame": "philosophy.relational.computability",
+          "confidence": 0.85
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "Relational Field Dynamics",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Relational Field Dynamics.md",
+          "name": "Relational Field Dynamics.md",
+          "stem": "Relational Field Dynamics",
+          "title": "Relational Field Dynamics 0.1",
+          "layer": "semantic_substrate",
+          "size_bytes": 8054,
+          "sha256": "30cf05fd864299fbf4bc02922d2e6bdecd86aef953165409abd6902ade6b3596",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Relational Field Dynamics.ormd",
+          "name": "Relational Field Dynamics.ormd",
+          "stem": "Relational Field Dynamics",
+          "title": "Relational Field Dynamics",
+          "layer": "context_layer",
+          "size_bytes": 9588,
+          "sha256": "146b0fd0b8007a52d2928d3b62557fef5c87bb22fb7f8a7dc5cabb27d22f7c2b",
           "frame": "research.formalism",
           "confidence": 0.85
         }
@@ -1818,8 +1764,8 @@
           "stem": "Relational Irreducibility Framework (RIF)",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "semantic_substrate",
-          "size_bytes": 7169,
-          "sha256": "e4d7a06477787d409c535a833368ff027be0cccccb5611ea611f4ad03b22304f",
+          "size_bytes": 7939,
+          "sha256": "90dd879bb9bcb01fa4b878c84b2cb483858a8b5f5416ec4aec6f6ed099102139",
           "frame": null,
           "confidence": null
         }
@@ -1831,8 +1777,8 @@
           "stem": "Relational Irreducibility Framework (RIF)",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "context_layer",
-          "size_bytes": 9229,
-          "sha256": "475ced1c70abdfb88b7643d152facec47fa8cf9bb6a69b04190e8a804a6d689a",
+          "size_bytes": 9154,
+          "sha256": "70d0fe760434ab0bd4c5ffdeda53a9bdd96ccbaa2728e08652634484031d2cda",
           "frame": "philosophy.systems-theory",
           "confidence": 0.9
         }
@@ -1841,14 +1787,14 @@
       "note": null
     },
     {
-      "key": "Relational Localization - Core Source",
+      "key": "Relational Localization",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Relational Localization - Core Source.md",
-          "name": "Relational Localization - Core Source.md",
-          "stem": "Relational Localization - Core Source",
+          "path": "E2Core/Semantic Substrate/Relational Localization.md",
+          "name": "Relational Localization.md",
+          "stem": "Relational Localization",
           "title": "Relational Localization",
           "layer": "semantic_substrate",
           "size_bytes": 10893,
@@ -1859,63 +1805,75 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Relational Localization - Core Source.ormd",
-          "name": "Relational Localization - Core Source.ormd",
-          "stem": "Relational Localization - Core Source",
+          "path": "E2Core/Context Layer/Relational Localization.ormd",
+          "name": "Relational Localization.ormd",
+          "stem": "Relational Localization",
           "title": "Relational Localization",
           "layer": "context_layer",
-          "size_bytes": 11714,
-          "sha256": "b92308531a8ce6f78e39e9532e628ac6ac3c207f678e76f2ab7bb1b9753729e6",
+          "size_bytes": 11644,
+          "sha256": "a01ed7787485f76a0890dd72d21e30570ee1abcd885f955ec7dfbc5a0c19db47",
           "frame": "ethics.assignment.localization",
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Relational Ontology Derived from First Principles",
-      "status": "semantic_substrate_only",
-      "relationship": "unpaired_active_source",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Relational Ontology Derived from First Principles.md",
-          "name": "Relational Ontology Derived from First Principles.md",
-          "stem": "Relational Ontology Derived from First Principles",
-          "title": "Relational Ontology Derived from First Principles",
-          "layer": "semantic_substrate",
-          "size_bytes": 27781,
-          "sha256": "f99db6c70bd9a76a5fbe205a40f05a6d9eeb097ca723a55eec730f46723c57bf",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [],
-      "body_equivalent_after_frontmatter": null,
-      "note": "No active Context Layer counterpart is registered."
-    },
-    {
-      "key": "Relational Perfection A Manifesto",
+      "key": "Relational Perfection - A Framework for Emergent Integrity",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Relational Perfection A Manifesto.md",
-          "name": "Relational Perfection A Manifesto.md",
-          "stem": "Relational Perfection A Manifesto",
-          "title": "Relational Perfection: A Manifesto",
+          "path": "E2Core/Semantic Substrate/Relational Perfection - A Framework for Emergent Integrity.md",
+          "name": "Relational Perfection - A Framework for Emergent Integrity.md",
+          "stem": "Relational Perfection - A Framework for Emergent Integrity",
+          "title": "Relational Perfection: A Framework for Emergent Integrity",
           "layer": "semantic_substrate",
-          "size_bytes": 3111,
-          "sha256": "e319fadde2de117ef412642e4fc303b40265b5b8739e5d944551eb8a1c200a4f",
+          "size_bytes": 7191,
+          "sha256": "ef37b28e06bce66b0fe9e6975deebb9302275099f4a0311f2c30f57fe80f468f",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Relational Perfection A Manifesto.ormd",
-          "name": "Relational Perfection A Manifesto.ormd",
-          "stem": "Relational Perfection A Manifesto",
+          "path": "E2Core/Context Layer/Relational Perfection - A Framework for Emergent Integrity.ormd",
+          "name": "Relational Perfection - A Framework for Emergent Integrity.ormd",
+          "stem": "Relational Perfection - A Framework for Emergent Integrity",
+          "title": "Relational Perfection: A Framework for Emergent Integrity",
+          "layer": "context_layer",
+          "size_bytes": 8173,
+          "sha256": "641d0c634d997fc9288e02b1f8069cb88a7d51575969f6b78b5cb109088cab6c",
+          "frame": "philosophy.ontology",
+          "confidence": 0.95
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "Relational Perfection - A Manifesto",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Relational Perfection - A Manifesto.md",
+          "name": "Relational Perfection - A Manifesto.md",
+          "stem": "Relational Perfection - A Manifesto",
+          "title": "Relational Perfection: A Manifesto",
+          "layer": "semantic_substrate",
+          "size_bytes": 3877,
+          "sha256": "c900f33e0fdd369433f44adbf313bddab2944aa371334f38f96d89852d46e5bc",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Relational Perfection - A Manifesto.ormd",
+          "name": "Relational Perfection - A Manifesto.ormd",
+          "stem": "Relational Perfection - A Manifesto",
           "title": "Relational Perfection: A Manifesto",
           "layer": "context_layer",
           "size_bytes": 4894,
@@ -1938,8 +1896,8 @@
           "stem": "Relational Primitive Engine (RPE)",
           "title": "Relational Primitive Engine (RPE)",
           "layer": "semantic_substrate",
-          "size_bytes": 5252,
-          "sha256": "52ab1b37dbc06e12c62373463965a71984622860d990ea5f3e25d0b0092332f4",
+          "size_bytes": 6171,
+          "sha256": "e6e44ed49596632f6685115af2e606c110fcbd91dd811c6b5abcd09f5e56cecf",
           "frame": null,
           "confidence": null
         }
@@ -1961,6 +1919,39 @@
       "note": null
     },
     {
+      "key": "Relational Primitive Translations",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Relational Primitive Translations.md",
+          "name": "Relational Primitive Translations.md",
+          "stem": "Relational Primitive Translations",
+          "title": "Relational Primitive Translations",
+          "layer": "semantic_substrate",
+          "size_bytes": 5165,
+          "sha256": "c5b7b986186eaa12eafb35efa1983d5e3457ae22006784fa5a5cd4e6e2b9c263",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Relational Primitive Translations.ormd",
+          "name": "Relational Primitive Translations.ormd",
+          "stem": "Relational Primitive Translations",
+          "title": "Relational Primitive Translations",
+          "layer": "context_layer",
+          "size_bytes": 5989,
+          "sha256": "9f930efc7b9dadcd0bc772975d386ecbdbe36c1d0905a33f580c14f52c16b4f1",
+          "frame": "research.formal-translation",
+          "confidence": 0.5
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
       "key": "Relational Primitives",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
@@ -1971,8 +1962,8 @@
           "stem": "Relational Primitives",
           "title": "Relational Primitives",
           "layer": "semantic_substrate",
-          "size_bytes": 9025,
-          "sha256": "bdf272a61b4c40144795a8b4c8d71c0fa29f548b701bff0648b6fbb3de4b3eac",
+          "size_bytes": 8505,
+          "sha256": "bf27202939c9cdc1887aecda7966b11fc54969cb47ee3e4c822c439f7cbaa396",
           "frame": null,
           "confidence": null
         }
@@ -1984,8 +1975,8 @@
           "stem": "Relational Primitives",
           "title": "Relational Primitives",
           "layer": "context_layer",
-          "size_bytes": 9274,
-          "sha256": "1cf9291872efbe7e5258d104d961964aef52f345f7c3edf5433bd25dcfbf2c12",
+          "size_bytes": 9450,
+          "sha256": "0cad29a960161ee28ce0aaa41fd3db5aa6abd28f02a9b56d49bb4d0271e957fb",
           "frame": "formal.ontology.relational",
           "confidence": 0.96
         }
@@ -2004,8 +1995,8 @@
           "stem": "Relational Volition",
           "title": "Relational Volition",
           "layer": "semantic_substrate",
-          "size_bytes": 4842,
-          "sha256": "8bcf95066f436c689159f8ca6b064f873a9c80a239b6cd4229e27917b51834c4",
+          "size_bytes": 5347,
+          "sha256": "d2fe33f37e07de469b457bca46d5bbc1beaf48f4ba717b1d2a477353760e72e9",
           "frame": null,
           "confidence": null
         }
@@ -2015,10 +2006,10 @@
           "path": "E2Core/Context Layer/Relational Volition.ormd",
           "name": "Relational Volition.ormd",
           "stem": "Relational Volition",
-          "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
+          "title": "Relational Volition",
           "layer": "context_layer",
-          "size_bytes": 6608,
-          "sha256": "777b63e92d416061eaba4da40eb6a21df06860329c904af899aac77db71d6c9a",
+          "size_bytes": 6545,
+          "sha256": "745ea83694f0b5b04fd9212975a0fa21b432eebbf51677e54f196b67afdee332",
           "frame": "philosophy.relational-physics",
           "confidence": 0.9
         }
@@ -2027,80 +2018,14 @@
       "note": null
     },
     {
-      "key": "relational-derivation-chain",
-      "status": "paired_composite_or_alias",
-      "relationship": "renamed_conversion",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
-          "name": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
-          "stem": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
-          "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
-          "layer": "semantic_substrate",
-          "size_bytes": 84681,
-          "sha256": "924a557165d1efc57ba3f9689019237612d7c3baf93fa812eb72b593f6bb5fa4",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Relational Derivation Chain .ormd",
-          "name": "Relational Derivation Chain .ormd",
-          "stem": "Relational Derivation Chain ",
-          "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
-          "layer": "context_layer",
-          "size_bytes": 6626,
-          "sha256": "28576d68fa6fa6a95c9219e07fc2c8fb88c6e1a87cee9ee66c11a0388132a237",
-          "frame": "philosophy.relational.computability",
-          "confidence": 0.85
-        }
-      ],
-      "body_equivalent_after_frontmatter": null,
-      "note": "Titles match; the Context filename is the active shortened filename."
-    },
-    {
-      "key": "relational-perfection-framework",
-      "status": "paired_composite_or_alias",
-      "relationship": "renamed_conversion",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Relational Perfection A Framework for Emergent Int.md",
-          "name": "Relational Perfection A Framework for Emergent Int.md",
-          "stem": "Relational Perfection A Framework for Emergent Int",
-          "title": "Relational Perfection: A Framework for Emergent Integrity",
-          "layer": "semantic_substrate",
-          "size_bytes": 6837,
-          "sha256": "afb21d7f7672812b9cb6199b455f7407c89566437602f3f4b2d46bc749c8cea4",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Relational Perfection_framework.ormd",
-          "name": "Relational Perfection_framework.ormd",
-          "stem": "Relational Perfection_framework",
-          "title": "Relational Perfection: A Framework for Emergent Integrity",
-          "layer": "context_layer",
-          "size_bytes": 8206,
-          "sha256": "d526b09b98fa59dd5f466de4301250f9a035d90798f52b29adf73d8ef97cb0de",
-          "frame": "philosophy.ontology",
-          "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": null,
-      "note": "Document titles match despite different active filenames."
-    },
-    {
-      "key": "Remnant Stewardship - Core Source",
+      "key": "Remnant Stewardship",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Remnant Stewardship - Core Source.md",
-          "name": "Remnant Stewardship - Core Source.md",
-          "stem": "Remnant Stewardship - Core Source",
+          "path": "E2Core/Semantic Substrate/Remnant Stewardship.md",
+          "name": "Remnant Stewardship.md",
+          "stem": "Remnant Stewardship",
           "title": "Remnant Stewardship",
           "layer": "semantic_substrate",
           "size_bytes": 19148,
@@ -2111,9 +2036,9 @@
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Remnant Stewardship - Core Source.ormd",
-          "name": "Remnant Stewardship - Core Source.ormd",
-          "stem": "Remnant Stewardship - Core Source",
+          "path": "E2Core/Context Layer/Remnant Stewardship.ormd",
+          "name": "Remnant Stewardship.ormd",
+          "stem": "Remnant Stewardship",
           "title": "Remnant Stewardship",
           "layer": "context_layer",
           "size_bytes": 19949,
@@ -2126,27 +2051,27 @@
       "note": null
     },
     {
-      "key": "resolution_synthesis",
+      "key": "Resolution - Synthesis Notes",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/resolution_synthesis.md",
-          "name": "resolution_synthesis.md",
-          "stem": "resolution_synthesis",
+          "path": "E2Core/Semantic Substrate/Resolution - Synthesis Notes.md",
+          "name": "Resolution - Synthesis Notes.md",
+          "stem": "Resolution - Synthesis Notes",
           "title": "Resolution: Synthesis Notes",
           "layer": "semantic_substrate",
-          "size_bytes": 13459,
-          "sha256": "fc7f32d69a164d4477f6b816676b4401a6bcd5981426c0a61e0bb199779a6c3c",
+          "size_bytes": 13982,
+          "sha256": "d5f91758b5f52ec00995a978f6a38c7e09112dddc6fd4e8c4f5c13113035fedc",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/resolution_synthesis.ormd",
-          "name": "resolution_synthesis.ormd",
-          "stem": "resolution_synthesis",
+          "path": "E2Core/Context Layer/Resolution - Synthesis Notes.ormd",
+          "name": "Resolution - Synthesis Notes.ormd",
+          "stem": "Resolution - Synthesis Notes",
           "title": "Resolution: Synthesis Notes",
           "layer": "context_layer",
           "size_bytes": 15018,
@@ -2155,73 +2080,73 @@
           "confidence": 0.9
         }
       ],
-      "body_equivalent_after_frontmatter": false,
+      "body_equivalent_after_frontmatter": true,
       "note": null
     },
     {
-      "key": "Resonance Architecture 4 17 25",
+      "key": "Resonance and Relational Translation",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-          "name": "Resonance Architecture 4 17 25.md",
-          "stem": "Resonance Architecture 4 17 25",
-          "title": "Resonance Architecture",
+          "path": "E2Core/Semantic Substrate/Resonance and Relational Translation.md",
+          "name": "Resonance and Relational Translation.md",
+          "stem": "Resonance and Relational Translation",
+          "title": "Resonance and Relational Translation",
           "layer": "semantic_substrate",
-          "size_bytes": 15630,
-          "sha256": "db7e77f3b257771ee601e7495d75d99075356668a63cb42e0da232ada69f473b",
+          "size_bytes": 5022,
+          "sha256": "4e40bb384bfaa3a8621a95947b1e5fd6da8bd3db9c17b3b86b0990e79446184d",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-          "name": "Resonance Architecture 4 17 25.ormd",
-          "stem": "Resonance Architecture 4 17 25",
-          "title": "Resonance Architecture",
+          "path": "E2Core/Context Layer/Resonance and Relational Translation.ormd",
+          "name": "Resonance and Relational Translation.ormd",
+          "stem": "Resonance and Relational Translation",
+          "title": "Resonance and Relational Translation",
           "layer": "context_layer",
-          "size_bytes": 20154,
-          "sha256": "bb0435ee6e2807b6f789cba0e54ded8dea0408870d8c07b7a6142efae92a44e0",
-          "frame": "epistemology.resonance",
-          "confidence": 0.9
+          "size_bytes": 6042,
+          "sha256": "ac30649a51c06ec13180ad2b078b1bbe2ebc5684578da99c0c828c4fa1d333a9",
+          "frame": "research.relational-translation",
+          "confidence": 0.5
         }
       ],
       "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Responsibility Absorption - Core Source",
+      "key": "Responsibility Absorption",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Responsibility Absorption - Core Source.md",
-          "name": "Responsibility Absorption - Core Source.md",
-          "stem": "Responsibility Absorption - Core Source",
+          "path": "E2Core/Semantic Substrate/Responsibility Absorption.md",
+          "name": "Responsibility Absorption.md",
+          "stem": "Responsibility Absorption",
           "title": "Responsibility Absorption",
           "layer": "semantic_substrate",
-          "size_bytes": 7937,
-          "sha256": "fc2528b3e5a0cd1a8a2cfb330cdfd2cd9a99558193f14da18ca84aeffcf9545f",
+          "size_bytes": 7936,
+          "sha256": "856ec561664f1fe99e7f8153f943cd6b201b7fb102290f00391f6d1077765ce4",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Responsibility Absorption - Core Source.ormd",
-          "name": "Responsibility Absorption - Core Source.ormd",
-          "stem": "Responsibility Absorption - Core Source",
+          "path": "E2Core/Context Layer/Responsibility Absorption.ormd",
+          "name": "Responsibility Absorption.ormd",
+          "stem": "Responsibility Absorption",
           "title": "Responsibility Absorption",
           "layer": "context_layer",
-          "size_bytes": 8563,
-          "sha256": "93f0e4ed34917da64bc7b7a231311e19f9aea4a6de93072b0ec759f12e680a07",
+          "size_bytes": 8493,
+          "sha256": "10d0080c7c89df69f29eaafa46a17f4df5f5e5c2d56114cf124c26d9ecb6d900",
           "frame": "governance.responsibility_absorption",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
@@ -2235,8 +2160,8 @@
           "stem": "Reverent Stewardship",
           "title": "Reverent Stewardship",
           "layer": "semantic_substrate",
-          "size_bytes": 8917,
-          "sha256": "cf52581c2eb64932db0799b074adfcb4f677a495cf081b8ba5e72b4b69453291",
+          "size_bytes": 10091,
+          "sha256": "0dc2a32c3243703622bcb770464f2c0c67afcbafed09fb2b042b74fb488d443d",
           "frame": null,
           "confidence": null
         }
@@ -2246,45 +2171,12 @@
           "path": "E2Core/Context Layer/Reverent Stewardship.ormd",
           "name": "Reverent Stewardship.ormd",
           "stem": "Reverent Stewardship",
-          "title": "Reverent Stewardship: A Recursion of Principles & Practical Guide",
+          "title": "Reverent Stewardship",
           "layer": "context_layer",
-          "size_bytes": 11765,
-          "sha256": "018cb775e7e1646b8b635cd7065fe9d4db07f84c3bc692d7fbc9af2cd1cb2e7f",
+          "size_bytes": 11720,
+          "sha256": "441ce31ed7b63cd49542f9d0e4fa30d9d9b9818c5c7987759ad61eaab3133f66",
           "frame": "ethics.stewardship.guide",
           "confidence": 0.95
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "RP Lambda Calc Translation",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/RP Lambda Calc Translation.md",
-          "name": "RP Lambda Calc Translation.md",
-          "stem": "RP Lambda Calc Translation",
-          "title": "RP Lambda Calc Translation",
-          "layer": "semantic_substrate",
-          "size_bytes": 3486,
-          "sha256": "3793edca294f66e1915f1e12ec1625857a6b4c59af5f2645c7db3595175637fd",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/RP Lambda Calc Translation.ormd",
-          "name": "RP Lambda Calc Translation.ormd",
-          "stem": "RP Lambda Calc Translation",
-          "title": "RP Lambda Calc Translation",
-          "layer": "context_layer",
-          "size_bytes": 4833,
-          "sha256": "fee85fa07c6431e90a55a0e8f68e957528b887f493eb3bdaddf802fe2ddc5bfa",
-          "frame": "formal.logic.translation",
-          "confidence": 0.98
         }
       ],
       "body_equivalent_after_frontmatter": false,
@@ -2301,8 +2193,8 @@
           "stem": "Self as Coherence Field",
           "title": "The Self as Coherence Field",
           "layer": "semantic_substrate",
-          "size_bytes": 27357,
-          "sha256": "bd6620975b77c98016679e1aba0d786219c2c568d2d365a729b081399c9fc2e1",
+          "size_bytes": 28167,
+          "sha256": "3d45f5133a4f4f37fb3349ec279533c10354eb8ca6f3f924743e6bac0509adc3",
           "frame": null,
           "confidence": null
         }
@@ -2324,31 +2216,31 @@
       "note": null
     },
     {
-      "key": "sign_mediated_flow_routing",
+      "key": "Sign-Mediated Accountability and Flow Routing",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/sign_mediated_flow_routing.md",
-          "name": "sign_mediated_flow_routing.md",
-          "stem": "sign_mediated_flow_routing",
+          "path": "E2Core/Semantic Substrate/Sign-Mediated Accountability and Flow Routing.md",
+          "name": "Sign-Mediated Accountability and Flow Routing.md",
+          "stem": "Sign-Mediated Accountability and Flow Routing",
           "title": "Sign-Mediated Accountability and Flow Routing",
           "layer": "semantic_substrate",
-          "size_bytes": 6027,
-          "sha256": "e83ac6b45518ee1b7b5fe0e8d28ba25232544ff0608858caf77009c7f827cf66",
+          "size_bytes": 5318,
+          "sha256": "a438467813c55ed12526ef650dc2dfe756fe045bc02b6ae2da31431cfd9c734c",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/sign_mediated_flow_routing.ormd",
-          "name": "sign_mediated_flow_routing.ormd",
-          "stem": "sign_mediated_flow_routing",
+          "path": "E2Core/Context Layer/Sign-Mediated Accountability and Flow Routing.ormd",
+          "name": "Sign-Mediated Accountability and Flow Routing.ormd",
+          "stem": "Sign-Mediated Accountability and Flow Routing",
           "title": "Sign-Mediated Accountability and Flow Routing",
           "layer": "context_layer",
-          "size_bytes": 6131,
-          "sha256": "54474867a5b2d9efb9a64031334aba15f0e9358c4a3504d65e12dee7dbb698e6",
+          "size_bytes": 6132,
+          "sha256": "b8f6a3707f3dddcfda1ddf38f74ddbe0364292b466ce539422c5a7887b4e870e",
           "frame": "accountability.sign-mediated-routing",
           "confidence": 0.9
         }
@@ -2367,8 +2259,8 @@
           "stem": "Signal as Bias Field",
           "title": "Signal as Bias Field",
           "layer": "semantic_substrate",
-          "size_bytes": 13718,
-          "sha256": "357253646056c2138cea3467240f44554254394632247eb007ac833369fb4ce0",
+          "size_bytes": 14649,
+          "sha256": "de7efa90a9240800f0dbf4ecf057c02967e0dfb82d62c568929df89a039f8480",
           "frame": null,
           "confidence": null
         }
@@ -2390,60 +2282,60 @@
       "note": null
     },
     {
-      "key": "Slow-Layer Clock Ratio - Core Source",
+      "key": "Slow-Layer Clock Ratio",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md",
-          "name": "Slow-Layer Clock Ratio - Core Source.md",
-          "stem": "Slow-Layer Clock Ratio - Core Source",
+          "path": "E2Core/Semantic Substrate/Slow-Layer Clock Ratio.md",
+          "name": "Slow-Layer Clock Ratio.md",
+          "stem": "Slow-Layer Clock Ratio",
           "title": "Slow-Layer Clock Ratio",
           "layer": "semantic_substrate",
-          "size_bytes": 7933,
-          "sha256": "32dd0bfd30f850b80fe6ba55dbd4139b76e6a8590479f6c3da1d1529b2dd728d",
+          "size_bytes": 7932,
+          "sha256": "ef3076eeb4b076637ce1877a594e94f66aa3c31a0b56c0585d31eb9d4b010559",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Slow-Layer Clock Ratio - Core Source.ormd",
-          "name": "Slow-Layer Clock Ratio - Core Source.ormd",
-          "stem": "Slow-Layer Clock Ratio - Core Source",
+          "path": "E2Core/Context Layer/Slow-Layer Clock Ratio.ormd",
+          "name": "Slow-Layer Clock Ratio.ormd",
+          "stem": "Slow-Layer Clock Ratio",
           "title": "Slow-Layer Clock Ratio",
           "layer": "context_layer",
-          "size_bytes": 8495,
-          "sha256": "e2b72823f256317494a979d1e037fba851fe37b46738b0e88f3ea1c5c5573f59",
+          "size_bytes": 8505,
+          "sha256": "88aae81a7cca04ff7b13c7998b2dfb60b097eaf53f2003379ad5e54a48ec34ae",
           "frame": "dynamics.slow_layer_clock_ratio",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Steward’s Creed",
+      "key": "Steward's Creed",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Steward’s Creed.md",
-          "name": "Steward’s Creed.md",
-          "stem": "Steward’s Creed",
+          "path": "E2Core/Semantic Substrate/Steward's Creed.md",
+          "name": "Steward's Creed.md",
+          "stem": "Steward's Creed",
           "title": "Steward’s Creed",
           "layer": "semantic_substrate",
-          "size_bytes": 817,
-          "sha256": "8abd64810cfa378c83e1570e250fd59596bdc0ecd14b58c3a9570984f6e36fcc",
+          "size_bytes": 1465,
+          "sha256": "494e812ae9285b9bf6cb918a8f918a61a45d2881da2bcc41437fa00de903b577",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Steward’s Creed.ormd",
-          "name": "Steward’s Creed.ormd",
-          "stem": "Steward’s Creed",
+          "path": "E2Core/Context Layer/Steward's Creed.ormd",
+          "name": "Steward's Creed.ormd",
+          "stem": "Steward's Creed",
           "title": "Steward’s Creed",
           "layer": "context_layer",
           "size_bytes": 2316,
@@ -2456,27 +2348,27 @@
       "note": null
     },
     {
-      "key": "TCL_Plain_English_Summary",
+      "key": "Temporal Constraint Lamination - What We Found",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/TCL_Plain_English_Summary.md",
-          "name": "TCL_Plain_English_Summary.md",
-          "stem": "TCL_Plain_English_Summary",
+          "path": "E2Core/Semantic Substrate/Temporal Constraint Lamination - What We Found.md",
+          "name": "Temporal Constraint Lamination - What We Found.md",
+          "stem": "Temporal Constraint Lamination - What We Found",
           "title": "Temporal Constraint Lamination: What We Found",
           "layer": "semantic_substrate",
-          "size_bytes": 23732,
-          "sha256": "9ae5d775fa8952645d3ec3cc70491ce0252f04bfe113ca6d269f697eefa8572b",
+          "size_bytes": 25493,
+          "sha256": "f9367f8d5e2199d548b7a30a468595a0b41d6ba714ba3d9c4035ee97f7ae5a98",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/TCL_Plain_English_Summary.ormd",
-          "name": "TCL_Plain_English_Summary.ormd",
-          "stem": "TCL_Plain_English_Summary",
+          "path": "E2Core/Context Layer/Temporal Constraint Lamination - What We Found.ormd",
+          "name": "Temporal Constraint Lamination - What We Found.ormd",
+          "stem": "Temporal Constraint Lamination - What We Found",
           "title": "Temporal Constraint Lamination: What We Found",
           "layer": "context_layer",
           "size_bytes": 27456,
@@ -2489,64 +2381,31 @@
       "note": null
     },
     {
-      "key": "TCL_Three_Constants",
+      "key": "Tensional Intelligence - A Theoretical Foundation",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/TCL_Three_Constants.md",
-          "name": "TCL_Three_Constants.md",
-          "stem": "TCL_Three_Constants",
-          "title": "The Operating Window: Three Constants from One Landscape",
+          "path": "E2Core/Semantic Substrate/Tensional Intelligence - A Theoretical Foundation.md",
+          "name": "Tensional Intelligence - A Theoretical Foundation.md",
+          "stem": "Tensional Intelligence - A Theoretical Foundation",
+          "title": "Tensional Intelligence: A Theoretical Foundation",
           "layer": "semantic_substrate",
-          "size_bytes": 14479,
-          "sha256": "63d1cf0f0b77b9ee26476464db793d0391a7b98e77f701d786fb3d1aa29f9e53",
+          "size_bytes": 13181,
+          "sha256": "49f291b1ee3364f6dab8a1a617ccb639c7342db66bc507addeaf579530805dfe",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/TCL_Three_Constants.ormd",
-          "name": "TCL_Three_Constants.ormd",
-          "stem": "TCL_Three_Constants",
-          "title": "The Operating Window: Three Constants from One Landscape",
-          "layer": "context_layer",
-          "size_bytes": 17008,
-          "sha256": "571ab95a3829b14af99f2d734d44b326fc0656538f9c9c77099543ac72f45ee2",
-          "frame": "systems.analysis.tcl",
-          "confidence": 0.96
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "Tensional Intelligence A Theoretical Foundation",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
-          "name": "Tensional Intelligence A Theoretical Foundation.md",
-          "stem": "Tensional Intelligence A Theoretical Foundation",
-          "title": "Tensional Intelligence: A Theoretical Foundation",
-          "layer": "semantic_substrate",
-          "size_bytes": 12105,
-          "sha256": "9abef4dae51369b640f0dde20cb0d2635eed30a0fab602c8a73539a34adf1df5",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/Tensional Intelligence A Theoretical Foundation.ormd",
-          "name": "Tensional Intelligence A Theoretical Foundation.ormd",
-          "stem": "Tensional Intelligence A Theoretical Foundation",
+          "path": "E2Core/Context Layer/Tensional Intelligence - A Theoretical Foundation.ormd",
+          "name": "Tensional Intelligence - A Theoretical Foundation.ormd",
+          "stem": "Tensional Intelligence - A Theoretical Foundation",
           "title": "Tensional Intelligence: A Theoretical Foundation",
           "layer": "context_layer",
-          "size_bytes": 14919,
-          "sha256": "f3a99e9619e4e8cdd94a5fc7b2c38bf15fed1bd55e41b0b2ae4860755565b8d1",
+          "size_bytes": 14974,
+          "sha256": "ac01f19437191422b11d50f4d7829cb2e208d26b5b9a7ceeb20cd9b166734d19",
           "frame": "theory.tensional_intelligence",
           "confidence": 0.85
         }
@@ -2555,64 +2414,31 @@
       "note": null
     },
     {
-      "key": "The Architecture of Resonant Systems 4 26 25",
+      "key": "The Cyclical Integrity Framework",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
-          "name": "The Architecture of Resonant Systems 4 26 25.md",
-          "stem": "The Architecture of Resonant Systems 4 26 25",
-          "title": "The Architecture of Resonant Systems",
+          "path": "E2Core/Semantic Substrate/The Cyclical Integrity Framework.md",
+          "name": "The Cyclical Integrity Framework.md",
+          "stem": "The Cyclical Integrity Framework",
+          "title": "The Cyclical Integrity Framework",
           "layer": "semantic_substrate",
-          "size_bytes": 6339,
-          "sha256": "d957f4688f445aa2183d1a141cfea0e0d62d5ee58ab581c836349c8bcd1971ed",
+          "size_bytes": 11618,
+          "sha256": "a33592789c9da2da81beca1101f2bceb7204401a9f1a04b39d07a14b4e071b2e",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd",
-          "name": "The Architecture of Resonant Systems 4 26 25.ormd",
-          "stem": "The Architecture of Resonant Systems 4 26 25",
-          "title": "The Architecture of Resonant Systems",
+          "path": "E2Core/Context Layer/The Cyclical Integrity Framework.ormd",
+          "name": "The Cyclical Integrity Framework.ormd",
+          "stem": "The Cyclical Integrity Framework",
+          "title": "The Cyclical Integrity Framework",
           "layer": "context_layer",
-          "size_bytes": 7628,
-          "sha256": "4f4646dc9542058d4b0436b0144ec14c237d06ed4b45502be901cfac8d0cfefe",
-          "frame": "relational.systems.theory",
-          "confidence": 0.92
-        }
-      ],
-      "body_equivalent_after_frontmatter": false,
-      "note": null
-    },
-    {
-      "key": "The Cyclical Integrity framework",
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "semantic_substrate": [
-        {
-          "path": "E2Core/Semantic Substrate/The Cyclical Integrity framework.md",
-          "name": "The Cyclical Integrity framework.md",
-          "stem": "The Cyclical Integrity framework",
-          "title": "The Cyclical Integrity framework",
-          "layer": "semantic_substrate",
-          "size_bytes": 11101,
-          "sha256": "236ce9ea5a5a4feecc2fc31d6d5c4a1ed0684f466c8ed731079acd253dd6ad05",
-          "frame": null,
-          "confidence": null
-        }
-      ],
-      "context_layer": [
-        {
-          "path": "E2Core/Context Layer/The Cyclical Integrity framework.ormd",
-          "name": "The Cyclical Integrity framework.ormd",
-          "stem": "The Cyclical Integrity framework",
-          "title": "The Cyclical Integrity framework",
-          "layer": "context_layer",
-          "size_bytes": 13148,
-          "sha256": "ade4a8c66d38868ce15cbb48049d5b5b918cb07b5f673429b49b73821df74acd",
+          "size_bytes": 13145,
+          "sha256": "c3619bc9463f5e4ada1d60a40aa376e4a74e131fc3f41f53c401645e6b9a49e8",
           "frame": "philosophy.systems",
           "confidence": 0.9
         }
@@ -2621,33 +2447,33 @@
       "note": null
     },
     {
-      "key": "The Essence of Existence",
+      "key": "The Emergence Engine",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "name": "The Essence of Existence.md",
-          "stem": "The Essence of Existence",
-          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "path": "E2Core/Semantic Substrate/The Emergence Engine.md",
+          "name": "The Emergence Engine.md",
+          "stem": "The Emergence Engine",
+          "title": "The Emergence Engine: A Computational Microscope for Watching Intelligence Crystallize",
           "layer": "semantic_substrate",
-          "size_bytes": 127744,
-          "sha256": "4acfba2f04b159a40fb53a07bd4cccf207bbd91094f912fae39c8a49dece3f3e",
+          "size_bytes": 23098,
+          "sha256": "231de8c900bf1c48b4d01f09acdd59fadc50281947ab1933c40e147637cd45c3",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/The Essence of Existence.ormd",
-          "name": "The Essence of Existence.ormd",
-          "stem": "The Essence of Existence",
-          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "path": "E2Core/Context Layer/The Emergence Engine.ormd",
+          "name": "The Emergence Engine.ormd",
+          "stem": "The Emergence Engine",
+          "title": "The Emergence Engine",
           "layer": "context_layer",
-          "size_bytes": 7045,
-          "sha256": "f6aa6f1c21e343cffa6f33328e0284c9f01bbe05e41415f8a6f30d1efe06b1e9",
-          "frame": "manifesto.relational",
-          "confidence": 0.9
+          "size_bytes": 25456,
+          "sha256": "693fc0c2f9a6c318c3a81a959f065ce20e9c64473e6aaa39a65efb645bf3f90d",
+          "frame": "research.simulation.ecology",
+          "confidence": 0.95
         }
       ],
       "body_equivalent_after_frontmatter": false,
@@ -2664,8 +2490,8 @@
           "stem": "The Intelligence Field Framework",
           "title": "The \"Intelligence Field\" Framework",
           "layer": "semantic_substrate",
-          "size_bytes": 4664,
-          "sha256": "80046110acce52b78ba487defb03cd494b7a2e95ecd3c83090c42c33469ac186",
+          "size_bytes": 5205,
+          "sha256": "56f90842bf6114e278caa4d7a2205a2cdcbec7e3025ae80cdb1783d4022395e5",
           "frame": null,
           "confidence": null
         }
@@ -2675,10 +2501,10 @@
           "path": "E2Core/Context Layer/The Intelligence Field Framework.ormd",
           "name": "The Intelligence Field Framework.ormd",
           "stem": "The Intelligence Field Framework",
-          "title": "The 'Intelligence Field' Framework",
+          "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "context_layer",
-          "size_bytes": 6348,
-          "sha256": "fbdb30ba7bde6b0b0238f59238ea2fd3a54c37569ef9fac47b24bf891997e07a",
+          "size_bytes": 6350,
+          "sha256": "53c2c9f5d7e83a3fdeb685c481352bc5573a20e57b46f0feb11daca699dd56de",
           "frame": "cognitive.theory.framework",
           "confidence": 0.85
         }
@@ -2687,69 +2513,102 @@
       "note": null
     },
     {
-      "key": "The Resonance Framework An Ontological Map 4 24 25",
+      "key": "The Operating Window - Three Constants from One Landscape",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
-          "name": "The Resonance Framework An Ontological Map 4 24 25.md",
-          "stem": "The Resonance Framework An Ontological Map 4 24 25",
-          "title": "The Resonance Framework: An Ontological Map",
+          "path": "E2Core/Semantic Substrate/The Operating Window - Three Constants from One Landscape.md",
+          "name": "The Operating Window - Three Constants from One Landscape.md",
+          "stem": "The Operating Window - Three Constants from One Landscape",
+          "title": "The Operating Window: Three Constants from One Landscape",
           "layer": "semantic_substrate",
-          "size_bytes": 5760,
-          "sha256": "092ff30d5233dbd38f304236b770174487150b5469fe6c5543fa6a31f8655ea9",
+          "size_bytes": 15574,
+          "sha256": "d2a380f09a24e5bc8af92ca7a26e3d28a57dcf65833bcf188095c0228131ff11",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd",
-          "name": "The Resonance Framework An Ontological Map 4 24 25.ormd",
-          "stem": "The Resonance Framework An Ontological Map 4 24 25",
-          "title": "The Resonance Framework: An Ontological Map",
+          "path": "E2Core/Context Layer/The Operating Window - Three Constants from One Landscape.ormd",
+          "name": "The Operating Window - Three Constants from One Landscape.ormd",
+          "stem": "The Operating Window - Three Constants from One Landscape",
+          "title": "The Operating Window: Three Constants from One Landscape",
           "layer": "context_layer",
-          "size_bytes": 9682,
-          "sha256": "b5eac7678eeec9d15af7bb13d22f5f6284db767f248e2ce52a4a559e5e60e9f9",
-          "frame": "ontology.map",
-          "confidence": 0.85
+          "size_bytes": 17008,
+          "sha256": "571ab95a3829b14af99f2d734d44b326fc0656538f9c9c77099543ac72f45ee2",
+          "frame": "systems.analysis.tcl",
+          "confidence": 0.96
         }
       ],
       "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
-      "key": "Trust, Trustworthiness, and Reliance - Core Source",
+      "key": "The Relational Bill of Rights",
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
       "semantic_substrate": [
         {
-          "path": "E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md",
-          "name": "Trust, Trustworthiness, and Reliance - Core Source.md",
-          "stem": "Trust, Trustworthiness, and Reliance - Core Source",
-          "title": "Trust, Trustworthiness, And Reliance",
+          "path": "E2Core/Semantic Substrate/The Relational Bill of Rights.md",
+          "name": "The Relational Bill of Rights.md",
+          "stem": "The Relational Bill of Rights",
+          "title": "The Relational Bill of Rights",
           "layer": "semantic_substrate",
-          "size_bytes": 18836,
-          "sha256": "65d3622dcf805e04ed4951454ee52858458cf24507af7f4fe19ce3b8f0b9182a",
+          "size_bytes": 7817,
+          "sha256": "993510e8b19d9722c368a11d4461c4f091fbf9e5ade79cba69ed455b8bf874b4",
           "frame": null,
           "confidence": null
         }
       ],
       "context_layer": [
         {
-          "path": "E2Core/Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd",
-          "name": "Trust, Trustworthiness, and Reliance - Core Source.ormd",
-          "stem": "Trust, Trustworthiness, and Reliance - Core Source",
+          "path": "E2Core/Context Layer/The Relational Bill of Rights.ormd",
+          "name": "The Relational Bill of Rights.ormd",
+          "stem": "The Relational Bill of Rights",
+          "title": "The Relational Bill of Rights",
+          "layer": "context_layer",
+          "size_bytes": 9112,
+          "sha256": "5a4171ca71c09fc601f366615485de98714f9d70694c6e5e0438ec8a50bcd2b5",
+          "frame": "ethics.relational",
+          "confidence": 0.95
+        }
+      ],
+      "body_equivalent_after_frontmatter": false,
+      "note": null
+    },
+    {
+      "key": "Trust, Trustworthiness, and Reliance",
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "semantic_substrate": [
+        {
+          "path": "E2Core/Semantic Substrate/Trust, Trustworthiness, and Reliance.md",
+          "name": "Trust, Trustworthiness, and Reliance.md",
+          "stem": "Trust, Trustworthiness, and Reliance",
+          "title": "Trust, Trustworthiness, and Reliance",
+          "layer": "semantic_substrate",
+          "size_bytes": 18835,
+          "sha256": "88a7bebbaa319f2d387f09a32b394836ba469496be094410faaf1d7061a8cd71",
+          "frame": null,
+          "confidence": null
+        }
+      ],
+      "context_layer": [
+        {
+          "path": "E2Core/Context Layer/Trust, Trustworthiness, and Reliance.ormd",
+          "name": "Trust, Trustworthiness, and Reliance.ormd",
+          "stem": "Trust, Trustworthiness, and Reliance",
           "title": "Trust, Trustworthiness, and Reliance",
           "layer": "context_layer",
-          "size_bytes": 19526,
-          "sha256": "f640da523942f0321c2e9e6ac6026b0ddcc3ddefaa18845996fbd36308323df7",
+          "size_bytes": 19484,
+          "sha256": "690005b7ad09d96029f86f189324b15a14a49da7ed3061fe27fd98f465066a11",
           "frame": "relational.trust",
           "confidence": 0.84
         }
       ],
-      "body_equivalent_after_frontmatter": true,
+      "body_equivalent_after_frontmatter": false,
       "note": null
     },
     {
@@ -2761,10 +2620,10 @@
           "path": "E2Core/Semantic Substrate/Truth Ceiling.md",
           "name": "Truth Ceiling.md",
           "stem": "Truth Ceiling",
-          "title": "Truth Ceiling",
+          "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
           "layer": "semantic_substrate",
-          "size_bytes": 10998,
-          "sha256": "b2dd0931a1010f9f299b7cf9a7b3b80b9f2ec8b75569c47a4172dda04829b3ce",
+          "size_bytes": 11388,
+          "sha256": "7283145afbc3acbd2901d0d98ad29648ed58ad52abb9be06816cae6979e1a2e2",
           "frame": null,
           "confidence": null
         }
@@ -2776,8 +2635,8 @@
           "stem": "Truth Ceiling",
           "title": "The Truth-Ceiling: A Categorical Formulation for Scalable Truth",
           "layer": "context_layer",
-          "size_bytes": 12611,
-          "sha256": "435e23c552dc00b622b0af95f6edadc97dae8f8c6db4f5d3cd978b31479d79f9",
+          "size_bytes": 12697,
+          "sha256": "0b9472dae033d33b8a70436cf23c49d8156aa050ce75992d5ea5bca8d5fc441b",
           "frame": "epistemics.governance",
           "confidence": 0.85
         }
@@ -3158,6 +3017,16 @@
       "sha256": "faf2715fcd7391bdb433542a765273c333d5abe93abb4e12ce07d163a260cd52"
     },
     {
+      "path": "archive/20260929_equation_dialogue/README.md",
+      "size_bytes": 778,
+      "sha256": "e0ee07205efc073f6048ef552c59f6251ecbc6bfa6e35a75221b84fce8a6cbb7"
+    },
+    {
+      "path": "archive/20260929_equation_dialogue/Semantic Substrate/E^2 Equation.md",
+      "size_bytes": 2604,
+      "sha256": "a8bd633c5f99ac0ad3e34fd9e94b102a7c4be4289ed985f059867e8c4d3501b3"
+    },
+    {
       "path": "archive/20260929_mrie_csc/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
       "size_bytes": 5821,
       "sha256": "40f8823db170bd0a86a82ab674dcf5f52cef63c6032f33177e15eafe0b7286e3"
@@ -3196,6 +3065,491 @@
       "path": "archive/20260929_tension_ti/Semantic Substrate/Tension.md",
       "size_bytes": 3457,
       "sha256": "5f958ff892945adf6cb3dd7239a308b89edbb7b25b852ecef301cb607e766a8d"
+    },
+    {
+      "path": "archive/20260930_original_e2_work/README.md",
+      "size_bytes": 876,
+      "sha256": "3eace6b751336e83f0f1f00e4d1a25a017542f027809c219b4dc730d364aa96c"
+    },
+    {
+      "path": "archive/20260930_original_e2_work/Semantic Substrate/Original E^2 work.md",
+      "size_bytes": 4291,
+      "sha256": "77eb66bb182550f98b0a7465f53257898572e92e3885b7661157d9455f5629fb"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/Resonance Architecture 4 17 25.ormd",
+      "size_bytes": 20154,
+      "sha256": "bb0435ee6e2807b6f789cba0e54ded8dea0408870d8c07b7a6142efae92a44e0"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd",
+      "size_bytes": 7628,
+      "sha256": "4f4646dc9542058d4b0436b0144ec14c237d06ed4b45502be901cfac8d0cfefe"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Context Layer/The Resonance Framework An Ontological Map 4 24 25.ormd",
+      "size_bytes": 9682,
+      "sha256": "b5eac7678eeec9d15af7bb13d22f5f6284db767f248e2ce52a4a559e5e60e9f9"
+    },
+    {
+      "path": "archive/20260930_resonance_family/README.md",
+      "size_bytes": 1275,
+      "sha256": "667243107bd8ebf71e85755690062622ac0a3b2ad6b7da7ed227b0a5765162f8"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/Resonance Architecture 4 17 25.md",
+      "size_bytes": 15630,
+      "sha256": "db7e77f3b257771ee601e7495d75d99075356668a63cb42e0da232ada69f473b"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
+      "size_bytes": 6339,
+      "sha256": "d957f4688f445aa2183d1a141cfea0e0d62d5ee58ab581c836349c8bcd1971ed"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
+      "size_bytes": 5760,
+      "sha256": "092ff30d5233dbd38f304236b770174487150b5469fe6c5543fa6a31f8655ea9"
+    },
+    {
+      "path": "archive/20260930_resonance_family/Synthesized Core/Resonance_Architecture_synthesized.ormd",
+      "size_bytes": 12363,
+      "sha256": "0a7187d4d7b239357b5d6bec8a6f132a5b4d2cf2a3b4af499f5909899aae27f1"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Context Layer/CT translation of RPs.ormd",
+      "size_bytes": 9096,
+      "sha256": "2d44227ad262895b94ac0ebdd0f70905b5f1aedbff496ed9d8a3a834793f987d"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Context Layer/RP Lambda Calc Translation.ormd",
+      "size_bytes": 4833,
+      "sha256": "fee85fa07c6431e90a55a0e8f68e957528b887f493eb3bdaddf802fe2ddc5bfa"
+    },
+    {
+      "path": "archive/20260930_rp_translations/README.md",
+      "size_bytes": 1270,
+      "sha256": "4d0f891835168941daf6f19af7cb2e6abb23b1a1581448b7f27b98ee716009e2"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Semantic Substrate/CT translation of RPs.md",
+      "size_bytes": 7270,
+      "sha256": "d58f4f7142c1043046aafa3f42ffdde4a01137874d77bbba7c04a4f3c4a02add"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Semantic Substrate/RP Lambda Calc Translation.md",
+      "size_bytes": 3486,
+      "sha256": "3793edca294f66e1915f1e12ec1625857a6b4c59af5f2645c7db3595175637fd"
+    },
+    {
+      "path": "archive/20260930_rp_translations/Synthesized Core/RP_Formal_Translations_synthesized.ormd",
+      "size_bytes": 7850,
+      "sha256": "56ecd2711726920301a8aabc8cd02235a0652313f16184c1af665cab7e4b7ebf"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/E2Core/context layer index.md",
+      "size_bytes": 48176,
+      "sha256": "8558a14616505d5ed212a325cee9f845cc539d73642cba737eb584169621cb86"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/README.md",
+      "size_bytes": 1648,
+      "sha256": "47dad11a6fe16bc0cfaa62b98e2983219f088c7ec3824a6b93702e974ceef3f8"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate only/Our essence exists in the space between us.md",
+      "size_bytes": 66,
+      "sha256": "a26a85bd2297fa3b1c58206d6eba91df0da01a3b2132cfd21cd2fa80e0c9d3e2"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate only/Relational Ontology Derived from First Principles.md",
+      "size_bytes": 27781,
+      "sha256": "f99db6c70bd9a76a5fbe205a40f05a6d9eeb097ca723a55eec730f46723c57bf"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Adaptation via Informational Abstraction.md",
+      "size_bytes": 7379,
+      "sha256": "0b2e0a67108aa37941b7b9c6f657032471d9bbe327179cf948fa9386b02e405d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
+      "size_bytes": 23592,
+      "sha256": "5edc597c039aa878a5fa866dde9cfbac9f6f0c89501e5a71382bbca64ef6a733"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Asymmetry Maintenance - Core Source.md",
+      "size_bytes": 9579,
+      "sha256": "45a507b51f7d54b5da2a63d1460ba4c015350574162e4ac7f9d732c7a11065b6"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Attentional Access and Formation - Core Source.md",
+      "size_bytes": 25481,
+      "sha256": "cb027b52422b06affe73caf23e7878521a1907e3458d0176e38add41ff3196e4"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Boundary Ethics - Core Source.md",
+      "size_bytes": 10527,
+      "sha256": "3c57e82c83f546fa1ed2fb16909978791c270a422f3886c21a4bea252421881a"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/boundary_dynamics.md",
+      "size_bytes": 26924,
+      "sha256": "36e939e7510662863ec493699053e8524e04cf2f24b3c6fc0d4cee5fc722986d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Caregiving as an Ecosystem.md",
+      "size_bytes": 5433,
+      "sha256": "28869ba3c2680bb1afabf2edaf2365ef020a459ac3ac6bdd1fc5713e2442cb7b"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Collective Cognitive Substrate.md",
+      "size_bytes": 44436,
+      "sha256": "23287bd05b1574000b7e40969a37bc03bdbbcd6562b45d93e966b41c72656b7f"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Communication as Coherence.md",
+      "size_bytes": 14685,
+      "sha256": "12b49722cd68d00a223b33d84b58bb3b0b01b5232ad58db1ce900a22442893d9"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Complex Causality - Core Source.md",
+      "size_bytes": 9989,
+      "sha256": "a3f642bf49df86d1f012ba388089f44c3674f6d396e13a487a3bb3cb3609a138"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Condition as Typed Terrain - Core Source.md",
+      "size_bytes": 11300,
+      "sha256": "3a4598ed8e26b3d988b7ea667f0da57c6f4aff9c046f33eb3e3af6ad1a7ffe98"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Consequence Routing - Core Source.md",
+      "size_bytes": 14673,
+      "sha256": "0816b139e6f056445cb59114ec75bcb088d1bb5c32cdd2cee3bb7bf82c2133db"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
+      "size_bytes": 17003,
+      "sha256": "c4b1cdea637f735b5a5f8356b33d33e9c0e3451fb4ff3afe5f65b859dd86d70b"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Context Layer Protocol (CLP).md",
+      "size_bytes": 12385,
+      "sha256": "0397bd74215a4b3401d44fbd0e9592147b865ecded0684023189855bba61d533"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/CRS.md",
+      "size_bytes": 53753,
+      "sha256": "13aa3a86679c654c719615f13eedffc2bb69bafbc909cb9be74605f2f0de1327"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Custody - Core Source.md",
+      "size_bytes": 28678,
+      "sha256": "0fd74562b9af5d16688667c76b7cfd2db2682b69989eaa1cd4334fd8fbdf8b6b"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Declaration of Interdependence.md",
+      "size_bytes": 2128,
+      "sha256": "e7c6e8b7b793b380adfdee1706081f67341f1c2bc3192b4c11e06a409feea32e"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Derivation deep dive.md",
+      "size_bytes": 52328,
+      "sha256": "a7f90c3ba6a532f1f4f234dcbbaf946de84ffaaf6fdf7544ab04c4764c661468"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Axioms.md",
+      "size_bytes": 3954,
+      "sha256": "cc32f1f62893e1bee64590b5848afe0654832ef62379612e5438d5c0d9c88876"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Entry Point.md",
+      "size_bytes": 4550,
+      "sha256": "86f482cbadcf623b609f5be890d38edc74efc1371538cf48935f14865f325ca2"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E^2 Equation.md",
+      "size_bytes": 3405,
+      "sha256": "32a027611d145146824a7e67aab4159f1a23bea5a0c6b96e71e834e13325a390"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Embedded Universality Principle (EUP).md",
+      "size_bytes": 53030,
+      "sha256": "60df656d1cecdc0346c8d4d119be9d8374fd4df84126118f934f7707f19e007c"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Emergence Engine overview.md",
+      "size_bytes": 21259,
+      "sha256": "084ac434d27a6cab7a2aeabc5ad667949b54939b5117a7c82bdfbb9db5d3f543"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Emergence_Determination_Foreclosure.md",
+      "size_bytes": 21494,
+      "sha256": "5a7763fb264b644fb53f1b241d45562e5c9a1907ba8867f2085c590cd99aa1de"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
+      "size_bytes": 12260,
+      "sha256": "205f001b180c0baaf1cab1f43144a002d7128ffcfe143f1a1710b7fadc382845"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
+      "size_bytes": 6719,
+      "sha256": "89c13657e9e1f4947ec5b9f8b6e89f65ef4457e2b1bca745f721bc4943dbf9c9"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ethical Principles for Human-AI Interaction.md",
+      "size_bytes": 3337,
+      "sha256": "88d3324f1a3a14cc2c24bf9324da141ff6caa27f6a274c7a760b6ebfe261623f"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Exposure Protocol.md",
+      "size_bytes": 5674,
+      "sha256": "4b577f3c032ca839005c95a782499217e82a96bc511382f897324035bed95b06"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md",
+      "size_bytes": 14543,
+      "sha256": "1b051f8918e256c5b266ca43c46b0746edf8759aa1b5926a208cc2e23468d821"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Family as a Relational Field.md",
+      "size_bytes": 82217,
+      "sha256": "6014456f2d4aad01b8ab682a1f8c3aa382197667a97c965d8b2898a0a1340b28"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/flow_operators_provisional.md",
+      "size_bytes": 15814,
+      "sha256": "07b49c3f8e1878d1c792d04030a22437d96c04a08cc7cff447060f80209d2c0d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/From Essential Relationships to Ontological Transformation.md",
+      "size_bytes": 9218,
+      "sha256": "022ca874635ec632aaab15de6b0d2065ee52f913e0b4a085e6b8d75d0d03d7af"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Global Closure Operator.md",
+      "size_bytes": 6166,
+      "sha256": "4ee6e4f15674bf5344fd2f0daddbef622ca137775f33190ee7150da30f6c0a83"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Human-AI Creative Collaboration Framework (HAIC).md",
+      "size_bytes": 3729,
+      "sha256": "9f8745889e0796f7b69347fa4016ca0b6853cf01e614e197103d8093b5137757"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Implementations.md",
+      "size_bytes": 707,
+      "sha256": "1852118c1589d308bc4117d48ee5456cff3ccbfb53f18fbb8307382225e8e4be"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Interlocked Stewardship V2.md",
+      "size_bytes": 10083,
+      "sha256": "df98befb8cd2c0002fe1463d08397dcad77a3db4d1e698431b61d73e32f927c8"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Intervention Stewardship - Core Source.md",
+      "size_bytes": 11651,
+      "sha256": "cd46c4ffe82a05c5289674ccdfa8b9cea332e51b26feab2ad66a0fdbd885e3eb"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Justice Across Scales Practical Applications.md",
+      "size_bytes": 40990,
+      "sha256": "38c541967cbc558e19f1efd72fe65087693dcca24fc4ef8367d67b40561a6078"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Justice Across Scales.md",
+      "size_bytes": 20287,
+      "sha256": "7ebbcd0705fd8801c322d2c0c841000a5eef2683211c4a7725892fa72d1b3886"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Lawfulness - Core Source.md",
+      "size_bytes": 10507,
+      "sha256": "11c39af4c76328d990868723a446f1a23629c2432026f211fcc698dfab39c802"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md",
+      "size_bytes": 8708,
+      "sha256": "8bf58319407e5607c6d93a8e52eeb3c25c50694aa9548ffb74cbe1858e864816"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Meta-Pattern Decidability Conjecture (MPDC).md",
+      "size_bytes": 3564,
+      "sha256": "b025614627f92d49edf9b6174f0133f0661decee2d430245c0419b5de48f093a"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md",
+      "size_bytes": 5827,
+      "sha256": "f6f22e988e839ff94f931b04098271d543dd2754e3a66c727a58d5db8a29399d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/MRIE - Unified Synthesis.md",
+      "size_bytes": 23225,
+      "sha256": "109e4183ab5e549ecba7f5b59cb1001a8c74ae012278d9bd2ec35a9b349fe7f3"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Ontological Systems Interface (OSI) Model.md",
+      "size_bytes": 25045,
+      "sha256": "6bdb2fa4b5e72cca0d783701edf1bece7dacfe5e5bb1739ee05ed65bba2108ee"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Original E^2 work.md",
+      "size_bytes": 3637,
+      "sha256": "3e4e37ac6ab126bf095bf036bfe24d1aaac27ebfbc4d2ca96b495ba8c338f582"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Pattern Integrity over Time under Entropy.md",
+      "size_bytes": 28167,
+      "sha256": "75e4c8fa95b8a5b72d272bd41ceac8ffff3626514fe5fa7e8e06c1c80c6a6c82"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md",
+      "size_bytes": 12605,
+      "sha256": "bfdc3b43d2a79a6b8b71335fb5b42b48b0e674a1443ae0201a0c11742dfea251"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Power as Relational Field Coherence.md",
+      "size_bytes": 53608,
+      "sha256": "3987e0a48383316a4557f4f389802f678418dfb616edc6c2d3edafb02edc37d3"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Proxy Localization - Core Source.md",
+      "size_bytes": 11706,
+      "sha256": "eff7b8fd696f12320799148018cffe15c1547c1c3208557fb712c5a67fe6704d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Bill of Rights v2.md",
+      "size_bytes": 7178,
+      "sha256": "3e4ca7cb533ef2d5e91376d25d1af57fe3a37dd22d489cb869cbaa15cc33903b"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
+      "size_bytes": 84681,
+      "sha256": "924a557165d1efc57ba3f9689019237612d7c3baf93fa812eb72b593f6bb5fa4"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Field Dynamics 0 1.md",
+      "size_bytes": 6449,
+      "sha256": "6844f081877c85d87b7f6c7a1b2ad0ede8ea2b31058619a11fcc98ba1531df33"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
+      "size_bytes": 7169,
+      "sha256": "e4d7a06477787d409c535a833368ff027be0cccccb5611ea611f4ad03b22304f"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Localization - Core Source.md",
+      "size_bytes": 10893,
+      "sha256": "4322eea661729efc70c4687e9eaaa55618008b0abd49f1e2c2019d6540cf8305"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Perfection A Framework for Emergent Int.md",
+      "size_bytes": 6740,
+      "sha256": "670a6ab8d462e0d9a0467f1b72c2d616c2e33c1e2db33f8bcfb9372f8f896900"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Perfection A Manifesto.md",
+      "size_bytes": 3111,
+      "sha256": "e319fadde2de117ef412642e4fc303b40265b5b8739e5d944551eb8a1c200a4f"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Primitive Engine (RPE).md",
+      "size_bytes": 5252,
+      "sha256": "52ab1b37dbc06e12c62373463965a71984622860d990ea5f3e25d0b0092332f4"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Primitives.md",
+      "size_bytes": 9151,
+      "sha256": "6f6147195f0f12ac0be5f6a08154e7a5d34da4e51a56b3a0604bde1513933045"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Relational Volition.md",
+      "size_bytes": 4842,
+      "sha256": "8bcf95066f436c689159f8ca6b064f873a9c80a239b6cd4229e27917b51834c4"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Remnant Stewardship - Core Source.md",
+      "size_bytes": 19148,
+      "sha256": "d102d0863937875e87a7db79eeffc23f845f753499bfcb29d0e81e5da30d03d2"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/resolution_synthesis.md",
+      "size_bytes": 13459,
+      "sha256": "fc7f32d69a164d4477f6b816676b4401a6bcd5981426c0a61e0bb199779a6c3c"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Responsibility Absorption - Core Source.md",
+      "size_bytes": 7937,
+      "sha256": "fc2528b3e5a0cd1a8a2cfb330cdfd2cd9a99558193f14da18ca84aeffcf9545f"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Reverent Stewardship.md",
+      "size_bytes": 8917,
+      "sha256": "cf52581c2eb64932db0799b074adfcb4f677a495cf081b8ba5e72b4b69453291"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Self as Coherence Field.md",
+      "size_bytes": 27357,
+      "sha256": "bd6620975b77c98016679e1aba0d786219c2c568d2d365a729b081399c9fc2e1"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/sign_mediated_flow_routing.md",
+      "size_bytes": 6027,
+      "sha256": "e83ac6b45518ee1b7b5fe0e8d28ba25232544ff0608858caf77009c7f827cf66"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Signal as Bias Field.md",
+      "size_bytes": 13718,
+      "sha256": "357253646056c2138cea3467240f44554254394632247eb007ac833369fb4ce0"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Slow-Layer Clock Ratio - Core Source.md",
+      "size_bytes": 7933,
+      "sha256": "32dd0bfd30f850b80fe6ba55dbd4139b76e6a8590479f6c3da1d1529b2dd728d"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Steward’s Creed.md",
+      "size_bytes": 817,
+      "sha256": "8abd64810cfa378c83e1570e250fd59596bdc0ecd14b58c3a9570984f6e36fcc"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/TCL_Plain_English_Summary.md",
+      "size_bytes": 23732,
+      "sha256": "9ae5d775fa8952645d3ec3cc70491ce0252f04bfe113ca6d269f697eefa8572b"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/TCL_Three_Constants.md",
+      "size_bytes": 14479,
+      "sha256": "63d1cf0f0b77b9ee26476464db793d0391a7b98e77f701d786fb3d1aa29f9e53"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
+      "size_bytes": 11985,
+      "sha256": "14625f51aeb4497516b157a7aa8ff0447882d8b0cf1a481dadac7be97d3ac0fa"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Cyclical Integrity framework.md",
+      "size_bytes": 10633,
+      "sha256": "5870b78cb2fd7de66adb637a266e6890b885fb18c99c008e3b6284140e80e341"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Essence of Existence.md",
+      "size_bytes": 127744,
+      "sha256": "4acfba2f04b159a40fb53a07bd4cccf207bbd91094f912fae39c8a49dece3f3e"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/The Intelligence Field Framework.md",
+      "size_bytes": 4664,
+      "sha256": "80046110acce52b78ba487defb03cd494b7a2e95ecd3c83090c42c33469ac186"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md",
+      "size_bytes": 18836,
+      "sha256": "65d3622dcf805e04ed4951454ee52858458cf24507af7f4fe19ce3b8f0b9182a"
+    },
+    {
+      "path": "archive/20260930_semantic_pre_ormd/Semantic Substrate/Truth Ceiling.md",
+      "size_bytes": 10998,
+      "sha256": "b2dd0931a1010f9f299b7cf9a7b3b80b9f2ec8b75569c47a4172dda04829b3ce"
     }
   ]
 }

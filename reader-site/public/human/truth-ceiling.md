@@ -1,31 +1,16 @@
-# Truth Ceiling
+# The Truth-Ceiling: A Categorical Formulation for Scalable Truth {#truth-ceiling}
 
-11/2/25
+> **Meta-Frame.** This note is a first-pass [categorical abstraction](#categorical-formulation) of the [Truth-Ceiling hypothesis](#intuition). We preserve [operational semantics](#operational-core) (buffers, guardrails, instrumentation, attribution) while elevating structure via enriched categories, lax classifiers, Galois connections, factorization systems, and reflective subcategories.
 
----
+# 1) Intuition (for non-category folks) {#intuition}
 
-```markdown
----
-title: The Truth-Ceiling: A Categorical Formulation for Scalable Truth
-subtitle: From operational control laws to morphic, semantically anchored invariants
-tags: [E2, coherence, governance, category-theory, complexity, org-design, epistemics]
-status: draft
-version: 0.1
----
+**Claim.** In any large, fast, open system there’s a [threshold](#intuition) beyond which shared truth ([faithful interpretation](#diagnostics)) stops scaling. Past this **ceiling**, observability collapses and coherence decoheres—forcing a fork: either centralize/tighten control or accept fracture.
 
-> **Meta-Frame.** This note is a first-pass categorical abstraction of the “Truth-Ceiling” hypothesis. We preserve *operational semantics* (buffers, guardrails, instrumentation, attribution) while elevating structure via enriched categories, lax classifiers, Galois connections, factorization systems, and reflective subcategories.
-
-```
-
-# 1) Intuition (for non-category folks)
-
-**Claim.** In any large, fast, open system there’s a threshold beyond which shared truth (faithful interpretation) stops scaling. Past this **ceiling**, observability collapses and coherence decoheres—forcing a fork: either centralize/tighten control or accept fracture.
-
-The ceiling moves with tempo, topology, cognitive load, and capacity. You can **raise it** by adding buffers/guardrails, improving instrumentation, and pacing exposure.
+The ceiling moves with tempo, topology, cognitive load, and capacity. You can **raise it** by adding [buffers and guardrails](#design-levers), improving instrumentation, and pacing exposure.
 
 ---
 
-# 2) Operational core (the levers you already use)
+# 2) Operational core (the levers you already use) {#operational-core}
 
 - (C_{\text{eff}}) — effective temporal compression (how hard/fast we’re pushing).
 - (R) — actionable resolution/attribution bandwidth (people, time, tools).
@@ -36,7 +21,7 @@ The ceiling moves with tempo, topology, cognitive load, and capacity. You can **
 - **Buffers (B)** lower (C_{\text{eff}}) (buy time, reduce gradients).
 - **Guardrails (G)** limit propagation of overload (reduce (\partial\Omega)).
 
-**Resolution–Responsibility Law.**
+**Resolution–Responsibility Law.** {#law}
 
 [
 
@@ -53,37 +38,37 @@ R\cdot C_{\text{eff}}\ \le\ R_{\max}
 ]
 
 Define the **truth ceiling** (for fixed (R)) as (C^{*} := \dfrac{R_{\max}}{R}).
-When (C_{\text{eff}} > C^{*}), systems must (i) add buffers/guardrails, or (ii) raise (R_{\max}), or (iii) undergo regime change (centralize or fracture).
+When (C_{\text{eff}} > C^{*}), systems must (i) add [buffers/guardrails](#design-levers), or (ii) raise (R_{\max}), or (iii) undergo [regime change](#categorical-formulation) (centralize or fracture).
 
 ---
 
-# 3) Categorical formulation
+# 3) Categorical formulation {#categorical-formulation}
 
-## 3.1 Category of bounded cognitive systems
+## 3.1 Category of bounded cognitive systems {#category-systems}
 
 Let (\mathcal S) be a category of **bounded cognitive systems** (teams, orgs, platforms, congregations, networks).
 
 - **Objects** (G\in\mathrm{Ob}(\mathcal S)): systems with state
-    
+
     [
-    
+
     \vec x_G=(R,,C_{\text{eff}},,\Phi,,\Omega,,k)
-    
+
     ]
-    
+
     where (k) is coupling density (scale×connectivity proxy).
-    
+
 - **1-Morphisms** (f_{\Delta t}:G\to G'): time-indexed processes over window (\Delta t) that transform (\vec x).
 - **Enrichment.** (\mathcal S) is **enriched** over a monoidal poset ((\mathbb R,\le,\otimes)) of **resources**.
-    
-    The hom-object (\underline{\mathrm{Hom}}_{\mathcal S}(G,G')\in\mathbb R) records resource requirements/allocations: buffers (B), guardrails (G), reviewer bandwidth, instrumentation, etc. (Think: every arrow carries a *receipt* of what it needed.)
-    
 
-## 3.2 Truth-ceiling as a lax classifier
+    The hom-object (\underline{\mathrm{Hom}}_{\mathcal S}(G,G')\in\mathbb R) records resource requirements/allocations: buffers (B), guardrails (G), reviewer bandwidth, instrumentation, etc. (Think: every arrow carries a *receipt* of what it needed.)
+
+
+## 3.2 Truth-ceiling as a lax classifier {#lax-classifier}
 
 Let (\mathbf{Stab}={\textbf{Stable} \le \textbf{Critical} \le \textbf{Fractured}}) be a 3-object poset category.
 
-Define a **lax functor** (classifier)
+Define a **lax functor** ([classifier](#diagnostics))
 
 [
 
@@ -109,18 +94,18 @@ with
 
 ]
 
-This is your operational rulebook encoded as a morphism-level predicate.
+This is your [operational rulebook](#operational-core) encoded as a morphism-level predicate.
 
-## 3.3 Buffers & guardrails as Galois connections
+## 3.3 Buffers & guardrails as Galois connections {#galois-connections}
 
 We capture inverse sensitivity with **Galois connections**:
 
 - (B \dashv \partial C_{\text{eff}}): increasing buffers monotonically lowers the local gradient of (C_{\text{eff}}) (temporal smoothing).
 - (G \dashv \partial \Omega): strengthening guardrails monotonically lowers occlusion propagation (topological/cognitive damping).
 
-These monotone adjoint pairs formalize your knobs without overselling algebraic structure where we don’t need it.
+These monotone adjoint pairs [formalize your knobs](#design-levers) without overselling algebraic structure where we don’t need it.
 
-## 3.4 Regime change via factorization
+## 3.4 Regime change via factorization {#regime-change}
 
 Equip (\mathcal S) with a factorization system ((E,M)):
 
@@ -129,9 +114,9 @@ Equip (\mathcal S) with a factorization system ((E,M)):
 
 A morphism is **critical** when it no longer factors through (E) and must factor through (M).
 
-This captures the fork “tighten control vs. fracture” as a structural reclassification of arrows.
+This captures the fork “[tighten control vs. fracture](#intuition)” as a structural reclassification of arrows.
 
-## 3.5 Ceiling as reflective subcategory (not a single limit object)
+## 3.5 Ceiling as reflective subcategory (not a single limit object) {#reflective-subcategory}
 
 For fixed (R), form the **full subcategory**
 
@@ -142,21 +127,21 @@ For fixed (R), form the **full subcategory**
 R\cdot C_{\text{eff}} \le R_{\max}.
 ]
 We have an inclusion (i:\mathcal S_{\le C^{*}}\hookrightarrow \mathcal S) with a **right adjoint** (reflection) (r:\mathcal S\to\mathcal S_{\le C^{*}}) that *projects* processes back **under the ceiling** by applying ((B,G)) or investing to raise (R_{\max}).
-Intuition: (r) formalizes your playbook “slow or widen.”
+Intuition: (r) formalizes your playbook “[slow or widen](#design-levers).”
 
 ---
 
-# 4) Abstracted theorem (shareable one-liner)
+# 4) Abstracted theorem (shareable one-liner) {#abstracted-theorem}
 
-> Ceiling Theorem (informal, categorical).
-> 
-> 
+> [Ceiling Theorem](#abstracted-theorem) (informal, categorical).
+>
+>
 > In the enriched category (\mathcal S) of bounded cognitive systems, there exists a reflective subcategory (\mathcal S_{\le C^{*}}) determined by the inequality (R\cdot C_{\text{eff}}\le R_{\max}). For any morphism (f_{\Delta t}) with (C_{\text{eff}}(f_{\Delta t})>C^{*}), (\mathbb T(f_{\Delta t})\neq\textbf{Stable}), and (f_{\Delta t}) fails coherence-preserving factorization (no lift through (E)); it must be reflected by (r) (buffers/guardrails/instrumentation) or factor through a regime morphism in (M) (centralization or fragmentation).
-> 
+>
 
 ---
 
-# 5) Diagnostics & measurement (dashboards you can build)
+# 5) Diagnostics & measurement (dashboards you can build) {#diagnostics}
 
 **Core signals (per layer + aggregate):**
 
@@ -191,7 +176,7 @@ def classify(R, C_eff, R_max, O, O_min, Phi, Phi_min, eps=0.05):
 
 ---
 
-# 6) Design levers (how to raise the ceiling sanely)
+# 6) Design levers (how to raise the ceiling sanely) {#design-levers}
 
 - **Lower (C_{\text{eff}})** (buy time): WIP limits, cadence staggering, batch-size rules, explicit pause protocols, progressive disclosure of complexity.
 - **Raise (R_{\max})** (add bandwidth): instrumentation & telemetry, reviewer rotation, epistemic tagging, shared vocabulary, training, decision records.
@@ -201,24 +186,24 @@ def classify(R, C_eff, R_max, O, O_min, Phi, Phi_min, eps=0.05):
 
 ---
 
-# 7) Worked micro-examples (drop-in stories)
+# 7) Worked micro-examples (drop-in stories) {#examples}
 
 - **Org comms.** Weekly CEO memo keeps growing; misinterpretation spikes.
-    
-    *Fix*: apply (r)—split the memo into layered briefs (B), add glossary/claims & confidence (R), and Q&A office hours (G). Classifier moves from **Critical** → **Stable**.
-    
+
+    *Fix*: apply (r)—split the memo into layered briefs (B), add glossary/claims & confidence (R), and Q&A office hours (G). [Classifier](#diagnostics) moves from **Critical** → **Stable**.
+
 - **Church teaching.** A nuanced doctrine is summarized into a reel; discourse polarizes.
-    
+
     *Fix*: progressive exposure (B), annotated transcript + citations (R), discussion guidelines + moderator rotation (G). Misinterpretation rate falls; (\mathcal O) rises.
-    
+
 - **Open-source project.** Issues/PRs surge; maintainers can’t attribute regressions.
-    
+
     *Fix*: slow merge cadence (B), test coverage & trace logs (R), code-owner guardrails (G). Post-mortems show improved attribution; ceiling rises.
-    
+
 
 ---
 
-# 8) Mapping table (operational ↔ categorical)
+# 8) Mapping table (operational ↔ categorical) {#mapping-table}
 
 | Operational knob | Meaning | Categorical role |
 | --- | --- | --- |
@@ -232,18 +217,15 @@ def classify(R, C_eff, R_max, O, O_min, Phi, Phi_min, eps=0.05):
 
 ---
 
-# 9) Implementation notes (how to use in practice)
+# 9) Implementation notes (how to use in practice) {#implementation}
 
 1. **Instrument your arrows.** Treat projects/initiatives as morphisms; attach (B,G,R) receipts to each.
 2. **Run the classifier weekly.** Visualize (R\cdot C_{\text{eff}}/R_{\max}), (\mathcal O), (\Phi) per team and in aggregate.
-3. **Act by reflection.** When any stream hits **Critical**, apply (r): add buffers, strengthen guardrails, or invest in (R_{\max}).
+3. **Act by reflection.** When any stream hits **Critical**, apply (r): add [buffers](#design-levers), strengthen [guardrails](#design-levers), or invest in (R_{\max}).
 4. **Document factorization events.** If a stream flips to **Fractured**, record whether it centralized (control) or split (fragmentation), and why.
 
 ---
 
-# 10) Formal restatement (short, citable)
+# 10) Formal restatement (short, citable) {#formal-restatement}
 
-> In the (\mathbb R)-enriched category (\mathcal S) of bounded cognitive systems, define the reflective subcategory (\mathcal S_{\le C^{}}) by the inequality (R\cdot C_{\text{eff}}\le R_{\max}). The lax classifier (\mathbb T) labels morphisms by stability relative to observability and coherence thresholds. Buffers and guardrails induce Galois connections (B \dashv \partial C_{\text{eff}}) and (G \dashv \partial \Omega). A morphism that exits (\mathcal S_{\le C^{}}) either reflects back under the ceiling via resource action (r) or factors through the regime class (M), yielding centralization or fragmentation.
-> 
-
----
+> In the (\mathbb R)-enriched category (\mathcal S) of bounded cognitive systems, define the [reflective subcategory](#reflective-subcategory) (\mathcal S_{\le C^{}}) by the inequality (R\cdot C_{\text{eff}}\le R_{\max}). The [lax classifier](#lax-classifier) (\mathbb T) labels morphisms by stability relative to observability and coherence thresholds. Buffers and guardrails induce [Galois connections](#galois-connections) (B \dashv \partial C_{\text{eff}}) and (G \dashv \partial \Omega). A morphism that exits (\mathcal S_{\le C^{}}) either reflects back under the ceiling via resource action (r) or factors through the [regime class](#regime-change) (M), yielding centralization or fragmentation.

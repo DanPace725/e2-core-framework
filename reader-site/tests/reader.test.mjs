@@ -1,12 +1,31 @@
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import test from "node:test";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { projectOrmdToHuman } from "../scripts/ormd-human.mjs";
 
 async function activeOrmdCount() {
   const names = await readdir(new URL("../../E2Core/Context Layer/", import.meta.url));
   return names.filter((name) => name.endsWith(".ormd")).length;
 }
+
+test("active human documents are exact ORMD projections", async () => {
+  const coreRoot = fileURLToPath(new URL("../../", import.meta.url));
+  const registry = JSON.parse(await readFile(path.join(coreRoot, "core_registry.json"), "utf8"));
+  const pairs = registry.records.filter((record) => record.semantic_substrate?.length === 1 && record.context_layer?.length === 1);
+  const primary = JSON.parse(await readFile(path.join(coreRoot, "reader-site", "scripts", "ormd-primary.json"), "utf8"));
+  assert.equal(pairs.length, primary.length);
+  for (const pair of pairs) {
+    const human = await readFile(path.join(coreRoot, ...pair.semantic_substrate[0].path.split("/")), "utf8");
+    const ormd = await readFile(path.join(coreRoot, ...pair.context_layer[0].path.split("/")), "utf8");
+    assert.equal(human, projectOrmdToHuman(ormd), pair.key);
+  }
+  const humanIndex = await readFile(path.join(coreRoot, "E2Core", "Context Layer Master Index.md"), "utf8");
+  const ormdIndex = await readFile(path.join(coreRoot, "E2Core", "Context Layer", "Context Layer Master Index.ormd"), "utf8");
+  assert.equal(humanIndex, projectOrmdToHuman(ormdIndex));
+});
 
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -38,10 +57,11 @@ test("server-renders the E2 corpus reader shell", async () => {
 });
 
 test("publishes complete paired human and AI catalogs", async () => {
-  const [catalog, readerComponent, activeCount] = await Promise.all([
+  const [catalog, readerComponent, activeCount, ormdPrimary] = await Promise.all([
     readFile(new URL("../public/catalog.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../app/CorpusReader.tsx", import.meta.url), "utf8"),
     activeOrmdCount(),
+    readFile(new URL("../scripts/ormd-primary.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
   assert.equal(catalog.entrySlug, "context-layer-master-index");
   assert.equal(catalog.counts.documents, activeCount);
@@ -51,8 +71,10 @@ test("publishes complete paired human and AI catalogs", async () => {
   assert.equal(catalog.docs.filter((doc) => doc.ormdUrl.endsWith(".ormd")).length, activeCount);
   assert.equal(catalog.docs.filter((doc) => doc.humanUrl.endsWith(".md")).length, activeCount);
   assert.ok(catalog.docs.every((doc) => doc.ormdSha256 && doc.humanSha256));
-  assert.equal(catalog.docs.filter((doc) => doc.humanSourceMode === "ormd-projection").length, 19);
-  assert.equal(catalog.docs.find((doc) => doc.slug === "relational-primitives")?.humanSourceMode, "preserved-semantic-substrate");
+  assert.equal(catalog.docs.filter((doc) => doc.humanSourceMode === "ormd-projection").length, ormdPrimary.length + 1);
+  assert.ok(catalog.docs.every((doc) => doc.humanSourceMode === "ormd-projection"));
+  assert.equal(catalog.docs.find((doc) => doc.slug === "original-e2-work")?.humanSourceMode, "ormd-projection");
+  assert.equal(catalog.docs.find((doc) => doc.slug === "relational-primitives")?.humanSourceMode, "ormd-projection");
   assert.equal(catalog.docs.find((doc) => doc.slug === catalog.entrySlug)?.clusterId, null);
   assert.equal(catalog.docs.filter((doc) => doc.clusterId).length, activeCount - 1);
   assert.ok(catalog.docs.every((doc) => !["remf", "universal-emergence-pattern", "relational-emergence-meta-architecture-rema"].includes(doc.slug)));
@@ -128,7 +150,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.doesNotMatch(llms, /\]\(\/ormd\//);
   assert.equal(rootLlms.replace(/\r\n/g, "\n"), llms.replace(/\r\n/g, "\n"));
   assert.match(corpus, /<!-- ormd:1\.0 -->/);
-  assert.match(corpus, /BEGIN ORMD: Context Layer Index\.ormd/);
+  assert.match(corpus, /BEGIN ORMD: Context Layer Master Index\.ormd/);
   assert.match(robots, /User-agent: Claude-User\r?\nAllow: \//);
   assert.match(robots, /User-agent: Google-Extended\r?\nAllow: \//);
   assert.doesNotMatch(robots, /^Sitemap:/m);
@@ -137,7 +159,7 @@ test("publishes lightweight and full-corpus AI entry points", async () => {
   assert.match(htmlIndex, /Machine-readable relationship graph/);
   assert.match(htmlIndex, /Cluster I/);
   assert.doesNotMatch(htmlIndex, /Cluster [JK]/);
-  assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Index\.ormd/);
+  assert.match(htmlCorpus, /BEGIN ORMD: Context Layer Master Index\.ormd/);
   assert.match(htmlMaster, /&lt;!-- ormd:1\.0 --&gt;/);
   assert.equal(htmlDocs.filter((name) => name.endsWith(".html")).length, activeCount);
 });

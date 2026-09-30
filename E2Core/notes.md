@@ -17,12 +17,12 @@ Updated 2026-06-12 after Pass 3B/3C.
 
 - Active source of truth: `E2Core/Context Layer`.
 - Semantic mirrors: `E2Core/Semantic Substrate`; mirrors were regenerated for documents touched in Pass 3A and Pass 3B/3C.
-- Current active Context Layer count: 77 `.ormd` documents, excluding `Context Layer Index.ormd`.
-- `Context Layer Index.ormd` has been updated after the completed cleanup passes.
+- Current active Context Layer count: 77 `.ormd` documents, excluding `Context Layer Master Index.ormd`.
+- `Context Layer Master Index.ormd` has been updated after the completed cleanup passes.
 
 ### Preserve / Defer
 
-- Do not edit `Context Layer/Relational Derivation Chain .ormd`. The user manually changed this after Pass 2 and explicitly asked that it be preserved.
+- Do not edit `Context Layer/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.ormd`. The user manually changed this after Pass 2 and explicitly asked that it be preserved.
 - Leave `Family as a Relational Field.ormd` alone. It is an implementation/demonstration view of Family through the framework lens, not a source of new core ideas.
 - Cluster J promotion/reclassification remains delayed until after the rest of this notes document is complete, per DP's note. The specific sign-mediated merge from Pass 3B is complete, but the broader Cluster J pass is still deferred.
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T23:47:28.993Z",
+  "generatedAt": "2026-09-30T16:44:49.543Z",
   "title": "E² Core Framework relationship graph",
   "description": "Navigation graph for the public corpus. Curated edges are orientation metadata, while suggested edges come from exact title mentions and are not framework authority.",
   "authority": {
@@ -9,10 +9,10 @@
     "relationships": "Navigation metadata only; consult the linked documents for authority"
   },
   "counts": {
-    "nodes": 83,
-    "edges": 147,
-    "explicitEdges": 68,
-    "suggestedEdges": 79
+    "nodes": 80,
+    "edges": 152,
+    "explicitEdges": 65,
+    "suggestedEdges": 87
   },
   "clusters": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "D",
       "name": "Metabolic, Resonance & Temporal Physics",
-      "scope": "The physics of meaning-making and temporal dynamics. Metabolic Meaning treats meaning as a metabolic process with a phase space topology. Resonance frameworks map coherence across ontological scales. TCL documents formalize temporal constraint coupling constants."
+      "scope": "Conceptual meaning models, resonance as relational translation, and temporal dynamics. Metabolic Meaning proposes a phase-space model; the resonance source offers bounded interaction prompts; TCL documents propose temporal coupling measures."
     },
     {
       "id": "E",
@@ -70,7 +70,7 @@
       "confidence": 1,
       "status": "context_meta_index",
       "relationship": "meta_index",
-      "wordCount": 6140,
+      "wordCount": 5937,
       "readerUrl": "/?doc=context-layer-master-index",
       "ormdUrl": "/ormd/context-layer-master-index.ormd"
     },
@@ -82,7 +82,7 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 480,
+      "wordCount": 481,
       "readerUrl": "/?doc=e2-axioms",
       "ormdUrl": "/ormd/e2-axioms.ormd"
     },
@@ -94,19 +94,19 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 657,
+      "wordCount": 660,
       "readerUrl": "/?doc=e2-entry-point",
       "ormdUrl": "/ormd/e2-entry-point.ormd"
     },
     {
       "id": "e2-equation",
-      "title": "E^2 Equation: Recursive Composition and the Global Closure Operator",
+      "title": "E^2 Equation",
       "clusterId": "A",
       "frame": "ontology.relational-physics",
-      "confidence": 0.98,
+      "confidence": 0.5,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 412,
+      "wordCount": 427,
       "readerUrl": "/?doc=e2-equation",
       "ormdUrl": "/ormd/e2-equation.ormd"
     },
@@ -123,6 +123,18 @@
       "ormdUrl": "/ormd/e2-as-a-translation-architecture-for-human-remembrance.ormd"
     },
     {
+      "id": "original-e2-work",
+      "title": "E² Corpus Lineage Index",
+      "clusterId": "A",
+      "frame": "research.index",
+      "confidence": 1,
+      "status": "paired_exact_stem",
+      "relationship": "source_context_pair",
+      "wordCount": 411,
+      "readerUrl": "/?doc=original-e2-work",
+      "ormdUrl": "/ormd/original-e2-work.ormd"
+    },
+    {
       "id": "global-closure-operator",
       "title": "Global Closure Operator",
       "clusterId": "A",
@@ -135,18 +147,6 @@
       "ormdUrl": "/ormd/global-closure-operator.ormd"
     },
     {
-      "id": "original-e2-work",
-      "title": "Original E^2 Work",
-      "clusterId": "A",
-      "frame": "research.index",
-      "confidence": 1,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 120,
-      "readerUrl": "/?doc=original-e2-work",
-      "ormdUrl": "/ormd/original-e2-work.ormd"
-    },
-    {
       "id": "relational-primitives",
       "title": "Relational Primitives",
       "clusterId": "A",
@@ -154,21 +154,9 @@
       "confidence": 0.96,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1086,
+      "wordCount": 1106,
       "readerUrl": "/?doc=relational-primitives",
       "ormdUrl": "/ormd/relational-primitives.ormd"
-    },
-    {
-      "id": "ct-translation-of-rps",
-      "title": "CT translation of RPs",
-      "clusterId": "B",
-      "frame": "formalism.relational-ontology",
-      "confidence": 0.95,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 1006,
-      "readerUrl": "/?doc=ct-translation-of-rps",
-      "ormdUrl": "/ormd/ct-translation-of-rps.ormd"
     },
     {
       "id": "derivation-deep-dive",
@@ -178,7 +166,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 7073,
+      "wordCount": 7171,
       "readerUrl": "/?doc=derivation-deep-dive",
       "ormdUrl": "/ormd/derivation-deep-dive.ormd"
     },
@@ -190,7 +178,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 7347,
+      "wordCount": 7349,
       "readerUrl": "/?doc=embedded-universality-principle-eup",
       "ormdUrl": "/ormd/embedded-universality-principle-eup.ormd"
     },
@@ -214,7 +202,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 445,
+      "wordCount": 457,
       "readerUrl": "/?doc=meta-pattern-decidability-conjecture-mpdc",
       "ormdUrl": "/ormd/meta-pattern-decidability-conjecture-mpdc.ormd"
     },
@@ -226,7 +214,7 @@
       "confidence": 0.85,
       "status": "paired_composite_or_alias",
       "relationship": "renamed_conversion",
-      "wordCount": 12447,
+      "wordCount": 823,
       "readerUrl": "/?doc=relational-derivation-chain",
       "ormdUrl": "/ormd/relational-derivation-chain.ormd"
     },
@@ -238,21 +226,21 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 835,
+      "wordCount": 983,
       "readerUrl": "/?doc=relational-field-dynamics-0-1",
       "ormdUrl": "/ormd/relational-field-dynamics-0-1.ormd"
     },
     {
-      "id": "rp-lambda-calc-translation",
-      "title": "RP Lambda Calc Translation",
+      "id": "relational-primitive-translations",
+      "title": "Relational Primitive Translations",
       "clusterId": "B",
-      "frame": "formal.logic.translation",
-      "confidence": 0.98,
+      "frame": "research.formal-translation",
+      "confidence": 0.5,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 537,
-      "readerUrl": "/?doc=rp-lambda-calc-translation",
-      "ormdUrl": "/ormd/rp-lambda-calc-translation.ormd"
+      "wordCount": 697,
+      "readerUrl": "/?doc=relational-primitive-translations",
+      "ormdUrl": "/ormd/relational-primitive-translations.ormd"
     },
     {
       "id": "adaptation-via-informational-abstraction",
@@ -262,7 +250,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 958,
+      "wordCount": 981,
       "readerUrl": "/?doc=adaptation-via-informational-abstraction",
       "ormdUrl": "/ormd/adaptation-via-informational-abstraction.ormd"
     },
@@ -286,7 +274,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3739,
+      "wordCount": 3766,
       "readerUrl": "/?doc=boundary-dynamics",
       "ormdUrl": "/ormd/boundary-dynamics.ormd"
     },
@@ -298,7 +286,7 @@
       "confidence": 0.86,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2339,
+      "wordCount": 2350,
       "readerUrl": "/?doc=constraint-fluctuation-attention-resolution-core-source",
       "ormdUrl": "/ormd/constraint-fluctuation-attention-resolution-core-source.ormd"
     },
@@ -310,7 +298,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3084,
+      "wordCount": 3109,
       "readerUrl": "/?doc=emergence-determination-foreclosure",
       "ormdUrl": "/ormd/emergence-determination-foreclosure.ormd"
     },
@@ -322,7 +310,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2196,
+      "wordCount": 2220,
       "readerUrl": "/?doc=flow-operators-provisional",
       "ormdUrl": "/ormd/flow-operators-provisional.ormd"
     },
@@ -334,7 +322,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1173,
+      "wordCount": 1188,
       "readerUrl": "/?doc=from-essential-relationships-to-ontological-transformation",
       "ormdUrl": "/ormd/from-essential-relationships-to-ontological-transformation.ormd"
     },
@@ -346,7 +334,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3657,
+      "wordCount": 3792,
       "readerUrl": "/?doc=pattern-integrity-over-time-under-entropy",
       "ormdUrl": "/ormd/pattern-integrity-over-time-under-entropy.ormd"
     },
@@ -370,7 +358,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1797,
+      "wordCount": 1814,
       "readerUrl": "/?doc=resolution-synthesis",
       "ormdUrl": "/ormd/resolution-synthesis.ormd"
     },
@@ -382,7 +370,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1694,
+      "wordCount": 1723,
       "readerUrl": "/?doc=tensional-intelligence-a-theoretical-foundation",
       "ormdUrl": "/ormd/tensional-intelligence-a-theoretical-foundation.ormd"
     },
@@ -394,7 +382,7 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2900,
+      "wordCount": 2963,
       "readerUrl": "/?doc=emergence-engine-overview",
       "ormdUrl": "/ormd/emergence-engine-overview.ormd"
     },
@@ -411,16 +399,16 @@
       "ormdUrl": "/ormd/metabolic-meaning-phase-space-mmps.ormd"
     },
     {
-      "id": "resonance-architecture-4-17-25",
-      "title": "Resonance Architecture",
+      "id": "resonance-and-relational-translation",
+      "title": "Resonance and Relational Translation",
       "clusterId": "D",
-      "frame": "epistemology.resonance",
-      "confidence": 0.9,
+      "frame": "research.relational-translation",
+      "confidence": 0.5,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2218,
-      "readerUrl": "/?doc=resonance-architecture-4-17-25",
-      "ormdUrl": "/ormd/resonance-architecture-4-17-25.ormd"
+      "wordCount": 673,
+      "readerUrl": "/?doc=resonance-and-relational-translation",
+      "ormdUrl": "/ormd/resonance-and-relational-translation.ormd"
     },
     {
       "id": "signal-as-bias-field",
@@ -430,7 +418,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1776,
+      "wordCount": 1803,
       "readerUrl": "/?doc=signal-as-bias-field",
       "ormdUrl": "/ormd/signal-as-bias-field.ormd"
     },
@@ -454,21 +442,9 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3427,
+      "wordCount": 3465,
       "readerUrl": "/?doc=tcl-plain-english-summary",
       "ormdUrl": "/ormd/tcl-plain-english-summary.ormd"
-    },
-    {
-      "id": "the-architecture-of-resonant-systems-4-26-25",
-      "title": "The Architecture of Resonant Systems",
-      "clusterId": "D",
-      "frame": "relational.systems.theory",
-      "confidence": 0.92,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 919,
-      "readerUrl": "/?doc=the-architecture-of-resonant-systems-4-26-25",
-      "ormdUrl": "/ormd/the-architecture-of-resonant-systems-4-26-25.ormd"
     },
     {
       "id": "tcl-three-constants",
@@ -478,21 +454,9 @@
       "confidence": 0.96,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2134,
+      "wordCount": 2165,
       "readerUrl": "/?doc=tcl-three-constants",
       "ormdUrl": "/ormd/tcl-three-constants.ormd"
-    },
-    {
-      "id": "the-resonance-framework-an-ontological-map-4-24-25",
-      "title": "The Resonance Framework: An Ontological Map",
-      "clusterId": "D",
-      "frame": "ontology.map",
-      "confidence": 0.85,
-      "status": "paired_exact_stem",
-      "relationship": "source_context_pair",
-      "wordCount": 819,
-      "readerUrl": "/?doc=the-resonance-framework-an-ontological-map-4-24-25",
-      "ormdUrl": "/ormd/the-resonance-framework-an-ontological-map-4-24-25.ormd"
     },
     {
       "id": "asymmetry-maintenance-core-source",
@@ -586,7 +550,7 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 479,
+      "wordCount": 489,
       "readerUrl": "/?doc=ethical-principles-for-human-ai-interaction",
       "ormdUrl": "/ormd/ethical-principles-for-human-ai-interaction.ormd"
     },
@@ -598,7 +562,7 @@
       "confidence": 1,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 492,
+      "wordCount": 537,
       "readerUrl": "/?doc=human-ai-creative-collaboration-framework-haic",
       "ormdUrl": "/ormd/human-ai-creative-collaboration-framework-haic.ormd"
     },
@@ -610,7 +574,7 @@
       "confidence": 0.92,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1469,
+      "wordCount": 1567,
       "readerUrl": "/?doc=interlocked-stewardship-v2",
       "ormdUrl": "/ormd/interlocked-stewardship-v2.ormd"
     },
@@ -646,7 +610,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 5551,
+      "wordCount": 5702,
       "readerUrl": "/?doc=justice-across-scales-practical-applications",
       "ormdUrl": "/ormd/justice-across-scales-practical-applications.ormd"
     },
@@ -700,13 +664,13 @@
     },
     {
       "id": "reverent-stewardship",
-      "title": "Reverent Stewardship: A Recursion of Principles & Practical Guide",
+      "title": "Reverent Stewardship",
       "clusterId": "E",
       "frame": "ethics.stewardship.guide",
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1368,
+      "wordCount": 1383,
       "readerUrl": "/?doc=reverent-stewardship",
       "ormdUrl": "/ormd/reverent-stewardship.ormd"
     },
@@ -730,7 +694,7 @@
       "confidence": 1,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 128,
+      "wordCount": 143,
       "readerUrl": "/?doc=steward-s-creed",
       "ormdUrl": "/ormd/steward-s-creed.ormd"
     },
@@ -742,7 +706,7 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1057,
+      "wordCount": 1062,
       "readerUrl": "/?doc=relational-bill-of-rights-v2",
       "ormdUrl": "/ormd/relational-bill-of-rights-v2.ormd"
     },
@@ -766,19 +730,19 @@
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 2958,
+      "wordCount": 3135,
       "readerUrl": "/?doc=adversarial-occlusion-and-mechanism-integrity-v1",
       "ormdUrl": "/ormd/adversarial-occlusion-and-mechanism-integrity-v1.ormd"
     },
     {
       "id": "exposure-protocol",
-      "title": "Exposure Protocol: A Coherence-Preserving Transmission Framework",
+      "title": "Exposure Protocol",
       "clusterId": "F",
       "frame": "pedagogy.framework",
       "confidence": 0.95,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 762,
+      "wordCount": 779,
       "readerUrl": "/?doc=exposure-protocol",
       "ormdUrl": "/ormd/exposure-protocol.ormd"
     },
@@ -790,7 +754,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3202,
+      "wordCount": 3252,
       "readerUrl": "/?doc=mrie-unified-synthesis",
       "ormdUrl": "/ormd/mrie-unified-synthesis.ormd"
     },
@@ -802,7 +766,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 935,
+      "wordCount": 956,
       "readerUrl": "/?doc=relational-irreducibility-framework-rif",
       "ormdUrl": "/ormd/relational-irreducibility-framework-rif.ormd"
     },
@@ -814,7 +778,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1376,
+      "wordCount": 1362,
       "readerUrl": "/?doc=truth-ceiling",
       "ormdUrl": "/ormd/truth-ceiling.ormd"
     },
@@ -826,7 +790,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 6186,
+      "wordCount": 6269,
       "readerUrl": "/?doc=collective-cognitive-substrate",
       "ormdUrl": "/ormd/collective-cognitive-substrate.ormd"
     },
@@ -838,31 +802,31 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 3541,
+      "wordCount": 3255,
       "readerUrl": "/?doc=ontological-systems-interface-osi-model",
       "ormdUrl": "/ormd/ontological-systems-interface-osi-model.ormd"
     },
     {
       "id": "relational-volition",
-      "title": "Relational Volition: A Synthesis on the Nature of Freedom within Relational Fields",
+      "title": "Relational Volition",
       "clusterId": "G",
       "frame": "philosophy.relational-physics",
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 679,
+      "wordCount": 694,
       "readerUrl": "/?doc=relational-volition",
       "ormdUrl": "/ormd/relational-volition.ormd"
     },
     {
       "id": "the-intelligence-field-framework",
-      "title": "The 'Intelligence Field' Framework",
+      "title": "The \"Intelligence Field\" Framework",
       "clusterId": "G",
       "frame": "cognitive.theory.framework",
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 587,
+      "wordCount": 594,
       "readerUrl": "/?doc=the-intelligence-field-framework",
       "ormdUrl": "/ormd/the-intelligence-field-framework.ormd"
     },
@@ -874,7 +838,7 @@
       "confidence": 0.93,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 4065,
+      "wordCount": 4087,
       "readerUrl": "/?doc=self-as-coherence-field",
       "ormdUrl": "/ormd/self-as-coherence-field.ormd"
     },
@@ -886,7 +850,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 16237,
+      "wordCount": 2706,
       "readerUrl": "/?doc=the-essence-of-existence",
       "ormdUrl": "/ormd/the-essence-of-existence.ormd"
     },
@@ -898,7 +862,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 775,
+      "wordCount": 783,
       "readerUrl": "/?doc=caregiving-as-an-ecosystem",
       "ormdUrl": "/ormd/caregiving-as-an-ecosystem.ormd"
     },
@@ -910,7 +874,7 @@
       "confidence": 0.9,
       "status": "paired_composite_or_alias",
       "relationship": "lineage_preserving_merge",
-      "wordCount": 7292,
+      "wordCount": 7398,
       "readerUrl": "/?doc=collective-relational-substrate",
       "ormdUrl": "/ormd/collective-relational-substrate.ormd"
     },
@@ -922,7 +886,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1886,
+      "wordCount": 1998,
       "readerUrl": "/?doc=communication-as-coherence",
       "ormdUrl": "/ormd/communication-as-coherence.ormd"
     },
@@ -934,7 +898,7 @@
       "confidence": 1,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 339,
+      "wordCount": 346,
       "readerUrl": "/?doc=declaration-of-interdependence",
       "ormdUrl": "/ormd/declaration-of-interdependence.ormd"
     },
@@ -946,7 +910,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1778,
+      "wordCount": 1815,
       "readerUrl": "/?doc=essence-of-existence-constitution-draft-2",
       "ormdUrl": "/ormd/essence-of-existence-constitution-draft-2.ormd"
     },
@@ -958,7 +922,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 11020,
+      "wordCount": 11206,
       "readerUrl": "/?doc=family-as-a-relational-field",
       "ormdUrl": "/ormd/family-as-a-relational-field.ormd"
     },
@@ -970,7 +934,7 @@
       "confidence": 0.85,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1216,
+      "wordCount": 1236,
       "readerUrl": "/?doc=layer-2-draft-rvp-and-vme-developments",
       "ormdUrl": "/ormd/layer-2-draft-rvp-and-vme-developments.ormd"
     },
@@ -982,7 +946,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 6630,
+      "wordCount": 6865,
       "readerUrl": "/?doc=power-as-relational-field-coherence",
       "ormdUrl": "/ormd/power-as-relational-field-coherence.ormd"
     },
@@ -994,7 +958,7 @@
       "confidence": 0.95,
       "status": "paired_composite_or_alias",
       "relationship": "renamed_conversion",
-      "wordCount": 1030,
+      "wordCount": 1043,
       "readerUrl": "/?doc=relational-perfection-framework",
       "ormdUrl": "/ormd/relational-perfection-framework.ormd"
     },
@@ -1006,19 +970,19 @@
       "confidence": 1,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 476,
+      "wordCount": 491,
       "readerUrl": "/?doc=relational-perfection-a-manifesto",
       "ormdUrl": "/ormd/relational-perfection-a-manifesto.ormd"
     },
     {
       "id": "the-cyclical-integrity-framework",
-      "title": "The Cyclical Integrity framework",
+      "title": "The Cyclical Integrity Framework",
       "clusterId": "H",
       "frame": "philosophy.systems",
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1596,
+      "wordCount": 1643,
       "readerUrl": "/?doc=the-cyclical-integrity-framework",
       "ormdUrl": "/ormd/the-cyclical-integrity-framework.ormd"
     },
@@ -1030,7 +994,7 @@
       "confidence": 0.9,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 1406,
+      "wordCount": 1551,
       "readerUrl": "/?doc=context-layer-protocol-clp",
       "ormdUrl": "/ormd/context-layer-protocol-clp.ormd"
     },
@@ -1042,7 +1006,7 @@
       "confidence": 1,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 25,
+      "wordCount": 319,
       "readerUrl": "/?doc=implementations",
       "ormdUrl": "/ormd/implementations.ormd"
     },
@@ -1054,7 +1018,7 @@
       "confidence": 0.98,
       "status": "paired_exact_stem",
       "relationship": "source_context_pair",
-      "wordCount": 704,
+      "wordCount": 826,
       "readerUrl": "/?doc=relational-primitive-engine-rpe",
       "ormdUrl": "/ormd/relational-primitive-engine-rpe.ormd"
     }
@@ -1106,22 +1070,13 @@
       "note": "The human-remembrance orientation states the framework's translation purpose and scope."
     },
     {
-      "id": "ct-translation-of-rps--translates--relational-primitives",
-      "source": "ct-translation-of-rps",
+      "id": "relational-primitive-translations--translates--relational-primitives",
+      "source": "relational-primitive-translations",
       "target": "relational-primitives",
       "type": "translates",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "Category-theoretic translation of the relational primitives."
-    },
-    {
-      "id": "rp-lambda-calc-translation--translates--relational-primitives",
-      "source": "rp-lambda-calc-translation",
-      "target": "relational-primitives",
-      "type": "translates",
-      "certainty": "explicit",
-      "provenance": "curated-navigation-ledger",
-      "note": "Lambda-calculus translation of the relational primitives."
+      "note": "Scoped categorical and lambda-calculus analogies to the relational primitives."
     },
     {
       "id": "relational-field-dynamics-0-1--formalizes--relational-primitives",
@@ -1241,22 +1196,13 @@
       "note": "Persistence develops how pattern integrity accumulates over time."
     },
     {
-      "id": "the-architecture-of-resonant-systems-4-26-25--extends--resonance-architecture-4-17-25",
-      "source": "the-architecture-of-resonant-systems-4-26-25",
-      "target": "resonance-architecture-4-17-25",
-      "type": "extends",
+      "id": "resonance-and-relational-translation--contextualizes--communication-as-coherence",
+      "source": "resonance-and-relational-translation",
+      "target": "communication-as-coherence",
+      "type": "contextualizes",
       "certainty": "explicit",
       "provenance": "curated-navigation-ledger",
-      "note": "The later architecture develops the earlier resonance account."
-    },
-    {
-      "id": "the-resonance-framework-an-ontological-map-4-24-25--maps--resonance-architecture-4-17-25",
-      "source": "the-resonance-framework-an-ontological-map-4-24-25",
-      "target": "resonance-architecture-4-17-25",
-      "type": "maps",
-      "certainty": "explicit",
-      "provenance": "curated-navigation-ledger",
-      "note": "The ontological map orients the resonance framework."
+      "note": "The resonance source offers bounded interaction prompts for translation across contexts."
     },
     {
       "id": "tcl-plain-english-summary--explains--tcl-three-constants",
@@ -1484,18 +1430,9 @@
       "note": "Entry point for Cluster A."
     },
     {
-      "id": "context-layer-master-index--indexes--ct-translation-of-rps",
+      "id": "context-layer-master-index--indexes--relational-primitive-translations",
       "source": "context-layer-master-index",
-      "target": "ct-translation-of-rps",
-      "type": "indexes",
-      "certainty": "explicit",
-      "provenance": "context-layer-master-index",
-      "note": "Entry point for Cluster B."
-    },
-    {
-      "id": "context-layer-master-index--indexes--rp-lambda-calc-translation",
-      "source": "context-layer-master-index",
-      "target": "rp-lambda-calc-translation",
+      "target": "relational-primitive-translations",
       "type": "indexes",
       "certainty": "explicit",
       "provenance": "context-layer-master-index",
@@ -1538,9 +1475,9 @@
       "note": "Entry point for Cluster D."
     },
     {
-      "id": "context-layer-master-index--indexes--the-resonance-framework-an-ontological-map-4-24-25",
+      "id": "context-layer-master-index--indexes--resonance-and-relational-translation",
       "source": "context-layer-master-index",
-      "target": "the-resonance-framework-an-ontological-map-4-24-25",
+      "target": "resonance-and-relational-translation",
       "type": "indexes",
       "certainty": "explicit",
       "provenance": "context-layer-master-index",
@@ -1673,6 +1610,24 @@
       "note": "Entry point for Cluster I."
     },
     {
+      "id": "e2-axioms--references--e2-equation",
+      "source": "e2-axioms",
+      "target": "e2-equation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "e2-entry-point--references--e2-equation",
+      "source": "e2-entry-point",
+      "target": "e2-equation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
       "id": "e2-entry-point--references--metabolic-meaning-phase-space-mmps",
       "source": "e2-entry-point",
       "target": "metabolic-meaning-phase-space-mmps",
@@ -1691,9 +1646,27 @@
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "e2-entry-point--references--global-closure-operator",
-      "source": "e2-entry-point",
-      "target": "global-closure-operator",
+      "id": "original-e2-work--references--power-as-relational-field-coherence",
+      "source": "original-e2-work",
+      "target": "power-as-relational-field-coherence",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "original-e2-work--references--tensional-intelligence-a-theoretical-foundation",
+      "source": "original-e2-work",
+      "target": "tensional-intelligence-a-theoretical-foundation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "original-e2-work--references--essence-of-existence-constitution-draft-2",
+      "source": "original-e2-work",
+      "target": "essence-of-existence-constitution-draft-2",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -1709,31 +1682,13 @@
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "original-e2-work--references--tensional-intelligence-a-theoretical-foundation",
-      "source": "original-e2-work",
-      "target": "tensional-intelligence-a-theoretical-foundation",
+      "id": "relational-primitives--references--e2-equation",
+      "source": "relational-primitives",
+      "target": "e2-equation",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
-    },
-    {
-      "id": "original-e2-work--references--ethical-principles-for-human-ai-interaction",
-      "source": "original-e2-work",
-      "target": "ethical-principles-for-human-ai-interaction",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
-    },
-    {
-      "id": "original-e2-work--references--meta-pattern-decidability-conjecture-mpdc",
-      "source": "original-e2-work",
-      "target": "meta-pattern-decidability-conjecture-mpdc",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
     },
     {
       "id": "relational-primitives--references--global-closure-operator",
@@ -1748,15 +1703,6 @@
       "id": "relational-primitives--references--embedded-universality-principle-eup",
       "source": "relational-primitives",
       "target": "embedded-universality-principle-eup",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 1 exact title mention; review before treating as framework structure."
-    },
-    {
-      "id": "relational-primitives--references--e2-axioms",
-      "source": "relational-primitives",
-      "target": "e2-axioms",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -1788,6 +1734,33 @@
       "certainty": "suggested",
       "provenance": "exact-title-mention",
       "note": "Generated from 2 exact title mentions; review before treating as framework structure."
+    },
+    {
+      "id": "relational-derivation-chain--references--from-essential-relationships-to-ontological-transformation",
+      "source": "relational-derivation-chain",
+      "target": "from-essential-relationships-to-ontological-transformation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-derivation-chain--references--e2-equation",
+      "source": "relational-derivation-chain",
+      "target": "e2-equation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "relational-primitive-translations--references--e2-equation",
+      "source": "relational-primitive-translations",
+      "target": "e2-equation",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
       "id": "attentional-access-and-formation-core-source--references--condition-as-typed-terrain-core-source",
@@ -1892,6 +1865,33 @@
       "id": "persistence-as-accumulated-stance-with-core-source--references--relational-localization-core-source",
       "source": "persistence-as-accumulated-stance-with-core-source",
       "target": "relational-localization-core-source",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "tensional-intelligence-a-theoretical-foundation--references--the-intelligence-field-framework",
+      "source": "tensional-intelligence-a-theoretical-foundation",
+      "target": "the-intelligence-field-framework",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "resonance-and-relational-translation--references--e2-as-a-translation-architecture-for-human-remembrance",
+      "source": "resonance-and-relational-translation",
+      "target": "e2-as-a-translation-architecture-for-human-remembrance",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "resonance-and-relational-translation--references--ontological-systems-interface-osi-model",
+      "source": "resonance-and-relational-translation",
+      "target": "ontological-systems-interface-osi-model",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -2246,7 +2246,7 @@
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
-      "note": "Generated from 3 exact title mentions; review before treating as framework structure."
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
       "id": "self-as-coherence-field--references--relational-bill-of-rights-v2",
@@ -2267,15 +2267,6 @@
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "the-essence-of-existence--references--meta-pattern-decidability-conjecture-mpdc",
-      "source": "the-essence-of-existence",
-      "target": "meta-pattern-decidability-conjecture-mpdc",
-      "type": "references",
-      "certainty": "suggested",
-      "provenance": "exact-title-mention",
-      "note": "Generated from 2 exact title mentions; review before treating as framework structure."
-    },
-    {
       "id": "the-essence-of-existence--references--from-essential-relationships-to-ontological-transformation",
       "source": "the-essence-of-existence",
       "target": "from-essential-relationships-to-ontological-transformation",
@@ -2285,9 +2276,18 @@
       "note": "Generated from 1 exact title mention; review before treating as framework structure."
     },
     {
-      "id": "the-essence-of-existence--references--communication-as-coherence",
+      "id": "the-essence-of-existence--references--relational-derivation-chain",
       "source": "the-essence-of-existence",
-      "target": "communication-as-coherence",
+      "target": "relational-derivation-chain",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "the-essence-of-existence--references--meta-pattern-decidability-conjecture-mpdc",
+      "source": "the-essence-of-existence",
+      "target": "meta-pattern-decidability-conjecture-mpdc",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",
@@ -2369,6 +2369,15 @@
       "id": "implementations--references--context-layer-protocol-clp",
       "source": "implementations",
       "target": "context-layer-protocol-clp",
+      "type": "references",
+      "certainty": "suggested",
+      "provenance": "exact-title-mention",
+      "note": "Generated from 1 exact title mention; review before treating as framework structure."
+    },
+    {
+      "id": "implementations--references--family-as-a-relational-field",
+      "source": "implementations",
+      "target": "family-as-a-relational-field",
       "type": "references",
       "certainty": "suggested",
       "provenance": "exact-title-mention",

@@ -28,11 +28,11 @@ The Relational Irreducibility Framework [articulates](#rif-main "ontological:def
 
 ## **I. Core Principle: The Relational Irreducibility Principle (RIP)** {#rip}
 
-**"If a system allows for [emergent agency](#agency "ontological:composes"), it must also allow for [irreducible novelty](#novelty "ontological:composes"); therefore, any truly ethical or divine interaction must be participatory, not predetermined."**
+**"If a system allows for [emergent agency](#rip "ontological:composes"), it must also allow for [irreducible novelty](#rip "ontological:composes"); therefore, any truly ethical or divine interaction must be participatory, not predetermined."**
 
-- **Irreducibility**: Some systems ([Zone 3](#zone-3 "ontological:defines")) cannot be predicted, modeled, or compressed without being *run*.
-- **Embedded Relationship**: Knowledge and transformation must emerge through [direct participation](#participation "epistemic:supports") in the system.
-- **Divine Participation**: God (or any meta-agent) cannot fully "know" embedded outcomes in advance—*by design*. Relationship [becomes epistemologically necessary](#divine-participation "ontological:composes"). {#divine-participation}
+- **Irreducibility**: Some systems ([Zone 3](#rip "ontological:defines")) cannot be predicted, modeled, or compressed without being *run*.
+- **Embedded Relationship**: Knowledge and transformation must emerge through [direct participation](#rip "epistemic:supports") in the system.
+- **Divine Participation**: God (or any meta-agent) cannot fully "know" embedded outcomes in advance—*by design*. Relationship [becomes epistemologically necessary](#rip "ontological:composes").
 
 ---
 
@@ -40,7 +40,7 @@ The Relational Irreducibility Framework [articulates](#rif-main "ontological:def
 
 ### **Triadic Pattern of Relational Structure** {#triadic-pattern}
 
-Modeled loosely on the [Trinitarian structure](#trinity "meta:corresponds_to") and applied institutionally:
+Modeled loosely on the [Trinitarian structure](#triadic-pattern "meta:corresponds_to") and applied institutionally:
 
 1. **Originator (Structure/Order/Boundary)** {#originator}
     - Sets initial [conditions, constraints, and moral/natural laws](#originator "symmetric:constrains").
@@ -74,7 +74,7 @@ No single aspect dominates, and occlusion (mystery) is preserved *in the relatio
 ### **C. Temporal Compression & Risk Amplification** {#risk}
 
 - Increased speed of decision-making (e.g. cultural or technological) [increases catastrophic risk](#risk "geometric:causes").
-- Attention economy [accelerates cognitive shortcuts](#shortcuts "dynamical:transforms_to") → moral decay.
+- Attention economy [accelerates cognitive shortcuts](#risk "dynamical:transforms_to") → moral decay.
 
 ### **D. Narrative & Identity** {#narrative}
 
@@ -90,7 +90,7 @@ No single aspect dominates, and occlusion (mystery) is preserved *in the relatio
 
 ## **IV. The Divine Exchange Loop** {#exchange-loop}
 
-1. **Creation**: A [Zone 3 system](#zone-3 "ontological:defines") is initiated with embedded agents.
+1. **Creation**: A [Zone 3 system](#rip "ontological:defines") is initiated with embedded agents.
 2. **Emergence**: Agents develop unique internal models and perspectives.
 3. **Exchange**: Agents [share novel relational and experiential data](#exchange-loop "epistemic:supports") back into the system (or with the divine).
 4. **Response**: The system [adjusts via adaptive agents](#exchange-loop "dynamical:interacts_with") or shared Spirit.
@@ -132,8 +132,8 @@ No single aspect dominates, and occlusion (mystery) is preserved *in the relatio
 
 > A mutual agreement between Creator and created that:
 > 
-> - Permits complexity, agency, and [irreducible novelty](#novelty "ontological:composes")
-> - Requires [embedded participation](#participation "epistemic:supports") for knowing
+> - Permits complexity, agency, and [irreducible novelty](#rip "ontological:composes")
+> - Requires [embedded participation](#rip "epistemic:supports") for knowing
 > - Holds [ethical occlusion](#occlusion-mgmt "symmetric:preserves") as sacred structure
 > - Establishes [relational coherence](#cosmology "ontological:defines") as divine purpose
 
@@ -151,7 +151,7 @@ This covenant [creates the necessary conditions](#covenant "geometric:causes") f
 
 *Cross-reference added in the 2026-09-29 consolidation pass. RIF's text above is unchanged.*
 
-`E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md` (with its paired Context Layer file) uses the Relational Irreducibility Principle as one of four premises, alongside Zone 3 computational irreducibility, MPDC, and the substrate-coupling addendum. From them it derives a narrower claim: emergent properties of computationally irreducible relational substrates "can be externally conditioned but cannot be externally determined."
+`E2Core/Semantic Substrate/Emergence Determination Foreclosure.md` (with its paired Context Layer file) uses the Relational Irreducibility Principle as one of four premises, alongside Zone 3 computational irreducibility, MPDC, and the substrate-coupling addendum. From them it derives a narrower claim: emergent properties of computationally irreducible relational substrates "can be externally conditioned but cannot be externally determined."
 
 The two documents stay separate because they answer different questions:
 

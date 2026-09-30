@@ -4,6 +4,8 @@
 **Inputs:** `E2Core Consolidation Plan.ormd` (2026-06-12), `9.29.26 Consolidation Pass.md`, the current active Core, archive, registry, and integration process.  
 **Scope:** the active `E2Core/Semantic Substrate` and `E2Core/Context Layer` pairs, relevant `Synthesized Core` provenance, and preserved archives. The two input plans remain intact.
 
+**Decision update (2026-09-30):** See `../staged work/20260930/consolidation/Author Decisions and Review Sequence.md` for the author's later dispositions. Context Layer ORMD now governs active pairs and downstream human Markdown. The original NexEs manifesto wording is retained in the Care, Attention, and Coherence ORMD as developmental history; other human-only differences remain archived. Earlier review-queue and pair-reconciliation instructions below describe the pre-decision plan, not pending work.
+
 ## 1. Operating rules
 
 1. **Extract, then archive.** For each item marked Extract/Archive or Merge/Archive, compare the actual source bodies, identify unique claims and useful provenance, place retained material in a named destination with its limits, then archive the superseded active document(s). Record what was retained, what was left historical, and why. An existing synthesis is evidence of earlier work, not proof that all unique content survived.

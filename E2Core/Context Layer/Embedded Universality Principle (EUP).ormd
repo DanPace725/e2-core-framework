@@ -9,7 +9,7 @@ lineage:
   origin: { uri: "local://semantic-substrate/Embedded%20Universality%20Principle%20%28EUP%29.md", ts: "2026-06-16T00:00:00Z" }
   parents:
     - "Meta-Pattern Decidability Conjecture (MPDC).ormd"
-    - "resolution_synthesis.ormd"
+    - "Resolution - Synthesis Notes.ormd"
     - "Context Layer Protocol (CLP).ormd"
   transforms:
     - { fn: "semantic-substrate-to-ormd", ts: "2026-06-16T00:00:00Z" }
@@ -20,7 +20,7 @@ semantics:
 resolution: { confidence: 0.90 }
 ---
 
-# Embedded Universality Principle
+# Embedded Universality Principle (EUP) {#embedded-universality-principle}
 
 ## A Cumulative Formal Synthesis
 
