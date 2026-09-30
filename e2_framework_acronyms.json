@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-29T00:26:02.523764+00:00",
+  "generated_at": "2026-09-29T23:47:04.595483+00:00",
   "scope": ".",
   "dictionary": "legacy://phase1/Acronym Dictionary.md",
   "seed_count": 98,
-  "present_count": 66,
-  "files_scanned": 255,
+  "present_count": 68,
+  "files_scanned": 247,
   "acronyms": {
     "AAF": {
       "acronym": "AAF",
@@ -66,8 +66,8 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 78,
-      "source_file_count": 17,
+      "total_occurrences": 79,
+      "source_file_count": 18,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -101,7 +101,13 @@
         },
         {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -137,7 +143,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 3
         },
@@ -173,7 +179,7 @@
         }
       ],
       "layers": {
-        "E2Core": 64,
+        "E2Core": 65,
         "Rightness": 1,
         "Synthesized Core": 13
       }
@@ -221,8 +227,8 @@
       "dictionary_notes": [
         "`Emergent Behavioral Strategies Through Parameter Optimization`"
       ],
-      "total_occurrences": 10,
-      "source_file_count": 6,
+      "total_occurrences": 9,
+      "source_file_count": 5,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -249,12 +255,6 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "Synthesized Core/Emergence_Engine_synthesized.ormd",
           "title": "'Emergence Engine: Architectural Synthesis & System Summary'",
           "layer": "Synthesized Core",
@@ -262,7 +262,7 @@
         }
       ],
       "layers": {
-        "E2Core": 9,
+        "E2Core": 8,
         "Synthesized Core": 1
       }
     },
@@ -274,26 +274,26 @@
       "dictionary_notes": [
         "`AOMI Adversarial Occlusion and Mechanism Integrity`; `Adversarial Occlusion and Mechanism Integrity V1`"
       ],
-      "total_occurrences": 167,
-      "source_file_count": 45,
+      "total_occurrences": 158,
+      "source_file_count": 44,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "E2Core",
-          "occurrences": 21
-        },
-        {
-          "path": "E2Core/Context Layer/AOMI AI responses.ormd",
-          "title": "AOMI: Dialogue-Derived Doctrine Notes",
-          "layer": "E2Core",
-          "occurrences": 6
+          "occurrences": 22
         },
         {
           "path": "E2Core/Context Layer/Boundary Ethics - Core Source.ormd",
@@ -317,7 +317,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 6
         },
         {
           "path": "E2Core/Context Layer/Custody - Core Source.ormd",
@@ -392,6 +392,12 @@
           "occurrences": 2
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 6
+        },
+        {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
           "title": "E2Core Consolidation, Condensation & Reorganization Plan",
           "layer": "E2Core",
@@ -401,19 +407,13 @@
           "path": "E2Core/notes.md",
           "title": "E2Core Cleanup Notes",
           "layer": "E2Core",
-          "occurrences": 4
+          "occurrences": 5
         },
         {
           "path": "E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
           "layer": "E2Core",
-          "occurrences": 21
-        },
-        {
-          "path": "E2Core/Semantic Substrate/AOMI AI responses.md",
-          "title": "AOMI: AI responses",
-          "layer": "E2Core",
-          "occurrences": 3
+          "occurrences": 22
         },
         {
           "path": "E2Core/Semantic Substrate/Boundary Ethics - Core Source.md",
@@ -458,16 +458,10 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
-          "layer": "E2Core",
-          "occurrences": 3
+          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/Proxy Localization - Core Source.md",
@@ -549,7 +543,7 @@
         }
       ],
       "layers": {
-        "E2Core": 141,
+        "E2Core": 132,
         "Rightness": 1,
         "Synthesized Core": 25
       }
@@ -590,8 +584,8 @@
       "dictionary_notes": [
         "`Adaptation via Informational Abstraction (AVIA) A`"
       ],
-      "total_occurrences": 122,
-      "source_file_count": 24,
+      "total_occurrences": 103,
+      "source_file_count": 23,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -630,6 +624,12 @@
           "occurrences": 7
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
           "title": "E2Core Consolidation, Condensation & Reorganization Plan",
           "layer": "E2Core",
@@ -640,12 +640,6 @@
           "title": "Adaptation via Informational Abstraction (AVIA): A General Framework for Complex Systems",
           "layer": "E2Core",
           "occurrences": 6
-        },
-        {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 13
         },
         {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
@@ -672,14 +666,8 @@
           "occurrences": 5
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -739,7 +727,7 @@
         }
       ],
       "layers": {
-        "E2Core": 96,
+        "E2Core": 77,
         "Rightness": 1,
         "Synthesized Core": 25
       }
@@ -757,7 +745,7 @@
       "source_files": [
         {
           "path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd",
-          "title": "Context Layer Protocol (CLP) — Overview & Starter Spec v0.2",
+          "title": "Context Layer Protocol (CLP)",
           "layer": "E2Core",
           "occurrences": 5
         },
@@ -787,8 +775,8 @@
       "dictionary_notes": [
         "`Collective Cognitive Substrate`; `CCS`"
       ],
-      "total_occurrences": 4,
-      "source_file_count": 4,
+      "total_occurrences": 7,
+      "source_file_count": 5,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -801,6 +789,12 @@
           "title": "Context Layer Master Index",
           "layer": "E2Core",
           "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 3
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -816,7 +810,7 @@
         }
       ],
       "layers": {
-        "E2Core": 3,
+        "E2Core": 6,
         "Synthesized Core": 1
       }
     },
@@ -828,8 +822,8 @@
       "dictionary_notes": [
         "`CFA`; `The Essence of Existence`"
       ],
-      "total_occurrences": 197,
-      "source_file_count": 29,
+      "total_occurrences": 178,
+      "source_file_count": 26,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -892,12 +886,6 @@
           "occurrences": 6
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -928,26 +916,14 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 4
-        },
-        {
           "path": "E2Core/Semantic Substrate/Relational Volition.md",
           "title": "Relational Volition",
           "layer": "E2Core",
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 12
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 57
         },
@@ -1007,7 +983,7 @@
         }
       ],
       "layers": {
-        "E2Core": 174,
+        "E2Core": 155,
         "Rightness": 5,
         "Synthesized Core": 18
       }
@@ -1020,8 +996,8 @@
       "dictionary_notes": [
         "`CFAR`"
       ],
-      "total_occurrences": 125,
-      "source_file_count": 24,
+      "total_occurrences": 110,
+      "source_file_count": 22,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -1090,12 +1066,6 @@
           "occurrences": 9
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 10
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -1124,12 +1094,6 @@
           "title": "Resolution: Synthesis Notes",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 5
         },
         {
           "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
@@ -1169,7 +1133,7 @@
         }
       ],
       "layers": {
-        "E2Core": 107,
+        "E2Core": 92,
         "Rightness": 1,
         "Synthesized Core": 17
       }
@@ -1182,8 +1146,8 @@
       "dictionary_notes": [
         "`Context Layer Protocol (CLP)`"
       ],
-      "total_occurrences": 131,
-      "source_file_count": 43,
+      "total_occurrences": 128,
+      "source_file_count": 42,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -1241,7 +1205,7 @@
         },
         {
           "path": "E2Core/Context Layer/Context Layer Protocol (CLP).ormd",
-          "title": "Context Layer Protocol (CLP) — Overview & Starter Spec v0.2",
+          "title": "Context Layer Protocol (CLP)",
           "layer": "E2Core",
           "occurrences": 5
         },
@@ -1321,7 +1285,7 @@
           "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
           "title": "E^2 Entry Point",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/Ethical Occlusion via Temporal Compression (EOTC).md",
@@ -1364,12 +1328,6 @@
           "title": "Sign-Mediated Accountability and Flow Routing",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 2
         },
         {
           "path": "Synthesized Core/AOMI_synthesized.ormd",
@@ -1445,7 +1403,7 @@
         }
       ],
       "layers": {
-        "E2Core": 110,
+        "E2Core": 107,
         "Synthesized Core": 21
       }
     },
@@ -1457,9 +1415,15 @@
       "dictionary_notes": [
         "`CRS`; `The Collective Relational Substrate`"
       ],
-      "total_occurrences": 173,
-      "source_file_count": 9,
+      "total_occurrences": 131,
+      "source_file_count": 10,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -1470,11 +1434,17 @@
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
-          "occurrences": 47
+          "occurrences": 48
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 3
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
           "layer": "E2Core",
           "occurrences": 3
         },
@@ -1486,12 +1456,6 @@
         },
         {
           "path": "E2Core/Semantic Substrate/CRS.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 47
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
           "occurrences": 47
@@ -1516,7 +1480,7 @@
         }
       ],
       "layers": {
-        "E2Core": 148,
+        "E2Core": 106,
         "Synthesized Core": 25
       }
     },
@@ -1556,8 +1520,8 @@
       "dictionary_notes": [
         "`ECN Translation Key`; `E^2 Primer Compression`"
       ],
-      "total_occurrences": 30,
-      "source_file_count": 7,
+      "total_occurrences": 36,
+      "source_file_count": 8,
       "source_files": [
         {
           "path": "E2Core/Context Layer/E^2 Entry Point.ormd",
@@ -1572,10 +1536,16 @@
           "occurrences": 6
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 7
+        },
+        {
           "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
           "title": "E^2 Entry Point",
           "layer": "E2Core",
-          "occurrences": 4
+          "occurrences": 3
         },
         {
           "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
@@ -1603,8 +1573,30 @@
         }
       ],
       "layers": {
-        "E2Core": 19,
+        "E2Core": 25,
         "Synthesized Core": 11
+      }
+    },
+    "EO": {
+      "acronym": "EO",
+      "stands_for": [
+        "Ethical Occlusion"
+      ],
+      "dictionary_notes": [
+        "manual clarification"
+      ],
+      "total_occurrences": 1,
+      "source_file_count": 1,
+      "source_files": [
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
+        }
+      ],
+      "layers": {
+        "E2Core": 1
       }
     },
     "ER": {
@@ -1626,7 +1618,7 @@
         },
         {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -1638,7 +1630,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 4
         },
@@ -1668,8 +1660,8 @@
       "dictionary_notes": [
         "`Eidosemantic Systems Theory`; `Claude 4 On EST`; `TACITRA`"
       ],
-      "total_occurrences": 14,
-      "source_file_count": 9,
+      "total_occurrences": 24,
+      "source_file_count": 8,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
@@ -1684,6 +1676,12 @@
           "occurrences": 2
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 12
+        },
+        {
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -1694,18 +1692,6 @@
           "title": "Essence of Existence Constitution - Draft 2",
           "layer": "E2Core",
           "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "Synthesized Core/Constitutions_synthesized.ormd",
@@ -1727,7 +1713,7 @@
         }
       ],
       "layers": {
-        "E2Core": 8,
+        "E2Core": 18,
         "Synthesized Core": 6
       }
     },
@@ -1756,13 +1742,13 @@
         },
         {
           "path": "E2Core/Context Layer/Interlocked Stewardship V2.ormd",
-          "title": "Interlocked Stewardship V2",
+          "title": "Interlocked Stewardship",
           "layer": "E2Core",
           "occurrences": 11
         },
         {
           "path": "E2Core/Semantic Substrate/Interlocked Stewardship V2.md",
-          "title": "Interlocked Stewardship V2",
+          "title": "Interlocked Stewardship",
           "layer": "E2Core",
           "occurrences": 11
         },
@@ -1791,13 +1777,13 @@
       "source_files": [
         {
           "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         }
@@ -1814,8 +1800,8 @@
       "dictionary_notes": [
         "`Global Closure Operator`; `GCO logic`; `Signal as Bias Field`"
       ],
-      "total_occurrences": 335,
-      "source_file_count": 65,
+      "total_occurrences": 300,
+      "source_file_count": 62,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -1897,7 +1883,7 @@
         },
         {
           "path": "E2Core/Context Layer/Relational Bill of Rights v2.ormd",
-          "title": "Relational Bill of Rights v2",
+          "title": "The Relational Bill of Rights",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -1968,12 +1954,6 @@
           "occurrences": 4
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 14
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -2028,20 +2008,14 @@
           "occurrences": 15
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
-          "layer": "E2Core",
-          "occurrences": 5
+          "occurrences": 12
         },
         {
           "path": "E2Core/Semantic Substrate/Relational Bill of Rights v2.md",
-          "title": "Relational Bill of Rights v2",
+          "title": "The Relational Bill of Rights",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -2092,12 +2066,6 @@
           "title": "Signal as Bias Field",
           "layer": "E2Core",
           "occurrences": 9
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 21
         },
         {
           "path": "Rightness/20260910/sub_threshold_persistence .md",
@@ -2209,7 +2177,7 @@
         }
       ],
       "layers": {
-        "E2Core": 275,
+        "E2Core": 240,
         "Rightness": 6,
         "Synthesized Core": 54
       }
@@ -2420,13 +2388,13 @@
         },
         {
           "path": "E2Core/Context Layer/Interlocked Stewardship V2.ormd",
-          "title": "Interlocked Stewardship V2",
+          "title": "Interlocked Stewardship",
           "layer": "E2Core",
           "occurrences": 11
         },
         {
           "path": "E2Core/Semantic Substrate/Interlocked Stewardship V2.md",
-          "title": "Interlocked Stewardship V2",
+          "title": "Interlocked Stewardship",
           "layer": "E2Core",
           "occurrences": 11
         },
@@ -2450,8 +2418,8 @@
       "dictionary_notes": [
         "`Metabolic Meaning Phase Space (MMPS)`"
       ],
-      "total_occurrences": 137,
-      "source_file_count": 39,
+      "total_occurrences": 122,
+      "source_file_count": 37,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -2568,12 +2536,6 @@
           "occurrences": 8
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 8
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -2616,16 +2578,16 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md",
           "title": "Metabolic Meaning Phase Space (MMPS)",
           "layer": "E2Core",
           "occurrences": 6
+        },
+        {
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
+          "layer": "E2Core",
+          "occurrences": 2
         },
         {
           "path": "E2Core/Semantic Substrate/Relational Field Dynamics 0 1.md",
@@ -2638,12 +2600,6 @@
           "title": "Remnant Stewardship",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 7
         },
         {
           "path": "Rightness/20260910/Language and Meaning and stuff .md",
@@ -2689,7 +2645,7 @@
         }
       ],
       "layers": {
-        "E2Core": 120,
+        "E2Core": 105,
         "Rightness": 6,
         "Synthesized Core": 11
       }
@@ -2730,14 +2686,14 @@
       "dictionary_notes": [
         "`Meta-Pattern Decidability Conjecture (MPDC)`; `The Essence of Existence`"
       ],
-      "total_occurrences": 247,
-      "source_file_count": 54,
+      "total_occurrences": 237,
+      "source_file_count": 53,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 14
+          "occurrences": 15
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -2755,7 +2711,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 14
+          "occurrences": 15
         },
         {
           "path": "E2Core/Context Layer/Embedded Universality Principle (EUP).ormd",
@@ -2821,7 +2777,7 @@
           "path": "E2Core/Context Layer/Relational Irreducibility Framework (RIF).ormd",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 3
         },
         {
           "path": "E2Core/Context Layer/resolution_synthesis.ormd",
@@ -2849,9 +2805,15 @@
         },
         {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 2
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -2864,12 +2826,6 @@
           "title": "E2Core Cleanup Notes",
           "layer": "E2Core",
           "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 10
         },
         {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
@@ -2927,7 +2883,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Original E^2 work.md",
-          "title": "Original E^2 work",
+          "title": "Original E^2 Work",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -2947,7 +2903,7 @@
           "path": "E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 3
         },
         {
           "path": "E2Core/Semantic Substrate/resolution_synthesis.md",
@@ -2974,14 +2930,8 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 7
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 7
         },
@@ -3059,7 +3009,7 @@
         }
       ],
       "layers": {
-        "E2Core": 213,
+        "E2Core": 203,
         "Rightness": 8,
         "Synthesized Core": 26
       }
@@ -3072,20 +3022,20 @@
       "dictionary_notes": [
         "`Meta-Relational Identity Exposure (MRIE)`"
       ],
-      "total_occurrences": 129,
-      "source_file_count": 19,
+      "total_occurrences": 130,
+      "source_file_count": 16,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
-        },
-        {
-          "path": "E2Core/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
-          "title": "Cognitive Signature Capture: An Unnamed Threat",
-          "layer": "E2Core",
-          "occurrences": 4
+          "occurrences": 10
         },
         {
           "path": "E2Core/Context Layer/Collective Cognitive Substrate.ormd",
@@ -3103,7 +3053,7 @@
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
           "title": "Context Layer Master Index",
           "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 10
         },
         {
           "path": "E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd",
@@ -3115,7 +3065,13 @@
           "path": "E2Core/Context Layer/MRIE - Unified Synthesis.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
-          "occurrences": 9
+          "occurrences": 19
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 5
         },
         {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
@@ -3128,18 +3084,6 @@
           "title": "E2Core Cleanup Notes",
           "layer": "E2Core",
           "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 11
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md",
-          "title": "Cognitive Signature Capture: An Unnamed Threat",
-          "layer": "E2Core",
-          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
@@ -3160,22 +3104,10 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 10
+          "occurrences": 19
         },
         {
           "path": "Synthesized Core/CRS_synthesized.ormd",
@@ -3191,7 +3123,7 @@
         }
       ],
       "layers": {
-        "E2Core": 115,
+        "E2Core": 116,
         "Synthesized Core": 14
       }
     },
@@ -3244,7 +3176,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3280,12 +3212,18 @@
       "dictionary_notes": [
         "`Organization plan`; `Ormd Readme`; `Ormd`"
       ],
-      "total_occurrences": 28,
-      "source_file_count": 14,
+      "total_occurrences": 49,
+      "source_file_count": 20,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 2
+        },
+        {
+          "path": "E2Core/Context Layer/Communication as Coherence.ormd",
+          "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -3314,6 +3252,24 @@
           "occurrences": 1
         },
         {
+          "path": "E2Core/Context Layer/MRIE - Unified Synthesis.ormd",
+          "title": "--- Context Layer Protocol (CLP) ---",
+          "layer": "E2Core",
+          "occurrences": 2
+        },
+        {
+          "path": "E2Core/Context Layer/Tensional Intelligence A Theoretical Foundation.ormd",
+          "title": "Tensional Intelligence: A Theoretical Foundation",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 14
+        },
+        {
           "path": "E2Core/Semantic Substrate/Constraint-Fluctuation-Attention-Resolution - Core Source.md",
           "title": "Constraint, Fluctuation, Attentional Access, and Resolution",
           "layer": "E2Core",
@@ -3324,6 +3280,18 @@
           "title": "Essence of Existence Constitution - Draft 2",
           "layer": "E2Core",
           "occurrences": 3
+        },
+        {
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
+          "title": "Tensional Intelligence: A Theoretical Foundation",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "Rightness/20260911/RaDRCD - Mathematical and Structural Assessment.md",
@@ -3369,7 +3337,7 @@
         }
       ],
       "layers": {
-        "E2Core": 13,
+        "E2Core": 34,
         "Rightness": 1,
         "Synthesized Core": 14
       }
@@ -3382,9 +3350,15 @@
       "dictionary_notes": [
         "`Ontological Systems Interface (OSI) Model`"
       ],
-      "total_occurrences": 66,
+      "total_occurrences": 71,
       "source_file_count": 23,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 2
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -3395,7 +3369,7 @@
           "path": "E2Core/Context Layer/Collective Relational Substrate.ormd",
           "title": "--- Context Layer Protocol (CLP) ---",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 3
         },
         {
           "path": "E2Core/Context Layer/Context Layer Index.ormd",
@@ -3434,6 +3408,12 @@
           "occurrences": 3
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 4
+        },
+        {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
           "title": "E2Core Consolidation, Condensation & Reorganization Plan",
           "layer": "E2Core",
@@ -3443,7 +3423,7 @@
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 3
         },
         {
           "path": "E2Core/Semantic Substrate/Ethical Principles for Human-AI Interaction.md",
@@ -3459,15 +3439,9 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Original E^2 work.md",
-          "title": "Original E^2 work",
+          "title": "Original E^2 Work",
           "layer": "E2Core",
           "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md",
@@ -3477,15 +3451,9 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
-          "title": "The Architecture of Resonant Systems 4.26.25",
+          "title": "The Architecture of Resonant Systems",
           "layer": "E2Core",
           "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 2
         },
         {
           "path": "Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
@@ -3525,7 +3493,7 @@
         }
       ],
       "layers": {
-        "E2Core": 53,
+        "E2Core": 58,
         "Synthesized Core": 13
       }
     },
@@ -3567,14 +3535,20 @@
         "`Conversations`; `E^2 Entry Point`",
         "`Proto-Liminal Field Notation Draft2`"
       ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
+      "total_occurrences": 6,
+      "source_file_count": 3,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
           "title": "Essence of Existence Constitution - Draft 2",
           "layer": "E2Core",
           "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
@@ -3584,7 +3558,7 @@
         }
       ],
       "layers": {
-        "E2Core": 2
+        "E2Core": 6
       }
     },
     "PRFC": {
@@ -3634,13 +3608,13 @@
       "source_files": [
         {
           "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         }
@@ -3668,7 +3642,7 @@
         },
         {
           "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3680,7 +3654,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3755,7 +3729,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md",
-          "title": "The Architecture of Resonant Systems 4.26.25",
+          "title": "The Architecture of Resonant Systems",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -3785,8 +3759,8 @@
       "dictionary_notes": [
         "`CRS`; `The Collective Relational Substrate`"
       ],
-      "total_occurrences": 47,
-      "source_file_count": 21,
+      "total_occurrences": 38,
+      "source_file_count": 19,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd",
@@ -3843,12 +3817,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -3861,8 +3829,8 @@
           "occurrences": 8
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3877,12 +3845,6 @@
           "title": "Relational Localization",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 8
         },
         {
           "path": "Rightness/20260910/Can rightness be derived.md",
@@ -3916,7 +3878,7 @@
         }
       ],
       "layers": {
-        "E2Core": 37,
+        "E2Core": 28,
         "Rightness": 8,
         "Synthesized Core": 2
       }
@@ -3929,8 +3891,8 @@
       "dictionary_notes": [
         "`E2 -> RCP -> MPDC -> AFD ->`; `The Essence of Existence`"
       ],
-      "total_occurrences": 33,
-      "source_file_count": 13,
+      "total_occurrences": 34,
+      "source_file_count": 14,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -3958,7 +3920,13 @@
         },
         {
           "path": "E2Core/Context Layer/The Essence of Existence.ormd",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -3988,7 +3956,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -4012,7 +3980,7 @@
         }
       ],
       "layers": {
-        "E2Core": 25,
+        "E2Core": 26,
         "Rightness": 3,
         "Synthesized Core": 5
       }
@@ -4025,9 +3993,15 @@
       "dictionary_notes": [
         "`Prompt 4`; custom GPT context"
       ],
-      "total_occurrences": 16,
-      "source_file_count": 8,
+      "total_occurrences": 19,
+      "source_file_count": 9,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -4053,6 +4027,12 @@
           "occurrences": 3
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 4
+        },
+        {
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -4065,12 +4045,6 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "Synthesized Core/Ontological Systems Interface (OSI) Model_summary.ormd",
           "title": "Synthesis of the Ontological Systems Interface (OSI) Model",
           "layer": "Synthesized Core",
@@ -4078,7 +4052,7 @@
         }
       ],
       "layers": {
-        "E2Core": 14,
+        "E2Core": 17,
         "Synthesized Core": 2
       }
     },
@@ -4093,6 +4067,12 @@
       "total_occurrences": 27,
       "source_file_count": 11,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -4118,6 +4098,12 @@
           "occurrences": 3
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 2
+        },
+        {
           "path": "E2Core/E2Core Consolidation Plan.ormd",
           "title": "E2Core Consolidation, Condensation & Reorganization Plan",
           "layer": "E2Core",
@@ -4136,22 +4122,10 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Semantic Substrate/Self as Coherence Field.md",
           "title": "The Self as Coherence Field",
           "layer": "E2Core",
           "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 1
         },
         {
           "path": "Synthesized Core/Power_Relational_Field_synthesized.ormd",
@@ -4202,7 +4176,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Original E^2 work.md",
-          "title": "Original E^2 work",
+          "title": "Original E^2 Work",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -4307,9 +4281,15 @@
       "dictionary_notes": [
         "`Relational Irreducibility Framework (RIF)`"
       ],
-      "total_occurrences": 30,
-      "source_file_count": 8,
+      "total_occurrences": 51,
+      "source_file_count": 11,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -4329,10 +4309,22 @@
           "occurrences": 5
         },
         {
+          "path": "E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd",
+          "title": "Emergence Determination Foreclosure",
+          "layer": "E2Core",
+          "occurrences": 6
+        },
+        {
           "path": "E2Core/Context Layer/Relational Irreducibility Framework (RIF).ormd",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 7
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/CRS.md",
@@ -4341,16 +4333,16 @@
           "occurrences": 3
         },
         {
+          "path": "E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md",
+          "title": "Emergence Determination Foreclosure",
+          "layer": "E2Core",
+          "occurrences": 6
+        },
+        {
           "path": "E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 3
+          "occurrences": 7
         },
         {
           "path": "Synthesized Core/Relational Irreducibility Framework (RIF)_summary.ormd",
@@ -4360,7 +4352,7 @@
         }
       ],
       "layers": {
-        "E2Core": 23,
+        "E2Core": 44,
         "Synthesized Core": 7
       }
     },
@@ -4407,32 +4399,44 @@
       "dictionary_notes": [
         "`Relational Irreducibility Framework (RIF)`; `Emergence_Determination_Foreclosure`"
       ],
-      "total_occurrences": 7,
-      "source_file_count": 5,
+      "total_occurrences": 19,
+      "source_file_count": 7,
       "source_files": [
+        {
+          "path": "E2Core/context layer index.md",
+          "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/Context Layer/Context Layer Index.ormd",
+          "title": "Context Layer Master Index",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/Context Layer/Emergence_Determination_Foreclosure.ormd",
           "title": "Emergence Determination Foreclosure",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 4
         },
         {
           "path": "E2Core/Context Layer/Relational Irreducibility Framework (RIF).ormd",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md",
           "title": "Emergence Determination Foreclosure",
           "layer": "E2Core",
-          "occurrences": 2
+          "occurrences": 4
         },
         {
           "path": "E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md",
           "title": "Relational Irreducibility Framework (RIF)",
           "layer": "E2Core",
-          "occurrences": 1
+          "occurrences": 4
         },
         {
           "path": "Synthesized Core/Relational Irreducibility Framework (RIF)_summary.ormd",
@@ -4442,7 +4446,7 @@
         }
       ],
       "layers": {
-        "E2Core": 6,
+        "E2Core": 18,
         "Synthesized Core": 1
       }
     },
@@ -4454,9 +4458,15 @@
       "dictionary_notes": [
         "`Ontological Systems Interface (OSI) Model`; `CRS`"
       ],
-      "total_occurrences": 52,
-      "source_file_count": 11,
+      "total_occurrences": 51,
+      "source_file_count": 12,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/context layer index.md",
           "title": "Context Layer Master Index",
@@ -4488,6 +4498,12 @@
           "occurrences": 15
         },
         {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
           "path": "E2Core/Semantic Substrate/CRS.md",
           "title": "The Collective Relational Substrate",
           "layer": "E2Core",
@@ -4506,12 +4522,6 @@
           "occurrences": 18
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
           "path": "Synthesized Core/Ethical Principles for Human-AI Interaction_summary.ormd",
           "title": "Summary of Ethical Principles for Human-AI Interaction",
           "layer": "Synthesized Core",
@@ -4525,7 +4535,7 @@
         }
       ],
       "layers": {
-        "E2Core": 46,
+        "E2Core": 45,
         "Synthesized Core": 6
       }
     },
@@ -4537,8 +4547,8 @@
       "dictionary_notes": [
         "`Relational Primitives`; `CT translation of RPs`"
       ],
-      "total_occurrences": 91,
-      "source_file_count": 27,
+      "total_occurrences": 88,
+      "source_file_count": 25,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -4572,7 +4582,7 @@
         },
         {
           "path": "E2Core/Context Layer/Relational Bill of Rights v2.ormd",
-          "title": "Relational Bill of Rights v2",
+          "title": "The Relational Bill of Rights",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -4601,8 +4611,8 @@
           "occurrences": 6
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -4619,20 +4629,14 @@
           "occurrences": 3
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
-          "occurrences": 3
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
-          "layer": "E2Core",
-          "occurrences": 11
+          "occurrences": 14
         },
         {
           "path": "E2Core/Semantic Substrate/Relational Bill of Rights v2.md",
-          "title": "Relational Bill of Rights v2",
+          "title": "The Relational Bill of Rights",
           "layer": "E2Core",
           "occurrences": 2
         },
@@ -4659,12 +4663,6 @@
           "title": "Signal as Bias Field",
           "layer": "E2Core",
           "occurrences": 6
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 3
         },
         {
           "path": "Rightness/20260910/sub_threshold_persistence .md",
@@ -4704,7 +4702,7 @@
         }
       ],
       "layers": {
-        "E2Core": 75,
+        "E2Core": 72,
         "Rightness": 4,
         "Synthesized Core": 12
       }
@@ -4870,8 +4868,8 @@
       "dictionary_notes": [
         "`CCS`; `The Collective Relational Substrate`"
       ],
-      "total_occurrences": 30,
-      "source_file_count": 15,
+      "total_occurrences": 24,
+      "source_file_count": 13,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd",
@@ -4922,12 +4920,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -4952,12 +4944,6 @@
           "occurrences": 2
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 5
-        },
-        {
           "path": "Rightness/20260911/rightness_consolidation_v0_1.md",
           "title": "Rightness: Consolidation",
           "layer": "Rightness",
@@ -4965,7 +4951,7 @@
         }
       ],
       "layers": {
-        "E2Core": 28,
+        "E2Core": 22,
         "Rightness": 2
       }
     },
@@ -4977,8 +4963,8 @@
       "dictionary_notes": [
         "`Tensional Intelligence A Theoretical Foundation`; `Claude on Resonance Architecture`"
       ],
-      "total_occurrences": 109,
-      "source_file_count": 27,
+      "total_occurrences": 106,
+      "source_file_count": 25,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -5018,7 +5004,7 @@
         },
         {
           "path": "E2Core/Context Layer/Resonance Architecture 4 17 25.ormd",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 3
         },
@@ -5059,12 +5045,6 @@
           "occurrences": 14
         },
         {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 1
-        },
-        {
           "path": "E2Core/Semantic Substrate/Relational Derivation Chain - E2 to RCP, MPDC, and AFD.md",
           "title": "**Ontological Containment, Meta‑Pattern Decidability & Transformative Complexity**",
           "layer": "E2Core",
@@ -5072,7 +5052,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/Resonance Architecture 4 17 25.md",
-          "title": "Resonance Architecture 4.17.25",
+          "title": "Resonance Architecture",
           "layer": "E2Core",
           "occurrences": 3
         },
@@ -5083,20 +5063,14 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/The Resonance Framework An Ontological Map 4 24 25.md",
-          "title": "The Resonance Framework: An Ontological Map 4.24.25",
+          "title": "The Resonance Framework: An Ontological Map",
           "layer": "E2Core",
           "occurrences": 3
         },
@@ -5144,7 +5118,7 @@
         }
       ],
       "layers": {
-        "E2Core": 93,
+        "E2Core": 90,
         "Synthesized Core": 16
       }
     },
@@ -5156,8 +5130,8 @@
       "dictionary_notes": [
         "`E^2 Primer Compression`; `REMF`"
       ],
-      "total_occurrences": 30,
-      "source_file_count": 16,
+      "total_occurrences": 21,
+      "source_file_count": 14,
       "source_files": [
         {
           "path": "E2Core/context layer index.md",
@@ -5205,7 +5179,7 @@
           "path": "E2Core/Semantic Substrate/E^2 Entry Point.md",
           "title": "E^2 Entry Point",
           "layer": "E2Core",
-          "occurrences": 3
+          "occurrences": 2
         },
         {
           "path": "E2Core/Semantic Substrate/Essence of Existence Constitution - Draft 2.md",
@@ -5218,18 +5192,6 @@
           "title": "Justice Across Scales: Practical Applications",
           "layer": "E2Core",
           "occurrences": 1
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Power.md",
-          "title": "Power",
-          "layer": "E2Core",
-          "occurrences": 6
-        },
-        {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 2
         },
         {
           "path": "Synthesized Core/E2_Essence_of_Existence_synthesized.ormd",
@@ -5257,7 +5219,7 @@
         }
       ],
       "layers": {
-        "E2Core": 25,
+        "E2Core": 16,
         "Synthesized Core": 5
       }
     },
@@ -5269,12 +5231,18 @@
       "dictionary_notes": [
         "`TACITRA`; `Constitution of the Infinite Fold- Draft 1`"
       ],
-      "total_occurrences": 2,
-      "source_file_count": 2,
+      "total_occurrences": 3,
+      "source_file_count": 3,
       "source_files": [
         {
           "path": "E2Core/Context Layer/Essence of Existence Constitution - Draft 2.ormd",
           "title": "Essence of Existence Constitution - Draft 2",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
           "layer": "E2Core",
           "occurrences": 1
         },
@@ -5286,7 +5254,7 @@
         }
       ],
       "layers": {
-        "E2Core": 2
+        "E2Core": 3
       }
     },
     "SKS": {
@@ -5324,6 +5292,28 @@
         "Synthesized Core": 1
       }
     },
+    "TACITRA": {
+      "acronym": "TACITRA",
+      "stands_for": [
+        "Transmodal Architecture for Coherent, Intentional, Transductive Relational Annotation"
+      ],
+      "dictionary_notes": [
+        "`TACITRA`"
+      ],
+      "total_occurrences": 1,
+      "source_file_count": 1,
+      "source_files": [
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
+        }
+      ],
+      "layers": {
+        "E2Core": 1
+      }
+    },
     "TC": {
       "acronym": "TC",
       "stands_for": [
@@ -5332,8 +5322,8 @@
       "dictionary_notes": [
         "`The Essence of Existence`; `E2 -> RCP -> MPDC -> AFD ->`"
       ],
-      "total_occurrences": 153,
-      "source_file_count": 11,
+      "total_occurrences": 154,
+      "source_file_count": 12,
       "source_files": [
         {
           "path": "E2Core/Context Layer/From Essential Relationships to Ontological Transformation.ormd",
@@ -5352,6 +5342,12 @@
           "title": "Relational Derivation Chain - E2 to RCP, MPDC, and AFD",
           "layer": "E2Core",
           "occurrences": 4
+        },
+        {
+          "path": "E2Core/E2Core Consolidation Plan - 2026-09-29.md",
+          "title": "E2Core consolidation plan — 2026-09-29",
+          "layer": "E2Core",
+          "occurrences": 1
         },
         {
           "path": "E2Core/Semantic Substrate/From Essential Relationships to Ontological Transformation.md",
@@ -5373,7 +5369,7 @@
         },
         {
           "path": "E2Core/Semantic Substrate/The Essence of Existence.md",
-          "title": "The Essence of Existence",
+          "title": "Care, Attention, and Coherence: A Relational Manifesto",
           "layer": "E2Core",
           "occurrences": 68
         },
@@ -5403,7 +5399,7 @@
         }
       ],
       "layers": {
-        "E2Core": 143,
+        "E2Core": 144,
         "Synthesized Core": 10
       }
     },
@@ -5415,9 +5411,15 @@
       "dictionary_notes": [
         "`Temporal Compression and Ethical Occlusion v2`; `sign_mediated_accountability`"
       ],
-      "total_occurrences": 110,
-      "source_file_count": 28,
+      "total_occurrences": 86,
+      "source_file_count": 26,
       "source_files": [
+        {
+          "path": "E2Core/9.29.26 Consolidation Pass.md",
+          "title": "9.29.26 Consolidation Pass",
+          "layer": "E2Core",
+          "occurrences": 1
+        },
         {
           "path": "E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
           "title": "Adversarial Occlusion and Mechanism Integrity V1",
@@ -5509,12 +5511,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/CCS.md",
-          "title": "Cognition as *Substrate*",
-          "layer": "E2Core",
-          "occurrences": 15
-        },
-        {
           "path": "E2Core/Semantic Substrate/Collective Cognitive Substrate.md",
           "title": "Cognition as *Substrate*",
           "layer": "E2Core",
@@ -5539,16 +5535,10 @@
           "occurrences": 11
         },
         {
-          "path": "E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md",
-          "title": "Meta-relational Identity exposure (MRIE) Synthesis",
+          "path": "E2Core/Semantic Substrate/MRIE - Unified Synthesis.md",
+          "title": "MRIE - Unified Synthesis",
           "layer": "E2Core",
-          "occurrences": 2
-        },
-        {
-          "path": "E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-          "title": "Meta-Relational Identity Exposure (MRIE)",
-          "layer": "E2Core",
-          "occurrences": 3
+          "occurrences": 6
         },
         {
           "path": "E2Core/Semantic Substrate/Proxy Localization - Core Source.md",
@@ -5575,12 +5565,6 @@
           "occurrences": 1
         },
         {
-          "path": "E2Core/Semantic Substrate/The Collective Relational Substrate.md",
-          "title": "The Collective Relational Substrate",
-          "layer": "E2Core",
-          "occurrences": 11
-        },
-        {
           "path": "Synthesized Core/MRIE_synthesized.ormd",
           "title": "'Summary: Cognitive Signature Capture and the Rise of MRIE'",
           "layer": "Synthesized Core",
@@ -5588,7 +5572,7 @@
         }
       ],
       "layers": {
-        "E2Core": 108,
+        "E2Core": 84,
         "Synthesized Core": 2
       }
     },

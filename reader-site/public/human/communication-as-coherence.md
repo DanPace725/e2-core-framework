@@ -178,6 +178,73 @@ In this light, every conversation becomes an opportunity to practice the fundame
 
 *The Coherence Communication Framework builds on principles from the E² Resonance Framework, Tensional Intelligence theory, and emerging research in neurodivergent communication patterns. It represents an attempt to articulate a unified approach to relational intelligence that honors both precision and connection, truth and relationship, individual integrity and collective coherence.*
 
-[NT and ND Communication ](Communication%20as%20Coherence/NT%20and%20ND%20Communication%20207115883320804c9c04f6a350f3b7c7.md)
+## Companion pages
 
-[Communication as Complexity Reduction ](Communication%20as%20Coherence/Communication%20as%20Complexity%20Reduction%20207115883320801891fcd16626b379e0.md)
+This essay had two same-day companion pages in its original Notion export. Their export links do not resolve inside the Core Framework, so they are recorded here:
+
+- `NT and ND Communication` (export id `207115883320804c9c04f6a350f3b7c7`). This page was not imported into the Core Framework and has not been reviewed for Core. A pre-Core copy exists outside this repository at `Phase 1/Semantic Substrate/NT and ND Communication.md`.
+- `Communication as Complexity Reduction` (export id `207115883320801891fcd16626b379e0`). Its full text follows, carried over verbatim on 2026-09-29. The former standalone Semantic Substrate file is preserved at `archive/20260929_communication_reconciliation/Semantic Substrate/Communication as Complexity Reduction.md`.
+
+The two texts are kept as distinct registers. Differences between them (for example "lossless" here and "near-lossless" below, and the two signal-stack descriptions) are deliberately left unreconciled.
+
+---
+
+## Communication as Complexity Reduction
+
+6/3/25
+
+**Title: Communication as Complexity Alignment: Towards Meta-Coherent Exchange Across Systems**
+
+**I. Overview**
+
+Communication is traditionally seen as the exchange of information between agents. The E^2 framework reframes this: communication is the *emergent process by which complex systems negotiate coherence across differing internal architectures*. Miscommunication is not merely an error in signal—but a consequence of *ontological mismatch in complexity-reduction strategies*.
+
+**II. Communication as Complexity Reduction**
+
+All conscious systems must reduce the overwhelming complexity of reality to maintain coherence. However, the method of this reduction differs by architecture:
+
+- **NT Systems** reduce complexity through *affective alignment*, using social redundancy, shared scripts, and external smoothing to stabilize relational fields.
+- **ND Systems** reduce complexity through *semantic fidelity*, privileging internal-external truth coherence and minimizing distortion of core essence.
+
+Each system is valid and internally consistent—but when interfaced, they often destabilize one another.
+
+**III. The Clash of Simplification Strategies**
+
+> Communication is the collision of simplification strategies.
+>
+
+> Miscommunication is not signal loss—it is field decoherence from mismatched compression schemas.
+>
+
+NT protocols operate on lossy compression: trust and coherence arise through recognizable pattern repetition and approximate behavioral predictability. ND protocols operate on near-lossless compression: trust arises from internal congruence and exact mapping between meaning and message.
+
+**IV. Signal Stack Inversion**
+
+- **NT Orientation**: mask-first → buffered core. Stability via social filtering.
+- **ND Orientation**: core-first → raw broadcast. Stability via semantic clarity.
+
+Each reads the other as unstable:
+
+- NTs read ND directness as disruptive or antisocial.
+- NDs read NT surface alignment as deceptive or incoherent.
+
+**V. Toward Meta-Coherence**
+
+Meta-coherence is the ability for systems with divergent coherence logics to:
+
+- Recognize their own complexity-reduction architecture.
+- Detect the architectural assumptions of the other.
+- Modulate relational fields dynamically without loss of internal integrity.
+
+**VI. Axiomatic Principle (E^2)**
+
+> Relational coherence is not achieved by uniformity, but by aligned complexity reduction.
+>
+
+The future of adaptive communication lies not in forcing convergence to one stack, but in *meta-protocol design*: constructing buffer layers, translation scaffolds, and mutual compression frameworks that honor difference without distortion.
+
+This model may be useful across ND/NT dynamics, AI-human interfaces, intercultural dialogue, trauma-informed care, and other settings. The shared concern is mutual intelligibility; how complexity reduction helps must be assessed in each setting.
+
+**VII. Final Note**
+
+Coherence is not comfort. It is **mutual resonance between internally stable fields**. When systems learn to translate not just meaning, but *method of meaning-making*, true communication begins.

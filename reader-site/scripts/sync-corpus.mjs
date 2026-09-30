@@ -484,7 +484,6 @@ function graphTitleKey(value) {
 }
 
 const graphEntryAliases = new Map([
-  ["aomi ai responses", "aomi-ai-responses"],
 ]);
 
 for (const cluster of catalogClusters) {

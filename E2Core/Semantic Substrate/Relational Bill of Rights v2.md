@@ -1,4 +1,4 @@
-# Relational Bill of Rights v2
+# The Relational Bill of Rights
 
 11/21/25
 

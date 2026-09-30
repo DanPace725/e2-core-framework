@@ -1,21 +1,21 @@
 {
   "schema_version": "2.0.0",
-  "generated_at": "2026-09-29T00:25:42.989149+00:00",
+  "generated_at": "2026-09-29T23:46:33.368095+00:00",
   "root": "legacy://phase1",
   "output_root": ".",
   "active_core_root": "E2Core",
   "authority": "active_filesystem_state_with_preserved_synthesis_provenance",
   "registry": "core_registry.json",
   "synthesized_core_count": 57,
-  "explicit_core_addition_count": 27,
-  "active_semantic_substrate_count": 92,
-  "active_context_layer_count": 86,
-  "active_raw_file_count": 178,
-  "active_file_count": 235,
-  "archived_raw_file_count": 68,
-  "copied_file_count": 235,
-  "copied_raw_file_count": 178,
-  "registered_active_raw_file_count": 177,
+  "explicit_core_addition_count": 28,
+  "active_semantic_substrate_count": 84,
+  "active_context_layer_count": 83,
+  "active_raw_file_count": 167,
+  "active_file_count": 224,
+  "archived_raw_file_count": 82,
+  "copied_file_count": 224,
+  "copied_raw_file_count": 167,
+  "registered_active_raw_file_count": 166,
   "meta_file_count": 1,
   "meta_files": [
     "Context Layer/Context Layer Index.ormd"
@@ -101,9 +101,7 @@
         "phase1:aomi-ai-responses:79e65b9ad680"
       ],
       "raw_copies": [
-        "Context Layer/AOMI AI responses.ormd",
         "Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd",
-        "Semantic Substrate/AOMI AI responses.md",
         "Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md"
       ],
       "unresolved_summary_refs": [],
@@ -170,7 +168,6 @@
       ],
       "raw_copies": [
         "Context Layer/Collective Cognitive Substrate.ormd",
-        "Semantic Substrate/CCS.md",
         "Semantic Substrate/Collective Cognitive Substrate.md"
       ],
       "unresolved_summary_refs": [],
@@ -195,8 +192,7 @@
       ],
       "raw_copies": [
         "Context Layer/Communication as Coherence.ormd",
-        "Semantic Substrate/Communication as Coherence.md",
-        "Semantic Substrate/Communication as Complexity Reduction.md"
+        "Semantic Substrate/Communication as Coherence.md"
       ],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
@@ -263,8 +259,7 @@
       ],
       "raw_copies": [
         "Context Layer/Collective Relational Substrate.ormd",
-        "Semantic Substrate/CRS.md",
-        "Semantic Substrate/The Collective Relational Substrate.md"
+        "Semantic Substrate/CRS.md"
       ],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
@@ -715,11 +710,7 @@
         "phase1:meta-relational-identity-exposure-mrie:e134dbc4a236"
       ],
       "raw_copies": [
-        "Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd",
-        "Context Layer/MRIE - Unified Synthesis.ormd",
-        "Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md",
-        "Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md",
-        "Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md"
+        "Context Layer/MRIE - Unified Synthesis.ormd"
       ],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
@@ -847,8 +838,7 @@
       ],
       "raw_copies": [
         "Context Layer/Power as Relational Field Coherence.ormd",
-        "Semantic Substrate/Power as Relational Field Coherence.md",
-        "Semantic Substrate/Power.md"
+        "Semantic Substrate/Power as Relational Field Coherence.md"
       ],
       "unresolved_summary_refs": [],
       "archived_raw_copies": []
@@ -1283,9 +1273,7 @@
         "phase1:tensional-intelligence-a-theoretical-foundation:36abad132153"
       ],
       "raw_copies": [
-        "Context Layer/Tension.ormd",
         "Context Layer/Tensional Intelligence A Theoretical Foundation.ormd",
-        "Semantic Substrate/Tension.md",
         "Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md"
       ],
       "unresolved_summary_refs": [],
@@ -1631,6 +1619,16 @@
       ],
       "archived_raw_copies": [],
       "status": "included_orientation"
+    },
+    {
+      "stem": "MRIE - Unified Synthesis",
+      "source_record_id": "phase1:mrie-unified-synthesis:8655d5709bb6",
+      "raw_copies": [
+        "Context Layer/MRIE - Unified Synthesis.ormd",
+        "Semantic Substrate/MRIE - Unified Synthesis.md"
+      ],
+      "archived_raw_copies": [],
+      "status": "included_consolidation"
     },
     {
       "stem": "sign_mediated_accountability",

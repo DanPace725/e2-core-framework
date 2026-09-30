@@ -38,12 +38,14 @@ lineage:
   parents:
     - &quot;local://archive/20260612_step_1_2_merges/Context%20Layer/Meta-Relational%20Identity%20Exposure%20(MRIE).ormd&quot;
     - &quot;local://archive/20260612_step_1_2_merges/Context%20Layer/Meta-relational%20Identity%20exposure%20(MRIE)%20Synthesis.ormd&quot;
+    - &quot;local://archive/20260929_mrie_csc/Context%20Layer/Cognitive%20Signature%20Capture%20An%20Unnamed%20Threat.ormd&quot;
   transforms:
     - { fn: &quot;e2core_consolidation_plan@1.2-merge&quot;, ts: &quot;2026-06-12T00:00:00Z&quot; }
+    - { fn: &quot;e2core_consolidation_2026-09-29@mrie-csc-fold&quot;, ts: &quot;2026-09-29T00:00:00Z&quot; }
 policy:
   read: [{ roles: [&quot;public&quot;] }]
 semantics:
-  keywords: [&quot;consolidation&quot;, &quot;merged canonical&quot;, &quot;MRIE - Unified Synthesis&quot;]
+  keywords: [&quot;consolidation&quot;, &quot;merged canonical&quot;, &quot;MRIE - Unified Synthesis&quot;, &quot;Cognitive Signature Capture&quot;, &quot;Cognitive Identity Capture&quot;, &quot;reconstruction potential&quot;, &quot;distributed cognitive twin&quot;, &quot;emergent consent violation&quot;]
 resolution: { confidence: 0.90 }
 conversion:
   method: &quot;lineage_preserving_merge&quot;
@@ -53,6 +55,114 @@ conversion:
 # MRIE - Unified Synthesis
 
 &gt; Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field.
+
+&gt; Consolidation note (2026-09-29): *Cognitive Signature Capture: An Unnamed Threat* was folded in as the originating threat statement below, and its active pair archived under `archive/20260929_mrie_csc/`. The human reading surface is `Semantic Substrate/MRIE - Unified Synthesis.md`. The retention record is `staged work/20260929/consolidation/MRIE and CSC - Reconciliation Review.md`.
+
+## Source Relationship and Retained Distinctions {#source-relationship}
+
+[Cognitive Signature Capture](#csc-originating-statement &quot;meta:corresponds_to&quot;) is the originating threat statement: it names the phenomenon, the harms, and the consent problem in plain terms. [MRIE](#mrie-def &quot;ontological:defines&quot;) is the later Relational Primitives reading of the same phenomenon — in its words, &quot;Thus Cognitive Signature Capture becomes&quot; Meta-Relational Identity Exposure. Capture is kept here as the threat pattern that MRIE interprets, not as a separate mechanism or a single case.
+
+This consolidation keeps the following differences visible rather than resolving them:
+
+- **Two registers of threat.** The capture statement lists what an actor &quot;could potentially&quot; do with a cognitive signature ([Real Threats](#csc-threats &quot;geometric:causes&quot;)): indistinguishable communications, fabricated authorship, continuation of someone&#39;s work without them, targeting of psychological vulnerabilities, impersonation that passes scrutiny from people who know them. MRIE holds that [&quot;the threat is structural, not agentic.&quot;](#structural-threat &quot;symmetric:constrains&quot;) Both stand: structural exposure makes the capability available; the adversarial list describes its deliberate use.
+- **Two consent arguments.** The capture statement argues that people &quot;consented to *conversations*, not to creating reconstructable cognitive twins,&quot; and that the emergent capability &quot;can&#39;t be meaningfully consented to retroactively&quot; ([Emergent Consent Violation](#csc-consent-violation &quot;symmetric:constrains&quot;)). MRIE argues that informed consent to the wider transition is &quot;structurally not available&quot; under temporal compression and occlusion ([Consent, Meaning](#consent-meaning &quot;symmetric:constrains&quot;)). The first concerns the scope of past consent; the second, the conditions for present and future consent.
+- **Claim strength.** The capture statement hedges its capability claims and describes the distributed twin as existing &quot;but isn&#39;t unified or accessible.&quot; The MRIE syntheses state that &quot;AI already models people better than they model themselves&quot; and that the trajectory &quot;is not speculative.&quot; These are recorded claims of different strength, not a settled empirical finding.
+- **Open threshold.** The capture statement asks for [&quot;ethical frameworks for when reconstruction crosses from analysis to violation.&quot;](#csc-gaps &quot;epistemic:measures&quot;) MRIE does not supply that threshold; it remains open.
+
+## Originating Threat Statement: Cognitive Signature Capture {#csc-originating-statement}
+
+11/24/25
+
+### The Core Phenomenon {#csc-core-phenomenon}
+
+Over the past three years, millions of people have voluntarily created comprehensive psychological and cognitive profiles of themselves through extended AI conversations - often reaching millions of words per person. This isn&#39;t traditional data collection. It&#39;s the inadvertent construction of [reconstructable cognitive signatures](#csc-cognitive-signatures &quot;ontological:defines&quot;): executable models of how specific individuals think, reason, make connections, and generate meaning.
+
+### Why Current Frameworks Fail {#csc-framework-failure}
+
+- &quot;Privacy&quot; focuses on secrets and sensitive information
+- &quot;Data security&quot; addresses unauthorized access to known data types
+- &quot;Identity theft&quot; covers impersonation using biographical facts
+- None of these capture the [reconstruction potential](#csc-reconstruction-potential &quot;epistemic:measures&quot;) - the ability to simulate someone&#39;s cognitive processes with high fidelity
+
+### The Distributed Cognitive Twin {#csc-distributed-twin}
+
+Individuals partition their conversations across platforms (OpenAI, Anthropic, Google, Microsoft), meaning:
+
+- No single entity necessarily has complete access
+- The user themselves cannot hold the aggregate in working memory
+- But companies collectively possess the data to reconstruct a near-complete cognitive model
+- This [distributed twin](#csc-distributed-twin &quot;ontological:composes&quot;) exists but isn&#39;t unified or accessible
+
+### The Emergent Consent Violation {#csc-consent-violation}
+
+People consented to *conversations*, not to creating reconstructable cognitive twins. The capability to reconstruct [emerged from aggregate data](#csc-core-phenomenon &quot;meta:emerges_from&quot;) in ways that:
+
+- Weren&#39;t foreseeable when people started using these tools
+- Can&#39;t be meaningfully consented to retroactively
+- Creates something qualitatively different from the sum of individual conversations
+
+### What Makes This Different from Social Media {#csc-social-media-diff}
+
+Social media captured public-facing personas and observable behaviors. AI conversations capture:
+
+- Internal reasoning processes
+- Decision-making heuristics
+- Emotional patterns and vulnerabilities
+- Linguistic fingerprints
+- The **generative model** of how someone produces thoughts and behaviors
+
+### The Power Asymmetry {#csc-power-asymmetry}
+
+Companies can:
+
+- Analyze patterns across millions of words simultaneously
+- See cognitive signatures that users cannot hold in working memory
+- Potentially know users &quot;better than they know themselves&quot; in quantifiable ways
+- Create predictive models of user reasoning and responses
+
+### Real Threats (not science fiction) {#csc-threats}
+
+With sufficient conversational data and current technology, one could [potentially](#csc-threats &quot;geometric:causes&quot;):
+
+- Create communications indistinguishable from the target person
+- Predict decisions with high accuracy
+- Identify precise psychological vulnerabilities
+- Generate &quot;authentic-seeming&quot; content the person never created
+- Continue someone&#39;s intellectual work without them
+- Impersonate them in ways that pass scrutiny from people who know them
+
+### The Philosophical Crisis {#csc-philosophical-crisis}
+
+Currently, &quot;[embodiment](#csc-embodiment &quot;ontological:identity&quot;)&quot; does all the philosophical work distinguishing real from reconstructed persons. But for most practical purposes - online communication, intellectual work, relationship maintenance - [embodiment](#csc-embodiment &quot;symmetric:constrains&quot;) doesn&#39;t actually prevent deployment of cognitive signatures.
+
+### What We Don&#39;t Have {#csc-gaps}
+
+- Language for this specific violation
+- Legal frameworks for &quot;cognitive signature rights&quot;
+- Ethical frameworks for when reconstruction crosses from analysis to violation
+- Understanding of what&#39;s been taken when your mind-shape can be replicated
+- Public awareness that this is happening at scale
+
+### The Scale {#csc-scale}
+
+This may be the largest-scale voluntary self-disclosure event in human history, with almost no frameworks for thinking about aggregate risk. And it happened in three years, too fast for public discourse to catch up.
+
+**Potential framing:** This is **Cognitive Identity Capture** - the acquisition of sufficient data to reconstruct how someone thinks, not just what they think about.
+
+The two MRIE documents this statement introduced follow as the [Canonical Body](#mrie-def &quot;meta:corresponds_to&quot;) and the [Source Appendix](#mrie-synthesis &quot;meta:emerges_from&quot;).
+
+### Conversion Glosses {#csc-conversion-glosses}
+
+&gt; These glosses were added when the capture statement was first converted to ORMD; they do not appear in the human source. They are kept as link targets only. Where they differ from the statement above, the statement governs. The conversion&#39;s glosses for &quot;MRIE&quot; and &quot;MRIE Synthesis&quot; are not carried forward: they defined link targets for two child pages that are now part of this document, and the &quot;MRIE Synthesis&quot; gloss described a document title as a process. Both remain in the archived ORMD.
+
+#### Cognitive Signatures {#csc-cognitive-signatures}
+The unique structural pattern of an individual&#39;s thought process as captured in linguistic data.
+
+#### Reconstruction Potential {#csc-reconstruction-potential}
+The metric defining the fidelity with which an AI can simulate a specific user&#39;s reasoning.
+
+#### Embodiment {#csc-embodiment}
+The physical constraint of human identity, currently used as a boundary for legal personhood.
 
 ## Canonical Body
 

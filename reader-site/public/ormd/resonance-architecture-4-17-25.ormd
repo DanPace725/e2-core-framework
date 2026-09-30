@@ -1,6 +1,6 @@
 <!-- ormd:1.0 -->
 ---
-title: "Resonance Architecture 4.17.25"
+title: "Resonance Architecture"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -15,7 +15,7 @@ semantics:
 resolution: { confidence: 0.90 }
 ---
 
-# Resonance Architecture 4.17.25 {#resonance-architecture}
+# Resonance Architecture {#resonance-architecture}
 
 ---
 

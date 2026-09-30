@@ -1,4 +1,4 @@
-# Resonance Architecture 4.17.25
+# Resonance Architecture
 
 ---
 

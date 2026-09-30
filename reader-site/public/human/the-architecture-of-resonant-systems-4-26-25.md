@@ -1,4 +1,4 @@
-# The Architecture of Resonant Systems 4.26.25
+# The Architecture of Resonant Systems
 
 4/26/25
 

@@ -89,7 +89,7 @@ test("publishes a typed E2 relationship graph", async () => {
   assert.equal(graph.edges.length, graph.counts.edges);
   assert.ok(graph.edges.every((edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)));
   assert.ok(graph.edges.every((edge) => edge.source !== edge.target));
-  assert.ok(graph.edges.some((edge) => edge.type === "indexes" && edge.target === "aomi-ai-responses"));
+  assert.ok(graph.edges.some((edge) => edge.type === "indexes" && edge.target === "adversarial-occlusion-and-mechanism-integrity-v1"));
   assert.ok(graph.edges.some((edge) => edge.source === "e2-as-a-translation-architecture-for-human-remembrance" && edge.target === "e2-entry-point" && edge.type === "contextualizes"));
   assert.ok(graph.edges.some((edge) => edge.certainty === "suggested" && edge.provenance === "exact-title-mention"));
   assert.deepEqual(docsGraph.counts, graph.counts);

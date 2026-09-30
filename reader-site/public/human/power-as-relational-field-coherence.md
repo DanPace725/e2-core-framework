@@ -2,6 +2,8 @@
 
 8/15/25
 
+> Source scope (2026-09-29): This is the active power framework. The historical dialogue-derived [Power through the E² lens](../../archive/20260929_power_historical/Semantic%20Substrate/Power.md) applies E² vocabulary to power as force and meaning, interface and protocol, attention, and stewardship. Those applications remain a historical interpretation; they do not add an independently established mechanism or validation to this framework.
+
 [Summary PRFC](Power%20as%20Relational%20Field%20Coherence/Summary%20PRFC%2027611588332080f5a073fa170e6616f2.md)
 
 # A Comprehensive Conceptual Framework

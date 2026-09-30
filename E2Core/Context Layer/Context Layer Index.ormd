@@ -17,13 +17,13 @@ resolution: { confidence: 1.0 }
 
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-09-28 | 86 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-09-29 | 83 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 86 active documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 85 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -110,7 +110,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Meta-Pattern Decidability Conjecture (MPDC) | `Meta-Pattern Decidability Conjecture (MPDC).ormd` | epistemology.conjecture | 0.85 | Conjecture: relational systems become undecidable above ρ_crit |
 | Embedded Universality Principle (EUP) | `Embedded Universality Principle (EUP).ormd` | epistemology.governance.embedded-universality | 0.90 | MPDC development for universal-looking claims; FISSR profile, projection, evidentiary jurisdiction, observer horizon |
 | Relational Derivation Chain - E2 to RCP, MPDC, and AFD | `Relational Derivation Chain .ormd` | philosophy.relational.computability | 0.85 | Condensed derivation spine; detailed dialogue/source packet archived |
-| Derivation Deep Dive | `Derivation deep dive.ormd` | physics.theoretical.derivation | 0.85 | Categorical and relational physics; dark matter, TQFT, CQM connections |
+| Derivation Deep Dive: Categorical and Relational Physics | `Derivation deep dive.ormd` | physics.theoretical.derivation | 0.85 | Categorical and relational physics; dark matter, TQFT, CQM connections |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | research.formalism | 0.85 | Field-theoretic formalism (RFD v0.1); early-stage; references MMPS + AOMI |
 | Lawfulness | `Lawfulness - Core Source.ormd` | epistemics.predictive_lawfulness | 0.84 | Use-relative license for probabilistic assertion under declared evidence, observer, window, and perturbation conditions |
 
@@ -136,10 +136,9 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | dynamics.persistence_accumulated_stance_with | 0.84 | Identity criteria, temporal topology, and typed maintenance ledger |
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | scientific.theory | 0.85 | AVIA: universal adaptation via entropy reduction through abstraction |
 | Emergence Engine Overview ★ | `Emergence Engine overview.ormd` | research.simulation.ecology | 0.95 | Simulation platform for watching intelligence crystallize; agents, ecology, mitosis |
-| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Formal semantic triad: emergence, determination, foreclosure |
+| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Emergent properties of irreducible relational substrates can be conditioned but not externally determined; substitution (P′ under P's name) as the failure mechanism; derives from RIP, Zone 3, MPDC |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | theory.relational-physics | 0.85 | Entropy, repetition, complexity saturation, field interference |
-| Tension | `Tension.ormd` | philosophy.tensional_intelligence | 0.92 | Tensional intelligence: paradox as productive relational force; praxis of paradox |
-| Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | theory.tensional_intelligence | 0.85 | Theoretical foundation; homeostasis via tension; resonance framework links |
+| Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | theory.tensional_intelligence | 0.85 | Theoretical foundation; homeostasis via tension; resonance framework links; includes originating synthesis and six-stage method sketch |
 | From Essential Relationships to Ontological Transformation | `From Essential Relationships to Ontological Transformation.ormd` | systems.ontology | 0.85 | Complexity theory, computability, decidability, trans-level occlusion survey |
 
 ---
@@ -158,7 +157,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 |-------|------|-------|------|------|
 | Metabolic Meaning Phase Space (MMPS) ★ | `Metabolic Meaning Phase Space (MMPS).ormd` | theory.metabolic-meaning | 0.95 | Merged canonical: meaning metabolism, phase space, pathways, containers, temporal compression |
 | Signal as Bias Field | `Signal as Bias Field.ormd` | relational.physics.signal-theory | 0.90 | Signal as bias field in relational space; GCO-mediated agency; MPDC link |
-| Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | epistemology.resonance | 0.90 | Resonance epistemology; SCIA, ontological interoperability |
+| Resonance Architecture | `Resonance Architecture 4 17 25.ormd` | epistemology.resonance | 0.90 | Resonance epistemology; SCIA, ontological interoperability |
 | The Architecture of Resonant Systems | `The Architecture of Resonant Systems 4 26 25.ormd` | relational.systems.theory | 0.92 | Threshold design, relational approach vector, OSI model cross-reference |
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | ontology.map | 0.85 | Ontological map of resonance; SCIA, coherence, paradox-tolerance |
 | TCL: What We Found | `TCL_Plain_English_Summary.ormd` | research.report | 0.92 | Temporal Constraint Lamination: coupling threshold, metabolic cost, asymmetry, latency |
@@ -180,8 +179,8 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | ethics.stewardship.guide | 0.95 | Principles + practical guide for coherence-preserving stewardship; neurodivergence |
-| Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | ethics.relational | 0.95 | Rights grounded in P1–P6; structural integrity entitlements; parents: 6-primitives |
-| Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | Invisible labor, gender roles, FCIL/MCIL dynamics in social stewardship |
+| The Relational Bill of Rights ★ | `Relational Bill of Rights v2.ormd` | ethics.relational | 0.95 | Rights grounded in P1–P6; structural integrity entitlements; parents: 6-primitives |
+| Interlocked Stewardship | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | Invisible labor, gender roles, FCIL/MCIL dynamics in social stewardship |
 | Steward's Creed ★ | `Steward’s Creed.ormd` | philosophical.creed | 1.0 | Core stewardship commitments; paradox, purpose, coherence |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | ethics.stewardship.remnant | 0.90 | Ethics of aftermath and remainder; repair, closure |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | ethics.boundary.posture | 0.90 | Boundary as ethical posture; category closure, presence, restraint |
@@ -190,7 +189,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Proxy Localization | `Proxy Localization - Core Source.ormd` | ethics.assignment.proxy | 0.90 | Proxy-voice ethics; voice-invertibility, self-account, guardian, category-deficit |
 | Asymmetry Maintenance | `Asymmetry Maintenance - Core Source.ormd` | mechanics.persistence.asymmetry | 0.90 | AMM: maintaining relational asymmetries; GCO-governed margin |
 | Ethical Occlusion via Temporal Compression (EOTC) | `Ethical Occlusion via Temporal Compression (EOTC).ormd` | engineering.ethics.temporal-occlusion | 0.90 | Merged framework and glossary: compression, observability, accountability, resolution, remainder |
-| Justice Across Scales | `Justice Across Scales.ormd` | ethics.justice.scales | 0.90 | Relational framework for justice across scale, uncertainty, resolution, and temporal compression |
+| Justice Across Scales: A Relational Framework | `Justice Across Scales.ormd` | ethics.justice.scales | 0.90 | Relational framework for justice across scale, uncertainty, resolution, and temporal compression |
 | Justice Across Scales: Practical Applications | `Justice Across Scales Practical Applications.ormd` | justice.praxis.v1 | 0.90 | Diagnostics + interventions for justice at multiple scales; morphisms, occlusion |
 | Ethical Principles for Human-AI Interaction ★ | `Ethical Principles for Human-AI Interaction.ormd` | ethics.framework | 0.95 | AI ethics grounded in Resonance Framework; relational integrity |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | governance.collaboration | 1.0 | Attribution, process, and governance for human-AI creative collaboration |
@@ -210,16 +209,14 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `adversarial occlusion`, `mechanism integrity`, `AOMI`, `Goodhart's Law`, `cognitive signature`, `MRIE`, `identity capture`, `reconstruction potential`, `P6 closure`, `occlusion zones`, `soft singularity`, `truth ceiling`, `relational irreducibility`, `exposure protocol`, `morphism`, `coherence transmission`, `anti-fragile`
 
-**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](#cluster-f "ontological:defines") → [AOMI AI Responses](#cluster-f "epistemic:supports") → [Cognitive Signature Capture](#cluster-f "epistemic:measures") → [MRIE](#cluster-f "ontological:composes")
+**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](#cluster-f "ontological:defines") → [MRIE, including Cognitive Signature Capture](#cluster-f "ontological:composes")
 
 **Cross-cluster links:** Constrains [E](#cluster-e "symmetric:constrains") (ethical systems must be adversarially robust), constrained by [B](#cluster-b "symmetric:constrains") (MPDC sets theoretical limits on detection), informs [G](#cluster-g "epistemic:measures") (cognitive integrity ≡ identity integrity), informs [I](#cluster-i "meta:corresponds_to") (protocol must encode adversarial protections).
 
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
 | Adversarial Occlusion & Mechanism Integrity V1 ★ | `Adversarial Occlusion and Mechanism Integrity V1.ormd` | security.governance.framework | 0.95 | AOMI: formal model of mechanism gaming, Goodhart's Law, anti-fragile design |
-| AOMI: Dialogue-Derived Doctrine Notes | `AOMI AI responses.ormd` | ethics.adversarial | 0.92 | Doctrine notes derived from archived AI dialogue; occlusion zones, mechanism design, computational ethics |
-| Cognitive Signature Capture: An Unnamed Threat | `Cognitive Signature Capture An Unnamed Threat.ormd` | ethics.cognitive_security | 0.85 | Pattern-based identity reconstruction; reconstruction potential risk |
-| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.92 | Merged canonical for MRIE identity exposure, cognitive signatures, soft singularity, local models |
+| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.90 | Merged canonical for MRIE identity exposure; includes the originating Cognitive Signature Capture threat statement (reconstruction potential, emergent consent violation, adversarial capabilities), cognitive signatures, soft singularity, local models |
 | Relational Irreducibility Framework (RIF) | `Relational Irreducibility Framework (RIF).ormd` | philosophy.systems-theory | 0.90 | RIF: irreducible relational terms across epistemology, theology, ethics |
 | Truth Ceiling | `Truth Ceiling.ormd` | epistemics.governance | 0.85 | Scalable truth via category theory; complexity governance, org-design |
 | Exposure Protocol ★ | `Exposure Protocol.ormd` | pedagogy.framework | 0.95 | Coherence-preserving transmission framework; morphism-based pedagogy |
@@ -230,7 +227,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Scope:** How the corpus investigates cognition, selfhood, identity, and unresolved questions about consciousness. Treats the self as a six-primitive coherence field with a provisional multidimensional profile, intelligence as field navigation, and cognition as collective substrate. Functional capacities do not settle subjective experience. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
 
-**Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
+**Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `Relational Capacity Scale (RCS)`, `Relational Consciousness Scale`, `SCIA/T`, `substrate`, `local models`
 
 **Entry point:** [Self as Coherence Field](#cluster-g "ontological:defines") → [Collective Cognitive Substrate](#cluster-g "epistemic:measures") → [Relational Volition](#cluster-g "dynamical:interacts_with")
 
@@ -263,7 +260,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Power as Relational Field Coherence | `Power as Relational Field Coherence.ormd` | theoretical.sociophysics.power | 0.85 | Merged canonical from Power + Power as Relational Field Coherence |
 | Family as a Relational Field | `Family as a Relational Field.ormd` | philosophy.family_dynamics | 0.90 | Family systems as relational field; coherence, E² framework |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | philosophy.caregiving | 0.85 | Caregiving as relational ecology; attunement, stewardship, RPLang |
-| The Essence of Existence (NexEs Manifesto) | `The Essence of Existence.ormd` | manifesto.relational | 0.90 | Condensed NexEs manifesto core; framework restatements routed to canonical docs |
+| Care, Attention, and Coherence: A Relational Manifesto | `The Essence of Existence.ormd` | manifesto.relational | 0.90 | Condensed manifesto core; framework restatements routed to canonical docs |
 | Essence of Existence Constitution — Draft 2 | `Essence of Existence Constitution - Draft 2.ormd` | ontology.constitution | 0.90 | Constitutional articulation; interbeing, coherence, relational-agency; parents: v1 |
 | Relational Perfection: A Framework ★ | `Relational Perfection_framework.ormd` | philosophy.ontology | 0.95 | Perfection as emergent integrity; constraints, fidelity, E2 Framework |
 | Relational Perfection: A Manifesto ★ | `Relational Perfection A Manifesto.ormd` | philosophy.manifesto | 1.0 | Perfection = relational-physics + emergence + constraints + context |
@@ -379,27 +376,25 @@ These terms appear across clusters. A model unfamiliar with the framework should
 
 ## Full Registry {#full-registry}
 
-*86 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
+*85 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
 
 | Title | File | Cluster | Conf |
 |-------|------|---------|------|
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | C | 0.85 |
 | Adversarial Occlusion & Mechanism Integrity V1 ★ | `Adversarial Occlusion and Mechanism Integrity V1.ormd` | F | 0.95 |
-| AOMI: Dialogue-Derived Doctrine Notes | `AOMI AI responses.ormd` | F | 0.92 |
 | Asymmetry Maintenance | `Asymmetry Maintenance - Core Source.ormd` | E | 0.90 |
 | Boundary Dynamics | `boundary_dynamics.ormd` | C | 0.90 |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | E | 0.90 |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | H | 0.85 |
 | Attentional Access and Formation (AAF) | `Attentional Access and Formation - Core Source.ormd` | C | 0.86 |
 | Constraint, Fluctuation, Attentional Access, and Resolution | `Constraint-Fluctuation-Attention-Resolution - Core Source.ormd` | C | 0.86 |
-| Cognitive Signature Capture: An Unnamed Threat | `Cognitive Signature Capture An Unnamed Threat.ormd` | F | 0.85 |
 | Collective Cognitive Substrate | `Collective Cognitive Substrate.ormd` | G | 0.92 |
 | Communication as Coherence | `Communication as Coherence.ormd` | H | 0.90 |
 | Complex Causality | `Complex Causality - Core Source.ormd` | E | 0.90 |
 | Context Layer Protocol (CLP) | `Context Layer Protocol (CLP).ormd` | I | 0.90 |
 | CT Translation of RPs ★ | `CT translation of RPs.ormd` | B | 0.95 |
 | Declaration of Interdependence ★ | `Declaration of Interdependence.ormd` | H | 1.0 |
-| Derivation Deep Dive | `Derivation deep dive.ormd` | B | 0.85 |
+| Derivation Deep Dive: Categorical and Relational Physics | `Derivation deep dive.ormd` | B | 0.85 |
 | E^2 Axioms | `E^2 Axioms.ormd` | A | 0.92 |
 | E² Entry Point | `E^2 Entry Point.ormd` | A | 0.92 |
 | E² Equation ★ | `E^2 Equation.ormd` | A | 0.98 |
@@ -416,19 +411,19 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Global Closure Operator ★ | `Global Closure Operator.ormd` | A | 0.95 |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | E | 1.0 |
 | Implementations ★ | `Implementations.ormd` | I | 1.0 |
-| Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | E/H | 0.92 |
-| Justice Across Scales | `Justice Across Scales.ormd` | E | 0.90 |
+| Interlocked Stewardship | `Interlocked Stewardship V2.ormd` | E/H | 0.92 |
+| Justice Across Scales: A Relational Framework | `Justice Across Scales.ormd` | E | 0.90 |
 | Justice Across Scales: Practical Applications | `Justice Across Scales Practical Applications.ormd` | E | 0.90 |
 | Layer 2 Draft: RVP + VME | `layer_2_draft_rvp_and_vme_developments.ormd` | H | 0.85 |
 | Meta-Pattern Decidability Conjecture (MPDC) | `Meta-Pattern Decidability Conjecture (MPDC).ormd` | B | 0.85 |
-| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.92 | Merged canonical for MRIE identity exposure, cognitive signatures, soft singularity, local models |
+| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | F | 0.90 |
 | Metabolic Meaning Phase Space (MMPS) ★ | `Metabolic Meaning Phase Space (MMPS).ormd` | D | 0.95 |
 | Ontological Systems Interface (OSI) Model | `Ontological Systems Interface (OSI) Model.ormd` | G/I | 0.90 |
 | Original E^2 Work ★ | `Original E^2 work.ormd` | A | 1.0 |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | C | 0.85 |
 | Power as Relational Field Coherence | `Power as Relational Field Coherence.ormd` | H | 0.85 |
 | Proxy Localization | `Proxy Localization - Core Source.ormd` | E | 0.90 |
-| Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | E | 0.95 |
+| The Relational Bill of Rights ★ | `Relational Bill of Rights v2.ormd` | E | 0.95 |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | B | 0.85 |
 | Relational Irreducibility Framework (RIF) | `Relational Irreducibility Framework (RIF).ormd` | F | 0.90 |
 | Relational Localization | `Relational Localization - Core Source.ormd` | E | 0.90 |
@@ -439,7 +434,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Relational Volition | `Relational Volition.ormd` | G | 0.90 |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | E | 0.90 |
 | Resolution: Synthesis Notes | `resolution_synthesis.ormd` | C | 0.90 |
-| Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
+| Resonance Architecture | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | E | 0.95 |
 | RP Lambda Calc Translation ★ | `RP Lambda Calc Translation.ormd` | B | 0.98 |
 | Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | E | 0.90 |
@@ -448,12 +443,11 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | TCL: Three Constants ★ | `TCL_Three_Constants.ormd` | D | 0.96 |
 | TCL: What We Found | `TCL_Plain_English_Summary.ormd` | D | 0.92 |
 | Ethical Occlusion via Temporal Compression (EOTC) | `Ethical Occlusion via Temporal Compression (EOTC).ormd` | E | 0.90 |
-| Tension | `Tension.ormd` | C | 0.92 |
 | Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | C | 0.85 |
 | The Architecture of Resonant Systems | `The Architecture of Resonant Systems 4 26 25.ormd` | D | 0.92 |
 | Collective Relational Substrate | `Collective Relational Substrate.ormd` | H | 0.85 |
 | The Cyclical Integrity Framework | `The Cyclical Integrity framework.ormd` | H | 0.90 |
-| The Essence of Existence (NexEs Manifesto) | `The Essence of Existence.ormd` | H | 0.90 |
+| Care, Attention, and Coherence: A Relational Manifesto | `The Essence of Existence.ormd` | H | 0.90 |
 | The Intelligence Field Framework | `The Intelligence Field Framework.ormd` | G | 0.85 |
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | D | 0.85 |
 | Truth Ceiling | `Truth Ceiling.ormd` | F | 0.85 |

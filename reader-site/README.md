@@ -13,6 +13,8 @@ The Core Framework repository is the publication source. After an active Core ch
 
 The human sync guards against independent edits to a generated Markdown counterpart. If it reports a conflict, review that pair before publishing. For new documents, update `core_registry.json` and the Context Layer Master Index so the corpus build can include them. The older differing pairs remain human-authored until reviewed individually; they are not silently replaced by ORMD.
 
+The [human/ORMD review queue](ORMD_HUMAN_REVIEW_QUEUE.md) links both files for every pending exact-stem pair. Refresh it with `node scripts/write-review-queue.mjs` after registry or reviewed-set changes.
+
 ## Refresh locally
 
 From this directory:

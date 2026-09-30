@@ -1,4 +1,4 @@
-# Interlocked Stewardship V2
+# Interlocked Stewardship
 
 8/8/25
 

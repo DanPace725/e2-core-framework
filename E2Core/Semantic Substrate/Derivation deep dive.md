@@ -1,4 +1,4 @@
-# Derivation deep dive
+# Derivation Deep Dive: Categorical and Relational Physics
 
 11/17/25
 

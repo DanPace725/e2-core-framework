@@ -1,6 +1,6 @@
 # Core Registry
 
-Generated: `2026-09-29T00:25:42.988688+00:00`
+Generated: `2026-09-29T23:46:33.346193+00:00`
 
 Authority: `active_filesystem_state`
 
@@ -8,15 +8,15 @@ Authority: `active_filesystem_state`
 
 | Metric | Count |
 | --- | --- |
-| Semantic Substrate files | 92 |
-| Context Layer files | 86 |
-| Active raw files | 178 |
-| Exact-stem pairs | 81 |
-| Composite or alias pairs | 4 |
-| Semantic Substrate only | 5 |
+| Semantic Substrate files | 84 |
+| Context Layer files | 83 |
+| Active raw files | 167 |
+| Exact-stem pairs | 79 |
+| Composite or alias pairs | 3 |
+| Semantic Substrate only | 2 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
-| Archived raw files | 68 |
+| Archived raw files | 82 |
 
 ## Active Records
 
@@ -24,18 +24,14 @@ Authority: `active_filesystem_state`
 | --- | --- | --- | --- | --- | --- |
 | Adaptation via Informational Abstraction | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Adaptation via Informational Abstraction.md | E2Core/Context Layer/Adaptation via Informational Abstraction.ormd | no |
 | Adversarial Occlusion and Mechanism Integrity V1 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Adversarial Occlusion and Mechanism Integrity V1.md | E2Core/Context Layer/Adversarial Occlusion and Mechanism Integrity V1.ormd | no |
-| AOMI AI responses | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/AOMI AI responses.md | E2Core/Context Layer/AOMI AI responses.ormd | no |
 | Asymmetry Maintenance - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Asymmetry Maintenance - Core Source.md | E2Core/Context Layer/Asymmetry Maintenance - Core Source.ormd | yes |
 | Attentional Access and Formation - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Attentional Access and Formation - Core Source.md | E2Core/Context Layer/Attentional Access and Formation - Core Source.ormd | yes |
 | Boundary Ethics - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Boundary Ethics - Core Source.md | E2Core/Context Layer/Boundary Ethics - Core Source.ormd | yes |
 | boundary_dynamics | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/boundary_dynamics.md | E2Core/Context Layer/boundary_dynamics.ormd | no |
 | Caregiving as an Ecosystem | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Caregiving as an Ecosystem.md | E2Core/Context Layer/Caregiving as an Ecosystem.ormd | no |
-| CCS | semantic_substrate_only | unpaired_active_source | E2Core/Semantic Substrate/CCS.md | - | n/a |
-| Cognitive Signature Capture An Unnamed Threat | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Cognitive Signature Capture An Unnamed Threat.md | E2Core/Context Layer/Cognitive Signature Capture An Unnamed Threat.ormd | no |
 | Collective Cognitive Substrate | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Collective Cognitive Substrate.md | E2Core/Context Layer/Collective Cognitive Substrate.ormd | no |
-| collective-relational-substrate | paired_composite_or_alias | lineage_preserving_merge | E2Core/Semantic Substrate/CRS.md<br>E2Core/Semantic Substrate/The Collective Relational Substrate.md | E2Core/Context Layer/Collective Relational Substrate.ormd | n/a |
+| collective-relational-substrate | paired_composite_or_alias | lineage_preserving_merge | E2Core/Semantic Substrate/CRS.md | E2Core/Context Layer/Collective Relational Substrate.ormd | n/a |
 | Communication as Coherence | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Communication as Coherence.md | E2Core/Context Layer/Communication as Coherence.ormd | no |
-| Communication as Complexity Reduction | semantic_substrate_only | unpaired_active_source | E2Core/Semantic Substrate/Communication as Complexity Reduction.md | - | n/a |
 | Complex Causality - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Complex Causality - Core Source.md | E2Core/Context Layer/Complex Causality - Core Source.ormd | yes |
 | Condition as Typed Terrain - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Condition as Typed Terrain - Core Source.md | E2Core/Context Layer/Condition as Typed Terrain - Core Source.ormd | yes |
 | Consequence Routing - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Consequence Routing - Core Source.md | E2Core/Context Layer/Consequence Routing - Core Source.ormd | yes |
@@ -47,7 +43,7 @@ Authority: `active_filesystem_state`
 | Declaration of Interdependence | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Declaration of Interdependence.md | E2Core/Context Layer/Declaration of Interdependence.ormd | no |
 | Derivation deep dive | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Derivation deep dive.md | E2Core/Context Layer/Derivation deep dive.ormd | no |
 | E^2 Axioms | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/E^2 Axioms.md | E2Core/Context Layer/E^2 Axioms.ormd | no |
-| E^2 Entry Point | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/E^2 Entry Point.md | E2Core/Context Layer/E^2 Entry Point.ormd | no |
+| E^2 Entry Point | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/E^2 Entry Point.md | E2Core/Context Layer/E^2 Entry Point.ormd | yes |
 | E^2 Equation | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/E^2 Equation.md | E2Core/Context Layer/E^2 Equation.ormd | no |
 | Embedded Universality Principle (EUP) | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Embedded Universality Principle (EUP).md | E2Core/Context Layer/Embedded Universality Principle (EUP).ormd | yes |
 | Emergence Engine overview | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Emergence Engine overview.md | E2Core/Context Layer/Emergence Engine overview.ormd | no |
@@ -71,13 +67,12 @@ Authority: `active_filesystem_state`
 | layer_2_draft_rvp_and_vme_developments | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/layer_2_draft_rvp_and_vme_developments.md | E2Core/Context Layer/layer_2_draft_rvp_and_vme_developments.ormd | no |
 | Meta-Pattern Decidability Conjecture (MPDC) | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Meta-Pattern Decidability Conjecture (MPDC).md | E2Core/Context Layer/Meta-Pattern Decidability Conjecture (MPDC).ormd | no |
 | Metabolic Meaning Phase Space (MMPS) | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Metabolic Meaning Phase Space (MMPS).md | E2Core/Context Layer/Metabolic Meaning Phase Space (MMPS).ormd | no |
-| mrie-unified-synthesis | paired_composite_or_alias | lineage_preserving_merge | E2Core/Semantic Substrate/Meta-Relational Identity Exposure (MRIE).md<br>E2Core/Semantic Substrate/Meta-relational Identity exposure (MRIE) Synthesis.md | E2Core/Context Layer/MRIE - Unified Synthesis.ormd | n/a |
+| MRIE - Unified Synthesis | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/MRIE - Unified Synthesis.md | E2Core/Context Layer/MRIE - Unified Synthesis.ormd | no |
 | Ontological Systems Interface (OSI) Model | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Ontological Systems Interface (OSI) Model.md | E2Core/Context Layer/Ontological Systems Interface (OSI) Model.ormd | no |
 | Original E^2 work | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Original E^2 work.md | E2Core/Context Layer/Original E^2 work.ormd | no |
 | Our essence exists in the space between us | semantic_substrate_only | unpaired_active_source | E2Core/Semantic Substrate/Our essence exists in the space between us.md | - | n/a |
 | Pattern Integrity over Time under Entropy | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Pattern Integrity over Time under Entropy.md | E2Core/Context Layer/Pattern Integrity over Time under Entropy.ormd | no |
 | Persistence as Accumulated Stance-With - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Persistence as Accumulated Stance-With - Core Source.md | E2Core/Context Layer/Persistence as Accumulated Stance-With - Core Source.ormd | yes |
-| Power | semantic_substrate_only | unpaired_active_source | E2Core/Semantic Substrate/Power.md | - | n/a |
 | Power as Relational Field Coherence | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Power as Relational Field Coherence.md | E2Core/Context Layer/Power as Relational Field Coherence.ormd | no |
 | Proxy Localization - Core Source | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Proxy Localization - Core Source.md | E2Core/Context Layer/Proxy Localization - Core Source.ormd | yes |
 | Relational Bill of Rights v2 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Relational Bill of Rights v2.md | E2Core/Context Layer/Relational Bill of Rights v2.ormd | no |
@@ -104,7 +99,6 @@ Authority: `active_filesystem_state`
 | Steward’s Creed | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Steward’s Creed.md | E2Core/Context Layer/Steward’s Creed.ormd | no |
 | TCL_Plain_English_Summary | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/TCL_Plain_English_Summary.md | E2Core/Context Layer/TCL_Plain_English_Summary.ormd | no |
 | TCL_Three_Constants | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/TCL_Three_Constants.md | E2Core/Context Layer/TCL_Three_Constants.ormd | no |
-| Tension | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Tension.md | E2Core/Context Layer/Tension.ormd | no |
 | Tensional Intelligence A Theoretical Foundation | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/Tensional Intelligence A Theoretical Foundation.md | E2Core/Context Layer/Tensional Intelligence A Theoretical Foundation.ormd | no |
 | The Architecture of Resonant Systems 4 26 25 | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/The Architecture of Resonant Systems 4 26 25.md | E2Core/Context Layer/The Architecture of Resonant Systems 4 26 25.ormd | no |
 | The Cyclical Integrity framework | paired_exact_stem | source_context_pair | E2Core/Semantic Substrate/The Cyclical Integrity framework.md | E2Core/Context Layer/The Cyclical Integrity framework.ormd | no |

@@ -35,6 +35,10 @@ AOMI operates on the principle that **ethical occlusion is geometric, not malici
 
 The framework provides both [theoretical foundations](#foundations "ontological:composes") and practical implementation patterns for building [anti-fragile systems](#defense-architecture "symmetric:constrains") that become stronger when attacked, rather than weaker.
 
+## Source lineage and evidence limits {#source-lineage}
+
+The earlier *AOMI: AI responses* dialogue and its later doctrine note are preserved under `archive/20260612_step_2_1_dialogues/` and `archive/20260929_aomi_responses/`, respectively. They record the problem framing and proposals that this specification develops. Their suggestions about ethical incompleteness, computationally irreducible pockets, and exploiters becoming trapped by their own manufactured complexity remain conjectures in that lineage; they are not established theorems or demonstrated safeguards. Numerical targets and efficacy claims in this specification are proposed design targets unless accompanied by a measurement method and results.
+
 ---
 
 ## I. Theoretical Foundations {#foundations}

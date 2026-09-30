@@ -384,7 +384,7 @@ The CRS is constituted by nodes with radically different normality baselines. Th
 4. Exchange via η-scaled vector.
 5. Monitor SCIA decay. If attention or coherence drops, re-estimate or pause.
 
-The RCS (Relational Consciousness Scale) provides a developmental map for nodes:
+The Relational Consciousness Scale proposes a developmental map for nodes. It is distinct from the earlier OSI Relational Capacity Scale (RCS):
 
 **R1 (Relational Awareness):** Recognizes that relationships shape experience. Emerging theory of mind.
 **R2 (Relational Navigation):** Can adapt behavior based on relational context. Emotional co-regulation.

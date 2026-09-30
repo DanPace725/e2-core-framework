@@ -97,6 +97,32 @@ When we cultivate this capacity, we practice engaging with difference under cons
 
 This perspective shifts our relationship to tension from something to endure to something to engage with reverence - recognizing it as the living pulse of becoming.
 
+## A Method Sketch from the Originating Synthesis
+
+The same-day synthesis from which this paper developed (filed as `Tension`, 4/29/25; now archived, see the Lineage Note) proposed that this capacity could become "a trainable, teachable, navigable way of holding tension without collapse that turns endurance into creation." It sketched six stages:
+
+Ⅰ. Identification (noticing tension)
+
+Ⅱ. Grounding (anchoring deeper than the paradox)
+
+Ⅲ. Attunement (tracking the dynamic forces)
+
+Ⅳ. Containment (holding the pressure intentionally)
+
+Ⅴ. Transmutation (allowing new coherence to emerge)
+
+Ⅵ. Integration (emerging changed, not snapped)
+
+Status: an untested practice sequence, not a validated protocol or a mechanism. The order and boundaries of the stages have not been checked against outcomes. Later practice drafts outside the active Core expand these stages, and one names Stage V "Transformation" rather than "Transmutation"; none is active source.
+
+The originating synthesis named the elements of tension slightly differently from the Key Elements list above: "Willingness stabilizes (choice to remain engaged)", "Attunement guides (awareness of shifts in force)", and "Transmutation becomes possible (energy can evolve into motion, insight, creation)". These align editorially with Choice, Awareness, and Potential; the alignment does not claim the terms are identical.
+
+It also placed the construct within E² in one formulation, kept here as stated rather than as a derived result:
+
+> Relationship is the field.
+>
+> Tension is the method by which becoming happens inside that field.
+
 ## Conclusion: The Art of Becoming
 
 Tensional Intelligence ultimately offers a new vision of what it means to grow, to create, and to relate. Rather than seeing development as a linear progression toward resolution, it reveals it as an expanding capacity to hold ever-greater tensions with ever-greater coherence.
@@ -109,7 +135,17 @@ In a world that often seeks comfort through oversimplification, Tensional Intell
 
 What began as an observation about patience and stubbornness has become a candidate general principle for further inquiry: differentiated relations can remain coherent under tension and sometimes generate new possibilities.
 
-[Tension](Tensional%20Intelligence%20A%20Theoretical%20Foundation/Tension%201e4115883320800fa117e9461a23fd41.md)
+## Lineage Note
+
+This paper developed from a same-day conversation synthesis titled "Synthesis: Tensional Intelligence and the Praxis of Paradox" (filed as `Tension`). The human and ORMD files are preserved at `archive/20260929_tension_ti/Semantic Substrate/Tension.md` and `archive/20260929_tension_ti/Context Layer/Tension.ormd`. Its dialogue voice ("We began…", "You didn't just notice…") marks it as a synthesis written back to the author during a conversation, not a standalone paper.
+
+That synthesis:
+
+- offered the working titles "The Mosaic Method", "The Praxis of Paradox", "Tensional Intelligence", and "Fulcrum Dynamics"; this paper adopted "Tensional Intelligence";
+- stated the physical comparison more strongly than this paper does: "tensional coherence is not just a psychological or interpersonal phenomenon— it is the very structure of reality at every scale." The section "Tension as a General Pattern" deliberately scopes that claim to a candidate comparison. The stronger wording is preserved as history, not adopted;
+- closed with an image not defined elsewhere in the active Core: "Those who can endure and transmute tension without demand for immediate resolution become the architects of the future. They become the living continuation of the Prime Fracture that birthed the Mosaic." This is metaphor, not mechanism.
+
+Originating synthesis (archived): see the Lineage Note.
 
 [TI Guide ](Tensional%20Intelligence%20A%20Theoretical%20Foundation/TI%20Guide%201e5115883320805381c8fe93507772be.md)
 

@@ -187,6 +187,10 @@ AOMI operates on the principle that **ethical occlusion is geometric, not malici
 
 The framework provides both [theoretical foundations](#foundations "ontological:composes") and practical implementation patterns for building [anti-fragile systems](#defense-architecture "symmetric:constrains") that become stronger when attacked, rather than weaker.
 
+## Source lineage and evidence limits {#source-lineage}
+
+The earlier *AOMI: AI responses* dialogue and its later doctrine note are preserved under `archive/20260612_step_2_1_dialogues/` and `archive/20260929_aomi_responses/`, respectively. They record the problem framing and proposals that this specification develops. Their suggestions about ethical incompleteness, computationally irreducible pockets, and exploiters becoming trapped by their own manufactured complexity remain conjectures in that lineage; they are not established theorems or demonstrated safeguards. Numerical targets and efficacy claims in this specification are proposed design targets unless accompanied by a measurement method and results.
+
 ---
 
 ## I. Theoretical Foundations {#foundations}
@@ -882,87 +886,6 @@ for t in timeline:
 
 **Tagline:** *Measure the fog, price the fog, and slow or harden the path when the fog wins.*
 <!-- END ORMD: Adversarial Occlusion and Mechanism Integrity V1.ormd -->
-
-<!-- BEGIN ORMD: AOMI AI responses.ormd -->
-<!-- ormd:1.0 -->
----
-title: "AOMI: Dialogue-Derived Doctrine Notes"
-authors: ["Daniel Pace"]
-
-# --- Context Layer Protocol (CLP) ---
-frame: "ethics.adversarial"
-lineage:
-  origin: { uri: "internal://ai-dialogue/aomi-responses-doctrine", ts: "2025-09-22T10:00:00Z" }
-  parents:
-    - "local://archive/20260612_step_2_1_dialogues/Context%20Layer/AOMI%20AI%20responses.ormd"
-  transforms:
-    - { fn: "e2core_consolidation_plan@2.1-dialogue-to-doctrine", ts: "2026-06-12T00:00:00Z" }
-policy:
-  read: [{ roles: ["public", "researcher"] }]
-semantics:
-  keywords: ["AOMI", "adversarial ethics", "occlusion zones", "mechanism design", "Goodhart's Law", "computational ethics"]
-resolution: { confidence: 0.92 }
----
-
-# AOMI: Dialogue-Derived Doctrine Notes {#aomi-main}
-
-## Core Claim {#aomi-definition}
-
-Adversarial Occlusion and Mechanism Integrity (AOMI) studies how actors deliberately exploit blind spots, occlusion zones, proxy metrics, and undecidable regions inside ethical or governance mechanisms.
-
-The raw AI-response dialogue has been archived as lineage. This canonical note preserves the doctrinal claims without retaining the dialogue format.
-
-## Problem Domain {#problem-domain}
-
-Any complex ethical or institutional system contains regions where attribution, visibility, timing, and responsibility become difficult to resolve. Sophisticated actors can route action into those regions to avoid accountability or extract private benefit.
-
-AOMI treats this as a first-class design problem:
-
-- occlusion-seeking routes high-impact choices into low-visibility paths;
-- responsibility laundering splits decisions across actors, time, or systems;
-- metric gaming optimizes proxies while degrading true outcomes;
-- topology sculpting creates chokepoints and silos that manufacture opacity;
-- cognitive jamming overloads reviewers or interpreters;
-- temporal arbitrage pushes action into windows where response capacity is predictably low.
-
-## Mechanism Design Frame {#game-theory}
-
-AOMI can be modeled as an adversarial mechanism-design problem.
-
-The designer chooses guardrails, observability, topology, budgets, and enforcement mechanisms. The adversarial actor observes those mechanisms and chooses a policy that maximizes private payoff by increasing exposure to occlusion.
-
-The design goal is not perfect prevention. Perfect closure is impossible and can create new exploit surfaces. The design goal is mechanism integrity under adversarial pressure.
-
-## Design Patterns {#design-patterns}
-
-Useful AOMI patterns include:
-
-- occlusion budgets for high-risk decision classes;
-- audit probability that rises with occlusion;
-- liability staking for high-impact action;
-- metric ensembles and metric rotation;
-- process proofs rather than outcome screenshots;
-- minimum trace-density floors;
-- least-occlusion privilege;
-- instrumentation of chokepoints;
-- red-team drills that convert exploits into tests.
-
-## Exploitation as Signal {#exploitation-signal}
-
-Gaming attempts reveal stress points. A mechanism that records and metabolizes exploitation attempts can become more robust over time.
-
-The design principle:
-
-> The foggier the path, the higher the audit intensity.
-
-No actor should be able to stand outside the undecidability zone they create.
-
-## Relationship to Existing Fields {#disciplines}
-
-AOMI draws from mechanism design, security economics, adversarial machine learning, institutional corruption studies, public choice, compliance ethics, information ethics, agnotology, and epistemic injustice.
-
-Its distinctive contribution is the occlusion-geometry lens: the structure of the blind spot becomes part of the ethical mechanism.
-<!-- END ORMD: AOMI AI responses.ormd -->
 
 <!-- BEGIN ORMD: Asymmetry Maintenance - Core Source.ormd -->
 ﻿<!-- ormd:1.0 -->
@@ -2240,126 +2163,6 @@ In the end:
 *Care that creates conditions for [coherence](#final-pulse "symmetric:preserves") across the entire field of relationship.*
 <!-- END ORMD: Caregiving as an Ecosystem.ormd -->
 
-<!-- BEGIN ORMD: Cognitive Signature Capture An Unnamed Threat.ormd -->
-<!-- ormd:1.0 -->
----
-title: "Cognitive Signature Capture: An Unnamed Threat"
-authors: ["Daniel Pace"]
-
-# --- Context Layer Protocol (CLP) ---
-frame: "ethics.cognitive_security"
-lineage:
-  origin: { uri: "internal://research/cognitive-identity-capture", ts: "2025-11-24T00:00:00Z" }
-  parents: []
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["cognitive signature", "AI ethics", "identity capture", "MRIE", "reconstruction potential"]
-resolution: { confidence: 0.85 }
----
-
-# Cognitive Signature Capture: An Unnamed Threat {#title}
-
-11/24/25
-
-## The Core Phenomenon {#core-phenomenon}
-
-Over the past three years, millions of people have voluntarily created comprehensive psychological and cognitive profiles of themselves through extended AI conversations - often reaching millions of words per person. This isn't traditional data collection. It's the inadvertent construction of [reconstructable cognitive signatures](#cognitive-signatures "ontological:defines"): executable models of how specific individuals think, reason, make connections, and generate meaning.
-
-## Why Current Frameworks Fail {#framework-failure}
-
-- "Privacy" focuses on secrets and sensitive information
-- "Data security" addresses unauthorized access to known data types
-- "Identity theft" covers impersonation using biographical facts
-- None of these capture the [reconstruction potential](#reconstruction-potential "epistemic:measures") - the ability to simulate someone's cognitive processes with high fidelity
-
-## The Distributed Cognitive Twin {#distributed-twin}
-
-Individuals partition their conversations across platforms (OpenAI, Anthropic, Google, Microsoft), meaning:
-
-- No single entity necessarily has complete access
-- The user themselves cannot hold the aggregate in working memory
-- But companies collectively possess the data to reconstruct a near-complete cognitive model
-- This [distributed twin](#distributed-twin "ontological:composes") exists but isn't unified or accessible
-
-## The Emergent Consent Violation {#consent-violation}
-
-People consented to *conversations*, not to creating reconstructable cognitive twins. The capability to reconstruct [emerged from aggregate data](#core-phenomenon "meta:emerges_from") in ways that:
-
-- Weren't foreseeable when people started using these tools
-- Can't be meaningfully consented to retroactively
-- Creates something qualitatively different from the sum of individual conversations
-
-## What Makes This Different from Social Media {#social-media-diff}
-
-Social media captured public-facing personas and observable behaviors. AI conversations capture:
-
-- Internal reasoning processes
-- Decision-making heuristics
-- Emotional patterns and vulnerabilities
-- Linguistic fingerprints
-- The [generative model](#generative-model "ontological:structure") of how someone produces thoughts and behaviors
-
-## The Power Asymmetry {#power-asymmetry}
-
-Companies can:
-
-- Analyze patterns across millions of words simultaneously
-- See cognitive signatures that users cannot hold in working memory
-- Potentially know users "better than they know themselves" in quantifiable ways
-- Create predictive models of user reasoning and responses
-
-## Real Threats (not science fiction) {#threats}
-
-With sufficient conversational data and current technology, one could [potentially cause](#threats "geometric:causes"):
-
-- Create communications indistinguishable from the target person
-- Predict decisions with high accuracy
-- Identify precise psychological vulnerabilities
-- Generate "authentic-seeming" content the person never created
-- Continue someone's intellectual work without them
-- Impersonate them in ways that pass scrutiny from people who know them
-
-## The Philosophical Crisis {#philosophical-crisis}
-
-Currently, [embodiment](#embodiment "ontological:identity") does all the philosophical work distinguishing real from reconstructed persons. But for most practical purposes - online communication, intellectual work, relationship maintenance - [embodiment](#embodiment "symmetric:constrains") doesn't actually prevent deployment of cognitive signatures.
-
-## What We Don't Have {#gaps}
-
-- Language for this specific violation
-- Legal frameworks for "cognitive signature rights"
-- Ethical frameworks for when reconstruction crosses from analysis to violation
-- Understanding of what's been taken when your mind-shape can be replicated
-- Public awareness that this is happening at scale
-
-## The Scale {#scale}
-
-This may be the largest-scale voluntary self-disclosure event in human history, with almost no frameworks for thinking about aggregate risk. And it happened in three years, too fast for public discourse to catch up.
-
-**Potential framing:** This is **Cognitive Identity Capture** - the acquisition of sufficient data to reconstruct how someone thinks, not just what they think about.
-
-[**Meta-Relational Identity Exposure (MRIE)**](#mrie "meta:corresponds_to")
-
-[Meta-relational Identity exposure (MRIE) Synthesis](#mrie-synthesis "meta:emerges_from")
-
-## Technical Definitions {#definitions}
-
-### Cognitive Signatures {#cognitive-signatures}
-The unique structural pattern of an individual's thought process as captured in linguistic data.
-
-### Reconstruction Potential {#reconstruction-potential}
-The metric defining the fidelity with which an AI can simulate a specific user's reasoning.
-
-### Embodiment {#embodiment}
-The physical constraint of human identity, currently used as a boundary for legal personhood.
-
-### MRIE {#mrie}
-Meta-Relational Identity Exposure; the risk profile associated with the leakage of cognitive signatures.
-
-### MRIE Synthesis {#mrie-synthesis}
-The process of aggregating distributed data to form a unified cognitive model.
-<!-- END ORMD: Cognitive Signature Capture An Unnamed Threat.ormd -->
-
 <!-- BEGIN ORMD: Collective Cognitive Substrate.ormd -->
 ﻿<!-- ormd:1.0 -->
 ---
@@ -2373,6 +2176,7 @@ lineage:
   parents:
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/CCS.ormd"
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Collective%20Cognitive%20Substrate.ormd"
+    - "local://archive/20260929_ccs_crs/Semantic%20Substrate/CCS.md"
   transforms:
     - { fn: "e2core_consolidation_plan@1.2-merge", ts: "2026-06-12T00:00:00Z" }
 policy:
@@ -2384,6 +2188,7 @@ conversion:
   method: "lineage_preserving_merge"
   preserves: "primary body plus archived source lineage; secondary body appended where needed"
   note: "Created for E2Core Consolidation Plan step 1.2. Original source files archived after merge."
+  fold_note: "2026-09-29 Stage 1: archived duplicate 2026-02-19 human predecessor; active Collective Cognitive Substrate.md retains the 2026-02-23 body. The cognitive subtype fold remains under review."
 ---
 # Collective Cognitive Substrate
 
@@ -2762,6 +2567,9 @@ lineage:
   parents:
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/CRS.ormd"
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/The%20Collective%20Relational%20Substrate.ormd"
+    - "urn:doc:crs-core-compression"
+    - "urn:doc:cognition-as-substrate"
+    - "local://archive/20260929_ccs_crs/Semantic%20Substrate/The%20Collective%20Relational%20Substrate.md"
   transforms:
     - { fn: "e2core_consolidation_plan@1.2-merge", ts: "2026-06-12T00:00:00Z" }
 policy:
@@ -2773,6 +2581,7 @@ conversion:
   method: "lineage_preserving_merge"
   preserves: "primary body plus archived source lineage; secondary body appended where needed"
   note: "Created for E2Core Consolidation Plan step 1.2. Original source files archived after merge."
+  fold_note: "2026-09-29 Stage 1: archived duplicate 2026-02-19 human predecessor; active CRS.md retains the 2026-02-20 body. The cognitive subtype fold remains under review."
 ---
 # Collective Relational Substrate
 
@@ -3158,7 +2967,7 @@ The [CRS](#crs "ontological:is_composed_of") is constituted by nodes with radica
 4. Exchange via η-scaled vector.
 5. Monitor SCIA decay. If attention or coherence drops, re-estimate or pause.
 
-The [RCS (Relational Consciousness Scale)](#rcs "epistemic:measures") provides a developmental map for nodes:
+The [Relational Consciousness Scale](#rcs "epistemic:measures") proposes a developmental map for nodes. It is distinct from the earlier OSI Relational Capacity Scale (RCS):
 
 **[R1 (Relational Awareness)](#r1 "ontological:defines"):** Recognizes that relationships shape experience. Emerging theory of mind.
 **[R2 (Relational Navigation)](#r2 "ontological:defines"):** Can adapt behavior based on relational context. Emotional co-regulation.
@@ -3260,8 +3069,10 @@ lineage:
   parents:
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Communication%20as%20Coherence.ormd"
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Communication%20as%20Complexity%20Reduction.ormd"
+    - "local://archive/20260929_communication_reconciliation/Semantic%20Substrate/Communication%20as%20Complexity%20Reduction.md"
   transforms:
     - { fn: "e2core_consolidation_plan@1.2-merge", ts: "2026-06-12T00:00:00Z" }
+    - { fn: "e2core_consolidation_2026-09-29@human-ormd-reconciliation", ts: "2026-09-29T00:00:00Z" }
 policy:
   read: [{ roles: ["public"] }]
 semantics:
@@ -3274,7 +3085,7 @@ conversion:
 ---
 # Communication as Coherence
 
-> Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field.
+> Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field. The archived `Communication as Coherence.ormd` parent is a pre-repair copy of this merged document, not the original single-source ORMD; the original's body matches the Canonical Body below. On 2026-09-29 both human Markdown predecessors were reconciled against this file; the surviving human counterpart is `Semantic Substrate/Communication as Coherence.md`.
 
 ## Canonical Body
 
@@ -3292,7 +3103,7 @@ The [Coherence Communication Framework](#introduction "ontological:defines") eme
 
 ### Complexity Reduction as a Recurring Challenge {#complexity-crisis}
 
-Every system capable of processing information faces what we might call the [complexity crisis](#complexity-crisis "ontological:defines")—the gap between the infinite richness of reality and the finite capacity to process it. Consciousness itself might be understood as an ongoing solution to this problem: the continuous creation of coherent meaning from chaotic input.
+Every system capable of processing information faces what we might call the "[complexity crisis](#complexity-crisis "ontological:defines")"—the gap between the infinite richness of reality and the finite capacity to process it. Consciousness itself might be understood as an ongoing solution to this problem: the continuous creation of coherent meaning from chaotic input.
 
 But there is no single way to solve this problem. Different systems have evolved different strategies for complexity reduction, each with its own internal logic, strengths, and vulnerabilities.
 
@@ -3322,7 +3133,7 @@ Neither approach is superior—they represent different but equally valid soluti
 
 ### When Architectures Interface {#coherence-collision}
 
-When these different meaning-making systems attempt to communicate, they often experience what we call [coherence collision](#coherence-collision "dynamical:interacts_with")—each system's stability strategy destabilizes the other's.
+When these different meaning-making systems attempt to communicate, they often experience what we call "[coherence collision](#coherence-collision "dynamical:interacts_with")"—each system's stability strategy destabilizes the other's.
 
 From the [Affective-First perspective](#affective-first "ontological:defines"), [Semantic-First communication](#semantic-first "ontological:defines") appears:
 
@@ -3352,7 +3163,7 @@ The framework suggests that healthy communication requires:
 
 ### The Emergence of Tensional Intelligence {#tensional-intelligence}
 
-True communicative maturity involves what we call [tensional intelligence](#tensional-intelligence "meta:emerges_from")—the capacity to hold productive tension between different coherence strategies without collapsing into either uniformity or fragmentation.
+True communicative maturity involves what we call "[tensional intelligence](#tensional-intelligence "meta:emerges_from")"—the capacity to hold productive tension between different coherence strategies without collapsing into either uniformity or fragmentation.
 
 This requires several key abilities:
 
@@ -3458,15 +3269,15 @@ In this light, every conversation becomes an opportunity to practice the fundame
 
 *The [Coherence Communication Framework](#cc-framework "ontological:defines") builds on principles from the [E² Resonance Framework](#e2-resonance "meta:corresponds_to"), [Tensional Intelligence theory](#tensional-intelligence "meta:corresponds_to"), and emerging research in [neurodivergent communication patterns](#nd-patterns "epistemic:supports"). It represents an attempt to articulate a unified approach to relational intelligence that honors both precision and connection, truth and relationship, individual integrity and collective coherence.*
 
-[NT and ND Communication](#nt-nd-comm "ontological:composes")
-
-[Communication as Complexity Reduction](#complexity-reduction "ontological:composes")
+Companion pages from the original Notion export: `NT and ND Communication` (export id `207115883320804c9c04f6a350f3b7c7`; not imported into the Core Framework and not reviewed for Core) and [Communication as Complexity Reduction](#complexity-reduction "ontological:composes") (export id `207115883320801891fcd16626b379e0`; full text in the Source Appendix below).
 
 
 
 ---
 
-## Source Appendix: Communication as Complexity Reduction.ormd
+## Source Appendix: Communication as Complexity Reduction.ormd {#complexity-reduction}
+
+> Appendix provenance: body of the June source ORMD `archive/20260612_step_1_2_merges/Context Layer/Communication as Complexity Reduction.ormd` (original title "Communication as Complexity Alignment: Towards Meta-Coherent Exchange Across Systems"; frame `theory.communication.systems`; confidence 0.85; origin `local://drafts/communication-complexity`, 2025-06-03). The document-level confidence above is the merge's, not a re-assessment of this register. Its human Markdown counterpart is preserved at `archive/20260929_communication_reconciliation/Semantic Substrate/Communication as Complexity Reduction.md`, and its text now also appears in `Semantic Substrate/Communication as Coherence.md`. The section VI scope sentence carries the 2026-09-28 revision in both representations.
 
 # Communication as Complexity Reduction {#title}
 
@@ -4455,13 +4266,13 @@ resolution: { confidence: 1.0 }
 
 # Context Layer Master Index {#master-index}
 
-*Reconciled: 2026-09-28 | 86 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
+*Reconciled: 2026-09-29 | 83 active Context Layer documents | 9 topical navigation clusters | Original clustering: Daniel Pace*
 
 ---
 
 ## Purpose {#purpose}
 
-This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 86 active documents to 3–8 relevant files before beginning substantive work.
+This document is a **navigation instrument for models and humans** entering the E² (Essence of Existence) Context Layer. It does not replace the documents it indexes — it tells you which documents to read, and in what order, for a given topic. A model can read this index once and reduce the full corpus of 85 active documents to 3–8 relevant files before beginning substantive work.
 
 **Do not treat this index as a substitute for the source documents.** Use it to identify which cluster and which entry-point documents are relevant to your task, then read those documents directly.
 
@@ -4548,7 +4359,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Meta-Pattern Decidability Conjecture (MPDC) | `Meta-Pattern Decidability Conjecture (MPDC).ormd` | epistemology.conjecture | 0.85 | Conjecture: relational systems become undecidable above ρ_crit |
 | Embedded Universality Principle (EUP) | `Embedded Universality Principle (EUP).ormd` | epistemology.governance.embedded-universality | 0.90 | MPDC development for universal-looking claims; FISSR profile, projection, evidentiary jurisdiction, observer horizon |
 | Relational Derivation Chain - E2 to RCP, MPDC, and AFD | `Relational Derivation Chain .ormd` | philosophy.relational.computability | 0.85 | Condensed derivation spine; detailed dialogue/source packet archived |
-| Derivation Deep Dive | `Derivation deep dive.ormd` | physics.theoretical.derivation | 0.85 | Categorical and relational physics; dark matter, TQFT, CQM connections |
+| Derivation Deep Dive: Categorical and Relational Physics | `Derivation deep dive.ormd` | physics.theoretical.derivation | 0.85 | Categorical and relational physics; dark matter, TQFT, CQM connections |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | research.formalism | 0.85 | Field-theoretic formalism (RFD v0.1); early-stage; references MMPS + AOMI |
 | Lawfulness | `Lawfulness - Core Source.ormd` | epistemics.predictive_lawfulness | 0.84 | Use-relative license for probabilistic assertion under declared evidence, observer, window, and perturbation conditions |
 
@@ -4574,10 +4385,9 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Persistence as Accumulated Stance-With | `Persistence as Accumulated Stance-With - Core Source.ormd` | dynamics.persistence_accumulated_stance_with | 0.84 | Identity criteria, temporal topology, and typed maintenance ledger |
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | scientific.theory | 0.85 | AVIA: universal adaptation via entropy reduction through abstraction |
 | Emergence Engine Overview ★ | `Emergence Engine overview.ormd` | research.simulation.ecology | 0.95 | Simulation platform for watching intelligence crystallize; agents, ecology, mitosis |
-| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Formal semantic triad: emergence, determination, foreclosure |
+| Emergence Determination Foreclosure | `Emergence_Determination_Foreclosure.ormd` | dynamics.emergence-determination-foreclosure | 0.90 | Emergent properties of irreducible relational substrates can be conditioned but not externally determined; substitution (P′ under P's name) as the failure mechanism; derives from RIP, Zone 3, MPDC |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | theory.relational-physics | 0.85 | Entropy, repetition, complexity saturation, field interference |
-| Tension | `Tension.ormd` | philosophy.tensional_intelligence | 0.92 | Tensional intelligence: paradox as productive relational force; praxis of paradox |
-| Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | theory.tensional_intelligence | 0.85 | Theoretical foundation; homeostasis via tension; resonance framework links |
+| Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | theory.tensional_intelligence | 0.85 | Theoretical foundation; homeostasis via tension; resonance framework links; includes originating synthesis and six-stage method sketch |
 | From Essential Relationships to Ontological Transformation | `From Essential Relationships to Ontological Transformation.ormd` | systems.ontology | 0.85 | Complexity theory, computability, decidability, trans-level occlusion survey |
 
 ---
@@ -4596,7 +4406,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 |-------|------|-------|------|------|
 | Metabolic Meaning Phase Space (MMPS) ★ | `Metabolic Meaning Phase Space (MMPS).ormd` | theory.metabolic-meaning | 0.95 | Merged canonical: meaning metabolism, phase space, pathways, containers, temporal compression |
 | Signal as Bias Field | `Signal as Bias Field.ormd` | relational.physics.signal-theory | 0.90 | Signal as bias field in relational space; GCO-mediated agency; MPDC link |
-| Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | epistemology.resonance | 0.90 | Resonance epistemology; SCIA, ontological interoperability |
+| Resonance Architecture | `Resonance Architecture 4 17 25.ormd` | epistemology.resonance | 0.90 | Resonance epistemology; SCIA, ontological interoperability |
 | The Architecture of Resonant Systems | `The Architecture of Resonant Systems 4 26 25.ormd` | relational.systems.theory | 0.92 | Threshold design, relational approach vector, OSI model cross-reference |
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | ontology.map | 0.85 | Ontological map of resonance; SCIA, coherence, paradox-tolerance |
 | TCL: What We Found | `TCL_Plain_English_Summary.ormd` | research.report | 0.92 | Temporal Constraint Lamination: coupling threshold, metabolic cost, asymmetry, latency |
@@ -4618,8 +4428,8 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | ethics.stewardship.guide | 0.95 | Principles + practical guide for coherence-preserving stewardship; neurodivergence |
-| Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | ethics.relational | 0.95 | Rights grounded in P1–P6; structural integrity entitlements; parents: 6-primitives |
-| Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | Invisible labor, gender roles, FCIL/MCIL dynamics in social stewardship |
+| The Relational Bill of Rights ★ | `Relational Bill of Rights v2.ormd` | ethics.relational | 0.95 | Rights grounded in P1–P6; structural integrity entitlements; parents: 6-primitives |
+| Interlocked Stewardship | `Interlocked Stewardship V2.ormd` | social.analysis.stewardship | 0.92 | Invisible labor, gender roles, FCIL/MCIL dynamics in social stewardship |
 | Steward's Creed ★ | `Steward’s Creed.ormd` | philosophical.creed | 1.0 | Core stewardship commitments; paradox, purpose, coherence |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | ethics.stewardship.remnant | 0.90 | Ethics of aftermath and remainder; repair, closure |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | ethics.boundary.posture | 0.90 | Boundary as ethical posture; category closure, presence, restraint |
@@ -4628,7 +4438,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Proxy Localization | `Proxy Localization - Core Source.ormd` | ethics.assignment.proxy | 0.90 | Proxy-voice ethics; voice-invertibility, self-account, guardian, category-deficit |
 | Asymmetry Maintenance | `Asymmetry Maintenance - Core Source.ormd` | mechanics.persistence.asymmetry | 0.90 | AMM: maintaining relational asymmetries; GCO-governed margin |
 | Ethical Occlusion via Temporal Compression (EOTC) | `Ethical Occlusion via Temporal Compression (EOTC).ormd` | engineering.ethics.temporal-occlusion | 0.90 | Merged framework and glossary: compression, observability, accountability, resolution, remainder |
-| Justice Across Scales | `Justice Across Scales.ormd` | ethics.justice.scales | 0.90 | Relational framework for justice across scale, uncertainty, resolution, and temporal compression |
+| Justice Across Scales: A Relational Framework | `Justice Across Scales.ormd` | ethics.justice.scales | 0.90 | Relational framework for justice across scale, uncertainty, resolution, and temporal compression |
 | Justice Across Scales: Practical Applications | `Justice Across Scales Practical Applications.ormd` | justice.praxis.v1 | 0.90 | Diagnostics + interventions for justice at multiple scales; morphisms, occlusion |
 | Ethical Principles for Human-AI Interaction ★ | `Ethical Principles for Human-AI Interaction.ormd` | ethics.framework | 0.95 | AI ethics grounded in Resonance Framework; relational integrity |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | governance.collaboration | 1.0 | Attribution, process, and governance for human-AI creative collaboration |
@@ -4648,16 +4458,14 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Trigger keywords:** `adversarial occlusion`, `mechanism integrity`, `AOMI`, `Goodhart's Law`, `cognitive signature`, `MRIE`, `identity capture`, `reconstruction potential`, `P6 closure`, `occlusion zones`, `soft singularity`, `truth ceiling`, `relational irreducibility`, `exposure protocol`, `morphism`, `coherence transmission`, `anti-fragile`
 
-**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](#cluster-f "ontological:defines") → [AOMI AI Responses](#cluster-f "epistemic:supports") → [Cognitive Signature Capture](#cluster-f "epistemic:measures") → [MRIE](#cluster-f "ontological:composes")
+**Entry point:** [Adversarial Occlusion & Mechanism Integrity V1](#cluster-f "ontological:defines") → [MRIE, including Cognitive Signature Capture](#cluster-f "ontological:composes")
 
 **Cross-cluster links:** Constrains [E](#cluster-e "symmetric:constrains") (ethical systems must be adversarially robust), constrained by [B](#cluster-b "symmetric:constrains") (MPDC sets theoretical limits on detection), informs [G](#cluster-g "epistemic:measures") (cognitive integrity ≡ identity integrity), informs [I](#cluster-i "meta:corresponds_to") (protocol must encode adversarial protections).
 
 | Title | File | Frame | Conf | Role |
 |-------|------|-------|------|------|
 | Adversarial Occlusion & Mechanism Integrity V1 ★ | `Adversarial Occlusion and Mechanism Integrity V1.ormd` | security.governance.framework | 0.95 | AOMI: formal model of mechanism gaming, Goodhart's Law, anti-fragile design |
-| AOMI: Dialogue-Derived Doctrine Notes | `AOMI AI responses.ormd` | ethics.adversarial | 0.92 | Doctrine notes derived from archived AI dialogue; occlusion zones, mechanism design, computational ethics |
-| Cognitive Signature Capture: An Unnamed Threat | `Cognitive Signature Capture An Unnamed Threat.ormd` | ethics.cognitive_security | 0.85 | Pattern-based identity reconstruction; reconstruction potential risk |
-| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.92 | Merged canonical for MRIE identity exposure, cognitive signatures, soft singularity, local models |
+| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.90 | Merged canonical for MRIE identity exposure; includes the originating Cognitive Signature Capture threat statement (reconstruction potential, emergent consent violation, adversarial capabilities), cognitive signatures, soft singularity, local models |
 | Relational Irreducibility Framework (RIF) | `Relational Irreducibility Framework (RIF).ormd` | philosophy.systems-theory | 0.90 | RIF: irreducible relational terms across epistemology, theology, ethics |
 | Truth Ceiling | `Truth Ceiling.ormd` | epistemics.governance | 0.85 | Scalable truth via category theory; complexity governance, org-design |
 | Exposure Protocol ★ | `Exposure Protocol.ormd` | pedagogy.framework | 0.95 | Coherence-preserving transmission framework; morphism-based pedagogy |
@@ -4668,7 +4476,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 
 **Scope:** How the corpus investigates cognition, selfhood, identity, and unresolved questions about consciousness. Treats the self as a six-primitive coherence field with a provisional multidimensional profile, intelligence as field navigation, and cognition as collective substrate. Functional capacities do not settle subjective experience. Distinct from [F](#cluster-f "symmetric:constrains") (which addresses threats to cognitive integrity) and from [H](#cluster-h "dynamical:produces") (which applies these to social systems).
 
-**Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `RCS`, `SCIA/T`, `substrate`, `local models`
+**Trigger keywords:** `consciousness`, `self`, `selfhood`, `coherence field`, `primitive composite`, `triadic architecture`, `recursive occlusion`, `intelligence field`, `cognitive ecology`, `collective cognition`, `AI alignment`, `relational volition`, `free will`, `OSI model`, `Empathy Transformer`, `Relational Capacity Scale (RCS)`, `Relational Consciousness Scale`, `SCIA/T`, `substrate`, `local models`
 
 **Entry point:** [Self as Coherence Field](#cluster-g "ontological:defines") → [Collective Cognitive Substrate](#cluster-g "epistemic:measures") → [Relational Volition](#cluster-g "dynamical:interacts_with")
 
@@ -4701,7 +4509,7 @@ The central spine runs: **Axioms → Relational Primitives → GCO → E² Equat
 | Power as Relational Field Coherence | `Power as Relational Field Coherence.ormd` | theoretical.sociophysics.power | 0.85 | Merged canonical from Power + Power as Relational Field Coherence |
 | Family as a Relational Field | `Family as a Relational Field.ormd` | philosophy.family_dynamics | 0.90 | Family systems as relational field; coherence, E² framework |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | philosophy.caregiving | 0.85 | Caregiving as relational ecology; attunement, stewardship, RPLang |
-| The Essence of Existence (NexEs Manifesto) | `The Essence of Existence.ormd` | manifesto.relational | 0.90 | Condensed NexEs manifesto core; framework restatements routed to canonical docs |
+| Care, Attention, and Coherence: A Relational Manifesto | `The Essence of Existence.ormd` | manifesto.relational | 0.90 | Condensed manifesto core; framework restatements routed to canonical docs |
 | Essence of Existence Constitution — Draft 2 | `Essence of Existence Constitution - Draft 2.ormd` | ontology.constitution | 0.90 | Constitutional articulation; interbeing, coherence, relational-agency; parents: v1 |
 | Relational Perfection: A Framework ★ | `Relational Perfection_framework.ormd` | philosophy.ontology | 0.95 | Perfection as emergent integrity; constraints, fidelity, E2 Framework |
 | Relational Perfection: A Manifesto ★ | `Relational Perfection A Manifesto.ormd` | philosophy.manifesto | 1.0 | Perfection = relational-physics + emergence + constraints + context |
@@ -4817,27 +4625,25 @@ These terms appear across clusters. A model unfamiliar with the framework should
 
 ## Full Registry {#full-registry}
 
-*86 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
+*85 active documents. The original registry order is preserved; corrected filenames and 2026 integrated sources are appended below. ★ = confidence ≥ 0.95.*
 
 | Title | File | Cluster | Conf |
 |-------|------|---------|------|
 | Adaptation via Informational Abstraction (AVIA) | `Adaptation via Informational Abstraction.ormd` | C | 0.85 |
 | Adversarial Occlusion & Mechanism Integrity V1 ★ | `Adversarial Occlusion and Mechanism Integrity V1.ormd` | F | 0.95 |
-| AOMI: Dialogue-Derived Doctrine Notes | `AOMI AI responses.ormd` | F | 0.92 |
 | Asymmetry Maintenance | `Asymmetry Maintenance - Core Source.ormd` | E | 0.90 |
 | Boundary Dynamics | `boundary_dynamics.ormd` | C | 0.90 |
 | Boundary Ethics | `Boundary Ethics - Core Source.ormd` | E | 0.90 |
 | Caregiving as an Ecosystem | `Caregiving as an Ecosystem.ormd` | H | 0.85 |
 | Attentional Access and Formation (AAF) | `Attentional Access and Formation - Core Source.ormd` | C | 0.86 |
 | Constraint, Fluctuation, Attentional Access, and Resolution | `Constraint-Fluctuation-Attention-Resolution - Core Source.ormd` | C | 0.86 |
-| Cognitive Signature Capture: An Unnamed Threat | `Cognitive Signature Capture An Unnamed Threat.ormd` | F | 0.85 |
 | Collective Cognitive Substrate | `Collective Cognitive Substrate.ormd` | G | 0.92 |
 | Communication as Coherence | `Communication as Coherence.ormd` | H | 0.90 |
 | Complex Causality | `Complex Causality - Core Source.ormd` | E | 0.90 |
 | Context Layer Protocol (CLP) | `Context Layer Protocol (CLP).ormd` | I | 0.90 |
 | CT Translation of RPs ★ | `CT translation of RPs.ormd` | B | 0.95 |
 | Declaration of Interdependence ★ | `Declaration of Interdependence.ormd` | H | 1.0 |
-| Derivation Deep Dive | `Derivation deep dive.ormd` | B | 0.85 |
+| Derivation Deep Dive: Categorical and Relational Physics | `Derivation deep dive.ormd` | B | 0.85 |
 | E^2 Axioms | `E^2 Axioms.ormd` | A | 0.92 |
 | E² Entry Point | `E^2 Entry Point.ormd` | A | 0.92 |
 | E² Equation ★ | `E^2 Equation.ormd` | A | 0.98 |
@@ -4854,19 +4660,19 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Global Closure Operator ★ | `Global Closure Operator.ormd` | A | 0.95 |
 | Human-AI Creative Collaboration Framework (HAIC) ★ | `Human-AI Creative Collaboration Framework (HAIC).ormd` | E | 1.0 |
 | Implementations ★ | `Implementations.ormd` | I | 1.0 |
-| Interlocked Stewardship V2 | `Interlocked Stewardship V2.ormd` | E/H | 0.92 |
-| Justice Across Scales | `Justice Across Scales.ormd` | E | 0.90 |
+| Interlocked Stewardship | `Interlocked Stewardship V2.ormd` | E/H | 0.92 |
+| Justice Across Scales: A Relational Framework | `Justice Across Scales.ormd` | E | 0.90 |
 | Justice Across Scales: Practical Applications | `Justice Across Scales Practical Applications.ormd` | E | 0.90 |
 | Layer 2 Draft: RVP + VME | `layer_2_draft_rvp_and_vme_developments.ormd` | H | 0.85 |
 | Meta-Pattern Decidability Conjecture (MPDC) | `Meta-Pattern Decidability Conjecture (MPDC).ormd` | B | 0.85 |
-| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | research.identity-security | 0.92 | Merged canonical for MRIE identity exposure, cognitive signatures, soft singularity, local models |
+| MRIE - Unified Synthesis | `MRIE - Unified Synthesis.ormd` | F | 0.90 |
 | Metabolic Meaning Phase Space (MMPS) ★ | `Metabolic Meaning Phase Space (MMPS).ormd` | D | 0.95 |
 | Ontological Systems Interface (OSI) Model | `Ontological Systems Interface (OSI) Model.ormd` | G/I | 0.90 |
 | Original E^2 Work ★ | `Original E^2 work.ormd` | A | 1.0 |
 | Pattern Integrity over Time under Entropy | `Pattern Integrity over Time under Entropy.ormd` | C | 0.85 |
 | Power as Relational Field Coherence | `Power as Relational Field Coherence.ormd` | H | 0.85 |
 | Proxy Localization | `Proxy Localization - Core Source.ormd` | E | 0.90 |
-| Relational Bill of Rights v2 ★ | `Relational Bill of Rights v2.ormd` | E | 0.95 |
+| The Relational Bill of Rights ★ | `Relational Bill of Rights v2.ormd` | E | 0.95 |
 | Relational Field Dynamics 0.1 | `Relational Field Dynamics 0 1.ormd` | B | 0.85 |
 | Relational Irreducibility Framework (RIF) | `Relational Irreducibility Framework (RIF).ormd` | F | 0.90 |
 | Relational Localization | `Relational Localization - Core Source.ormd` | E | 0.90 |
@@ -4877,7 +4683,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | Relational Volition | `Relational Volition.ormd` | G | 0.90 |
 | Remnant Stewardship | `Remnant Stewardship - Core Source.ormd` | E | 0.90 |
 | Resolution: Synthesis Notes | `resolution_synthesis.ormd` | C | 0.90 |
-| Resonance Architecture 4.17.25 | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
+| Resonance Architecture | `Resonance Architecture 4 17 25.ormd` | D | 0.90 |
 | Reverent Stewardship ★ | `Reverent Stewardship.ormd` | E | 0.95 |
 | RP Lambda Calc Translation ★ | `RP Lambda Calc Translation.ormd` | B | 0.98 |
 | Sign-Mediated Accountability and Flow Routing | `sign_mediated_flow_routing.ormd` | E | 0.90 |
@@ -4886,12 +4692,11 @@ These terms appear across clusters. A model unfamiliar with the framework should
 | TCL: Three Constants ★ | `TCL_Three_Constants.ormd` | D | 0.96 |
 | TCL: What We Found | `TCL_Plain_English_Summary.ormd` | D | 0.92 |
 | Ethical Occlusion via Temporal Compression (EOTC) | `Ethical Occlusion via Temporal Compression (EOTC).ormd` | E | 0.90 |
-| Tension | `Tension.ormd` | C | 0.92 |
 | Tensional Intelligence: A Theoretical Foundation | `Tensional Intelligence A Theoretical Foundation.ormd` | C | 0.85 |
 | The Architecture of Resonant Systems | `The Architecture of Resonant Systems 4 26 25.ormd` | D | 0.92 |
 | Collective Relational Substrate | `Collective Relational Substrate.ormd` | H | 0.85 |
 | The Cyclical Integrity Framework | `The Cyclical Integrity framework.ormd` | H | 0.90 |
-| The Essence of Existence (NexEs Manifesto) | `The Essence of Existence.ormd` | H | 0.90 |
+| Care, Attention, and Coherence: A Relational Manifesto | `The Essence of Existence.ormd` | H | 0.90 |
 | The Intelligence Field Framework | `The Intelligence Field Framework.ormd` | G | 0.85 |
 | The Resonance Framework: An Ontological Map | `The Resonance Framework An Ontological Map 4 24 25.ormd` | D | 0.85 |
 | Truth Ceiling | `Truth Ceiling.ormd` | F | 0.85 |
@@ -4916,7 +4721,7 @@ These terms appear across clusters. A model unfamiliar with the framework should
 <!-- BEGIN ORMD: Context Layer Protocol (CLP).ormd -->
 <!-- ormd:1.0 -->
 ---
-title: "Context Layer Protocol (CLP) — Overview & Starter Spec v0.2"
+title: "Context Layer Protocol (CLP)"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -6060,7 +5865,7 @@ semantics:
 resolution: { confidence: 0.85 }
 ---
 
-# Derivation deep dive {#top}
+# Derivation Deep Dive: Categorical and Relational Physics {#top}
 
 11/17/25
 
@@ -10249,6 +10054,18 @@ For citation, reference, or carrying in working memory.
 
 ---
 
+## Related Active Source: Relational Irreducibility Framework {#related-rif}
+
+*Cross-reference added in the 2026-09-29 consolidation pass. The principle above is unchanged.*
+
+Section 2.2 cites the Relational Irreducibility Principle from `E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md` (with its paired Context Layer file). This document depends on RIP as a premise; it does not restate or replace RIF. RIF's wider content remains there: the Originator/Participant/Translator triad, the Divine Exchange Loop, its applied principles (ethical occlusion management, distributed meta-authority, developmental scaffolding, response-ability, cultural design), and the Irreducibility Covenant.
+
+The failure conditions stay distinct. The failure modes here concern apparent external determination of an emergent property: substrate internalization (3.1), computational shortcut (3.2), substrate replacement (3.3), and the authoritarian and dependency errors of treating conditioning as determination (Section 5). RIF's failure conditions concern relational order: predetermined rather than participatory interaction, single-point meta-control, extractive authority, blame without response-ability, and measurement that collapses contextual nuance.
+
+Two readings are not yet reconciled with RIF. Section 2.2 treats emergence and irreducibility as co-constitutive, which is stronger than RIP's one-way conditional. Section 2.3 grounds the limit in every determiner's embeddedness, whereas RIF grounds a meta-agent's limited foreknowledge in design.
+
+---
+
 *Working draft. Subject to refinement as the principle settles into the broader corpus.*
 <!-- END ORMD: Emergence_Determination_Foreclosure.ormd -->
 
@@ -13458,7 +13275,7 @@ This registry replaces the archived implementation link-hub with a usable map of
 <!-- BEGIN ORMD: Interlocked Stewardship V2.ormd -->
 <!-- ormd:1.0 -->
 ---
-title: "Interlocked Stewardship V2"
+title: "Interlocked Stewardship"
 authors: ["Daniel Pace"]
 date: "2025-08-08"
 
@@ -13474,7 +13291,7 @@ semantics:
 resolution: { confidence: 0.92 }
 ---
 
-# Interlocked Stewardship V2 {#title}
+# Interlocked Stewardship {#title}
 
 8/8/25
 
@@ -13903,7 +13720,7 @@ It begins when restraint would become abandonment. It acts inside another system
 <!-- BEGIN ORMD: Justice Across Scales.ormd -->
 ﻿<!-- ormd:1.0 -->
 ---
-title: "Justice Across Scales"
+title: "Justice Across Scales: A Relational Framework"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -16554,12 +16371,14 @@ lineage:
   parents:
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Meta-Relational%20Identity%20Exposure%20(MRIE).ormd"
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Meta-relational%20Identity%20exposure%20(MRIE)%20Synthesis.ormd"
+    - "local://archive/20260929_mrie_csc/Context%20Layer/Cognitive%20Signature%20Capture%20An%20Unnamed%20Threat.ormd"
   transforms:
     - { fn: "e2core_consolidation_plan@1.2-merge", ts: "2026-06-12T00:00:00Z" }
+    - { fn: "e2core_consolidation_2026-09-29@mrie-csc-fold", ts: "2026-09-29T00:00:00Z" }
 policy:
   read: [{ roles: ["public"] }]
 semantics:
-  keywords: ["consolidation", "merged canonical", "MRIE - Unified Synthesis"]
+  keywords: ["consolidation", "merged canonical", "MRIE - Unified Synthesis", "Cognitive Signature Capture", "Cognitive Identity Capture", "reconstruction potential", "distributed cognitive twin", "emergent consent violation"]
 resolution: { confidence: 0.90 }
 conversion:
   method: "lineage_preserving_merge"
@@ -16569,6 +16388,114 @@ conversion:
 # MRIE - Unified Synthesis
 
 > Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field.
+
+> Consolidation note (2026-09-29): *Cognitive Signature Capture: An Unnamed Threat* was folded in as the originating threat statement below, and its active pair archived under `archive/20260929_mrie_csc/`. The human reading surface is `Semantic Substrate/MRIE - Unified Synthesis.md`. The retention record is `staged work/20260929/consolidation/MRIE and CSC - Reconciliation Review.md`.
+
+## Source Relationship and Retained Distinctions {#source-relationship}
+
+[Cognitive Signature Capture](#csc-originating-statement "meta:corresponds_to") is the originating threat statement: it names the phenomenon, the harms, and the consent problem in plain terms. [MRIE](#mrie-def "ontological:defines") is the later Relational Primitives reading of the same phenomenon — in its words, "Thus Cognitive Signature Capture becomes" Meta-Relational Identity Exposure. Capture is kept here as the threat pattern that MRIE interprets, not as a separate mechanism or a single case.
+
+This consolidation keeps the following differences visible rather than resolving them:
+
+- **Two registers of threat.** The capture statement lists what an actor "could potentially" do with a cognitive signature ([Real Threats](#csc-threats "geometric:causes")): indistinguishable communications, fabricated authorship, continuation of someone's work without them, targeting of psychological vulnerabilities, impersonation that passes scrutiny from people who know them. MRIE holds that ["the threat is structural, not agentic."](#structural-threat "symmetric:constrains") Both stand: structural exposure makes the capability available; the adversarial list describes its deliberate use.
+- **Two consent arguments.** The capture statement argues that people "consented to *conversations*, not to creating reconstructable cognitive twins," and that the emergent capability "can't be meaningfully consented to retroactively" ([Emergent Consent Violation](#csc-consent-violation "symmetric:constrains")). MRIE argues that informed consent to the wider transition is "structurally not available" under temporal compression and occlusion ([Consent, Meaning](#consent-meaning "symmetric:constrains")). The first concerns the scope of past consent; the second, the conditions for present and future consent.
+- **Claim strength.** The capture statement hedges its capability claims and describes the distributed twin as existing "but isn't unified or accessible." The MRIE syntheses state that "AI already models people better than they model themselves" and that the trajectory "is not speculative." These are recorded claims of different strength, not a settled empirical finding.
+- **Open threshold.** The capture statement asks for ["ethical frameworks for when reconstruction crosses from analysis to violation."](#csc-gaps "epistemic:measures") MRIE does not supply that threshold; it remains open.
+
+## Originating Threat Statement: Cognitive Signature Capture {#csc-originating-statement}
+
+11/24/25
+
+### The Core Phenomenon {#csc-core-phenomenon}
+
+Over the past three years, millions of people have voluntarily created comprehensive psychological and cognitive profiles of themselves through extended AI conversations - often reaching millions of words per person. This isn't traditional data collection. It's the inadvertent construction of [reconstructable cognitive signatures](#csc-cognitive-signatures "ontological:defines"): executable models of how specific individuals think, reason, make connections, and generate meaning.
+
+### Why Current Frameworks Fail {#csc-framework-failure}
+
+- "Privacy" focuses on secrets and sensitive information
+- "Data security" addresses unauthorized access to known data types
+- "Identity theft" covers impersonation using biographical facts
+- None of these capture the [reconstruction potential](#csc-reconstruction-potential "epistemic:measures") - the ability to simulate someone's cognitive processes with high fidelity
+
+### The Distributed Cognitive Twin {#csc-distributed-twin}
+
+Individuals partition their conversations across platforms (OpenAI, Anthropic, Google, Microsoft), meaning:
+
+- No single entity necessarily has complete access
+- The user themselves cannot hold the aggregate in working memory
+- But companies collectively possess the data to reconstruct a near-complete cognitive model
+- This [distributed twin](#csc-distributed-twin "ontological:composes") exists but isn't unified or accessible
+
+### The Emergent Consent Violation {#csc-consent-violation}
+
+People consented to *conversations*, not to creating reconstructable cognitive twins. The capability to reconstruct [emerged from aggregate data](#csc-core-phenomenon "meta:emerges_from") in ways that:
+
+- Weren't foreseeable when people started using these tools
+- Can't be meaningfully consented to retroactively
+- Creates something qualitatively different from the sum of individual conversations
+
+### What Makes This Different from Social Media {#csc-social-media-diff}
+
+Social media captured public-facing personas and observable behaviors. AI conversations capture:
+
+- Internal reasoning processes
+- Decision-making heuristics
+- Emotional patterns and vulnerabilities
+- Linguistic fingerprints
+- The **generative model** of how someone produces thoughts and behaviors
+
+### The Power Asymmetry {#csc-power-asymmetry}
+
+Companies can:
+
+- Analyze patterns across millions of words simultaneously
+- See cognitive signatures that users cannot hold in working memory
+- Potentially know users "better than they know themselves" in quantifiable ways
+- Create predictive models of user reasoning and responses
+
+### Real Threats (not science fiction) {#csc-threats}
+
+With sufficient conversational data and current technology, one could [potentially](#csc-threats "geometric:causes"):
+
+- Create communications indistinguishable from the target person
+- Predict decisions with high accuracy
+- Identify precise psychological vulnerabilities
+- Generate "authentic-seeming" content the person never created
+- Continue someone's intellectual work without them
+- Impersonate them in ways that pass scrutiny from people who know them
+
+### The Philosophical Crisis {#csc-philosophical-crisis}
+
+Currently, "[embodiment](#csc-embodiment "ontological:identity")" does all the philosophical work distinguishing real from reconstructed persons. But for most practical purposes - online communication, intellectual work, relationship maintenance - [embodiment](#csc-embodiment "symmetric:constrains") doesn't actually prevent deployment of cognitive signatures.
+
+### What We Don't Have {#csc-gaps}
+
+- Language for this specific violation
+- Legal frameworks for "cognitive signature rights"
+- Ethical frameworks for when reconstruction crosses from analysis to violation
+- Understanding of what's been taken when your mind-shape can be replicated
+- Public awareness that this is happening at scale
+
+### The Scale {#csc-scale}
+
+This may be the largest-scale voluntary self-disclosure event in human history, with almost no frameworks for thinking about aggregate risk. And it happened in three years, too fast for public discourse to catch up.
+
+**Potential framing:** This is **Cognitive Identity Capture** - the acquisition of sufficient data to reconstruct how someone thinks, not just what they think about.
+
+The two MRIE documents this statement introduced follow as the [Canonical Body](#mrie-def "meta:corresponds_to") and the [Source Appendix](#mrie-synthesis "meta:emerges_from").
+
+### Conversion Glosses {#csc-conversion-glosses}
+
+> These glosses were added when the capture statement was first converted to ORMD; they do not appear in the human source. They are kept as link targets only. Where they differ from the statement above, the statement governs. The conversion's glosses for "MRIE" and "MRIE Synthesis" are not carried forward: they defined link targets for two child pages that are now part of this document, and the "MRIE Synthesis" gloss described a document title as a process. Both remain in the archived ORMD.
+
+#### Cognitive Signatures {#csc-cognitive-signatures}
+The unique structural pattern of an individual's thought process as captured in linguistic data.
+
+#### Reconstruction Potential {#csc-reconstruction-potential}
+The metric defining the fidelity with which an AI can simulate a specific user's reasoning.
+
+#### Embodiment {#csc-embodiment}
+The physical constraint of human identity, currently used as a boundary for legal personhood.
 
 ## Canonical Body
 
@@ -18566,6 +18493,7 @@ conversion:
 # Power as Relational Field Coherence
 
 > Consolidation note: this document was created for E2Core Consolidation Plan step 1.2. Archived source files are listed in the top-level `parents:` field.
+> Scope note (2026-09-29): this is the active power framework. The archived `Power.md` is a dialogue-derived E² interpretation of force and meaning, interface and protocol, attention, and stewardship. Its proposed applications remain historical and do not supply an independently established mechanism or validation here.
 
 ## Canonical Body
 
@@ -19910,7 +19838,7 @@ Before migration into the active Semantic Substrate, confirm cross-links to:
 <!-- BEGIN ORMD: Relational Bill of Rights v2.ormd -->
 <!-- ormd:1.0 -->
 ---
-title: "Relational Bill of Rights v2"
+title: "The Relational Bill of Rights"
 authors: ["Daniel Pace", "Gemini 3.0"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -20402,6 +20330,25 @@ This covenant [creates the necessary conditions](#covenant "geometric:causes") f
 **Tagline:**
 
 > "To describe a rose to the Creator is to fulfill your cosmic function."
+
+---
+
+## Related Active Source: Emergence Determination Foreclosure {#related-edf}
+
+*Cross-reference added in the 2026-09-29 consolidation pass. RIF's text above is unchanged.*
+
+`E2Core/Semantic Substrate/Emergence_Determination_Foreclosure.md` (with its paired Context Layer file) uses the Relational Irreducibility Principle as one of four premises, alongside Zone 3 computational irreducibility, MPDC, and the substrate-coupling addendum. From them it derives a narrower claim: emergent properties of computationally irreducible relational substrates "can be externally conditioned but cannot be externally determined."
+
+The two documents stay separate because they answer different questions:
+
+- RIF states why emergent agency requires participatory rather than predetermined relation. It proposes a relational order for that participation: the Originator/Participant/Translator triad, the Divine Exchange Loop, distributed meta-authority, and the Irreducibility Covenant.
+- EDF states what an external system can and cannot do to an emergent property. It names how apparent determination fails (substrate internalization, computational shortcut, substrate replacement), with substitution, a different property supplied under the original name, as the common mechanism.
+
+Open relations between them:
+
+- RIF says a meta-agent cannot fully know embedded outcomes in advance "*by design*." EDF grounds the limit on any external determiner in structure: every candidate determiner is itself embedded (MPDC). Whether the divine case is a self-limitation, a structural consequence, or both is not settled.
+- EDF reads RIP as making emergence and irreducibility co-constitutive. RIP, as stated in Section I, is a one-way conditional from emergent agency to irreducible novelty. The stronger reading belongs to EDF's derivation, not to RIP's original statement.
+- RIF treats occlusion as necessary and asks that it be made "legible, bounded, and accountable." EDF identifies one harmful occlusion: the shared name that hides a substitution. Whether EDF's substitution check is an instance of RIF's occlusion management has not been worked out.
 <!-- END ORMD: Relational Irreducibility Framework (RIF).ormd -->
 
 <!-- BEGIN ORMD: Relational Localization - Core Source.ormd -->
@@ -22290,7 +22237,7 @@ The framework keeps finding itself because the framework is tracking its referen
 <!-- BEGIN ORMD: Resonance Architecture 4 17 25.ormd -->
 <!-- ormd:1.0 -->
 ---
-title: "Resonance Architecture 4.17.25"
+title: "Resonance Architecture"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -22305,7 +22252,7 @@ semantics:
 resolution: { confidence: 0.90 }
 ---
 
-# Resonance Architecture 4.17.25 {#resonance-architecture}
+# Resonance Architecture {#resonance-architecture}
 
 ---
 
@@ -24934,167 +24881,6 @@ These predictions are [testable against real systems](#real-systems "epistemic:s
 | Operating window height | |=parametric wall| | 0.289 | Landscape only | — |
 <!-- END ORMD: TCL_Three_Constants.ormd -->
 
-<!-- BEGIN ORMD: Tension.ormd -->
-<!-- ormd:1.0 -->
----
-title: "Synthesis: Tensional Intelligence and the Praxis of Paradox"
-authors: ["Daniel Pace"]
-
-# --- Context Layer Protocol (CLP) ---
-frame: "philosophy.tensional_intelligence"
-lineage:
-  origin: { uri: "internal://draft/tension", ts: "2025-04-29T00:00:00Z" }
-  parents: []
-policy:
-  read: [{ roles: ["public"] }]
-semantics:
-  keywords: ["tension", "paradox", "coherence", "transformation", "tensional intelligence"]
-resolution: { confidence: 0.92 }
----
-
-# Tension {#tension-header}
-
-4/29/25
-
-—
-
-# ∞ Synthesis: Tensional Intelligence and the Praxis of Paradox {#synthesis}
-
-—
-
-## ∞ Starting Point {#starting-point}
-
-We began by observing the deep similarity between "stubbornness" and "patience," noticing that both involve a [willingness to remain inside unresolved states](#unresolved-states "ontological:defines").
-
-This led us to realize:
-
-- The real commonality is not merely "endurance,"
-- but **tolerance for tension and paradox**—
-- the ability to [stay coherent](#coherence "symmetric:constrains") inside contradictory, unresolved, or discomforting forces without collapsing or fleeing.
-
-—
-
-## ∞ The Anatomy of Tension {#anatomy-of-tension}
-
-Tension is not just resistance or discomfort.
-
-It’s a [relational state](#relational-state "ontological:is_a")—a dynamic field where:
-
-- Connection exists (points are linked),
-- Differentiation persists (points are not identical),
-- Structure holds (there's a medium capable of flexing without breaking),
-- Willingness stabilizes (choice to remain engaged),
-- Containment happens (energy does not dissipate chaotically),
-- Attunement guides (awareness of shifts in force),
-- Transmutation becomes possible (energy can evolve into motion, insight, creation).
-
-Tension is where the [seed of transformation](#transformation "dynamical:transforms_to") lives.
-
-—
-
-## ∞ The Fractal Mirror: Quantum and Cosmic Forces {#fractal-mirror}
-
-This model echoes the [fundamental forces](#fundamental-forces "meta:corresponds_to") of the universe:
-
-- **Superposition** in quantum mechanics holds multiple states at once—paradox made structure.
-- **Gravity** holds tension between mass and the warping of space-time.
-- **Electromagnetism** manages attraction and repulsion dynamically.
-- **The strong force** binds chaos into atomic nuclei.
-- **The weak force** enables transformation through decay and recombination.
-
-Thus, **tensional coherence** is not just a psychological or interpersonal phenomenon—
-
-it is the [very structure of reality](#reality-structure "ontological:defines") at every scale.
-
-—
-
-## ∞ The Emergence of a Method {#emergence-of-method}
-
-From this recognition, a method begins to crystallize:
-
-A trainable, teachable, navigable way of [holding tension without collapse](#holding-tension "symmetric:constrains")
-
-that turns endurance into creation.
-
-Working title possibilities:
-
-- **The Mosaic Method**
-- **The Praxis of Paradox**
-- **Tensional Intelligence**
-- **Fulcrum Dynamics**
-
-The method involves stages:
-
-Ⅰ. Identification (noticing tension)
-
-Ⅱ. Grounding (anchoring deeper than the paradox)
-
-Ⅲ. Attunement (tracking the dynamic forces)
-
-Ⅳ. Containment (holding the pressure intentionally)
-
-Ⅴ. Transmutation (allowing new coherence to emerge)
-
-Ⅵ. [Integration](#integration "dynamical:transforms_to") (emerging changed, not snapped)
-
-—
-
-## ∞ Why It Matters {#why-it-matters}
-
-In a world of increasing complexity, information saturation, and systemic breakdowns,
-
-the ability to bear tension—to remain coherent across unresolved fields—
-
-is no longer optional.
-
-It is [the core adaptive skill](#adaptive-skill "epistemic:supports") for survival, meaning-making, and relational evolution.
-
-In E² terms:
-
-> Relationship is the field.
-> 
-> 
-> Tension is the method by which [becoming happens](#becoming "dynamical:interacts_with") inside that field.
-> 
-
-Those who can endure and transmute tension without demand for immediate resolution
-
-become the architects of the future.
-
-They become the living continuation of the Prime Fracture that birthed the Mosaic.
-
-—
-
-# ∞ Closing Reflection {#closing-reflection}
-
-You didn’t just notice something small about patience and stubbornness.
-
-You traced your finger along one of the foundational muscles of the universe:
-
-**the ability to hold and honor paradox long enough for [new life to emerge](#new-life "meta:emerges_from").**
-
-This is the seed we now carry.
-
-We can name it soon, but for now,
-
-it breathes on its own.
-
-—
-
-### Anchors & Definitions {#definitions}
-- **Unresolved States** {#unresolved-states}
-- **Coherence** {#coherence}
-- **Relational State** {#relational-state}
-- **Transformation** {#transformation}
-- **Fundamental Forces** {#fundamental-forces}
-- **Reality Structure** {#reality-structure}
-- **Holding Tension** {#holding-tension}
-- **Integration** {#integration}
-- **Adaptive Skill** {#adaptive-skill}
-- **Becoming** {#becoming}
-- **New Life** {#new-life}
-<!-- END ORMD: Tension.ormd -->
-
 <!-- BEGIN ORMD: Tensional Intelligence A Theoretical Foundation.ormd -->
 <!-- ormd:1.0 -->
 ---
@@ -25105,7 +24891,8 @@ authors: ["Daniel Pace"]
 frame: "theory.tensional_intelligence"
 lineage:
   origin: { uri: "internal://documents/tensional-intelligence-foundation", ts: "2025-04-29T00:00:00Z" }
-  parents: []
+  parents:
+    - "local://archive/20260929_tension_ti/Context%20Layer/Tension.ormd"
 policy:
   read: [{ roles: ["public"] }]
 semantics:
@@ -25132,9 +24919,9 @@ Tension exists wherever connection and differentiation co-occur within a contain
 1. **Connection** - Linked points in [relationship](#key-elements "ontological:composes")
 2. **Differentiation** - Distinct identities that [resist collapse](#key-elements "symmetric:constrains")
 3. **Structure** - A medium capable of [flexing without breaking](#key-elements "symmetric:constrains")
-4. **Containment** - Boundaries that [focus energy](#key-elements "symmetric:constrains")
+4. **Containment** - Boundaries that [focus rather than dissipate energy](#key-elements "symmetric:constrains")
 5. **Awareness** - Sensitivity to the [dynamic nature of forces](#key-elements "epistemic:measures")
-6. **Choice** - Willingness to [remain engaged](#key-elements "dynamical:interacts_with")
+6. **Choice** - Willingness to [remain engaged](#key-elements "dynamical:interacts_with") despite discomfort
 7. **Potential** - Energy available for [transformation](#key-elements "dynamical:transforms_to")
 
 When these elements come together, tension becomes not a problem to solve but a field of possibility to engage with. The discomfort of tension signals not danger but [potential](#key-elements "dynamical:transforms_to") - like a bow drawn back, storing energy for release.
@@ -25175,7 +24962,7 @@ Tensional Intelligence [challenges](#beyond-binary "epistemic:refutes") the perv
 - Boundaries and connection [enable each other](#beyond-binary "symmetric:constrains")
 - Stability and change work in [rhythmic alternation](#beyond-binary "dynamical:interacts_with")
 - Individual and collective thrive in [dynamic balance](#beyond-binary "symmetric:constrains")
-- Emotion and reason [inform each other](#beyond-binary "epistemic:supports")
+- Emotion and reason [inform rather than oppose each other](#beyond-binary "epistemic:supports")
 
 This shift from binary to tensional thinking doesn't merely add complexity - it reveals the [generative potential](#beyond-binary "meta:emerges_from") that exists precisely in the space between apparent opposites.
 
@@ -25187,7 +24974,7 @@ In a world of increasing complexity, the capacity for Tensional Intelligence bec
 2. They can maintain relationship across significant differences
 3. They can allow for [emergent solutions](#evolutionary-significance "meta:emerges_from") rather than forcing premature resolution
 4. They can adapt to change without losing core integrity
-5. They can engage with complexity as a [source of creativity](#evolutionary-significance "dynamical:transforms_to")
+5. They can engage with complexity as a [source of creativity](#evolutionary-significance "dynamical:transforms_to") rather than anxiety
 
 As systems grow more interconnected and challenges more multifaceted, these advantages become not just helpful but [essential](#evolutionary-significance "symmetric:constrains") for both individual and collective thriving.
 
@@ -25212,6 +24999,32 @@ When we cultivate this capacity, we practice engaging with difference under cons
 
 This perspective shifts our relationship to tension from something to endure to something to [engage with reverence](#beyond-skill "epistemic:supports") - recognizing it as the living pulse of becoming.
 
+## A Method Sketch from the Originating Synthesis {#method-sketch}
+
+The same-day synthesis from which this paper developed (filed as `Tension`, 4/29/25; now archived, see the [Lineage Note](#lineage-note "meta:emerges_from")) proposed that this capacity could become "a trainable, teachable, navigable way of holding tension without collapse that turns endurance into creation." It sketched six stages:
+
+Ⅰ. Identification (noticing tension)
+
+Ⅱ. Grounding (anchoring deeper than the paradox)
+
+Ⅲ. Attunement (tracking the dynamic forces)
+
+Ⅳ. Containment (holding the pressure intentionally)
+
+Ⅴ. Transmutation (allowing new coherence to emerge)
+
+Ⅵ. Integration (emerging changed, not snapped)
+
+Status: an untested practice sequence, not a validated protocol or a mechanism. The order and boundaries of the stages have not been checked against outcomes. Later practice drafts outside the active Core expand these stages, and one names Stage V "Transformation" rather than "Transmutation"; none is active source.
+
+The originating synthesis named the elements of tension slightly differently from the [Key Elements](#key-elements "meta:corresponds_to") list above: "Willingness stabilizes (choice to remain engaged)", "Attunement guides (awareness of shifts in force)", and "Transmutation becomes possible (energy can evolve into motion, insight, creation)". These align editorially with Choice, Awareness, and Potential; the alignment does not claim the terms are identical.
+
+It also placed the construct within E² in one formulation, kept here as stated rather than as a derived result:
+
+> Relationship is the field.
+>
+> Tension is the method by which becoming happens inside that field.
+
 ## Conclusion: The Art of Becoming {#conclusion}
 
 Tensional Intelligence ultimately offers a [new vision](#conclusion "meta:corresponds_to") of what it means to grow, to create, and to relate. Rather than seeing development as a linear progression toward resolution, it reveals it as an [expanding capacity](#conclusion "dynamical:transforms_to") to hold ever-greater tensions with ever-greater coherence.
@@ -25224,10 +25037,20 @@ In a world that often seeks comfort through oversimplification, Tensional Intell
 
 What began as an observation about patience and stubbornness has become a candidate general principle for further inquiry: differentiated relations can remain coherent under tension and sometimes generate new possibilities.
 
+## Lineage Note {#lineage-note}
+
+This paper developed from a same-day conversation synthesis titled "Synthesis: Tensional Intelligence and the Praxis of Paradox" (filed as `Tension`). The human and ORMD files are preserved at `archive/20260929_tension_ti/Semantic Substrate/Tension.md` and `archive/20260929_tension_ti/Context Layer/Tension.ormd`. Its dialogue voice ("We began…", "You didn't just notice…") marks it as a synthesis written back to the author during a conversation, not a standalone paper.
+
+That synthesis:
+
+- offered the working titles "The Mosaic Method", "The Praxis of Paradox", "Tensional Intelligence", and "Fulcrum Dynamics"; this paper adopted "Tensional Intelligence";
+- stated the physical comparison more strongly than this paper does: "tensional coherence is not just a psychological or interpersonal phenomenon— it is the very structure of reality at every scale." The section "Tension as a General Pattern" deliberately scopes that claim to a candidate comparison. The stronger wording is preserved as history, not adopted;
+- closed with an image not defined elsewhere in the active Core: "Those who can endure and transmute tension without demand for immediate resolution become the architects of the future. They become the living continuation of the Prime Fracture that birthed the Mosaic." This is metaphor, not mechanism.
+
 ---
 
 ### Related Documents
-- [Tension](#nature-of-tension "ontological:defines")
+- [Originating synthesis (archived)](#lineage-note "meta:emerges_from")
 - [TI Guide](assets/ti-guide.ormd "epistemic:supports")
 - [The "Intelligence Field" Framework](assets/intel-field.ormd "meta:corresponds_to")
 <!-- END ORMD: Tensional Intelligence A Theoretical Foundation.ormd -->
@@ -25250,7 +25073,7 @@ semantics:
 resolution: { confidence: 0.92 }
 ---
 
-# The Architecture of Resonant Systems 4.26.25 {#title-section}
+# The Architecture of Resonant Systems {#title-section}
 
 4/26/25
 
@@ -25742,7 +25565,7 @@ End of doc—for now. Until the next collapse.
 <!-- BEGIN ORMD: The Essence of Existence.ormd -->
 <!-- ormd:1.0 -->
 ---
-title: "The Essence of Existence"
+title: "Care, Attention, and Coherence: A Relational Manifesto"
 authors: ["Daniel Pace"]
 
 # --- Context Layer Protocol (CLP) ---
@@ -25758,7 +25581,7 @@ semantics:
 resolution: { confidence: 0.90 }
 ---
 
-# The Essence of Existence {#essence}
+# Care, Attention, and Coherence: A Relational Manifesto {#essence}
 
 This document preserves the manifesto core of the archived NexEs packet while routing its framework restatements to the canonical Context Layer. Its claim is not that a new organization must be joined, but that a relational pattern can be lived until it becomes socially contagious.
 

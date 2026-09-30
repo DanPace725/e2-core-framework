@@ -10,6 +10,7 @@ lineage:
   parents:
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/CCS.ormd"
     - "local://archive/20260612_step_1_2_merges/Context%20Layer/Collective%20Cognitive%20Substrate.ormd"
+    - "local://archive/20260929_ccs_crs/Semantic%20Substrate/CCS.md"
   transforms:
     - { fn: "e2core_consolidation_plan@1.2-merge", ts: "2026-06-12T00:00:00Z" }
 policy:
@@ -21,6 +22,7 @@ conversion:
   method: "lineage_preserving_merge"
   preserves: "primary body plus archived source lineage; secondary body appended where needed"
   note: "Created for E2Core Consolidation Plan step 1.2. Original source files archived after merge."
+  fold_note: "2026-09-29 Stage 1: archived duplicate 2026-02-19 human predecessor; active Collective Cognitive Substrate.md retains the 2026-02-23 body. The cognitive subtype fold remains under review."
 ---
 # Collective Cognitive Substrate
 

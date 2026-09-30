@@ -1,4 +1,4 @@
-# Original E^2 work
+# Original E^2 Work
 
 6/3/25
 

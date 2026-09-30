@@ -2,7 +2,7 @@
 
 4/29/25
 
-[Interlocked Stewardship ](Caregiving%20as%20an%20Ecosystem/Interlocked%20Stewardship%2024911588332080b59a16c92fbb34fc18.md)
+[Interlocked Stewardship ](/?doc=interlocked-stewardship-v2)
 
 [Interlocked Stewardship V2](/?doc=interlocked-stewardship-v2)
 

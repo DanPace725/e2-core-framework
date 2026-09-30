@@ -157,10 +157,12 @@ These are substantive merges. Each merge should produce one active successor and
 8. **Merge `Cognitive Signature Capture - An Unnamed Threat` with MRIE.**
    - Archive `Cognitive Signature Capture - An Unnamed Threat.ormd`.
    - Preserve the threat-specific material as a section or warning layer in MRIE.
+   - Status: complete in the 2026-09-29 MRIE/CSC reconciliation; see `CHANGELOG.md` and the staged review.
 
 9. **Wrap `AOMI AI responses.ormd` into AOMI.**
    - Archive `AOMI AI responses.ormd`.
    - Keep raw response material as lineage, not active doctrine.
+   - Status: complete in the 2026-09-29 AOMI responses reconciliation; see `CHANGELOG.md` and the staged review.
 
 10. **Merge Relational Consciousness Framework with recovered REMA.**
    - Status: complete in Pass 1.

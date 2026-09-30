@@ -83,10 +83,6 @@ relations:
     target: pattern-integrity-over-time-under-entropy
     type: extends
     note: Persistence develops how pattern integrity accumulates over time.
-  - source: tension
-    target: tensional-intelligence-a-theoretical-foundation
-    type: synthesizes
-    note: The synthesis translates the theoretical foundation into praxis.
   - source: the-architecture-of-resonant-systems-4-26-25
     target: resonance-architecture-4-17-25
     type: extends
@@ -139,14 +135,6 @@ relations:
     target: justice-across-scales
     type: applies
     note: The practical document applies the cross-scale justice framework.
-  - source: aomi-ai-responses
-    target: adversarial-occlusion-and-mechanism-integrity-v1
-    type: contextualizes
-    note: The dialogue notes preserve development context for AOMI.
-  - source: cognitive-signature-capture-an-unnamed-threat
-    target: mrie-unified-synthesis
-    type: raises-risk-for
-    note: Signature capture identifies a threat to identity and relational integrity.
   - source: truth-ceiling
     target: lawfulness-core-source
     type: constrains

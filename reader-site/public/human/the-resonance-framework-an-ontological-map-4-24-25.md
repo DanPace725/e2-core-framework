@@ -1,4 +1,4 @@
-# The Resonance Framework: An Ontological Map 4.24.25
+# The Resonance Framework: An Ontological Map
 
 4/24/25
 

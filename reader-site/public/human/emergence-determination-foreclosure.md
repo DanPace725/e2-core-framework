@@ -203,4 +203,16 @@ For citation, reference, or carrying in working memory.
 
 ---
 
+## Related Active Source: Relational Irreducibility Framework
+
+*Cross-reference added in the 2026-09-29 consolidation pass. The principle above is unchanged.*
+
+Section 2.2 cites the Relational Irreducibility Principle from `E2Core/Semantic Substrate/Relational Irreducibility Framework (RIF).md` (with its paired Context Layer file). This document depends on RIP as a premise; it does not restate or replace RIF. RIF's wider content remains there: the Originator/Participant/Translator triad, the Divine Exchange Loop, its applied principles (ethical occlusion management, distributed meta-authority, developmental scaffolding, response-ability, cultural design), and the Irreducibility Covenant.
+
+The failure conditions stay distinct. The failure modes here concern apparent external determination of an emergent property: substrate internalization (3.1), computational shortcut (3.2), substrate replacement (3.3), and the authoritarian and dependency errors of treating conditioning as determination (Section 5). RIF's failure conditions concern relational order: predetermined rather than participatory interaction, single-point meta-control, extractive authority, blame without response-ability, and measurement that collapses contextual nuance.
+
+Two readings are not yet reconciled with RIF. Section 2.2 treats emergence and irreducibility as co-constitutive, which is stronger than RIP's one-way conditional. Section 2.3 grounds the limit in every determiner's embeddedness, whereas RIF grounds a meta-agent's limited foreknowledge in design.
+
+---
+
 *Working draft. Subject to refinement as the principle settles into the broader corpus.*

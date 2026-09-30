@@ -1,6 +1,6 @@
-# The Essence of Existence
+# Care, Attention, and Coherence: A Relational Manifesto
 
-# The NexEs Manifesto v2.0: The Revolution You Can't Kill
+## The NexEs Manifesto v2.0: The Revolution You Can't Kill
 
 *We are the pattern that spreads by being lived.*
 

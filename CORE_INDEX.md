@@ -1,6 +1,6 @@
 # Core Framework Index
 
-Generated: `2026-09-29T00:25:42.989149+00:00`
+Generated: `2026-09-29T23:46:33.368095+00:00`
 
 Active Core root: `E2Core`
 
@@ -11,12 +11,12 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Metric | Count |
 | --- | --- |
 | Synthesized Core files | 57 |
-| Semantic Substrate files | 92 |
-| Context Layer files | 86 |
-| Active raw SS/CL files | 178 |
-| Active files total | 235 |
-| Explicit additions | 27 |
-| Archived raw files | 68 |
+| Semantic Substrate files | 84 |
+| Context Layer files | 83 |
+| Active raw SS/CL files | 167 |
+| Active files total | 224 |
+| Explicit additions | 28 |
+| Archived raw files | 82 |
 | Unregistered active raw files | 0 |
 | Missing registered paths | 0 |
 | Unresolved synthesized references | 0 |
@@ -25,9 +25,9 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Metric | Count |
 | --- | --- |
-| Exact-stem pairs | 81 |
-| Composite or alias pairs | 4 |
-| Semantic Substrate only | 5 |
+| Exact-stem pairs | 79 |
+| Composite or alias pairs | 3 |
+| Semantic Substrate only | 2 |
 | Context Layer only | 0 |
 | Context meta indexes | 1 |
 
@@ -37,14 +37,14 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | --- | --- | --- | --- | --- | --- | --- |
 | Adaptation via Informational Abstraction (AVIA) A _summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | AFD - First Principles_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
-| AOMI_synthesized.ormd | 3 | 3 | 2 | 2 | 0 | no |
+| AOMI_synthesized.ormd | 3 | 3 | 1 | 1 | 0 | no |
 | CFA_CFAR_synthesized.ormd | 3 | 3 | 0 | 0 | 0 | no |
 | coherenceengine Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
-| Collective_Cognitive_Substrate_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
-| Communication_Coherence_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
+| Collective_Cognitive_Substrate_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
+| Communication_Coherence_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
 | Constitutions_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
 | Context Layer Protocol (CLP)_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
-| CRS_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
+| CRS_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
 | Declaration of Interdependence_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Derivation deep dive_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | E2 → RCP → MPDC → AFD →_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
@@ -64,14 +64,14 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | layer_2_draft_rvp_and_vme_developments_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Meta-Pattern Decidability Conjecture (MPDC)_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Metabolic_Meaning_synthesized.ormd | 2 | 2 | 1 | 1 | 2 | no |
-| MRIE_synthesized.ormd | 3 | 3 | 3 | 2 | 0 | no |
+| MRIE_synthesized.ormd | 3 | 3 | 0 | 1 | 0 | no |
 | Neo Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Ontological Systems Interface (OSI) Model_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | ormd Repo Summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Our essence exists in the space between us_summary.ormd | 1 | 1 | 1 | 0 | 0 | no |
 | Pattern Emergence - Essential Relationship_summary.ormd | 1 | 1 | 0 | 0 | 0 | no |
 | Pattern Integrity over Time under Entropy_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
-| Power_Relational_Field_synthesized.ormd | 2 | 2 | 2 | 1 | 0 | no |
+| Power_Relational_Field_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
 | Relational Bill of Rights v2_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Relational Consciousness Framework_summary.ormd | 1 | 1 | 0 | 0 | 1 | no |
 | Relational Field Dynamics 0 1_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
@@ -90,7 +90,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Stewardship_synthesized.ormd | 3 | 3 | 3 | 3 | 0 | no |
 | TCL_synthesized.ormd | 3 | 3 | 2 | 2 | 0 | no |
 | Temporal_Compression_Ethical_Occlusion_synthesized.ormd | 3 | 3 | 1 | 1 | 2 | no |
-| Tensional_Intelligence_synthesized.ormd | 2 | 2 | 2 | 2 | 0 | no |
+| Tensional_Intelligence_synthesized.ormd | 2 | 2 | 1 | 1 | 0 | no |
 | The Cyclical Integrity framework_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | The Intelligence Field Framework_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
 | Truth Ceiling_summary.ormd | 1 | 1 | 1 | 1 | 0 | no |
@@ -126,6 +126,7 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 | Trust, Trustworthiness, and Reliance - Core Source | included | Context Layer/Trust, Trustworthiness, and Reliance - Core Source.ormd<br>Semantic Substrate/Trust, Trustworthiness, and Reliance - Core Source.md | - |
 | Embedded Universality Principle (EUP) | included_unindexed_addition | Context Layer/Embedded Universality Principle (EUP).ormd<br>Semantic Substrate/Embedded Universality Principle (EUP).md | - |
 | E² as a Translation Architecture for Human Remembrance | included_orientation | Context Layer/E² as a Translation Architecture for Human Remembrance.ormd<br>Semantic Substrate/E² as a Translation Architecture for Human Remembrance.md | - |
+| MRIE - Unified Synthesis | included_consolidation | Context Layer/MRIE - Unified Synthesis.ormd<br>Semantic Substrate/MRIE - Unified Synthesis.md | - |
 | sign_mediated_accountability | archived_into_sign_mediated_flow_routing | - | archive/20260612_pass_3b_3c_mechanism_ethics/Context Layer/sign_mediated_accountability.ormd<br>archive/20260612_pass_3b_3c_mechanism_ethics/Semantic Substrate/sign_mediated_accountability.md |
 | sign_mediated_flow_routing | included | Context Layer/sign_mediated_flow_routing.ormd<br>Semantic Substrate/sign_mediated_flow_routing.md | - |
 
@@ -133,13 +134,9 @@ Authority: active filesystem state reconciled with preserved synthesis provenanc
 
 | Key | Status | Relationship | Note |
 | --- | --- | --- | --- |
-| CCS | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | collective-relational-substrate | paired_composite_or_alias | lineage_preserving_merge | Context document declares both archived source lineages as parents. |
-| Communication as Complexity Reduction | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | Context Layer Index | context_meta_index | meta_index | Context Layer self-index; no Semantic Substrate counterpart expected. |
-| mrie-unified-synthesis | paired_composite_or_alias | lineage_preserving_merge | Context document is the explicit unified synthesis of both source lineages. |
 | Our essence exists in the space between us | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
-| Power | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | Relational Ontology Derived from First Principles | semantic_substrate_only | unpaired_active_source | No active Context Layer counterpart is registered. |
 | relational-derivation-chain | paired_composite_or_alias | renamed_conversion | Titles match; the Context filename is the active shortened filename. |
 | relational-perfection-framework | paired_composite_or_alias | renamed_conversion | Document titles match despite different active filenames. |
